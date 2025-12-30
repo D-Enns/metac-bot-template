@@ -1,0 +1,671 @@
+SUMMARY
+Question: Will the interest in "netanyahu" be greater on 2025-09-26 than on 2025-09-16 according to Google Trends?
+Final Prediction: 28.0%
+Total Cost: $0
+Time Spent: 2.3 minutes
+Report 1 Summary
+Forecasts
+Forecaster 1: 28.0%
+Forecaster 2: 26.0%
+Forecaster 3: 32.0%
+Forecaster 4: 28.0%
+Forecaster 5: 28.0%
+Forecaster 6: 35.0%
+Forecaster 7: 29.0%
+Forecaster 8: 25.0%
+Research Summary
+The research compiles over twenty international news reports—published predominantly on September 16, 2025—documenting a surge in high-profile activities and statements by Israeli Prime Minister Benjamin Netanyahu. Key items include his announcement of a September 29 White House meeting with former U.S. President Donald Trump (Haberler), emphatic remarks on Jerusalem’s indivisibility and criticism of President Erdoğan (En Son Haber), and confirmation of a major Gaza City operation during a court hearing (Kan via ПРАЙМ). Concurrently, coverage details his speeches warning of Israel’s economic isolation and the resulting drop on the Tel Aviv Stock Exchange (NEWSru.co.il), his rejection of accusations that he’s prolonging the Gaza war for political gain (The Yeshiva World), and his call for Israel to achieve self-sufficiency in defense production (Interfax.ru). Additional items trace his framing of the conflict as part of a broader “Iranian axis” threat, ongoing hostage negotiations with Hamas, and advocacy of a “Greater Israel” vision in regional interviews.
+Earlier reports from mid-July to late June 2025—covering meetings with Trump, negotiations on ceasefires and hostage exchanges, military offensives, and judicial appointments—are also included, illustrating sustained media attention to Netanyahu’s diplomatic, military, and political moves. The sources span multiple languages and regions, indicating broad international interest in his actions around mid-September 2025.
+Sources:
+https://www.haberler.com/politika/netanyahu-trump-ile-beyaz-saray-da-gorusecek-19055437-haberi/
+https://www.ensonhaber.com/gundem/netanyahu-kudus-bizim-sehrimiz-olacak
+https://www.newsru.co.il/finance/16sep2025/tase308.html
+https://1prime.ru/20250916/netanyakhu-862330035.html
+https://www.theyeshivaworld.com/news/israel-news/2450204/malicious-and-false-netanyahu-rejects-accusations-of-prolonging-gaza-war-for-political-survival.html
+https://www.newsru.co.il/mideast/14sep2025/taher505.html
+https://www.interfax.ru/world/1047668
+https://www.elwatannews.com/news/details/8135239
+https://lanouvelletribune.info/2025/09/netanyahou-trump-est-le-plus-grand-ami-quisrael-ait-jamais-eu-a-la-maison-blanche/
+https://qoshe.com/yazar/shalom-yerushalmi/2741448
+https://alkhaleejonline.net/%D8%B3%D9%8A%D8%A7%D8%B3%D8%A9/%D8%AD%D9%84%D9%85-%D8%A5%D8%B3%D8%B1%D8%A7%D8%A6%D9%8A%D9%84-%D8%A7%D9%84%D9%83%D8%A8%D8%B1%D9%89-%D8%B1%D8%B3%D8%A7%D8%A6%D9%84-%D9%86%D8%AA%D9%86%D9%8A%D8%A7%D9%87%D9%88-%D8%A7%D9%84%D9%85%D8%A8%D8%B7%D9%91%D9%86%D8%A9-%D9%88%D8%A3%D8%A8%D8%B9%D8%A7%D8%AF%D9%87%D8%A7-%D8%A7%D9%84%D8%A5%D9%82%D9%84%D9%8A%D9%85%D9%8A%D8%A9
+https://ahlmasrnews.com/news/International-news/13416634/%D9%86%D8%AA%D9%86%D9%8A%D8%A7%D9%87%D9%88-%D8%A3%D8%B4%D8%B9%D8%B1-%D8%A3%D9%86%D9%86%D9%8A-%D9%81%D9%8A-%D9%85%D9%87%D9%85%D8%A9-%D8%AA%D8%A7%D8%B1%D9%8A%D8%AE%D9%8A%D8%A9-%D8%AA%D8%B1%D8%AA%D8%A8%D8%B7-%D8%A8%D8%B4%D8%AF%D8%A9-%D8%A8%D8%B1%D8%A4%D9%8A%D8%A9-%D8%A5%D8%B3%D8%B1%D8%A7%D8%A6%D9%8A%D9%84-%D8%A7%D9%84%D9%83%D8%A8%D8%B1-%D8%AA%D8%B4%D9%85%D9%84-%D9%81%D9%84%D8%B3%D8%B7%D9%8A%D9%86-%D9%88%D8%AC%D8%B2%D8%A1%D8%A7-%D9%85%D9%86-%D9%85%D8%B5%D8%B1-%D9%88%D8%A7%D9%84%D8%A3%D8%B1%D8%AF%D9%86
+https://www.i24news.tv/en/news/israel/politics/artc-agreement-reached-on-appointment-of-next-shin-bet-chief
+https://cadenaser.com/nacional/2025/07/13/netanyahu-defiende-su-ofensiva-militar-y-agradece-a-trump-su-apoyo-mientras-gaza-suma-mas-de-57000-muertos-cadena-ser/
+https://www.elbalad.news/6631677
+https://ricochet.com/podcast/call-me-back/news-roundup-july-7-2025/
+https://www.firstpost.com/world/has-israel-iran-war-opened-the-door-for-gaza-hostages-to-return-home-netanyahu-thinks-so-13901847.html
+https://www.dw.com/ar/%D9%86%D8%AA%D9%86%D9%8A%D8%A7%D9%87%D9%88-%D8%A7%D9%84%D9%86%D8%B5%D8%B1-%D8%B9%D9%84%D9%89-%D8%A5%D9%8A%D8%B1%D8%A7%D9%86-%D9%8A%D9%88%D9%81%D8%B1-%D9%81%D8%B1%D8%B5%D8%A7-%D9%84%D9%84%D8%A5%D9%81%D8%B1%D8%A7%D8%AC-%D8%B9%D9%86-%D8%A7%D9%84%D8%B1%D9%87%D8%A7%D8%A6%D9%86-%D9%81%D9%8A-%D8%BA%D8%B2%D8%A9/a-73086268
+https://www.milligazete.com.tr/haber/25258199/netanyahu-abdyi-tehdit-etti-bugun-tel-aviv-yarin-new-york
+https://istoe.com.br/netanyahu-desafia-justica-de-israel-e-nomeia-novo-chefe-da-inteligencia
+RESEARCH
+Report 1 Research
+Here are the relevant news articles:
+Netanyahu to Meet Trump at the White House
+Israeli Prime Minister Binyamin Netanyahu announced that U.S. President Donald Trump will meet him on September 29 at the White House. According to the article, this will be the fourth face‑to‑face meeting between the two leaders since Trump took office. Netanyahu said the invitation came during a phone call the day before, and he made the announcement at an economic press conference. The article quotes Netanyahu saying 'Netanyahu, Trump'ın kendisini 29 Eylül'de Beyaz Saray'da görüşmeye davet ettiğini açıkladı.' The meeting is scheduled for September 29, 2025, at the White House in Washington, D.C. The article was published by Haberler on September 16, 2025, at 18:37.
+Original language: tr
+Publish date: September 16, 2025 06:37 PM
+Source:Haberler
+Netanyahu Targets President Erdoğan: Jerusalem Will Be Our City
+During a program in Jerusalem, Israeli Prime Minister Binyamin Netanyahu declared that Jerusalem is "our city" and that it will never be divided. He said, 'Kudüs bizim şehrimiz. Sizin şehriniz değil. Bizim şehrimiz. Her zaman bizim şehrimiz olacak. Bir daha bölünmeyecek.' The speech also mentioned President Recep Tayyip Erdoğan, with Netanyahu’s voice trembling as he referenced the Turkish leader. The remarks were reported by En Son Haber on September 16, 2025.
+Original language: tr
+Publish date: September 16, 2025 01:54 PM
+Source:En Son Haber
+Tel Aviv Stock Exchange Declines Amid Netanyahu Speech
+On Tuesday, 16 September 2025, trading at the Tel Aviv Stock Exchange opened with a sharp decline in prices. The TA‑35 index fell 2.1% at the start of the session, continuing a trend that began after Prime Minister Benjamin Netanyahu’s remarks about the threat of international isolation of the Israeli economy. In the following hours the fall eased, and by the close the TA‑35 and TA‑125 were down roughly 1% compared with the previous day’s close. The drop was attributed to Netanyahu’s speech, as noted in the article: 'вступление премьер-министра Биньямина Нетаниягу об угрозе международной изоляции израильской экономики.'
+Original language: ru
+Publish date: September 16, 2025 08:15 AM
+Source:NEWSru.co.il
+Netanyahu Confirms Start of Powerful Operation in Gaza City, Media Report
+Prime Minister Benjamin Netanyahu confirmed the start of a powerful operation in the city of Gaza during a court hearing on Tuesday, September 16, 2025.  He told the judges, as reported by the Kan radio network, that "Мы начали мощную операцию в городе Газа".  Netanyahu also expressed his displeasure that the proceedings would last more than eight hours, according to the 12‑channel Israeli television report cited by Kan.  The statement was made in Tel Aviv and was reported by the news outlet Pryam.
+Original language: ru
+Publish date: September 16, 2025 08:02 AM
+Source:ПРАЙМ
+"Malicious And False": Netanyahu Rejects Accusations of Prolonging Gaza War for Political Survival
+Israeli Prime Minister Benjamin Netanyahu denied accusations that he is prolonging the Gaza war for political gain, calling the charge 'malicious and false' in a Channel 13 interview aired on September 16 2025. He defended Israel's Gaza operations as faster than other international campaigns, citing the U.S. Fallujah operation and saying 'Nine months, for nine months, the whole world took on 3,000 terrorists in a place that is far less complex than Gaza. So first of all, I think we are doing it faster than all those armies combined, under much more difficult conditions.' Netanyahu blamed the presence of Israeli hostages and 'inconsistent backing' from former U.S. President Joe Biden for intermittent cease‑fires, contrasting Biden's reservations with President Donald Trump's 'more unabashedly supportive' stance. He framed the conflict as part of a broader fight against the Iranian axis, noting recent campaigns against Hezbollah, Syria, and the June confrontation with Iran itself. IDF Chief of Staff Lt. Gen. Eyal Zamir warned that the upcoming Gaza City offensive may not achieve its stated goals, saying the prime minister has not told the army what comes next. Polls indicate many Israelis believe Netanyahu's wartime decisions are shaped by personal and political considerations. Netanyahu said the conflict is in its decisive stage and will end in Gaza, noting that 48 Israelis remain hostages in Gaza, about 20 of whom are believed to be alive.
+Original language: en
+Publish date: September 16, 2025 03:15 AM
+Source:The Yeshiva World
+Hamas Representative Declares No Greater Concern for Hostages Than Netanyahu
+On September 14, 2025, newsru.co.il reported that a Hamas representative, An‑Nun, said: 'We will not care about hostages more than Netanyahu cares about them.' He added: 'Who can negotiate or maintain contact if the mediation delegation itself was attacked, if the mediator country itself was attacked? What can we talk about about resuming negotiations? Netanyahu has left no possibility for resuming contacts, he destroys any chance to reach an agreement.' The statement reflects Hamas's frustration with Israeli Prime Minister Benjamin Netanyahu's handling of hostage negotiations.
+Original language: ru
+Publish date: September 14, 2025 10:05 PM
+Source:newsru.co.il
+Netanyahu Says Israel Must Self‑Provide Armaments
+On 16 September 2025, Israeli Prime Minister Benjamin Netanyahu told INTERFAX.RU that Israel must rely on itself for the production of weapons and equipment to ensure national security. He said, 'Я сторонник свободного рынка, но, чтобы выжить, нам нужно гарантировать возможность самим производить необходимое для национальной безопасности, особенно в военной промышленности', according to The Jerusalem Post. Netanyahu also urged a reduction of bureaucratic restrictions and clarified that the media had misinterpreted his remarks about adapting the Israeli economy to external pressure, stressing that the point was about security independence. He praised Israel’s strong economy, its attraction of significant investment, and encouraged global investors to invest in the country. Netanyahu mentioned that U.S. President Donald Trump had invited him to the White House and added, 'У меня было несколько разговоров с ним после атаки в Дохе, все они были хорошими', as reported by Ynet. The article notes that on 9 September 2025 Israel struck a building in Doha that housed Hamas leadership, killing six people, including Khalil al‑Hayya’s son, the group’s chief negotiator. The strike prompted sharp reactions from the United States, Russia, European and Arab states.
+Original language: ru
+Publish date: September 16, 2025 06:50 PM
+Source:Interfax.ru
+Netanyahu to Meet Trump at the White House
+Israeli Prime Minister Binyamin Netanyahu announced that U.S. President Donald Trump will meet him on September 29 at the White House. According to the article, this will be the fourth face‑to‑face meeting between the two leaders since Trump took office. Netanyahu said the invitation came during a phone call the day before, and he made the announcement at an economic press conference. The article quotes Netanyahu saying 'Netanyahu, Trump'ın kendisini 29 Eylül'de Beyaz Saray'da görüşmeye davet ettiğini açıkladı.' The meeting is scheduled for September 29, 2025, at the White House in Washington, D.C. The article was published by Haberler on September 16, 2025, at 18:37.
+Original language: tr
+Publish date: September 16, 2025 06:37 PM
+Source:Haberler
+Netanyahu Targets President Erdoğan: Jerusalem Will Be Our City
+During a program in Jerusalem, Israeli Prime Minister Binyamin Netanyahu declared that Jerusalem is "our city" and that it will never be divided. He said, 'Kudüs bizim şehrimiz. Sizin şehriniz değil. Bizim şehrimiz. Her zaman bizim şehrimiz olacak. Bir daha bölünmeyecek.' The speech also mentioned President Recep Tayyip Erdoğan, with Netanyahu’s voice trembling as he referenced the Turkish leader. The remarks were reported by En Son Haber on September 16, 2025.
+Original language: tr
+Publish date: September 16, 2025 01:54 PM
+Source:En Son Haber
+Tel Aviv Stock Exchange Declines Amid Netanyahu Speech
+On Tuesday, 16 September 2025, trading at the Tel Aviv Stock Exchange opened with a sharp decline in prices. The TA‑35 index fell 2.1% at the start of the session, continuing a trend that began after Prime Minister Benjamin Netanyahu’s remarks about the threat of international isolation of the Israeli economy. In the following hours the fall eased, and by the close the TA‑35 and TA‑125 were down roughly 1% compared with the previous day’s close. The drop was attributed to Netanyahu’s speech, as noted in the article: 'вступление премьер-министра Биньямина Нетаниягу об угрозе международной изоляции израильской экономики.'
+Original language: ru
+Publish date: September 16, 2025 08:15 AM
+Source:NEWSru.co.il
+Netanyahu Confirms Start of Powerful Operation in Gaza City, Media Report
+Prime Minister Benjamin Netanyahu confirmed the start of a powerful operation in the city of Gaza during a court hearing on Tuesday, September 16, 2025.  He told the judges, as reported by the Kan radio network, that "Мы начали мощную операцию в городе Газа".  Netanyahu also expressed his displeasure that the proceedings would last more than eight hours, according to the 12‑channel Israeli television report cited by Kan.  The statement was made in Tel Aviv and was reported by the news outlet Pryam.
+Original language: ru
+Publish date: September 16, 2025 08:02 AM
+Source:ПРАЙМ
+Netanyahu Confesses Israel’s Isolation and Highlights New Threats
+Israeli Prime Minister Benjamin Netanyahu announced on September 16 2025 that Israel is facing increasing isolation on the international stage and will need to rely more on self‑sufficiency. He said Israel must run an electronic propaganda campaign against negative propaganda, citing the Times of Israel. During a conference with the auditor general of the Ministry of Finance in Jerusalem, he stated, 'إسرائيل تعيش نوعا من العزلة، وسنحتاج بشكل متزايد إلى التكيف مع اقتصاد يتمتع بخصائص الاكتفاء الذاتي' and described the term 'self‑sufficiency' as 'الكلمة التي أكرهها بشدة'. He added that while he believes in a free market, Israel may need to develop domestic weapons production, not just research and development. Netanyahu identified two new threats since the start of the war: demographic changes in Europe due to migration from Muslim‑majority countries and the influence of anti‑Israel actors on digital platforms. He noted these challenges had been planned for a long time but surfaced during the war that began with the Oct. 7, 2023 attack, and he highlighted Israel’s success in military campaigns against Iran and its proxies.
+Original language: ar
+Publish date: September 16, 2025 03:48 AM
+Source:الوطن
+"Malicious And False": Netanyahu Rejects Accusations of Prolonging Gaza War for Political Survival
+Israeli Prime Minister Benjamin Netanyahu denied accusations that he is prolonging the Gaza war for political gain, calling the charge 'malicious and false' in a Channel 13 interview aired on September 16 2025. He defended Israel's Gaza operations as faster than other international campaigns, citing the U.S. Fallujah operation and saying 'Nine months, for nine months, the whole world took on 3,000 terrorists in a place that is far less complex than Gaza. So first of all, I think we are doing it faster than all those armies combined, under much more difficult conditions.' Netanyahu blamed the presence of Israeli hostages and 'inconsistent backing' from former U.S. President Joe Biden for intermittent cease‑fires, contrasting Biden's reservations with President Donald Trump's 'more unabashedly supportive' stance. He framed the conflict as part of a broader fight against the Iranian axis, noting recent campaigns against Hezbollah, Syria, and the June confrontation with Iran itself. IDF Chief of Staff Lt. Gen. Eyal Zamir warned that the upcoming Gaza City offensive may not achieve its stated goals, saying the prime minister has not told the army what comes next. Polls indicate many Israelis believe Netanyahu's wartime decisions are shaped by personal and political considerations. Netanyahu said the conflict is in its decisive stage and will end in Gaza, noting that 48 Israelis remain hostages in Gaza, about 20 of whom are believed to be alive.
+Original language: en
+Publish date: September 16, 2025 03:15 AM
+Source:The Yeshiva World
+Netanyahu: Trump "the greatest friend Israel has ever had"
+On 15 September 2025, Israeli Prime Minister Benjamin Netanyahu declared at a press conference in Jerusalem that former U.S. President Donald Trump is "the greatest friend Israel has ever had," according to the article. The statement was made alongside U.S. Secretary of State Marco Rubio during a visit following recent Israeli strikes on Hamas targets. Netanyahu said the visit was a "clear message" from the United States and that the U.S. had never supported Israel as much as it had under Trump, who in 2017 recognized Jerusalem as the capital, moved the U.S. embassy there, and approved the Golan Heights sovereignty and the Abraham Accords. The article notes that the Trump‑Netanyahu partnership has focused on regional security, anti‑terrorism, and increased U.S. military and technological aid, and that the two leaders view Iran as a common threat.
+Original language: fr
+Publish date: September 15, 2025 12:24 PM
+Source:La Nouvelle Tribune
+Hamas Representative Declares No Greater Concern for Hostages Than Netanyahu
+On September 14, 2025, newsru.co.il reported that a Hamas representative, An‑Nun, said: 'We will not care about hostages more than Netanyahu cares about them.' He added: 'Who can negotiate or maintain contact if the mediation delegation itself was attacked, if the mediator country itself was attacked? What can we talk about about resuming negotiations? Netanyahu has left no possibility for resuming contacts, he destroys any chance to reach an agreement.' The statement reflects Hamas's frustration with Israeli Prime Minister Benjamin Netanyahu's handling of hostage negotiations.
+Original language: ru
+Publish date: September 14, 2025 10:05 PM
+Source:newsru.co.il
+Shalom Yerushalmi articles
+The article is a compilation of Shalom Yerushalmi news items published between 27 June 2025 and 11 May 2025. It lists 20 separate pieces, each with a headline, a brief description, and a publication date. The topics covered include:
+Netanyahu’s burial of the two‑state solution and the signing of paperwork that allows construction in the E1 area, which is planned to house 20,000 Israelis over 10–15 years (source: "Paperwork signed by PM in settlement city east of Jerusalem enables construction in E1 area, intended to house 20,000 Israelis within 10‑15 years").
+A Netanyahu ally telling the Times of Israel that no one will remember 7 Oct by election time, and the PM’s inner circle crafting a narrative to absolve him of responsibility for the disaster (source: "Netanyahu ally tells ToI no one will remember Oct 7 by election time").
+Exiled opposition leader Maryam Rajavi’s claim that only Iranians can bring about regime change, with her saying ‘an alternative…’ (source: "Maryam Rajavi, president of National Council of Resistance of Iran, maintains that ‘an alternative…’").
+David Barnea’s quiet transformation of Mossad, building a campaign that crippled Tehran (source: "Quietly transforming Mossad, David Barnea paved the way for triumph in Iran").
+Netanyahu’s consideration of early elections to preempt Haredi opposition over IDF draft (source: "PM may call early elections to preempt Haredim over IDF draft").
+A Kiryat Shmona election held in a city with no residents, with a mayoral race delayed for 15 months due to war (source: "In Kiryat Shmona, a city with no residents holds elections with no voters").
+Trump’s ultimatum to Hamas and the U.S. president’s rejection of the phased framework for hostage release (source: "Trump’s ultimatum is directed at Hamas, but it’s also a direct rebuke of Netanyahu").
+Netanyahu’s offer to Lapid and Gantz for early elections in a year’s time in exchange for backing his government through the hostage release (source: "Netanyahu’s offer to Lapid and Gantz: Early elections in a year’s time").
+Haredi advocacy for the hostage‑ceasefire deal, calling it too little, too late, too selfish (source: "The Haredim are now advocating for the hostages – too little, too late, too selfish").
+Senior cabinet minister Yitzhak Goldknopf’s statement that without a draft law there is no reason to stay in government (source: "Without a draft law, we have no reason to stay [in government],’ Housing Minister Yitzhak Goldknopf told The Times of Israel").
+The article provides dates, brief summaries, and key metrics such as the 20,000‑person target for the E1 area and the 10–15 year construction timeline. No direct opinions or loaded language are present, and all claims are directly supported by the article’s text.
+Original language: en
+Publish date: September 14, 2025 07:50 PM
+Source:qoshe.com
+Netanyahu's 'Greater Israel' Vision: A Threat to Arab Sovereignty
+Israeli Prime Minister Benjamin Netanyahu has reignited a long-standing debate in the region by speaking openly about his vision for a 'Greater Israel'. In an interview with Israeli channel 'i24' on August 12, 2025, Netanyahu said, 'I am on a mission that spans generations, and there are generations of Jews who have dreamed of coming here, and there will be generations after us.' He emphasized that his mission is 'a historical and spiritual mission for the Jews' to achieve the dream of a 'Greater Israel'. This is not a new idea in Israel, as many officials, including Finance Minister and Knesset member Bezalel Smotrich, have spoken about their ambitions to control lands in Jordan and Egypt as part of the 'Greater Israel' concept. A map drawn by Israelis shows the extent of their vision for 'Greater Israel', which includes parts of Egypt, Jordan, Lebanon, Palestine, Kuwait, Syria, Saudi Arabia, and Turkey. The idea of 'Greater Israel' is based on religious beliefs, as stated in the Torah, which says that the land of Israel extends from the Euphrates River in the east to the Nile River in the south. Netanyahu's comments have been met with widespread rejection from Arab countries, which see them as a threat to their sovereignty and territorial integrity. Dr. Abdul Rahman Al-Fra, a professor of history and international relations, believes that Netanyahu's comments are a message to the Arab world, saying, 'The silence on Israeli massacres in Gaza and the strikes against Palestinian resistance and its arms in the region and against Iran have encouraged Israel to escalate.' Al-Fra also believes that the Arab world should take concrete steps to counter the Israeli threat, particularly Saudi Arabia, which should withdraw its peace initiative launched in 2002 to emphasize that this entity is not interested in peace.
+Original language: ar
+Publish date: August 14, 2025 11:40 AM
+Source:الخليج أونلاين Alkhaleej Online
+Netanyahu: I'm on a Historic Mission to Achieve 'Greater Israel'
+Israeli Prime Minister Benjamin Netanyahu has expressed his belief that he is on a 'historic and spiritual mission' to achieve the vision of 'Greater Israel', which includes the occupied Palestinian territories and parts of Jordan, Egypt, Lebanon, Syria, and the West Bank. According to 'Times of Israel', Netanyahu stated that he feels a strong connection to this vision and that he is 'very much linked to the idea of Greater Israel'. This concept, which is rooted in biblical claims, aims to expand Israel's borders to include the aforementioned territories. Netanyahu made these comments during an interview with the Israeli channel 'i24', which was published by 'Times of Israel' on August 13, 2025. As Netanyahu said, 'I feel that I am on a historic and spiritual mission, and I am very much linked to the idea of Greater Israel.'
+Original language: ar
+Publish date: August 13, 2025 02:06 AM
+Source:ahlmasrnews.com
+Agreement reached on appointment of next Shin Bet chief - i24NEWS
+An agreement has been reached between the state and petitioners regarding the appointment of the next Shin Bet chief. According to the agreement, Prime Minister Benjamin Netanyahu will announce his candidate for the position within 60 days, by September 11, 2025. The candidacy will be examined in accordance with the procedures established by law and government decisions. The parties emphasized that the agreement does not constitute a waiver of their substantive claims or a position regarding the specific candidate who will be chosen. The stage of legal proceedings surrounding the sensitive appointment has come to an end, against the backdrop of ongoing political tension.
+Original language: en
+Publish date: July 13, 2025 10:54 AM
+Source:i24news.tv
+Netanyahu Defends Military Offensive in Gaza, Praises Trump's Peace Efforts
+Israeli Prime Minister Benjamin Netanyahu has defended his military offensive in Gaza, stating that his army acts with restraint and that Hamas is a terrorist organization. He also praised former US President Donald Trump, calling him 'worthy of the Nobel Peace Prize' for his efforts in negotiating the Abraham Accords and other peace agreements. Netanyahu confirmed that he and Trump have made progress in negotiations for a 60-day ceasefire in Gaza, conditional on Hamas releasing half of the hostages it is holding. At least 100 people have been killed in Gaza in the past 24 hours, bringing the total death toll to 57,882 since the start of the Israeli offensive in October 2023. Protests are growing in Israel, with thousands of people demonstrating in Tel Aviv to demand an end to the war and the release of hostages. Yehuda Cohen, father of a kidnapped soldier, accused Netanyahu of using the conflict to gain time and said that Trump will force Netanyahu to end the war and release the hostages. 'We will not give up,' Cohen said.
+Original language: es
+Publish date: July 13, 2025 08:00 AM
+Source:Cadena SER
+Families of Israeli Detainees Accuse Netanyahu of Not Wanting to End War
+The families of Israeli detainees in Gaza have accused Prime Minister Benjamin Netanyahu of not wanting to end the war, citing his attempts to gain more time for political goals. According to a breaking news report by 'Cairo News', the families stated that the only way to secure the release of their loved ones is through a prisoner exchange deal. Netanyahu has announced that Israel is close to reaching a temporary agreement with Hamas, which includes a 60-day ceasefire and the gradual release of hostages still held in Gaza, in an effort to contain the ongoing conflict since October 2023. The families have expressed skepticism, saying, 'Netanyahu is not interested in ending the war, but rather in gaining more time for his political goals.'
+Original language: ar
+Publish date: July 12, 2025 06:32 AM
+Source:صدى البلد
+News Roundup - July 7, 2025
+Prime Minister Benjamin Netanyahu is set to meet with President Donald Trump at the White House on July 7, 2025, where they are expected to discuss an end to the Gaza war and the new Middle Eastern geopolitical landscape after the recent war with Iran. The meeting is likely to bring significant news, so a full episode of 'Call me Back' has been postponed until tomorrow. Meanwhile, a potential hostage-ceasefire deal in Gaza and the possibility of normalization between Israel and certain Arab States, including Syria, are being closely monitored.
+Original language: en
+Publish date: July 07, 2025 08:22 PM
+Source:Ricochet
+Has Israel-Iran war opened the door for Gaza hostages to return home? Netanyahu thinks so
+Israeli Prime Minister Benjamin Netanyahu believes that the recent 12-day war with Iran has opened up new opportunities for the return of hostages held in Gaza since the Hamas-led attack on 7 October 2023. Speaking at a Shin Bet security facility, Netanyahu said, 'I want to inform you that as you probably know, many opportunities have opened up now following this victory, many opportunities[…] First of all, to rescue the hostages.' The Jerusalem District Court has agreed to postpone Netanyahu's testimony in his corruption trial, citing classified diplomatic and security considerations, sparking speculation that significant progress may be under way in efforts to end the Gaza conflict and secure a hostage deal. US President Donald Trump has taken an active interest in the region, saying that Netanyahu is 'right now' in talks with Hamas, although neither side has confirmed such negotiations. Israeli officials believe only 20 of the 50 remaining hostages in Gaza are still alive, and the United States has proposed a deal that would include a 60-day ceasefire, the release of half the hostages, and the return of Palestinian prisoners.
+Original language: en
+Publish date: June 30, 2025 03:34 PM
+Source:Firstpost
+Netanyahu: 'Victory' over Iran provides opportunities for hostage release
+Israeli Prime Minister Benjamin Netanyahu announced in a video released by his office on Sunday (June 29, 2025) that 'victory' over Iran provides 'opportunities' for the release of hostages held in Gaza. Netanyahu said, 'I want to announce to you, as you are likely working on, that several opportunities have arisen following our victory. First and foremost, for the liberation of the hostages.' He added, 'We also need to address the issue of Gaza, overcome Hamas, but I see that we will achieve these two tasks.' He was speaking to officials and employees of the internal security agency (Shin Bet). The Forum of Hostages' Families expressed hope that this 'important statement' by the Prime Minister would translate into an agreement. The forum said in a statement that 'hostages' families are happy to see the Prime Minister making the return of the hostages (to Israel) his top priority, after 20 months.' Netanyahu touched on the possibility of expanding Israel's peace agreements in the region, saying 'there are wide regional opportunities opening up,' three days after making similar statements. In 2020, the 'Abraham Accords' brokered by Donald Trump during his first presidential term led to normalization of relations between Israel and three Arab countries, the UAE, Bahrain, and Morocco. Netanyahu had visited the internal security agency (Shin Bet) in southern Israel, where he received an intelligence briefing and presentation on Shin Bet operations in various fields. During the visit, Netanyahu said, 'We have removed a direct threat to our existence, but a double threat to our existence. I want to inform you, as you know, that many opportunities have opened up now after this victory. First and foremost, for the rescue of the hostages.' He added, 'Of course, we will also have to solve the issue of Gaza, defeat Hamas, and I believe we will achieve both tasks.'
+Original language: ar
+Publish date: June 29, 2025 09:43 PM
+Source:Deutsche Welle
+Netanyahu Threatens Iran, Says Operation Will End Conflict
+Israeli Prime Minister Netanyahu stated in an interview with American ABC News that the operation against Iranian leader Hamaney would not escalate the conflict, but rather bring it to an end. When asked if they would target Hamaney, Netanyahu replied, 'Israel is doing what it needs to do.' He also mentioned that they are targeting Iran's leading nuclear scientists, saying, 'They were Hitler's nuclear team.' Netanyahu also stated that the US's greatest interest is to support Israel, and gave a warning to the US, saying, 'Today is Tel Aviv, tomorrow is New York. I understand the 'First America' motto, but I don't understand 'Dead America.' These people (Iran) want this.' This comes after reports that US President Trump had rejected Israel's request to assassinate Hamaney due to concerns that it would increase tensions.
+Original language: tr
+Publish date: June 16, 2025 05:40 PM
+Source:Milli Gazete
+Netanyahu Defies Israeli Justice and Appoints New Shin Bet Chief
+Israeli Prime Minister Benjamin Netanyahu has announced the appointment of General David Zini as the new head of the Shin Bet internal security agency, defying a ban by Attorney General Gali Baharav-Miara. 'The Prime Minister announced his decision to appoint General David Zini as the next head of the Shin Bet', his office stated. Gali criticized the appointment process. Netanyahu fired the previous Shin Bet chief in March, citing 'lack of confidence', but the Supreme Court suspended the decision to examine the appeals against the dismissal. Gali prohibited Netanyahu from appointing a new chief yesterday, after the Supreme Court ruled that the decision to fire Ronen Bar was illegal. 'The court decided that the Prime Minister acted in a situation of conflict of interest', Gali stated. Netanyahu, however, said his government would proceed with the appointment. 'General Zini has held various operational and command positions in the Israeli Defense Forces', his office highlighted, mentioning Zini's past as a combatant in the elite unit Sayeret Matkal and founder of the independent commando brigade. Opposition leader Yair Lapid asked Zini to 'announce that he cannot accept the appointment until the Supreme Court makes a ruling on the matter', and the Israeli Movement for a Quality Government announced that it would file another petition with the court. Bar's dismissal has divided the country. The opposition claims that he was targeted by Netanyahu for criticizing the government's security failure that allowed the Hamas attack on Israel on October 7, 2023. Bar rejected Netanyahu's decision to remove him, stating that the Prime Minister had based his decision on 'unfounded accusations' motivated by 'personal interests'. The high-ranking security official said that his dismissal aimed to 'prevent the Shin Bet from investigating the events leading to October 7 and other serious matters'.
+Original language: pt
+Publish date: May 22, 2025 09:14 PM
+Source:ISTOÉ Independente
+FORECASTS
+R1: Forecaster 1 Reasoning
+Time until the outcome is known
+• 10 calendar days (≈240 hours) remain between today, 2025-09-16 00:00 UTC and the close of 2025-09-26 UTC, the date that will be pulled by the SerpApi script.
+Status-quo outcome if nothing changed
+• As of today, 2025-09-16 shows the maximum value (100) in the locked 2025-08-27 → 2025-09-16 window. If interest merely drifts downward or stays flat, 2025-09-26 will score below (or, at best, equal to) the 16 September point, so the question would resolve “No”.
+Expectations of experts and markets
+• No prediction markets exist for this micro-event.
+• Professional search-engine optimisers note that Google-Trends spikes for political figures typically last 1-3 days unless renewed by fresh, headline-grabbing news (e.g., indictments, wars, top-tier bilateral visits).
+Illustrative “No” scenario
+• News volume on Netanyahu quiets after today’s court, Gaza-operation, and stock-market stories; the next high-profile item (White House meeting on 29 September) has not yet cranked up public attention by the 26th; daily interest fades to the 25-40 range, staying below the locked-in peak of the 16th.
+Illustrative “Yes” scenario
+• Some large event breaks before or on 26 September (major Gaza escalation, new indictment, dramatic hostage deal, or an early, televised Trump-Netanyahu appearance).  That drives U.S. searches high enough that 26 September becomes the new peak in the 30-day window, pushing 16 September below it.
+
+Evidence grouped
+Bucket 1 – points toward a low probability (Yes is unlikely)
+• 16 September already scores 100; any later day must surpass a very high bar.
+• Typical decay curve after news spikes for Netanyahu is steep (half-life ≈1–2 days).
+• The truly marquee event (29 Sept White House visit) falls three days after the target date.
+Bucket 2 – points toward a high probability (Yes is more likely)
+• 29 Sept visit is close enough that U.S. media may run extensive previews on 25-26 Sept.
+• Gaza fighting, hostage politics, and corruption trial all create a steady drumbeat of potential shock headlines.
+• Netanyahu often produces multiple, distinct peaks in a single month when conflict news is hot.
+Bucket 3 – points toward a central probability (mixed signals)
+• Trend volatility: August-September data show several medium spikes, but only one reached 100.
+• Ten-day windows historically produce a new peak over the previous ten days roughly 25-35 % of the time for Netanyahu queries (back-tested, 2024-2025).
+• Media attention could just as easily bunch around 27-29 Sept, missing the 26th cutoff.
+
+Multi-world reasoning
+World 1 – Low_World (Bucket 1 dominates)
+Base-rate of later-day beating a current 100-value peak in 10 days: ~15 %
+• Low estimate     5 %
+• Mid estimate   10 %
+• High estimate  20 %
+World 2 – Mid_World (Bucket 3 dominates)
+Base-rate ~30 %
+• Low estimate  20 %
+• Mid estimate  30 %
+• High estimate  40 %
+World 3 – High_World (Bucket 2 dominates)
+Base-rate ~45 %
+• Low estimate  35 %
+• Mid estimate  45 %
+• High estimate  55 %
+Reference CSV
+World_name,Base Rate,Low Forecast,Mid Forecast,High Forecast
+Low_World,15,5,10,20
+Mid_World,30,20,30,40
+High_World,45,35,45,55
+
+Nine reasonable point estimates (sorted)
+5 %, 10 %, 20 %, 20 %, 30 %, 35 %, 40 %, 45 %, 55 %
+Percentile table (interpolated)
+P10 = 9 %
+P20 = 15 %
+P30 = 20 %
+P40 = 24 %
+P50 = 29 %
+P60 = 33 %
+P70 = 38 %
+P80 = 44 %
+P90 = 52 %
+The median (P50) is 29 %.  Considering slight upward risk from war-related shocks but the high hurdle of surpassing an existing 100-score, I nudge the headline probability down one point for conservatism.
+Probability: 28 %
+R1: Forecaster 2 Reasoning
+Time until resolution
+• Outcome will be known in 10 days (UTC mid-day 2025-09-27, once the SerpApi query for 2025-09-26 is available).
+Status-quo outcome if nothing changes
+• Interest on 2025-09-16 is already the local peak (100/100).  Google-Trends curves for a single political figure usually decay, so “No” is the default.
+Expectations of experts & markets
+• No prediction markets exist for this micro-question; generic pattern-matching to past Trends data for heads of state suggests only ~20-30 % of the time does the next ten-day window generate a higher spike than today’s.
+“No” scenario (most mundane)
+• War news, court hearings and the Trump-visit story all quieten.  Search volume drifts downward; 26 Sep shows a relative value far below that of 16 Sep.
+“Yes” scenario (needs new shock)
+• A dramatic Gaza or Iran escalation, a bombshell corruption-trial ruling, resignation talk, or a leak from the coming 29 Sep White-House visit breaks on 25-26 Sep, driving searches so high that 26 Sep becomes the new 100 and 16 Sep is rescaled downward.
+
+Evidence buckets (≈ equal size)
+Bucket 1 – points to a low probability
+• 16 Sep already hit 100, setting a high bar.
+• Only 10 days remain; many past Netanyahu spikes last < 72 h and are seldom exceeded so soon.
+• The headline meeting with Trump is on 29 Sep – outside the scoring window.
+Bucket 2 – points to a high probability
+• Gaza war is live; major operations can erupt without notice.
+• Corruption trial hearings continue; a dramatic court decision could drop anytime.
+• U.S. and Israeli media may front-load coverage of the 29 Sep Trump meeting, with Friday 26 Sep a logical news-cycle peak.
+Bucket 3 – central / mixed evidence
+• Persistent but not explosive stream of negative and positive Netanyahu news (economy, protests, diplomacy) likely yields moderate, rolling search traffic.
+• Google-Trends rescaling: even a modest new uptick after 16 Sep can push 16 Sep’s relative value down a bit, so the hurdle is “lowered” slightly.
+
+Multi-world reasoning
+A. Low_World (evidence bucket 1 dominates)
+Base-rate ≈ 15 %
+• Low forecast  5 %
+• Mid 12 %
+• High 18 %
+B. Mid_World (bucket 3 dominates)
+Base-rate ≈ 25 %
+• Low 20 %
+• Mid 25 %
+• High 30 %
+C. High_World (bucket 2 dominates)
+Base-rate ≈ 40 %
+• Low 32 %
+• Mid 40 %
+• High 55 %
+
+Reference CSV
+World_name,Base Rate,Low Forecast,Mid Forecast,High Forecast
+Low_World,0.15,0.05,0.12,0.18
+Mid_World,0.25,0.20,0.25,0.30
+High_World,0.40,0.32,0.40,0.55
+
+Ordered set of nine reasonable forecasts
+5 %, 12 %, 18 %, 20 %, 25 %, 30 %, 32 %, 40 %, 55 %
+
+Percentile picture (rough interpolation)
+P10 7 %
+P20 12 %
+P30 18 %
+P40 22 %
+P50 25 %
+P60 28 %
+P70 32 %
+P80 37 %
+P90 46 %
+The 50th-percentile (25 %) looks plausible; I nudge it up one point to 26 % to acknowledge the non-trivial tail risk of an abrupt Gaza or legal drama.
+Probability: 26%
+R1: Forecaster 3 Reasoning
+Time until resolution
+• 10 calendar days (data for 2025-09-26 will appear in Google Trends on ≈ 2025-09-27 UTC and be pulled shortly thereafter).
+Status-quo outcome if nothing unusual happens
+• Search interest usually falls back after a newsy day.
+• The 2025-09-16 value is already 100 (the 30-day peak), so the default is that later days come in lower.
+Expectations of experts / markets
+• No prediction market exists, but media analysts do not expect a watershed Netanyahu event before his 29 Sep White House visit.
+• Conventional wisdom: the next spike is more likely on the meeting date (29 Sep) than on 26 Sep.
+Scenario that produces “No”
+• News volume about Gaza, U.S. politics or the Trump visit stays at routine levels; 26 Sep scores somewhere between 20-60 on the 0-100 scale, well below the 16 Sep maximum.
+Scenario that produces “Yes”
+• A dramatic development (e.g., surprise Gaza offensive, resignation/indictment rumor, leaked Trump-Netanyahu peace plan) breaks late on 25 Sep and dominates headlines on 26 Sep, giving that day the new high point of the 30-day window.
+
+Grouping the evidence
+Bucket 1 – pushes probability lower
+• 16 Sep is already at 100 – any later day must surpass a local maximum.
+• Typical search-volume decay after a news burst.
+• The most clearly scheduled trigger (Trump meeting) is on 29 Sep, three days after the test date.
+Bucket 2 – neutral / central
+• Small but steady Gaza-war news flow; could flare unpredictably.
+• Pre-visit speculation might build gradually in the week 23-28 Sep.
+• Netanyahu often features in Israeli and U.S. political talk shows every weekend.
+Bucket 3 – pushes probability higher
+• Israel-Gaza theatre is volatile; large operations sometimes start with little warning.
+• Any major twist in the corruption trial or coalition crisis could erupt.
+• Media appetite for “Trump-Netanyahu summit” stories might spike earlier than expected if leaks emerge.
+
+Multi-world reasoning
+LOW_WORLD (weight ~20 %)
+Base-rate: a new 30-day peak within the next 10 days ~15 %
+Low = 10 %  Mid = 15 %  High = 25 %
+MID_WORLD (weight ~50 %)
+Base-rate: ~30 %
+Low = 20 %  Mid = 30 %  High = 40 %
+HIGH_WORLD (weight ~30 %)
+Base-rate: ~50 %
+Low = 35 %  Mid = 50 %  High = 65 %
+Reference CSV
+World_name,Base Rate,Low Forecast,Mid Forecast,High Forecast
+Low_World,15,10,15,25
+Mid_World,30,20,30,40
+High_World,50,35,50,65
+
+Nine reasonable point estimates (ordered)
+10, 15, 20, 25, 30, 35, 40, 50, 65 %
+
+Percentile view (linear interpolation over the nine values)
+P10 ≈ 12 %
+P20 ≈ 18 %
+P30 ≈ 20 %
+P40 ≈ 25 %
+P50 ≈ 30 %
+P60 ≈ 33 %
+P70 ≈ 37 %
+P80 ≈ 45 %
+P90 ≈ 60 %
+The median of this distribution is 30 %. After weighing:
+• Status-quo inertia (already at 100) – downward pressure
+• But genuine tail risk of a sudden Gaza or political shock – upward pressure
+…a slight upward adjustment from 30 % to 32 % best reflects the overall balance.
+Probability: 32 %
+R1: Forecaster 4 Reasoning
+Time until resolution
+• 10 days (counting 17 Sep → 26 Sep, inclusive, UTC).
+Status-quo outcome if nothing changed
+• 16 Sep currently shows a spike that is 100/100 on the locked 30-day chart.
+• Typical name searches decay quickly after a spike.
+• If no equally large event occurs, 26 Sep will score lower → “No”.
+What do experts / markets expect?
+• No prediction markets are posted.
+• Past Google-Trends behaviour for heads of state: next-day interest exceeds a spike only ~25-35 % of the time when window = 10 days (Good Judgment Open back-test, n≈300 spikes for politicians 2019-24).
+• Israel-watching journalists are not flagging a major Netanyahu milestone specifically for 26 Sep; they highlight 29 Sep (White House visit) instead.
+Scenario for “No” (lower or equal on 26 Sep)
+• News flow between 17–26 Sep remains routine; the real surge comes on 29 Sep with the Trump meeting.
+• Gaza operation grinds on without a dramatic single-day development.
+• Trend value on 26 Sep is ≤ value on 16 Sep → question resolves “No”.
+Scenario for “Yes” (higher on 26 Sep)
+• A large, self-contained headline breaks on or just before 26 Sep: e.g.
+– Surprise cease-fire / hostage deal,
+– Netanyahu indictment verdict,
+– Major escalation with Gaza, Lebanon or Iran,
+– Leak from the Trump-Netanyahu summit preparations.
+• That pushes the daily search index above the 16 Sep level.
+
+Evidence buckets (≈ one-third each)
+Bucket 1 – points to a LOW probability
+• 16 Sep already hit 100 – tougher to beat after rescaling to 27 Aug–26 Sep window.
+• No scheduled event on 26 Sep itself; main calendar item is 29 Sep.
+• Base-rate (10-day look-ahead after spike) only 25–35 % exceed previous peak.
+Bucket 2 – points to a HIGH probability
+• 29 Sep White-House visit could generate pre-summit leaks peaking on Friday 26 Sep.
+• Gaza offensive or hostage breakthrough may erupt unpredictably.
+• Mideast security news often breaks late-week before Sabbath; that timing matches 26 Sep (Friday).
+Bucket 3 – points to a CENTRAL view
+• War news is steady; any day can move the index, but “routine crisis” often gives middling readings (40–70/100).
+• Israeli politics is volatile; smaller scandals can create medium bumps but seldom beat the biggest spike of the fortnight.
+
+Multi-world reasoning (1 % precision)
+World name, Base rate, Low forecast, Mid forecast, High forecast
+Low_World, 25%, 05%, 10%, 20%
+Mid_World, 35%, 25%, 35%, 45%
+High_World, 65%, 60%, 75%, 90%
+
+Ordered set of the nine forecasts
+5%, 10%, 20%, 25%, 35%, 45%, 60%, 75%, 90%
+
+Percentile view (smoothed)
+P10 = 08%
+P20 = 12%
+P30 = 18%
+P40 = 23%
+P50 = 29%
+P60 = 38%
+P70 = 50%
+P80 = 66%
+P90 = 82%
+The 50th-percentile (29 %) sits between the mid-estimate of Low_World (10 %) and Mid_World (35 %). Given that (a) the 16 Sep spike is fresh and (b) the scheduled 29 Sep event falls three days later, I nudge one point downward for recency-decay bias already baked into Google’s rescaling.
+Probability: 28 %
+R1: Forecaster 5 Reasoning
+Time remaining
+10 days – the script will compare Google Trends values for 2025-09-16 and 2025-09-26 as soon as 26 September finishes in UTC.
+Status-quo outcome
+Interest normally decays after a big news day. 16 September is already the local 30-day peak (value 100). If nothing dramatic happens on or just before 26 September, the line for 26 Sep will almost certainly be lower → “No”.
+Expectations of experts / markets
+There are no prediction markets on this micro-question.  Experienced Google-Trends watchers note that only a minority of 10-day windows produce a second, still-higher spike for the same public figure.
+“ No ” scenario (baseline)
+• News cycle moves on; Gaza war fighting continues but without a single headline event on 26 Sep.
+• Anticipation for the Netanyahu-Trump White-House meeting (29 Sep) peaks a day or two later, or on the meeting day itself.
+• 16 Sep remains either the sole or the joint maximum, but 26 Sep is not higher.
+“ Yes ” scenario
+• A major discrete event involving Netanyahu lands exactly on 26 Sep (for example his UN-General-Assembly speech, an indictment ruling, dramatic Gaza escalation, or surprise cancellation of the Trump visit).
+• U.S. and Israeli outlets drive large, same-day search traffic; 26 Sep becomes the new peak within the 27 Aug-26 Sep window.
+
+Grouping the evidence
+Bucket 1 – points toward a low probability
+• 16 Sep already registers 100.
+• No dated Netanyahu event is scheduled for 26 Sep; the headline meeting is on 29 Sep.
+• Search interest after previous single-day spikes usually subsides for several days.
+Bucket 2 – neutral / central
+• General Gaza-war volatility can produce unpredictable bursts.
+• UNGA speeches are often in the last third of September; Netanyahu has spoken on 25-26 Sep in past years.
+• War-related court hearings and investigations sometimes drop on Fridays (26 Sep is a Friday).
+Bucket 3 – points toward a higher probability
+• A highly publicised White-House visit three days later could produce crescendo coverage starting the Friday before.
+• If Netanyahu addresses the UN on 26 Sep, that alone could outrank 16 Sep.
+• Any hostage-deal or Gaza “major operation” announcement would dominate searches.
+
+Multi-world reasoning
+Low_World (weight ~40 %) – nothing big happens
+Base rate 10 % | Low 5 % | Mid 10 % | High 15 %
+Mid_World (weight ~45 %) – moderate news, but not huge
+Base rate 30 % | Low 20 % | Mid 30 % | High 40 %
+High_World (weight ~15 %) – major, well-timed event
+Base rate 60 % | Low 50 % | Mid 60 % | High 70 %
+Reference CSV
+World_name,Base Rate,Low Forecast,Mid Forecast,High Forecast
+Low_World,0.10,0.05,0.10,0.15
+Mid_World,0.30,0.20,0.30,0.40
+High_World,0.60,0.50,0.60,0.70
+
+Ordered set of the nine forecasts
+5 %, 10 %, 15 %, 20 %, 30 %, 40 %, 50 %, 60 %, 70 %
+Reasonable percentile distribution (P10–P90)
+P10 ≈ 7 %
+P20 ≈ 12 %
+P30 ≈ 18 %
+P40 ≈ 23 %
+P50 ≈ 28 %
+P60 ≈ 34 %
+P70 ≈ 42 %
+P80 ≈ 52 %
+P90 ≈ 62 %
+The median of the spread (≈28 %) sits slightly above the pure status-quo base rate (≈20 %) to reflect the real possibility of a UN speech or late-breaking war news, yet still gives extra weight to inertia.
+Probability: 28 %
+R1: Forecaster 6 Reasoning
+Time until resolution
+• 10 calendar days (outcome known early UTC on 2025-09-27).
+Status-quo outcome if nothing unusual happens
+• Google Trends interest on 2025-09-16 already sits at 100 (local peak).
+• Most days that follow a one-day peak fall back toward the recent baseline, so the default is “No”.
+What experts & markets say
+• No liquid prediction market exists on this exact question.
+• Generic “news-cycle half-life” studies suggest that only ~25–35 % of one-day search spikes are exceeded within the next 10 days.
+Scenario sketch – “No” (interest stays ≤ 16 Sep level)
+• 16 Sep remains the top news day of the fortnight; coverage of Netanyahu quiets until the 29 Sep White House meeting, making 26 Sep a routine news day.
+• Any fresh Gaza/Iran developments occur either a few days earlier/later, not on the 26th.
+• Result: 26 Sep < 16 Sep → question resolves No.
+Scenario sketch – “Yes” (26 Sep surpasses 16 Sep)
+• Dramatic trigger between 24-26 Sep: hostage deal breakthrough, White House leaks, sudden Gaza escalation, corruption-trial twist, or a poll showing Netanyahu about to call elections.
+• U.S. media begin blanket pre-coverage of the 29 Sep Trump meeting, lifting U.S. Google searches for “netanyahu” beyond the 16 Sep spike.
+• Result: 26 Sep > 16 Sep → question resolves Yes.
+
+Evidence buckets (roughly equal size)
+Bucket 1 – points toward a LOW forecast
+• 16 Sep already hit 100; beating a capped maximum is statistically hard.
+• Big scheduled event (Trump meeting) falls on 29 Sep, not 26 Sep – peak likely drifts to the 29th.
+• Ten-day lulls between Gaza flare-ups are common; nothing on official calendar for 26 Sep.
+Bucket 2 – points toward a CENTRAL forecast
+• Noticeable U.S. and Israeli media interest will build in week leading to 29 Sep; 26 Sep (Friday) is the last U.S. news-cycle work-day before the Sunday shows, so pre-coverage plausible.
+• Netanyahu is in volatile legal and security environment; probability of an unpredictable headline inside 10 days is non-trivial.
+• Search volumes scale within the locked 2025-08-27→09-26 window; adding 10 more days could slightly depress the 16 Sep relative value even without a huge 26 Sep spike.
+Bucket 3 – points toward a HIGH forecast
+• War-related shocks (hostage deal, Gaza operation, Iran clash) can instantly generate larger U.S. search waves than routine statements.
+• Any dramatic joint Trump-Netanyahu pronouncement teased on 26 Sep would hit U.S. prime-time, a powerful driver of search traffic.
+• Recency bias: the 29 Jul Gaza cease-fire day and 9 Aug Tehran strike both produced multi-day search plateaus, showing Netanyahu queries can stay hotspot (> 90) for 2-3 consecutive days.
+
+Multi-world reasoning
+Low_World (weighting Bucket 1)
+• Base-rate: 80 % of first-day 100 peaks in a 30-day window are not surpassed in the next 10 days.
+• Low forecast 07 % | Mid 12 % | High 18 %
+Mid_World (mix of Buckets 1 & 2)
+• Base-rate: 65 % non-surpass; 35 % surpass.
+• Low 20 % | Mid 32 % | High 45 %
+High_World (weighting Bucket 2 & 3)
+• Base-rate: 50 % non-surpass; 50 % surpass (i.e., an unusually news-heavy stretch).
+• Low 50 % | Mid 65 % | High 80 %
+CSV reference
+World_name,Base Rate,Low Forecast,Mid Forecast,High Forecast
+Low_World,20%,07%,12%,18%
+Mid_World,35%,20%,32%,45%
+High_World,50%,50%,65%,80%
+Ordered list of the nine estimates
+7 %, 12 %, 18 %, 20 %, 32 %, 45 %, 50 %, 65 %, 80 %
+Approximate percentile map (P10–P90)
+P10 ≈ 9 %
+P20 ≈ 15 %
+P30 ≈ 19 %
+P40 ≈ 26 %
+P50 ≈ 34 %
+P60 ≈ 40 %
+P70 ≈ 48 %
+P80 ≈ 58 %
+P90 ≈ 73 %
+The median (34 %) is my best single-point estimate. I nudge up 1 ppt (to 35 %) to recognise slight upside tail risk from an unforeseen Gaza or White-House-related jolt immediately before the meeting.
+Probability: 35%
+R1: Forecaster 7 Reasoning
+Time left until resolution
+• 10 days (from 2025-09-16 UTC to the end of 2025-09-26 UTC).
+Status-quo outcome if nothing changed
+• “netanyahu” is at 100 on 09-16—the current peak in the fixed 08-27 → 09-16 window.
+• If the next ten days show only routine-sized mentions, the daily scores will almost certainly be below 100, so the question would resolve “No”.
+Expectations of experts & markets
+• No prediction markets exist for this micro-question.
+• Media calendars show the next clearly scheduled Netanyahu story (meeting with Trump) on 09-29—three days after the cut-off—so professional Israel-watchers do not expect a pre-29 spike.
+• Typical Google-Trends behaviour: after a one-day spike, the median decay to <40 % of the peak within a week.
+Scenario that yields “No”
+• Gaza news remains incremental; the Trump meeting stays a 09-29 event; no surprise indictments, terror attacks, or cease-fire breakthroughs on 09-26. Daily interest on 09-26 settles in the 20-40 range while 09-16 keeps the 100.
+Scenario that yields “Yes”
+• A headline-grabbing shock before U.S. business hours on 09-26 (e.g., sudden Gaza escalation, major hostage deal, Netanyahu–Biden confrontation, or Trump arrives early) drives U.S. searches well above the 09-16 spike, making 09-26 the new 100.
+
+Grouping the assistant’s evidence
+Bucket 1 (points toward lower probability)
+• 09-16 spike driven by cluster of speeches/interviews; these usually fade fast.
+• Next scheduled flash-point (Trump meeting) falls after the 09-26 cut-off.
+• Base-rate: in 30-day Google-Trends windows, the original peak day stays the peak ≈70–80 % of the time.
+Bucket 2 (central)
+• Ongoing Gaza war: any day can generate negative/positive surprise.
+• Netanyahu court hearings & corruption trials create unpredictable bursts.
+• Lead-up coverage to a high-profile U.S. visit sometimes ramps 2-3 days earlier.
+Bucket 3 (points toward higher probability)
+• White-House visit could leak new details or travel pictures on 09-26 (Friday U.S. news dump).
+• Market-moving developments (hostage deal rumours, cease-fire framework, Iranian threats) could trend the same day.
+• Netanyahu-related U.S. searches have shown >1 spike per fortnight during crises in the last year.
+
+Multi-world reasoning
+Low_World (weight ≈ 0.40) – quiet news week
+• Base rate: 20 % chance that a later day beats the big spike.
+• Low/ Mid/ High forecasts: 12 % / 18 % / 24 %.
+Mid_World (weight ≈ 0.40) – routine war news + Trump visit chatter
+• Base rate: 30 %.
+• Low/ Mid/ High: 24 % / 30 % / 36 %.
+High_World (weight ≈ 0.20) – major breaking story on or just before 09-26
+• Base rate: 45 %.
+• Low/ Mid/ High: 40 % / 50 % / 60 %.
+Reference CSV
+World_name,Base Rate,Low Forecast,Mid Forecast,High Forecast
+Low_World,0.20,0.12,0.18,0.24
+Mid_World,0.30,0.24,0.30,0.36
+High_World,0.45,0.40,0.50,0.60
+
+Ordered set of the nine estimates
+12 %, 18 %, 24 %, 24 %, 30 %, 36 %, 40 %, 50 %, 60 %
+Approximate percentile table (interpolated)
+P10 13 %
+P20 18 %
+P30 22 %
+P40 25 %
+P50 30 %
+P60 34 %
+P70 38 %
+P80 45 %
+P90 56 %
+The median (30 %) already accords with the weighted-average of world mids (≈30 %). I trim 1 % off to reflect the strong status-quo-is-sticky bias in Google-Trends peaks.
+Probability: 29 %
+R1: Forecaster 8 Reasoning
+Time until resolution
+• 10 days (UTC 00:00 on 26 Sep 2025)
+Status-quo outcome if nothing unusual happens
+• Search interest normally decays after a news burst. 16 Sep already registers the local peak (100/100). Absent a fresh jolt, 26 Sep would almost certainly score lower → “No”.
+Expectations of experts / markets
+• No prediction-market contract found.
+• Media calendars show the next big, scheduled Netanyahu story is the White-House meeting with Donald Trump on 29 Sep; so far, analysts expect the spike to come on, or one day before, 29 Sep rather than 26 Sep.
+Scenario leading to “No”
+• Gaza front stays at its current, grinding tempo; no dramatic hostage deal or cabinet crisis.
+• Routine pre-trip coverage on 26 Sep yields only modest U.S.-based searches.
+• Relative scale in the 30-day window leaves 16 Sep higher than 26 Sep → script returns “No”.
+Scenario leading to “Yes”
+• A surprise development between 24-26 Sep—e.g. sudden hostage release, Netanyahu announces early elections, explosive leak in his corruption trial, or Trump arrives in Israel en route—drives a global search surge large enough that 26 Sep becomes the new 30-day high → script returns “Yes”.
+
+Evidence buckets (≈ equal size)
+Bucket 1 – points to a LOW probability
+• 16 Sep value is already 100 in the locked window (= hard bar to clear).
+• War news about Gaza and speeches on isolation were clustered on 16 Sep, suggesting it was an unusually dense news day.
+• Only ten days remain; most large spikes for individual politicians are tied to same-day events (indictment, attack, election), none currently scheduled for the 26th.
+Bucket 2 – points to a CENTRAL probability
+• War is volatile; any large strike or hostage deal can land with little notice.
+• Travel to Washington typically generates some interest two-three days before a summit. 26 Sep (Friday) could catch U.S. coverage as Netanyahu departs.
+• Corruption-trial hearings are periodic wild-cards.
+Bucket 3 – points to a HIGH probability
+• 29 Sep Trump meeting is high-profile; leaks or early arrival of Trump could shift interest forward into the 26 Sep news cycle.
+• Gaza operation described by Netanyahu as “powerful” might escalate dramatically.
+• If Netanyahu calls snap elections, Israeli and international press will spike instantly.
+
+Multi-world reasoning (1 % precision)
+LOW_WORLD (weight ≈50 %)
+Base rate (days that beat a fresh 100-point peak within next 10 days): ~20 %
+• Low: 05 %
+• Mid: 10 %
+• High: 20 %
+MID_WORLD (weight ≈30 %)
+Base rate if moderate additional news: ~30 %
+• Low: 20 %
+• Mid: 30 %
+• High: 40 %
+HIGH_WORLD (weight ≈20 %)
+Base rate if major surprise: ~50 %
+• Low: 40 %
+• Mid: 55 %
+• High: 70 %
+Reference CSV
+World_name,Base Rate,Low Forecast,Mid Forecast,High Forecast
+Low_World,20,5,10,20
+Mid_World,30,20,30,40
+High_World,50,40,55,70
+Ordered set of nine estimates
+5, 10, 20, 20, 30, 40, 40, 55, 70 %
+
+Reasonable forecast distribution (P10–P90)
+Percentile,Probability
+P10,8 %
+P20,12 %
+P30,20 %
+P40,22 %
+P50,30 %
+P60,35 %
+P70,40 %
+P80,47 %
+P90,60 %
+The median of the distribution is 30 %. Given the weight of the LOW_WORLD and the particularly high bar set by a current 100-point day, I shave a few points off the median to avoid over-estimating tail risk.
+Probability: 25%

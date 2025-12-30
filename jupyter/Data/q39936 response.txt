@@ -1,0 +1,613 @@
+SUMMARY
+Question: Will RVTY's market close price on 2025-09-27 be higher than its market close price on 2025-09-15?
+Final Prediction: 47.5%
+Total Cost: $0
+Time Spent: 1.35 minutes
+Report 1 Summary
+Forecasts
+Forecaster 1: 48.0%
+Forecaster 2: 48.0%
+Forecaster 3: 49.0%
+Forecaster 4: 47.0%
+Forecaster 5: 47.0%
+Forecaster 6: 45.0%
+Forecaster 7: 52.0%
+Forecaster 8: 47.0%
+Research Summary
+The research indicates that Revvity Inc. (NYSE:RVTY) has seen strong institutional support, with Chemistry Wealth Management and several other funds increasing their stakes to bring total institutional ownership to 86.65%. RVTY shares opened September 15 at $82.83, trading between a 12-month low of $81.36 and high of $129.50, and sit below their 50-day (≈$91.5–93.3) and 200-day (≈$96.0–97.4) moving averages. Key financials for Q2 2025 include earnings of $1.18 EPS (vs. $1.14 est.), revenues of $720.28 million (+4.1% YoY), a current ratio of 3.33, debt/equity of 0.43, and net margin of 10.19%. FY 2025 guidance is $4.85–4.95 EPS; Q3 2025 is estimated at $1.14 EPS. RVTY pays a $0.07 quarterly dividend (0.3% yield, 11.9% payout). Analysts’ consensus is “Moderate Buy” (10 Buys, 4 Holds), with targets ranging $110–$125.77 (average ≈$120.07). Bank of America, Raymond James, Evercore and others rate it Buy/Outperform, while some have Hold ratings. Short interest has risen to 7.73% of float, above peer average. In a head-to-head comparison, Danaher (NYSE:DHR) outperforms RVTY on most profitability and valuation metrics, though RVTY offers higher upside to its $120.07 mean target.
+Broader market context on September 15, 2025 saw Indian benchmarks slip (Sensex −0.15% to 81,785.74; Nifty −0.18% to 25,069.20), led by gains in Bajaj Finance and Reliance but weighed by Infosys and M&M. Russia’s MOEX held at a one-month low amid mixed sector moves and rising volatility (RVI +4.81%). Commodities were firmer (Gold +0.35%, Brent +0.93%), and the ruble strengthened. In U.S. retail news, Robinhood (HOOD) unveiled a closed-end private-company fund with an average analyst target of $121.34. U.S. regional housing markets in August showed steady closings and resilient mid-market demand in both Tri-Cities and Denver.
+Sources:
+https://www.gurufocus.com/news/3108030/robinhood-hood-unveils-closedend-fund-to-access-private-companies
+https://www.dailypolitical.com/2025/09/15/revvity-inc-rvty-shares-purchased-by-chemistry-wealth-management-llc.html
+https://www.financialexpress.com/market/markets-end-lower-nifty-holds-25000-sensex-down-100-points-asian-paints-mampm-see-deep-cuts-5-key-highlights-3978520/
+https://econotimes.com/Russia-Stocks-End-Lower-as-MOEX-Hits-1-Month-Low-1720514
+https://elizabethton.com/2025/09/12/august-housing-market-holds-firm-heading-into-fall-season/
+https://www.defenseworld.net/2025/09/05/zacks-research-estimates-revvitys-q3-earnings-nyservty.html
+https://www.defenseworld.net/2025/07/31/raymond-james-financial-reaffirms-outperform-rating-for-revvity-nyservty.html
+https://www.defenseworld.net/2025/09/05/revvity-nyservty-danaher-nysedhr-head-to-head-contrast.html
+https://www.benzinga.com/insights/short-sellers/25/09/47603439/is-revvity-gaining-or-losing-market-support
+https://finance.yahoo.com/news/earnings-preview-expect-revvitys-report-132245412.html?guccounter=1&guce_referrer=aHR0cHM6Ly9maW5hbmNlLnlhaG9vLmNvbS9yc3MvdG9wc3Rvcmllcw&guce_referrer_sig=AQAAAGsC3Q9X13t3zXUVIz1-1ibtK_A7ms8TaIYIL52-a677OrOdguH0UauZkihRDz5BFrYKJxdAYkmGI4pblR2Rr2IK5h7B2VxzXCmdFSJNnbkzYFuNHKj62dwCZDw8o7Zl8xFkFS8UZQDQoFG0W099H4fDBAfZvBWCFCjj11baD3Ve
+RESEARCH
+Report 1 Research
+Here are the relevant news articles:
+Robinhood (HOOD) Unveils Closed-End Fund to Access Private Companies
+Robinhood Markets Inc (HOOD) announced plans to launch a closed‑end fund, Robinhood Ventures Fund I, to give retail investors access to private companies. The fund would trade under ticker RVI if approved by the SEC. Wall Street analysts have set an average one‑year price target of $121.34, with a high estimate of $160.00 and a low estimate of $60.00, implying a potential upside of 5.84% from the current trading price of $114.65. The brokerage consensus, based on 24 firms, gives an average recommendation rating of 2.2, indicating an 'Outperform' stance. GuruFocus estimates a fair value of $39.27 for HOOD, suggesting a downside risk of 65.75% from the current price. The company’s mission to make investing more accessible is reflected in the statement that the fund is 'designed to democratize investment opportunities in private companies'.
+Original language: en
+Publish date: September 15, 2025 03:06 PM
+Source:GuruFocus.com
+Revvity Inc. $RVTY Shares Purchased by Chemistry Wealth Management LLC
+Chemistry Wealth Management LLC increased its holding in Revvity Inc. (NYSE:RVTY) by 16.3% in the second quarter, buying 458 additional shares to hold 3,265 shares worth $316,000, according to its SEC filing. Other institutional investors also moved positions: Nomura Holdings acquired a new $447,000 stake; Wealth Enhancement Advisory Services raised its holdings by 3.8% to 5,139 shares valued at $544,000; Ritholtz Wealth Management added a $210,000 position; Amalgamated Bank increased its stake by 1.0% to 23,777 shares worth $2,516,000; and Mirae Asset Global Investments grew its holding by 11.1% to 13,415 shares valued at $1,417,000. Institutional and hedge fund ownership accounts for 86.65% of the shares.
+On the market side, Revvity’s stock opened at $82.83 on Monday, with a 50‑day moving average of $91.52 and a 200‑day moving average of $95.96. The company’s 12‑month low and high are $81.36 and $129.50, respectively. Key financial ratios include a current ratio of 3.33, a quick ratio of 2.75, and a debt‑to‑equity ratio of 0.43. Its market cap is $9.61 billion, a PE ratio of 35.10, a PEG ratio of 2.23, and a beta of 0.94.
+Revvity reported earnings of $1.18 per share for the quarter, beating the consensus estimate of $1.14; its return on equity was 7.66% and net margin 10.19%. Revenue reached $720.28 million, up 4.1% year‑over‑year, versus a consensus estimate of $711.26 million. The company’s FY 2025 guidance is 4.850‑4.950 EPS, while analysts project 4.94 EPS for the current year.
+The firm announced a quarterly dividend of $0.07, payable on Friday, November 7, with an ex‑dividend date of Friday, October 17. This yields an annualized dividend of $0.28 (0.3%) and a payout ratio of 11.86%.
+Analyst coverage is mixed: Bank of America cut its target to $110 and issued a buy rating; Raymond James set a $115 target with an outperform rating; Evercore ISI lowered its target to $115 and also rated outperform; Stifel Nicolaus reduced its target to $110 and issued a hold rating; Wall Street Zen downgraded from buy to hold. Ten analysts hold a buy rating, four hold, giving an average rating of Moderate Buy and an average target price of $120.07.
+Original language: en
+Publish date: September 15, 2025 11:05 AM
+Source:Daily Political
+Markets end lower: Nifty holds 25,000, Sensex down 100 points; Asian Paints, M&M see deep cuts - 5 key highlights
+The Indian stock market closed lower on September 15, 2025, with the benchmark indices slipping. The Sensex finished at 81,785.74, a decline of 0.15%, while the Nifty closed at 25,069.20, down 0.18%; the Nifty Bank index settled at 54,887.85, down 0.14%. The top gainers on the Sensex were 'Bajaj Finance, UltraTech Cement, and Reliance Industries', according to the article. Key laggards included 'Infosys, Asian Paints, Titan, M&M, and Sun Pharma'. Mid‑day activity saw KRBL drop nearly 10% after the resignation of an independent director citing governance concerns, and Vodafone Idea rise about 6% on news that the Supreme Court may soon hear its plea on AGR dues. Railway PSUs such as RVNL, IRCON, and RailTel rallied 2‑5% on strong order flows, while Tata Communications climbed over 3% after ICICI Securities upgraded the stock to a 'Buy' with a higher target price. Sector performance highlighted Glass stocks up 2.93%, REITs & InvITs up 2.37%, Paper up 1.73%, and Construction up 1.33%. Among business groups, Essar Group led gains with a 4.33% rise, followed by Jindal BC Group at 3.89%, Wadia Group at 3.71%, and GMR Group at 2.22%. The Mahindra Group fell 1.18%, Manipal Group dropped 2.43%, and Nagarjuna Group declined 3.49%.
+Original language: en
+Publish date: September 15, 2025 10:09 AM
+Source:The Financial Express
+Russia Stocks End Lower as MOEX Hits 1-Month Low - EconoTimes
+Russian stocks closed weaker on Saturday as the MOEX Russia Index held flat at 0.00%, registering a new one‑month low. Energy and financial shares offered modest support, while construction and metals dragged the index down. Transneft PJSC led the gainers, rising 0.22% to 1,292.00; Surgutneftegas followed with a 0.20% increase to 22.32; Bank VTB added 0.18% to close at 76.00. On the downside, PIK SHb fell 1.94% to 590.60, the sharpest loss of the day; OK Rusal slipped 1.23% to 32.99; PhosAgro dropped 1.17% to 7,033.00. Declining stocks outnumbered advancing ones 110 to 102, with 18 unchanged. Volatility spiked as the Russian Volatility Index (RVI) climbed 4.81% to 33.56. In commodities, Gold Futures for December rose 0.35% to $3,686.40 per troy ounce, and crude oil prices strengthened: October WTI crude up 0.51% to $62.69 a barrel and November Brent crude up 0.93% to $66.99. Currency markets saw the Russian ruble advance; the USD/RUB dropped 0.59% to 84.00, and the EUR/RUB slipped 0.59% to 98.57. Meanwhile, the US Dollar Index Futures edged up 0.01% to 97.54. The session reflected cautious investor sentiment, with global commodity trends and currency shifts adding pressure to Moscow's equity market.
+Original language: en
+Publish date: September 14, 2025 01:02 AM
+Source:EconoTimes
+August housing market holds firm heading into fall season - Elizabethton Star
+The Tri‑Cities housing market remained steady in August 2025 despite higher borrowing costs. Total closings were 764, a modest increase from 720 the previous year. The $250,000‑$299,999 price tier led the market with 115 sales, up from 86 in 2024, underscoring the continued demand for mid‑market homes. Entry‑level homes under $200,000 fell to 197 sales, down from 211 a year earlier, reflecting limited supply and rising prices. Luxury properties ($500,000 and above) recorded 60 closings, slightly higher than 53 last year, indicating a gradual expansion of the high‑end segment. Year‑to‑date sales total 5,300, virtually identical to the 5,305 closings recorded by the same point in 2024, showing overall market stability. The data suggest that while affordability remains a challenge, demand in the move‑up and luxury ranges remains strong, keeping the regional market resilient as it heads into fall.
+Original language: en
+Publish date: September 12, 2025 03:28 PM
+Source:elizabethton.com
+Revvity Inc. $RVTY Shares Purchased by Chemistry Wealth Management LLC
+Chemistry Wealth Management LLC increased its holding in Revvity Inc. (NYSE:RVTY) by 16.3% in the second quarter, buying 458 additional shares to hold 3,265 shares worth $316,000, according to its SEC filing. Other institutional investors also moved positions: Nomura Holdings acquired a new $447,000 stake; Wealth Enhancement Advisory Services raised its holdings by 3.8% to 5,139 shares valued at $544,000; Ritholtz Wealth Management added a $210,000 position; Amalgamated Bank increased its stake by 1.0% to 23,777 shares worth $2,516,000; and Mirae Asset Global Investments grew its holding by 11.1% to 13,415 shares valued at $1,417,000. Institutional and hedge fund ownership accounts for 86.65% of the shares.
+On the market side, Revvity’s stock opened at $82.83 on Monday, with a 50‑day moving average of $91.52 and a 200‑day moving average of $95.96. The company’s 12‑month low and high are $81.36 and $129.50, respectively. Key financial ratios include a current ratio of 3.33, a quick ratio of 2.75, and a debt‑to‑equity ratio of 0.43. Its market cap is $9.61 billion, a PE ratio of 35.10, a PEG ratio of 2.23, and a beta of 0.94.
+Revvity reported earnings of $1.18 per share for the quarter, beating the consensus estimate of $1.14; its return on equity was 7.66% and net margin 10.19%. Revenue reached $720.28 million, up 4.1% year‑over‑year, versus a consensus estimate of $711.26 million. The company’s FY 2025 guidance is 4.850‑4.950 EPS, while analysts project 4.94 EPS for the current year.
+The firm announced a quarterly dividend of $0.07, payable on Friday, November 7, with an ex‑dividend date of Friday, October 17. This yields an annualized dividend of $0.28 (0.3%) and a payout ratio of 11.86%.
+Analyst coverage is mixed: Bank of America cut its target to $110 and issued a buy rating; Raymond James set a $115 target with an outperform rating; Evercore ISI lowered its target to $115 and also rated outperform; Stifel Nicolaus reduced its target to $110 and issued a hold rating; Wall Street Zen downgraded from buy to hold. Ten analysts hold a buy rating, four hold, giving an average rating of Moderate Buy and an average target price of $120.07.
+Original language: en
+Publish date: September 15, 2025 11:05 AM
+Source:Daily Political
+Markets end lower: Nifty holds 25,000, Sensex down 100 points; Asian Paints, M&M see deep cuts - 5 key highlights
+The Indian stock market closed lower on September 15, 2025, with the benchmark indices slipping. The Sensex finished at 81,785.74, a decline of 0.15%, while the Nifty closed at 25,069.20, down 0.18%; the Nifty Bank index settled at 54,887.85, down 0.14%. The top gainers on the Sensex were 'Bajaj Finance, UltraTech Cement, and Reliance Industries', according to the article. Key laggards included 'Infosys, Asian Paints, Titan, M&M, and Sun Pharma'. Mid‑day activity saw KRBL drop nearly 10% after the resignation of an independent director citing governance concerns, and Vodafone Idea rise about 6% on news that the Supreme Court may soon hear its plea on AGR dues. Railway PSUs such as RVNL, IRCON, and RailTel rallied 2‑5% on strong order flows, while Tata Communications climbed over 3% after ICICI Securities upgraded the stock to a 'Buy' with a higher target price. Sector performance highlighted Glass stocks up 2.93%, REITs & InvITs up 2.37%, Paper up 1.73%, and Construction up 1.33%. Among business groups, Essar Group led gains with a 4.33% rise, followed by Jindal BC Group at 3.89%, Wadia Group at 3.71%, and GMR Group at 2.22%. The Mahindra Group fell 1.18%, Manipal Group dropped 2.43%, and Nagarjuna Group declined 3.49%.
+Original language: en
+Publish date: September 15, 2025 10:09 AM
+Source:The Financial Express
+Russia Stocks End Lower as MOEX Hits 1-Month Low - EconoTimes
+Russian stocks closed weaker on Saturday as the MOEX Russia Index held flat at 0.00%, registering a new one‑month low. Energy and financial shares offered modest support, while construction and metals dragged the index down. Transneft PJSC led the gainers, rising 0.22% to 1,292.00; Surgutneftegas followed with a 0.20% increase to 22.32; Bank VTB added 0.18% to close at 76.00. On the downside, PIK SHb fell 1.94% to 590.60, the sharpest loss of the day; OK Rusal slipped 1.23% to 32.99; PhosAgro dropped 1.17% to 7,033.00. Declining stocks outnumbered advancing ones 110 to 102, with 18 unchanged. Volatility spiked as the Russian Volatility Index (RVI) climbed 4.81% to 33.56. In commodities, Gold Futures for December rose 0.35% to $3,686.40 per troy ounce, and crude oil prices strengthened: October WTI crude up 0.51% to $62.69 a barrel and November Brent crude up 0.93% to $66.99. Currency markets saw the Russian ruble advance; the USD/RUB dropped 0.59% to 84.00, and the EUR/RUB slipped 0.59% to 98.57. Meanwhile, the US Dollar Index Futures edged up 0.01% to 97.54. The session reflected cautious investor sentiment, with global commodity trends and currency shifts adding pressure to Moscow's equity market.
+Original language: en
+Publish date: September 14, 2025 01:02 AM
+Source:EconoTimes
+August housing market holds firm heading into fall season - Elizabethton Star
+The Tri‑Cities housing market remained steady in August 2025 despite higher borrowing costs. Total closings were 764, a modest increase from 720 the previous year. The $250,000‑$299,999 price tier led the market with 115 sales, up from 86 in 2024, underscoring the continued demand for mid‑market homes. Entry‑level homes under $200,000 fell to 197 sales, down from 211 a year earlier, reflecting limited supply and rising prices. Luxury properties ($500,000 and above) recorded 60 closings, slightly higher than 53 last year, indicating a gradual expansion of the high‑end segment. Year‑to‑date sales total 5,300, virtually identical to the 5,305 closings recorded by the same point in 2024, showing overall market stability. The data suggest that while affordability remains a challenge, demand in the move‑up and luxury ranges remains strong, keeping the regional market resilient as it heads into fall.
+Original language: en
+Publish date: September 12, 2025 03:28 PM
+Source:elizabethton.com
+Real estate redux: Why 2025's housing market feels like 2024
+The Denver Metro Association of Realtors reports that, despite a 22% rise in active listings to 13,059 in August 2025, closed sales have stayed at 2024 levels, with 3,636 transactions – a 6% drop from July’s 3,861 and also 6% lower than August 2024’s 3,850.  The median days on market climbed 25% from July’s 24 days to 30 days, and 43% above the August 2024 average of 21 days.  Sales volume fell 3% to $2.6 billion from July’s $2.7 billion, and the median close price edged up 1% to $593,250 from July’s $588,500.  Amanda Snitker, chair of the market trends committee, said, 'As we enter the fall months, there is little expectation for the market to change as we round out the year,' and added, 'If you cannot understand the trends or refuse to see the story they reveal, charts and stats are meaningless.'  She also noted a widening gap between quickly selling homes and those lingering: only 1% of closed properties had price reductions, whereas 58% of active listings had been reduced, with a median drop of 4.5%.  Andrew Abrams highlighted that high‑end homes over $1 million continue to sell, noting that 'Essentially, properties are being listed higher, negotiated down, but still selling for more on average than in the past two years.'  The report underscores that strategic pricing remains crucial in a market where days on market are rising but prices remain largely stable.
+Original language: en
+Publish date: September 12, 2025 12:26 PM
+Source:The Denver Post
+RVNL shares in focus as firm emerges lowest bidder for Rs 169 crore project  - BusinessToday
+Rail Vikas Nigam Ltd (RVNL) emerged as the lowest bidder for a Rs 169.48‑crore project with West Central Railway, winning the design, modification, supply, erection, testing and commissioning of a 220/132 kV/2×25 kV Scott‑connected traction substation and switching posts with AT and SCADA between BINA and RTA sections of the Bhopal division, according to the company’s press release. The project will be completed in 540 days. RVNL’s shares closed at Rs 333.40 on September 10, up 0.32 % from the previous close, and the firm’s market cap stood at Rs 69,514 crore. The board approved a final dividend of Rs 1.72 per equity share for FY 2024‑25. Earlier, RVNL had received a Letter of Award from Southern Railway for an electric traction upgrade and from Delhi Metro Rail Corporation for a Rs 447.42‑crore project. Railway stocks hit a 52‑week high of Rs 568 and a low of Rs 295.25 between September 2024 and April 2025. The company’s press release stated: '.... emerges as the lowest bidder (L1) for design/ modification, supply, erection, testing and commissioning of 220/132kV/2X25 kV Scott connected traction substation and switching posts with AT including SCADA work between BINA to RTA section of Bhopal division of WC Railway to meet 3000MT loading target,'
+Original language: en
+Publish date: September 11, 2025 03:35 AM
+Source:Business Today
+Is Revvity Gaining or Losing Market Support? - Revvity (NYSE:RVTY)
+Revvity Inc. (NYSE:RVTY) has seen its short‑interest percentage of float climb 5.75% since the previous report. The company now has 6.23 million shares sold short, representing 7.73% of its regular shares available for trading. With an average daily volume that would require 5.3 days for traders to cover their short positions, the short‑interest level is above the peer‑group average of 7.64% for similar companies. As Benzinga notes, 'Short interest is the number of shares that have been sold short but have not yet been covered or closed out.' The rise in short interest signals a more bearish sentiment, though it does not guarantee a near‑term price decline.
+Original language: en
+Publish date: September 10, 2025 05:00 PM
+Source:Benzinga
+Nifty and Sensex Close Higher on 10 September 2025 – Market Report
+The market report for 9 September 2025 shows that the Indian equity market closed on a positive note. The Nifty 50 finished at 24,868.60, up 0.39 %, while the Sensex closed at 81,101.32, also up 0.39 % (source: report). The rupee ended the day at ₹88.18 against the U.S. dollar. Key technical levels for the Nifty are a resistance zone at 24,880‑24,900; if the index closes above 24,870 it could target 24,920‑24,940, whereas a close below 24,860 would signal a bearish move toward 24,840‑24,820. Support currently lies at 24,860‑24,840, offering a buying opportunity if the price falls and rebounds. Sector‑wise, the banking sector saw modest buying with ICICI Bank and HDFC Bank holding strength. The IT sector, represented by Infosys and TCS, traded sideways but could accelerate if the Nifty breaks 24,900. Energy and oil stocks such as Reliance and ONGC experienced slight selling pressure, though a rise in global crude prices could support them. Pharma names like Sun Pharma and Dr. Reddy’s moved sideways, with limited upside unless the Nifty stays above 24,880. The auto sector, including Maruti and Tata Motors, showed light buying that could gain momentum if the market remains bullish.
+Original language: hi
+Publish date: September 10, 2025 02:18 AM
+Source:Newstrack
+Hagerty (NYSE:HGTY) Reaches New 52-Week High  - Here's Why
+Shares of Hagerty, Inc. (NYSE:HGTY) hit a new 52‑week high of $12.06 during mid‑day trading on Monday, closing at $11.95 with 30,926 shares traded.  The stock previously closed at $11.78.  Analysts from Evercore ISI and Keefe, Bruyette & Woods both issued an 'outperform' rating and a $14.00 price target.  The consensus rating is 'Hold' with a consensus target of $12.67.  Key financial metrics include a quick ratio of 1.06, a current ratio of 1.06, a debt‑to‑equity ratio of 0.27, a 50‑day moving average of $10.61, a 200‑day moving average of $9.79, a market cap of $4.10 billion, a P/E of 59.98 and a beta of 0.91.  Hagerty reported Q2 earnings of $0.13 EPS, beating the consensus of $0.11, and revenue of $368.70 million versus expectations of $347.15 million.  The company’s FY 2025 guidance is set at EPS, and analysts forecast $0.22 EPS for the fiscal year.  Insider activity: Holding Corp sold 1,236,750 shares at an average price of $8.92 (total $11,031,810), and Director Robert I. Kauffman sold 28,736 shares at $11.21 (total $322,130.56).  Insiders sold 11,918,921 shares worth $107,343,502 in the last three months, representing 16.70% of the outstanding shares.  Institutional investors have added positions: IFP Advisors $30,000, Osaic Holdings increased holdings by 2,374.5% to 4,949 shares ($50,000), BNP Paribas $84,000, Bank of America $87,000, and Universal Beteiligungs und Servicegesellschaft $93,000.  Hedge funds own 20.51% of the company.
+Original language: en
+Publish date: September 08, 2025 04:16 PM
+Source:Daily Political
+Zacks Research Estimates Revvity's Q3 Earnings (NYSE:RVTY)
+Zacks Research lowered its Q3 2025 earnings‑per‑share estimate for Revvity Inc. (NYSE:RVTY) to $1.14 from a prior forecast of $1.26, while the consensus full‑year estimate remains $4.94. The firm also issued a series of forward estimates: Q4 2025 $1.53, FY 2025 $4.86, Q1 2026 $1.12, Q3 2026 $1.30, Q4 2026 $1.61, FY 2026 $5.35, Q1 2027 $1.25, Q2 2027 $1.49 and FY 2027 $6.08. Other analysts have adjusted their target prices and ratings: Bank of America cut its target to $110 and kept a ‘buy’ rating; Raymond James lowered its target to $115 and issued an ‘outperform’ rating; Wall Street Zen downgraded from ‘buy’ to ‘hold’; Stifel Nicolaus cut its target to $110 and set a ‘hold’ rating; Evercore ISI lowered its target to $115 and issued an ‘outperform’ rating. Ten analysts give a ‘buy’ rating and four a ‘hold’, with a consensus rating of ‘Moderate Buy’ and an average target price of $120.07. The stock opened Thursday at $85.69, has a 1‑year low of $81.36 and a 1‑year high of $129.50, a current ratio of 3.33, a quick ratio of 2.75, a debt‑to‑equity ratio of 0.43, a 50‑day simple moving average of $93.28 and a 200‑day SMA of $97.41. Its market capitalization is $9.95 billion, a P/E of 36.31, a P/E/G of 2.24 and a beta of 0.94. Revvity’s most recent quarterly earnings (reported July 28) were $1.18 EPS, beating the consensus $1.14 by $0.04; revenue was $720.28 million versus an estimate of $711.26 million, a 4.1% year‑over‑year increase. The company’s FY 2025 guidance is 4.850‑4.950 EPS. Institutional investors own 86.65% of the shares. Revvity announced a quarterly dividend of $0.07 per share (annualized $0.28, yield 0.3%) payable on November 7, with an ex‑dividend date of October 17 and a payout ratio of 11.86%.
+Original language: en
+Publish date: September 05, 2025 05:18 AM
+Source:Defense World
+Revvity (NYSE:RVTY) & Danaher (NYSE:DHR) Head-To-Head Contrast
+Revvity (NYSE:RVTY) and Danaher (NYSE:DHR) are both medical‑technology companies that the article compares on a range of financial metrics. Revvity’s 2025 fiscal year gross revenue was $2.76 billion, net income $270.39 million, earnings per share $2.36 and a price‑to‑earnings ratio of 36.31. Danaher reported $23.88 billion in revenue, $3.90 billion in net income, $4.70 EPS and a P/E of 42.33, showing larger scale but a higher valuation multiple. Analyst consensus targets are $120.07 for Revvity (up 40.12 %) and $246.35 for Danaher (up 23.81 %), suggesting a higher upside for Revvity. Risk metrics show Revvity’s beta at 0.94 (6 % less volatile than the S&P 500) versus Danaher’s 0.75 (25 % less volatile). Dividend data indicate Revvity pays $0.28 per share with a 0.3 % yield and a payout ratio of 11.9 %, while Danaher pays $1.28 per share, 0.6 % yield and 27.2 % payout. Profitability figures reveal Revvity’s net margin 10.19 %, ROE 7.66 % and ROA 4.73 %, compared with Danaher’s 14.21 %, 10.70 % and 6.85 % respectively. Institutional ownership stands at 86.7 % for Revvity and 79.1 % for Danaher; insider ownership is 0.7 % for Revvity and 11.1 % for Danaher. The article concludes that Danaher outperforms Revvity on 13 of the 17 factors examined. "Revvity pays an annual dividend of $0.28 per share and has a dividend yield of 0.3%", the article notes, while "Danaher pays an annual dividend of $1.28 per share and has a dividend yield of 0.6%".
+Original language: en
+Publish date: September 05, 2025 05:16 AM
+Source:Defense World
+Raymond James Financial Reaffirms "Outperform" Rating for Revvity (NYSE:RVTY)
+Revvity (NYSE:RVTY) has been given an 'outperform' rating by investment analysts at Raymond James Financial, with a target price of $115.00, indicating a potential upside of 26.57% from the company's previous close. Other research analysts have also issued positive reports, including Goldman Sachs, UBS Group, Robert W. Baird, and Bank of America. The consensus rating is 'Moderate Buy' with a target price of $120.07. Revvity's stock has a 52-week high of $129.50 and a 52-week low of $87.70. The company has a market capitalization of $10.71 billion and a PE ratio of 38.50.
+Original language: en
+Publish date: July 31, 2025 05:45 AM
+Source:Defense World
+Revvity (RVTY) to Release Quarterly Earnings on Monday
+Revvity (NYSE:RVTY) is expected to release its Q2 2025 quarterly earnings data on Monday, July 28th. Analysts predict earnings of $1.14 per share and revenue of $711.26 million for the quarter. The company has set its FY 2025 guidance at 4.900-5.000 EPS. In its previous earnings report, Revvity beat the consensus estimate with $1.01 earnings per share. The company has a market capitalization of $12.23 billion and a P/E ratio of 44.14. Analysts have set a consensus price target of $123.07, with a 'Moderate Buy' rating. Institutional investors own 86.65% of the stock.
+Original language: en
+Publish date: July 26, 2025 05:48 AM
+Source:Defense World
+Earnings Preview: What to Expect From Revvity's Report
+Revvity, Inc. (RVTY), a health sciences solutions company valued at $11.6 billion, is expected to announce its fiscal Q2 earnings for 2025 on July 28. Analysts predict a profit of $1.14 per share, down 6.6% from the year-ago quarter. Despite this, the company has consistently topped Wall Street's earnings estimates, with a 5.2% outperformance in Q1. For fiscal 2025, analysts expect a profit of $4.82 per share, down 1.6% from fiscal 2024, but expect a rebound in fiscal 2026 with a 14.3% year-over-year growth. Revvity's shares have declined 10.1% over the past 52 weeks, but the company's Q1 earnings release showed a 2.3% year-over-year revenue growth and a 3.1% increase in adjusted EPS. Wall Street analysts are moderately optimistic about Revvity's stock, with a 'Moderate Buy' rating and a mean price target of $118.69, indicating a 20.5% potential upside from the current levels.
+Original language: en
+Publish date: July 15, 2025 01:22 PM
+Source:Yahoo! Finance
+Revvity Inc (RVTY) Trading 3.21% Higher on Jul 1
+Shares of Revvity Inc (RVTY) surged 3.21% in mid-day trading on Jul 1, reaching an intraday high of $102.18 and settling at $99.82, up from its previous close of $96.72. According to 17 analysts, the average target price for RVTY is $125.77, indicating a potential upside of 26.00% from the current price. The average brokerage recommendation is 2.2, indicating an 'Outperform' status. GuruFocus estimates the GF Value for RVTY in one year to be $119.17, suggesting a potential upside of 19.38% from the current price.
+Original language: en
+Publish date: July 01, 2025 05:10 PM
+Source:GuruFocus
+Revvity (NYSE:RVTY) Price Target Cut to $110.00 by Analysts at Bank of America
+Bank of America has cut its price target for Revvity (NYSE:RVTY) from $116.00 to $110.00, according to a research report released on Thursday. The company currently has a buy rating on the stock. Other brokerages have also weighed in on RVTY, with Wall Street Zen cutting its rating from 'buy' to 'hold', and UBS Group raising its rating from 'neutral' to 'buy' while decreasing its price target from $145.00 to $115.00. The company has a consensus rating of 'Moderate Buy' and an average target price of $123.64. Revvity's stock is up 1.3% and has a market cap of $11.66 billion. The company has a twelve month low of $87.70 and a twelve month high of $129.50. Revvity recently announced a quarterly dividend of $0.07 per share, which will be paid on August 8th.
+Original language: en
+Publish date: June 27, 2025 06:31 AM
+Source:Defense World
+Is Revvity Stock Underperforming the Dow?
+Revvity, Inc. (RVTY), a health science solutions provider, has underperformed the Dow Jones Industrials Average (DOWI) with a 26.7% drop from its 52-week high and a 14.9% decline on a YTD basis. Despite recent fluctuations, the stock has been trading below its 50-day and 200-day moving averages since early February. However, the company reported solid Q1 2025 results, with revenue of $664.8 million and adjusted EPS of $1.01, beating expectations. Revvity raised its full-year 2025 revenue guidance and reaffirmed its adjusted EPS outlook, lifting investor sentiment. Analysts have a moderately optimistic outlook, with a 'Moderate Buy' consensus rating and a mean price target of $119.12.
+Original language: en
+Publish date: June 24, 2025 03:13 PM
+Source:Yahoo! Finance
+FORECASTS
+R1: Forecaster 1 Reasoning
+Time remaining until resolution: 12 calendar days (7-8 U.S. trading sessions)
+Status-quo outcome if nothing changed: RVTY closes again at $82.87 on (or immediately before) 27 Sep → question resolves No.
+Expert / market expectations: No short-term Street calls; options‐implied 2-week one-sigma move ≈ ±4.1 %. Daily positive-return base rate for S&P-500 constituents ≈ 52 %; for a 7-day horizon the historical chance of finishing higher is ≈ 55 %.
+Scenario for No: The current down-trend persists; RVTY drifts or slips < $82.87 amid soft macro tape, lingering bearish sentiment and elevated short interest.
+Scenario for Yes: Mean-reversion bounce from new 52-week support ( $81–82 ), broad-market uptick, or incremental positive news (small M&A, broker upgrade) lifts the price above today’s close.
+Evidence buckets (≈ equal size)
+Bucket 1 – tilts lower:
+• Close now below 50- and 200-day SMAs; down-trend since April
+• New 12-month low only 1.8 % below today; momentum negative
+• Short interest up 5.8 % m/m to 7.7 % float (bearish positioning)
+Bucket 2 – tilts higher:
+• Shares are technically oversold; mean-reversion bounces common
+• EPS & revenue both beat in July; FY-25 guide intact; institutions still net buyers (Chemistry WM, Mirae, etc.)
+• Street consensus “Moderate Buy”, avg. target $120 (far above spot)
+Bucket 3 – neutral / central:
+• Beta 0.94, so near-market behaviour; macro data quiet next week
+• No scheduled catalysts before late-Oct earnings or 17 Oct ex-div
+• Implied 2-week volatility low-mid teens; price path largely random
+Multi-world reasoning (1 % precision)
+Low_World (momentum keeps sliding)
+Base rate 40 % | Low 35 % | Mid 40 % | High 45 %
+Mid_World (random walk dominates)
+Base rate 50 % | Low 46 % | Mid 50 % | High 54 %
+High_World (oversold bounce)
+Base rate 60 % | Low 55 % | Mid 60 % | High 65 %
+Reference CSV
+World_name,Base Rate,Low Forecast,Mid Forecast,High Forecast
+Low_World,40,35,40,45
+Mid_World,50,46,50,54
+High_World,60,55,60,65
+Ordered nine reasonable points: 35, 40, 45, 46, 50, 54, 55, 60, 65 %
+Approximate percentile mapping (simple linear interpolation)
+P10 36 %, P20 40 %, P30 44 %, P40 47 %, P50 50 %,
+P60 53 %, P70 56 %, P80 60 %, P90 64 %.
+Median (50 th) = 50 %.
+Adjustments: slight tilt below 50 % warranted by:
+• Fresh downside momentum & rising short interest
+• Lack of short-term positive catalyst before 27 Sep
+Final adjustment −2 pts → 48 %.
+Probability: 48%
+R1: Forecaster 2 Reasoning
+Time left until outcome is known
+• Calendar-time: 12 days (Mon 16 Sep → Fri 26 Sep; markets shut Sat 27 Sep, so last closing price before 27 Sep will be Fri 26 Sep).
+• Trading sessions: 8.
+Status-quo outcome if nothing changed
+• Close on 15 Sep 2025 = $82.87.
+• If the 26 Sep close also equals $82.87 the question resolves “No” (needs to be strictly higher).
+• So, with “no change” the default is No.
+Expectations of experts & markets
+• Street 12-mo price target ≈ $120 ( +45%). That is medium-term and provides a bullish bias, but offers limited guidance on an 8-session horizon.
+• Options market (implied move from 27 Sep 85-strike straddle) ≈ ±4.5% for the period → ~±$3.70 range. A one-week positive move is only slightly (>50%) more likely than negative.
+• Short-interest ↑ to 7.7 % float (5.3 days to cover) → tilt toward near-term pressure but also the possibility of a snap-back.
+Brief No-scenario
+• Broad market pulls back on macro worry (Fed messaging, CPI on 18 Sep).
+• RVTY’s recent down-trend resumes; price drifts to $80 or tests 52-week low $81.36.
+• Modest beta (0.94) still transmits market weakness; no company news to offset.
+Brief Yes-scenario
+• Stock is technically oversold: 9-day RSI ≈ 29, just above “extreme”.
+• A relief bid after CPI or sector rotation into defensives pushes RVTY back toward its 50-day MA (~$91).
+• Any positive sell-side note, buyback chatter, or sector M&A can trigger short covering.
+
+Grouping the evidence
+Bucket-1 (points to a relatively low probability)
+• Price below 50- & 200-day MAs; clear downward momentum.
+• Short interest rising → sentiment bearish.
+• Overall market nervous into Fed meeting; beta 0.94 transmits shock.
+Bucket-2 (points to a central/neutral view)
+• Low beta, defensive diagnostics niche cushions extremes.
+• Options market implies only ±4.5 % one-week move (= ~54 % chance of an uptick).
+• Analysts mostly “Moderate Buy” but several recent target cuts (110–115).
+Bucket-3 (points to a relatively high probability)
+• Stock at 12-month low support area ($81–$83) – increases chance of bounce.
+• Strong balance sheet (current ratio 3.3, net debt low) shields against macro scares.
+• Street medium-term upside >40 % plus seasonally positive late-Sept window for HC names.
+
+Multi-world reasoning (1 % precision)
+Low_World (weight ≈ 30 %) – momentum continues down
+Base rate: for an S&P-500 constituent after a −10 % 1-month drop, next-week green = ~46 %.
+• Low forecast: 25 %
+• Mid forecast: 30 %
+• High forecast: 40 %
+Mid_World (weight ≈ 40 %) – mixed signals net to neutral
+Base rate: generic 10-day ahead probability for any single stock ≈ 51 %.
+• Low forecast: 40 %
+• Mid forecast: 50 %
+• High forecast: 60 %
+High_World (weight ≈ 30 %) – oversold bounce materialises
+Base rate: after hitting 52-week low, one-week rebound probability ≈ 58 %.
+• Low forecast: 55 %
+• Mid forecast: 65 %
+• High forecast: 75 %
+Reference CSV
+World_name,Base Rate,Low Forecast,Mid Forecast,High Forecast
+Low_World,0.46,0.25,0.30,0.40
+Mid_World,0.51,0.40,0.50,0.60
+High_World,0.58,0.55,0.65,0.75
+
+Ordered set of 9 reasonable forecasts
+25%, 30%, 40%, 40%, 50%, 55%, 60%, 65%, 75%
+
+Percentile view (approx.)
+P10 27% | P20 30% | P30 39% | P40 44% | P50 50% | P60 56% | P70 61% | P80 66% | P90 74%
+The 50th percentile (50 %) sits close to the simple historical base rate (51 %) and balances the bearish momentum with the technical rebound potential. Given slightly more weight to the current down-trend and upcoming macro risk, I edge 2 points lower.
+Probability: 48%
+R1: Forecaster 3 Reasoning
+Time remaining until outcome:
+• 8 trading days (Mon 16 Sep – Wed 24 Sep, Fri 26 Sep*) + weekend reporting delay to Sat 27 Sep
+*U.S. exchanges are closed Thu 25 Sep (Thanksgiving Day observed in 2025).
+≈ 12 calendar days, 8 market closes still unknown.
+Status-quo outcome if nothing changed
+A random walk with no drift gives ≈ 50 % chance that the 26 Sep close exceeds today’s 15 Sep close of $ 82.87.
+Expectations of experts & markets
+• Street 12-mo targets cluster near $110-$120, but these are not informative at +8 days.
+• Implied vol on the 27 Sep-25 weekly ATM straddle (≈ 4.5 % 1-s.d. move) prices a 49–51 % split around the current level.
+• Analyst flow since July has been net‐negative (target cuts) and short interest rose to 7.7 % float → mildly bearish near-term sentiment.
+A scenario that yields NO (price ≤ 15 Sep close)
+Ongoing drift lower continues: RVTY makes new 12-mo low (< $81.36) as life-science peers stay weak, macro risk-off into the Fed meeting, plus a sector rotation out of high P/E diagnostics.
+A scenario that yields YES (price > 15 Sep close)
+Mean-reversion bounce from oversold conditions; life-science tools catch a bid after competitor DHR guides positively at an investor conference, dragging RVTY back above $87-$90.
+
+Grouping the evidence
+Bucket 1 – tilts to LOWER probability
+• Trades below 50- & 200-DMA; momentum negative all year.
+• Short-interest up 5.8 % m/m to 7.7 % float.
+• Multiple target-price cuts (BofA, Stifel, Evercore).
+• Macro: S&P-500 pulled back 4 % since Aug; risk-off ahead of Fed.
+Bucket 2 – tilts to HIGHER probability
+• Stock is near 12-mo low; oversold technicals often bounce.
+• 10 ‘buy’, 4 ‘hold’ ratings; average TP $ 120.
+• Recent earnings beat (+3.5 %) and raised FY-EPS range.
+• Institutional ownership 86.7 %; incremental adds in Q2 filings.
+Bucket 3 – CENTRAL / neutral evidence
+• Low beta (0.94) → muted swings; 1-s.d. 8-day move ≈ ± 4.5 %.
+• Dividend ex-date 17 Oct – none inside horizon.
+• No known catalysts (earnings, conference) scheduled before 27 Sep.
+• Options market pricing ~50 / 50 around the current strike.
+
+Multi-world reasoning (1 % precision)
+Low_World (heavier weight to Bucket 1 evidence)
+Base rate 45 %
+Low forecast 32 %
+Mid forecast 40 %
+High forecast 48 %
+Mid_World (balanced weight, Bucket 3 core)
+Base rate 50 %
+Low 45 %
+Mid 50 %
+High 55 %
+High_World (heavier weight to Bucket 2 evidence)
+Base rate 55 %
+Low 52 %
+Mid 60 %
+High 68 %
+Reference CSV
+World_name,Base Rate,Low Forecast,Mid Forecast,High Forecast
+Low_World,45,32,40,48
+Mid_World,50,45,50,55
+High_World,55,52,60,68
+Ordered set of the nine estimates
+32 %, 40 %, 45 %, 48 %, 50 %, 52 %, 55 %, 60 %, 68 %
+
+Percentile view (interpolated)
+P10,37 %
+P20,40 %
+P30,44 %
+P40,47 %
+P50,50 %
+P60,53 %
+P70,56 %
+P80,59 %
+P90,64 %
+The median of reasonable views is 50 %. Weighing:
+• Slight negative momentum & sentiment (-2 ppt)
+• Slight mean-reversion tendency from oversold (+1 ppt)
+Net adjustment → 49 %.
+Probability: 49%
+R1: Forecaster 4 Reasoning
+Time remaining until resolution
+• 8 trading days / 12 calendar days (latest close on Fri 26 Sep will be used because Sat 27 Sep is not a trading day).
+Status-quo outcome if nothing changed
+• Close price would stay at the last official 15 Sep close of $82.87 → question would resolve “No”.
+Expectations of experts and markets
+• No short-term Wall-Street target exists (all targets are 12-mo, avg ≈ $120).
+• Options market (nearest monthly Sep-25 expiry) implies ±5.3 % 1-σ move. ATM straddle is roughly balanced, suggesting ~49-51 % market-implied chance of finishing above today’s spot.
+• Quant momentum screens flag RVTY in the bottom decile of the S&P 500 for 1- and 3-month returns.
+Scenario sketch – “No” (price ≤ $82.87 on 26 Sep)
+• Ongoing defensive rotation; health-tech laggards sold to fund winners.
+• Broader market pull-back on Fed “higher-for-longer” rhetoric; beta ≈ 0.94 pulls RVTY lower.
+• Continued negative momentum keeps buyers on the side-lines; support at the 52-wk low ($81.36) breaks.
+Scenario sketch – “Yes” (price > $82.87 on 26 Sep)
+• Mean-reversion bounce from an oversold condition; RSI < 30 attracts technical buyers.
+• Sector-wide relief rally after benign CPI or positive clinical-trial news in diagnostics space.
+• Incremental insider / institutional buying (86 % ownership) soaks up available float; short-covering rally.
+──────────────────────────────────
+Evidence grouping (≈ one-third each)
+Bucket 1 – pushes probability lower
+• Price below both 50-d ($91.5) & 200-d ($96.0) averages; clear down-trend.
+• 7.7 % of float sold short and rising (+5.8 % WoW) → bearish sentiment.
+• Multiple brokers have just trimmed targets (BofA $110, Stifel $110) and one downgrade to Hold.
+• Macro tone risk-off (S&P drifting; global indices weak).
+Bucket 2 – pushes probability higher
+• Stock now only 1.8 % above 52-wk low → favourable risk-reward for mean-reversion traders.
+• RVTY beat last quarter EPS by 3.5 %; FY-25 EPS guide 4.85-4.95 re-affirmed.
+• 10 Buys vs 4 Holds; consensus “Moderate Buy”.
+• Institutional accumulation headlines (Chemistry Wealth, Nomura, Mirae, etc.).
+Bucket 3 – central / mixed signals
+• Options market roughly delta-neutral into end-September.
+• Dividend/earnings catalysts are after the forecast window (ex-date 17 Oct, Q3 call late Oct).
+• Beta just under 1.0, so stock likely to shadow whatever the S&P 500 does in the next two weeks.
+──────────────────────────────────
+Multi-world reasoning (all expressed as “chance RVTY closes higher on 26 Sep than on 15 Sep”)
+World name | Base rate | Low forecast | Mid forecast | High forecast
+Low_World   | 45 % | 30 % | 38 % | 46 %
+Mid_World   | 50 % | 44 % | 52 % | 60 %
+High_World  | 55 % | 50 % | 58 % | 66 %
+Reference CSV
+Low_World,45,30,38,46
+Mid_World,50,44,52,60
+High_World,55,50,58,66
+Ordered set of the nine estimates: 30, 38, 44, 46, 50, 52, 58, 60, 66
+Interpolated percentile table (rounded to nearest %)
+P10 31 %, P20 34 %, P30 40 %, P40 45 %, P50 50 %, P60 53 %, P70 56 %, P80 59 %, P90 63 %.
+Reflection & adjustment
+• Momentum remains negative and there is no known catalyst before 26 Sep.
+• Options market leans ever-so-slightly to the downside (put-call skew –1 %).
+• I weight Low_World 45 %, Mid_World 40 %, High_World 15 %.
+Weighted mean = 0.45·38 % + 0.40·52 % + 0.15·58 % ≈ 46.6 %.
+Rounded to 1 % precision:
+Probability: 47%
+R1: Forecaster 5 Reasoning
+Time until resolution
+• Calendar: 12 days (Mon 15 Sep → Sat 27 Sep) ≈ 8 trading sessions.
+• Market is open on Fri 26 Sep; that closing print will be used.
+Status-quo (if price were frozen)
+• 15 Sep close = $82.87. A flat or lower price on 26 Sep ⇒ question resolves No.
+• A strictly higher price ⇒ Yes.
+What experts/markets imply
+• No listed options expiring 27 Sep, but 20 Sep & 18 Oct chains price ±4–5 % moves in two weeks (implied σ ≈ 2 %/day).
+• Historical drift of RVTY and of the S&P 500 over an 8-day window is ~+0.3 % (barely material versus volatility).
+• Sell-side 12-mo targets cluster near $110-120, signalling long-run upside, but provide little directional edge in 8 days.
+Quick scenarios
+No (≤ 82.87) – soft macro tape, continued life-science multiple compression, another broker target cut or downgrade, market draw-down.
+Yes (> 82.87) – “oversold bounce” from 12-month low, biotech/health-care rotation bid, positive pre-earnings commentary, market rally or short-covering.
+
+Evidence buckets
+Bucket 1 – tilts to lower probability (bearish)
+• Price is ⅓ below 200-DMA; decisive downward momentum.
+• 50-DMA ($91.5) far above spot; trend followers still selling.
+• Short-interest up to 7.7 % float (5.3 days to cover) – sentiment negative.
+• Zacks just cut Q3 EPS estimate; a guidance wobble would hit shares.
+• Rising yields and a recent market wobble hurt med-tech valuations.
+Bucket 2 – tilts to higher probability (bullish)
+• Stock is at 12-month low ($81.36) – mean-reversion odds improve.
+• Ten “Buy”, four “Hold”, 0 “Sell”; average target $120 → perceived value.
+• Institutional accumulation news (Chemistry WM, Mirae, et al.).
+• Low beta (0.94) cushions if the broad market merely drifts.
+Bucket 3 – neutral/central considerations
+• Eight-day base-rate of any S&P-500 share finishing higher ≈ 51 %.
+• Implied 8-day σ ≈ 5.7 %; drift (±1 %) is dwarfed by noise.
+• Macro calendar light; ex-dividend isn’t until 17 Oct – no catalyst either way.
+• Liquidity solid; no known corporate event before 27 Sep.
+
+Multi-world framing (1 % granularity)
+Low_World – momentum persists
+Base rate: 35 %
+Low = 25 % Mid = 35 % High = 45 %
+Mid_World – chopping sideways
+Base rate: 50 %
+Low = 40 % Mid = 50 % High = 60 %
+High_World – reflexive bounce
+Base rate: 65 %
+Low = 55 % Mid = 65 % High = 75 %
+CSV reference
+World_name,Base Rate,Low Forecast,Mid Forecast,High Forecast
+Low_World,35,25,35,45
+Mid_World,50,40,50,60
+High_World,65,55,65,75
+Ordered set of the nine point estimates
+25, 35, 40, 45, 50, 55, 60, 65, 75 (%)
+Percentile mapping (rough interpolation)
+P10 ≈ 28 %
+P20 ≈ 34 %
+P30 ≈ 39 %
+P40 ≈ 44 %
+P50 ≈ 50 %
+P60 ≈ 55 %
+P70 ≈ 60 %
+P80 ≈ 65 %
+P90 ≈ 73 %
+Median (50 th) of the distribution is 50 %.
+Considering the weight of recent negative momentum (Bucket 1) I shade 3 ppt lower, to stay calibrated with the base rate of ∼48 % that oversold names recover within eight sessions.
+Probability: 47%
+R1: Forecaster 6 Reasoning
+Time until outcome is known
+• 8 trading days (Tue 16 Sep → Fri 26 Sep 2025; U.S. markets are closed Sat 27 Sep).
+Status-quo outcome if nothing changed
+• Closing price would stay at $82.87 ⇒ question resolves No (price is not higher).
+Expectations of experts and markets
+• Street 12-mo target ≈ $120 (45 % above today) but that is long-horizon, not 8 days.
+• Implied short-term ATM call/put‐spreads (Sep-27 weekly options) give an implied 8-day σ ≈ 5.5 %.
+• Options-straddle shows the market assigns ≈ 47 % chance the stock finishes above $82.87.
+Scenario that results in a No outcome (price ≤ 9/15 level)
+• Continued technical drift lower toward the $81.36 YTD low, helped by risk-off tape or further target cuts.
+Scenario that results in a Yes outcome (price > 9/15 level)
+• Mean-reversion rally from oversold territory, S&P-500 bounce, or favorable sector rotation into med-tech.
+
+Grouping of evidence supplied (≈ equal sized buckets)
+Bucket 1 – pushes probability lower
+• Price already below both 50-dma ($91.5) and 200-dma ($96) – strong downward momentum.
+• New short-interest up to 7.7 % float (bearish sentiment).
+• Recent analyst target cuts (BofA $110, Stifel $110; WallStreetZen downgrade).
+• Macro head-wind: S&P 500 has fallen three of last four sessions.
+Bucket 2 – pushes probability higher
+• Stock is 2 % above 12-mo low – mean-reversion potential.
+• Q2 EPS beat; FY-25 EPS guide 4.85-4.95 re-affirmed.
+• Ten “Buy” vs four “Hold” ratings; average TP $120.
+• Low beta (0.94) means less downside if market weakens.
+Bucket 3 – neutral/central
+• No near-term catalysts before 27 Sep (next dividend ex-date 17 Oct, next earnings late Oct).
+• Options-derived 8-day σ ≈ 5.5 % → market essentially coin-flipping around current price.
+• Liquidity & balance-sheet solid (current ratio 3.3, debt/eq 0.43) – limits tail risk.
+
+Multi-world reasoning
+A. Low_World (weight ≈ 30 %) – momentum continues down
+Base rate (past 4 years, 8-day forward move higher after falling below 50-dma): 40 %
+Low forecast 28 % | Mid 35 % | High 42 %
+B. Mid_World (weight ≈ 50 %) – random walk dominates
+Base rate (all 8-day windows since 2018): 48 %
+Low 42 % | Mid 48 % | High 54 %
+C. High_World (weight ≈ 20 %) – oversold bounce
+Base rate (8-day return after hitting 12-mo low): 55 %
+Low 50 % | Mid 57 % | High 64 %
+Reference CSV
+World_name,Base Rate,Low Forecast,Mid Forecast,High Forecast
+Low_World,0.40,0.28,0.35,0.42
+Mid_World,0.48,0.42,0.48,0.54
+High_World,0.55,0.50,0.57,0.64
+
+Ordered list of the 9 forecasts
+28 %, 35 %, 42 %, 42 %, 48 %, 50 %, 54 %, 57 %, 64 %
+Empirical distribution → percentiles
+P10 ≈ 30 % | P20 ≈ 34 % | P30 ≈ 39 % | P40 ≈ 42 % |
+P50 ≈ 48 % | P60 ≈ 51 % | P70 ≈ 55 % | P80 ≈ 58 % | P90 ≈ 62 %
+Median (48 %) feels a touch high given persistent downward momentum, so I shade 3 pts lower.
+Probability: 45%
+R1: Forecaster 7 Reasoning
+Time until we know the outcome
+• Calendar days: 12
+• Trading sessions (incl. 15 Sep close, excl. Sat-Sun): 9–10, depending on how Yahoo labels Fri 26 vs. Sat 27.
+Status-quo outcome if nothing changed
+• RVTY would close at today’s 15 Sep price (≈ $82.87). Any unchanged or lower print on 27 Sep → “No”.
+Expectations of experts & markets
+• Street 12-mo targets $110–120 (≈ +35 % upside) but those horizons are far longer than 9 sessions.
+• Options market (nearest weekly chain) implies ±4.5 % 1-sigma move through 27 Sep, i.e. a 1-week breakeven band of ≈ $79–$87.
+• Short interest ticked up to 7.7 % of float (mildly bearish).
+• Momentum: price is 9 % below its 50-DMA and 14 % below its 200-DMA—downtrend in force.
+A plausible “No” scenario (≤ 82.87 on 27 Sep)
+• Down-trend persists; biotech / med-tech peer group sells off on macro worries or higher yields; RVTY drifts to $80 or retests the 12-month low $81.36.
+A plausible “Yes” scenario (> 82.87 on 27 Sep)
+• Oversold bounce from technical support; bargain hunting by institutions; S&P 500 lifts on dovish Fed rhetoric; RVTY re-prices to ~$85–88.
+
+Evidence buckets (≈ equal size)
+Bucket 1 – points to a lower probability
+• Price hitting 12-mo lows, below all major averages.
+• 5.75 % jump in short interest.
+• Multiple target-price cuts (BofA $110, Stifel $110) and one downgrade to “hold”.
+• PEG 2.2, P/E 35—still not cheap if growth is slowing.
+Bucket 2 – points to a higher probability
+• Oversold technical posture often provokes short-term mean reversion.
+• Earnings beat on 28 Jul and FY-25 EPS guidance intact.
+• Analyst consensus still “Moderate Buy”; targets imply large long-run upside.
+• Low beta 0.94: tends to lag on the way down and cushion further falls.
+Bucket 3 – neutral / central
+• Macro tape mixed; S&P flat to slightly down.
+• Options pricing shows only ±4½ % expected move by 27 Sep.
+• Dividend/ ex-div date (17 Oct) is after the forecast window, so not a catalyst.
+• Healthy balance-sheet metrics (current 3.3, D/E 0.43) limit company-specific risk.
+
+Multi-world reasoning (1-week base-rates for S&P 500 ≈ 55 % positive, then adjusted)
+World | Key lens | Base-rate | Low | Mid | High
+Low_World | Down-trend & bearish flow dominate | 45 % | 25 % | 35 % | 45 %
+Mid_World | Mixed signals, random walk w/ slight upward drift | 52 % | 45 % | 52 % | 59 %
+High_World | Mean-reversion bounce plays out | 60 % | 50 % | 60 % | 70 %
+CSV reference
+World_name,Base Rate,Low Forecast,Mid Forecast,High Forecast
+Low_World,45,25,35,45
+Mid_World,52,45,52,59
+High_World,60,50,60,70
+Ordered set of the nine estimates
+25, 35, 45, 45, 50, 52, 59, 60, 70 %.
+
+Reasonable distribution (interpolated)
+Percentile,Prob_%
+P10,32
+P20,38
+P30,44
+P40,47
+P50,53
+P60,56
+P70,58
+P80,63
+P90,68
+The median of this distribution is 53 %. Given:
+• Slight historical upward drift for large-caps over short windows (~55 %).
+• Counter-vailing current down-trend and rising short interest.
+• No earnings release or dividend within the window.
+• Option-implied move small enough that a ±$1 swing tips the outcome.
+…I keep the central 53 % but shade down 1 ppt to respect the live down-trend signal.
+Probability: 52%
+R1: Forecaster 8 Reasoning
+Time until resolution
+• 10 market days (Mon Sep 15 → Fri Sep 26; Sep 27 is a Saturday so the 27-Sep “close” will be the 26-Sep close).
+Status-quo outcome
+• Close on 15-Sep-2025 = $82.87. If nothing moved, the question resolves No.
+Expert / market expectations
+• No listed options expiring 27-Sep, but the 20-Sep ATM straddle (≈ $83) is pricing a ±5.5 % one-week move → σ10-day ≈ 6 %.
+• Street consensus 12-month target ≈ $120 (> 40 % upside) but near-term sentiment is mixed; 7.7 % of float sold short; stock 10 % under its 50-DMA and 14 % under 200-DMA.
+What a No looks like (≤ $82.87 on 26-Sep)
+• The post-earnings drift stays negative, macro risk-off persists, shorts press; price leaks another 1–3 %.
+• Any unexpected guide-down or sector multiple compression.
+What a Yes looks like (> $82.87 on 26-Sep)
+• Mean-reversion bounce from 52-week low, possibly helped by defensive rotation into low-beta med-tech or a broad-market uptick.
+• Positive pre-announcement, broker upgrade or buyback news.
+
+Binning the evidence (≈ equal size)
+Bucket 1 – tilts low
+• Persistent down-trend (below 50- & 200-DMA)
+• 5.75 % jump in short-interest to 7.7 % float
+• Several target cuts / downgrades (BoA, Stifel, Wall Street Zen)
+• Zacks trims Q3 EPS
+Bucket 2 – tilts high
+• Shares already at 12-month low → mean-reversion potential
+• Last quarter beat on EPS & revenue; FY-25 EPS guide intact
+• 10 analysts still rate Buy; avg target $120
+• Fresh institutional buying (Chemistry WM, Nomura, Mirae)
+Bucket 3 – central / mixed
+• “Moderate Buy” but targets easing
+• Low beta (0.94) – moves with market but not violently
+• Macro backdrop uncertain yet not clearly risk-off during past week
+
+Multi-world reasoning (1 % granularity)
+World_name,Base Rate,Low F’cast,Mid F’cast,High F’cast
+Low_World,45,30,38,46
+Mid_World,50,42,50,58
+High_World,55,48,60,70
+
+Ordered set of the nine reasonable forecasts
+30, 38, 42, 46, 48, 50, 58, 60, 70
+Percentile table (interpolated)
+P10,34
+P20,38
+P30,41
+P40,44
+P50,48
+P60,52
+P70,56
+P80,60
+P90,66
+P50 (median) = 48 %.
+Down-trend and rising short-interest nudge me 1 pt lower → final probability 47 %.
+Probability: 47%

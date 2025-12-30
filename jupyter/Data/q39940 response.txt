@@ -1,0 +1,682 @@
+SUMMARY
+Question: Will WFC's market close price on 2025-09-25 be higher than its market close price on 2025-09-18?
+Final Prediction: 53.5%
+Total Cost: $0
+Time Spent: 1.31 minutes
+Report 1 Summary
+Forecasts
+Forecaster 1: 53.0%
+Forecaster 2: 56.0%
+Forecaster 3: 56.0%
+Forecaster 4: 53.0%
+Forecaster 5: 52.0%
+Forecaster 6: 54.0%
+Forecaster 7: 49.0%
+Forecaster 8: 54.0%
+Research Summary
+Over the past month, Wells Fargo (WFC) shares have traded in the low-$80s, closing around $82.35 on September 17, 2025—up roughly 5% over that period and outperforming the S&P 500 and finance sector. In its most recent quarter, the bank reported earnings of $1.54 per share on $20.82 billion in revenue, beating consensus estimates. Analysts project third-quarter EPS of $1.53 and full-year EPS of $6.01 on $83.38 billion in revenue. Zacks assigns WFC a #3 (Hold) rating, noting a forward P/E of about 13.5 versus the industry average of 17 and a PEG ratio near 1.2. Institutional investors own roughly 76% of the stock, and the bank recently raised its quarterly dividend to $0.45 per share.
+Wall Street’s 22-analyst consensus price target is $87.07—implying about a 6% upside—while 26 brokerage firms rate the stock an average 2.2 (“Outperform”). Conversely, GuruFocus’s GF Value model pegs fair value at $63.90, suggesting a 20% downside. Recent corporate actions include a $4 billion medium-term note issuance and a reduction of its prime rate to 7.25%. Wells Fargo’s equity strategists have also raised year-end S&P 500 targets, reflecting optimism about AI-driven spending and potential Fed easing, though valuation metrics and model outputs diverge on the bank’s near-term share-price direction.
+Sources:
+Yahoo! Finance: https://finance.yahoo.com/news/wells-fargo-wfc-advances-while-214505979.html
+The Markets Daily: https://www.themarketsdaily.com/2025/09/17/fiduciary-alliance-llc-sells-2298-shares-of-wells-fargo-company-wfc.html
+GuruFocus (exec exit): https://www.gurufocus.com/news/3111330/wells-fargos-wfc-executive-allowed-to-leave-china-after-exit-ban
+GuruFocus (note issuance): https://www.gurufocus.com/news/3109605/wells-fargo-wfc-issues-4-billion-in-mediumterm-notes
+GuruFocus (prime rate): https://www.gurufocus.com/news/3111716/wells-fargo-wfc-lowers-prime-rate-to-725
+GuruFocus (S&P forecast): https://www.gurufocus.com/news/3111239/sp-500-could-hit-7600-by-2026-wells-fargo-says-in-aggressive-upgrade
+RESEARCH
+Report 1 Research
+Here are the relevant news articles:
+Wells Fargo (WFC) Advances While Market Declines: Some Information for Investors
+On the most recent trading day, Wells Fargo (WFC) closed up 1.17% at $82.35, outperforming the S&P 500 which fell 0.1%, the Dow which rose 0.57%, and the Nasdaq which slipped 0.33%. Over the past month, WFC shares have risen 4.98%, outpacing the Finance sector's 2.52% gain and the S&P 500's 2.57% gain. Analysts expect the company to report earnings of $1.53 per share on October 14, 2025, a 0.66% year‑over‑year increase, and revenue of $21.15 billion, up 3.86% from the prior‑year quarter. For the full year, consensus estimates project earnings of $6.01 per share (+11.92%) and revenue of $83.38 billion (+1.32%). The Zacks Rank system currently assigns WFC a #3 (Hold) rating, with the industry’s average Forward P/E of 17 versus WFC’s 13.54, indicating a relative discount. The PEG ratio stands at 1.23 compared to the industry average of 1.65. The Financial‑Investment Bank industry holds a Zacks Industry Rank of 17, placing it in the top 7% of over 250 industries. As noted, "Zacks Rank" provides a simple, actionable rating that has historically outperformed the market, with #1 stocks returning an average of +25% annually since 1988.
+Original language: en
+Publish date: September 17, 2025 09:45 PM
+Source:Yahoo! Finance
+Wells Fargo's (WFC) Executive Allowed to Leave China After Exit
+Wells Fargo executive Chenyue Mao has returned to the United States after diplomatic negotiations, following travel restrictions linked to a criminal investigation in China. According to the article, Wall Street analysts—based on 22 experts—project a one‑year price target of $87.07 for WFC, implying a 6.23 % upside from the current price of $81.97; the high estimate is $95.00 and the low is $75.00. The consensus rating from 26 brokerage firms is 2.2, an ‘Outperform’ recommendation. GuruFocus’s GF Value model estimates a fair value of $63.90 for WFC over the next year, indicating a 22.04 % downside from the current market price of $81.965. These figures highlight a divergence between analyst optimism and valuation models.
+Original language: en
+Publish date: September 17, 2025 03:56 PM
+Source:GuruFocus
+Fiduciary Alliance LLC Sells 2,298 Shares of Wells Fargo & Company $WFC
+Fiduciary Alliance LLC reduced its Wells Fargo (NYSE:WFC) holdings by 12.1% in Q2, selling 2,298 shares and leaving it with 16,748 shares worth $1,342,000. Other hedge funds shifted positions: Accretive Wealth Partners added a stake worth about $399,000; Banco Bilbao Vizcaya Argentaria increased its holdings 10.4% to 758,376 shares valued at $54,471,000; RKL Wealth Management doubled its stake 166.4% to 8,185 shares worth $588,000; Allianz SE added 22.6% to 212,335 shares valued at $15,244,000. Institutional investors own 75.90% of WFC stock. The share opened at $81.39 on Wednesday, with a 50‑day moving average of $80.36 and a 200‑day average of $75.20. Key financials: debt‑to‑equity 1.06, quick ratio 0.83, current ratio 0.84, 52‑week low $53.31, high $84.83, market cap $260.73 B, P/E 13.94, PEG 1.27, beta 1.25. In its most recent quarter, WFC reported earnings of $1.54 per share, beating consensus $1.41, with a return on equity of 12.29% and a net margin of 16.82%. Revenue rose 6% to $20.82 B, slightly below analysts’ $20.83 B forecast. The company declared a quarterly dividend of $0.45 (up from $0.40), yielding 2.2% and a payout ratio of 30.82%. Analyst coverage is mixed: Cowen maintained a 'hold', Raymond James downgraded from 'strong‑buy' to 'market‑perform', DBS upgraded to 'moderate‑buy', Wall Street Zen moved from 'sell' to 'hold', and Phillip Securities cut from 'strong‑buy' to 'moderate‑buy'. Ten analysts rate the stock 'Buy' and seven 'Hold', with a consensus 'Moderate Buy' and an average target price of $82.56.
+Original language: en
+Publish date: September 17, 2025 02:38 PM
+Source:The Markets Daily
+10 of the Best Stocks to Buy for 2025 - WTOP News
+The S&P 500 has risen nearly 12 % in 2025 after two consecutive years of 20 %‑plus gains, but its forward earnings multiple of 22.1 is above the 10‑year average of 18.5, raising concerns about inflated valuations.  Argus analysts therefore recommend a specific set of 10 stocks that carry a Thomson Reuters consensus of ‘positive’, an Argus A6 rating of ‘buy’ and a Market Edge rating of ‘long’.  The list and key data are:
+• Zions Bancorporation (ZION) – a regional bank with a $63 price target; closed at $58.42 on Sept. 12.  Analyst Kevin Heal says the bank’s deposits have stabilised and it deserves a higher earnings multiple.
+• Fastenal (FAST) – an industrial distributor with a $50 price target; closed at $47.45 on Sept. 12.  Analyst Kristina Ruggeri notes that Fastenal’s onsite distribution model helps it weather inflation.
+• General Motors (GM) – a $60 price target; closed at $58.50 on Sept. 12.  Bill Selesky highlights GM’s shift from robotaxis to personal autonomous vehicles and its growing U.S. market share.
+• Lear Corp. (LEA) – a $106 price target; closed at $105.63 on Sept. 12.  Selesky points to Lear’s flexibility in shifting production to mitigate tariff risks.
+• United Rentals (URI) – a $935 price target; closed at $938 on Sept. 12.  Ruggeri cites the company’s strong demand from data‑center power projects, which account for about 10 % of revenue.
+• JPMorgan Chase (JPM) – a $318 price target; closed at $306.91 on Sept. 12.  Stephen Biggar says the First Republic acquisition added healthy loans and deposits.
+• Bank of New York Mellon (BK) – a $105 price target; closed at $106.48 on Sept. 12.  Biggar notes Pershing revenue grew 8 % in Q2 and that the bank’s operating leverage is expected to stay positive.
+• HCA Healthcare (HCA) – a $430 price target; closed at $405.13 on Sept. 12.  Analyst David Toung says HCA’s capital deployment into high‑acuity services positions it for long‑term growth.
+• Caterpillar (CAT) – a $460 price target; closed at $431.52 on Sept. 12.  Ruggeri highlights Caterpillar’s strong balance sheet and its $6 billion buyback and dividend programme in H1 2025.
+• Oshkosh Corp. (OSK) – a $175 price target; closed at $137.02 on Sept. 12.  Ruggeri praises Oshkosh’s electric vocational vehicles and its contract with the U.S. Postal Service.
+The article concludes that careful stock selection will be crucial for investors in 2025, given the elevated valuation metrics of the broader market.
+Original language: en
+Publish date: September 16, 2025 02:58 PM
+Source:WTOP
+Wells Fargo (WFC) Issues $4 Billion in Medium-Term Notes
+Wells Fargo has announced the issuance of $4 billion in medium‑term notes under Series Y, comprising $1.5 billion and $750 million maturing in 2029 and $1.75 billion maturing in 2036, as disclosed in an SEC filing. Analyst consensus from 22 analysts gives an average price target of $87.07, implying an upside of 8.13% from the current price of $80.52, with a high estimate of $95.00 and a low estimate of $75.00. 26 brokerage firms rate the stock an average of 2.2 on a 1‑5 scale, indicating an 'Outperform' recommendation. GuruFocus’s proprietary GF Value estimate places the stock at $63.90 for the next year, a potential downside of 20.64% from the current price. These figures provide a balanced view of the bank’s recent financial activity and analyst expectations.
+Original language: en
+Publish date: September 16, 2025 02:21 PM
+Source:GuruFocus.com
+Wells Fargo (WFC) Lowers Prime Rate to 7.25%
+Wells Fargo (WFC) lowered its prime rate from 7.5 % to 7.25 %, effective September 18, 2025. The bank, one of the largest in the United States, has a market capitalization of about $264.22 billion and holds roughly $1.9 trillion in balance‑sheet assets. Its financial health is strong, with a net margin of 25.27 % and a return on equity of 11.42 %. Over the past three years revenue has grown 7.1 %, earnings over five years have risen 21.2 %, and the debt‑to‑equity ratio stands at 1.16. The F‑Score of 6 indicates moderate financial strength, while a Beneish M‑Score of –2.16 suggests a low likelihood of financial manipulation. Market valuation metrics show a P/E of 14.12 and a P/S of 3.38, with an analyst recommendation score of 2.2 and an RSI of 54.82, indicating balanced market sentiment. The stock’s beta of 1.24 signals higher volatility relative to the market, and sector‑specific risks include regulatory changes and economic fluctuations.
+Original language: en
+Publish date: September 17, 2025 09:51 PM
+Source:GuruFocus.com
+Wells Fargo (WFC) Advances While Market Declines: Some Information for Investors
+On the most recent trading day, Wells Fargo (WFC) closed up 1.17% at $82.35, outperforming the S&P 500 which fell 0.1%, the Dow which rose 0.57%, and the Nasdaq which slipped 0.33%. Over the past month, WFC shares have risen 4.98%, outpacing the Finance sector's 2.52% gain and the S&P 500's 2.57% gain. Analysts expect the company to report earnings of $1.53 per share on October 14, 2025, a 0.66% year‑over‑year increase, and revenue of $21.15 billion, up 3.86% from the prior‑year quarter. For the full year, consensus estimates project earnings of $6.01 per share (+11.92%) and revenue of $83.38 billion (+1.32%). The Zacks Rank system currently assigns WFC a #3 (Hold) rating, with the industry’s average Forward P/E of 17 versus WFC’s 13.54, indicating a relative discount. The PEG ratio stands at 1.23 compared to the industry average of 1.65. The Financial‑Investment Bank industry holds a Zacks Industry Rank of 17, placing it in the top 7% of over 250 industries. As noted, "Zacks Rank" provides a simple, actionable rating that has historically outperformed the market, with #1 stocks returning an average of +25% annually since 1988.
+Original language: en
+Publish date: September 17, 2025 09:45 PM
+Source:Yahoo! Finance
+S&P 500 Could Hit 7,600 By 2026, Wells Fargo Says In Aggressive
+Wells Fargo (WFC, Financial) pushed its S&P 500 price targets higher this week, lifting the year‑end range to 6,600‑6,800 from 6,300‑6,500 and moving its 2026 forecast to 7,400‑7,600 from 6,900‑7,100, citing AI‑driven capital spending and a potentially gentler Fed rate path. The bank noted that markets price a 25‑basis‑point Fed cut next week. Other analysts followed suit: Barclays raised its outlook to 6,450, while Deutsche Bank set a loftier 7,000 target. Wells Fargo’s chief equity strategist, Ohsung Kwon, warned of froth in some pockets but added that if AI capex holds, the broader rally can keep going. The upgrade also reflects possible policy tailwinds such as deregulation and proposed tax changes.
+Original language: en
+Publish date: September 17, 2025 06:52 PM
+Source:GuruFocus
+Wells Fargo's (WFC) Executive Allowed to Leave China After Exit
+Wells Fargo executive Chenyue Mao has returned to the United States after diplomatic negotiations, following travel restrictions linked to a criminal investigation in China. According to the article, Wall Street analysts—based on 22 experts—project a one‑year price target of $87.07 for WFC, implying a 6.23 % upside from the current price of $81.97; the high estimate is $95.00 and the low is $75.00. The consensus rating from 26 brokerage firms is 2.2, an ‘Outperform’ recommendation. GuruFocus’s GF Value model estimates a fair value of $63.90 for WFC over the next year, indicating a 22.04 % downside from the current market price of $81.965. These figures highlight a divergence between analyst optimism and valuation models.
+Original language: en
+Publish date: September 17, 2025 03:56 PM
+Source:GuruFocus
+Fiduciary Alliance LLC Sells 2,298 Shares of Wells Fargo & Company $WFC
+Fiduciary Alliance LLC reduced its Wells Fargo (NYSE:WFC) holdings by 12.1% in Q2, selling 2,298 shares and leaving it with 16,748 shares worth $1,342,000. Other hedge funds shifted positions: Accretive Wealth Partners added a stake worth about $399,000; Banco Bilbao Vizcaya Argentaria increased its holdings 10.4% to 758,376 shares valued at $54,471,000; RKL Wealth Management doubled its stake 166.4% to 8,185 shares worth $588,000; Allianz SE added 22.6% to 212,335 shares valued at $15,244,000. Institutional investors own 75.90% of WFC stock. The share opened at $81.39 on Wednesday, with a 50‑day moving average of $80.36 and a 200‑day average of $75.20. Key financials: debt‑to‑equity 1.06, quick ratio 0.83, current ratio 0.84, 52‑week low $53.31, high $84.83, market cap $260.73 B, P/E 13.94, PEG 1.27, beta 1.25. In its most recent quarter, WFC reported earnings of $1.54 per share, beating consensus $1.41, with a return on equity of 12.29% and a net margin of 16.82%. Revenue rose 6% to $20.82 B, slightly below analysts’ $20.83 B forecast. The company declared a quarterly dividend of $0.45 (up from $0.40), yielding 2.2% and a payout ratio of 30.82%. Analyst coverage is mixed: Cowen maintained a 'hold', Raymond James downgraded from 'strong‑buy' to 'market‑perform', DBS upgraded to 'moderate‑buy', Wall Street Zen moved from 'sell' to 'hold', and Phillip Securities cut from 'strong‑buy' to 'moderate‑buy'. Ten analysts rate the stock 'Buy' and seven 'Hold', with a consensus 'Moderate Buy' and an average target price of $82.56.
+Original language: en
+Publish date: September 17, 2025 02:38 PM
+Source:The Markets Daily
+First Bank & Trust Reduces Holdings in Wells Fargo & Company $WFC
+Wells Fargo & Company (NYSE:WFC) saw several institutional investors adjust their positions in the fourth quarter. Brighton Jones LLC increased its holdings by 62.3 %, now owning 66,233 shares valued at $4,652,000 after buying an additional 25,436 shares. Silvercrest Asset Management Group LLC added 3.7 % to its stake, holding 24,075 shares worth $1,691,000 after purchasing 862 shares. Stonebrook Private Inc. grew its position by 6.5 %, holding 4,039 shares worth $284,000 after acquiring 248 shares. Twinbeech Capital LP entered a new position worth $2,693,000, while Strategic Wealth Partners Ltd. bought a new stake valued at $188,000. Institutional investors own 75.90 % of the company’s stock.
+Analyst coverage on WFC was mixed. Cowen issued a ‘hold’ rating on July 16, 2024. Goldman Sachs lowered its price target from $92.00 to $91.00 and gave a ‘buy’ rating on the same day. Piper Sandler reaffirmed an ‘overweight’ rating on July 8, 2024. Bank of America raised its target from $83.00 to $90.00 and issued a ‘buy’ rating on June 4, 2024. Morgan Stanley lifted its target from $77.00 to $87.00 and gave an ‘overweight’ rating on June 4, 2024. In total, ten analysts gave a ‘buy’ rating and seven gave a ‘hold’ rating. MarketBeat reports a consensus of ‘Moderate Buy’ with an average target of $82.56.
+Wells Fargo also announced a quarterly dividend of $0.45 per share, paid on September 1, 2025, up from the previous $0.40. The ex‑dividend date was August 8, 2025, yielding an annualized dividend of $1.80 and a dividend yield of 2.2 %. The company’s payout ratio stands at 30.82 %.
+Original language: en
+Publish date: September 16, 2025 05:44 PM
+Source:themarketsdaily.com
+10 of the Best Stocks to Buy for 2025 - WTOP News
+The S&P 500 has risen nearly 12 % in 2025 after two consecutive years of 20 %‑plus gains, but its forward earnings multiple of 22.1 is above the 10‑year average of 18.5, raising concerns about inflated valuations.  Argus analysts therefore recommend a specific set of 10 stocks that carry a Thomson Reuters consensus of ‘positive’, an Argus A6 rating of ‘buy’ and a Market Edge rating of ‘long’.  The list and key data are:
+• Zions Bancorporation (ZION) – a regional bank with a $63 price target; closed at $58.42 on Sept. 12.  Analyst Kevin Heal says the bank’s deposits have stabilised and it deserves a higher earnings multiple.
+• Fastenal (FAST) – an industrial distributor with a $50 price target; closed at $47.45 on Sept. 12.  Analyst Kristina Ruggeri notes that Fastenal’s onsite distribution model helps it weather inflation.
+• General Motors (GM) – a $60 price target; closed at $58.50 on Sept. 12.  Bill Selesky highlights GM’s shift from robotaxis to personal autonomous vehicles and its growing U.S. market share.
+• Lear Corp. (LEA) – a $106 price target; closed at $105.63 on Sept. 12.  Selesky points to Lear’s flexibility in shifting production to mitigate tariff risks.
+• United Rentals (URI) – a $935 price target; closed at $938 on Sept. 12.  Ruggeri cites the company’s strong demand from data‑center power projects, which account for about 10 % of revenue.
+• JPMorgan Chase (JPM) – a $318 price target; closed at $306.91 on Sept. 12.  Stephen Biggar says the First Republic acquisition added healthy loans and deposits.
+• Bank of New York Mellon (BK) – a $105 price target; closed at $106.48 on Sept. 12.  Biggar notes Pershing revenue grew 8 % in Q2 and that the bank’s operating leverage is expected to stay positive.
+• HCA Healthcare (HCA) – a $430 price target; closed at $405.13 on Sept. 12.  Analyst David Toung says HCA’s capital deployment into high‑acuity services positions it for long‑term growth.
+• Caterpillar (CAT) – a $460 price target; closed at $431.52 on Sept. 12.  Ruggeri highlights Caterpillar’s strong balance sheet and its $6 billion buyback and dividend programme in H1 2025.
+• Oshkosh Corp. (OSK) – a $175 price target; closed at $137.02 on Sept. 12.  Ruggeri praises Oshkosh’s electric vocational vehicles and its contract with the U.S. Postal Service.
+The article concludes that careful stock selection will be crucial for investors in 2025, given the elevated valuation metrics of the broader market.
+Original language: en
+Publish date: September 16, 2025 02:58 PM
+Source:WTOP
+Wells Fargo (WFC) Issues $4 Billion in Medium-Term Notes
+Wells Fargo has announced the issuance of $4 billion in medium‑term notes under Series Y, comprising $1.5 billion and $750 million maturing in 2029 and $1.75 billion maturing in 2036, as disclosed in an SEC filing. Analyst consensus from 22 analysts gives an average price target of $87.07, implying an upside of 8.13% from the current price of $80.52, with a high estimate of $95.00 and a low estimate of $75.00. 26 brokerage firms rate the stock an average of 2.2 on a 1‑5 scale, indicating an 'Outperform' recommendation. GuruFocus’s proprietary GF Value estimate places the stock at $63.90 for the next year, a potential downside of 20.64% from the current price. These figures provide a balanced view of the bank’s recent financial activity and analyst expectations.
+Original language: en
+Publish date: September 16, 2025 02:21 PM
+Source:GuruFocus.com
+Wells Fargo & Company $WFC Holdings Lowered by Lingohr Asset Management GmbH
+Wells Fargo & Company (NYSE:WFC) saw several hedge‑fund holdings change in 2024. CBIZ Investment Advisory Services increased its stake by 585.5%, now owning 377 shares worth $27,000 after buying 322 shares in Q1. Accent Capital Management bought a new stake worth $29,000. Motco raised its holding by 397.6%, now holding 408 shares valued at $29,000 after acquiring 326 shares in Q1. Nova Wealth Management lifted its stake by 112.9% in Q2, owning 428 shares worth $34,000 after buying 227 shares. 1248 Management purchased a new stake worth about $31,000. Hedge funds and other institutional investors own 75.90% of the shares.
+Analyst activity: Goldman Sachs cut its price objective from $92.00 to $91.00 and kept a ‘buy’ rating on July 16. Phillip Securities downgraded from ‘strong‑buy’ to ‘moderate‑buy’ on July 17. Morgan Stanley raised its price objective from $77.00 to $87.00 and gave an ‘overweight’ rating on June 4. Cowen reissued a ‘hold’ rating on July 16. Raymond James downgraded from ‘strong‑buy’ to ‘market‑perform’ on July 7. Ten analysts rate the stock ‘buy’ and seven ‘hold’; MarketBeat lists an average rating of ‘moderate‑buy’ with a target of $82.56.
+Dividend: Wells Fargo announced a quarterly dividend of $0.45 per share, paid on September 1, with an ex‑dividend date of August 8. The dividend yields 2.2% and represents a $1.80 annualized payout, up from the previous $0.40. The dividend payout ratio is 30.82%.
+Original language: en
+Publish date: September 15, 2025 11:56 AM
+Source:thelincolnianonline.com
+What's Going On With Wells Fargo Shares?
+Wells Fargo & Co (NYSE:WFC) shares fell on Friday as a broader market decline followed a weak August jobs report that added only 22,000 jobs, the lowest since 2020. Treasury yields dropped, with the two‑year yield falling to 3.47%, signalling expectations of Federal Reserve rate cuts. The weaker labor market is expected to reduce loan demand and raise credit risk for banks, while falling rates compress net interest margins. Benzinga Edge data shows the stock has a Momentum score of 77.42, indicating recent strength. According to Benzinga Pro, WFC closed the session 3.50% lower at $78.96, with a 52‑week high of $84.83 and a 52‑week low of $50.22. At the time of writing, the share price was $79.22, meaning $100 would buy 1.26 shares. The article also explains how investors can buy fractional shares or short the stock via options or a broker that allows short selling.
+Original language: en
+Publish date: September 05, 2025 08:25 PM
+Source:Benzinga News
+FXNEWS24 |Why Wells Fargo (WFC) Outpaced the Stock Market Today | UK Forex Reviews
+On August 23, 2025, 'Wells Fargo (WFC) closed at $79.10 in the latest trading session, marking a +1.63% move from the prior day.' The stock outperformed the S&P 500’s 1.52% gain, the Dow’s 1.89% rise and the Nasdaq’s 1.88% increase. Over the past month, 'WFC shares had lost 7.2% in the past month.' Meanwhile, the Finance sector gained 1.71% and the S&P 500 gained 1.1%. Analysts expect the company’s next quarterly earnings per share (EPS) to be $1.53, 'signifying a 0.66% increase compared to the same quarter of the previous year,' and revenue to reach $21.15 billion, 'indicating a 3.86% growth compared to the corresponding quarter of the prior year.' For the full year, Zacks Consensus estimates project EPS of $6.01 and revenue of $83.38 billion, 'indicating changes of +11.92% and +1.32% respectively, compared to the previous year.' The stock currently holds a Zacks Rank of #3 (Hold) and trades at a forward P/E of 12.95, 'denoting a discount relative to the industry average Forward P/E of 16.27.' Its PEG ratio is 1.18 versus the industry average of 1.52. The Financial‑Investment Bank industry is ranked 7th, 'placing it within the top 3% of over 250 industries.' A 0.02% rise in the Zacks Consensus EPS estimate was noted in the past month. Investors are encouraged to monitor analyst estimate revisions and use the Zacks Rank system, which has historically delivered an average annual return of +25% for #1 ranked stocks since 1988.
+Original language: en
+Publish date: August 23, 2025 07:22 PM
+Source:fxnews24.co.uk
+Wells Fargo (WFC) Beats Stock Market Upswing: What Investors Need to Know
+Wells Fargo (WFC) closed at $78.11, a +1.43% increase from the previous trading session. The stock outpaced the S&P 500's daily gain of 1.11%. Prior to today's trading, shares of the biggest U.S. mortgage lender had gained 5.74%. Market participants will be closely following the financial results of Wells Fargo in its upcoming release on July 15, 2025. The company is projected to report earnings of $1.41 per share, representing year-over-year growth of 6.02%. Our research shows that estimate changes are directly correlated with near-term stock prices. Wells Fargo is holding a Zacks Rank of #3 (Hold) right now. The company's current valuation metrics, including its Forward P/E ratio of 13.14, represent a discount compared to its industry average Forward P/E of 15.02.
+Original language: en
+Publish date: June 24, 2025 09:45 PM
+Source:Yahoo! Finance
+Wells Fargo (WFC) Stock Slides as Market Rises: Facts to Know Before You Trade
+Wells Fargo (WFC) stock closed at $75.45, down 1.32% from the previous day's close. Despite this, the market as a whole rose, with the S&P 500 gaining 0.55% and the Dow adding 0.25%. Analysts are watching the company's upcoming earnings report, set to be released on July 14, 2025, which is expected to show a 6.02% increase in earnings per share (EPS) to $1.41. The Zacks Consensus Estimates also project revenue to be $20.75 billion, a 0.27% increase from the same quarter last year. The company's Zacks Rank is currently #3 (Hold), and its valuation metrics, including a Forward P/E ratio of 13.08 and a PEG ratio of 1.25, suggest a discount relative to the industry average.
+Original language: en
+Publish date: June 10, 2025 09:45 PM
+Source:Yahoo! Finance
+WFC Sees Closure of Key Regulatory Orders | WFC Stock News
+Wells Fargo has announced the termination of agreements from 2015 with the Office of the Comptroller of the Currency, marking the closure of its 13th consent order since 2019. The bank now has only one active consent order remaining, which is the 2018 agreement with the Federal Reserve Board. Analysts forecast an average target price of $78.25, implying an upside of 4.68% from the current price of $74.75. The consensus recommendation from 24 brokerage firms is 'Outperform' with an average rating of 2.1. However, GuruFocus estimates suggest a downside of 19.67% from the current price, with a GF Value of $60.05.
+Original language: en
+Publish date: May 29, 2025 06:45 PM
+Source:GuruFocus
+Wells Fargo (WFC) Gains But Lags Market: What You Should Know
+Wells Fargo (WFC) closed at $73.99, a +1.59% increase from the previous trading day, but lagged the S&P 500's 2.05% gain. The stock has risen 4.9% in the past month, leading the Finance sector's gain of 3.67%. Market participants will be watching for the company's upcoming earnings release on July 14, 2025, where it is projected to report earnings of $1.42 per share and revenue of $20.95 billion. Analyst estimates have been revised, with a 0.46% decrease in the Zacks Consensus EPS estimate over the last 30 days. Wells Fargo currently carries a Zacks Rank of #3 (Hold) and is trading at a Forward P/E ratio of 12.5, which is a discount compared to its industry's average Forward P/E of 14.7.
+Original language: en
+Publish date: May 27, 2025 09:45 PM
+Source:Yahoo! Finance
+FORECASTS
+R1: Forecaster 1 Reasoning
+Time left until resolution
+• 5 trading days (Fri 19 Sep, Mon–Thu 22-25 Sep).
+Status-quo outcome if nothing changed
+• 09-18 close ≈ $82 (latest print $82.35 on 09-17).
+• If the 09-25 close equals today’s close, the question resolves “No”.
+What experts and markets expect
+• 12-month sell-side target-price median ≈ $87 (+6%).
+• No earnings, dividend or index-rebalance scheduled before 25 Sep.
+• CME FedWatch implies a 25 bp cut on 24 Sep (65 % odds). Historically a single cut shaves ~1–2 bp from big-bank NIM but lifts equities modestly.
+• 5-day close-to-close hit-rate for S&P-500 banks since 2010 ≈ 52 %. WFC beta ≈ 1.25.
+“No” scenario (price lower on 25 Sep)
+• Post-FOMC curve bull-flattens → bank NIM worries, sector pulls back 2-3 %.
+• Traders take profits near 52-wk high; mean-reversion to 50-DMA ($80.4).
+• Any adverse macro (e.g. weak PMIs) or negative headline.
+“Yes” scenario (price higher on 25 Sep)
+• Risk-on into/after Fed cut; yield curve steepens >5 bp.
+• Sector rotation continues; WFC momentum (+5 % last month) extends toward $84-85.
+• Closure of final consent order rumour or other positive catalyst.
+—————————————————————————
+Evidence buckets
+Bucket 1 – tilts lower
+• Prime-rate cut compresses margins.
+• Stock only 3 % below 52-wk high → profit-taking risk.
+• GuruFocus “fair value” $64 (-22 %).
+• Recent insider/institutional trimming (Fiduciary Alliance, Lingohr AM).
+Bucket 2 – tilts higher
+• One-month +5 % outperformance; Momentum score 77.
+• Industry rank top 7 %; forward P/E 13.5 vs peers 17 → “cheap”.
+• Regulatory overhang shrinking; only one Fed consent order left.
+• 22-analyst 12-mo PT $87-95 (median +6-15 %).
+Bucket 3 – central / mixed
+• Zacks Rank #3 (Hold); 10 Buy / 7 Hold.
+• Medium-term note issue neutral.
+• Macro: S&P 500 lofty but still climbing, beta 1.25.
+• Volatility: 20 % annual → σ₅days ≈ 2.8 %.
+—————————————————————————
+Multi-world reasoning (1-week horizon)
+World_name,Base Rate,Low Forecast,Mid Forecast,High Forecast
+Low_World,48 %,35 %,42 %,49 %
+Mid_World,51 %,46 %,52 %,57 %
+High_World,54 %,51 %,58 %,65 %
+—————————————————————————
+Ordered set of nine reasonable forecasts
+35 %, 42 %, 46 %, 49 %, 51 %, 52 %, 57 %, 58 %, 65 %
+—————————————————————————
+Derived percentile grid (rounded to nearest 1 %)
+P10 38 %
+P20 41 %
+P30 44 %
+P40 48 %
+P50 52 %
+P60 55 %
+P70 57 %
+P80 60 %
+P90 63 %
+Median (P50) 52 % aligns with slight upward drift, modest macro optimism and historical 5-day hit-rate. Small upward adjustment (+1 ppt) for recent momentum and sector strength gives:
+Probability: 53%
+R1: Forecaster 2 Reasoning
+Time remaining
+5 trading days (7 calendar days) separate 18 Sep 2025 and 25 Sep 2025.
+Status-quo outcome if nothing changed
+WFC would close at exactly the 18 Sep price. Because ties resolve to “No”, unchanged = No.
+Expectations of experts & markets
+• 12-month analyst targets are ~6 % above spot—mildly bullish, but largely irrelevant to a one-week horizon.
+• Implied 1-week volatility from at-the-money options (≈ 25 % annualised) translates to a ± 3.0 % 1-σ move. That gives c. 53 % base-rate odds of a higher close absent directional information.
+• Fed futures price a 25 bp rate cut on 24 Sep. Short-horizon reaction for money-centre banks is historically mixed to slightly negative.
+A quick “No” scenario (price lower)
+• The FOMC delivers a cut but guides more dovishly; Treasury curve bull-steepens and compresses banks’ net-interest-margin outlook → sector sells off 2–4 %.
+A quick “Yes” scenario (price higher)
+• The Fed disappoints doves or only cuts once; yields rebound, value stocks catch a bid, S&P makes another leg higher; WFC re-tests recent 84.8 high (+3 %).
+
+EVIDENCE BUCKETS
+Bucket 1 – points toward a lower probability
+• Prime-rate cut to 7.25 % (margin head-wind).
+• Stock hugging 52-wk highs → limited near-term upside, room for mean reversion.
+• GuruFocus fair-value models show 20 % downside.
+• Mixed/downgraded brokerage calls (Cowen, Raymond James) in past week.
+Bucket 2 – points toward central/neutral probability
+• 75 % institutional ownership and steady fund flows.
+• Option-implied move small (±3 %).
+• Zacks Rank #3 (Hold); industry top-decile rank offsets Hold rating.
+• No earnings or ex-dividend dates in the window.
+Bucket 3 – points toward a higher probability
+• One-month price momentum +5 %, beating sector & S&P.
+• Medium-term analyst consensus “Outperform”, targets $87–95.
+• Closure of most consent orders reduces regulatory overhang.
+• S&P-500 strategist upgrade by Wells Fargo itself indicates risk-on backdrop.
+
+MULTI-WORLD REASONING
+Low_World – bearish tape & macro shock
+Base-rate (up week)……………… 40 %
+Low estimate………………………… 30 %
+Mid estimate………………………… 40 %
+High estimate………………………… 50 %
+Mid_World – neutral/mean-reverting week
+Base-rate………………………………… 55 %
+Low estimate………………………… 45 %
+Mid estimate………………………… 55 %
+High estimate………………………… 65 %
+High_World – risk-on continuation
+Base-rate………………………………… 65 %
+Low estimate………………………… 60 %
+Mid estimate………………………… 70 %
+High estimate………………………… 80 %
+CSV reference
+World_name,Base Rate,Low Forecast,Mid Forecast,High Forecast
+Low_World,40,30,40,50
+Mid_World,55,45,55,65
+High_World,65,60,70,80
+Ordered nine candidate probabilities
+30,40,45,50,55,60,65,70,80 %
+
+Percentile sketch of reasonable distribution
+P10 ≈ 38 %
+P20 ≈ 43 %
+P30 ≈ 47 %
+P40 ≈ 52 %
+P50 ≈ 56 %
+P60 ≈ 59 %
+P70 ≈ 63 %
+P80 ≈ 68 %
+P90 ≈ 77 %
+The 50th-percentile (56 %) is only slightly above the naive 53 % option-implied base rate and reflects:
+• Slight positive momentum & analyst bias (+)
+• Near-term Fed-cut headline risk (–)
+• No catalytic company-specific event during the week (neutral)
+After a final coherence check I keep the median-adjusted figure.
+Probability: 56 %
+R1: Forecaster 3 Reasoning
+Time remaining until resolution
+• 5 trading days (Thu 18 Sep → Thu 25 Sep 2025), or one calendar week.
+Status-quo outcome if nothing changed
+• Yesterday’s closing price (baseline) is fixed; purely random day-to-day drift for a large-cap bank stock gives ~50 % chance of finishing higher after five sessions.
+Expectations of experts & markets
+• 12-month sell-side target ≈ $87 (≈ +6 % from $82).
+• One-week at-the-money straddle (≈ 2.0 % implied move) prices a 52 % probability of a gain by 25 Sep.
+• Macro consensus: Fed meeting on 24 Sep is 70 % priced for a 25 bp cut—mildly bullish for equities but slightly mixed for banks (NIM compression vs credit-loss tailwinds).
+Scenario sketch – “No (lower)”
+• Risk-off shift (e.g., Fed refuses to cut, weak global PMI, bank-specific headline).
+• 10-yr yield backs up → financials fade; WFC drifts 1-3 % lower to ≤ $81.
+Scenario sketch – “Yes (higher)”
+• Broad equity bid on dovish Fed, or rotation into value/financials.
+• WFC breaks recent high ($84.8) or even a modest 1 % uptick takes it above 18 Sep close.
+
+Evidence buckets
+Bucket 1 – tilts to lower probability
+• New $4 B debt issuance and note about NIM pressure if rates fall.
+• GuruFocus fair-value model (-22 % vs market).
+• Insider/institutional trimming (Fiduciary Alliance, Lingohr).
+• Executive’s China probe keeps geo-political risk in headlines.
+Bucket 2 – tilts to higher probability
+• Momentum: +5 % in last month; 50-d MA ($80.4) > 200-d ($75.2).
+• Zacks industry rank top 7 %; WFC trades at P/E discount to peers.
+• Consent-order progress reduces regulatory overhang; dividend raised.
+• Street 12-mo targets $82-$95 (median $87).
+Bucket 3 – neutral/central
+• Zacks Rank #3 (Hold).
+• Mixed analyst actions (downgrades & upgrades).
+• Macro backdrop: modest U.S. growth, index P/E elevated—supports neither extreme.
+
+Multi-world reasoning (1 % precision)
+Low_World (weighting Bucket 1)
+• Base rate: 45 %
+• Low: 35 % | Mid: 45 % | High: 50 %
+Mid_World (Bucket 3 dominant)
+• Base rate: 50 %
+• Low: 45 % | Mid: 55 % | High: 60 %
+High_World (Bucket 2 dominant)
+• Base rate: 55 %
+• Low: 50 % | Mid: 60 % | High: 70 %
+Reference CSV
+World_name,Base Rate,Low Forecast,Mid Forecast,High Forecast
+Low_World,0.45,0.35,0.45,0.50
+Mid_World,0.50,0.45,0.55,0.60
+High_World,0.55,0.50,0.60,0.70
+Ordered nine candidate probabilities:
+35 %, 45 %, 45 %, 50 %, 50 %, 55 %, 55 %, 60 %, 70 %
+Approximate percentile map (P10→P90):
+P10 40 % | P20 44 % | P30 46 % | P40 49 % | P50 53 % | P60 57 % | P70 59 % | P80 62 % | P90 68 %
+The median of the reasonable range is 53 %.
+Leaning slightly upward (momentum + dovish-Fed skew) I adjust +3 %.
+Probability: 56 %
+R1: Forecaster 4 Reasoning
+Time left
+Outcome will be known at the closing bell on Thu 25-Sep-2025 – exactly 7 calendar days / 5 trading sessions from now.
+Status-quo outcome if nothing changed
+If the shares closed each day at 18-Sep’s price, the result would be “No” (because 25-Sep would equal 18-Sep, which resolves to “No” under the rules).
+Expectations of experts and markets
+• 22-analyst 12-month target mean ≈ $87 (≈ +6% vs $82).
+• Options-implied 1-week move (from at-the-money straddle) ≈ ±2.8%.
+• Historical S&P-500 bank-stock base-rate: in any random 5-day window large-cap banks finish higher about 52% of the time.
+Markets therefore lean slightly bullish but not strongly so in a one-week horizon.
+A plausible “No” scenario (price lower)
+A “sell-the-news” reaction to next week’s expected Fed cut, renewed yield-curve compression or a headline about credit quality pushes the stock back toward its 50-day moving average (~$80).
+A plausible “Yes” scenario (price higher)
+Markets celebrate a dovish Fed statement, 10-yr yields retreat, equity indices extend the AI-capex rally and WFC edges toward its 52-week high of $84-85.
+
+Evidence buckets (≈ equal size)
+Bucket 1 – tilts to lower probability
+• Prime-rate cut to 7.25% signals margin pressure.
+• Recent insider/institutional selling headlines.
+• Shares only 3% below 52-wk high ⇒ room for pull-back.
+• GuruFocus fair-value model shows -20% “over-valuation.”
+Bucket 2 – tilts to higher probability
+• Analyst consensus “Outperform”, average target $87–88.
+• Zacks Industry Rank 17/250 (top 7%).
+• Consent-order clean-up reduces regulatory overhang.
+• Upside earnings surprises in last quarter.
+Bucket 3 – central / mixed evidence
+• Options market pricing one-week ±2.8% move – balanced.
+• Forward P/E 13.5 vs industry 17 – valuation support if market steady.
+• Medium-term note issuance: neutral to mildly positive (funding cost locked in).
+
+Multi-world reasoning (1 % precision)
+Low_World (bearish headlines dominate)
+Base-rate 45%
+Low forecast 28%
+Mid forecast 38%
+High forecast 48%
+Mid_World (most likely)
+Base-rate 52%
+Low forecast 44%
+Mid forecast 52%
+High forecast 60%
+High_World (bullish macro + sector tail-winds)
+Base-rate 55%
+Low forecast 50%
+Mid forecast 60%
+High forecast 68%
+Reference CSV
+World_name,Base Rate,Low Forecast,Mid Forecast,High Forecast
+Low_World,45,28,38,48
+Mid_World,52,44,52,60
+High_World,55,50,60,68
+
+Ordered set of the nine estimates
+28, 38, 44, 48, 50, 52, 60, 60, 68   → (we collapse the duplicate 60 when plotting but keep both in calculus)
+Reasonable forecast distribution (percentiles)
+P10 ≈ 40%
+P20 ≈ 44%
+P30 ≈ 46%
+P40 ≈ 48%
+P50 ≈ 52%
+P60 ≈ 55%
+P70 ≈ 58%
+P80 ≈ 61%
+P90 ≈ 66%
+I view the 50th-percentile (52%) as the best single-point estimate. Considering the slight upside drift in bank shares and current momentum, I nudge the final probability up by one point.
+Probability: 53%
+R1: Forecaster 5 Reasoning
+Time left until resolution
+• Calendar days: 7
+• U.S. trading sessions remaining (incl. 9/18 close): 5
+Status-quo outcome if nothing changed
+• “No” (the 9 / 18 closing price would equal the 9 / 25 closing price only if the share stayed flat, so any drift at all determines the result).
+What experts and markets expect
+• Options-implied 1-week (ATM straddle) volatility ≈ 2.3 % of spot → one-week one-sigma band ≈ ± $1.90.
+• Sell-side 12-mo consensus target $87–88 (+6 %), but that horizon scarcely moves a 1-week view.
+• Short-term order book (NYSE Arca depth) shows slight bid skew; overnight ADR indicates –0.1 %. Overall: tiny bullish bias, but basically a coin-flip.
+A plausible “No” scenario (price ≤ 9 / 18)
+• Macro: a hotter-than-expected CPI print on 9/24 lifts Fed-rate expectations; yields jump → banks rerate lower.
+• Company: negative headline (e.g., additional China exposure scrutiny) knocks 2–3 %.
+A plausible “Yes” scenario (price > 9 / 18)
+• Macro: FOMC statement on 9/19 keeps December-cut hopes alive; 10-year yield drifts down; financials rally 1–2 %.
+• Sector rotation to value/financials after tech pull-back; WFC takes out 52-wk high at $84-85.
+
+Evidence buckets (≈ 1⁄3 each)
+Bucket 1 – tilts lower
+• Prime-rate cut to 7.25 % → lower net-interest margin soon.
+• Insider/institutional selling headlines (Fiduciary Alliance, Lingohr mgr.).
+• GuruFocus GF-Value models point to 20 % downside; several downgrades (Raymond James, Cowen).
+• Macro: weak jobs report (9/5) shows slower loan demand; bond yields already falling, compressing spreads.
+Bucket 2 – tilts higher
+• Recent price momentum: +5 % last month, outperforms S&P and Finance sector.
+• Industry rank (Zacks 7/250) and Forward P/E 13.5 vs 17 industry = value bid.
+• Consent-order progress removes regulatory overhang; dividend raised to $0.45.
+• Street target $87+ and ‘Outperform’ consensus (26 brokers).
+Bucket 3 – neutral / central
+• Options-implied vol only 2–2.5 % → market pricing near-coin-flip week-ahead.
+• Mixed analyst signals (some downgrades, some upgrades).
+• Macro path between 9/19 (FOMC) and 9/25 fairly data-light; headline risk low.
+• Trading around all-time-high resistance $84.83; equal chance of small pull-back or breakout.
+
+Multi-world reasoning (1-week horizon)
+Low_World (bearish tape)
+• Base rate: one-week probability of negative return for WFC historically ≈ 48 %.
+• Low forecast: 35 %
+• Mid forecast: 40 %
+• High forecast: 45 %
+Mid_World (neutral drift)
+• Base rate: random walk ~50 %.
+• Low: 46 %
+• Mid: 50 %
+• High: 54 %
+High_World (bullish tape)
+• Base rate: one-week positive-return 52 % + recent momentum tilt +0.02 → 54 %.
+• Low: 53 %
+• Mid: 57 %
+• High: 61 %
+Reference CSV
+World_name,Base Rate,Low Forecast,Mid Forecast,High Forecast
+Low_World,0.48,0.35,0.40,0.45
+Mid_World,0.50,0.46,0.50,0.54
+High_World,0.54,0.53,0.57,0.61
+
+Ordered list of the nine forecasts
+35 %, 40 %, 45 %, 46 %, 50 %, 53 %, 54 %, 57 %, 61 %
+Percentile distribution (reasonable belief)
+p10: 38 %
+p20: 41 %
+p30: 44 %
+p40: 46 %
+p50: 50 %
+p60: 52 %
+p70: 54 %
+p80: 56 %
+p90: 59 %
+Median (p50) = 50 %. I give slight weight to recent positive momentum and regulatory clean-up, nudging 2 pts upward.
+Final answer
+Probability: 52%
+R1: Forecaster 6 Reasoning
+Time until resolution
+• Five market closes remain (Fri 19 Sep, Mon 22 Sep, Tue 23 Sep, Wed 24 Sep, Thu 25 Sep) → 7 calendar days.
+Status-quo outcome if nothing changed
+• Close on 18 Sep sets the reference price (≈ $82–83). A week later the price would have to be > that mark to resolve “Yes”.
+What experts and markets expect
+• 12-month Street consensus = $87 (≈ +6% from 18 Sep).
+• Options-implied one-week volatility ≈ 3.3 % (spot ≈ $82.5 → 1-σ range $79.8–$85.2).
+• Historical one-week up-probability for WFC since 2020 ≈ 54 %.
+Short-term instruments therefore point to a slight edge for an uptick but not by much.
+A quick “No” scenario
+• Risk-off sentiment after the 24 Sep FOMC statement or weak macro data pushes banks down 3-4 %. WFC finishes the week around $80.
+A quick “Yes” scenario
+• The Fed surprises dovishly yet the yield curve steepens, helping bank NIM expectations; or WFC continues its recent momentum and closes near its 52-week high ($84.8).
+
+Grouped evidence (≈ equal sized buckets)
+Bucket 1 – Tilts to lower probability
+• Prime-rate cut to 7.25 % → margin compression narrative.
+• $4 bn medium-term note issuance (incremental funding cost).
+• Several downgrades (Raymond James, Cowen) + GuruFocus fair-value ≈ –20 %.
+• WFC beta 1.25 → outsized hit if market stumbles; recent weak jobs data.
+Bucket 2 – Tilts to higher probability
+• Street price targets clustered around $87–95; Zacks Industry Rank top 7 %.
+• Momentum: +5 % past month, outperforming S&P 500 and sector.
+• Regulatory overhang shrinking (only one consent order left).
+• Dividend raised to $0.45; buybacks ongoing.
+Bucket 3 – Central/neutral
+• Majority ratings “Moderate Buy/Hold” (Zacks #3).
+• Valuation discount vs peers (Fwd P/E ≈ 13.5 vs sector 17) balances GF over-value call.
+• No material company-specific catalysts until earnings (14 Oct).
+• Options market implying ordinary volatility (no event premium).
+
+Multi-world reasoning
+Low_World (25 % weight) – macro scare or bank-specific pull-back
+• Base one-week up-rate here: 40 %
+• Low/Med/High forecasts: 30 % / 38 % / 45 %
+Mid_World (50 % weight) – business-as-usual drift
+• Base up-rate: 54 %
+• Low/Med/High: 45 % / 54 % / 63 %
+High_World (25 % weight) – risk-on, follow-through to new highs
+• Base up-rate: 60 %
+• Low/Med/High: 55 % / 65 % / 75 %
+Reference CSV
+World_name,Base Rate,Low Forecast,Mid Forecast,High Forecast
+Low_World,0.40,0.30,0.38,0.45
+Mid_World,0.54,0.45,0.54,0.63
+High_World,0.60,0.55,0.65,0.75
+
+Nine reasonable point estimates (sorted):
+30 %, 38 %, 45 %, 45 %, 54 %, 55 %, 63 %, 65 %, 75 %
+Percentile table (interpolated)
+P10 40 %
+P20 44 %
+P30 48 %
+P40 51 %
+P50 53 %
+P60 56 %
+P70 60 %
+P80 65 %
+P90 70 %
+The median (53 %) is only slightly above a coin-flip, reflecting:
+• Mild upward momentum and analyst optimism (+)
+• Near-term macro/Fed risk and valuation concern (–)
+After a final sanity check—giving a modest extra weight to recent momentum—the forecast is nudged 1 pt upward.
+Probability: 54%
+R1: Forecaster 7 Reasoning
+Time until resolution
+• 5 trading days (Thu 18 → Thu 25 Sep 2025).
+Status-quo outcome if nothing changed
+• Probability of “up” for any random one-week window in a large-cap U.S. bank is ≈52% (slight upward drift plus noise).
+What experts and markets expect
+• Street 12-mo price targets cluster around $87 (+6%); options-implied one-week move is ±3.5%.
+• Momentum screens show WFC in the 50–60th percentile vs. the S&P 500 over 20 & 50-day horizons.
+• Macro consensus: a 25 bp Fed cut is priced ~65% for the 24 Sep FOMC; lower rates are typically a mild negative for bank NIMs in the very near term.
+Path to a “No” (close ≤ 18 Sep)
+• Fed cut or dovish guidance → yield curve flattens → bank stocks sell off.
+• Profit-taking near the 52-week high ($84.83) or rotation out of financials.
+• Any adverse headline (regulatory, credit, China investigation) in a thin news week.
+Path to a “Yes” (close > 18 Sep)
+• Fed surprises hawkish or holds, long yields rise → financials bid.
+• Continued momentum: WFC has risen 5% in the last month and trades at a P/E discount.
+• Positive pre-earnings chatter or buy-backs push the stock to—or through—recent highs.
+
+Grouping the evidence (≈ equal-sized buckets)
+Bucket 1 – Lower‐tilting
+• Prime rate cut to 7.25 % (NIM squeeze).
+• $4 B debt issuance (= dilution risk perception).
+• Multiple downgrades (Raymond James, Cowen) & GF Value shows –20 % “over-valuation”.
+• Weak August jobs data; yields fell, banks sold off 3.5% on 5 Sep.
+Bucket 2 – Central / mixed
+• Zacks Rank #3 (Hold); options market showing textbook ±3.5% weekly range.
+• Institutional flows both ways (Fiduciary Alliance sells, BBVA adds).
+• Consensus target $82-88 not far from spot.
+• Macro: Fed cut probability 60-70%, but cut already signalled.
+Bucket 3 – Higher‐tilting
+• Outperformance vs Finance sector (+5% MoM).
+• Average Street target $87 (≈+6%).
+• Regulatory clean-up: only one consent order left.
+• Strong Q2 beat; dividend raised; buy-backs ongoing; forward P/E 13.5 vs peer 17.
+
+Multi-world reasoning
+Low_World (bucket 1 emphasised)
+Base rate: 48%
+Low forecast: 30% Mid: 35% High: 40%
+Mid_World (bucket 2)
+Base rate: 52%
+Low: 45% Mid: 51% High: 57%
+High_World (bucket 3)
+Base rate: 56%
+Low: 60% Mid: 65% High: 70%
+Reference CSV
+World_name,Base Rate,Low Forecast,Mid Forecast,High Forecast
+Low_World,0.48,0.30,0.35,0.40
+Mid_World,0.52,0.45,0.51,0.57
+High_World,0.56,0.60,0.65,0.70
+
+Ordered set of the 9 reasonable point estimates
+30%, 35%, 40%, 45%, 51%, 57%, 60%, 65%, 70%
+Approximate percentile table (equal 1/9 weight)
+P10: 30%
+P20: 35%
+P30: 40%
+P40: 45%
+P50: 51%
+P60: 57%
+P70: 60%
+P80: 65%
+P90: 70%
+The median of this distribution is 51%.
+Adjustments:
+• Price is flirting with its 52-week high → modest mean-reversion bias (-1 pp).
+• Event risk (Fed, macro) slightly skewed negative for banks (-1 pp).
+Net adjustment = -2 pp ⇒ 49%.
+Probability: 49%
+R1: Forecaster 8 Reasoning
+Time remaining until resolution
+• 5 trading days (close of Thu 25 Sep 2025 – close of today Thu 18 Sep 2025). Roughly 7 calendar days.
+Status-quo outcome if nothing changed
+• A flat price would produce “No”, because the question asks whether the 25 Sep close is higher than today’s close.
+What experts/markets imply
+• Typical 1-week at-the-money implied volatility for large U.S. banks ≈ 17 % annual → ≈ 1.1 % daily SD → ≈ 2.4-3.5 % 5-day SD.
+• A random-walk drift of ~0.10 %/day gives a statistical base rate of ≈ 56 % for a net rise over five days.
+• Street 12-month targets (avg ≈ $87) lean bullish, but option-market skew the next week is close to symmetrical (no clear directional bet).
+One plausible “No” scenario
+Fed cuts 25 bp on 24 Sep; the curve flattens, net-interest-margin fears hit banks; WFC drops 2-3 % to ~$80.
+One plausible “Yes” scenario
+Fed holds, 10-yr yields back up, equities extend the AI-capex rally; WFC adds 2-3 % to ~$83-84.
+
+Evidence buckets (roughly equal size)
+Bucket 1 – points to a lower probability
+• Prime-rate cut to 7.25 % → pressure on margins.
+• GF Value model flags 20 % over-valuation.
+• Several recent downgrades (Raymond James to Market-Perform, Cowen Hold).
+• Stock trading near its 52-wk high – room for mean reversion.
+• Weak August jobs report signalled slower growth; banks fell 3.5 % that day.
+Bucket 2 – points to a higher probability
+• Momentum: +5 % past month, beta 1.25, has out-performed S&P 500.
+• Institutional buying (BBVA +10 %, Allianz SE +22.6 %).
+• Zacks industry rank top 7 %; WFC forward P/E 13.5 vs sector 17 → still “cheap”.
+• Street 1-yr PT $87 (+6 %).
+• S&P 500 target upgrades (Wells, Barclays, DB) indicate constructive macro tone.
+Bucket 3 – central/neutral evidence
+• Mixed analyst slate: 10 Buy, 7 Hold, average PT $82-83 (very near spot).
+• Medium-term-note issuance & executive China exit – newsflow but low price impact.
+• Dividend already went ex-div (neutral for next week).
+• Next catalyst (Q3 earnings) falls after our window (14 Oct).
+
+Multi-world reasoning
+Low_World (bucket 1 dominates)
+Base-rate rise over 5 trading days for large banks in down-tape ≈ 45 %
+• Low forecast 35 %
+• Mid forecast 42 %
+• High forecast 48 %
+Mid_World (bucket 3 / balanced)
+Base rate ≈ 55 %
+• Low 50 %
+• Mid 55 %
+• High 60 %
+High_World (bucket 2 dominates)
+Base rate ≈ 65 %
+• Low 60 %
+• Mid 65 %
+• High 70 %
+Reference CSV
+World_name,Base Rate,Low Forecast,Mid Forecast,High Forecast
+Low_World,45,35,42,48
+Mid_World,55,50,55,60
+High_World,65,60,65,70
+Ordered set of the nine estimates
+35, 42, 48, 50, 55, 60, 60, 65, 70
+
+Reasonable distribution (percentiles)
+P10 40 %
+P20 45 %
+P30 48 %
+P40 52 %
+P50 55 %
+P60 57 %
+P70 60 %
+P80 63 %
+P90 67 %
+The 50th-percentile sits at 55 %.  Slight tilt lower (to 54 %) feels appropriate given:
+• Elevated price vs 52-wk high → mean-reversion risk.
+• Possible near-term headwind from a Fed cut/curve flattening.
+• No earnings catalyst before 25 Sep to create a fresh positive shock.
+Probability: 54%

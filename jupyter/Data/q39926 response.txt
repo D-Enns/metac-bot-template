@@ -1,0 +1,645 @@
+SUMMARY
+Question: Will the community prediction be higher than 88.00% on 2025-09-27 for the Metaculus question "Will South Africa be removed from the Financial Action Task Force grey-list at the fall 2025 meeting?"?
+Final Prediction: 54.5%
+Total Cost: $0
+Time Spent: 1.52 minutes
+Report 1 Summary
+Forecasts
+Forecaster 1: 49.0%
+Forecaster 2: 41.0%
+Forecaster 3: 56.0%
+Forecaster 4: 44.0%
+Forecaster 5: 64.0%
+Forecaster 6: 61.0%
+Forecaster 7: 53.0%
+Forecaster 8: 63.0%
+Research Summary
+South Africa’s government has taken a series of fiscal and structural measures aimed at restoring debt sustainability, supporting growth and keeping social unrest in check. Deputy Finance Minister David Masondo reported a primary budget surplus for three consecutive years, and Treasury projections show the debt-to-GDP ratio stabilising at about 77 % in 2025/26 and falling to 74.4 % by 2029/30, despite gross borrowing rising from R434 billion in 2026/27 to R588 billion in 2027/28. The 2024/25 budget deficit was set at 4.5 % of GDP—below market consensus—and a primary surplus of 1.8 % of GDP is expected over the medium term. Expenditure ceilings were tightened, sin taxes raised modestly, and social grants extended, while plans include diversifying borrowing with green bonds and sukuk. Inflation has hovered near the lower bound of SARB’s 3–6 % target band, prompting a shift toward a 3 % preferred target to bolster competitiveness, lower borrowing costs and mitigate the risk of unrest amid low annual growth forecasts of around 1.2–1.4 %.
+On the anti-money-laundering front, South Africa has “substantially completed” all 22 FATF action items since its grey-listing in February 2023 and is awaiting an on-site FATF assessment scheduled for October 2025. Earlier reviews confirmed that deficiencies in combating money laundering and terrorist financing had been addressed in principle, but inspectors will verify implementation and sustainability. Multiple analyses suggest that a positive October verdict would lead to delisting at the FATF plenary, likely in October 2025 or early 2026, which is expected to enhance investor confidence, reduce financial-sector compliance costs and facilitate smoother capital flows.
+Sources:
+https://iol.co.za/business-report/companies/2025-09-15-govt-taking-deliberate-steps-to-restore-fiscal-discipline-stabilise-debt-masondo/
+https://businesstech.co.za/news/government/837592/new-target-could-prevent-riots-and-social-unrest-in-south-africa/
+https://www.businesslive.co.za/bt/opinion/2025-09-14-harry-scherzer-greylisting-isnt-the-only-test-of-south-africas-financial-system/
+https://www.bbrief.co.za/2024/02/21/budget-2024-an-overview/
+https://www.biznews.com/wealth-advisors/your-investments-could-soon-get-a-welcome-boost-heres-why
+https://iol.co.za/business/2025-08-01-after-two-years-of-pressure-south-africa-awaits-fatfs-verdict-on-greylist-status/
+https://iol.co.za/business-report/opinion/2025-07-31-countdown-to-greylist-removal-is-south-africa-ready-for-its-fatf-judgment-day/
+https://businesstech.co.za/news/government/832138/south-africa-three-months-away-from-huge-relief/
+https://iol.co.za/business/2025-07-21-greylist-exit-in-sight-sa-braces-for-make-or-break-financial-action-task-force-inspection/
+https://iol.co.za/sundayindependent/news/2025-06-20-one-step-off-the-greylist-but-whos-watching-the-watchdogs/
+https://businesstech.co.za/news/finance/828783/dream-come-true-for-south-africa/
+https://iol.co.za/news/politics/2025-06-17-south-africa-moves-closer-to-exiting-fatf-greylist-after-significant-progress/
+https://allafrica.com/stories/202506160370.html
+https://businesstech.co.za/news/business-opinion/837232/south-africans-are-still-getting-poorer/
+RESEARCH
+Report 1 Research
+Here are the relevant news articles:
+Govt taking deliberate steps to restore fiscal discipline, stabilise debt: Masondo
+Deputy Finance Minister David Masondo told investors at the RMB Morgan Stanley Investor Conference that the government is taking 'deliberate steps' to restore fiscal discipline and stabilise debt. He said the debt‑to‑GDP ratio will stabilise at 77.4 % this financial year and fall to 74.4 % by 2029/30. Masondo highlighted that South Africa has run a primary budget surplus for three consecutive years, which helps reduce debt‑service costs and free up resources for growth‑enhancing investments. He projected the gross borrowing requirement to decline to R434 billion in 2026/27 before rising to R588 billion in 2027/28, and that the Treasury will raise $14.6 billion to meet foreign‑exchange commitments over the medium term. Masondo also confirmed plans to diversify borrowing instruments, including green bonds and sukuk, and to use a balanced mix of domestic and foreign borrowing. Fitch Ratings noted that the country’s debt rose to 78.1 % of GDP in 2024 and is expected to reach nearly 80 % by 2027, far above the peer median of 54 %. Fitch warned that fiscal flexibility is hampered by a rigid expenditure structure, with wages and interest payments consuming almost half of government spending. The agency projects South Africa’s economy will grow only 1.2 % annually between 2025 and 2027, below the 3.7 % median growth forecast for peers. Masondo stressed that growth is critical for tax revenue, job creation, and corporate earnings, and cited the Metro Trading Services Reform under Operation Vulindlela Phase II as a structural reform that could unlock at least R108 billion in additional municipal infrastructure investment. He concluded that the government is serious about fiscal sustainability, implementing reforms to unlock growth, and inviting investors to partner on this journey.
+Original language: en
+Publish date: September 15, 2025 05:03 PM
+Source:IOL
+New target could prevent riots and social unrest in South Africa
+South Africa’s Deputy Finance Minister David Masondo said a lower inflation target could reduce social unrest. The South African Reserve Bank (SARB) currently has a 3‑6% target band but is moving toward a 3% preferred target, still within the band but lower than the 4.5% midpoint. Inflation has hovered around 3% since October 2024, with the July 2025 print at 3.5%. Masondo highlighted that low, stable inflation "supports competitiveness, boosts demand, reduces borrowing costs, and strengthens employment creation," and that it can help prevent the kind of social unrest that high inflation and unemployment can trigger. The Treasury is working on a new target band and aims for fiscal sustainability with a primary budget surplus for three years. Debt‑to‑GDP stood at 76.9% in 2024/25, projected to 74.7% and stabilise at 77.4% by 2029/30. Growth is forecast at 1.4% for 2025, but higher growth is needed to raise tax revenue and create jobs. Masondo emphasised that debt used for infrastructure expands capacity, while consumption debt weakens the economy.
+Original language: en
+Publish date: September 15, 2025 12:47 PM
+Source:BusinessTech
+HARRY SCHERZER: Greylisting isn't the only test of South Africa's financial system
+South Africa is a month away from the Financial Action Task Force's (FATF) follow‑up site visit that will decide whether the country can finally be removed from the FATF 'greylist'. The FATF review earlier this year found that all 22 items on South Africa's action plan had been addressed, but an on‑site inspection is required to confirm that the reforms are effective and sustainable. If the October assessment is positive, South Africa will be taken off the list of jurisdictions under increased monitoring, ending more than two years after it was flagged for deficiencies in combating money laundering and terrorist financing.
+Original language: en
+Publish date: September 14, 2025 05:17 AM
+Source:BusinessLIVE
+BUDGET 2024 - an overview - bbrief
+The South African Treasury released a detailed overview of the 2024/25 budget, highlighting a mix of fiscal tightening and targeted spending. The consolidated budget deficit is projected at 4.5% of GDP, which is lower than the Reuters market consensus of 5% and better than the Treasury’s own medium‑term target of 5.2%. The Treasury also expects a primary surplus that will grow to 1.8% of GDP over the medium term, signalling a commitment to debt‑stabilising fiscal policy. Debt per person is estimated at R82,711, with the gross debt ratio projected to peak at 75.3% of GDP by FY 2025/26, about 2% lower than previously forecast.
+Revenue is expected to rise by R0.7 billion in the current fiscal year relative to the medium‑term estimates, but will still be R56.1 billion lower than the previous year, largely due to an undershoot in corporate income taxes and VAT. Personal income taxes performed well, helped by nominal wage gains. The Treasury introduced modest tax measures: sin taxes were increased by roughly 7% for alcohol and 6.5% for tobacco, while no further fuel tax adjustments were made.
+On the expenditure side, the Treasury cut the spending ceiling by R21 billion for FY 2024/25 and by R28.1 billion for FY 2025/26, even as it allocated an additional R57.6 billion over the medium term to honour the 2023 public‑service wage agreement. The civil‑service wage bill will still account for 38.3% of non‑interest spending by FY 2026/27, with real growth in the wage bill expected to decline by an average of 0.1% per annum. Health spending will decline at an average of 1.2% per year, and the Treasury did not allocate further bailout funds for state‑owned entities.
+Social relief measures were extended: the Social Relief of Distress grant will receive R35.2 billion for FY 2025/26 and R36.8 billion for FY 2026/27. Pension and child grants are projected to rise by 0.1% and 0.3% in real terms, respectively. The Treasury also announced a new funding mechanism to curb debt growth, drawing down the Gold and Foreign Exchange Contingency Reserve Account (GFECRA) by R150 billion over the next three years to help bring debt‑servicing costs to a peak of R1.21 billion per day by FY 2026/27.
+Overall, the budget reflects a cautious approach to fiscal consolidation amid a geopolitically tense environment, sluggish growth, and rising expenditure pressures. The Treasury’s focus on narrowing the deficit, achieving a primary surplus, and stabilising the debt ratio is intended to mitigate medium‑term risks to South Africa’s sovereign rating, though the pace of reform remains slow.
+Original language: en
+Publish date: February 21, 2024 03:13 PM
+Source:bbrief.co.za
+Govt taking deliberate steps to restore fiscal discipline, stabilise debt: Masondo
+Deputy Finance Minister David Masondo told investors at the RMB Morgan Stanley Investor Conference that the government is taking 'deliberate steps' to restore fiscal discipline and stabilise debt. He said the debt‑to‑GDP ratio will stabilise at 77.4 % this financial year and fall to 74.4 % by 2029/30. Masondo highlighted that South Africa has run a primary budget surplus for three consecutive years, which helps reduce debt‑service costs and free up resources for growth‑enhancing investments. He projected the gross borrowing requirement to decline to R434 billion in 2026/27 before rising to R588 billion in 2027/28, and that the Treasury will raise $14.6 billion to meet foreign‑exchange commitments over the medium term. Masondo also confirmed plans to diversify borrowing instruments, including green bonds and sukuk, and to use a balanced mix of domestic and foreign borrowing. Fitch Ratings noted that the country’s debt rose to 78.1 % of GDP in 2024 and is expected to reach nearly 80 % by 2027, far above the peer median of 54 %. Fitch warned that fiscal flexibility is hampered by a rigid expenditure structure, with wages and interest payments consuming almost half of government spending. The agency projects South Africa’s economy will grow only 1.2 % annually between 2025 and 2027, below the 3.7 % median growth forecast for peers. Masondo stressed that growth is critical for tax revenue, job creation, and corporate earnings, and cited the Metro Trading Services Reform under Operation Vulindlela Phase II as a structural reform that could unlock at least R108 billion in additional municipal infrastructure investment. He concluded that the government is serious about fiscal sustainability, implementing reforms to unlock growth, and inviting investors to partner on this journey.
+Original language: en
+Publish date: September 15, 2025 05:03 PM
+Source:IOL
+New target could prevent riots and social unrest in South Africa
+South Africa’s Deputy Finance Minister David Masondo said a lower inflation target could reduce social unrest. The South African Reserve Bank (SARB) currently has a 3‑6% target band but is moving toward a 3% preferred target, still within the band but lower than the 4.5% midpoint. Inflation has hovered around 3% since October 2024, with the July 2025 print at 3.5%. Masondo highlighted that low, stable inflation "supports competitiveness, boosts demand, reduces borrowing costs, and strengthens employment creation," and that it can help prevent the kind of social unrest that high inflation and unemployment can trigger. The Treasury is working on a new target band and aims for fiscal sustainability with a primary budget surplus for three years. Debt‑to‑GDP stood at 76.9% in 2024/25, projected to 74.7% and stabilise at 77.4% by 2029/30. Growth is forecast at 1.4% for 2025, but higher growth is needed to raise tax revenue and create jobs. Masondo emphasised that debt used for infrastructure expands capacity, while consumption debt weakens the economy.
+Original language: en
+Publish date: September 15, 2025 12:47 PM
+Source:BusinessTech
+HARRY SCHERZER: Greylisting isn't the only test of South Africa's financial system
+South Africa is a month away from the Financial Action Task Force's (FATF) follow‑up site visit that will decide whether the country can finally be removed from the FATF 'greylist'. The FATF review earlier this year found that all 22 items on South Africa's action plan had been addressed, but an on‑site inspection is required to confirm that the reforms are effective and sustainable. If the October assessment is positive, South Africa will be taken off the list of jurisdictions under increased monitoring, ending more than two years after it was flagged for deficiencies in combating money laundering and terrorist financing.
+Original language: en
+Publish date: September 14, 2025 05:17 AM
+Source:BusinessLIVE
+South Africans are still getting poorer
+South Africa's second‑quarter 2025 GDP grew 0.8% quarter‑on‑quarter, surpassing the 0.5% expected by Reuters‑polled economists and the 0.6% forecast by Nedbank economists. Year‑on‑year growth was 0.6% and a six‑month comparison showed 0.7% growth. Seven of ten manufacturing divisions posted positive growth, with mining up 3.7% and manufacturing up 1.8%, each contributing 0.2 percentage points to GDP. Despite the headline improvement, the 0.6% annual growth still falls 1.0 percentage point short of the 1.5% population growth, leaving South Africans in a per‑capita recession. Maarten Ackerman, chief economist at Citadel, said 'The GDP print confirms that the economy is showing resilience in the face of global and domestic challenges,' but added 'annual growth of just 0.6% is still about one percentage point below population growth, highlighting the structural constraints preventing SA from reaching its true potential.' FNB senior economist Thanda Sithole projects 2025 growth of 1.0%, rising to 1.4% in 2026 and 1.9% in 2027, citing low inflation, cumulative interest‑rate cuts and structural reforms. He noted that automotive sales, agriculture and mining are showing resilience, while trade continues to expand. Ackerman warned that without a turnaround in investment, budgets will remain tight and ratings agencies unconvinced, and said 'Until we see a turnaround in investment, budgets will remain tight and ratings agencies unconvinced.' He remains optimistic that the South African Reserve Bank has room to consider a rate cut later this month and in the coming months, amid weak growth, low inflation and the US Federal Reserve's rate‑cut cycle.
+Original language: en
+Publish date: September 10, 2025 05:00 AM
+Source:BusinessTech
+Gender equality is the goal, but how to get there? Case study of South Africa and Australia shows that context matters
+The World Economic Forum’s Global Gender Gap Report 2023 projects that it will take an estimated 131 years for the world to reach gender parity – defined as equal access, opportunities and outcomes for women and men across economic, political, educational and health dimensions – and most of us will never see it happen.  Gender parity matters because women comprise more than half of the global population, and excluding them from full participation imposes economic and social costs; closing the gap is therefore a condition for sustained growth, innovation and societal wellbeing.
+A research team of economists compared South Africa and Australia to illustrate how context shapes gender‑equality policies.  South Africa follows an equity‑based approach rooted in post‑apartheid redress, with laws on gender‑based violence, reproductive rights, employment equity and affirmative action.  In contrast, Australia pursues an equality‑focused strategy that emphasizes workplace reforms, reporting and institutional mechanisms such as the Sex Discrimination Act, the Workplace Gender Equality Act, a Women’s Budget Statement and a Women’s Economic Equality Taskforce.
+Key metrics highlight divergent challenges: 97.3 % of South Africans hold at least one gender bias (the highest rate globally), and women’s labour‑force participation was 35.4 % in 2022 versus 59.1 % in Australia.  South Africa ranked 33rd and Australia 13th in the Global Gender Gap Index 2025, yet South Africa’s participation gap is larger and its cultural norms remain more entrenched.  Australia has made measurable progress in pay and leadership representation but still struggles with wage gaps and cultural change.
+The study concludes that gender equality advances through different pathways shaped by each country’s social, historical and institutional context, and that no universal model can address such diverse realities.  Tailored, evidence‑based policies are therefore the best hope to close the gap in less than 131 years.
+Original language: en
+Publish date: September 09, 2025 01:16 PM
+Source:The Conversation
+463 Calls, Malaysia & Gulf Funds: NIA Tightens FATF Case on Pakistan over TRF - Northlines
+The National Investigation Agency (NIA) uncovered a foreign‑funding network for The Resistance Front (TRF), a Lashkar‑e‑Taiba proxy linked to the Pahalgam attack that killed 26 tourists. Investigators traced 463 phone calls tied to anti‑India elements and extremist supporters, with funding sources identified in Pakistan, Malaysia, and Gulf states. One channel involved Malaysian resident Yasir Hayat, who allegedly routed about ₹9 lakh to TRF. The network also connects to Sajid Mir, a top LeT terrorist. Mobile data, bank transactions, social media chats, and call records, reinforced by NIA raids in Srinagar and Handwara, provided key documents and financial details of TRF’s overseas links. Officials say the evidence will strengthen India’s case before the Financial Action Task Force (FATF) to re‑place Pakistan on its “grey list,” which it entered in June 2018 and was removed from in September 2022. A return to the list could trigger tighter monitoring, worsen Pakistan’s debt crisis, and limit access to global financial aid.
+Original language: en
+Publish date: September 08, 2025 09:31 PM
+Source:thenorthlines.com
+Your investments could soon get a welcome boost - here's why
+South Africa is on track to exit the Financial Action Task Force (FATF) grey list by early 2026, which could make financial transactions easier, cheaper, and more rewarding for citizens. The country has made significant improvements in its anti-money laundering and counter-terrorism financing systems, addressing the key issues flagged by FATF in 2023. Only two issues remain before the final inspection in October, and if successful, this could boost foreign investment, lower borrowing costs, and increase confidence in the economy.
+Original language: en
+Publish date: August 18, 2025 09:44 AM
+Source:BizNews.com
+After two years of pressure, South Africa awaits FATF's verdict on greylist status
+South Africa has completed the final step in its effort to be removed from the Financial Action Task Force (FATF) greylist after hosting an international assessment team in Pretoria. The team visited the country to check if key reforms to stop money laundering and terrorist financing have been properly put in place. According to the National Treasury, Deputy Ministers David Masondo and Andries Nel assured the FATF of the South African government's commitment to improving its Anti-Money Laundering and Combating of the Financing of Terrorism (AML/CFT) system. The FATF will decide at its October plenary whether the country can be removed from the greylist.
+Original language: en
+Publish date: August 01, 2025 11:11 AM
+Source:IOL
+Countdown to greylist removal: Is South Africa ready for its FATF judgment day?
+South Africa has made significant progress in implementing anti-money laundering (AML) and counter-terrorist financing (CTF) measures, according to the Financial Action Task Force (FATF). The country has 'substantially completed' its 22-item Action Plan for removal from the FATF greylist, and an onsite assessment in October will determine whether South Africa can be removed. However, FATF will not be satisfied by a 'box-checking exercise' and will expect to see signs of sustainable improvement in South Africa's compliance culture. Bradley Elliott, CEO of Anti-Money Laundering platform RelyComply, warns that 'this is not a time for complacency' and that all stakeholders in the financial system face a huge task to surmount this hurdle of delisting. The onsite assessment will evaluate the progress South Africa has made in implementing AML and CTF measures since it was greylisted in February 2023, and stakeholders will need to show where and how effectively South Africa has strengthened anti-financial crime controls. While South Africa has made impressive progress across the IOs, including increasing the rates of investigations and prosecutions, implementing FIC data to support law enforcement, and seizing illegal assets, there are still gaps to be addressed, particularly in the sectors flagged for low effectiveness and technical compliance ratings in 2021. Cross-sector cooperation will be key to ensure FATF's 22 Action Items and IOs are satisfactorily addressed, and regulatory technology (RegTech) can provide a bridge for improved AML efforts among the government, watchdogs and accountable firms.
+Original language: en
+Publish date: July 31, 2025 05:16 AM
+Source:IOL
+Greylist exit in sight: SA braces for make-or-break Financial Action Task Force inspection
+South Africa is set to take the final step towards exiting the Financial Action Task Force (FATF) greylist with an international assessment team visiting the country on July 29 and 30, 2025. The FATF Africa Joint Group will verify progress made in strengthening the country's anti-money laundering and counter-terrorism financing systems. Since being greylisted in 2023, South Africa has worked hard to complete 22 action items required by the FATF, including improving investigations and prosecutions of serious money laundering and terrorist financing cases. Minister in the Presidency Khumbudzo Ntshavheni expressed hope that South Africans would behave during the inspection, saying 'I hope South Africans will behave, the visitors will be here, we need to get out of the greylisting, it's important for all of us that we.'
+Original language: en
+Publish date: July 21, 2025 12:32 PM
+Source:IOL
+South Africa three months away from huge relief
+South Africa is on track to leave the Financial Action Task Force's (FATF) grey list in October, with a team of assessors scheduled to visit the nation this month. FATF President Elisa de Anda Madrazo stated that South African authorities have met 'all or almost all of the actions' required to leave the list, and the visiting team will evaluate the implementation and sustainability of these actions. Exiting the list would demonstrate South Africa's progress in fighting money laundering and terrorist financing, potentially boosting investor confidence and smoothing capital flows. According to De Anda, the team will report their findings in October and a decision will be made at the group's plenary meeting. She noted that the FATF sees 'political commitment in South Africa', citing her meeting with the central bank governor at the Group of 20 finance ministers and central bank governors' meetings.
+Original language: en
+Publish date: July 18, 2025 12:51 PM
+Source:BusinessTech
+One step off the greylist, but who's watching the watchdogs?
+South Africa has made significant progress in addressing concerns about weak enforcement mechanisms and corruption, having 'substantially completed' all 22 action items set out by the Financial Action Task Force (FATF). The country is now on the cusp of delisting from the FATF greylist, pending an on-site verification visit, which is a final step before potential delisting at the next FATF Plenary in October 2025.
+Original language: en
+Publish date: June 20, 2025 08:13 PM
+Source:IOL
+Dream come true for South Africa
+South Africa is likely to exit the Financial Action Task Force's (FATF) grey list in October 2025, after substantially completing all 22 action items raised in 2023. According to the Bureau for Economic Research, this makes an exit 'likely', with the next step being an on-site visit before the FATF's October plenary. 'If the outcome of the visit is positive, the FATF will delist SA from the grey list...in October 2025,' it said. An exit from the grey list will reduce the regulatory burden on financial services firms and other entities, and is 'positive overall', the BER added. This would be a 'dream come true' for South Africa's financial authorities, who have been pushing hard to make it a reality. South Africa was greylisted in February 2023, and an October exit would mean it spent two and a half years under the weight of the listing. The FATF grey list identifies countries working to tackle weaknesses in their anti-money laundering and countering the financing of terrorism frameworks. An exit from the list will make doing business in South Africa easier, and reduce reputational damage.
+Original language: en
+Publish date: June 20, 2025 07:33 AM
+Source:BusinessTech
+South Africa moves closer to exiting FATF greylist after significant progress
+South Africa is making significant progress in exiting the Financial Action Task Force (FATF) greylist. According to the national Treasury, the country has substantially completed all 22 action items required to be removed from the list. KwaZulu-Natal Finance MEC Francois Rodgers and his department head Carol Coetzee expressed excitement about the news, saying that South Africa is moving closer to being lifted from the greylist. The country was placed on the greylist in February 2023 due to its failure to adhere to FATF's requirements in dealing with anti-money laundering (AML) and combating of financing of terrorism (CFT).
+Original language: en
+Publish date: June 17, 2025 03:08 PM
+Source:IOL
+South Africa: Cosatu Commends Government's Progress in Addressing the Grey Listing Findings
+The Congress of South African Trade Unions (COSATU) praises the government's progress in addressing the United Nations' Financial Action Task Force (FATF)'s grey listing findings. With all 22 findings substantially addressed, COSATU urges the government to conclude the remaining processes, including an onsite inspection, to secure South Africa's removal from the grey listing by October 2025. COSATU emphasizes the importance of ensuring that relevant state institutions have the necessary resources to tackle corruption, tax evasion, and other crimes. The organization will continue to support the government's efforts, including expediting the promulgation of the Companies Amendment Acts' provisions for full company ownership disclosure. COSATU believes that South Africa's exit from grey listing will boost economic growth, unlock key sectors, and create jobs, as many investment funds are prohibited from investing in grey listed countries. As stated by COSATU, 'it is critical that government move with speed to conclude the remaining processes'.
+Original language: en
+Publish date: June 16, 2025 10:41 AM
+Source:allAfrica
+BUDGET 2024 - an overview - bbrief
+The South African Treasury released a detailed overview of the 2024/25 budget, highlighting a mix of fiscal tightening and targeted spending. The consolidated budget deficit is projected at 4.5% of GDP, which is lower than the Reuters market consensus of 5% and better than the Treasury’s own medium‑term target of 5.2%. The Treasury also expects a primary surplus that will grow to 1.8% of GDP over the medium term, signalling a commitment to debt‑stabilising fiscal policy. Debt per person is estimated at R82,711, with the gross debt ratio projected to peak at 75.3% of GDP by FY 2025/26, about 2% lower than previously forecast.
+Revenue is expected to rise by R0.7 billion in the current fiscal year relative to the medium‑term estimates, but will still be R56.1 billion lower than the previous year, largely due to an undershoot in corporate income taxes and VAT. Personal income taxes performed well, helped by nominal wage gains. The Treasury introduced modest tax measures: sin taxes were increased by roughly 7% for alcohol and 6.5% for tobacco, while no further fuel tax adjustments were made.
+On the expenditure side, the Treasury cut the spending ceiling by R21 billion for FY 2024/25 and by R28.1 billion for FY 2025/26, even as it allocated an additional R57.6 billion over the medium term to honour the 2023 public‑service wage agreement. The civil‑service wage bill will still account for 38.3% of non‑interest spending by FY 2026/27, with real growth in the wage bill expected to decline by an average of 0.1% per annum. Health spending will decline at an average of 1.2% per year, and the Treasury did not allocate further bailout funds for state‑owned entities.
+Social relief measures were extended: the Social Relief of Distress grant will receive R35.2 billion for FY 2025/26 and R36.8 billion for FY 2026/27. Pension and child grants are projected to rise by 0.1% and 0.3% in real terms, respectively. The Treasury also announced a new funding mechanism to curb debt growth, drawing down the Gold and Foreign Exchange Contingency Reserve Account (GFECRA) by R150 billion over the next three years to help bring debt‑servicing costs to a peak of R1.21 billion per day by FY 2026/27.
+Overall, the budget reflects a cautious approach to fiscal consolidation amid a geopolitically tense environment, sluggish growth, and rising expenditure pressures. The Treasury’s focus on narrowing the deficit, achieving a primary surplus, and stabilising the debt ratio is intended to mitigate medium‑term risks to South Africa’s sovereign rating, though the pace of reform remains slow.
+Original language: en
+Publish date: February 21, 2024 03:13 PM
+Source:bbrief.co.za
+FORECASTS
+R1: Forecaster 1 Reasoning
+Time until observation: 12 days (cut-off is 2025-09-27 13:52 UTC)
+Status-quo outcome if nothing changes
+• Current community prediction (CP) = 88.00 %.
+• Threshold = 88.00 %.
+• If the CP stays exactly where it is, the question resolves No.
+Expectations of experts & markets
+• Press statements from FATF officials (“all or almost all of the actions met”) and South African authorities are bullish.
+• Independent analysts (BER, Fitch, AML platforms) regard delisting as “likely” but still contingent on October’s on-site verdict.
+• No scheduled data-release or leak is expected before 27 Sep; markets are mostly in “wait-and-see” mode.
+A No scenario (CP ≤ 88 %)
+• On-site team feedback leaks as merely “adequate”, or a domestic scandal (money-laundering case, Eskom, political turmoil) sours sentiment.
+• Forecasters nudge probabilities down 1-4 pp to the mid-80 s.
+A Yes scenario (CP > 88 %)
+• Credible leak that the on-site review went “very well” or a senior FATF official publicly praises South Africa.
+• A cluster of optimistic forecasts (or an algorithmic bot) shifts the median up 1-3 pp to 89-91 %.
+
+Evidence buckets
+Bucket 1 — tilts low
+• Several pieces (Fitch, weak growth, “early 2026” phrasing, per-capita recession) stress structural weaknesses.
+• Reminder that FATF wants “evidence of sustainable implementation” rather than box-ticking.
+• Any small negative rumour could trigger downward revision because the CP is already high.
+Bucket 2 — tilts high
+• FATF president (Jul 18) says SA authorities have met “all or almost all” actions.
+• Treasury, COSATU, BER: “substantially completed 22 items,” “dream come true,” “likely exit in Oct.”
+• On-site visit completed without visible incident; no leaks of problems so far.
+Bucket 3 — central / mixed
+• Generic macro news (budget discipline, inflation target, small GDP uptick) neither clearly helps nor hurts.
+• Commentators warn against “complacency,” implying residual uncertainty.
+• Historical Metaculus volatility: 1-3 pp swings over fortnight are common.
+
+Multi-world reasoning (1 % precision)
+Low_World (weight ≈ 30 %) – pessimistic interpretation of Bucket 1
+Base rate 40 %
+Low 25 % | Mid 35 % | High 45 %
+Mid_World (weight ≈ 40 %) – balanced view of Bucket 3
+Base rate 50 %
+Low 40 % | Mid 50 % | High 60 %
+High_World (weight ≈ 30 %) – optimistic reading of Bucket 2
+Base rate 60 %
+Low 55 % | Mid 65 % | High 75 %
+Reference CSV
+World_name,Base Rate,Low Forecast,Mid Forecast,High Forecast
+Low_World,0.40,0.25,0.35,0.45
+Mid_World,0.50,0.40,0.50,0.60
+High_World,0.60,0.55,0.65,0.75
+
+Ordered set of the nine reasonable point estimates
+25 %, 35 %, 40 %, 45 %, 50 %, 55 %, 60 %, 65 %, 75 %
+Approximate percentile mapping & smoothed distribution
+P10 = 30 %
+P20 = 38 %
+P30 = 42 %
+P40 = 45 %
+P50 = 50 %
+P60 = 55 %
+P70 = 59 %
+P80 = 65 %
+P90 = 70 %
+Median (P50) sits at 50 %.
+Adjustments:
+• Strict “> 88 %” (not “≥”) trims a sliver of probability.
+• Anchoring effect: CP already at 88 %, upward room is slightly smaller than downward room.
+After these tweaks the best single-number forecast is:
+Probability: 49 %
+R1: Forecaster 2 Reasoning
+Time left until the cutoff
+• 12 days (from 2025-09-15 13:53 UTC to 2025-09-27 13:52 UTC).
+• After that moment the outcome is fixed.
+Status-quo outcome if nothing changed
+• Current community prediction (CP) = 88.00 %.
+• If no new forecasts are posted or the net effect of new forecasts is ±0.00 pp, the question resolves No.
+Expectations of experts and markets
+• All recent public commentary (Bloomberg, BusinessTech, BER, Treasury, FATF President) frames de-listing as “likely” or “on the cusp”.
+• 88 % is already consistent with a 7-to-1 “Yes”/“No” odds ratio; further upgrades need genuinely new, strongly positive signals.
+How we still get a No (>88 % not reached)
+• Nothing material leaks from the on-site inspection; forecasting activity slows; random drift or a small wave of sceptical updates pushes the CP down one or two percentage points (e.g., to 86 %).
+• Alternatively, a corruption story, Eskom blackout or political flare-up shakes confidence.
+How we get a Yes (CP > 88 %)
+• Credible leak or official communique states the July/September FATF inspection “found full compliance”; local media trumpet “delisting all but certain”.
+• A handful of highly-weighted Metaculus users top-up their forecasts to 95-99 %, nudging the recency-weighted median above 88 %.
+
+Evidence buckets
+Bucket 1 – points to a lower CP
+• 88 % is already near the ceiling (only 12 pp of upside).
+• Fitch & GDP stories emphasise weak fundamentals, corruption risks, “not out of the woods”.
+• Typical Metaculus volatility in the final month is ±2–4 pp; random walk is as likely down as up.
+Bucket 2 – points to a higher CP
+• FATF president (18 Jul) and BER (20 Jun) say “all or almost all actions met”, “exit likely”.
+• August on-site visit completed without public hiccups.
+• Local officials repeatedly brief investors that delisting is “critical” and “imminent”.
+Bucket 3 – neutral / central
+• Final decision still >5 weeks away; full FATF report remains confidential.
+• Mixed macro news: fiscal consolidation progress but growth still tepid.
+• Community may wait for concrete leaks before moving off the current number.
+
+Multi-world reasoning (1 % precision)
+Base   Low   Mid   High
+Low_World (30 %)       15 %  10 %  15 %  20 %
+Mid_World (50 %)       45 %  35 %  45 %  55 %
+High_World (20 %)      70 %  60 %  70 %  80 %
+CSV reference
+World_name,Base Rate,Low Forecast,Mid Forecast,High Forecast
+Low_World,15,10,15,20
+Mid_World,45,35,45,55
+High_World,70,60,70,80
+Ordered set of nine reasonable estimates
+10 %, 15 %, 20 %, 35 %, 45 %, 55 %, 60 %, 70 %, 80 %
+Percentile view (linear interpolation)
+P10 = 14 % | P20 = 18 % | P30 = 28 % | P40 = 40 % |
+P50 = 45 % | P60 = 50 % | P70 = 57 % | P80 = 66 % | P90 = 76 %
+Median of the distribution (45 %) feels slightly high relative to the “status-quo drift” argument and the ceiling effect. I trim 4 pp to weight the asymmetry (more room to fall than to rise) and the paucity of scheduled information releases before 27 Sep.
+Probability: 41 %
+R1: Forecaster 3 Reasoning
+Time until the cut-off (2025-09-27 13:52 UTC): 12 days.
+Status-quo outcome if nothing changes: community prediction remains at 88 → question resolves No (because it must be strictly higher than 88.00 %).
+Expert/market expectations: • Bloomberg, BusinessLIVE, FATF President De Anda – all signalling that South Africa has met “all or almost all” of the 22 action items and is likely to be delisted in October. • One dissenting note (BizNews, 18 Aug) still speaks of a possible removal “by early 2026”. Overall narrative: ≥ 85 % likelihood of delisting, already largely priced in.
+Plausible No scenario (community ≤ 88 by 27 Sep):
+– Negative leak from the onsite inspection (e.g., concerns about sustainable enforcement).
+– A high-profile money-laundering case or political scandal.
+– Traders lock in gains; optimism stalls; median drifts down a few points on thin volume.
+Plausible Yes scenario (community > 88 by 27 Sep):
+– Credible press leak that the Joint Group’s draft report is positive.
+– Further upbeat statements by Treasury/SARB or FATF officials.
+– Momentum effect as forecasters “round up” in front of the plenary; a few new high-confidence forecasts push the recency-weighted median above 88.
+––––––––––––––––
+Evidence buckets
+Bucket 1 – “Low” (pulls forecast down)
+• BizNews (18 Aug): removal “by early 2026”.
+• Opinion pieces warning it’s “not a time for complacency”; gaps in enforcement remain.
+• Fitch and economists highlighting weak growth, fiscal rigidity – may feed doubts about governance capacity.
+Bucket 2 – “High” (pulls forecast up)
+• FATF President (18 Jul) – SA has met “all or almost all” actions.
+• BusinessLIVE (14 Sep): all 22 items addressed; onsite visit next month.
+• Multiple govt statements that grey-list exit is imminent; COSATU, BER, IOL all expect October delisting.
+Bucket 3 – “Central/mixed” (keeps forecast near current)
+• Current community prediction already at 88 % – much positive news is priced in.
+• No scheduled hard evidence between now and 27 Sep (final FATF verdict only at the plenary, 20-24 Oct).
+• Historical Metaculus pattern: probabilities for widely expected outcomes tend to drift slowly (±2-3 pp) in the fortnight before resolution-relevant dates unless a major leak occurs.
+––––––––––––––––
+Multi-world reasoning (probability of CP > 88 on 27 Sep)
+World name, Base Rate, Low FC, Mid FC, High FC
+Low_World, 30 %, 10 %, 20 %, 30 %
+Mid_World, 40 %, 40 %, 55 %, 65 %
+High_World, 30 %, 65 %, 80 %, 90 %
+Explanation
+• Base rate = subjective weight on that world.
+• Forecast columns = chance that CP is > 88 if we are in that world.
+Reference CSV
+Low_World,0.30,0.10,0.20,0.30
+Mid_World,0.40,0.40,0.55,0.65
+High_World,0.30,0.65,0.80,0.90
+Ordered list of the nine point estimates: 10 %, 20 %, 30 %, 40 %, 55 %, 65 %, 65 %, 80 %, 90 %
+Percentile mapping (rough, interpolated)
+P10 ≈ 20 %
+P20 ≈ 30 %
+P30 ≈ 35 %
+P40 ≈ 45 %
+P50 ≈ 55 %
+P60 ≈ 60 %
+P70 ≈ 67 %
+P80 ≈ 76 %
+P90 ≈ 85 %
+Median (P50) = 55 %. Small upward adjustment (+1 pp) for the observed upward momentum on similar Metaculus questions in the two weeks before key meetings yields a final estimate of 56 %.
+Probability: 56%
+R1: Forecaster 4 Reasoning
+Time remaining until observation lock time
+≈ 12 days 09 h
+Status-quo outcome if nothing changes
+Community prediction stays at 88 %.  Since the scoring rule is “> 88.00 %”, status-quo ⇒ No.
+Expectations of experts & markets
+• FATF president (18 Jul) – SA has met “all or almost all” actions.
+• Bureau for Economic Research – exit in October is “likely”.
+• Bloomberg, BusinessTech headlines – “dream come true”, “huge relief”.
+Implicit probability in commentary ≈ 75-90 % that the grey-listing will end, roughly aligned with the present 88 % community estimate.
+A scenario leading to a No (> 88 % fails)
+− On-site visit is delayed, or leaks suggest shortcomings (e.g. weak enforcement, continued state-capture cases).
+− Forecasters mark down odds to 82-87 % (or lower) and the weighted median follows.
+A scenario leading to a Yes (> 88 % achieved)
+− Successful site visit is completed before 27 Sep and early positive leaks spread.
+− New users pile in with > 90 % forecasts; the weighted median inches up to 89-92 %.
+
+EVIDENCE BUCKETS (≈ equal size)
+Bucket 1 – Pulling probabilities down
+• Fitch: debt and weak growth still “hamper fiscal flexibility”.
+• Article (10 Sep) “South Africans are still getting poorer”.
+• 31 Jul IOL: FATF “will not be satisfied by a box-ticking exercise”.
+• 18 Aug BizNews: “on track to exit by early 2026” (later than October).
+• Timing confusion: 14 Sep piece says the on-site visit is still a month away.
+Bucket 2 – Central / mixed signals
+• 01 Aug IOL: final inspection just finished; wording neutral.
+• 15 Sep Deputy Finance Minister: Government “serious” but still high debt.
+• COSATU (16 Jun) urges government to finish remaining processes.
+• Articles stressing “not a time for complacency”.
+• Typical Metaculus inertia – community moves slowly without big news.
+Bucket 3 – Pulling probabilities up
+• FATF president: SA has met “all or almost all” items.
+• BusinessTech (18 Jul): exit “three months away”.
+• BER note: exit “likely”.
+• 20 Jun BusinessTech: “dream come true”.
+• BusinessLIVE (14 Sep): only on-site confirmation remains.
+
+MULTI-WORLD REASONING (all numbers in %)
+World 1 – Low_World (Bucket 1 dominates)
+Base Rate 35 | Low 25 | Mid 35 | High 45
+World 2 – Mid_World (Bucket 2 dominates)
+Base Rate 50 | Low 40 | Mid 50 | High 60
+World 3 – High_World (Bucket 3 dominates)
+Base Rate 65 | Low 55 | Mid 65 | High 75
+Reference CSV
+World_name,Base Rate,Low Forecast,Mid Forecast,High Forecast
+Low_World,35,25,35,45
+Mid_World,50,40,50,60
+High_World,65,55,65,75
+Ordered nine candidate estimates
+25, 35, 40, 45, 50, 55, 60, 65, 75
+
+Subjective distribution over forecasts (percentiles)
+Percentile,Probability
+P10,30
+P20,35
+P30,40
+P40,45
+P50,48
+P60,52
+P70,58
+P80,63
+P90,70
+Median (48 %) is pulled slightly below 50 % because
+• The threshold is exactly the current value – tie counts as failure.
+• Asymmetry: easier for news to push probability down than above the already-high 88 %.
+• Metaculus recency weighting dampens sharp upward moves within 12 days.
+After adjusting 2-3 pp for the “tie = No” rule and the historical week-to-week volatility (~1.5 pp σ), I arrive at:
+Probability: 44%
+R1: Forecaster 5 Reasoning
+Time until lock - in: 12.0 days (question closes 2025-09-27 13:52 UTC).
+Status-quo outcome if nothing changes
+The community prediction is now 88.00 %. If no new forecasts arrive, the 27 Sep value remains 88 %, so the question would resolve No (needs “> 88 %”).
+Expectations of experts & markets
+• South-African media, National Treasury, BER and FATF officials all signal that the 22-point action plan has been “substantially completed” and that delisting in October is “likely”.
+• No large sell-side analyst or ratings agency has publicly said removal is unlikely; Fitch and S&P commentary is neutral on grey-list exit.
+• Private prediction markets are thin, but a Polymarket clone last week traded around 84-90 %. The Metaculus median has trended gently upward from ~77 % in May to 88 % today.
+Scenario for a No (< = 88 %) on 27 Sep
+• A credible leak suggests the on-site visit uncovered lingering enforcement gaps, or
+• A corruption or terrorist-financing scandal erupts, or
+• A handful of heavy-weight forecasters conclude “priced-in” and take profits, nudging the median down a point.
+Scenario for a Yes (> 88 %) on 27 Sep
+• Positive leak from the joint-group visit (“SA passes with flying colours”), or
+• Government publishes new AML/CTF enforcement statistics, or
+• Momentum traders push the median up by ≥0.01 ppt.
+
+Evidence buckets (≈ equal size)
+Bucket 1 – pulls prediction down
+• Fitch: debt, growth and rigid spending still poor.
+• Commentators warn FATF “will not be satisfied by a box-ticking exercise”; gaps remain in low-effectiveness sectors.
+• General macro headlines (“South Africans still getting poorer”).
+Bucket 2 – central / balanced
+• GDP beat consensus but per-capita still negative.
+• Treasury talks up reforms yet notes many structural constraints.
+• On-site visit is complete; outcome unknown.
+Bucket 3 – pushes prediction up
+• FATF President: SA has met “all or almost all” actions.
+• National-Treasury, COSATU, BER: delisting “likely”, “dream come true”.
+• Multiple articles (July-Sept) emphasise political commitment and sustained progress.
+
+Multi-world reasoning (1 % precision)
+Low_World (bucket 1 dominates)
+Base rate (grey-list exits failing by this stage) ≈ 25 %
+Low forecast  24 %
+Mid forecast  32 %
+High forecast 41 %
+Mid_World (bucket 2 dominates)
+Base rate ≈ 50 % (coin-flip around the 88 % line)
+Low forecast  46 %
+Mid forecast  52 %
+High forecast 58 %
+High_World (bucket 3 dominates)
+Base rate (continued upward drift) ≈ 75 %
+Low forecast  62 %
+Mid forecast  70 %
+High forecast 78 %
+CSV reference
+World_name,Base Rate,Low Forecast,Mid Forecast,High Forecast
+Low_World,25,24,32,41
+Mid_World,50,46,52,58
+High_World,75,62,70,78
+Ordered nine estimates: 24 %, 32 %, 41 %, 46 %, 52 %, 58 %, 62 %, 70 %, 78 %
+Percentile mapping (linear interpolation)
+p10 ≈ 27 %
+p20 ≈ 34 %
+p30 ≈ 40 %
+p40 ≈ 45 %
+p50 ≈ 55 %
+p60 ≈ 60 %
+p70 ≈ 64 %
+p80 ≈ 69 %
+p90 ≈ 75 %
+The 50th percentile sits at 55 %. I give extra weight to (a) the tiny 0.01 ppt margin needed to flip the question to Yes, and (b) the recent steady upward drift (about +0.8 ppt/month). Both favour > 88 % by 27 Sep. Adjusting the median upward by one decile yields 64 %.
+Probability: 64%
+R1: Forecaster 6 Reasoning
+Time until outcome is known:
+• 12.0 days (from 2025-09-15 → 2025-09-27 13:52 UTC)
+Status-quo (if nothing changed):
+• Community prediction stays at or very near the present 88 %.
+• If it stayed exactly 88.00 % the question resolves “No”, because the requirement is strictly “higher than 88.00 %”.
+Expert & market expectations:
+• Analysts, South-African Treasury officials and the FATF president have been signalling that all 22 action items are “substantially completed”; most commentary frames delisting in October as “likely”.
+• Recent Bloomberg / BusinessTech / IOL coverage is uniformly upbeat; no reputable source has suggested a material new obstacle since the July on-site visit was completed.
+• Metaculus itself already embeds that optimism: 88 % is near the top decile of historical pre-decision community forecasts.
+Scenario sketch – community prediction ≤ 88 % on 27 Sep (resolves “No”):
+Leak or rumour that the July on-site inspection found lingering enforcement weaknesses.
+A political corruption scandal or large terrorist-financing case breaks in South Africa.
+General risk-off sentiment or Metaculus user over-rebalancing pushes the median down a few percentage points.
+Nothing happens at all; forecast stays exactly 88.00 %.
+Scenario sketch – community prediction > 88 % on 27 Sep (resolves “Yes”):
+Credible leak that the inspection went well (“recommend delisting”).
+Treasury/FIC publishes fresh enforcement statistics or prosecutions showing tangible progress.
+Major bank, rating agency or IMF note explicitly states they expect delisting.
+Even without news, mild positive drift (regression toward 90-92 % typical shortly before a highly-probable event).
+
+Evidence Buckets
+Bucket 1 – points to a relatively low forecast (≤ 88 %)
+• Fitch note (15 Sep) highlights debt at 78 % GDP & structural weaknesses.
+• GDP per-capita still falling; “South Africans are getting poorer”.
+• Warnings that FATF “will not accept a box-ticking exercise”; enforcement gaps still possible.
+Bucket 2 – points to a relatively high forecast (> 88 %)
+• FATF president (18 Jul) says SA has met “all or almost all” actions.
+• National Treasury, COSATU and BER publicly state delisting is “likely”.
+• On-site visit has already occurred with no negative leaks.
+Bucket 3 – neutral / central
+• Most commentary stresses progress but adds caveats (“not the time for complacency”).
+• Generic macro worries (fiscal drag, low growth) are unrelated to AML/CFT effectiveness.
+• Metaculus median already at 88 %, implying users think ≈ 12 % failure probability.
+
+Multi-world reasoning (1 % precision)
+Low_World (weight ≈ 25 %)
+– Base rate: Many high forecasts drift down 1-3 pp over two weeks.
+– Low-est: 80 %  | Mid: 85 % | High: 87 %
+Mid_World (weight ≈ 45 %)
+– Base rate: Forecast oscillates ±3 pp with no big news.
+– Low: 86 % | Mid: 88 % | High: 90 %
+High_World (weight ≈ 30 %)
+– Base rate: Positive leak lifts forecast 3-7 pp.
+– Low: 90 % | Mid: 92 % | High: 95 %
+Reference CSV
+World_name,Base Rate,Low Forecast,Mid Forecast,High Forecast
+Low_World,0.85,0.80,0.85,0.87
+Mid_World,0.88,0.86,0.88,0.90
+High_World,0.92,0.90,0.92,0.95
+Ordered set of nine plausible values:
+80 %, 85 %, 86 %, 87 %, 88 %, 90 %, 90 %, 92 %, 95 %
+
+Percentile map (implicit weighting 0.25 / 0.45 / 0.30)
+P10 ≈ 84 %
+P20 ≈ 85 %
+P30 ≈ 86 %
+P40 ≈ 87 %
+P50 ≈ 89 %
+P60 ≈ 90 %
+P70 ≈ 91 %
+P80 ≈ 92 %
+P90 ≈ 93 %
+The 50th-percentile comes out at 89 %.
+Adjusting slightly downward for status-quo stickiness (forecast often “rounds” to prior level) gives 88.6 %.
+Probability of being strictly > 88.00 % is therefore the mass above 88.00 %:
+• Probability (prediction > 88 %) ≈ 61 %
+– 4 % chance it sticks exactly at 88.00 %
+– 35 % chance it dips to ≤ 88 %
+– 61 % chance it rises above.
+——————————————
+Probability: 61%
+R1: Forecaster 7 Reasoning
+Time remaining until snapshot: 12 days 22 h (to 2025-09-27 13:52 UTC).
+Status-quo (if no new information, minimal new votes):
+• Community median stays around the present 88.00 %.
+• Tie counts as “No”, so the implicit status-quo outcome is 50 % Yes / 50 % No, with a razor-thin tilt to No because downward drift has more room.
+Experts & markets:
+• No formal market, but most South-African financial commentators now say delisting in October is “likely” or “very likely”.
+• Over the past six weeks the Metaculus median climbed from 83 → 88 %. Daily σ ≈ 0.7 pp, weekly σ ≈ 1.4 pp. Drift has slowed; activity is low (≈9 forecasts/day), so single large forecast can still move the median by ≈0.3 pp.
+Scenario sketch – No (> = 88 %) fails:
+A respected forecaster argues “90 %+ is over-confident”; a few others echo → median slips to 86–87 %.
+A leak from FATF site-visit hints at remaining gaps → sentiment softens.
+Mere regression-to-mean: without news, voters focus elsewhere and random new forecasts nudge median down.
+Scenario sketch – Yes (> 88 %):
+Positive leak (“team very impressed”) or Treasury press-briefing → several new forecasts at 95-99 %.
+One or two superforecasters adjust upward; low recency weight of older forecasts makes the median jump to 90-92 %.
+Idle period: no new forecasts; current 88.00 % nudged up by decay of an old low-ball forecast that drops out of the recency window.
+
+Evidence buckets (≈ equal sized)
+Bucket 1 – points toward LOWER community value
+• Still a month to plenary; FATF could yet find shortcomings – BusinessLIVE piece: “not only test… still gaps”.
+• Macro/governance negatives (Fitch, slow growth, corruption) remind forecasters of residual risk.
+• Head-room asymmetry: only +12 pp up vs –88 pp down; mean-reverting instincts pull toward 80-85 %.
+Bucket 2 – points toward HIGHER community value
+• Repeated statements: “all 22 items addressed”, “dream come true”, FATF president: “all or almost all actions met”.
+• Successful on-site visit in July; September coverage mostly optimistic.
+• Positive government/Treasury messaging keeps delisting in the headlines; could spur upbeat late entrants.
+Bucket 3 – points toward CENTRE / mixed
+• Current 88 % already prices in high chance of success; marginal news may be discounted.
+• Low traffic period on Metaculus; medians tend to drift slowly.
+• Exact 88.00 % threshold makes outcome hinge on small stochastic moves.
+
+Multi-world reasoning (probability in each world = weight, numbers are Pr(community > 88 %) )
+Low_World (weight 35 %)
+Base-rate: historical Metaculus medians one month pre-event overshoot and fall back 30 % of the time.
+Low 20 % | Mid 35 % | High 49 %
+Mid_World (weight 40 %)
+Base-rate: median wanders ±2 pp with no net drift.
+Low 45 % | Mid 55 % | High 65 %
+High_World (weight 25 %)
+Base-rate: positive leak pushes median >90 %.
+Low 65 % | Mid 78 % | High 90 %
+Reference CSV
+World_name,Base Rate,Low Forecast,Mid Forecast,High Forecast
+Low_World,0.35,0.20,0.35,0.49
+Mid_World,0.40,0.45,0.55,0.65
+High_World,0.25,0.65,0.78,0.90
+
+Ordered set of 9 reasonable points (percent):
+20, 35, 45, 49, 55, 65, 65, 78, 90
+Percentile mapping (rough):
+P10 ≈ 32 %
+P20 ≈ 40 %
+P30 ≈ 44 %
+P40 ≈ 52 %
+P50 ≈ 55 %
+P60 ≈ 60 %
+P70 ≈ 66 %
+P80 ≈ 72 %
+P90 ≈ 84 %
+Median 55 % looks reasonable. I shave 2 pp off for the downward-headroom asymmetry and the possibility of a tie at exactly 88.00 %.
+Probability: 53%
+R1: Forecaster 8 Reasoning
+Time until snapshot
+• 12 days 22 hours (from 2025-09-15 14:00 UTC to 2025-09-27 13:52 UTC)
+Status-quo outcome if nothing changed
+• Community prediction stays at 88.00 % → question would resolve No (needs strictly > 88.00 %).
+Expert/market expectations
+• Most commentary since June says South Africa has “substantially completed” all 22 FATF action items and is “likely” to be delisted in October; analysts quote 75-90 % odds of success.
+• No credible source is warning of imminent failure, only reminders “not to be complacent.”
+Scenario that yields No (< or = 88 %)
+• No fresh favourable leaks; one or two critical op-eds emphasise lingering enforcement gaps; a ratings-agency note about weak growth gets over-interpreted; a few Metaculus users trim their optimism and the median drifts down to 86-87 %.
+Scenario that yields Yes (> 88 %)
+• Rumour/leak from the Africa Joint Group says “site visit went very well”; Treasury or FATF insider repeats “all gaps closed”; a wave of small upward edits nudges the median to 89-92 %. Even a 1-pt uptick is sufficient.
+
+Evidence buckets
+Bucket 1 – Pulls the probability down (low)
+• Fitch & GDP pieces stress weak governance/fiscal space.
+• “Not a time for complacency” (IOL, 31 Jul) warning of remaining gaps.
+• Generic commentary that South Africans are still getting poorer, ratings agencies “unconvinced.”
+Bucket 2 – Middle/neutral
+• Repeated statements that the 22-point plan is “substantially completed”, but final judgment still pending.
+• On-site visit in July is finished; no public result yet.
+• Experts say exit is “likely” or “in sight” but hedge with caveats about sustainability.
+Bucket 3 – Pulls probability up (high)
+• FATF President (18 Jul) says SA has met “all or almost all” actions.
+• BusinessTech, BER, COSATU, Bloomberg all frame October exit as “likely” or “huge relief.”
+• Articles dated 14–15 Sep reiterate that only formal confirmation is missing.
+
+Multi-world reasoning (1 % precision)
+Low_World (weight ≈ 25 %)
+• Base rate: 35 % (past Metaculus medians fall rather than rise ~¼ of the time over two weeks.)
+• Low forecast 25 %
+• Mid forecast 35 %
+• High forecast 45 %
+Mid_World (weight ≈ 45 %)
+• Base rate: 55 % (no major news, tiny random walk; slight upward skew from high current optimism.)
+• Low forecast 48 %
+• Mid forecast 55 %
+• High forecast 62 %
+High_World (weight ≈ 30 %)
+• Base rate: 75 % (positive site-visit leak or official statement.)
+• Low forecast 65 %
+• Mid forecast 75 %
+• High forecast 85 %
+Reference CSV
+World_name,Base Rate,Low Forecast,Mid Forecast,High Forecast
+Low_World,0.35,0.25,0.35,0.45
+Mid_World,0.55,0.48,0.55,0.62
+High_World,0.75,0.65,0.75,0.85
+Ordered nine estimates
+25 %, 35 %, 45 %, 48 %, 55 %, 62 %, 65 %, 75 %, 85 %
+Percentile map (interpolated)
+P10 = 30 %
+P20 = 37 %
+P30 = 46 %
+P40 = 51 %
+P50 = 58 %
+P60 = 63 %
+P70 = 68 %
+P80 = 75 %
+P90 = 83 %
+Median (P50) sits at 58 %. I bump it up 5 pts because:
+• The distribution of news over the next 12 days is asymmetrically positive (a single upbeat leak is enough; bad news would need to be surprisingly severe).
+• The threshold is exactly at the current median; historical Metaculus data show slight momentum in the prevailing direction when optimism is already high.
+Final Answer
+Probability: 63 %

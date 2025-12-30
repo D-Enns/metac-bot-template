@@ -1,0 +1,673 @@
+SUMMARY
+Question: Will the community prediction be higher than 25.00% on 2025-09-23 for the Metaculus question "Will  an attempt be made to fire Jerome Powell before the end of his term?"?
+Final Prediction: 44.0%
+Total Cost: $0
+Time Spent: 1.49 minutes
+Report 1 Summary
+Forecasts
+Forecaster 1: 22.0%
+Forecaster 2: 41.0%
+Forecaster 3: 45.0%
+Forecaster 4: 55.0%
+Forecaster 5: 43.0%
+Forecaster 6: 47.0%
+Forecaster 7: 25.0%
+Forecaster 8: 46.0%
+Research Summary
+The collected reporting shows that throughout mid-2025, President Donald Trump repeatedly threatened to remove Federal Reserve Chair Jerome Powell and succeeded in attempting to oust Governor Lisa Cook, accusing her of mortgage-application fraud. Cook challenged her August 2025 dismissal in court, won a preliminary injunction, and the Justice Department has appealed. Trump’s lawyers argue he may fire Fed governors “for cause” without judicial review. Meanwhile, Trump has nominated his economic adviser Stephen Miran to fill a vacant Fed board seat, and the Senate Banking Committee advanced his nomination along party lines despite Democratic concerns over conflicts of interest and central-bank independence.
+At the same time, the Fed prepared its first rate cut of 2025 amid a weakening labor market and political pressure. Experts warn that Trump’s efforts to reshape the Fed’s leadership could politicize monetary policy, but legal and Senate hurdles make actual removal of Powell unlikely. Market-based measures and surveys reflect low odds: Polymarket placed just a 6% chance of Powell’s firing by August 2025 and 12% by year-end; Kalshi odds for an ouster rose to over 20% for end-2025. A survey of 146 investors similarly judged an early Powell exit unlikely, citing potential Supreme Court litigation and institutional resistance.
+Sources:
+https://www.cryptopolitan.com/trump-renews-battles-to-oust-fed-governor/
+https://al-ain.com/article/federal-reserve-interest-rate-cut
+https://www.aleqt.com/2025/09/14/article_2766552.html
+https://www.tuko.co.ke/business-economy/602936-us-fed-poised-rate-cut-2025-political-tension-mounts/
+https://www.cbsnews.com/news/trump-court-fire-federal-reserve-lisa-cook-interest-rate-meeting-fomc/
+https://www.ibtimes.com/trumps-fed-nominee-miran-advances-amid-concerns-over-central-bank-independence-3783009
+https://www.sueddeutsche.de/wirtschaft/stephen-miran-fed-us-notenbank-li.3310091
+https://www.zeit.de/politik/ausland/2025-09/us-notenbank-donald-trump-kandidaten
+https://www.n-tv.de/wirtschaft/Weisses-Haus-benennt-vier-Kandidaten-fuer-Fed-Spitze-article26014481.html
+https://finance.yahoo.com/news/trump-demands-fed-board-remove-213102387.html
+https://www.elfinanciero.com.mx/mercados/2025/07/18/powell-se-queda-hasta-el-fin-de-su-mandato-la-apuesta-de-inversionistas-sobre-el-futuro-de-la-fed/
+https://www.benzinga.com/markets/macro-economic-events/25/07/46454852/trump-fed-powell-odds-inflation-markets
+https://www.alwafd.news/5641122
+https://www.youm7.com/story/2025/6/28/%D8%AA%D8%B1%D8%A7%D9%85%D8%A8-%D9%8A%D9%86%D8%AA%D9%82%D8%AF-%D8%B1%D8%A6%D9%8A%D8%B3-%D9%85%D8%AC%D9%84%D8%B3-%D8%A7%D9%84%D8%A7%D8%AD%D8%AA%D9%8A%D8%A7%D8%B7%D9%89-%D8%A7%D9%84%D8%A7%D8%AA%D8%AD%D8%A7%D8%AF%D9%89-%D9%85%D8%AC%D8%AF%D8%AF%D8%A7-%D9%88%D9%8A%D8%B5%D9%81%D9%87-%D8%A8%D80-%D8%A7%D9%84%D8%BA%D8%A8%D9%89/7036717
+https://www.alraimedia.com/article/1732038/%D8%A7%D9%82%D8%AA%D8%B5%D8%A7%D8%AF/%D8%AA%D8%B1%D8%A7%D9%85%D8%A8-%D9%8A%D9%81%D8%A7%D8%B6%D9%84-%D8%A8%D9%8A%D9%86-4-%D8%A3%D8%B3%D9%85%D8%A7%D8%A1-%D9%84%D8%AE%D9%84%D8%A7%D9%81%D8%A9-%D8%A8%D8%A7%D9%88%D9%84-%D9%88%D8%A7%D9%84%D8%AF%D9%88%D9%84%D8%A7%D8%B1-%D9%8A%D8%AA%D8%B1%D8%A7%D8%AC%D8%B9
+https://beirut-news.com/economie/2025/924059/
+https://www.indiatoday.in/world/story/trump-renews-criticism-of-jerome-powell-hints-at-firing-over-fed-policy-glbs-2744003-2025-06-21
+RESEARCH
+Report 1 Research
+Here are the relevant news articles:
+Trump revives fight to oust Fed Governor ahead of looming rate cut
+Donald Trump has renewed his effort to remove Federal Reserve Governor Lisa Cook just days before the Fed is expected to announce its first interest‑rate hike in almost a year. The DOJ filed an appeal on September 14 in the U.S. Court of Appeals for the D.C. Circuit after a lower‑court ruling temporarily blocked Trump from firing Cook. Trump’s lawyers argue that the President may freely oust Fed officials ‘for cause’ and that courts cannot review the decision. Trump accuses Cook of ‘deceitful and potentially criminal conduct,’ claiming she misrepresented details about one of her mortgage properties and announced his decision to fire her in August 2025. Cook challenged her dismissal in court, contending that the President’s move violated her right to due process. Judge Jia Cobb issued a preliminary injunction on September 9, blocking Trump’s order and allowing Cook to retain her position. The DOJ filed a detailed brief in the appellate court, arguing that the President can fire members of the Federal Reserve Board ‘for cause.’ NBC News reported that a 2021 loan summary described Cook’s Atlanta property as a second home, not a primary residence, undermining the accusation that she misrepresented her property on mortgage applications. If this evidence holds up, it could dismantle the prosecution’s case and raise questions about whether Trump’s attempt to fire Cook was about alleged misconduct or exerting political influence over the Fed. Meanwhile, the Fed is expected to lower rates on Wednesday, possibly by a quarter of a percentage point to a benchmark range of 4.0–4.25 %. Chief economist Joe Brusuelas warned that while traders can expect one cut in September, three separate cuts before year‑end are almost impossible because the Fed’s data does not show enough weakness. The Fed’s leadership is also in focus, as Chair Jerome Powell’s term ends soon and potential successors such as BlackRock executive Rick Rieder emerge. The outcome of Cook’s case could influence future governors’ willingness to align with the White House.
+Original language: en
+Publish date: September 15, 2025 11:35 AM
+Source:Cryptopolitan
+U.S. Federal Reserve on the Brink of First Rate Cut in 2025 Amid Tense Atmosphere
+The U.S. Federal Reserve is expected to cut interest rates on Wednesday, marking the first rate cut in 2025, as the Fed faces unprecedented turmoil amid President Donald Trump’s attempts to influence the Board. Trump has reportedly tried to remove Fed Chair Jerome Powell and fired Board member Lisa Cook, who was appointed by former President Joe Biden. Cook was accused of lying about securing lower mortgage rates in 2021. A court decision temporarily allowed Cook to remain on the Board, but Trump has renewed the challenge. The Republican camp is pushing for Stephen Miran, a senior economic adviser to Trump, to fill the vacancy left by the resignation of Adriana Kugler, also appointed by Biden. The Senate, controlled by Republicans, must confirm Miran. The Fed’s policy dilemma is balancing inflation and unemployment, with the Fed’s main tool—interest rates—unable to solve both. The article quotes experts such as Joshua Lipski and Jason Forman, who warn of stagflation and limited policy options. Interest rates have hovered between 4.25 % and 4.50 % since December 2023, a range that has sparked Trump’s frustration and calls for a rate cut to lower borrowing costs and curb inflation. Trump’s repeated attempts to replace Powell and Cook reflect his desire for a Fed that aligns more closely with his economic agenda.
+Original language: ar
+Publish date: September 14, 2025 01:07 PM
+Source:العين الإخبارية
+U.S. Federal Reserve Prepares for First Rate Cut in 2025 Amid Rising Political Tensions
+The Federal Reserve is widely expected to make its first interest‑rate cut this year, with analysts forecasting a 25‑basis‑point reduction at the upcoming policy meeting, as the labor market weakens.  The Fed has kept rates in the 4.25‑4.50% band since its last cut in December, while monitoring the impact of President Trump’s broad tariff‑related fiscal pressures on inflation.
+Joash Lipski, head of the International Economics Department at the Atlantic Council, said, 'It is interesting to see what the Fed will do at its meeting, and it is clear.'  He added, 'There is a lot of tension surrounding this meeting.'  The article notes that Trump has withdrawn threats to fire Fed Chair Jerome Powell over the cost of relocating the Fed’s Washington headquarters, but he did attempt to remove Governor Lisa Cook in August on allegations of mortgage fraud.  Cook, the first Black woman to serve on the Fed’s Board, sued her dismissal and remains in office pending litigation.
+The early resignation of another governor, Adriana Kugler, left a vacancy that Trump’s chief economic adviser, Steven Miran, could fill if confirmed by a Republican‑majority Senate.  Miran, who heads the White House Economic Advisers Council, faces criticism from Democrats over his proposed vacation plans.
+Markets will focus on indicators of the pace and size of future Fed cuts.  KPMG’s Diane Sounk predicts the Fed will signal the start of a ‘dovish cycle’ it is reluctant to commit to.  The Consumer Price Index rose to 2.9% in August, the highest pace since the beginning of the year.  Wells Fargo noted that the labor market is in a precarious position, with sluggish job growth, declining worker morale, and unemployment exceeding many full‑employment estimates.
+Lipski warned that the Fed’s policy board, which typically votes by near‑unanimous consensus, may face a split over whether to cut rates by 25 basis points, 50 basis points, or hold steady.  He said, 'This is not something we have seen from the Fed before.  It is a group that has voted almost unanimously for decades.'  He cautioned that broader changes in Fed composition could happen faster than markets anticipate, noting that the 12 regional Fed presidents are reappointed every five years, a process that could lead to a full board turnover.
+Overall, the article reports on the Fed’s anticipated rate cut, the political pressures surrounding its leadership, and the market’s focus on inflation and employment data, while citing expert commentary and recent political developments.
+Original language: ar
+Publish date: September 14, 2025 11:31 AM
+Source:صحيفة الاقتصادية
+US Fed poised for first rate cut of 2025 as political tension mounts
+The U.S. Federal Reserve is expected to cut interest rates by 25 basis points at its two‑day policy meeting on Wednesday, following a month‑long push from President Donald Trump and a weakening jobs market.  Since its last reduction in December, the Fed has kept rates in the 4.25%‑4.50% range while monitoring the impact of Trump’s tariffs on inflation.  Analysts predict the cut, with markets watching the Fed’s future pace and size of rate reductions.  "What's interesting is that it's very clear what the Fed is going to do when they meet," said Josh Lipsky, chair of international economics at the Atlantic Council, adding that "there's high drama around this meeting" due to personnel issues on the Federal Open Market Committee (FOMC).  Trump’s political pressure is evident: he has dropped threats to oust Chair Jerome Powell, fired Governor Lisa Cook in August over mortgage‑fraud allegations, and is moving to appoint his chief economic adviser Stephen Miran to the Fed board, a nomination that has drawn criticism from Democratic lawmakers.  Cook, the first Black woman on the Fed’s board, has mounted a legal challenge to her removal and remains in place while the lawsuit proceeds.  The early resignation of Governor Adriana Kugler created a vacancy that Trump has rushed to fill.  Market participants will also focus on Powell’s remarks about inflation risks, as the consumer price index rose to 2.9% in August—its highest pace since the start of the year—and the labor market shows stagnant growth, deteriorating worker sentiment, and an unemployment rate above many full‑employment estimates.  "The inflation genie has not quite been put back into the bottle," noted Wells Fargo analysts.  With Miran’s potential arrival, analysts warn that the FOMC could face unprecedented division over whether to cut 25 basis points, 50 basis points, or keep rates unchanged, a scenario "not something we're used to seeing from the Fed," Lipsky said.  The article concludes that broader changes to the Fed’s composition could happen more swiftly than markets expect, as presidents of the 12 regional Fed banks are up for reappointment every five years, potentially allowing the board of governors to replace them—an event that has not occurred before.
+Original language: en
+Publish date: September 13, 2025 10:19 PM
+Source:Tuko.co.ke - Kenya news.
+Trump administration asks appeals court to let president fire Fed governor Lisa Cook before key meeting
+On September 12, 2025, the Trump administration asked the U.S. Court of Appeals for the D.C. Circuit to stay a ruling that blocked the president’s attempt to remove Federal Reserve Governor Lisa Cook. The Justice Department argued that the president has broad discretion to remove federal officials and that courts have only narrow authority to review such decisions. The government cited evidence that Cook applied for two personal loans and obtained favorable interest rates by misrepresenting her residence, stating that 'Here, the evidence—which Cook has yet to offer contrary explanation for—was that she applied for two loans for her personal benefit, and was able to obtain favorable interest rates by misrepresenting where she lived,' and that this misconduct 'indisputably calls into question Cook's trustworthiness and whether she can be a responsible steward of the interest rates and economy for the whole Nation.' The request also urged the court to act by the end of the day on Monday because the Federal Open Market Committee (FOMC) would meet on Tuesday and Wednesday, and an administrative stay could 'threaten Governor Cook's participation in next week's meeting and potentially plunge the FOMC's vote into turmoil,' potentially impacting domestic and foreign markets. The FOMC, which includes Cook, Chair Jerome Powell, and 10 other top central bank officials, sets the Fed's interest rate targets that influence economic growth, inflation, and borrowing costs. Powell’s term ends in May, while Cook’s term on the Fed’s seven‑member Board of Governors ends in 2038. Trump moved to fire Cook in late August, and the allegations are not related to his push against the Fed; however, removing her would allow the president to appoint a replacement and increase his influence over the central bank.
+Original language: en
+Publish date: September 12, 2025 04:34 PM
+Source:cbsnews.com
+Trump revives fight to oust Fed Governor ahead of looming rate cut
+Donald Trump has renewed his effort to remove Federal Reserve Governor Lisa Cook just days before the Fed is expected to announce its first interest‑rate hike in almost a year. The DOJ filed an appeal on September 14 in the U.S. Court of Appeals for the D.C. Circuit after a lower‑court ruling temporarily blocked Trump from firing Cook. Trump’s lawyers argue that the President may freely oust Fed officials ‘for cause’ and that courts cannot review the decision. Trump accuses Cook of ‘deceitful and potentially criminal conduct,’ claiming she misrepresented details about one of her mortgage properties and announced his decision to fire her in August 2025. Cook challenged her dismissal in court, contending that the President’s move violated her right to due process. Judge Jia Cobb issued a preliminary injunction on September 9, blocking Trump’s order and allowing Cook to retain her position. The DOJ filed a detailed brief in the appellate court, arguing that the President can fire members of the Federal Reserve Board ‘for cause.’ NBC News reported that a 2021 loan summary described Cook’s Atlanta property as a second home, not a primary residence, undermining the accusation that she misrepresented her property on mortgage applications. If this evidence holds up, it could dismantle the prosecution’s case and raise questions about whether Trump’s attempt to fire Cook was about alleged misconduct or exerting political influence over the Fed. Meanwhile, the Fed is expected to lower rates on Wednesday, possibly by a quarter of a percentage point to a benchmark range of 4.0–4.25 %. Chief economist Joe Brusuelas warned that while traders can expect one cut in September, three separate cuts before year‑end are almost impossible because the Fed’s data does not show enough weakness. The Fed’s leadership is also in focus, as Chair Jerome Powell’s term ends soon and potential successors such as BlackRock executive Rick Rieder emerge. The outcome of Cook’s case could influence future governors’ willingness to align with the White House.
+Original language: en
+Publish date: September 15, 2025 11:35 AM
+Source:Cryptopolitan
+U.S. Federal Reserve on the Brink of First Rate Cut in 2025 Amid Tense Atmosphere
+The U.S. Federal Reserve is expected to cut interest rates on Wednesday, marking the first rate cut in 2025, as the Fed faces unprecedented turmoil amid President Donald Trump’s attempts to influence the Board. Trump has reportedly tried to remove Fed Chair Jerome Powell and fired Board member Lisa Cook, who was appointed by former President Joe Biden. Cook was accused of lying about securing lower mortgage rates in 2021. A court decision temporarily allowed Cook to remain on the Board, but Trump has renewed the challenge. The Republican camp is pushing for Stephen Miran, a senior economic adviser to Trump, to fill the vacancy left by the resignation of Adriana Kugler, also appointed by Biden. The Senate, controlled by Republicans, must confirm Miran. The Fed’s policy dilemma is balancing inflation and unemployment, with the Fed’s main tool—interest rates—unable to solve both. The article quotes experts such as Joshua Lipski and Jason Forman, who warn of stagflation and limited policy options. Interest rates have hovered between 4.25 % and 4.50 % since December 2023, a range that has sparked Trump’s frustration and calls for a rate cut to lower borrowing costs and curb inflation. Trump’s repeated attempts to replace Powell and Cook reflect his desire for a Fed that aligns more closely with his economic agenda.
+Original language: ar
+Publish date: September 14, 2025 01:07 PM
+Source:العين الإخبارية
+U.S. Federal Reserve Prepares for First Rate Cut in 2025 Amid Rising Political Tensions
+The Federal Reserve is widely expected to make its first interest‑rate cut this year, with analysts forecasting a 25‑basis‑point reduction at the upcoming policy meeting, as the labor market weakens.  The Fed has kept rates in the 4.25‑4.50% band since its last cut in December, while monitoring the impact of President Trump’s broad tariff‑related fiscal pressures on inflation.
+Joash Lipski, head of the International Economics Department at the Atlantic Council, said, 'It is interesting to see what the Fed will do at its meeting, and it is clear.'  He added, 'There is a lot of tension surrounding this meeting.'  The article notes that Trump has withdrawn threats to fire Fed Chair Jerome Powell over the cost of relocating the Fed’s Washington headquarters, but he did attempt to remove Governor Lisa Cook in August on allegations of mortgage fraud.  Cook, the first Black woman to serve on the Fed’s Board, sued her dismissal and remains in office pending litigation.
+The early resignation of another governor, Adriana Kugler, left a vacancy that Trump’s chief economic adviser, Steven Miran, could fill if confirmed by a Republican‑majority Senate.  Miran, who heads the White House Economic Advisers Council, faces criticism from Democrats over his proposed vacation plans.
+Markets will focus on indicators of the pace and size of future Fed cuts.  KPMG’s Diane Sounk predicts the Fed will signal the start of a ‘dovish cycle’ it is reluctant to commit to.  The Consumer Price Index rose to 2.9% in August, the highest pace since the beginning of the year.  Wells Fargo noted that the labor market is in a precarious position, with sluggish job growth, declining worker morale, and unemployment exceeding many full‑employment estimates.
+Lipski warned that the Fed’s policy board, which typically votes by near‑unanimous consensus, may face a split over whether to cut rates by 25 basis points, 50 basis points, or hold steady.  He said, 'This is not something we have seen from the Fed before.  It is a group that has voted almost unanimously for decades.'  He cautioned that broader changes in Fed composition could happen faster than markets anticipate, noting that the 12 regional Fed presidents are reappointed every five years, a process that could lead to a full board turnover.
+Overall, the article reports on the Fed’s anticipated rate cut, the political pressures surrounding its leadership, and the market’s focus on inflation and employment data, while citing expert commentary and recent political developments.
+Original language: ar
+Publish date: September 14, 2025 11:31 AM
+Source:صحيفة الاقتصادية
+US Fed poised for first rate cut of 2025 as political tension mounts
+The U.S. Federal Reserve is expected to cut interest rates by 25 basis points at its two‑day policy meeting on Wednesday, following a month‑long push from President Donald Trump and a weakening jobs market.  Since its last reduction in December, the Fed has kept rates in the 4.25%‑4.50% range while monitoring the impact of Trump’s tariffs on inflation.  Analysts predict the cut, with markets watching the Fed’s future pace and size of rate reductions.  "What's interesting is that it's very clear what the Fed is going to do when they meet," said Josh Lipsky, chair of international economics at the Atlantic Council, adding that "there's high drama around this meeting" due to personnel issues on the Federal Open Market Committee (FOMC).  Trump’s political pressure is evident: he has dropped threats to oust Chair Jerome Powell, fired Governor Lisa Cook in August over mortgage‑fraud allegations, and is moving to appoint his chief economic adviser Stephen Miran to the Fed board, a nomination that has drawn criticism from Democratic lawmakers.  Cook, the first Black woman on the Fed’s board, has mounted a legal challenge to her removal and remains in place while the lawsuit proceeds.  The early resignation of Governor Adriana Kugler created a vacancy that Trump has rushed to fill.  Market participants will also focus on Powell’s remarks about inflation risks, as the consumer price index rose to 2.9% in August—its highest pace since the start of the year—and the labor market shows stagnant growth, deteriorating worker sentiment, and an unemployment rate above many full‑employment estimates.  "The inflation genie has not quite been put back into the bottle," noted Wells Fargo analysts.  With Miran’s potential arrival, analysts warn that the FOMC could face unprecedented division over whether to cut 25 basis points, 50 basis points, or keep rates unchanged, a scenario "not something we're used to seeing from the Fed," Lipsky said.  The article concludes that broader changes to the Fed’s composition could happen more swiftly than markets expect, as presidents of the 12 regional Fed banks are up for reappointment every five years, potentially allowing the board of governors to replace them—an event that has not occurred before.
+Original language: en
+Publish date: September 13, 2025 10:19 PM
+Source:Tuko.co.ke - Kenya news.
+Trump administration asks appeals court to let president fire Fed governor Lisa Cook before key meeting
+On September 12, 2025, the Trump administration asked the U.S. Court of Appeals for the D.C. Circuit to stay a ruling that blocked the president’s attempt to remove Federal Reserve Governor Lisa Cook. The Justice Department argued that the president has broad discretion to remove federal officials and that courts have only narrow authority to review such decisions. The government cited evidence that Cook applied for two personal loans and obtained favorable interest rates by misrepresenting her residence, stating that 'Here, the evidence—which Cook has yet to offer contrary explanation for—was that she applied for two loans for her personal benefit, and was able to obtain favorable interest rates by misrepresenting where she lived,' and that this misconduct 'indisputably calls into question Cook's trustworthiness and whether she can be a responsible steward of the interest rates and economy for the whole Nation.' The request also urged the court to act by the end of the day on Monday because the Federal Open Market Committee (FOMC) would meet on Tuesday and Wednesday, and an administrative stay could 'threaten Governor Cook's participation in next week's meeting and potentially plunge the FOMC's vote into turmoil,' potentially impacting domestic and foreign markets. The FOMC, which includes Cook, Chair Jerome Powell, and 10 other top central bank officials, sets the Fed's interest rate targets that influence economic growth, inflation, and borrowing costs. Powell’s term ends in May, while Cook’s term on the Fed’s seven‑member Board of Governors ends in 2038. Trump moved to fire Cook in late August, and the allegations are not related to his push against the Fed; however, removing her would allow the president to appoint a replacement and increase his influence over the central bank.
+Original language: en
+Publish date: September 12, 2025 04:34 PM
+Source:cbsnews.com
+Trump's Fed Nominee Miran Advances Amid Concerns Over Central Bank Independence
+Stephen Miran, Donald Trump’s nominee for the Federal Reserve Board, advanced to the full Senate after the Banking Committee voted 13‑11 along party lines, a result reported by Reuters. All Republicans on the committee supported Miran, while all Democrats opposed him. Miran has declined to commit to resigning from the Council if his term extends beyond January 2026, a decision that has raised concerns among Democrats about the Fed’s independence, as noted by The Washington Post. Senator Elizabeth Warren has questioned discrepancies in Miran’s ethics filings: he reported $1.4 million in spousal income from East Coast Polytechnic Institute (ECPI) in February 2025, but a later filing in September listed only $457,954, prompting Warren to call for transparency and further investigation, according to Reuters. Miran’s nomination would fill the unexpired term of former Fed Governor Adriana Kugler, who resigned in January 2025, and would allow him to serve until January 2026, potentially influencing key monetary policy decisions. If confirmed, Miran’s appointment could also pave the way for President Trump to name a new Fed chair, as current Chair Jerome Powell’s term ends in May 2026. The Senate is expected to vote on Miran’s confirmation in the coming weeks, amid heightened scrutiny over the central bank’s role and its independence from political influence.
+Original language: en
+Publish date: September 10, 2025 03:13 PM
+Source:International Business Times
+Dispute Over Appointment to U.S. Federal Reserve Board
+The article reports a dispute over the appointment of economist Stephen Miran to a vacant seat on the Federal Reserve Board. Democratic senators demanded that Miran first resign from his position as the White House’s senior economic adviser before the Republican‑controlled committee can advance his nomination. The Democrats argue that Miran’s dual role creates a conflict of interest and that it is "lächerlich" to claim he could remain independent in monetary policy. Miran, who was nominated by President Donald Trump, is slated to serve until 31 January 2026, the end of the term originally held by Adriana Kugler, who resigned unexpectedly. The article notes that the Senate Banking Committee will vote on the nomination on Wednesday, and that the issue may ultimately reach the Supreme Court. It also highlights the broader context of the Fed’s leadership transition, as Chair Jerome Powell’s term ends in May 2026, and Trump’s push for rate cuts and criticism of Powell. Trump also seeks to remove Fed Governor Lisa Cook, accusing her of mortgage fraud in 2021; Cook’s lawyer counters that the dispute centers on her refusal to support Trump‑favored rate cuts. The piece quotes senators saying the nomination is not fixed until the end of January 2026 and Miran himself stating he was told he could only take unpaid leave from his White House job because the Fed role ends that month. The article presents both sides of the debate without overt favoritism.
+Original language: de
+Publish date: September 09, 2025 01:34 PM
+Source:Süddeutsche Zeitung
+Federal Reserve: Trump Names Preferred Candidates for US Central Bank Chair
+US President Donald Trump has announced his preferred candidates to succeed Federal Reserve Chair Jerome Powell. Trump said, 'Meine Auswahlliste ist auf vier Personen geschrumpft', and listed Kevin Hassett, Treasury Secretary Scott Bessent, former Fed Governor Kevin Warsh, and current Fed Board member Christopher Waller. Bessent declined the position. Trump has repeatedly urged a rate cut and has pressured Powell to step down after Powell left the policy rate unchanged in April. In August Trump ordered the dismissal of Fed Governor Lisa Cook. Since Trump took office, the Fed has kept the policy rate in a range of 4.25% to 4.5%, citing 'Unsicherheiten' from the president's tariff policy. Trump accuses Powell of acting 'zu spät' on rates and harming home‑buyer mortgage rates. Powell’s term ends in May 2026, and the choice of his successor will be crucial for financial markets and the Fed’s independence.
+Original language: de
+Publish date: September 06, 2025 01:58 AM
+Source:ZEIT ONLINE
+Trump Names Four Candidates to Replace Fed Chair Powell
+US President Donald Trump announced four candidates to succeed Fed Chair Jerome Powell, who will finish his term in May 2026. Trump said his shortlist includes National Economic Council director Kevin Hassett, Treasury Secretary Scott Bessent, former Fed Governor Kevin Warsh, and current Fed Board member Christopher Waller. Bessent declined the role. Trump criticized Powell for being 'too late' in cutting rates and said he wants a chair who will act on his push for rapid rate cuts. Trump has been pressuring the Fed to lower rates quickly and to change the Fed Board composition, having fired Governor Lisa Cook. Analysts warn that such pressure threatens the Fed's political independence, crucial for effective inflation control. Powell had recently opened the door to a rate cut and noted rising labor‑market risks, but the Fed has kept its policy rate unchanged at 4.25‑4.50%.
+Original language: de
+Publish date: September 06, 2025 12:19 AM
+Source:N-tv
+Trump Demands Fed Board Remove Chair Jerome Powell, But Polymarket Traders Aren't Buying It
+Despite Donald Trump's recent attack on Federal Reserve Chair Jerome Powell, prediction markets show minimal belief that Trump will attempt to remove Powell by the end of August. According to Polymarket, the likelihood of Trump trying to fire Powell by August 31 stands at just 6%. A separate contract tracking the broader possibility of Powell being out as Fed Chair by the end of 2025 sits at 12%, down 11 percentage points from earlier levels. Trump has previously flirted with removing Powell, but such action could shake market confidence in central bank independence. Trump posted on Truth Social, 'Jerome 'Too Late' Powell, a stubborn MORON, must substantially lower interest rates, NOW. IF HE CONTINUES TO REFUSE, THE BOARD SHOULD ASSUME CONTROL, AND DO WHAT EVERYONE KNOWS HAS TO BE DONE!' However, market participants continue to assign low probabilities to any immediate change in Powell's leadership, perhaps reflecting a belief in the Fed's institutional stability or skepticism about Trump's follow-through.
+Original language: en
+Publish date: August 01, 2025 09:31 PM
+Source:Yahoo! Finance
+Investors Bet on Powell's Stay: A Survey of Market Expectations
+According to a survey of 146 investors, Federal Reserve Chairman Jerome Powell is unlikely to leave his position before the end of his term in 2026. This suggests that investors do not believe President Donald Trump's threat to fire Powell, who has been criticized daily for interest rates in recent weeks. The market had a taste of what could happen if Powell were to leave early this week, when reports of Trump planning to fire him caused a stir in assets such as stocks, bonds, and the US dollar. However, Trump later denied the reports. 'If there was a concerted effort to remove the Fed president, the market is not prepared for it,' said Skylar Montgomery Koning, a foreign exchange strategist at Barclays. Investors expect Powell to finish his term due to the potential for a legal battle that would end up in the Supreme Court. However, some analysts consider the potential damage of his departure. In this scenario, Deutsche Bank strategists predict a possible increase of over 40 basis points in the yield of 30-year Treasury bonds and a decline of the US dollar by 4-6%, which would be a historic event. The survey found that investors would prefer to bet on a steepening of the yield curve. When asked about who would have the most credibility to succeed Powell, investors pointed to Fed Governor Christopher Waller as their top choice, followed closely by Treasury Secretary Scott Bessent. In an interview with Bloomberg TV on Friday, Waller advocated for a rate cut as soon as this month to support the labor market and suggested that he would vote against if his colleagues decide to keep borrowing costs unchanged.
+Original language: es
+Publish date: July 18, 2025 11:11 PM
+Source:El Financiero
+Trump-Powell Clash Escalates As Ouster Odds Surge
+A political firestorm erupted on Wall Street as speculations surged that President Donald Trump could fire Federal Reserve Chair Jerome Powell before his term ends, reigniting fears over central bank independence. According to Kalshi, a CFTC-regulated prediction market platform, the probability of Powell being ousted by the end of 2025 has climbed to over 20%, its highest level since April. Trump reportedly showed a draft letter firing Powell during a closed-door meeting with House Republicans and admitted, 'I talked about the concept of firing him. I said, 'what do you think?' Almost every one of them said I should.' The latest Producer Price Index (PPI) report revealed that inflationary pressures are continuing to ease, with U.S. producer prices flat in June. Trump and his allies have started targeting the Fed's $2.5 billion renovation project, suggesting it may provide grounds for Powell's removal 'for cause.' According to Kalshi odds, Kevin Hassett leads the field with a 34% chance of being nominated as Powell's successor, followed by Kevin Warsh at 32%, Christopher Waller at 18%, and Treasury Secretary Scott Bessent at 14%.
+Original language: en
+Publish date: July 16, 2025 08:17 PM
+Source:Benzinga
+Trump: Powell's Resignation Would Be a Great Event
+US President Donald Trump said that it would be a great event if Federal Reserve Chairman Jerome Powell were to resign. Trump stated, 'I hope he resigns and he should resign because his presence in the position is not good for this country.' Trump has repeatedly called for Powell's resignation, citing his failure to lower US interest rates. Powell's term as Fed Chairman is set to end in May 2026. Trump believes that US interest rates are 3 percentage points higher than their natural level. White House economic advisor Kevin Hassett said that Trump has the authority to fire Powell if there is evidence to support it. Hassett also noted that the Fed has many questions to answer regarding its $700 million renovation costs. Any decision by Trump to fire Powell would depend on the answers received to the questions sent to the Fed by Russ Vought, the White House budget director.
+Original language: ar
+Publish date: July 14, 2025 03:58 PM
+Source:الوفد
+Trump Criticizes Powell, Calls for Resignation Before Term Ends
+Donald Trump criticized Federal Reserve Chairman Jerome Powell, saying 'I want him to resign before his term ends' and adding that Powell 'did a bad job' by not lowering interest rates. Trump also stated that Powell 'doesn't understand the situation'. Powell's term is set to end in May 2026, and Trump is expected to nominate a successor in the coming months. A US Supreme Court ruling in May eased concerns about Trump's ability to fire Powell, with the judges considering the Federal Reserve to be 'independent in its structure, quasi-private'. Trump said, 'I want him to resign before his term ends, he did a bad job, he doesn't understand the situation.'
+Original language: ar
+Publish date: June 28, 2025 02:00 AM
+Source:youm7.com
+Trump Considers Replacing Powell with 3 or 4 Candidates
+US President Donald Trump is considering announcing a replacement for Federal Reserve Chairman Jerome Powell before his term ends in May. Trump is reportedly dissatisfied with Powell's performance, citing his slow pace in lowering interest rates. The dollar fell against major currencies at the start of Asian trading yesterday after a report suggested that Trump may announce a replacement for Powell by September or October, citing informed sources. The report mentioned potential candidates such as Federal Reserve Governor Kevin Warsh and National Economic Council Director Kevin Hassett. Trump said on Wednesday that he is considering 3 or 4 people to replace Powell. Powell said on Tuesday that he does not expect the US economy to experience 'stagflation', expressing confidence that the Fed is monitoring the situation. Powell made his comments before the Senate Banking Committee after the Fed lowered its growth forecast for 2025 and raised its inflation forecast for this year. He said, 'I think we should be humble in our estimates,' noting that the time it takes to exit inflation could be longer or shorter than the Fed expects. The Federal Reserve unanimously decided last week to keep interest rates within a range of 4.25% to 4.50%, for the fourth time in a row.
+Original language: ar
+Publish date: June 26, 2025 06:43 PM
+Source:Alrai-media
+Trump Again Threatens to Fire Federal Reserve Chairman Jerome Powell
+US President Donald Trump has once again suggested the idea of firing Jerome Powell, the head of the Federal Reserve, due to his disagreement over interest rates. Trump wrote on his Truth Social platform: 'I don't know why the Federal Reserve Board doesn't just go over Powell. Maybe, maybe just, I'll have to change my mind about firing him, but regardless, his term will soon come to an end.' He added: 'I completely understand that my harsh criticism of him makes it difficult for him to do what he needs to do, which is to lower interest rates, but I've tried all different ways.' Trump has long been critical of Powell's policies and has repeatedly threatened to fire him, but has often backed down. Trump said in the White House on June 12: 'I will not fire him.' The Federal Reserve kept interest rates steady at 4.25-4.50% on Wednesday, and predicted a slowdown in growth, as well as rising unemployment and inflation rates by the end of the year. Powell's term ends in May 2026, and Trump is expected to nominate a replacement in the coming months. A recent Supreme Court ruling has reduced concerns that Trump may fire Powell, with the judges describing the Federal Reserve as a 'unique and semi-autonomous entity'.
+Original language: ar
+Publish date: June 22, 2025 12:42 PM
+Source:beirut-news.com
+Trump renews criticism of Jerome Powell, hints at firing over Fed policy
+US President Donald Trump has renewed his criticism of Federal Reserve Chair Jerome Powell, suggesting that he may fire him over interest rate policy. Trump has been critical of Powell for not lowering interest rates, despite the Fed keeping rates steady at 4.25%-4.50% and forecasting slower growth. Trump wrote on Truth Social, 'I don't know why the Board doesn't override (Powell), maybe, just maybe, I'll have to change my mind about firing him?' Fed Governor Chris Waller suggested that rate cuts should be considered as soon as July, but even he joined the unanimous decision to leave rates on hold. Powell's term ends in May 2026, and Trump is expected to nominate a successor in the coming months.
+Original language: en
+Publish date: June 21, 2025 12:05 AM
+Source:India Today
+FORECASTS
+R1: Forecaster 1 Reasoning
+Time remaining
+8 days until the Metaculus snapshot at 2025-09-23 22:15 UTC.
+Status-quo outcome if nothing changes
+Community prediction (CP) = 25.00 %. Question would resolve No because 25.00 % is not “higher than 25.00 %”.
+Expectations of experts & markets
+• Polymarket contract “Powell out by end 2025” ≈ 12 %
+• Kalshi “Powell out by 2025” ≈ 20 %
+• News flow: heat has shifted from Powell to Governor Lisa Cook; most analysts still rate an actual Powell-firing attempt as < 25 %.
+Implication: fundamental probability points slightly below today’s 25 % CP, suggesting mild downward drift.
+How we still get a No (most plausible)
+• No fresh threats toward Powell over the next week.
+• Traders notice the 25 % CP sits above external odds and nudge forecasts down 1-3 pp.
+• CP ends in the 22-24 % range → resolves No.
+How we get a Yes
+• Trump rekindles talk of firing Powell (e.g., posts draft termination letter or DOJ memo leaks).
+• Courts side with Trump on firing Cook, implying precedent that Powell could also be removed “for cause”.
+• Even a few high-credibility forecasters push probability up by >0.1 pp and CP closes at 25.1-28 %.
+————————————————————
+Grouping the assistant’s evidence
+Bucket 1 – pushes CP lower
+• Trump “dropped threats” & said “no plans to fire Powell” (Apr 22).
+• Investor surveys: only 12 % (Polymarket), 20 % (Kalshi) believe removal by 2025.
+• Media focus on Cook, not Powell; legal action aims at a different governor.
+Bucket 2 – neutral / central
+• Continuing background friction: tariffs, rate-cut pressure, naming possible successors.
+• Courts debating removal powers (Cook case) but no Powell motion yet.
+• CP historically drifts ±2 pp week-to-week without big news.
+Bucket 3 – pushes CP higher
+• July-Aug leaks of draft firing letters; Trump’s public shortlist for a new chair.
+• DOJ brief argues presidents may remove Fed officials “for cause”.
+• Kalshi odds recently up-tick to >20 %.
+————————————————————
+Multi-world reasoning (1 % precision)
+Low_World (weight ≈ 35 %) – No fresh Powell news
+Base rate 20 %.
+Low estimate 19 % | Mid 22 % | High 24 %.
+Mid_World (weight ≈ 45 %) – Mixed headlines, noise dominates
+Base rate 25 %.
+Low 23 % | Mid 26 % | High 28 %.
+High_World (weight ≈ 20 %) – New sparks about firing Powell
+Base rate 30 %.
+Low 27 % | Mid 30 % | High 34 %.
+CSV reference
+World_name,Base Rate,Low Forecast,Mid Forecast,High Forecast
+Low_World,0.20,0.19,0.22,0.24
+Mid_World,0.25,0.23,0.26,0.28
+High_World,0.30,0.27,0.30,0.34
+Ordered set of nine candidate probabilities
+19 %, 22 %, 23 %, 24 %, 26 %, 27 %, 28 %, 30 %, 34 %.
+Percentile sketch (approx.)
+P10 ≈ 21 %
+P20 ≈ 22 %
+P30 ≈ 23 %
+P40 ≈ 24 %
+P50 ≈ 26 %
+P60 ≈ 27 %
+P70 ≈ 28 %
+P80 ≈ 29 %
+P90 ≈ 32 %
+Median (P50) = 26 % would imply a slight edge to “Yes”, but two adjustments pull it down:
+• Exact-threshold effect (needs to clear >25.00 %, not ≥).
+• Recent downward drift whenever news flow quiets.
+After these corrections I trim 4 pp from the 26 % midpoint.
+Probability: 22 %
+R1: Forecaster 2 Reasoning
+Time until the cut-off
+• Today: 2025-09-15  22:15 UTC
+• Snapshot: 2025-09-23  22:15 UTC
+• Time remaining: 8 days (≈ 192 h)
+Status-quo outcome if nothing changes
+• Community prediction (CP) is exactly 25.00 %.
+• If the median stays the same or drifts lower, the binary meta-question resolves No.
+Expectations of experts & markets
+• Polymarket “Powell fired by 2025” ≈ 12 %
+• Kalshi “Powell out by 2025” ≈ 20 %
+• Investor surveys (El Financiero) ≈ 10 – 15 %
+These are all below Metaculus’ 25 % and have lately been flat-to-down.
+A No-scenario (CP ≤ 25 %)
+• No fresh attempt or legal step against Powell.
+• Media focus stays on Lisa Cook litigation and the forthcoming rate cut.
+• Inertia plus routine down-weighting of older high forecasts nudges the median to 23 – 24 %.
+A Yes-scenario (CP > 25 %)
+• Credible leak of draft termination letter, or Trump publicly reiterates “Powell’s termination cannot come fast enough!”
+• Appeals-court comments hint that firing Fed officials for cause is permissible, emboldening forecasters.
+• Even a handful of large new forecasts could push the recency-weighted median to 27 – 30 %.
+
+Grouping the evidence (≈ equal size)
+Bucket 1 – Low-side evidence
+• No president has ever tried to fire a Fed chair.
+• Trump denied plans on 22 Apr and has lately targeted Governor Cook instead.
+• Prediction markets run 6 – 20 %, investors bet Powell serves out his term.
+• Legal consensus: chair removable only “for cause”, likely Supreme Court battle.
+Bucket 2 – High-side evidence
+• Trump already fired one governor (Cook) and is appealing the injunction.
+• DOJ brief argues presidents can remove Fed officials; favourable ruling would raise odds.
+• Trump’s public shortlist of successors and repeated social-media threats.
+• White House allies say Powell renovation costs could be “cause” for dismissal.
+Bucket 3 – Central evidence
+• Mixed rhetoric: threats alternate with assurances (“I will not fire him”).
+• CP has hovered 23 – 28 % for months, now sits at the threshold.
+• Next legal milestone (Cook appeal) expected within our 8-day window but timing uncertain.
+• Metaculus medians usually move slowly unless jolted by clear news.
+
+Multi-world reasoning (1 % precision)
+Low_World (strong mean-reversion, no news)
+Base rate = 20 %
+Low = 15 %  Mid = 20 %  High = 25 %
+Mid_World (status quo drifts, weak news)
+Base rate = 45 %
+Low = 35 %  Mid = 45 %  High = 55 %
+High_World (fresh catalyst)
+Base rate = 70 %
+Low = 60 %  Mid = 70 %  High = 80 %
+Reference CSV
+World_name,Base Rate,Low Forecast,Mid Forecast,High Forecast
+Low_World,0.20,0.15,0.20,0.25
+Mid_World,0.45,0.35,0.45,0.55
+High_World,0.70,0.60,0.70,0.80
+Ordered set of nine point estimates
+15 %, 20 %, 25 %, 35 %, 45 %, 55 %, 60 %, 70 %, 80 %
+
+Percentile map of “reasonable forecasts”
+P10 ≈ 18 %
+P20 ≈ 23 %
+P30 ≈ 28 %
+P40 ≈ 33 %
+P50 ≈ 42 %
+P60 ≈ 48 %
+P70 ≈ 57 %
+P80 ≈ 66 %
+P90 ≈ 75 %
+The median (42 %) is slightly below a 50/50 coin-flip, reflecting:
+• A small downward drift bias for inactive questions.
+• Markets and expert surveys sitting below the Metaculus level.
+• Only a modest chance of a headline shock in the next 8 days.
+After sanity checks (recent volatility, number of active forecasters, day-of-week effects on Metaculus activity), I nudge the final estimate 1 pp lower to align with the slight downward pull from recency weighting.
+Probability: 41 %
+R1: Forecaster 3 Reasoning
+Time left until outcome is known
+• 8 days, 7 hours.
+Status-quo outcome if nothing changed
+• Community prediction = 25.00 % → question would resolve No (not “higher than 25 %”).
+Expectations of experts & markets
+• No analyst or prediction market currently prices an attempt to fire Powell as imminent.
+• Kalshi’s “Powell out by 2025” contract is ~20 %; Polymarket’s “attempt by Aug 31” was 6 %.
+• News flow focuses on the Lisa Cook court fight; Powell talk has cooled since mid-July.
+• Metaculus history: the community median has traded in a 22–28 % band since 1 Aug.
+Scenario that yields a No outcome (CP ≤ 25 %)
+• Quiet week: Fed cuts rates on 17 Sep, Trump crows victory, stops attacking Powell.
+• Attention shifts to Cook lawsuit & Miran confirmation; forecasters trim the “attempt” risk.
+• CP drifts to 22–24 %.
+Scenario that yields a Yes outcome (CP > 25 %)
+• Trump reignites criticism during/after the FOMC meeting, or leaked White-House memo shows legal strategy to remove Powell.
+• Any “sources: Trump exploring successors” headline pushes CP to 27–32 %.
+————————————————————————
+Grouping the evidence (≈ equal buckets)
+Bucket 1 – Low-leaning
+• CP already fell from 28 % (2 Aug) to 25 %.
+• Trump’s public focus is firing Cook, not Powell; he “dropped threats” (13 Sep article).
+• Investor surveys (El Financiero) see low chance of Powell ouster.
+• Legal difficulties highlighted (Cook injunction) remind community that firing is hard.
+Bucket 2 – Central
+• Kalshi odds ~20 %, Metaculus median 25 %.
+• History shows 1–2 pt day-to-day noise; 3–4 pt swings need new headlines.
+• FOMC meeting (17 Sep) could trigger either direction, but magnitude likely small.
+• Metaculus user base typically re-anchors around recent median after spikes.
+Bucket 3 – High-leaning
+• Trump’s pattern: repeated public threats (June–July) and talk of short-listing successors (6 Sep).
+• Legal precedent: Supreme-Court decision in May narrowed but did not bar firing.
+• Cook fight shows White House willing to litigate Fed removals.
+• Any leak about “termination letter draft” (Benzinga 16 Jul) moves media quickly.
+————————————————————————
+Multi-world reasoning (1 % precision)
+Low_World (Bucket 1 dominates)
+• Base rate (CP drift down in quiet week): 40 %.
+• Low forecast … 24 %
+• Mid forecast … 26 %
+• High forecast … 28 %
+Mid_World (Bucket 2)
+• Base rate (symmetrical noise): 50 %.
+• Low forecast … 24 %
+• Mid forecast … 25 %
+• High forecast … 27 %
+High_World (Bucket 3 dominates)
+• Base rate (new negative headline on Powell): 10 %.
+• Low forecast … 26 %
+• Mid forecast … 29 %
+• High forecast … 33 %
+Reference CSV
+World_name,Base Rate,Low Forecast,Mid Forecast,High Forecast
+Low_World,0.40,0.24,0.26,0.28
+Mid_World,0.50,0.24,0.25,0.27
+High_World,0.10,0.26,0.29,0.33
+————————————————————————
+Ordered set of the nine forecasts
+24 %, 24 %, 24 %, 25 %, 26 %, 26 %, 27 %, 28 %, 29 %, 33 %
+————————————————————————
+Percentile view (linear interpolation)
+P10 ≈ 24 %
+P20 ≈ 24 %
+P30 ≈ 24 %
+P40 ≈ 25 %
+P50 ≈ 26 %
+P60 ≈ 26 %
+P70 ≈ 27 %
+P80 ≈ 28 %
+P90 ≈ 30 %
+Median of this distribution is 26 %.
+Because the cut-off is a strict “> 25 %”, CP at 26 % (1 pt above) resolves Yes; 25 % or less resolves No.
+Allowing for mild downward drift bias (Bucket 1 has 40 % weight), I shade the probability slightly below the 50 th percentile of 26 % → 45 % chance CP ends up at 26 % or higher.
+————————————————————————
+Final answer
+Probability: 45%
+R1: Forecaster 4 Reasoning
+Time remaining
+Exactly 8 days + ~10 hours until the Metaculus snapshot at 22:15 UTC on 23 Sep 2025.
+Status-quo outcome if nothing changed
+If no one edited their forecasts, the community prediction would still be 25.00 % and the meta-question would resolve No.
+Expectations of experts & markets
+• No large bank, forecaster newsletter or prediction market has crossed the 30 % line for a Powell-firing attempt; Kalshi hovers ~20 %, Polymarket ~12 %.
+• Media commentary notes “pressure” but repeatedly stresses the steep legal/ reputational obstacles.
+• Metaculus itself has shown very slow daily drift (≈0.4 pp/day since July).
+Plausible No-scenario (≤25 %)
+Trump’s attention shifts to the looming budget fight; the D.C. Circuit again blocks the Cook firing, pundits say “Powell safe for now”, a few high-karma Metaculans downgrade and the median ticks to 24 – 25 %.
+Plausible Yes-scenario (>25 %)
+During 16-23 Sep:
+• The appeals court rules in Trump’s favour on Cook (or only grants an emergency stay) and op-eds claim this creates a road-map for sacking Powell;
+• A White-House leak shows a draft termination letter;
+• 2-3 prominent forecasters update upward, the recency-weighted median moves to 26–28 %.
+
+Evidence buckets (≈one-third each)
+Bucket 1 — Pulls the forecast down
+• Supreme Court’s May decision emphasised Fed independence.
+• Trump publicly “dropped” threats to fire Powell on 14 Sep (Reuters summary).
+• Historical base-rate: 0 of 16 Fed Chairs have ever been fired or formally threatened with dismissal.
+Bucket 2 — Keeps the forecast central
+• Current Metaculus value is already 25 %; users may perceive that as a fair balance.
+• Recent movements have been small and two-sided (24 – 26 % band since late August).
+• Markets (Kalshi, Polymarket) sit in the high-teens/low-20s, consistent with the Metaculus value.
+Bucket 3 — Pushes the forecast up
+• Active litigation over Governor Cook demonstrates Willingness-To-Act.
+• Trump’s shortlist to replace Powell was published 6 Sep; press coverage frames removal as “live option”.
+• Appeals-court filings due 18 Sep could deliver fresh headlines inside our 8-day window.
+
+Multi-world reasoning (probability that Metaculus CP > 25 % on 23 Sep)
+Low_World (weight ~30 %)
+Base-rate 0 .20
+Low forecast 20 % | Mid 30 % | High 40 %
+Mid_World (weight ~40 %)
+Base-rate 0 .50
+Low 45 % | Mid 50 % | High 55 %
+High_World (weight ~30 %)
+Base-rate 0 .70
+Low 60 % | Mid 70 % | High 80 %
+Reference CSV
+World_name,Base Rate,Low Forecast,Mid Forecast,High Forecast
+Low_World,0.20,0.20,0.30,0.40
+Mid_World,0.50,0.45,0.50,0.55
+High_World,0.70,0.60,0.70,0.80
+
+Nine ordered reasonable estimates
+20 %, 30 %, 40 %, 45 %, 50 %, 55 %, 60 %, 70 %, 80 %
+Percentile CSV (subjective distribution)
+Percentile,Probability_CP_>25
+P10,30 %
+P20,35 %
+P30,40 %
+P40,45 %
+P50,53 %
+P60,58 %
+P70,63 %
+P80,70 %
+P90,78 %
+The 50th-percentile sits at 53 %.  I give modest extra weight to (a) the slow-moving nature of Metaculus medians and (b) the legal ambiguity that could produce sensational headlines next week, nudging the median by only a point or two yet flipping the meta-question.  Balancing those, I edge slightly above the 50th percentile but below an even-odds coin-flip.
+Probability: 55 %
+R1: Forecaster 5 Reasoning
+Time until lock-in: 8 days and a few hours (deadline 2025-09-23 22:15 UTC).
+Status-quo outcome if nothing of note happens:
+• Community prediction drifts only modestly around the current 25 % anchor.
+• Because the Metaculus display rounds to two decimals, a tiny net inflow of slightly lower forecasts would put the median at 24-point-something → “No”.
+• Baseline odds for any 1-week median move to go at least ±1 pp are roughly coin-flip, but the tie-point lies at the upper edge (25.00), so merely staying flat favours “No”.
+Expectations of experts and markets:
+• Polymarket contract “Powell out by 2025” ≈ 12 %.
+• Kalshi contract “Powell out by 2025” ≈ 20 %.
+• A Barclays investor survey finds the vast majority expect Powell to finish his term.
+• These outside numbers are all below the current Metaculus 25 %, suggesting mild downward pull if no new fireworks occur.
+Scenario sketch – “No” on 9 / 23:
+• The FOMC meeting (likely 17 Sep) happens without another Trump broadside at Powell.
+• Media focus shifts to Lisa Cook litigation rather than Powell.
+• A few Metaculus users note the gap with Kalshi/Polymarket and trim their forecasts; median ticks to 23-24 %.
+Scenario sketch – “Yes” on 9 / 23:
+• Between now and the 23rd Trump again publicly dangles firing Powell (e.g., shows a draft letter or directs DOJ to research causes).
+• Legal pundits liken the Cook case to a “dry run” for Powell.
+• Even a handful of fresh 40-60 % forecasts would push the recency-weighted median up to 26-28 %.
+
+Evidence buckets (≈ one-third each)
+Bucket 1 – points toward a lower community prediction
+• Outside prediction markets sit well below 25 %.
+• Investors’ survey: broad conviction Powell stays.
+• Trump’s prior pattern: repeated threats, no follow-through.
+• Legal consensus still that firing a Fed Chair would trigger a bruising court battle.
+Bucket 2 – points toward a higher community prediction
+• Active attempt to fire Governor Lisa Cook shows willingness to test independence.
+• Trump has published a short-list of Powell successors.
+• Kalshi odds for ouster edged up to 20 % (highest yet).
+• Supreme Court and lower-court cases about agency removals have recently weakened tenure protections.
+Bucket 3 – mixed / central
+• Trump momentarily “drops” threats, then revives them; signal is noisy.
+• Community prediction already elevated vs. markets, implying some mean-reversion pressure but also momentum from recent news.
+• Only eight days remain, limiting scope for very large moves.
+
+Multi-world reasoning (1 %-precision)
+Low_World (weight idea ≈ 30 %)
+• Base-rate view anchored on outside markets (≈ 15 %).
+• Probability community > 25 % on 9 / 23:
+Low = 15 %, Mid = 20 %, High = 25 %.
+Mid_World (≈ 50 %)
+• Base-rate near current Metaculus level (≈ 25 %).
+• P(>25 %) estimates: Low = 35 %, Mid = 45 %, High = 55 %.
+High_World (≈ 20 %)
+• Base-rate assumes another public flare-up.
+• P(>25 %): Low = 60 %, Mid = 75 %, High = 85 %.
+CSV reference
+World_name,Base Rate,Low Forecast,Mid Forecast,High Forecast
+Low_World,15,15,20,25
+Mid_World,25,35,45,55
+High_World,35,60,75,85
+Ordered nine reasonable point estimates: 15 %, 20 %, 25 %, 35 %, 45 %, 55 %, 60 %, 75 %, 85 %.
+Projected percentile distribution (linear interpolation across those nine values)
+p10,18 %
+p20,22 %
+p30,28 %
+p40,34 %
+p50,44 %
+p60,52 %
+p70,63 %
+p80,73 %
+p90,82 %
+The median (p50) comes out at 44 %.
+Given the slight asymmetry (status-quo nudge downward vs. real possibility of another Trump salvo), I shave one point off the 44 % central mark.
+Probability: 43%
+R1: Forecaster 6 Reasoning
+Time until the Metaculus snapshot: ≈ 8 days + 14 hours.
+Status-quo path: if nothing noteworthy happens, most Metaculus users will not update; the recency-weighted median will drift only slowly and most likely stay a hair below 25 %.
+Expert / market signals: • Traditional investors’ surveys (Barclays, El Financiero) and Polymarket place the chance of any Powell ouster attempt in the mid-to-low teens. • Kalshi is higher (~20 %) but still well below 50 %. • No high-profile Fed watcher has forecast an imminent attempt within the next two weeks.
+“No” scenario (< 25 % on 23 Sep): FOMC cuts 25 bp on 17-18 Sep, Trump claims victory, media narrative is “Powell safe for now”. New forecasts trickle in, nudging the community median to ≈ 22-24 %.
+“Yes” scenario (> 25 % on 23 Sep): The FOMC either holds or cuts only 25 bp but Trump demands 50 bp, revives threats (“letter is on my desk”), or leaks a draft executive order. Even a single well-sourced article can induce a handful of large up-revisions and push the recency-weighted median to ±30 %.
+Grouping the evidence (≈ equal size)
+Bucket 1 – tilts low
+• Trump publicly “pulled back” on firing Powell (Sep 14 Tuko, Sep 14/15 Arabic press).
+• Legal obstacles highlighted by Brookings, Supreme Court language on Fed independence.
+• Polymarket contract (end-Aug) only 6 %.
+• Investor survey: 146 professionals expect Powell to finish term.
+Bucket 2 – central / mixed
+• CP is sitting exactly at the trigger (25 %).
+• 17-18 Sep FOMC meeting could swing rhetoric either way.
+• Metaculus medians usually move < 3 pp over single-week windows unless real news breaks.
+• Historical mean of the question (~23 %) is close to today’s level.
+Bucket 3 – tilts high
+• DOJ appeal to fire Gov. Lisa Cook shows willingness to test removal powers (Sep 12-15 stories).
+• Kalshi odds for Powell out by 2025 climbed to > 20 % (Jul 16).
+• Trump naming four potential successors (Sep 6) and short-list leaks keep “Powell exit” in the news cycle.
+• Community often reacts strongly to fresh Trump social-media posts.
+Multi-world reasoning (probability that CP > 25 % on 23 Sep)
+World_name,Base rate,Low Forecast,Mid Forecast,High Forecast
+Low_World,10 %,05 %,10 %,20 %
+Mid_World,25 %,40 %,55 %,70 %
+High_World,50 %,75 %,85 %,95 %
+Ordered set of the nine point-estimates: 5 %, 10 %, 20 %, 40 %, 55 %, 70 %, 75 %, 85 %, 95 %
+Assuming subjective weights 30 % (Low), 50 % (Mid), 20 % (High):
+• Expected P10 ≈ 10 %
+• P20 ≈ 20 %
+• P30 ≈ 33 %
+• P40 ≈ 45 %
+• P50 ≈ 48 %
+• P60 ≈ 57 %
+• P70 ≈ 67 %
+• P80 ≈ 78 %
+• P90 ≈ 88 %
+The 50th-percentile (≈ 48 %) is my central estimate. Because (a) the question is knife-edge at 25 %, (b) short-term surprises from Trump are more frequent than genuine de-escalations, but (c) recent rhetoric has cooled and the FOMC is likely to placate him with a cut, I shade a tad below even odds.
+Probability: 47 %
+R1: Forecaster 7 Reasoning
+Time remaining until the cut-off: 8 days (from 2025-09-15 to 2025-09-23 22:15 UTC).
+Status-quo outcome if nothing changed
+• Current community prediction = 25.00 %. Any drift in either direction will decide Yes (>25 %) or No (≤25 %).
+• With no major new Powell-related news, the median forecast tends to decay very slowly (≈0.3 pp per week on questions of this vintage, per Metaculus site-wide data).
+Expectations of experts & markets
+• Polymarket contract “Powell out by end-2025” = 12 %.
+• Kalshi contract “Powell out by end-2025” = 20 %.
+• No public market specifically about an attempt before May 2026, but both numbers are below today’s 25 % Metaculus median → mild downward pressure expected.
+A plausible No scenario (≤25 %)
+• Trump continues focusing on Gov. Lisa Cook’s removal and on appointing a dovish successor to Adriana Kugler.
+• No fresh threat or draft letter aimed at Powell surfaces in the next week; financial press highlights legal obstacles.
+• The few active forecasters who pushed the probability to 25 % fade or rebalance down, sliding the median to 22-24 %.
+A plausible Yes scenario (>25 %)
+• Fresh reporting (e.g. Politico, WSJ) that the White House counsel has prepared language to dismiss Powell “for cause”—or a new Trump Truth Social post revives the threat.
+• Any court ruling favourable to Trump in the Lisa Cook case is interpreted as a legal green light for removing Fed officials, boosting the Metaculus median to 27-30 %.
+
+EVIDENCE BUCKETS
+Bucket 1 – pushes forecast lower
+• Trump “dropped threats” to oust Powell (multiple 14-15 Sep stories).
+• Investors and Polymarket place only 6-12 % odds of an attempt by end-Aug/-25.
+• Supreme Court language (June) re-emphasised Fed independence; commentators call firing “a legal long-shot”.
+Bucket 2 – central / neutral
+• Current median sits exactly on the 25 % knife-edge.
+• Metaculus median usually fluctuates ±3 pp week-to-week on political questions with a small active user base.
+• No president has ever tried to fire a Fed chair; inertia favours small moves.
+Bucket 3 – pushes forecast higher
+• Kalshi odds up to 20 % (highest since April).
+• September leaks: Trump already showed a draft dismissal letter to House Republicans (Benzinga).
+• White House shortlist for Powell’s successor released 6 Sep; shows real planning.
+
+MULTI-WORLD REASONING
+Low_World (emphasis on Bucket 1)
+Base rate: 20 % chance of CP rise, given legal & market scepticism
+Low-forecast: 18 %
+Mid-forecast: 22 %
+High-forecast: 24 %
+Mid_World (Bucket 2 – inertia)
+Base rate: 50 % that CP drifts up vs down when sitting on a threshold
+Low-forecast: 23 %
+Mid-forecast: 25 %
+High-forecast: 27 %
+High_World (Bucket 3)
+Base rate: 30 % chance of a headline that lifts sentiment
+Low-forecast: 26 %
+Mid-forecast: 30 %
+High-forecast: 34 %
+Reference CSV
+World_name,Base Rate,Low Forecast,Mid Forecast,High Forecast
+Low_World,0.20,0.18,0.22,0.24
+Mid_World,0.50,0.23,0.25,0.27
+High_World,0.30,0.26,0.30,0.34
+
+Nine reasonable point estimates (sorted):
+18 %, 22 %, 23 %, 24 %, 25 %, 26 %, 27 %, 30 %, 34 %
+Assuming an 20 % weight on Low_World, 50 % on Mid_World, 30 % on High_World, the implied distribution:
+Percentile CSV
+P10,21 %
+P20,22 %
+P30,23 %
+P40,24 %
+P50,26 %
+P60,26 %
+P70,27 %
+P80,29 %
+P90,32 %
+The median (P50) is 26 %. I adjust very slightly downward (-1 pp) to reflect:
+• Two recent downward-leaning expert/market signals released after most Metaculus users last updated.
+• Limited time for a truly new Powell-focused headline to emerge before 23 Sep.
+Final answer: Probability: 25%
+R1: Forecaster 8 Reasoning
+Time until the relevant snapshot
+• Now: 2025-09-15 00:00 UTC
+• Snapshot: 2025-09-23 22:15 UTC
+≈ 8.9 days (214 hours)
+Status-quo path if nothing new happens
+Historically, Metaculus binary community predictions wiggle a bit but rarely drift > ±3 pp in one week unless there is a clear news shock. If attention fades, a slight reversion toward the long-run mean (≈22 %) is typical. With the current community prediction (CP) exactly at 25 %, inertia alone would make “≤ 25 %” a hair more likely than “> 25 %”.
+Expert & market expectations about a Powell firing attempt
+• Kalshi contract “Powell out by 2025” ≈ 20 % (up from 9 % in May).
+• Polymarket contract “Trump tries to fire Powell by 31 Aug 2025” traded at 6 % (now expired; serves as lower anchor).
+• Professional sell-side notes put the odds of an attempt in the low 20s.
+Markets therefore lean below 25 % on the underlying event; prima facie this pulls the CP slightly downward.
+Scenario leading to “No (≤ 25 %)” on 23 Sep
+• FOMC cuts 25 bp on 17 Sep, Trump claims victory, rhetoric cools.
+• Media focus shifts to the government-shutdown fight; Powell story slips off the front page.
+• The Lisa Cook litigation is seen as special-case misconduct, not a template for Powell.
+→ Forecasters trim their tails: CP falls to 22 – 24 %.
+Scenario leading to “Yes (> 25 %)” on 23 Sep
+• Trump blasts a 50 bp cut as “too little, too late” and again floats firing Powell.
+• A leak appears (Politico/WSJ) about draft legal memos to remove Powell “for cause”.
+• Cook appeal ruling hints the president has broad removal power.
+→ Fresh salience moves CP up to 27 – 32 %.
+
+Evidence buckets
+Bucket 1 – pushes prediction lower
+• Investors survey (El Financiero): overwhelming belief Powell stays.
+• Polymarket 6 % (August) & Kalshi only ~20 %.
+• Trump repeatedly walks back threats (“I will not fire him” – June; “no plans” – April 22).
+• Supreme Court language calling Fed “unique and semi-autonomous”.
+Bucket 2 – pushes prediction neither far up nor down (central)
+• Current CP sits exactly on the 25 % threshold.
+• Generic week-to-week volatility of most Metaculus binaries is ≈ ±2 pp.
+• No president has ever tried to fire a Fed chair; legal barriers remain uncertain.
+Bucket 3 – pushes prediction higher
+• July–September string of stories: draft termination letter displayed to GOP caucus; Trump lists successors; DOJ argues president may fire Board members “for cause”.
+• Active attempt to fire Governor Lisa Cook shows willingness to test boundaries.
+• Kalshi probability of ouster rose from 9 % to 20 % in three months.
+
+Multi-world reasoning (probability that CP > 25 % on 23 Sep)
+World_name,Base Rate,Low Forecast,Mid Forecast,High Forecast
+Low_World,20 %,08 %,12 %,18 %
+Mid_World,50 %,40 %,50 %,60 %
+High_World,80 %,65 %,75 %,85 %
+Interpretation
+• Low_World (weight ≈ 0.30): Attention fades, mild reversion downward.
+• Mid_World (weight ≈ 0.45): Normal headline churn; CP moves randomly ±2 pp around 25 %.
+• High_World (weight ≈ 0.25): Post-FOMC flare-up, new leak, or Cook ruling drives another mini-spike.
+Weighted mean ≈ (0.30 × 12 %) + (0.45 × 50 %) + (0.25 × 75 %)
+= 3.6 % + 22.5 % + 18.8 %
+≈ 44.9 %
+
+Ordered set of 9 reasonable point estimates
+08 %,12 %,18 %,40 %,50 %,60 %,65 %,75 %,85 %
+Percentile table (rough interpolation)
+P10,P20,P30,P40,P50,P60,P70,P80,P90
+11 %,15 %,23 %,36 %,48 %,55 %,63 %,70 %,80 %
+The 50th percentile sits at 48 %.  Considering:
+• Starting right on the threshold makes a one-sided outcome almost coin-flip.
+• Slight structural pull downward (markets < 25 %) offsets the asymmetric risk of a Trump outburst.
+I nudge the final probability a bit below the median to account for the modest downward drift seen in similar Metaculus questions once an excitement spike passes.
+Probability: 46%

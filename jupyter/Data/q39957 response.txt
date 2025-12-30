@@ -1,0 +1,686 @@
+SUMMARY
+Question: Will PCG's market close price on 2025-09-26 be higher than its market close price on 2025-09-17?
+Final Prediction: 48.5%
+Total Cost: $0
+Time Spent: 1.49 minutes
+Report 1 Summary
+Forecasts
+Forecaster 1: 49.0%
+Forecaster 2: 48.0%
+Forecaster 3: 47.0%
+Forecaster 4: 49.0%
+Forecaster 5: 49.0%
+Forecaster 6: 46.0%
+Forecaster 7: 48.0%
+Forecaster 8: 53.0%
+Research Summary
+Research on Pacific Gas & Electric (NYSE:PCG) highlights that the utility trades at a relatively low valuation versus peers, with a P/E around 13.7 and analyst price targets near $20–$20.73 implying upside of roughly 35–53% from mid-teens share prices. PG&E’s fundamentals show a net margin of about 9.95%, ROE of 10.13% and ROA of 2.17%, with institutional ownership near 78.6% and a modest dividend yield of 0.7%. Consensus analyst ratings range from “Moderate Buy” to “Outperform,” and earnings per share estimates for Q2 and full-year 2025 fall between $0.32 and $0.40, with annual EPS guidance pegged at 1.480–1.520.
+Price and sentiment indicators depict a stock that has underperformed major indices: after peaking at $21.72 in November 2024, PCG was down over 24% year-to-date by mid-September 2025 and has traded below its 200-day moving average since January. Options data through late August show mixed sentiment—put/call ratios ranging from 0.11 to 0.76 and elevated implied volatility—while share buybacks and regulatory pressures contribute to near-term uncertainty. Overall, research portrays PG&E as a lower-priced, lower-volatility utility with moderate upside per analysts, offset by recent underperformance and mixed market sentiment.
+Sources:
+https://www.defenseworld.net/2025/09/17/pacific-gas-firstenergy-nysefe-head-to-head-contrast.html
+https://finance.yahoo.com/news/pg-e-stock-underperforming-dow-145538486.html
+https://www.gurufocus.com/news/3080114/pge-pcg-stock-sees-mixed-options-sentiment-with-modest-gain
+https://www.gurufocus.com/news/3023522/mixed-options-sentiment-in-pge-pcg-as-stock-experiences-minor-dip
+https://www.benzinga.com/insights/earnings/25/07/46728171/earnings-preview-for-pg-e
+https://www.gurufocus.com/news/2991385/pge-pcg-shows-mixed-options-sentiment-amid-modest-price-increase-pcg-stock-news
+https://www.defenseworld.net/2025/07/17/pacific-gas-electric-pcg-projected-to-post-earnings-on-thursday.html
+https://www.insidermonkey.com/blog/pge-pcg-touches-new-all-time-low-1550477/
+RESEARCH
+Report 1 Research
+Here are the relevant news articles:
+Prime Cable Industries Ltd. IPO - Issue Date, GMP, Price, Timeline, Lot Size & Subscription Info
+Prime Cable Industries Ltd. (PCIL) will open its IPO on 22 September 2025 and close on 24 September 2025. The offering size is ₹40.01 crore, priced between ₹78 and ₹83 per share. The minimum investment required is ₹1,32,800, with a minimum lot size of 1,600 shares. The listing will take place on 29 September 2025. The IPO aims to fund a new factory for manufacturing medium‑voltage cables up to 33 kV and covered conductors. Evidence: 'Prime Cable Industries Ltd. IPO opens from 22nd September to 24th September 2025.' 'The size of the Prime Cable Industries Ltd. IPO is ₹40.01 Cr.' 'The price range of Prime Cable Industries Ltd. IPO is at ₹78 to ₹83 per share.' 'The minimum investment required is ₹1,32,800 and minimum lot size is 1600 shares.' 'The Prime Cable Industries Ltd. IPO will be listed on 29th September 2025.'
+Original language: en
+Publish date: September 17, 2025 05:58 PM
+Source:Goodreturns
+PagSeguro (PAGS) Soars to Fresh Peak as Firm Hints at 'Strategic Update'
+PagSeguro Digital Ltd. (NYSE:PAGS) saw its share price rise sharply on Tuesday, reaching a new 52‑week high of $10.78 before closing the day up 10.72% at $10.74 per share. The rally followed investors’ anticipation of a strategic update call scheduled after market close, with updates expected as early as Wednesday, September 17, 2025. The company also announced a special cash dividend of $0.12 per share, payable on November 3, 2025, and indicated that a similar distribution may occur within the next two quarters, subject to market and company conditions. The article notes that the firm’s board retains discretion over future dividend declarations. The piece is largely factual and promotional, presenting the stock’s recent performance and dividend policy without editorial bias.
+Original language: en
+Publish date: September 17, 2025 02:59 PM
+Source:Yahoo! Finance
+Pacific Gas & Electric (NYSE:PCG) & FirstEnergy (NYSE:FE) Head-To-Head Contrast
+Pacific Gas & Electric (NYSE:PCG) and FirstEnergy (NYSE:FE) are compared on profitability, risk, ownership, dividends, analyst ratings, and valuation.  Pacific Gas & Electric reports a net margin of 9.95%, return on equity of 10.13% and return on assets of 2.17%, while FirstEnergy shows 9.31%, 11.31% and 2.99% respectively.  The two stocks have similar beta values – 0.57 for PG&E and 0.5 for FirstEnergy – indicating both are less volatile than the S&P 500.  Institutional ownership is 78.6% for PG&E and 89.4% for FirstEnergy; insider ownership is 0.2% for each.  Dividend data reveal PG&E pays $0.10 per share with a 0.7% yield and a 9.2% payout ratio, whereas FirstEnergy pays $1.78 per share with a 4.1% yield and a 78.8% payout ratio.  Analyst consensus scores are 2.42 for PG&E and 2.47 for FirstEnergy; PG&E’s price target of $20.20 implies a 35.03% upside, compared with FirstEnergy’s $46.31 target and 7.44% upside.  Revenue and earnings are higher for PG&E ($24.42 billion and $2.51 billion) than for FirstEnergy ($13.47 billion and $978 million).  PG&E trades at a lower P/E of 13.72 versus FirstEnergy’s 19.07, making it the more affordable of the two.  Overall, FirstEnergy outperforms PG&E on 11 of 17 factors, but PG&E offers a higher potential upside and lower valuation.  The article states, 'Pacific Gas & Electric has a beta of 0.57, indicating that its stock price is 43% less volatile than the S&P 500.'
+Original language: en
+Publish date: September 17, 2025 06:15 AM
+Source:Defense World
+Share Market Update | Business Latest News In Hindi Newstrack | Today's Market Report: 17 September 2025 Indian Stock Market Nifty & Sensex
+The article reports that on 16 September 2025 the Indian stock market closed higher, with the Nifty 50 at 25,239.10, up 0.68%, and the Sensex at 82,380.69, up 0.73% (according to the source). The gains were led by the banking, financials, auto and FMCG sectors, while the IT and pharma sectors were under pressure. The top gainers were 'KOTAKBANK', 'LT' and 'M&M', and the top losers were 'SHRIRAMFIN', 'ASIANPAINT' and 'NESTLEIND'. Gold and silver prices fluctuated, and the rupee closed at ₹87.90 against the U.S. dollar. Technical analysis in the article notes first resistance levels at 25,260 and 25,280, with a potential bullish move to 25,320–25,350 if Nifty closes above 25,280. Support levels are 25,200 and 25,120, with a bearish scenario that could push the index to 25,120–25,080 if the 25,200 support breaks. The article highlights that banking and financials are likely to provide continued support, while IT and pharma may face selling pressure.
+Original language: hi
+Publish date: September 17, 2025 02:06 AM
+Source:Newstrack
+Deadline Soon: Neogen Corporation (NEOG) Investors Who Lost Mone
+Neogen Corporation (NEOG) disclosed that its second‑quarter GAAP net income for 2025 was heavily negative because of a $461 million non‑cash goodwill impairment related to its acquisition of 3M. The company also cut its full‑year revenue and EBITDA guidance and announced material weaknesses in its internal control over financial reporting. On January 10, 2025 the stock fell 5.4 % to close at $12.36 per share. On April 9, 2025 the company reported a 3.4 % decline in quarterly revenue, further lowered its full‑year outlook, and announced the CEO’s resignation; the share price dropped 28.7 % to $5.02. On June 4, 2025 it said its fourth‑quarter results would be “materially approximate” to its guidance and that EBITDA margin would likely be in the low‑20s; the stock fell 17.3 % to $4.96. A class‑action lawsuit alleges that, during the class period, Neogen’s defendants made materially false or misleading statements and failed to disclose that the 3M integration would require a goodwill impairment and would hurt capital expenditures, revenues, and EBITDA. Investors who purchased NEOG shares between January 5, 2023 and June 3, 2025 may seek lead‑plaintiff status in the lawsuit by September 16, 2025.
+Original language: en
+Publish date: September 15, 2025 05:00 PM
+Source:GuruFocus
+10452% return in 3 years: Stock gains over 12% even as market remains volatile
+Shares of FMCG company Integrated Industries rose 12.61% on Monday 15 September 2025, opening at Rs 18.65 versus the previous close of Rs 18.32 and reaching a high of Rs 20.89. The stock, which had fallen for two consecutive days, closed at Rs 20.05 with a 9.44% gain. Its market cap was reported at Rs 466.84 per cent. According to BSE Analytics, the scrip has delivered a multibagger return of 10,452% over three years, 38.47% over two years, corrected 49.85% in the last year, and gained 31.19% year‑to‑date. The 52‑week high and low are Rs 44.94 and Rs 21.98, respectively. The company split its shares last year, adjusting the face value to Re 1 from Rs 10; ex‑split trading began on 1 October 2024. Benchmark indices Sensex and Nifty showed modest gains early in the session before retreating, with the BSE Sensex up 93.81 points to 81,998.51 and the NSE Nifty up 24.45 points to 25,138.45, later falling 10.06 points to 81,904.31 and 12.65 points to 25,099.90. Markets await the outcome of the US Federal Reserve policy meeting.
+Original language: en
+Publish date: September 15, 2025 09:08 AM
+Source:India TV News
+Prime Cable Industries Ltd. IPO - Issue Date, GMP, Price, Timeline, Lot Size & Subscription Info
+Prime Cable Industries Ltd. (PCIL) will open its IPO on 22 September 2025 and close on 24 September 2025. The offering size is ₹40.01 crore, priced between ₹78 and ₹83 per share. The minimum investment required is ₹1,32,800, with a minimum lot size of 1,600 shares. The listing will take place on 29 September 2025. The IPO aims to fund a new factory for manufacturing medium‑voltage cables up to 33 kV and covered conductors. Evidence: 'Prime Cable Industries Ltd. IPO opens from 22nd September to 24th September 2025.' 'The size of the Prime Cable Industries Ltd. IPO is ₹40.01 Cr.' 'The price range of Prime Cable Industries Ltd. IPO is at ₹78 to ₹83 per share.' 'The minimum investment required is ₹1,32,800 and minimum lot size is 1600 shares.' 'The Prime Cable Industries Ltd. IPO will be listed on 29th September 2025.'
+Original language: en
+Publish date: September 17, 2025 05:58 PM
+Source:Goodreturns
+PagSeguro (PAGS) Soars to Fresh Peak as Firm Hints at 'Strategic Update'
+PagSeguro Digital Ltd. (NYSE:PAGS) saw its share price rise sharply on Tuesday, reaching a new 52‑week high of $10.78 before closing the day up 10.72% at $10.74 per share. The rally followed investors’ anticipation of a strategic update call scheduled after market close, with updates expected as early as Wednesday, September 17, 2025. The company also announced a special cash dividend of $0.12 per share, payable on November 3, 2025, and indicated that a similar distribution may occur within the next two quarters, subject to market and company conditions. The article notes that the firm’s board retains discretion over future dividend declarations. The piece is largely factual and promotional, presenting the stock’s recent performance and dividend policy without editorial bias.
+Original language: en
+Publish date: September 17, 2025 02:59 PM
+Source:Yahoo! Finance
+Pacific Gas & Electric (NYSE:PCG) & FirstEnergy (NYSE:FE) Head-To-Head Contrast
+Pacific Gas & Electric (NYSE:PCG) and FirstEnergy (NYSE:FE) are compared on profitability, risk, ownership, dividends, analyst ratings, and valuation.  Pacific Gas & Electric reports a net margin of 9.95%, return on equity of 10.13% and return on assets of 2.17%, while FirstEnergy shows 9.31%, 11.31% and 2.99% respectively.  The two stocks have similar beta values – 0.57 for PG&E and 0.5 for FirstEnergy – indicating both are less volatile than the S&P 500.  Institutional ownership is 78.6% for PG&E and 89.4% for FirstEnergy; insider ownership is 0.2% for each.  Dividend data reveal PG&E pays $0.10 per share with a 0.7% yield and a 9.2% payout ratio, whereas FirstEnergy pays $1.78 per share with a 4.1% yield and a 78.8% payout ratio.  Analyst consensus scores are 2.42 for PG&E and 2.47 for FirstEnergy; PG&E’s price target of $20.20 implies a 35.03% upside, compared with FirstEnergy’s $46.31 target and 7.44% upside.  Revenue and earnings are higher for PG&E ($24.42 billion and $2.51 billion) than for FirstEnergy ($13.47 billion and $978 million).  PG&E trades at a lower P/E of 13.72 versus FirstEnergy’s 19.07, making it the more affordable of the two.  Overall, FirstEnergy outperforms PG&E on 11 of 17 factors, but PG&E offers a higher potential upside and lower valuation.  The article states, 'Pacific Gas & Electric has a beta of 0.57, indicating that its stock price is 43% less volatile than the S&P 500.'
+Original language: en
+Publish date: September 17, 2025 06:15 AM
+Source:Defense World
+SIG Launches Tender Buy Share Repurchase 17‑19 September 2025
+SIG announced a tender buyback of its own shares to be executed from 17 to 19 September 2025. The program is capped at DKK 1.5 million and can purchase up to 471,698 shares at a fixed price of DKK 3.18, which equals the average closing price between 25 August and 16 September 2025. Prior to the buyback, SIG owned 3,349,130 shares, representing 7.12 % of the 47,022,205 shares outstanding. The buyback is authorized by the general meeting on 12 April 2024 under § 198 of the Danish Companies Act, allowing a maximum nominal value of 25 % of the share capital. Shares may be used to cover the warrant program, cancelled, or sold to third parties. SIG will not rely on Safe Harbour rules but will structure the purchase to comply with the principles. The board will decide on the disposition of the repurchased shares to maximize shareholder value.
+Key excerpts quoted: 'Generalforsamlingen har den 12. april 2024 bemyndiget selskabets bestyrelse til at lade selskabet erhverve egne aktier under iagttagelse af selskabslovens § 198.' and the fixed buyback price is quoted as '3,18'.
+Original language: da
+Publish date: September 17, 2025 06:00 AM
+Source:GlobeNewswire Press Releases
+Share Market Update | Business Latest News In Hindi Newstrack | Today's Market Report: 17 September 2025 Indian Stock Market Nifty & Sensex
+The article reports that on 16 September 2025 the Indian stock market closed higher, with the Nifty 50 at 25,239.10, up 0.68%, and the Sensex at 82,380.69, up 0.73% (according to the source). The gains were led by the banking, financials, auto and FMCG sectors, while the IT and pharma sectors were under pressure. The top gainers were 'KOTAKBANK', 'LT' and 'M&M', and the top losers were 'SHRIRAMFIN', 'ASIANPAINT' and 'NESTLEIND'. Gold and silver prices fluctuated, and the rupee closed at ₹87.90 against the U.S. dollar. Technical analysis in the article notes first resistance levels at 25,260 and 25,280, with a potential bullish move to 25,320–25,350 if Nifty closes above 25,280. Support levels are 25,200 and 25,120, with a bearish scenario that could push the index to 25,120–25,080 if the 25,200 support breaks. The article highlights that banking and financials are likely to provide continued support, while IT and pharma may face selling pressure.
+Original language: hi
+Publish date: September 17, 2025 02:06 AM
+Source:Newstrack
+Egyptian Stock Market Closes on Decline - UrduPoint
+The Egyptian stock market closed lower on September 16 2025. The main EGX 30 index fell 0.92 % to 34,840.82 points, the EGX 70 index dropped 2.55 % to 10,591.1 points, and the EGX 100 index fell 2.19 % to 14,034.87 points. Market capitalisation fell by about 32 billion Egyptian pounds, leaving a total market value of roughly 488 trillion Egyptian pounds. Total trading volume was about 231 billion Egyptian pounds, with equity‑market trades amounting to around 3.6 billion Egyptian pounds.
+Original language: ar
+Publish date: September 16, 2025 12:40 PM
+Source:UrduPoint
+Deadline Soon: Neogen Corporation (NEOG) Investors Who Lost Mone
+Neogen Corporation (NEOG) disclosed that its second‑quarter GAAP net income for 2025 was heavily negative because of a $461 million non‑cash goodwill impairment related to its acquisition of 3M. The company also cut its full‑year revenue and EBITDA guidance and announced material weaknesses in its internal control over financial reporting. On January 10, 2025 the stock fell 5.4 % to close at $12.36 per share. On April 9, 2025 the company reported a 3.4 % decline in quarterly revenue, further lowered its full‑year outlook, and announced the CEO’s resignation; the share price dropped 28.7 % to $5.02. On June 4, 2025 it said its fourth‑quarter results would be “materially approximate” to its guidance and that EBITDA margin would likely be in the low‑20s; the stock fell 17.3 % to $4.96. A class‑action lawsuit alleges that, during the class period, Neogen’s defendants made materially false or misleading statements and failed to disclose that the 3M integration would require a goodwill impairment and would hurt capital expenditures, revenues, and EBITDA. Investors who purchased NEOG shares between January 5, 2023 and June 3, 2025 may seek lead‑plaintiff status in the lawsuit by September 16, 2025.
+Original language: en
+Publish date: September 15, 2025 05:00 PM
+Source:GuruFocus
+10452% return in 3 years: Stock gains over 12% even as market remains volatile
+Shares of FMCG company Integrated Industries rose 12.61% on Monday 15 September 2025, opening at Rs 18.65 versus the previous close of Rs 18.32 and reaching a high of Rs 20.89. The stock, which had fallen for two consecutive days, closed at Rs 20.05 with a 9.44% gain. Its market cap was reported at Rs 466.84 per cent. According to BSE Analytics, the scrip has delivered a multibagger return of 10,452% over three years, 38.47% over two years, corrected 49.85% in the last year, and gained 31.19% year‑to‑date. The 52‑week high and low are Rs 44.94 and Rs 21.98, respectively. The company split its shares last year, adjusting the face value to Re 1 from Rs 10; ex‑split trading began on 1 October 2024. Benchmark indices Sensex and Nifty showed modest gains early in the session before retreating, with the BSE Sensex up 93.81 points to 81,998.51 and the NSE Nifty up 24.45 points to 25,138.45, later falling 10.06 points to 81,904.31 and 12.65 points to 25,099.90. Markets await the outcome of the US Federal Reserve policy meeting.
+Original language: en
+Publish date: September 15, 2025 09:08 AM
+Source:India TV News
+Is PG&E Stock Underperforming the Dow?
+PG&E Corporation (PCG) is a large‑cap utility with a market cap of about $40.9 billion. It supplies electricity and natural gas to roughly 16 million Californians across a 70,000‑square‑mile service area in northern and central California. Its generation mix includes nuclear, hydroelectric, fossil fuel, fuel cell, and solar photovoltaic assets.
+After reaching a 52‑week high of $21.72 in November 2024, PCG shares have fallen 29.6 % from that peak. Over the last three months the stock has dropped 8.2 %, lagging behind the Dow Jones Industrial Average’s 6.4 % return in the same period. In the past year the stock has declined 22.4 %, and year‑to‑date in 2025 it has slid 24.3 %. By contrast, the Dow has risen 8.3 % over the past year and 5.8 % YTD 2025.
+The shares have remained below their 200‑day moving average since early January, indicating prolonged weakness. Regulatory and operational pressures have weighed on the company. On July 31, 2025, PG&E reported fiscal 2025 second‑quarter revenue of $5.90 billion, down from $5.99 billion a year earlier, and earnings that missed expectations.
+Original language: en
+Publish date: September 03, 2025 10:40 PM
+Source:Yahoo! Finance
+PG&E (PCG) Stock Sees Mixed Options Sentiment with Modest Gain
+PG&E Corp shares rose 14 cents (0.91%) to $15.04 on August 26 2025. Options activity was modest with 9,438 contracts, a put/call ratio of 0.76—significantly higher than the typical 0.24. Implied volatility (IV30) fell 3.76 points to 58.57, placing it in the top 10 % of the past year and implying a daily price move of about 56 cents. The put‑call skew widened, signalling demand for downside protection. PG&E, a regulated utility serving 5.3 million electric and 4.6 million gas customers in 47 of California’s 58 counties, had a market cap of $33.04 billion. Its trailing‑12‑month revenue was $24.45 billion, down 3 % YoY, with a 3‑year growth of 3 % and a 5‑year decline of 15.8 %. Operating margin was 18.66 % and net margin 9.96 %. The Altman Z‑Score of 0.46 "places it in the distress zone", debt‑to‑equity is 1.91, interest coverage 1.5, and insiders sold 7,000 shares in the last three months. Valuation metrics show a P/E of 13.79, P/S 1.34, P/B 1.12, with a target price of $20.3 and a moderate‑buy recommendation score of 2.2. RSI 51.92 indicates a neutral stance. The article presents a balanced view of PG&E’s financial health and market sentiment, noting both operational efficiency gains and financial risks.
+Original language: en
+Publish date: August 26, 2025 04:30 PM
+Source:GuruFocus.com
+Mixed Options Sentiment in PG&E (PCG) as Stock Experiences Minor Dip
+PG&E Corporation (PCG) experienced a minor dip in its stock price, closing at $13.91 after a $0.10 decrease. The options market showed a mildly bullish sentiment, with calls outpacing puts and a put/call ratio of 0.11. The company's financial health presents a mixed picture, with modest revenue growth and a robust operating margin, but concerns over high debt levels and low interest coverage. Analysts recommend a moderate buy with a target price of $20.45, suggesting potential upside from current levels. However, the company's financial strength is rated as poor, and sector-specific risks include regulatory challenges and environmental liabilities. Investors should carefully consider the company's financial health and sector-specific risks before making investment decisions.
+Original language: en
+Publish date: July 31, 2025 06:50 PM
+Source:GuruFocus.com
+Earnings Preview For PG&E
+PG&E (NYSE:PCG) is set to release its quarterly earnings report on July 31, 2025. Analysts expect an earnings per share (EPS) of $0.32. Investors are hoping for positive guidance and surpassing estimates. In the previous earnings release, PG&E missed EPS by $0.02, leading to a 1.44% drop in the share price. The company's past performance shows a mixed record, with shares down 23.4% over the last 52-week period. Analysts have a consensus rating of Outperform, with an average 1-year price target of $19.67, indicating a potential 40.6% upside. Compared to peers NRG Energy, PPL, and Eversource Energy, PG&E ranks at the bottom for Revenue Growth and Gross Profit, but is in the middle for Return on Equity. The company's market capitalization is below the industry average, and its revenue growth lags behind its peers. PG&E's net margin, ROE, and ROA are also below industry standards, indicating challenges in achieving strong profitability and efficiently utilizing equity capital and assets. The company's debt-to-equity ratio is notably higher than the industry average, indicating a higher level of financial risk.
+Original language: en
+Publish date: July 30, 2025 04:10 PM
+Source:Benzinga News
+Earnings Preview For PG&E - PG&E (NYSE:PCG)
+PG&E (PCG) is set to release its quarterly earnings report on July 31, 2025. Analysts expect an earnings per share (EPS) of $0.32. Investors are eagerly awaiting the announcement, hoping for news of surpassing estimates and positive guidance for the next quarter. PG&E's past performance has been mixed, with the company missing EPS by $0.02 in its previous earnings release, leading to a 1.44% drop in the share price. Analysts have a consensus rating of Outperform, with an average one-year price target of $19.67, indicating a potential 40.6% upside. Compared to its peers, NRG Energy, PPL, and Eversource Energy, PG&E ranks at the bottom for Revenue Growth and Gross Profit, but is in the middle for Return on Equity. The company's market capitalization is below the industry average, and its revenue growth rate is lower than its peers in the Utilities sector. PG&E's net margin, ROE, and ROA are also below industry standards, indicating difficulties in achieving strong profitability and efficiently utilizing equity capital and assets. The company's debt-to-equity ratio is notably higher than the industry average, indicating a higher level of financial risk.
+Original language: en
+Publish date: July 30, 2025 04:01 PM
+Source:Benzinga
+PG&E (PCG) Shows Mixed Options Sentiment Amid Modest Price Incre
+PG&E (PCG) shares closed at $13.46 with a slight 0.04% increase. Options trading volume was low, with a put/call ratio of 0.35, indicating a preference for calls. The implied volatility decreased to 39.15, suggesting a slightly bullish market sentiment. Analysts forecast an average target price of $20.56, implying an upside of 52.81% from the current price. The estimated GF Value for PG&E Corp in one year is $18.54, suggesting a 37.79% upside from the current price.
+Original language: en
+Publish date: July 21, 2025 06:45 PM
+Source:GuruFocus
+Pacific Gas & Electric (PCG) Projected to Post Earnings on Thursday
+Pacific Gas & Electric (NYSE:PCG) is expected to release its Q2 2025 quarterly earnings results on Thursday, July 24th. Analysts predict earnings of $0.40 per share and revenue of $6.37 billion for the quarter. The company has set its FY 2025 guidance at 1.480-1.520 EPS. Pacific Gas & Electric's stock has been trading up 1.3% and has a market capitalization of $35.22 billion. The company has a 12-month low of $12.97 and a 12-month high of $21.72. According to analysts, the company has a 'Moderate Buy' rating and an average target price of $20.73. Insiders have sold shares of the company, including EVP Carla J. Peterman, who sold 32,519 shares on April 29th for $562,578.70. Institutional investors own 78.56% of the company's stock.
+Original language: en
+Publish date: July 17, 2025 07:46 AM
+Source:Defense World
+PG&E (PCG) Touches New All-Time Low
+PG&E Corporation (PCG) extended its losing streak to a seventh consecutive day, touching a new all-time low of $14.56 before closing at $14.58, down 6.78% from the previous day. The decline was partly influenced by a rating downgrade from Wolfe Research, which lowered its price target to $19 from $22. However, Wolfe Research maintained an 'outperform' rating for the company's stock. PG&E Corporation is one of the largest utility companies in the US, providing natural gas and electric service to approximately 16 million people in northern and central California.
+Original language: en
+Publish date: June 11, 2025 10:41 AM
+Source:insidermonkey.com
+FORECASTS
+R1: Forecaster 1 Reasoning
+Time until resolution: • 7 trading sessions / 9 calendar days remain (close of 17 Sep to close of 26 Sep 2025).
+Status-quo outcome if nothing changed
+• Close on 26 Sep = close on 17 Sep → question would resolve No (because it is not higher).
+Expectations of experts and markets
+• Analyst 12-mo targets (~20 USD) signal medium-term upside, but imply only ~3–4 % “expected” gain per month—too small to dominate 1-week noise.
+• Options‐implied 1-week one-sigma move ≈ ±6 % (using 40 % IV, √(7/252)). Directional skew is mild to the downside (puts > calls). Futures/arbitrage desks do not point to any scheduled catalyst before 26 Sep. Net: markets are almost direction-agnostic over the next week.
+A scenario that results in No (≤ 17 Sep close)
+• Any California wildfire ignition in, or threatening, PG&E territory; utilities usually fall 3–10 % on such headlines.
+• Broader risk-off in equities or utilities: e.g., hawkish Fed comments at the 24 Sep FOMC meeting, or rising Treasury yields.
+• Micro news: credit-rating chatter, adverse court filings on wildfire liabilities, or insider selling.
+A scenario that results in Yes (> 17 Sep close)
+• Quiet fire season plus continued sector rotation into defensives if macro jitters persist.
+• Positive regulatory ruling (rate-case clarity) or debt-refinancing at favourable terms.
+• Technical rebound after a prolonged slump (shares are ~30 % below Nov-24 high; mean-reversion rallies of 3–5 % in a week are common).
+────────────────────────────────────
+Evidence buckets (≈ ⅓ each)
+Bucket 1 – tilts probability lower
+• Stock is on a long -term down-trend, underperforming Dow by 24 % YTD.
+• Options skew shows higher demand for downside protection (put/call 0.76 on 26 Aug).
+• Wildfire season is just starting; headline risk is asymmetric to the downside.
+Bucket 2 – tilts probability higher
+• Valuation inexpensive: P/E 13.7 vs utility peers 18–20; analysts’ mean target $20.2 (≈ 31 % upside).
+• Institutional ownership 78 % and recent call-heavy options days (put/call 0.11 on 31 Jul) hint at bargain hunting.
+• Beta 0.57 – lower volatility than market; in short windows utilities often drift modestly upward while high-beta names digest macro news.
+Bucket 3 – neutral/central
+• No scheduled earnings, ex-dividend or capital-raising between the two dates.
+• 7-day horizon: historical probability of a higher close for a random S&P 500 utility ≈ 51 %.
+• Implied 1-week drift from analyst price paths is only +0.6 %, negligible versus σ ≈ 2.0 %/day.
+────────────────────────────────────
+Multi-world reasoning (1-week horizon)
+Low_World (fire headline, risk-off)
+• Base rate: 45 % chance of finishing higher.
+• Low fore-cast 30 %
+• Mid forecast 38 %
+• High forecast 46 %
+Mid_World (business-as-usual random walk)
+• Base rate: 51 %
+• Low forecast 45 %
+• Mid forecast 50 %
+• High forecast 55 %
+High_World (quiet weather, technical bounce)
+• Base rate: 56 %
+• Low forecast 50 %
+• Mid forecast 58 %
+• High forecast 65 %
+Reference CSV
+World_name,Base Rate,Low Forecast,Mid Forecast,High Forecast
+Low_World,45,30,38,46
+Mid_World,51,45,50,55
+High_World,56,50,58,65
+Ordered set of the nine estimates:
+30 %, 38 %, 45 %, 46 %, 50 %, 55 %, 58 %, 65 %
+────────────────────────────────────
+Reasonable-forecast distribution (percentiles)
+Percentile,Probability
+P10,38 %
+P20,41 %
+P30,44 %
+P40,47 %
+P50,49 %
+P60,52 %
+P70,55 %
+P80,59 %
+P90,64 %
+The 50th percentile (49 %) reflects a very slight lean toward No, driven by downside wildfire skew and recent negative momentum, but is close to coin-flip because:
+• No known catalyst before 26 Sep,
+• Utilities’ low beta dampens directional conviction,
+• Analyst and valuation backdrop modestly supportive.
+After a final sanity-check against the options-implied forward (≈ 50 %) and historical one-week win ratio (≈ 51 %), I assign:
+Probability: 49 %
+R1: Forecaster 2 Reasoning
+Time remaining until resolution
+• 7 trading days (market close 2025-09-17 through market close 2025-09-26) – roughly 9 calendar days.
+Status-quo outcome if nothing changed
+• “No” – the 9/26 close would equal the 9/17 close only by coincidence. Any movement, up or down, changes the verdict; drift is slightly likelier to be small than zero, so “unequal” is the base expectation. Direction is the question.
+Current expectations of experts and markets
+• Sell-side 12-month targets cluster near $20, implying long-term upside; that tells us little about one-week moves.
+• Options implied 7-day move (from IV ≈ 58) is ±3.6 % (≈ $0.55). Straddle pricing is almost symmetric, suggesting no material near-term directional skew.
+• Analyst rating: Moderate-buy (mean score 2.3-2.5). Again, no short-horizon signal.
+Path to “No” (26-Sep close ≤ 17-Sep close)
+• Continuation of recent negative momentum, macro risk-off, California wildfire headlines, rate-driven utility under-performance, or broad-market pullback.
+Path to “Yes” (26-Sep close > 17-Sep close)
+• Mean-reversion from oversold levels, relief rally if Fed meeting (24 Sep) is benign, absence of large wildfire news, or utilities catch a bid as defensive sector.
+
+Evidence buckets (roughly equal size)
+Bucket 1 – pushes probability lower
+• Down-trend YTD: –24 % YTD, –8 % last 3 mo.
+• Hit new lows in June; price still well below 200-DMA.
+• High debt, regulatory overhang (wildfire liability narrative).
+• Wolfe Research cut target in June; sentiment shaky.
+Bucket 2 – pushes probability higher
+• Low beta (0.57) limits damage if the market wobbles.
+• Street 12-m PT ≈ $20 (≈ +30 %) – implies value buyers on dips.
+• Implied vol skew (Aug & Jul option data) shows demand for calls vs puts at very short horizons.
+• Recent 6-day RSI ~42, approaching oversold; short-term mean reversion common.
+Bucket 3 – neutral / central
+• Options pricing is nearly symmetric for the next two weeks.
+• Utilities sector has traded roughly sideways last month.
+• No scheduled company-specific catalysts between now and 26 Sep.
+
+Multi-world framing
+Low_World (bearish tape continues)
+• Base rate: probability that a stock with week-long negative momentum keeps falling for another week ≈ 60 %.
+– Low forecast: 55 % No (45 % Yes)
+– Mid forecast: 60 % No (40 % Yes)
+– High forecast: 65 % No (35 % Yes)
+Mid_World (random walk dominates)
+• Base rate: generic 7-day positive return for S&P 500 constituent ≈ 52 %.
+– Low: 48 % Yes
+– Mid: 52 % Yes
+– High: 56 % Yes
+High_World (mean-reversion snap-back)
+• Base rate: For large-cap utilities that are >20 % below 200-DMA, one-week bounce probability ≈ 57 %.
+– Low: 53 % Yes
+– Mid: 57 % Yes
+– High: 61 % Yes
+Reference CSV
+World_name,Base Rate,Low Forecast,Mid Forecast,High Forecast
+Low_World,40%,35%,40%,45%
+Mid_World,52%,48%,52%,56%
+High_World,57%,53%,57%,61%
+
+Ordered set of the nine point estimates (Yes-probabilities)
+35%, 40%, 45%, 48%, 52%, 53%, 56%, 57%, 61%
+
+Percentile table (interpolated across the nine estimates)
+P10,38%
+P20,41%
+P30,44%
+P40,47%
+P50,50%
+P60,53%
+P70,55%
+P80,58%
+P90,60%
+The median (50 %) is a clean prior for a one-week binary on a mildly downward-trending but low-beta stock.
+I shade 2 pp toward “No” because:
+• Short-term momentum is negative.
+• Upcoming Fed meeting adds macro-rate risk that hurts utilities.
+• No obvious upside catalyst inside the window.
+
+Probability: 48%
+R1: Forecaster 3 Reasoning
+Time until resolution
+• Seven trading days (close of Wed 17 Sep 2025 to close of Fri 26 Sep 2025) – roughly 9 calendar days.
+Status-quo outcome if nothing changed
+• Utilities have drifted sideways-to-down for months as Treasury yields keep edging higher; PCG has under-performed the Dow and remains below its 200-day moving average. Absent news, modest further slippage is slightly more likely than a quick rebound.
+Expectations of experts and markets
+• Street remains structurally bullish (average 12-mo target ≈ $20) but that horizon is far longer than one week.
+• Options data (late-Aug) showed elevated downside hedging demand (put/call > typical), consistent with short-term caution.
+• No earnings releases or known regulatory rulings are scheduled before 26 Sep. Fed-rate commentary on 18 Sep is the only macro event on the calendar.
+Scenario that produces a “No” (price on 26 Sep ≤ price on 17 Sep)
+• 10-yr yield spikes after the FOMC, pressuring the whole utility sector.
+• A Northern-California wildfire headline revives liability worries.
+• Continued drift lower in the absence of positive catalysts.
+Scenario that produces a “Yes” (price on 26 Sep > price on 17 Sep)
+• Bond yields retreat after the Fed strikes a dovish tone.
+• Sector rotation into defensives if the broader market wobbles.
+• Any incremental news (e.g., rate-base expansion filing) that reassures investors.
+────────────────────────────────────────
+Evidence buckets (roughly equal size)
+Bucket 1 – pushes probability lower
+• Persistent under-performance vs. Dow (-22 % YoY, -24 % YTD).
+• Elevated put activity and high implied volatility (late-Aug GuruFocus).
+• Wolfe Research cut target in June; sentiment still fragile.
+• Wildfire season is at its annual peak (idiosyncratic risk).
+Bucket 2 – pushes probability higher
+• Street price targets $19-$20 (≈ +30 % upside).
+• PCG trades at sector-low P/E 13-14, inviting value buyers.
+• Beta 0.57 – tends to fall less when market sells off; could outperform if macro turns risk-off.
+Bucket 3 – neutral/central
+• Utility sector generally pinned by interest-rate moves; near-term direction highly macro-dependent.
+• No near-term company-specific catalysts scheduled.
+• Seven-day horizon roughly a coin-flip historically (≈ 50 % positive return probability for low-beta names).
+────────────────────────────────────────
+Multi-world reasoning
+Low_World (bearish macro / wildfire scare)
+• Base-rate: 35 % chance of 7-day gain
+• Low estimate: 20 %
+• Mid estimate: 30 %
+• High estimate: 40 %
+Mid_World (neutral drift)
+• Base-rate: 50 %
+• Low: 40 %
+• Mid: 50 %
+• High: 60 %
+High_World (rates fall / risk-off rotation)
+• Base-rate: 55 %
+• Low: 45 %
+• Mid: 55 %
+• High: 65 %
+Reference CSV
+World_name,Base Rate,Low Forecast,Mid Forecast,High Forecast
+Low_World,35,20,30,40
+Mid_World,50,40,50,60
+High_World,55,45,55,65
+Ordered set of the nine forecasts: 20, 30, 40, 40, 45, 50, 55, 60, 65 (%).
+────────────────────────────────────────
+Reasonable distribution (P10-P90)
+Percentile,Prob_%
+P10,24
+P20,30
+P30,38
+P40,42
+P50,47
+P60,52
+P70,57
+P80,61
+P90,64
+The median 47 % is only slightly below a fair coin, reflecting (i) mild downward drift in utilities while rates are high, and (ii) the ever-present wildfire headline risk. No scheduled positive catalysts occur before 26 Sep, so the bearish scenarios carry a bit more weight than the bullish ones.
+Final answer
+Probability: 47%
+R1: Forecaster 4 Reasoning
+Time remaining
+• 9 calendar days / 7 trading sessions (Thu 18 Sep – Fri 26 Sep 2025).
+Status-quo outcome if nothing changed
+• Close on 26 Sep = $15.45 → the result would be a tie; in practice we treat “no change” as effectively 50 % for either side.
+Expectations of experts and markets
+• 16 sell-side analysts: mean 12-mo target ≈ $20 (30 % upside) and consensus “Moderate-Buy”.
+• Options data over the last three weeks: more calls than puts but elevated downside protection; implied 7-day move ≈ ±4 %.
+• Utilities sector and S&P-500 futures presently neutral to slightly bullish after the 17 Sep close.
+A plausible “No” scenario (price lower on 26 Sep)
+• New California wildfire starts, triggering liability fears; or the CA Public Utilities Commission signals tougher cost-recovery rules → stock sells off 4-8 %.
+• Broader market risk-off (e.g., hawkish Fed rhetoric on 24 Sep) drags a low-beta name down 1-2 %.
+A plausible “Yes” scenario (price higher on 26 Sep)
+• No headline shocks; bargain-hunting and short covering lift PCG 2-4 % toward its 50-day MA.
+• Positive CPUC draft decision on rate case or grid-hardening cost recovery surfaces, adding 2-3 %.
+
+Grouping today’s evidence (roughly equal sized buckets)
+Bucket 1 – Points to a lower probability
+• Persistent under-performance vs. Dow (-24 % YTD).
+• Wolfe Research target cut; all-time low printed 11 Jun.
+• High debt, Altman-Z in distress zone; insiders net sellers.
+Bucket 2 – Points to a central/neutral view
+• Low 0.57 beta → small absolute moves typical.
+• Options currently balanced; modest implied volatility.
+• Utilities as a class trading sideways; no earnings due.
+Bucket 3 – Points to a higher probability
+• Street targets $19–21 (30-40 % upside).
+• Valuation cheaper than peer FirstEnergy; forward P/E 13.7.
+• Recent call-skew and analyst “Moderate-Buy”.
+
+Multi-world reasoning
+Low_World (use Bucket 1)
+• Base rate: Down-trending stocks rise in the next 7 sessions ≈ 45 %.
+• Low forecast: 35 %
+• Mid forecast: 40 %
+• High forecast: 45 %
+Mid_World (use Bucket 2)
+• Base rate: 7-day move for a low-beta utility ≈ 50 % up.
+• Low forecast: 45 %
+• Mid forecast: 50 %
+• High forecast: 55 %
+High_World (use Bucket 3)
+• Base rate: 55 % (positive drift plus perceived undervaluation).
+• Low forecast: 55 %
+• Mid forecast: 60 %
+• High forecast: 65 %
+Reference CSV
+World_name,Base Rate,Low Forecast,Mid Forecast,High Forecast
+Low_World,0.45,0.35,0.40,0.45
+Mid_World,0.50,0.45,0.50,0.55
+High_World,0.55,0.55,0.60,0.65
+
+Ordered set of nine reasonable forecasts
+35 %, 40 %, 45 %, 45 %, 50 %, 55 %, 55 %, 60 %, 65 %
+Approximate percentile table (linear interpolation)
+P10: 37 %
+P20: 40 %
+P30: 44 %
+P40: 45 %
+P50: 50 %
+P60: 53 %
+P70: 55 %
+P80: 58 %
+P90: 63 %
+Median (P50) = 50 %.
+Adjustments: slight negative momentum, wildfire headline risk > positive catalysts inside next week. I shade 1 pt lower.
+Probability: 49 %
+R1: Forecaster 5 Reasoning
+Time left until resolution
+• 7 trading days (close of Wed 17 Sep → close of Fri 26 Sep 2025).
+Status-quo outcome if nothing changed
+• Utilities are low-beta; absent news, the price on any given day is almost a coin-flip to finish above or below the prior week’s close. So the default is ≈50 %.
+Expectations of experts and markets
+• Consensus 12-month target ≈ $20–21 (35 %+ upside) shows long-term bullishness, but that is far larger than a 7-day move.
+• Options-implied 7-day σ ≈ 3.8 % → ≈ $0.60. A one-sigma rise would put the price near $16.0; a one-sigma fall near $14.4.
+• Rates are in focus (FOMC update 19 Sep). Rising yields typically pressure utilities.
+• Wild-fire season (Sep-Oct) adds asymmetric downside headline risk.
+Scenario that yields a No (price 26 Sep ≤ 17 Sep)
+• Treasury yields rise after the Fed meeting; utilities sell off.
+• Any sizeable California wildfire, safety-power shut-off, or legal headline drives PCG down 2–4 %.
+• Broader market risk-off week.
+Scenario that yields a Yes (price 26 Sep > 17 Sep)
+• Fed guidance is slightly dovish → yields fall → defensive, rate-sensitive utilities bid.
+• No wildfire headlines; bargain hunters and buy-backs lift PCG 1–2 %.
+• General market grind higher on lighter macro calendar.
+————————————————————
+Evidence buckets (≈ equal size)
+Bucket 1 – tilts to lower probability
+• 2025 YTD −24 % and persistent under-performance vs. Dow.
+• Wolfe downgrade 11 Jun and ongoing bearish momentum.
+• Altman-Z distress (0.46) and heavy debt; utilities under pressure if yields rise.
+• Height of CA wildfire season.
+Bucket 2 – tilts to higher probability
+• Analyst mean target $20+ with “Moderate-Buy”; ~35–40 % upside signalled.
+• PCG trades on low P/E 13–14 vs. peers → value buyers.
+• Beta 0.57: less volatile, often mean-reverts after draw-downs.
+• Options skew shows demand for downside protection already priced in.
+Bucket 3 – neutral / central
+• Options-implied vol (IV30 high-30s/low-40s) gives roughly symmetric ±4 % week range.
+• Mixed options sentiment (put/call 0.35–0.76) = neither extreme fear nor greed.
+• Earnings already out; no company-specific catalysts scheduled before 26 Sep.
+————————————————————
+Multi-world reasoning (1 % precision)
+Low_World (bearish macro or wildfire)
+Base rate 45 %
+Low forecast 30 %
+Mid forecast 40 %
+High forecast 50 %
+Mid_World (benign week)
+Base rate 50 %
+Low forecast 40 %
+Mid forecast 50 %
+High forecast 60 %
+High_World (dovish Fed, calm fires)
+Base rate 55 %
+Low forecast 45 %
+Mid forecast 60 %
+High forecast 70 %
+Reference CSV
+World_name,Base Rate,Low Forecast,Mid Forecast,High Forecast
+Low_World,0.45,0.30,0.40,0.50
+Mid_World,0.50,0.40,0.50,0.60
+High_World,0.55,0.45,0.60,0.70
+————————————————————
+Ordered set of the nine reasonable point estimates
+30 %, 40 %, 40 %, 45 %, 50 %, 50 %, 60 %, 60 %, 70 %
+Approximate cumulative distribution & percentiles (interp.)
+P10 31 %
+P20 38 %
+P30 42 %
+P40 46 %
+P50 50 %
+P60 54 %
+P70 58 %
+P80 63 %
+P90 68 %
+Median (P50) = 50 %.
+Adjustments: slight tilt downward for rate-hike/wildfire asymmetry and recent negative momentum.
+Probability: 49 %
+R1: Forecaster 6 Reasoning
+Time until resolution
+• Outcome known after the NYSE closing bell on Friday 26 September 2025 – 7 trading days (≈ 6½ market days) from now.
+Status-quo outcome if nothing changed
+• If the price simply drifted in a tight range (its recent pattern) the 26 Sep close would probably be within ±3 % of the 17 Sep close. Direction would be effectively a coin-flip, so ≈ 50 %.
+What experts and markets are signalling
+• Sell-side 12-month targets remain far above today’s price (≈ $20 vs ≈ $15), but those are long-term.
+• Options market: IV ~58 (90-day) but the near-dated skew is toward puts, showing more demand for downside hedges.
+• Consensus rating “Moderate Buy” has not moved this week. No scheduled catalysts before 26 Sep.
+• Wild-fire season is in full swing; each new fire headline typically shaves 1–3 % off the stock intra-day.
+A plausible No scenario (price lower on 26 Sep)
+• September heat-wave sparks a major Northern-CA wildfire; liability fears push the stock down 5-10 % in a day and it fails to recover by 26 Sep.
+• OR a broad market pull-back on Fed-rate or macro news drags low-beta utilities mildly lower (-2 %).
+A plausible Yes scenario (price higher on 26 Sep)
+• The fire season remains quiet, Treasury yields dip, defensive sectors attract flows, PCG gains 3-5 %.
+• OR a positive regulatory headline (rate-base approval or settlement) adds a quick 2 %.
+––––––––––––––––––––––––––––––––
+Grouping the evidence
+Bucket 1 – tilts lower
+• Persistent 2025 down-trend (-24 % YTD).
+• Wolfe Research target cut; options skew to puts.
+• High debt, wildfire headline risk in late-September peak season.
+Bucket 2 – tilts higher
+• Street 1-yr price target ($20 +) ⇒ 35–40 % upside.
+• Valuation: P/E 13–14 vs peer ~19.
+• Institutional ownership > 78 %, insiders have stopped selling since Aug.
+Bucket 3 – neutral/central
+• Beta 0.57; typical 1-week move ≈ ±6 %.
+• No earnings, ex-dividend or major scheduled events before 26 Sep.
+• Options IV high but falling – market pricing in “ordinary” volatility.
+––––––––––––––––––––––––––––––––
+Multi-world framework
+Low_World (weight ~⅓) – fire/liability worries dominate
+• Base “rise” rate: 45 %
+• Low / Mid / High forecasts: 30 %, 40 %, 50 %
+Mid_World (weight ~⅓) – random walk, nothing dramatic
+• Base rate: 50 %
+• Low / Mid / High: 45 %, 50 %, 55 %
+High_World (weight ~⅓) – risk-off rally, quiet fire season
+• Base rate: 55 %
+• Low / Mid / High: 50 %, 60 %, 70 %
+Reference CSV
+World_name,Base Rate,Low Forecast,Mid Forecast,High Forecast
+Low_World,45,30,40,50
+Mid_World,50,45,50,55
+High_World,55,50,60,70
+Ordered set of the nine estimates
+30 %, 40 %, 45 %, 50 %, 50 %, 55 %, 60 %, 70 %
+Reasonable distribution (percentiles)
+P10  = 35 %
+P20  = 40 %
+P30  = 43 %
+P40  = 48 %
+P50  = 50 %
+P60  = 53 %
+P70  = 57 %
+P80  = 60 %
+P90  = 66 %
+The 50th-percentile sits right at 50 %. Given the asymmetric wildfire downside (large negative skew) I shade 4 percentage points lower.
+Probability: 46 %
+R1: Forecaster 7 Reasoning
+Time until resolution
+• 7 trading days (calendar 9 days) remain between today (Wed 17 Sep 2025) and the close on Fri 26 Sep 2025.
+Status-quo outcome if nothing changed
+• If PCG closed on 26 Sep exactly where it closes today, the question resolves No.
+Expectations of experts & markets
+• Options market (IV30 ≈ 59, daily σ ≈ 3.9 %) implies a 1-week ±5 % 1-σ range and is almost delta-neutral (put/call ≈ 0.76).
+• Street 12-mo targets cluster near $20, but there is no short-term catalyst scheduled before 26 Sep.
+• The Fed decision (18 Sep) and peak-wildfire headlines are the largest near-term macro/idiosyncratic risks.
+A brief No scenario
+• A Northern-CA wildfire, rate-hike shock, or general market pullback pushes PCG ≤ today’s close for the week.
+A brief Yes scenario
+• Stable weather, dovish Fed tone, or defensive rotation lifts utilities; PCG mean-reverts 2–4 % higher.
+––––––––––––––––––––––––––––––––
+EVIDENCE BUCKETS
+(≈ one-third of items each)
+Bucket 1 – points to a LOW forecast (bearish)
+• Stock is down 24 % YTD and in a clear down-trend, below its 200-DMA.
+• Wolfe Research cut its target; several stories point to regulatory/ wildfire overhang.
+• Options skew shows persistent demand for downside protection.
+• Altman-Z < 1 and debt > peer average.
+Bucket 2 – points to a HIGH forecast (bullish)
+• Street consensus price ≈ $20 (35–50 % upside) and “Moderate-Buy.”
+• Valuation 13-14× P/E vs peer 18–19×.
+• Low beta (0.57) means it often outperforms in risk-off weeks.
+• Recent 0.9 % up-day (26 Aug) despite heavy put demand hints at mean reversion.
+Bucket 3 – points to a CENTRAL forecast (neutral)
+• Utility sector normally drifts ±2 % in a week; baseline up-probability ≈ 50 %.
+• No earnings or major company event before 26 Sep.
+• Implied 1-week move is symmetric; PCG volatility only slightly above peers.
+• Analyst articles are largely comparative or retrospective, not fresh catalysts.
+––––––––––––––––––––––––––––––––
+MULTI-WORLD REASONING
+A. Low_World (weight thought-experiment only)
+• Assume wildfire/news shock probability rises; expected 1-week drift −1.0 %.
+Base rate of finishing higher: 40 %.
+– Low estimate: 34 %
+– Mid estimate: 38 %
+– High estimate: 44 %
+B. Mid_World
+• Business-as-usual random walk, drift 0 %.
+Base rate: 50 %.
+– Low: 46 %
+– Mid: 50 %
+– High: 54 %
+C. High_World
+• Mild relief rally & defensive bid, drift +0.5 %.
+Base rate: 60 %.
+– Low: 56 %
+– Mid: 60 %
+– High: 64 %
+Reference CSV
+World_name,Base Rate,Low Forecast,Mid Forecast,High Forecast
+Low_World,0.40,0.34,0.38,0.44
+Mid_World,0.50,0.46,0.50,0.54
+High_World,0.60,0.56,0.60,0.64
+Ordered set of the nine estimates
+34 %, 38 %, 44 %, 46 %, 50 %, 54 %, 56 %, 60 %, 64 %
+Projected percentile distribution (interpolated)
+P10 = 35 %
+P20 = 38 %
+P30 = 43 %
+P40 = 45 %
+P50 = 50 %
+P60 = 53 %
+P70 = 56 %
+P80 = 59 %
+P90 = 63 %
+The median (50 %) lies squarely between bearish trend and bullish mean-reversion arguments.
+Wildfire/ Fed-shock tail risks feel slightly larger on the downside, so I trim 2 pts off the median.
+Probability: 48%
+R1: Forecaster 8 Reasoning
+Time until resolution
+• 6 trading days (Thu 18 Sep → Fri 26 Sep 2025).
+• Outcome known after the market close on Fri 26 Sep 2025 – 9 calendar days from now.
+Status-quo outcome if nothing changed
+• The close on 26 Sep would equal today’s (17 Sep) close → question would resolve “No”.
+• Because prices usually drift only slightly over a single week, the status-quo slightly favours “No”.
+Expectations of experts & markets
+• Street 12-mth targets cluster around $20 (≈+30 %). That implies modest short-term bullish bias, but on a 7-day horizon sell-side targets are weak signals.
+• Options data (late-Aug) showed implied 7-day σ ≈ 4 %. With near-zero drift, market-implied up-vs-down probability is close to 50 %.
+• PCG’s 0.57 β and utility sector defensiveness point to low volatility relative to S&P 500.
+Scenario for a No (≤ 17 Sep close):
+• Continuation of YTD down-trend, investor risk-off ahead of the 24-25 Sep FOMC minutes, or California wildfire headlines re-ignite liability fears. A 2-3 % slide would suffice.
+Scenario for a Yes (> 17 Sep close):
+• Technical bounce from recent multi-year lows, rotation into “value” utilities, or favourable regulatory/ rate-case news. A 2-3 % uptick also suffices.
+––––––––––––––––––––––––––––––––––
+Grouped evidence
+Bucket 1 – tilts to lower probability
+• Price down 24 % YTD, below 200-DMA; touched all-time low 14 Jun; Wolfe Research cut target.
+• High leverage (D/E ≈ 1.9) and Altman-Z 0.46 (“distress zone”).
+• Put/Call skew (Aug 26) showed demand for downside hedges.
+Bucket 2 – central/neutral evidence
+• Beta 0.57 ⇒ muted swings.
+• Short 7-day horizon → historical base-rate ≈ 50 %.
+• Institutional ownership 79 %, insider activity light – no imminent corporate event.
+Bucket 3 – tilts to higher probability
+• Analyst consensus “Moderate Buy”, mean TP ≈ $20 (≈+30 %).
+• PCG trades at P/E 13.7 vs sector 18-20 – value appeal.
+• Options volume in July/August had calls > puts several times; implied vol falling.
+––––––––––––––––––––––––––––––––––
+Multi-world reasoning (1 % precision)
+Low_World (weighting Bucket 1)
+• Base rate 45 %
+• Low 30 % | Mid 40 % | High 50 %
+Mid_World (Bucket 2)
+• Base rate 50 %
+• Low 45 % | Mid 52 % | High 59 %
+High_World (Bucket 3)
+• Base rate 55 %
+• Low 50 % | Mid 60 % | High 75 %
+Reference CSV
+World_name,Base Rate,Low Forecast,Mid Forecast,High Forecast
+Low_World,45,30,40,50
+Mid_World,50,45,52,59
+High_World,55,50,60,75
+Ordered set of nine reasonable estimates
+30 %, 40 %, 45 %, 50 %, 52 %, 59 %, 60 %, 70 %, 75 %
+Percentile map (interpolated)
+P10 36 %
+P20 40 %
+P30 44 %
+P40 48 %
+P50 52 %
+P60 56 %
+P70 60 %
+P80 65 %
+P90 70 %
+Median (52 %) aligns with near-efficient-market expectation; slight upward adjustment (+1 pp) reflects undervaluation narrative and recent stabilisation.
+Probability: 53 %

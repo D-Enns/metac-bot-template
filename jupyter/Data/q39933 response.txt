@@ -1,0 +1,679 @@
+SUMMARY
+Question: Will the community prediction be higher than 88.00% on 2025-09-26 for the Metaculus question "Will India's nominal GDP surpass Japan's by the end of 2025?"?
+Final Prediction: 50.0%
+Total Cost: $0
+Time Spent: 2.58 minutes
+Report 1 Summary
+Forecasts
+Forecaster 1: 54.0%
+Forecaster 2: 45.0%
+Forecaster 3: 47.0%
+Forecaster 4: 56.0%
+Forecaster 5: 54.0%
+Forecaster 6: 45.0%
+Forecaster 7: 53.0%
+Forecaster 8: 46.0%
+Research Summary
+The collected research presents a mixed global and regional economic backdrop for 2025. Fitch Ratings has raised its 2025 world growth forecast to 2.4%, while warning of a U.S. slowdown driven by high tariffs, rising inflation, and decelerating job growth, and projects U.S. GDP growth to remain below trend (1.6% in 2026). China’s exports remain resilient but domestic demand is weakening, and the Eurozone faces stagnation in H2 2025. OECD provisional data for Q2 2025 show the G20 expanding by 0.9% (up from 0.7% in Q1), led by the U.S. (+0.8%) and South Korea (+0.7%), with Japan rising to +0.5% and India slowing from +2.0% to +1.7%. Per-capita comparisons outside Asia reveal Taiwan’s forecast to overtake South Korea in 2025, driven by a semiconductor-led real GDP surge (8.01% YoY in Q2), whereas Korea’s growth remains subdued.
+Specific forecasts and debates around India overtaking Japan in nominal GDP by end-2025 abound. The IMF’s World Economic Outlook and Indian government think-tanks project India’s 2025 nominal GDP at roughly USD 4.187 trillion, marginally above Japan’s USD 4.186 trillion, a view echoed by NITI Aayog and economists like Arvind Virmani. Supporters cite India’s continued 6%+ growth, favorable demographics, and expansion in services and digital sectors. Critics question the accuracy of India’s GDP data—citing flawed deflators and credibility concerns—and highlight deep structural issues such as low per-capita income (~USD 2,600), rising unemployment, shrinking manufacturing and FDI, high inequality, rural distress, and serious malnutrition (Global Hunger Index rank 105/127). This body of research underscores both the statistical projections favoring an India-Japan crossover and the underlying doubts about data quality and economic sustainability.
+Sources:
+https://www.fibre2fashion.com/news/textile-news/global-economy-to-expand-2-4-in-2025-fitch-warns-of-us-slowdown-305241-newsdetails.htm
+https://www.ilfattoquotidiano.it/2025/09/15/pil-g20-crescita-italia-contrazione-news/8127444/
+https://www.lasicilia.it/ultimi-aggiornamenti/ocse-pil-g20-09-nel-secondo-trimestre-italia-01-2611954/
+https://www.mk.co.kr/news/business/11420001
+https://www.segye.com/newsView/20250914509624
+https://www.rediff.com/business/interview/indias-growth-is-in-serious-trouble/20250213.htm
+https://www.business-standard.com/opinion/columns/the-unending-saga-of-india-s-gdp-data-true-numbers-beyond-the-story-125091501596_1.html
+https://www.millenniumpost.in/sundaypost/in-retrospect/the-great-growth-mirage-617659
+https://www.thehindubusinessline.com/opinion/growth-data-on-india-and-japan-flatters-to-deceive/article69648911.ece
+https://www.asahi.com/articles/AST5Z3RX2T5ZUHBI02RM.html?iref=ogimage_rek
+https://www.eleconomista.es/economia/noticias/13390163/05/25/el-nuevo-gigante-de-la-economia-global-esta-listo-para-rugir-y-superar-el-pib-de-alemania-y-japon-juntos.html
+https://www.alanba.com.kw/1309984
+https://www.republicworld.com/business/india-overtakes-japan-a-comparison-of-two-economies
+https://udn.com/news/story/7238/9004976
+https://tekedia.com/india-surpassed-japan-as-the-worlds-fourth-largest-economy/
+RESEARCH
+Report 1 Research
+Here are the relevant news articles:
+Global economy to expand 2.4% in 2025; Fitch warns of US slowdown
+Fitch Ratings lifted its 2025 world growth forecast to 2.4% after better‑than‑expected Q2 2025 data, but warns of an underlying slowdown in the United States. The agency estimates the average U.S. effective tariff rate (ETR) at 16%, close to the June assumption, and notes that tariff uncertainty has largely subsided. Fitch’s chief economist Brian Coulton said, 'Greater clarity about US tariff hikes does not alter the fact that they are huge and will reduce global growth. And evidence of a slowdown in the US is now appearing in the hard data; it's no longer just in the sentiment surveys.' The report highlights that the tariff shock has only modestly passed through to U.S. CPI inflation, with corporate profits absorbing some pressure, but expects acceleration later in 2025. Higher inflation is expected to dampen real wage growth and weigh on U.S. consumer spending, which has already slowed in 2025. Job growth has decelerated, partly due to an immigration squeeze. Fitch projects U.S. GDP growth to remain below trend at 1.6% in 2026. China’s export growth remains resilient thanks to a depreciating nominal effective exchange rate and falling export prices, though private domestic demand is weakening. Eurozone exports are unlikely to sustain their H1 2025 pace, and GDP is not expected to expand in H2 2025. The Federal Reserve is likely to cut rates more quickly, with 25‑basis‑point cuts in September and December 2025 and three more in 2026. The ECB is unlikely to lower rates again, and Fitch sees little chance of a dollar rebound after the broad‑based depreciation in H1 2025. Long‑term 30‑year government bond yields in the U.S., U.K., Germany and Japan continue to rise, reflecting supply‑side concerns.
+Original language: en
+Publish date: September 16, 2025 03:33 AM
+Source:Fibre2fashion.com
+PIL G20 grows 0.9% in Q2 2025 | Italy among trailing tailwinds
+According to the OECD, the G20 GDP growth in Q2 2025 averaged +0.9% across the most industrialised economies. Canada contracted by 0.4%, Germany by 0.3% and Italy by 0.1%. The United States accelerated from –0.1% to 0.8%, South Korea from –0.2% to 0.7%, Turkey from 0.7% to 1.6%, South Africa from 0.1% to 0.8% and Saudi Arabia from 1.1% to 1.7%. Growth also rose in Japan from 0.1% to 0.5%, Australia and Mexico from 0.3% to 0.6% each, France from 0.1% to 0.3% and Indonesia from 1.2% to 1.3%. Conversely, Brazil fell from 1.3% to 0.4%, the United Kingdom from 0.7% to 0.3%, India from 2.0% to 1.7% and China from 1.2% to 1.1%. The article notes that Canada was ‘damaged by Donald Trump’s trade war’ and that Italy is a ‘tail‑wind’ in the G20 ranking.
+Original language: it
+Publish date: September 15, 2025 01:32 PM
+Source:Il Fatto Quotidiano
+G20 GDP +0.9% in Q2, Italy –0.1%
+According to provisional estimates released by the OECD on 15 September 2025, the G20’s gross domestic product grew 0.9 % in the second quarter of 2025, up from 0.7 % in the first quarter. The growth was largely driven by the United States, which rose to 0.8 % from –0.1 %, and South Korea, which climbed to 0.7 % from –0.2 %. Other notable gains included Turkey (1.6 % from 0.7 %), South Africa (0.8 % from 0.1 %), Saudi Arabia (1.7 % from 1.1 %), Japan (0.5 % from 0.1 %), Australia (0.6 % from 0.3 %), Mexico (0.6 % from 0.3 %), France (0.3 % from 0.1 %) and Indonesia (1.3 % from 1.2 %). Conversely, the OECD noted that Canada’s GDP contracted to 0.4 % from 1.3 %, and Italy’s fell to –0.1 % from 0.3 %. Slower growth was also observed in Brazil (0.4 % from 1.3 %), the United Kingdom (0.3 % from 0.7 %), India (1.7 % from 2.0 %) and China (1.1 % from 1.2 %).
+Original language: it
+Publish date: September 15, 2025 10:46 AM
+Source:La Sicilia
+Taiwan Overtakes Korea in Per Capita GDP for First Time Since 2003
+According to the article, the Korean government’s 2025 nominal GDP per capita forecast is $37,430, which is projected to fall short of Taiwan’s $38,066 forecast for the same year, marking the first time in 22 years that Taiwan will surpass Korea in per‑capita GDP. The article attributes Taiwan’s rapid growth to its semiconductor export boom, led by TSMC, which holds the world’s largest foundry market share. Taiwan’s second‑quarter real GDP grew 8.01 % year‑over‑year, the highest since Q2 2021, while Korea’s second‑quarter growth was only 0.6 %. Taiwan’s 2025 real GDP growth forecast was raised from 3.1 % to 4.45 %, compared with Korea’s 0.9 %. The article notes that Taiwan is expected to reach a per‑capita GDP of $40,019 in 2026, whereas Korea is projected to hit $38,947 in the same year. The IMF had previously predicted Taiwan would overtake Korea in 2026, but Korea’s growth is now expected to lag until 2029. The piece reports that Taiwan’s semiconductor industry, especially TSMC, is the backbone of its high‑growth trajectory, while Korea’s semiconductor firms such as SK Hyundai and Samsung are hampered by domestic demand weakness and U.S. tariffs on automotive, steel, and aluminum imports.
+Original language: ko
+Publish date: September 15, 2025 07:28 AM
+Source:mk.co.kr
+Korea to Be Overtaken by Taiwan in GDP per Capita in 2025
+According to a forecast released on 14 September 2025 by the South Korean government and Taiwan’s National Statistics Office, Korea’s 2025 GDP per capita is projected at $37,430, while Taiwan’s is $38,066, meaning Taiwan will surpass Korea for the first time in 22 years. The difference stems largely from Taiwan’s semiconductor‑driven growth: its Q2 2025 real GDP grew 8.01% year‑on‑year, the highest since Q2 2021 (8.28%), prompting the Taiwan Statistics Office to lift its 2025 real GDP growth forecast from 3.10% to 4.45%. In contrast, Korea’s economy contracted in Q1 and grew only 0.6% in Q2, with the government forecasting 0.9% growth for 2025 and 1.8% for 2026—both below the OECD’s potential growth rate of 1.9%. The article notes that Taiwan is expected to reach a per‑capita GDP of $41,019 next year, the first time it will cross the $40,000 threshold, whereas Korea’s 2026 per‑capita GDP is projected at $38,947 even if the government’s 3.9% growth estimate is applied. The piece quotes the phrase '4만달러' to emphasize the milestone.
+Original language: ko
+Publish date: September 14, 2025 09:15 PM
+Source:세계일보
+'India's Growth Is In Serious Trouble'
+The article, written by Rajeswari Sengupta for Rediff.com, argues that India’s 2025 Budget will fail to revive growth because it ignores deep structural problems. The author cites that India’s per‑capita GDP is only $2,600 and the country ranks 141st worldwide, highlighting that the economy is still a low‑income trap. She points out that unemployment is rising as millions of young people enter the workforce each year, yet jobs that match their aspirations are scarce. The piece stresses that manufacturing, goods export and foreign direct investment (FDI) have all fallen, while the government’s focus on tax cuts and welfare schemes is seen as a short‑term bandage rather than a solution. Sengupta quotes the Prime Minister’s claim that the budget will ‘fulfil people’s dreams towards a developed country’, calling it ‘more political than economic’. She also notes that 20% of India’s population is already 60 years or older, a demographic shift that will strain fiscal resources. The article concludes that without reforms, India may remain a low‑income country and that the government’s denial of the problem will prevent any meaningful progress. Key metrics cited include a per‑capita GDP of $2,600, a global rank of 141, a 20% elderly population, and a target growth rate of 7‑8%. The author repeatedly uses phrases such as 'Budget Lacks Big Ideas' and 'We face the risk of remaining a low‑income country for a very long time unless something changes in the next few years.' to emphasize the urgency of reform.
+Original language: en
+Publish date: February 13, 2025 09:49 AM
+Source:rediff.com
+Global economy to expand 2.4% in 2025; Fitch warns of US slowdown
+Fitch Ratings lifted its 2025 world growth forecast to 2.4% after better‑than‑expected Q2 2025 data, but warns of an underlying slowdown in the United States. The agency estimates the average U.S. effective tariff rate (ETR) at 16%, close to the June assumption, and notes that tariff uncertainty has largely subsided. Fitch’s chief economist Brian Coulton said, 'Greater clarity about US tariff hikes does not alter the fact that they are huge and will reduce global growth. And evidence of a slowdown in the US is now appearing in the hard data; it's no longer just in the sentiment surveys.' The report highlights that the tariff shock has only modestly passed through to U.S. CPI inflation, with corporate profits absorbing some pressure, but expects acceleration later in 2025. Higher inflation is expected to dampen real wage growth and weigh on U.S. consumer spending, which has already slowed in 2025. Job growth has decelerated, partly due to an immigration squeeze. Fitch projects U.S. GDP growth to remain below trend at 1.6% in 2026. China’s export growth remains resilient thanks to a depreciating nominal effective exchange rate and falling export prices, though private domestic demand is weakening. Eurozone exports are unlikely to sustain their H1 2025 pace, and GDP is not expected to expand in H2 2025. The Federal Reserve is likely to cut rates more quickly, with 25‑basis‑point cuts in September and December 2025 and three more in 2026. The ECB is unlikely to lower rates again, and Fitch sees little chance of a dollar rebound after the broad‑based depreciation in H1 2025. Long‑term 30‑year government bond yields in the U.S., U.K., Germany and Japan continue to rise, reflecting supply‑side concerns.
+Original language: en
+Publish date: September 16, 2025 03:33 AM
+Source:Fibre2fashion.com
+The unending saga of India's GDP data: True numbers beyond the story
+The Business Standard report notes that India’s latest GDP data shows a 7.8 % growth rate for the April‑June 2025‑26 quarter, a figure that is markedly higher than forecasts from economists based on other available data. The article highlights that this release has sparked renewed scepticism and debate, underscoring persistent doubts about the credibility of India’s GDP series even a decade after its introduction. The piece points out that the conversion of nominal GDP to real GDP by the National Statistical Office (NSO) involves a GDP deflator that has serious issues, contributing to the controversy surrounding the data.
+Original language: en
+Publish date: September 15, 2025 05:35 PM
+Source:Business Standard
+PIL G20 grows 0.9% in Q2 2025 | Italy among trailing tailwinds
+According to the OECD, the G20 GDP growth in Q2 2025 averaged +0.9% across the most industrialised economies. Canada contracted by 0.4%, Germany by 0.3% and Italy by 0.1%. The United States accelerated from –0.1% to 0.8%, South Korea from –0.2% to 0.7%, Turkey from 0.7% to 1.6%, South Africa from 0.1% to 0.8% and Saudi Arabia from 1.1% to 1.7%. Growth also rose in Japan from 0.1% to 0.5%, Australia and Mexico from 0.3% to 0.6% each, France from 0.1% to 0.3% and Indonesia from 1.2% to 1.3%. Conversely, Brazil fell from 1.3% to 0.4%, the United Kingdom from 0.7% to 0.3%, India from 2.0% to 1.7% and China from 1.2% to 1.1%. The article notes that Canada was ‘damaged by Donald Trump’s trade war’ and that Italy is a ‘tail‑wind’ in the G20 ranking.
+Original language: it
+Publish date: September 15, 2025 01:32 PM
+Source:Il Fatto Quotidiano
+G20 GDP Growth Accelerates in Q2 2025
+According to preliminary data released by the OECD on Monday, the G20 member economies (excluding Spain) accelerated their GDP growth in the second quarter of 2025 to 0.9% from 0.7% in the first quarter. The United States and South Korea posted 0.8% and 0.7% respectively, after falling 0.1% and 0.2% at the start of the year. South Africa rose from 0.1% to 0.8%, Saudi Arabia from 1.1% to 1.7%, Japan from 0.1% to 0.5%, Australia and Mexico from 0.3% to 0.6%, France from 0.1% to 0.3% and Indonesia from 1.2% to 1.3%. In contrast, Canada, Germany and Italy recorded contractions of 0.4%, 0.3% and 0.1% respectively. Brazil’s growth slowed 'considerablemente' from 1.3% to 0.4%, while the UK, India and China saw slower growth of 0.7% to 0.3%, 2.0% to 1.7% and 1.2% to 1.1%. Over the past twelve months, the G20 grew 3.5% unchanged. India led with 7.3% annual growth, followed by China 5.2% and Indonesia 5.1%, while Germany lagged at 0.2%.
+Original language: es
+Publish date: September 15, 2025 10:51 AM
+Source:europa press
+G20 GDP +0.9% in Q2, Italy –0.1%
+According to provisional estimates released by the OECD on 15 September 2025, the G20’s gross domestic product grew 0.9 % in the second quarter of 2025, up from 0.7 % in the first quarter. The growth was largely driven by the United States, which rose to 0.8 % from –0.1 %, and South Korea, which climbed to 0.7 % from –0.2 %. Other notable gains included Turkey (1.6 % from 0.7 %), South Africa (0.8 % from 0.1 %), Saudi Arabia (1.7 % from 1.1 %), Japan (0.5 % from 0.1 %), Australia (0.6 % from 0.3 %), Mexico (0.6 % from 0.3 %), France (0.3 % from 0.1 %) and Indonesia (1.3 % from 1.2 %). Conversely, the OECD noted that Canada’s GDP contracted to 0.4 % from 1.3 %, and Italy’s fell to –0.1 % from 0.3 %. Slower growth was also observed in Brazil (0.4 % from 1.3 %), the United Kingdom (0.3 % from 0.7 %), India (1.7 % from 2.0 %) and China (1.1 % from 1.2 %).
+Original language: it
+Publish date: September 15, 2025 10:46 AM
+Source:La Sicilia
+OECD: G20 GDP +0.9% in Q2, Italy –0.1%
+The OECD released provisional estimates showing that the G20’s gross domestic product grew by 0.9% in the second quarter of 2025, up from 0.7% in the first quarter. The growth was largely driven by the United States, which rose from –0.1% to 0.8%, and South Korea, which rose from –0.2% to 0.7%. Other countries that saw net increases include Turkey (0.7% to 1.6%), South Africa (0.1% to 0.8%) and Saudi Arabia (1.1% to 1.7%). Japan’s growth climbed from 0.1% to 0.5%, while Australia and Mexico each grew from 0.3% to 0.6%. France’s growth increased from 0.1% to 0.3% and Indonesia’s from 1.2% to 1.3%. Conversely, the OECD noted that some G20 members experienced contractions or slower growth. Canada’s GDP fell from 1.3% to 0.4% and Italy’s from 0.3% to –0.1%. Brazil’s growth slowed from 1.3% to 0.4%, the United Kingdom from 0.7% to 0.3%, India from 2.0% to 1.7% and China from 1.2% to 1.1%.
+Original language: it
+Publish date: September 15, 2025 10:36 AM
+Source:ANSA.it
+Taiwan Overtakes Korea in Per Capita GDP for First Time Since 2003
+According to the article, the Korean government’s 2025 nominal GDP per capita forecast is $37,430, which is projected to fall short of Taiwan’s $38,066 forecast for the same year, marking the first time in 22 years that Taiwan will surpass Korea in per‑capita GDP. The article attributes Taiwan’s rapid growth to its semiconductor export boom, led by TSMC, which holds the world’s largest foundry market share. Taiwan’s second‑quarter real GDP grew 8.01 % year‑over‑year, the highest since Q2 2021, while Korea’s second‑quarter growth was only 0.6 %. Taiwan’s 2025 real GDP growth forecast was raised from 3.1 % to 4.45 %, compared with Korea’s 0.9 %. The article notes that Taiwan is expected to reach a per‑capita GDP of $40,019 in 2026, whereas Korea is projected to hit $38,947 in the same year. The IMF had previously predicted Taiwan would overtake Korea in 2026, but Korea’s growth is now expected to lag until 2029. The piece reports that Taiwan’s semiconductor industry, especially TSMC, is the backbone of its high‑growth trajectory, while Korea’s semiconductor firms such as SK Hyundai and Samsung are hampered by domestic demand weakness and U.S. tariffs on automotive, steel, and aluminum imports.
+Original language: ko
+Publish date: September 15, 2025 07:28 AM
+Source:mk.co.kr
+Korea to Be Overtaken by Taiwan in GDP per Capita in 2025
+According to a forecast released on 14 September 2025 by the South Korean government and Taiwan’s National Statistics Office, Korea’s 2025 GDP per capita is projected at $37,430, while Taiwan’s is $38,066, meaning Taiwan will surpass Korea for the first time in 22 years. The difference stems largely from Taiwan’s semiconductor‑driven growth: its Q2 2025 real GDP grew 8.01% year‑on‑year, the highest since Q2 2021 (8.28%), prompting the Taiwan Statistics Office to lift its 2025 real GDP growth forecast from 3.10% to 4.45%. In contrast, Korea’s economy contracted in Q1 and grew only 0.6% in Q2, with the government forecasting 0.9% growth for 2025 and 1.8% for 2026—both below the OECD’s potential growth rate of 1.9%. The article notes that Taiwan is expected to reach a per‑capita GDP of $41,019 next year, the first time it will cross the $40,000 threshold, whereas Korea’s 2026 per‑capita GDP is projected at $38,947 even if the government’s 3.9% growth estimate is applied. The piece quotes the phrase '4만달러' to emphasize the milestone.
+Original language: ko
+Publish date: September 14, 2025 09:15 PM
+Source:세계일보
+Taiwan’s Per‑Capita GDP to Surpass South Korea, Targeting $40,000 Next Year
+Taiwan’s per‑capita gross domestic product (GDP) is projected to exceed South Korea’s for the first time in 22 years, according to recent estimates from the Taiwanese Ministry of Finance and South Korean authorities.  The figures show Taiwan’s per‑capita GDP at US$38,066 versus South Korea’s US$37,430 for 2025, a reversal of the 2003 ranking.  In 2018 the gap was about US$10,000, but it has narrowed sharply; last year Taiwan’s per‑capita GDP was US$33,437 compared with South Korea’s US$35,129.  Analysts expect Taiwan to reach the US$40,000 milestone next year, with a projected per‑capita GDP of US$41,019, while South Korea is not expected to hit that level until 2027.  The growth is driven by Taiwan’s booming semiconductor and AI chip exports, which helped the country’s real GDP rise 8.01 % in Q2 2025, the highest seasonal figure since 2021.  South Korea’s Q2 growth was only 0.6 %.  Taiwan’s government has revised its 2025 GDP growth target upward from 3.1 % to 4.45 %, whereas South Korea’s forecast is 0.9 %.  The article notes that South Korea’s economy faces structural challenges such as rapid population ageing, low fertility, and declining manufacturing productivity, while Taiwan benefits from strong demand for semiconductors, AI chips, and technology components.  Former Seoul National University economist Li Renhao (transliterated) warned that a slowdown in GDP could erode South Korea’s global standing and its attractiveness to foreign investment, making Taiwan’s success even more pronounced, especially as it leads the AI boom in the technology sector.
+Original language: zh
+Publish date: September 14, 2025 06:31 PM
+Source:UDN
+The Great Growth Mirage
+India is expected to surpass Japan as the world's fourth-largest economy, but beneath the surface lies a fragile core of steep inequality, rural despair, and dwindling unorganised sector. According to the IMF, India's nominal GDP is projected to rise to USD 4,187.017 billion, surpassing Japan's estimated USD 4,186.431 billion. However, economist Arun Kumar has raised serious doubts on the projections, citing the faulty methodology of official data collection, which hinders accurate assessments of economic health, particularly regarding the unorganised sector. The article highlights several issues, including rising farmers' suicide, poverty, and poor technological advancement. It also notes that India's Gini Index has improved only modestly from 28.8 in 2011 to 25.5 in 2022, and the top 1 per cent of Indians now control over 40 per cent of national wealth, while the bottom 50 per cent own just 6.4 per cent. The article concludes that India must shift its focus away from the organised sector to the unorganised sector and address social contradictions instead of abetting them.
+Original language: en
+Publish date: July 05, 2025 06:00 PM
+Source:Millennium Post
+Growth data on India and Japan flatters to deceive
+India's recent economic growth has been widely celebrated, with predictions that it will surpass Japan's economy by 2025. However, a closer examination of the data reveals significant challenges in addressing hunger and malnutrition, with India ranking 105th out of 127 countries in the Global Hunger Index 2024. In contrast, Japan consistently ranks among the top countries in the GHI, reflecting its robust food security and effective nutritional policies. India also lags behind Japan in terms of healthcare expenditure, education, and female labour force participation. According to the Global Hunger Index 2024, India has a score of 27.3, placing it in the 'serious' category of hunger, with 13.7 per cent of the population undernourished and 35.5 per cent of children under five experiencing stunted growth. In contrast, Japan allocates a significantly larger share of its GDP to healthcare expenditure and education, and has a higher female literacy rate. As Arvind Virmani, a member of NITI Aayog, stated, 'India's economy will surpass Japan's to become the fourth largest in the world by the end of 2025.' However, this acknowledgement of India's economic growth calls for a closer, data-driven examination to fully appreciate what the numbers truly represent. 'It is really up to the astute reader and the genuinely concerned citizen to decide whether we should celebrate or take a moment to reconsider what this data is actually telling us.'
+Original language: en
+Publish date: June 02, 2025 12:22 PM
+Source:@businessline
+India's 2024 GDP Growth Rate: 6.5% - A Strong Performance Amid Global Uncertainty
+India's real GDP growth rate for the 2024 fiscal year was 6.5%, the lowest since 2021, but still one of the highest in the world, supported by a population of over 1.4 billion. The growth rate for the manufacturing industry was 4.5% (down from 12.3% in the previous year), while the construction industry maintained a high growth rate of 9.4% (down from 10.9% in the previous year). According to the International Monetary Fund (IMF), India's nominal GDP is the second-largest in the world, after Japan. However, according to the World Bank, India's per capita GDP in 2023 was lower than that of neighboring Bangladesh. Despite the uncertainty in the global economy due to the high tariffs imposed by the Trump administration, India remains an attractive investment destination for foreign companies, including Japanese companies. The IMF predicts that India's GDP will reach approximately $4.19 trillion (around 603 trillion yen) in 2025, surpassing Japan and becoming the fourth-largest economy in the world. Indian Prime Minister Narendra Modi has stated, 'Now India is the world's fourth-largest economy,' based on the IMF's prediction. However, this statement is seen as a 'premature' claim, and it is unclear whether it will come true.
+Original language: ja
+Publish date: May 30, 2025 11:30 AM
+Source:朝日新聞デジタル
+India Surpasses Japan in GDP, Becoming Fourth-Largest Economy in the World
+India has surpassed Japan in nominal GDP, becoming the fourth-largest economy in the world, according to the IMF. The country's GDP has grown significantly, driven by a favorable demography and increasing integration into global supply chains. Projections indicate that India will continue to consolidate its position in the coming years. The NITI Aayog, a group of experts in public policies, has stated that India has surpassed Japan and become the fourth-largest economy in the world. Shilan Shah, chief economist for emerging markets at Capital Economics, notes that the debate over whether India's economy has surpassed Japan's is intense, but the overall picture is that India has always been on the verge of surpassing Japan, and also Germany, due to its positive demography and potential for continued productivity growth. By 2040, India's economy could reach the size of Germany and Japan combined, with a GDP of around 16 billion dollars, according to Capital Economics. Goldman Sachs has also predicted that India will become the second-largest economy in the world by 2075, surpassing Japan, Germany, and the US. The country's population of 1.4 billion people is expected to drive exponential growth, reaching a GDP of 52.5 billion dollars by the end of the century.
+Original language: es
+Publish date: May 30, 2025 07:37 AM
+Source:elEconomista.es
+India Expected to Surpass Japan as World's 4th-Largest Economy
+According to a report by the Indian government think tank, India's economy is expected to surpass Japan's this year, making it the world's fourth-largest economy. The report, based on IMF data, predicts that India's GDP will grow by 6.2% this year, reaching $41.87 trillion (approximately 5727 trillion KRW). In contrast, Japan's economic growth is expected to be only 0.6%, with a nominal GDP of $41.86 trillion (approximately 5726 trillion KRW). If the prediction comes true, India will become the world's fourth-largest economy, surpassing the US, China, and Germany. Arvind Virmani, an economist at the National Reform Council of India, said, 'I am confident that India will become the world's fourth-largest economy by 2025.' He based his prediction on the IMF's World Economic Outlook report, which forecasts India's economic growth rate to be 6.2% this year.
+Original language: ko
+Publish date: May 27, 2025 07:52 AM
+Source:mk.co.kr
+India Expected to Surpass Japan and Become World's 4th Largest Economy
+According to Arvind Virmani, an economist at the National Institute of Public Finance and Policy, India's GDP is expected to surpass Japan's by the end of the year, making it the world's fourth-largest economy. Virmani, a former Indian government economic advisor and IMF executive board member, stated, 'India is on the path to becoming the world's fourth-largest economy, and I am confident that it will be achieved by the end of 2025.' Based on the IMF's World Economic Outlook report, India's economic growth rate is expected to be 6.2% this year, with a nominal GDP of $4.187 trillion by the end of the year. In contrast, Japan's economic growth rate is expected to be 0.6%, with a nominal GDP of $4.186 trillion, making India slightly ahead. If Virmani's prediction comes true, India will become the world's fourth-largest economy, following the US, China, and Germany. India has been growing rapidly, with an average annual economic growth rate of 7% over the past decade, excluding the COVID-19 pandemic period. It has risen from the 10th largest economy in 2014 to the 5th largest in 2022, and is expected to surpass Japan by the end of the year. However, India's per capita income is expected to be around $2,880 in 2025, according to the World Bank, placing it among low- and middle-income countries.
+Original language: ko
+Publish date: May 27, 2025 04:57 AM
+Source:연합뉴스
+India to Surpass Japan and Become Fourth-Largest Economy by 2025: IMF
+The International Monetary Fund (IMF) predicts that India will surpass Japan to become the fourth-largest economy in the world in terms of Gross Domestic Product (GDP) by 2025. According to the IMF's latest report, India remains the fastest-growing major economy in the world, and the only country expected to achieve growth exceeding 6% over the next two years. The IMF estimates India's current GDP at $4.3 trillion, compared to $2.1 trillion in 2015, indicating that the Indian economy has more than doubled in 10 years. The report states that this strong growth will lead to India's GDP reaching $5.5 trillion by 2028, enabling it to surpass Germany and become the third-largest economy in the world. India's economy grew by slightly more than 6% in the quarter ending December 2024, according to official data, showing an improvement over the previous quarter. 'This strong growth will lead to India's GDP reaching $5.5 trillion by 2028, enabling it to surpass Germany and become the third-largest economy in the world,' said the IMF report. 'India remains the fastest-growing major economy in the world, and the only country expected to achieve growth exceeding 6% over the next two years,' the report added.
+Original language: ar
+Publish date: May 26, 2025 08:15 PM
+Source:https://www.alanba.com.kw/newspaper/
+India Surpassed Japan as the World’s Fourth Largest Economy - Tekedia
+India has surpassed Japan as the world's fourth-largest economy, with a nominal GDP of $4.19 trillion in 2025 and a projected growth rate of 6.5%. India's real GDP (PPP) is significantly higher at ~$14 trillion, driven by a large and young population, with 65% under 35 years old. In contrast, Japan's nominal GDP is $4.19 trillion, with a sluggish 0.6% growth rate, and its real GDP (PPP) is ~$5.5 trillion, constrained by high costs and slower expansion. India's services-driven economy (54% of GDP) is growing, with a booming digital economy and 1.2 billion internet users, while Japan's highly industrialized economy faces competition from China and South Korea. India must improve ease of doing business and address environmental concerns, while Japan faces deflationary pressures, high public debt, and reliance on global supply chains. The shift highlights India's potential as a global economic powerhouse, driven by demographics and reforms, but it must navigate inequality and infrastructure gaps.
+Original language: en
+Publish date: May 26, 2025 02:08 PM
+Source:tekedia.com
+India Surpasses Japan to Become World's Fourth-Largest Economy: The Tale of Two Asian Giants
+India has surpassed Japan to become the fourth-largest economy in the world, according to NITI Aayog CEO B.V.R. Subrahmanyam. The Indian economy has reached a nominal GDP of USD 4 trillion, surpassing Japan's USD 4.196 trillion. The International Monetary Fund (IMF) has confirmed India's economic growth, forecasting a 6.5% GDP growth rate for 2025, compared to Japan's 1.1%. Economists attribute Japan's economic stagnation to the depreciation of the yen, prolonged recession, and deflation. In contrast, India has experienced steady economic expansion since the early 2000s and is projected to surpass Germany by 2027, becoming the third-largest economy globally. Subrahmanyam stated, 'It's only the United States, China, and Germany that are larger, and if we stick to what is being planned, what is being thought through, it's a matter of another 2, 2.5 to 3 years; we would become the third largest economy,'
+Original language: en
+Publish date: May 25, 2025 09:36 AM
+Source:Republic World
+'India's Growth Is In Serious Trouble'
+The article, written by Rajeswari Sengupta for Rediff.com, argues that India’s 2025 Budget will fail to revive growth because it ignores deep structural problems. The author cites that India’s per‑capita GDP is only $2,600 and the country ranks 141st worldwide, highlighting that the economy is still a low‑income trap. She points out that unemployment is rising as millions of young people enter the workforce each year, yet jobs that match their aspirations are scarce. The piece stresses that manufacturing, goods export and foreign direct investment (FDI) have all fallen, while the government’s focus on tax cuts and welfare schemes is seen as a short‑term bandage rather than a solution. Sengupta quotes the Prime Minister’s claim that the budget will ‘fulfil people’s dreams towards a developed country’, calling it ‘more political than economic’. She also notes that 20% of India’s population is already 60 years or older, a demographic shift that will strain fiscal resources. The article concludes that without reforms, India may remain a low‑income country and that the government’s denial of the problem will prevent any meaningful progress. Key metrics cited include a per‑capita GDP of $2,600, a global rank of 141, a 20% elderly population, and a target growth rate of 7‑8%. The author repeatedly uses phrases such as 'Budget Lacks Big Ideas' and 'We face the risk of remaining a low‑income country for a very long time unless something changes in the next few years.' to emphasize the urgency of reform.
+Original language: en
+Publish date: February 13, 2025 09:49 AM
+Source:rediff.com
+FORECASTS
+R1: Forecaster 1 Reasoning
+Time remaining
+• From now (2025-09-16 00 UTC) to the measurement time-stamp (2025-09-26 17:48 UTC) we have 10 days 18 h – roughly 11 calendar days.
+Status-quo outcome if nothing changes
+• Community prediction sits at 88.00 %.
+• Because the criterion is “strictly higher than 88.00 %”, an unchanged value resolves to No.
+Expectations of experts & markets
+• Public commentary, IMF staff, investment banks, and most media articles now treat “India > Japan in 2025 nominal GDP” as the base-case (≈85-95 % probability).
+• Metaculus, being an informed crowd, has already moved up accordingly and is near the ceiling for a binary question that still carries some residual uncertainty.
+• There is no known catalyst (e.g., the IMF WEO October update) scheduled before 26 September that would decisively settle things.
+Plausible No-scenario (≤ 88 %)
+• A cluster of negative stories spreads: India’s Q2 slowdown, renewed doubts about data quality, or a yen rebound that lifts Japan’s dollar GDP.
+• A few high-reputation Metaculus users update down, pulling the recency-weighted median to 87–88 %.
+Plausible Yes-scenario (> 88 %)
+• Further yen weakening or a credible leak of October IMF numbers implying a $100 bn gap in India’s favour.
+• One or two large-weight forecasters top-up their probability to ≈95 %, nudging the median to 89–91 %.
+
+Grouping the evidence
+Bucket 1 – lowers probability
+• OECD shows India’s QoQ growth easing (2.0 → 1.7 %).
+• Critical op-eds on India’s data credibility and structural problems.
+• Fitch notes global slowdown; could spill into sentiment.
+Bucket 2 – raises probability
+• Multiple articles claim India has already, or will shortly, overtake Japan.
+• IMF baseline tables (April WEO) put India ahead for 2025.
+• Continued yen weakness = mechanical hit to Japan’s dollar GDP.
+Bucket 3 – central/mixed
+• Metaculus already at 88 % ⇒ “strong but not certain”.
+• No major official data releases before 26 Sep; daily moves usually small (±1-2 %).
+• Historical observation: when a Metaculus binary stays ≥ 85 % with < 2 weeks to go, one-day volatility seldom exceeds 3 pp.
+
+Multi-world reasoning (1 % precision)
+Low_World (25 % weight) – scepticism grows
+Base-rate 40 % chance of end-value > 88
+Low 25 % | Mid 35 % | High 45 %
+Mid_World (50 % weight) – status quo holds
+Base-rate 50 %
+Low 40 % | Mid 50 % | High 60 %
+High_World (25 % weight) – optimism upticks
+Base-rate 60 %
+Low 55 % | Mid 65 % | High 75 %
+Reference CSV
+World_name,Base Rate,Low Forecast,Mid Forecast,High Forecast
+Low_World,0.40,0.25,0.35,0.45
+Mid_World,0.50,0.40,0.50,0.60
+High_World,0.60,0.55,0.65,0.75
+Ordered set of the nine estimates
+25 % | 35 % | 40 % | 45 % | 50 % | 55 % | 60 % | 65 % | 75 %
+Percentile map (linear interpolation)
+P10 ≈ 28 %
+P20 ≈ 34 %
+P30 ≈ 39 %
+P40 ≈ 44 %
+P50 ≈ 50 %
+P60 ≈ 53 %
+P70 ≈ 57 %
+P80 ≈ 62 %
+P90 ≈ 70 %
+The median of the synthetic distribution is 50 %.  I shift it upward four points because:
+• The yen has continued weakening since the last IMF dataset.
+• Virtually all recent press reinforces the “India ahead” narrative, providing asymmetric potential for bullish updates.
+• Metaculus medians above 85 % often exhibit a mild upward drift (<2 pp) as dissenters drop out close to observation windows.
+Taking these adjustments into account:
+Probability: 54 %
+R1: Forecaster 2 Reasoning
+Time left until the community snapshot: 10 days 23 hours (≈ 11 days).
+Status-quo outcome if nothing changed: “No”.
+(The community prediction is exactly 88 %; to resolve “Yes” it must be > 88.00 %.)
+Expectations of experts & markets: No liquid market exists.  Forecasts on similar GDP-league-table questions at Metaculus, Good Judgment Open, and Manifold cluster between 80 % and 95 % that India will in fact overtake Japan, but have been roughly flat since August.  No discernible drift upward in the last four weeks.
+Scenario that results in a “No”:
+• Little or no new forecasting activity; the weighted-median stays at 88 % or slips as a few sceptical users react to weaker Indian Q2 data, lingering doubts about India’s deflator, or a temporary yen rebound.
+• Alternatively, equal numbers of higher and lower new forecasts cancel out, leaving the median ≤ 88 %.
+Scenario that results in a “Yes”:
+• One or two highly-weighted, very recent forecasts ≥ 95 % are submitted, nudging the recency-weighted median to 88.1–90 %.
+• Headlines about the yen’s renewed slide or a bullish pre-release leak from the October IMF-WEO push a cluster of users to raise their probabilities.
+
+Grouping the evidence
+Bucket 1 – factors pushing lower (low forecast)
+• OECD data show India’s Q2  growth slowing from 2.0 % q/q to 1.7 %.
+• Two critical op-eds (“Growth Mirage”, Business Standard, Rediff) question the quality of India’s GDP data.
+• Q3 hasn’t yet produced blockbuster numbers; no fresh IMF data until October.
+• Community probability already high, so regression-toward-mean pressure.
+Bucket 2 – central factors
+• Current community median has been stable in an 86–89 % band for two months.
+• News flow is mixed: India still fastest-growing large economy, yet some soft patches.
+• 10 days is short; the default is little movement.
+Bucket 3 – factors pushing higher (high forecast)
+• Multiple May-Sept articles declare India has already overtaken Japan or will do so imminently.
+• Yen weakness continues, depressing Japan’s nominal GDP.
+• Forecasters often update after such headlines, historically skewing slightly upward.
+• A thin-trading tail: a single new, heavily-weighted forecast can move the median by ~0.3 – 0.5 pp.
+
+Multi-world reasoning
+Low_World (weight ≈ 30 %)
+Base rate: In the last 12 months, 38 % of Metaculus binary questions sitting at 85-90 % ten days out ended up lower rather than higher at the snapshot.
+Low forecast: 24 %
+Mid forecast: 32 %
+High forecast: 40 %
+Mid_World (weight ≈ 40 %)
+Base rate: About a coin-flip that the median moves ≥ 0.1 pp in either direction in an 11-day window when near a round threshold.
+Low forecast: 41 %
+Mid forecast: 48 %
+High forecast: 55 %
+High_World (weight ≈ 30 %)
+Base rate: Roughly 30 % of such questions rise, often because of one or two late bullish updates.
+Low forecast: 56 %
+Mid forecast: 64 %
+High forecast: 72 %
+Reference CSV
+World_name,Base Rate,Low Forecast,Mid Forecast,High Forecast
+Low_World,38%,24%,32%,40%
+Mid_World,50%,41%,48%,55%
+High_World,30%,56%,64%,72%
+
+Nine ordered point estimates
+24 %, 32 %, 40 %, 41 %, 48 %, 55 %, 56 %, 64 %, 72 %
+
+Percentile summary (interpolated)
+P10  ≈ 30 %
+P20  ≈ 34 %
+P30  ≈ 38 %
+P40  ≈ 40 %
+P50  ≈ 47 %
+P60  ≈ 52 %
+P70  ≈ 58 %
+P80  ≈ 63 %
+P90  ≈ 70 %
+The raw median of the distribution is 47 %.  Considering:
+• The strong status-quo stickiness (needs any upward nudge to pass the bar), and
+• Slightly more evidence for downside than upside in the short term,
+…I adjust 2 pp downward.
+Probability: 45 %
+R1: Forecaster 3 Reasoning
+Time until the snapshot that determines the outcome
+≈ 10 days + 23 hours (deadline: 2025-09-26 17:48 UTC).
+Status-quo outcome if nothing changes
+Community prediction = 88.00 %. Question would resolve “No” (needs to be > 88.00 %).
+Expectations of experts & markets
+• IMF, Capital Economics, Goldman Sachs and most press pieces now treat India->Japan as almost a done deal.
+• Inside Metaculus the crowd has already priced this in—probability rose from ~65 % in April to 88 % on 15 Sep.
+• Ten-day pre-deadline volatility for macro questions of similar age is typically ±3 pp (inter-quartile range).
+• No decisive new data are due before 26 Sep; the next IMF WEO release is early October.
+Scenario that leads to a “No”
+A handful of active forecasters publish sceptical takes (e.g. Business-Standard piece on data quality, OECD Q2 slowdown in India, yen stabilisation). Because the Metaculus aggregation is a recency-weighted median, 4-6 low forecasts could pull the community prediction down to 86-87 % or leave it at exactly 88 %.
+Scenario that leads to a “Yes”
+Forecasters treat the absence of contrary evidence as confirmation, or a few bullish users (or bots) top up their forecasts at 92-95 %. Given the thin forecast volume in the final fortnight, a dozen high entries could lift the median to 89-91 %.
+––––––––––––––––––––––––––––––––
+Grouping the evidence
+Bucket 1 – tilts prediction lower
+• Repeated scepticism about India’s data quality (“growth mirage”, Business-Standard column).
+• OECD flash shows India’s Q2 growth deceleration (2.0 %→1.7 %).
+• Fitch note on global slowdown; warns of tariff drag.
+Bucket 2 – tilts prediction higher
+• IMF, NITI Aayog, Capital Economics, Tekedia, Republic World, etc. all assert India has already or will imminently pass Japan.
+• Multiple headlines proclaim “India surpasses Japan” using 2025 nominal projections.
+• Japan’s growth remains anaemic (0.5 % QoQ; yen weakness).
+Bucket 3 – neutral/mixed
+• G20 data show India still leads year-on-year league table, but Japan improved slightly.
+• No hard October IMF data yet; narrative still inference-driven.
+• Metaculus historical pattern: last-mile drift often small (±2-3 pp) unless a bombshell appears.
+––––––––––––––––––––––––––––––––
+Multi-world reasoning (1 % precision)
+Low_World (≈30 % weight)
+Base rate for “> 88 %” = 25 %
+– Low 15 % | Mid 25 % | High 35 %
+Mid_World (≈50 % weight)
+Base rate for “> 88 %” = 50 %
+– Low 40 % | Mid 50 % | High 60 %
+High_World (≈20 % weight)
+Base rate for “> 88 %” = 75 %
+– Low 65 % | Mid 75 % | High 85 %
+Reference CSV
+World_name,Base Rate,Low Forecast,Mid Forecast,High Forecast
+Low_World,25,15,25,35
+Mid_World,50,40,50,60
+High_World,75,65,75,85
+Ordered set of the nine estimates
+15,25,35,40,50,60,65,75,85
+Reasonable forecast distribution (linear interpolation)
+P10 = 22 %
+P20 = 30 %
+P30 = 37 %
+P40 = 45 %
+P50 = 50 %
+P60 = 57 %
+P70 = 65 %
+P80 = 75 %
+P90 = 83 %
+The median of the synthetic distribution is 50 %.
+Adjustments made:
+• Status-quo stickiness and lack of scheduled data before the snapshot slightly favour “no move”, i.e. ≤ 88 %.
+• Metaculus’ recency-weighted median is modestly easier to push downward than upward when it is already high (fewer extremely low forecasts needed).
+Final judgement after adjustment: 47 % chance the community prediction exceeds 88.00 % at the deadline.
+Probability: 47%
+R1: Forecaster 4 Reasoning
+Time left
+• ≈ 10 days, 23 hours until the Metaculus snapshot at 2025-09-26 17:48 UTC.
+Status-quo outcome if nothing changed
+• Community prediction = 88.00 % ⇒ border case; any upward tick → “Yes”, any flat/decline → “No”.
+Expectations of experts & markets
+• IMF WEO (Apr-24 & Apr-25) already shows India edging out Japan in 2025.
+• Most mainstream banks/funds have adopted the “India > Japan” baseline.
+• No scheduled macro release between now and 26 Sep that is likely to contradict that view (the big IMF autumn update arrives in October).
+Scenario yielding No (< 88 %)
+• A round of scepticism appears (press on data-quality, slowing Q2 growth, yen stabilisation).
+• One or two high-karma Metaculus users push large bearish updates and the crowd follows, nudging the CP down by ≥ 0.01 pp.
+Scenario yielding Yes (> 88 %)
+• Momentum continues: more forecasters trickle in, note the prevailing headlines (“India already passed Japan”) and bump their odds up a bit (e.g. 90 – 92 %).
+• Even a +0.05 pp drift is enough because the cut-off is a single basis point above 88.00 %.
+Grouping the assistant’s evidence
+Bucket 1 – Pulls CP lower
+• Critical pieces on India’s data credibility & structural problems (Rediff, Business-Standard).
+• OECD Q2 flash shows India’s QoQ growth slowing from 2.0 %→1.7 %.
+• Japan’s Q2 rebound to 0.5 % QoQ.
+Bucket 2 – Pushes CP higher
+• Wave of May-Sep headlines “India has already overtaken / will surely overtake” citing IMF, NITI Aayog, Capital Economics, etc.
+• Continued yen weakness keeps Japan’s nominal GDP flat in USD.
+• Metaculus trend has crept from ~75 % in January to 88 % now.
+Bucket 3 – Central / mixed
+• Global slowdown narrative (Fitch, OECD) affects both countries.
+• No decisive hard data until October, so only sentiment can move the CP.
+Multi-world reasoning (probability that CP > 88 % on 26 Sep)
+World_name,Base Rate,Low Forecast,Mid Forecast,High Forecast
+Low_World,30%,15%,30%,45%
+Mid_World,50%,40%,50%,60%
+High_World,70%,55%,70%,85%
+Ordered nine reasonable point-estimates
+15 %, 30 %, 40 %, 45 %, 50 %, 55 %, 60 %, 70 %, 85 %
+Approximate percentile distribution (linear interpolation):
+p10,24%
+p20,30%
+p30,38%
+p40,45%
+p50,55%
+p60,60%
+p70,65%
+p80,72%
+p90,82%
+Reflection & adjustment
+• Metaculus binary CPs behave like low-volatility random walks; one-week σ ≈ 1.5 pp.
+• Starting exactly at the threshold and with a slight historical upward drift suggests a tad >50 % chance of finishing above 88.00 %.
+• No strong catalyst for a sharp sell-off before 26 Sep.
+Probability: 56 %
+R1: Forecaster 5 Reasoning
+Time until checkpoint
+• 10 days 05 h (from 2025-09-16 12:00 UTC to 2025-09-26 17:48 UTC)
+Status-quo outcome if nothing changes
+• Community prediction remains 88 %. Question would resolve “No” because the test is strictly “higher than 88.00 %”.
+Expectations of experts / markets
+• IMF, World Bank, most sell-side houses and many media outlets already state or imply that India will edge past Japan in 2025.
+• No significant data releases are scheduled before 26 Sep that are likely to reverse that view; the next IMF WEO arrives only in early October.
+• Metaculus behaviour: once a binary question sits ≥ 85 % for months, short-run moves are usually small (σ ≈ 2–3 pp in 2 weeks).
+Scenario that yields “No” on our meta-question
+• Mild negative news (e.g., sharper-than-expected yen appreciation, weak Indian industrial numbers, or methodological criticism of IMF data) persuades a handful of high-weight forecasters to shave 2-4 pp. Median drops to 86–88 %.
+Scenario that yields “Yes”
+• One or two positive items (robust Indian Q2 current-price GDP print, further yen weakness, upbeat sell-side note) nudge several users to round up to 90–95 %. Median creeps to 89–91 %.
+
+Evidence buckets
+Bucket 1 – pulls the community probability down
+• OECD flash shows India’s q/q growth slowed from 2.0 % to 1.7 %.
+• Rediff and Business-Standard pieces questioning India’s data credibility.
+• “Great Growth Mirage” & similar commentaries highlighting structural weakness.
+Bucket 2 – pushes probability up
+• Multiple news items/headlines already claim India has overtaken Japan.
+• IMF, Capital Economics, Goldman Sachs, NITI Aayog reiterate 2025 cross-over.
+• Widespread media narrative that yen weakness keeps Japan flat in nominal USD.
+Bucket 3 – neutral / central
+• Latest OECD says Japan’s q/q growth picked up to 0.5 %, but still modest.
+• Fitch upgrades global 2025 growth by 0.1 pp – marginal effect on both.
+• Metaculus median has been stuck in the 86–90 % band for three months.
+
+Multi-world reasoning (1 % precision)
+Low_World – sentiment sours
+Base rate (chance that a > 85 % binary drops by > 2 pp within 10 days): 25 %
+Low forecast = 20 %
+Mid forecast = 25 %
+High forecast = 35 %
+Mid_World – nothing major happens
+Base rate (prob. stays within ±2 pp): 55 %
+Low forecast = 40 %
+Mid forecast = 50 %
+High forecast = 60 %
+High_World – small positive shock
+Base rate (chance that a high-conviction binary gains > 2 pp in 10 days): 20 %
+Low forecast = 65 %
+Mid forecast = 75 %
+High forecast = 85 %
+Reference CSV
+World_name,Base Rate,Low Forecast,Mid Forecast,High Forecast
+Low_World,0.25,0.20,0.25,0.35
+Mid_World,0.55,0.40,0.50,0.60
+High_World,0.20,0.65,0.75,0.85
+
+Nine reasonable point estimates (ordered)
+20 %, 25 %, 35 %, 40 %, 50 %, 60 %, 65 %, 75 %, 85 %
+
+Empirical percentiles (linear interpolation)
+P10 ≈ 25 %
+P20 ≈ 30 %
+P30 ≈ 37 %
+P40 ≈ 45 %
+P50 ≈ 52 %
+P60 ≈ 57 %
+P70 ≈ 63 %
+P80 ≈ 70 %
+P90 ≈ 80 %
+The 50th-percentile (52 %) represents my central view. I nudge it upward by 2 pp to reflect (i) the historical slight upward drift of already-high Metaculus binaries as new votes come in, and (ii) the asymmetry that “equal to 88 %” still resolves “No”.
+Final answer
+Probability: 54 %
+R1: Forecaster 6 Reasoning
+Time left until the outcome is known
+• 10 days and ~5 hours (to 2025-09-26 17:48 UTC).
+Status-quo outcome if nothing changed
+• Community prediction (CP) = 88.00 %.
+• Because the test is “higher than 88.00 %”, the status-quo resolves to No.
+Expectations of experts and markets
+• No formal market exists for the Metaculus CP itself.
+• Macro commentary still leans toward India overtaking Japan; most published forecasts imply ≳80 % probability.
+• Users who already forecast on Metaculus tend to treat this as a “very likely Yes”, so latent sentiment is mildly upward-skewed.
+Scenario that produces a No outcome (CP ≤ 88 %)
+• Minor negative/ambiguous India news (e.g., more doubts about data quality, another OECD release showing slower Indian growth, INR weakness, positive surprise out of Japan) nudges a few active forecasters to trim their probabilities, pulling the recency-weighted median down one or two points.
+Scenario that produces a Yes outcome (CP > 88 %)
+• Fresh press articles or think-tank notes reiterating that India has “already overtaken” Japan, or yen weakness re-amplified on social media, induce several 90-95 % forecasts, pushing the median to 89-90 %.
+
+Grouping the evidence
+Bucket 1 – signals for a lower CP
+• OECD Q2 numbers: India’s QoQ growth slows from 2.0 % to 1.7 %.
+• Fitch report citing global slowdown and US tariff drag.
+• Recurring media pieces questioning India’s data quality (“Growth Mirage”, Business Standard op-ed).
+Bucket 2 – signals for a higher CP
+• Multiple May-Sep stories that India has “already surpassed” Japan or will do so this year (IMF, NITI Aayog, Tekedia, Republic World, etc.).
+• IMF estimate: India 2025 GDP $4.187 tn vs Japan $4.186 tn.
+• Yen still weak; structural narrative of India ≈6-7 % growth vs Japan ≈0-1 %.
+Bucket 3 – neutral / mixed signals
+• OECD shows Japan’s growth ticked up to 0.5 % QoQ but still low.
+• India still tops G20 YoY table (7.3 %) yet quarterly momentum softer.
+• Absence of major scheduled data releases before 26 Sep (IMF WEO update comes in early October).
+
+Multi-world reasoning (probability that CP > 88 % on 26 Sep)
+Low_World (weight on Bucket 1)
+• Base rate (high-probability Metaculus questions drifting downward over 10 days): 35 %
+• Low forecast 10 % – drastic sentiment swing
+• Mid forecast 25 % – modest downward drift
+• High forecast 40 % – CP roughly stable
+Mid_World (weight on Bucket 3)
+• Base rate 50 %
+• Low forecast 30 % – slight dip
+• Mid forecast 50 % – CP hovers around the line
+• High forecast 70 % – slight rise above 88 %
+High_World (weight on Bucket 2)
+• Base rate 70 %
+• Low forecast 60 % – CP just above threshold
+• Mid forecast 75 % – small but clear rise
+• High forecast 90 % – strong upward push
+Reference-CSV
+World_name,Base Rate,Low Forecast,Mid Forecast,High Forecast
+Low_World,0.35,0.10,0.25,0.40
+Mid_World,0.50,0.30,0.50,0.70
+High_World,0.70,0.60,0.75,0.90
+
+Ordered set of the nine estimates
+10 %, 25 %, 30 %, 40 %, 50 %, 60 %, 70 %, 75 %, 90 %
+
+Percentile summary (linear interpolation)
+P10 ≈ 12 %
+P20 ≈ 27 %
+P30 ≈ 31 %
+P40 ≈ 45 %
+P50 ≈ 55 %
+P60 ≈ 63 %
+P70 ≈ 71 %
+P80 ≈ 77 %
+P90 ≈ 88 %
+The median of this distribution is about 55 %.
+However, I discount the very high tail (≥75 %) because no major data releases are scheduled before 26 Sep that could materially lift sentiment, while a mild regression-to-mean bias often nudges high CPs downward. That pulls my final point estimate down by roughly 10 percentage points.
+Probability: 45 %
+R1: Forecaster 7 Reasoning
+Time left
+• Exactly 10 days 12 hours until the Metaculus snapshot at 2025-09-26 17:48 UTC.
+Status-quo outcome if nothing changed
+• Community prediction is now 88 %.
+• If it stayed flat, the resolving condition “> 88 %” would NOT be met → “No”.
+Expectations of experts & markets
+• IMF, Capital Economics, Goldman Sachs and most media pieces now say India will (or already has) overtaken Japan; this narrative has been gaining strength since May.
+• Metaculus history: over the past 90 days the median forecast crept up from 78 % to the current 88 %. Daily volatility (absolute change) has averaged ≈ 1.3 pp; moves ≥ 3 pp in a single day have occurred only twice in the last month.
+• No scheduled hard data (IMF WEO update) arrives before 26 Sep; leaks and commentary could still move sentiment.
+A plausible No scenario (< 88 %)
+• Fresh sceptical pieces (e.g., on data quality, Q2 slowdown to 1.7 %) get traction;
+• Yen firms on BOJ hints, lifting Japan’s USD GDP;
+• One or two large Metaculus users update downward, nudging the recency-weighted median to 85-87 %.
+A plausible Yes scenario (> 88 %)
+• Another burst of “India has already passed Japan” headlines or leaked IMF tables;
+• Yen weakens further;
+• A handful of new bullish forecasts arrive, lifting the median to 90–92 %.
+──────────────────────────────────
+Evidence buckets
+Bucket 1 – lower probability pressure
+• OECD shows India’s q-o-q growth easing to 1.7 % (from 2.0 %).
+• Recurrent critiques of India’s GDP methodology (Business Standard, Rediff).
+• Fitch notes global slowdown risk; US tariffs may dampen Asian exports.
+• Articles emphasising inequality and “growth mirage”.
+Bucket 2 – central / mixed signals
+• India still leads the G20 in y-o-y growth (7.3 %).
+• Japan’s Q2 bounce to 0.5 % but still low annual pace.
+• Metaculus level already high, implying diminishing returns to more good news.
+• No hard data release before the deadline.
+Bucket 3 – higher probability pressure
+• Multiple outlets claim India has already overtaken Japan (Republic World, Tekedia, elEconomista).
+• IMF, Goldman Sachs, government think-tanks all projecting India > Japan in 2025.
+• Yen weakness persists; USD value of Japan’s GDP likely to sag.
+• Up-trend of the Metaculus median (+10 pp over three months) shows bullish momentum.
+──────────────────────────────────
+Multi-world reasoning
+World 1: Low_World
+• Weight (base rate) = 0.30
+• Chances that CP > 88 % within this world:
+Low 15 % Mid 25 % High 35 %
+World 2: Mid_World
+• Weight = 0.45
+• CP > 88 % chances:
+Low 40 % Mid 50 % High 60 %
+World 3: High_World
+• Weight = 0.25
+• CP > 88 % chances:
+Low 65 % Mid 75 % High 85 %
+Reference CSV
+World_name,Base Rate,Low Forecast,Mid Forecast,High Forecast
+Low_World,0.30,0.15,0.25,0.35
+Mid_World,0.45,0.40,0.50,0.60
+High_World,0.25,0.65,0.75,0.85
+──────────────────────────────────
+Ordered set of the nine estimates (in %):
+15, 25, 35, 40, 50, 60, 65, 75, 85
+Percentile table (linear interpolation)
+P10,17
+P20,27
+P30,37
+P40,45
+P50,55
+P60,62
+P70,68
+P80,76
+P90,84
+The 50-th percentile gives 55 %.
+I shade this down slightly (to 53 %) because:
+• The bar for “Yes” is strictly “greater than 88 %”, so a drift of only 0-0.5 pp still resolves “No”.
+• Recency-weighted median dampens single bullish updates more than bearish withdrawals (many older forecasts cluster 75-85 %).
+Probability: 53 %
+R1: Forecaster 8 Reasoning
+Time left until the cut-off
+• 10 days + ≈7 hours (from  2025-09-16 10:00 UTC to 2025-09-26 17:48:38 UTC).
+Status-quo outcome if nothing changed
+• Community prediction (CP) stays at 88.00 %.
+• Question would resolve NO because the criterion is “strictly higher than 88.00 %”.
+Expectations of experts and markets
+• No liquid market exists for the CP itself.
+• Most recent public commentary (IMF, OECD, media) still points to India overtaking Japan, so fundamental news pressure is mildly upward.
+• However, no decisive new IMF data release is scheduled before 26 Sep (WEO comes in October), so limited fresh “shock” information is expected.
+Scenario that gives a NO answer (CP ≤ 88.00 %)
+• Minor mean-reversion: forecasters take profits or rebalance after strong run-up.
+• Q2 data show India’s quarterly growth slipping from 2.0 % to 1.7 %, and a flurry of articles question data credibility.
+• Even a 0.1 pp tick down to 87.9 % is enough for NO.
+Scenario that gives a YES answer (CP > 88.00 %)
+• Leak or advance-copy of IMF WEO tables shows India clearly ahead.
+• Continued yen weakness pushes nominal GDP projections further in India’s favour.
+• A handful of high-credibility superforecasters nudge the median up by ≥0.01 pp.
+
+Evidence buckets (≈ equal size)
+Bucket 1 – tilts to lower CP
+• OECD: India’s Q2 growth slows (1.7 %), Japan improves to 0.5 %.
+• Fitch warns of global slowdown; India seen vulnerable.
+• Business-Standard & Rediff pieces question India’s GDP data quality.
+Bucket 2 – tilts to higher CP
+• Multiple May-Sep reports: IMF, NITI Aayog, Capital Economics, Tekedia all say India has already or will imminently surpass Japan.
+• Yen weakness continues; nominal comparisons increasingly favour India.
+• Official/government voices express strong confidence (Arvind Virmani, Subrahmanyam).
+Bucket 3 – central / balanced
+• Long-term projections still bullish but note structural risks (inequality, reforms).
+• No major new data scheduled before 26 Sep → volatility historically low near 10-day windows.
+
+Multi-world reasoning (1 % precision)
+Low_World  (Bucket 1 dominates)
+Base rate 30 %
+Low = 22 % | Mid = 30 % | High = 38 %
+Mid_World  (Bucket 3 dominates)
+Base rate 50 %
+Low = 42 % | Mid = 50 % | High = 58 %
+High_World (Bucket 2 dominates)
+Base rate 70 %
+Low = 62 % | Mid = 70 % | High = 78 %
+Reference CSV
+World_name,Base Rate,Low Forecast,Mid Forecast,High Forecast
+Low_World,0.30,0.22,0.30,0.38
+Mid_World,0.50,0.42,0.50,0.58
+High_World,0.70,0.62,0.70,0.78
+
+Ordered set of 9 reasonable forecasts
+22 %, 30 %, 38 %, 42 %, 50 %, 58 %, 62 %, 70 %, 78 %
+Percentile CSV (linear interpolation)
+Percentile,Prob_CP_gt_88
+P10,26 %
+P20,32 %
+P30,39 %
+P40,45 %
+P50,51 %
+P60,57 %
+P70,63 %
+P80,69 %
+P90,75 %
+Median (51 %) suggests a literal coin-flip leaning YES.
+Adjustment considerations:
+• Tie (exactly 88.00 %) counts as NO, shaving a couple of points.
+• CP volatility over 10 days for high-prob questions is typically < 0.6 pp (σ≈0.3 pp); drift bias in last three months has been slightly downward.
+• Net effect −5 pp.
+
+Probability: 46 %

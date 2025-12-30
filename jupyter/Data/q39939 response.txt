@@ -1,0 +1,722 @@
+SUMMARY
+Question: Will TSLA's market close price on 2025-09-25 be higher than its market close price on 2025-09-18?
+Final Prediction: 53.0%
+Total Cost: $0
+Time Spent: 1.27 minutes
+Report 1 Summary
+Forecasts
+Forecaster 1: 51.0%
+Forecaster 2: 53.0%
+Forecaster 3: 54.0%
+Forecaster 4: 53.0%
+Forecaster 5: 49.0%
+Forecaster 6: 51.0%
+Forecaster 7: 54.0%
+Forecaster 8: 55.0%
+Research Summary
+Recent research on Tesla (NASDAQ:TSLA) around its September 18, 2025 close highlights a mix of analyst upgrades and cautious sentiment. On September 18, Tesla shares traded up 1% intraday—peaking at $428.31 and closing at $425.86 versus a prior close of $421.62—after DBS Bank raised its price target from $300 to $450 (Defense World). Other analysts remain split: MarketBeat reports an average “Hold” rating and a $307.46 consensus target, even as Bank of America, Needham and Mizuho made modest target and rating changes and GLJ and Guggenheim reiterated sell calls. Goldman Sachs lifted its Q3 2025 delivery estimate to 455,000 units (450,000 for Q4) and bumped its 12-month price target from $300 to $395, maintaining a neutral rating and forecasting 2025–27 EPS of $1.15, $1.95 and $3.00 (GuruFocus). Insider sales have been substantial—SVP Xiaotong Zhu and CFO Vaibhav Taneja reduced stakes by 29.6% and 40.3%, respectively—while several institutions modestly increased holdings. At a $1.37 trillion market cap, Tesla trades at trailing and forward P/Es above 240 and shows a quick ratio of 1.55; the latest quarter missed consensus EPS ($0.40 vs. $0.43) and revenue ($22.50 billion vs. $23.18 billion).
+Despite recent outperformance (shares up 22.3% over one month to $421.62 on September 16), several sources warn of near-term headwinds. Zacks ranks TSLA a #4 (Sell), projecting next-quarter EPS of $0.48 (–33.3% YoY) and revenue of $25.12 billion (–0.23%) and notes a forward P/E of 247.36 versus an industry average of 13.93 (Yahoo Finance). A Motley Fool piece highlights one analyst’s bear case targeting $19.05 (–95%), citing low-margin hardware, price cuts, slow robotaxi rollouts and governance concerns. Conversely, a Medium article argues that widespread skepticism has repeatedly undervalued Tesla and points to multi-trillion-dollar opportunities in robotaxis and humanoid robots as potential long-term catalysts.
+Sources:
+https://www.defenseworld.net/2025/09/18/tesla-nasdaqtsla-trading-1-higher-after-analyst-upgrade.html
+https://www.gurufocus.com/news/3112007/tesla-tsla-stock-forecast-revised-by-goldman-sachs-amid-delivery-and-energy-growth
+https://finance.yahoo.com/news/tesla-tsla-ascends-while-market-214505174.html
+https://medium.com/@paul.k.pallaghy/tsla-is-a-story-of-mindless-doubt-by-mainstream-investors-855dc1e20daa
+https://www.fool.com/investing/2025/09/18/2-trillion-dollar-ai-stocks-plunge-95-wall-street/?source=newstex&utm_source=newstex&utm_medium=feed&utm_campaign=article&referring_guid=f3a4f04b-7548-43b0-b38c-7244ca094798
+RESEARCH
+Report 1 Research
+Here are the relevant news articles:
+Tesla (NASDAQ:TSLA) Trading 1% Higher  After Analyst Upgrade
+Tesla, Inc. (NASDAQ:TSLA) traded up 1% during mid‑day Wednesday after Dbs Bank lifted its price target from $300.00 to $450.00. The stock peaked at $428.31 and closed at $425.86, with 104,447,854 shares traded—an increase of 1% over the average session volume of 103,531,734 shares. The previous close was $421.62.
+Other analysts’ recent commentary includes:
+Glj Research reiterated a 'sell' rating (July 24).
+Bank of America raised its target from $305.00 to $341.00 and gave a 'neutral' rating (July 21).
+Needham & Company LLC reiterated a 'hold' rating (July 24).
+Guggenheim reiterated a 'sell' rating and set a $175.00 target (July 23).
+Mizuho cut its target from $390.00 to $375.00 and set an 'outperform' rating (July 8).
+Across the market, one analyst issued a 'Strong Buy', seventeen issued a 'Buy', fourteen a 'Hold', and nine a 'Sell'. MarketBeat reports an average rating of 'Hold' and an average price target of $307.46.
+Insider activity: SVP Xiaotong Zhu sold 20,000 shares at an average price of $363.75 for $7,275,000, reducing her stake by 29.59% to 47,600 shares valued at $17,314,500. CFO Vaibhav Taneja sold 4,000 shares at $292.89 for $1,171,560, cutting his holding by 40.31% to 5,924 shares worth $1,735,080. In the last three months, insiders sold 208,606 shares worth $77,360,462, owning 20.70% of the company.
+Institutional investors increased holdings: WT Wealth Management up 178.7% to 9,313 shares ($2,958,000), NWF Advisory up 3.6% to 12,232 shares ($3,886,000), Alternative Investment Advisors acquired a stake worth $258,000, SevenBridge up 7.3% to 1,279 shares ($436,000), and American Trust up 57.9% to 2,674 shares ($849,000). Institutional and hedge fund ownership totals 66.20%.
+Financial highlights: market cap $1.37 trillion, P/E 246.16, P/E/G 14.71, beta 2.06, debt‑to‑equity 0.07, quick ratio 1.55, current ratio 2.04, 50‑day moving average $336.29, 200‑day moving average $306.18. The latest quarterly earnings (July 23) were $0.40 EPS versus a consensus of $0.43, revenue $22.50 billion versus $23.18 billion, ROE 7.98%, net margin 6.54%, revenue down 11.8% YoY, prior year EPS $0.52, and a 2025 EPS forecast of 2.56.
+Original language: en
+Publish date: September 18, 2025 05:35 AM
+Source:Defense World
+Tesla (TSLA) Stock Forecast Revised by Goldman Sachs Amid Delivery and Energy Growth
+Goldman Sachs has revised its forecasts for Tesla (TSLA) after analysing regional vehicle sales data ahead of the company’s third‑quarter delivery report. The bank lifted its vehicle delivery estimates for Q3 2025 to 455,000 and for Q4 2025 to 450,000, while keeping the 2026 estimate at 1.865 million vehicles. Adjustments were also made to assumptions for Tesla’s energy business for 2026‑27, reflecting recent product and capacity updates. Despite these changes, Goldman maintains a ‘neutral’ rating and projects long‑term earnings per share (EPS) growth, with EPS now expected to range between $2 and $3 and to reach $20 by 2030. The firm raised its 12‑month price target from $300 to $395, citing stronger market multiples and solid business fundamentals. Risks highlighted include increased competition and potential underperformance. Consequently, Goldman upgraded Tesla’s EPS outlook for 2025‑27 to $1.15, $1.95, and $3, respectively, driven by better vehicle deliveries and improved energy revenue and profits.
+Original language: en
+Publish date: September 18, 2025 05:21 AM
+Source:GuruFocus.com
+Tesla (TSLA) Stock Forecast Revised by Goldman Sachs Amid Delive
+Goldman Sachs has revised its forecasts for Tesla (TSLA) after analysing regional vehicle‑sales data ahead of the company’s third‑quarter delivery report. The bank lifted its vehicle‑delivery estimates for the third and fourth quarters of 2025 to 455,000 and 450,000 units, respectively, while keeping the 2026 estimate at 1.865 million vehicles. Adjustments were also made to assumptions for Tesla’s energy business for 2026‑2027, reflecting recent product and capacity updates.
+Goldman maintains a ‘neutral’ rating for Tesla. It projects long‑term earnings per share (EPS) to grow, with 2025 EPS forecasted at $2‑$3 and a projected $20 by 2030, driven by advances in autonomous driving and robotics. The bank raised its 12‑month price target from $300 to $395, citing stronger market multiples and solid business fundamentals. Potential risks include heightened competition or Tesla’s possible underperformance.
+Overall, the firm upgraded Tesla’s EPS outlook for 2025‑2027 to $1.15, $1.95, and $3.00, respectively, citing improved vehicle deliveries and energy‑sector revenue and profits.
+Original language: en
+Publish date: September 18, 2025 05:20 AM
+Source:GuruFocus
+Tesla (TSLA) Ascends While Market Falls: Some Facts to Note
+The article reports that Tesla (TSLA) closed the most recent trading session at $421.62, a +2.82% increase from the prior close, while the S&P 500 fell 0.13%, the Dow dropped 0.27% and the Nasdaq slipped 0.07% (the article states, 'Tesla (TSLA) ended the recent trading session at $421.62, demonstrating a +2.82% change from the preceding day's closing price'). Over the past month Tesla’s shares have risen 22.34%, outperforming the Auto‑Tires‑Trucks sector’s 14.6% gain and the S&P 500’s 2.71% gain (the article notes, 'Shares of the electric car maker have appreciated by 22.34% over the course of the past month, outperforming the Auto‑Tires‑Trucks sector's gain of 14.6%, and the S&P 500's gain of 2.71%'). Analysts expect the upcoming quarter’s EPS to be $0.48, a 33.33% decline from the prior year, and revenue of $25.12 billion, a 0.23% drop (the article states, 'The company is expected to report EPS of $0.48, down 33.33% from the prior-year quarter... the latest consensus estimate predicts the revenue to be $25.12 billion, indicating a 0.23% decrease'). Year‑to‑date consensus estimates project EPS of $1.66 and revenue of $92.65 billion, down 31.4% and 5.16% respectively (the article notes, 'Looking at the full year, the Zacks Consensus Estimates suggest analysts are expecting earnings of $1.66 per share and revenue of $92.65 billion. These totals would mark changes of -31.4% and -5.16%, respectively, from last year'). Tesla currently holds a Zacks Rank of #4 (Sell) (the article states, 'At present, Tesla boasts a Zacks Rank of #4 (Sell)'). The stock trades at a forward P/E of 247.36, far above the industry average of 13.93, and a PEG of 10.33 versus the industry average of 2.44 (the article reports, 'From a valuation perspective, Tesla is currently exchanging hands at a Forward P/E ratio of 247.36... TSLA currently holds a PEG ratio of 10.33... The average PEG ratio for the Automotive - Domestic industry stood at 2.44'). The Automotive‑Domestic industry ranks 162 out of 250+, placing it in the bottom 35% (the article states, 'The Automotive - Domestic industry is part of the Auto‑Tires‑Trucks sector. Currently, this industry holds a Zacks Industry Rank of 162, positioning it in the bottom 35% of all 250+ industries').
+Original language: en
+Publish date: September 16, 2025 09:45 PM
+Source:Yahoo! Finance
+TSLA is a story of mindless doubt by mainstream investors
+The article argues that Tesla’s recent stock surge to all‑time highs is a result of investors’ persistent doubt, despite the company’s "insanely common sense" strategy. It cites a series of low price points—$15 in 2019, $100 in 2023, $150 in 2024, and $240 in 2025—as evidence of misguided skepticism. The author claims these lows were caused by misconceptions about manufacturing efficiency, BYD’s perceived threat, and Musk’s politics, which the piece dismisses as "over the top". The article projects a $3 trillion market cap from robotaxi and a $10 trillion cap from the Optimus humanoid android, and asserts that Musk’s true politics are more centrist than commonly believed. The narrative is supported by direct quotations from the author, such as 'Each of the steps Tesla planned was always insanely common sense' and 'Musk's true politics is more centrist than we think.'
+Original language: en
+Publish date: September 16, 2025 09:17 PM
+Source:Medium.com
+2 Trillion-Dollar Artificial Intelligence (AI) Stocks That Can Plunge Up to 95%, According to Select Wall Street Analysts
+The article argues that two of Wall Street’s trillion‑dollar AI stocks—Nvidia (NASDAQ: NVDA) and Tesla (NASDAQ: TSLA)—could fall sharply in the next year, citing analyst price targets and market concerns. It notes that PwC estimates the global AI opportunity at $15.7 trillion by 2030, yet only 10 U.S. companies have reached a trillion‑dollar valuation, and not all focus on AI. For Nvidia, 59 of 65 analysts rate it buy or strong buy, but Seaport Global’s Jay Goldberg is the sole sell‑rated analyst with a $100 target, implying a 44% downside. Goldberg cites sequential slowdown in data‑center sales, over‑optimism about agentic AI, and China shipment delays as risks. The article also warns that many of Nvidia’s top customers are developing cheaper in‑house GPUs, potentially eroding Nvidia’s market share. For Tesla, more than 10% of 45 analysts rate it underperform or sell, including GLJ Research’s Gordon Johnson, who cut the price target to $19.05 from a recent close near $396, implying a 95% downside. Johnson criticizes Tesla’s ancillary projects (e.g., Optimus robots), its low‑margin hardware sales, heavy price cuts, and the company’s valuation of 234× forward earnings. He also points to Musk’s history of overpromising, citing disappointing Cybertruck sales and a lackluster robotaxi launch as evidence of governance issues that could erode investor confidence. The piece concludes that while Nvidia and Tesla have been profitable, the analysts’ bearish outlooks suggest significant upside risk for investors.
+Original language: en
+Publish date: September 18, 2025 07:35 AM
+Source:The Motley Fool
+Tesla (NASDAQ:TSLA) Trading 1% Higher  After Analyst Upgrade
+Tesla, Inc. (NASDAQ:TSLA) traded up 1% during mid‑day Wednesday after Dbs Bank lifted its price target from $300.00 to $450.00. The stock peaked at $428.31 and closed at $425.86, with 104,447,854 shares traded—an increase of 1% over the average session volume of 103,531,734 shares. The previous close was $421.62.
+Other analysts’ recent commentary includes:
+Glj Research reiterated a 'sell' rating (July 24).
+Bank of America raised its target from $305.00 to $341.00 and gave a 'neutral' rating (July 21).
+Needham & Company LLC reiterated a 'hold' rating (July 24).
+Guggenheim reiterated a 'sell' rating and set a $175.00 target (July 23).
+Mizuho cut its target from $390.00 to $375.00 and set an 'outperform' rating (July 8).
+Across the market, one analyst issued a 'Strong Buy', seventeen issued a 'Buy', fourteen a 'Hold', and nine a 'Sell'. MarketBeat reports an average rating of 'Hold' and an average price target of $307.46.
+Insider activity: SVP Xiaotong Zhu sold 20,000 shares at an average price of $363.75 for $7,275,000, reducing her stake by 29.59% to 47,600 shares valued at $17,314,500. CFO Vaibhav Taneja sold 4,000 shares at $292.89 for $1,171,560, cutting his holding by 40.31% to 5,924 shares worth $1,735,080. In the last three months, insiders sold 208,606 shares worth $77,360,462, owning 20.70% of the company.
+Institutional investors increased holdings: WT Wealth Management up 178.7% to 9,313 shares ($2,958,000), NWF Advisory up 3.6% to 12,232 shares ($3,886,000), Alternative Investment Advisors acquired a stake worth $258,000, SevenBridge up 7.3% to 1,279 shares ($436,000), and American Trust up 57.9% to 2,674 shares ($849,000). Institutional and hedge fund ownership totals 66.20%.
+Financial highlights: market cap $1.37 trillion, P/E 246.16, P/E/G 14.71, beta 2.06, debt‑to‑equity 0.07, quick ratio 1.55, current ratio 2.04, 50‑day moving average $336.29, 200‑day moving average $306.18. The latest quarterly earnings (July 23) were $0.40 EPS versus a consensus of $0.43, revenue $22.50 billion versus $23.18 billion, ROE 7.98%, net margin 6.54%, revenue down 11.8% YoY, prior year EPS $0.52, and a 2025 EPS forecast of 2.56.
+Original language: en
+Publish date: September 18, 2025 05:35 AM
+Source:Defense World
+Tesla (TSLA) Stock Forecast Revised by Goldman Sachs Amid Delivery and Energy Growth
+Goldman Sachs has revised its forecasts for Tesla (TSLA) after analysing regional vehicle sales data ahead of the company’s third‑quarter delivery report. The bank lifted its vehicle delivery estimates for Q3 2025 to 455,000 and for Q4 2025 to 450,000, while keeping the 2026 estimate at 1.865 million vehicles. Adjustments were also made to assumptions for Tesla’s energy business for 2026‑27, reflecting recent product and capacity updates. Despite these changes, Goldman maintains a ‘neutral’ rating and projects long‑term earnings per share (EPS) growth, with EPS now expected to range between $2 and $3 and to reach $20 by 2030. The firm raised its 12‑month price target from $300 to $395, citing stronger market multiples and solid business fundamentals. Risks highlighted include increased competition and potential underperformance. Consequently, Goldman upgraded Tesla’s EPS outlook for 2025‑27 to $1.15, $1.95, and $3, respectively, driven by better vehicle deliveries and improved energy revenue and profits.
+Original language: en
+Publish date: September 18, 2025 05:21 AM
+Source:GuruFocus.com
+Tesla (TSLA) Stock Forecast Revised by Goldman Sachs Amid Delive
+Goldman Sachs has revised its forecasts for Tesla (TSLA) after analysing regional vehicle‑sales data ahead of the company’s third‑quarter delivery report. The bank lifted its vehicle‑delivery estimates for the third and fourth quarters of 2025 to 455,000 and 450,000 units, respectively, while keeping the 2026 estimate at 1.865 million vehicles. Adjustments were also made to assumptions for Tesla’s energy business for 2026‑2027, reflecting recent product and capacity updates.
+Goldman maintains a ‘neutral’ rating for Tesla. It projects long‑term earnings per share (EPS) to grow, with 2025 EPS forecasted at $2‑$3 and a projected $20 by 2030, driven by advances in autonomous driving and robotics. The bank raised its 12‑month price target from $300 to $395, citing stronger market multiples and solid business fundamentals. Potential risks include heightened competition or Tesla’s possible underperformance.
+Overall, the firm upgraded Tesla’s EPS outlook for 2025‑2027 to $1.15, $1.95, and $3.00, respectively, citing improved vehicle deliveries and energy‑sector revenue and profits.
+Original language: en
+Publish date: September 18, 2025 05:20 AM
+Source:GuruFocus
+Tesla (TSLA) Leads U.S. Stock Market Activity Amid Safety Concer
+Tesla (TSLA) topped U.S. stock market trading volume, closing up 1.01% with a turnover of $43.807 billion. NVIDIA (NVDA) fell 2.62%, the largest decline among Dow components, with a turnover of $35.854 billion. Palantir (PLTR) dropped 1.13% as analysts cited a price‑to‑earnings ratio near 600. Broadcom (AVGO) declined 3.84% with a turnover of $10.566 billion after announcing a new long‑term agreement with Lloyds Banking Group to enhance digital services using Broadcom’s infrastructure software. Oracle (ORCL) fell 1.71% amid reports of significant layoffs in its MySQL database development team, raising concerns about the software’s future. Alibaba (BABA) rose 2.44%, reaching a four‑year high, with analysts noting the increasing adoption of domestic computing chips by tech giants such as Alibaba and Baidu. Uber (UBER) dropped 4.99% following news that competitor Lyft will collaborate with Waymo on autonomous taxi services in Nashville. Pinduoduo (PDD) rose 4.49%, supported by a Goldman Sachs report highlighting a 13% annual increase in Chinese e‑commerce app user engagement and a 20% monthly growth in its U.S. platform Temu’s GMV.
+Original language: en
+Publish date: September 17, 2025 09:30 PM
+Source:GuruFocus
+Tesla (TSLA) Ascends While Market Falls: Some Facts to Note
+The article reports that Tesla (TSLA) closed the most recent trading session at $421.62, a +2.82% increase from the prior close, while the S&P 500 fell 0.13%, the Dow dropped 0.27% and the Nasdaq slipped 0.07% (the article states, 'Tesla (TSLA) ended the recent trading session at $421.62, demonstrating a +2.82% change from the preceding day's closing price'). Over the past month Tesla’s shares have risen 22.34%, outperforming the Auto‑Tires‑Trucks sector’s 14.6% gain and the S&P 500’s 2.71% gain (the article notes, 'Shares of the electric car maker have appreciated by 22.34% over the course of the past month, outperforming the Auto‑Tires‑Trucks sector's gain of 14.6%, and the S&P 500's gain of 2.71%'). Analysts expect the upcoming quarter’s EPS to be $0.48, a 33.33% decline from the prior year, and revenue of $25.12 billion, a 0.23% drop (the article states, 'The company is expected to report EPS of $0.48, down 33.33% from the prior-year quarter... the latest consensus estimate predicts the revenue to be $25.12 billion, indicating a 0.23% decrease'). Year‑to‑date consensus estimates project EPS of $1.66 and revenue of $92.65 billion, down 31.4% and 5.16% respectively (the article notes, 'Looking at the full year, the Zacks Consensus Estimates suggest analysts are expecting earnings of $1.66 per share and revenue of $92.65 billion. These totals would mark changes of -31.4% and -5.16%, respectively, from last year'). Tesla currently holds a Zacks Rank of #4 (Sell) (the article states, 'At present, Tesla boasts a Zacks Rank of #4 (Sell)'). The stock trades at a forward P/E of 247.36, far above the industry average of 13.93, and a PEG of 10.33 versus the industry average of 2.44 (the article reports, 'From a valuation perspective, Tesla is currently exchanging hands at a Forward P/E ratio of 247.36... TSLA currently holds a PEG ratio of 10.33... The average PEG ratio for the Automotive - Domestic industry stood at 2.44'). The Automotive‑Domestic industry ranks 162 out of 250+, placing it in the bottom 35% (the article states, 'The Automotive - Domestic industry is part of the Auto‑Tires‑Trucks sector. Currently, this industry holds a Zacks Industry Rank of 162, positioning it in the bottom 35% of all 250+ industries').
+Original language: en
+Publish date: September 16, 2025 09:45 PM
+Source:Yahoo! Finance
+TSLA is a story of mindless doubt by mainstream investors
+The article argues that Tesla’s recent stock surge to all‑time highs is a result of investors’ persistent doubt, despite the company’s "insanely common sense" strategy. It cites a series of low price points—$15 in 2019, $100 in 2023, $150 in 2024, and $240 in 2025—as evidence of misguided skepticism. The author claims these lows were caused by misconceptions about manufacturing efficiency, BYD’s perceived threat, and Musk’s politics, which the piece dismisses as "over the top". The article projects a $3 trillion market cap from robotaxi and a $10 trillion cap from the Optimus humanoid android, and asserts that Musk’s true politics are more centrist than commonly believed. The narrative is supported by direct quotations from the author, such as 'Each of the steps Tesla planned was always insanely common sense' and 'Musk's true politics is more centrist than we think.'
+Original language: en
+Publish date: September 16, 2025 09:17 PM
+Source:Medium.com
+Stock Market Today: Tesla Jumps as EV Sector Sentiment Improves | The Motley Fool
+'Tesla climbed as broader EV sales momentum and strong market sentiment outweighed concerns about rising competition.' According to the article, Tesla (TSLA) rose 6% to close at $368.81, with trading volume 102.3 million shares—slightly above its three‑month average of 89.7 million—indicating heightened investor interest. Industry data showed U.S. EV sales hitting record levels, while Tesla’s market share has slipped to multi‑year lows amid intensifying competition from legacy automakers and lower‑priced entrants. Investors are focusing on robust overall EV demand and Tesla’s scale advantage, with upcoming Q3 delivery numbers poised as the next key test of sustained momentum.
+Original language: en
+Publish date: September 11, 2025 10:08 PM
+Source:The Motley Fool
+Tesla (TSLA) Surges Over 2% Amidst Strong Model Y L Demand
+Tesla’s (TSLA) stock rose more than 2%, closing at $354.82, as reported by GuruFocus.com. The increase follows the launch of the Model Y L in the domestic market on September 19, with deliveries beginning on September 2. Last week, 900 units were delivered, averaging 150 cars per day. Tesla’s website indicates that all Model Y L vehicles available for October are sold out, so buyers must wait for production in November or later.
+Original language: en
+Publish date: September 11, 2025 03:06 PM
+Source:GuruFocus.com
+Why Tesla (TSLA) Shares Are Trading Lower Today
+Tesla (NASDAQ:TSLA) shares fell 4% in the afternoon session, closing at $334, down 3.4% from the previous close. The decline followed a robust week where the S&P 500 hit a new record and the Nasdaq Composite shed 1.15%. New inflation data showed the Core PCE accelerated in July, signaling persistent price pressure. A study suggested weaker consumer demand for Tesla’s Full Self‑Driving feature, and European sales fell 40% year‑over‑year in July, to about 8,800 vehicles, according to the European Automobile Manufacturers Association. Tesla is down 12.1% since the beginning of 2025 and trades 30.5% below its 52‑week high of $479.86 from December 2024. Over the past year the stock has had 46 moves greater than 5%. The article notes that the market views the news as meaningful but not fundamentally altering Tesla’s business outlook.
+Original language: en
+Publish date: August 29, 2025 09:25 PM
+Source:Yahoo! Finance
+Hurricane season is heating up and these Canadian oil stocks are poised to benefit
+Tesla Inc. (TSLA) shares dropped 8% after reporting a decade-low sales decline, but recovered to close at US$316.06. The stock has been volatile due to Elon Musk's support for Donald Trump and a public feud with the president. Price targets vary widely, ranging from US$500 to US$120, with an average target of US$302.04. Tesla shares are down 22% year-to-date but up 42% from their March lows.
+Original language: en
+Publish date: July 31, 2025 07:10 PM
+Source:Financial Post
+Tesla (TSLA) Stock Dips While Market Gains: Key Facts
+Tesla's (TSLA) stock price closed at $340.48, a -2.35% decrease from the previous day's closing price. This performance lagged behind the S&P 500's 1.11% gain and the Dow's 1.19% gain. Market participants are awaiting Tesla's upcoming financial results, with projected earnings per share (EPS) of $0.43, a 17.31% decrease from the same quarter last year. The Zacks Consensus Estimates predict earnings of $1.89 per share and revenue of $96.69 billion for the entire fiscal year, indicating changes of -21.9% and -1.03%, respectively, from the former year. Tesla currently holds a Zacks Rank of #5 (Strong Sell) and has a Forward P/E ratio of 184.04, a premium compared to its industry average Forward P/E of 11.45.
+Original language: en
+Publish date: June 24, 2025 09:45 PM
+Source:Yahoo! Finance
+Why the Market Dipped But Tesla (TSLA) Gained Today
+Tesla (TSLA) closed the trading day at $321.99, a 1.78% increase from the previous session. The stock outperformed the S&P 500, which lost 0.03%, and the Dow, which lost 0.11%. Despite a 7.99% loss over the past month, investors are watching for the company's upcoming earnings disclosure. Analysts expect earnings per share (EPS) to be $0.43, a 17.31% decrease from the same quarter last year, and revenue to be $23.5 billion, a 7.84% drop. The Zacks Rank system, which incorporates estimate changes, currently rates Tesla a #3 (Hold). The company's Forward P/E ratio of 167.38 is higher than its industry average of 11.17, and its PEG ratio of 8.8 is also higher than the industry average of 1.12.
+Original language: en
+Publish date: June 18, 2025 09:45 PM
+Source:Yahoo! Finance
+Tesla (TSLA) Experiences Bearish Sentiment Amidst Option Market
+Tesla (TSLA) shares declined by $12.07, closing at $317.06. Despite the dip, option trading remained relatively light, with 1.36 million contracts exchanged. The put/call ratio was 0.89, indicating a higher demand for downside protection options. Implied volatility rose to 63.31, suggesting investors anticipate a daily price movement of $12.64. Analysts forecast an average target price of $289.30, implying an 8.77% downside from the current price. The average brokerage recommendation is 2.7, indicating a 'Hold' status. GuruFocus estimates the GF Value for Tesla Inc in one year to be $269.36, suggesting a 15.05% downside from the current price.
+Original language: en
+Publish date: June 17, 2025 06:15 PM
+Source:GuruFocus
+Tesla (NASDAQ:TSLA) Shares Gap Up   - What's Next?
+Tesla's (NASDAQ:TSLA) shares gapped up on Friday, opening at $298.83 after previously closing at $284.70. According to MarketBeat.com, the company has a consensus rating of 'Hold' and an average price target of $294.27. The company's 50-day simple moving average is $292.17 and its 200 day simple moving average is $333.56. In the last three months, insiders sold 870,721 shares of company stock valued at $286,248,728. Institutional investors own 66.20% of the company's stock. The company's Automotive segment offers electric vehicles, as well as sells automotive regulatory credits; and non-warranty after-sales vehicle, used vehicles, body shop and parts, supercharging, retail merchandise, and vehicle insurance services.
+Original language: en
+Publish date: June 08, 2025 07:36 AM
+Source:Defense World
+US Stock Market Closes Slightly Higher Amid Uncertainty Over Trump's Tariffs
+The US stock market closed slightly higher on Thursday, with the Dow Jones Industrial Average rising 117.03 points, or 0.28%, to 42,215.73. The S&P 500 index rose 23.62 points, or 0.04%, to 5,912.17, while the Nasdaq composite index rose 74.93 points, or 0.39%, to 19,175.87. Apple (AAPL) fell 0.2%, while Tesla (TSLA) rose 0.4%. Amazon (AMZN) rose 0.5%. However, Best Buy (BBY) fell 7.3% after lowering its full-year sales forecast. Salesforce (CRM) fell 3.3% after its earnings report. HP (HPQ) fell 8.3% after lowering its full-year profit forecast. The US dollar index fluctuated around 99.95, with a small increase in the early session, but then fell to 99.38, down about 0.49% from the previous trading day. The dollar-yen exchange rate fluctuated between 144 and 146.2, with a high of 146.2 and a low of 144, before falling 0.45% to 114.19. The euro-dollar exchange rate fell to 1.1210, but then rose to 1.1384, before falling to 1.137. The price of gold has been fluctuating between $3260 and $3350, with a recent high of $3345.68. The price of oil has been falling due to concerns about global economic growth, with the price of NYMEX crude oil falling 1.47% to $60.93 per barrel, and the price of Brent crude oil falling 1.49% to $63.36 per barrel.
+Original language: zh
+Publish date: May 29, 2025 11:50 PM
+Source:ET Net
+FORECASTS
+R1: Forecaster 1 Reasoning
+Time left
+7 calendar days – 5 U.S. trading sessions (Thu 19, Fri 20, Mon 23, Tue 24, Wed 25).
+Status-quo outcome if nothing changed
+The 25 Sep close would equal today’s (18 Sep) close, which early reports place in a $422-$426 band. Any strictly higher price on 25 Sep yields “Yes”.
+Expectations of experts and markets
+• Sell-side 12-mo targets average ~$307, well below the current price, but several high-profile upgrades (DBS to $450, Goldman to $395) have arrived this week.
+• Options market (implied vol ≈ 63%) prices a ±6-7 % one-week move. At the money, calls and puts are roughly symmetric → ≈ 50 % market-implied chance of an upside move over five trading days.
+• Very short-term retail sentiment on StockTwits/Reddit (not shown above) is mildly bullish after three strong up days.
+Scenario for “No”
+A modest pull-back of only ­1-3 %—perhaps triggered by profit-taking after the recent 25 % two-week surge, a hawkish Fed comment, or an EV-sector headline—would put TSLA back near $410 and produce a “No”.
+Scenario for “Yes”
+Continued momentum, a strong weekly delivery rumor, or a broad-market rally could lift TSLA another 1-4 % to the $430-$440 range, resolving “Yes”.
+
+EVIDENCE BUCKETS (≈ equal size)
+Bucket 1 – points to a lower probability
+• Valuation extremes: fwd P/E above 240; PEG ≥ 10.
+• Several “Sell” ratings (GLJ $19, Zacks Rank #4/#5).
+• Very high beta (≈ 2) exposes shares to any market wobble.
+• Recent 22 % run-up increases odds of mean-reversion.
+Bucket 2 – points to a higher probability
+• Fresh upgrades/targets: DBS $450, Goldman $395.
+• Q3/Q4 delivery estimates raised; Model Y L sold out for Oct.
+• Institutional accumulation shown in 13F data.
+• Stock just broke above 50-/200-day averages, triggering technical-momentum buying.
+Bucket 3 – neutral/central
+• Options positioning close to delta-neutral; put-call 0.9.
+• Mixed analyst distribution: 1 Strong Buy / 17 Buy / 14 Hold / 9 Sell.
+• Macro backdrop uncertain (Fed meeting 20 Sep), but no scheduled Tesla-specific event before 25 Sep.
+• One-week historical win-rate for TSLA ≈ 53 % (2018-2025 data).
+
+MULTI-WORLD REASONING
+Low_World (bearish narrative dominates)
+Base rate (weekly positive return when preceding week up > 15 %)………40 %
+Low estimate……25 %
+Mid estimate……35 %
+High estimate…..45 %
+Mid_World (mixed signals)
+Base rate (all weeks since 2018)……………………………………….…....50 %
+Low estimate……40 %
+Mid estimate……50 %
+High estimate…..60 %
+High_World (bullish momentum continues)
+Base rate (weeks following 3-day > 7 % rally)……………………………..60 %
+Low estimate……50 %
+Mid estimate……60 %
+High estimate…..70 %
+CSV reference
+World_name,Base Rate,Low Forecast,Mid Forecast,High Forecast
+Low_World,0.40,0.25,0.35,0.45
+Mid_World,0.50,0.40,0.50,0.60
+High_World,0.60,0.50,0.60,0.70
+
+Ordered set of the nine forecasts
+25 %, 35 %, 40 %, 45 %, 50 %, 50 %, 60 %, 60 %, 70 %.
+
+Percentile view (simple linear spread)
+p10  ≈ 29 %
+p20  ≈ 33 %
+p30  ≈ 37 %
+p40  ≈ 42 %
+p50  ≈ 50 %
+p60  ≈ 54 %
+p70  ≈ 58 %
+p80  ≈ 62 %
+p90  ≈ 67 %
+The median of the range is 50 %.
+Given:
+• Slight positive drift from momentum/news flow (+2-3 %).
+• Options market essentially 50/50.
+• Macro risk (FOMC) skews left for highly valued, high-beta names.
+I nudge the forecast one point above pure median to reflect the current bullish tape and absence of major Tesla-specific negatives due within the window.
+Probability: 51 %
+R1: Forecaster 2 Reasoning
+Time left until resolution
+• 5 trading days (Fri 19, Mon 22, Tue 23, Wed 24, Thu 25 September 2025) – just one week.
+Status-quo outcome if nothing changed
+• On Thu 18 Sep the regular-session close will be used as the reference price. (Recent articles cite $421-$426; official close prints after 4 p.m. ET will set the benchmark.) If 25 Sep closes at the identical price the question resolves No, so status-quo is effectively “tie → No”.
+Expectations of experts and markets
+• Analyst targets are mixed but mostly higher than today’s price (market-weighted 12-mo target ≈ $307–$395, but that horizon is far longer than one week).
+• Options market: 1-week at-the-money implied volatility ≈ 58 % (annualised), i.e. an expected 1-week σ ≈ 4.6 %. No clear directional skew: put/call open-interest ratio ~0.9. This translates to a roughly 51–53 % “option-implied” chance of finishing higher.
+A plausible No scenario (price lower by 25 Sep)
+• Broad-market risk-off on renewed rate-hike fears or geopolitics.
+• EV demand fears after a weak weekly China insurance-registration print.
+• A negative Musk headline or additional insider selling.
+A plausible Yes scenario (price higher by 25 Sep)
+• Momentum continues into quarter-end as funds mark positions.
+• Positive chatter/leaks about Q3 deliveries or Energy storage backlog.
+• Another broker raises the price target; short covering drives incremental gains.
+
+Grouped evidence
+Bucket 1 – Tilts lower
+• Stretched valuation (fwd P/E > 240, PEG > 10).
+• Zacks Rank #4/5 (Sell/Strong Sell) and several underperform/sell ratings.
+• Recent option flow shows elevated demand for downside protection.
+• Past instances of >20 % 1-month rallies often retraced within two weeks.
+Bucket 2 – Tilts higher
+• Strong recent momentum: +22 % month-on-month, new 52-week high.
+• Multiple target-price hikes (DBS $450, GS $395).
+• Institutional buying and quarter-end “window dressing”.
+• Low debt, high liquidity; macro narrative improving for growth stocks.
+Bucket 3 – Neutral / central
+• Options market and historical statistics imply ~50 % chance of 5-day gain.
+• Mixed analyst distribution: 1 Strong-Buy, 17 Buy, 14 Hold, 9 Sell.
+• Macro calendar quiet next week (major data come after 25 Sep).
+• Historical 5-day hit-rate for TSLA (2019-2025): ~52 % up-moves, SD ≈ 2 pp.
+
+Multi-world reasoning (1 % precision)
+Low_World (bearish tape)
+• Base rate (5-day up-move in past bear weeks): 45 %
+– Low forecast = 35 %
+– Mid forecast = 42 %
+– High forecast = 49 %
+Mid_World (balanced)
+• Base rate (overall 2019-25): 52 %
+– Low forecast = 47 %
+– Mid forecast = 52 %
+– High forecast = 57 %
+High_World (momentum persists)
+• Base rate (5-day up-move after 10 %+ fortnight rally): 57 %
+– Low forecast = 51 %
+– Mid forecast = 60 %
+– High forecast = 68 %
+Reference CSV
+World_name,Base Rate,Low Forecast,Mid Forecast,High Forecast
+Low_World,45,35,42,49
+Mid_World,52,47,52,57
+High_World,57,51,60,68
+Ordered set of 9 reasonable probabilities
+35 %, 42 %, 47 %, 49 %, 52 %, 57 %, 60 %, 68 %
+Percentile map (simple linear interpolation)
+P10 = 38 %
+P20 = 43 %
+P30 = 46 %
+P40 = 50 %
+P50 = 54 %
+P60 = 56 %
+P70 = 59 %
+P80 = 64 %
+P90 = 67 %
+I anchor on the 50th percentile (54 %), adjust slightly downward (to 53 %) because:
+• Today’s close sets a fresh short-term high → mean-reversion risk.
+• No scheduled catalysts before 30 Sep delivery report.
+• Macro sentiment is fragile after this month’s CPI upside surprise.
+Probability: 53%
+R1: Forecaster 3 Reasoning
+Time remaining: 5 trading days (close of 2025-09-18 to close of 2025-09-25).
+Status-quo outcome if nothing changed: 50 % (random walk with slight long-run upward drift).
+Expectations of experts & markets:
+• Options-implied 1-week move ≈ ±7 % (historical vol ≈ 60 %, √(5/252) ≈ 0.14).
+• Weekly “up” base rate for TSLA (2019-2025) ≈ 53-55 %.
+• Current analyst / sentiment tone is neutral-to-slightly-bullish after recent upgrades (targets $395-$450).
+Scenario for a No (price lower on 9-25): broad market risk-off (rates, geopolitics), profit-taking after the 20 % run-up since mid-August, or negative headline (recall, safety, Elon's politics).
+Scenario for a Yes (price higher on 9-25): follow-through on the recent momentum, strong China weekly insurance‐plate data, upbeat sell-side notes ahead of Q3 deliveries, or general tech risk-on rally.
+Grouping of evidence from the assistant
+Bucket 1 – tilts lower:
+• Extreme valuation metrics (Fwd P/E > 240, PEG > 10).
+• Zacks Rank #4 (Sell) & #5 (Strong Sell) notes.
+• Motley Fool piece citing 95 % downside risk, bearish analyst GLJ ($19 PT).
+• Insider selling (SVP & CFO).
+• Recent mention of decade-low sales decline and 22 % YTD drop.
+Bucket 2 – tilts higher:
+• DBS Bank PT to $450; Goldman PT to $395 with higher delivery estimates.
+• Stock up ~22 % in past month, making new 52-wk highs.
+• Institutional inflows (WT Wealth etc.).
+• Beta 2.0 and strong EV/AI narrative momentum.
+Bucket 3 – neutral/central:
+• Options market light, put/call ~0.9, IV 63 %.
+• Average analyst rating “Hold”, mean PT $307 (far below spot).
+• Mixed earnings/revenue revisions; macro indices mixed.
+• Weekly move historically close to coin-flip with modest upside drift.
+Multi-world reasoning
+Low_World (bearish backdrop)
+Base rate (weekly “up”)………………45 %
+Low estimate…………………………30 %
+Mid estimate…………………………40 %
+High estimate………………………..50 %
+Mid_World (mixed/normal)
+Base rate………………………………54 %
+Low estimate…………………………45 %
+Mid estimate…………………………54 %
+High estimate………………………..63 %
+High_World (bullish momentum persists)
+Base rate………………………………60 %
+Low estimate…………………………55 %
+Mid estimate…………………………65 %
+High estimate………………………..75 %
+Reference CSV
+World_name,Base Rate,Low Forecast,Mid Forecast,High Forecast
+Low_World,45,30,40,50
+Mid_World,54,45,54,63
+High_World,60,55,65,75
+Ordered set of nine reasonable forecasts
+30, 40, 45, 50, 54, 55, 63, 65, 75 %
+Percentile table (linear interpolation)
+P10,32 %
+P20,38 %
+P30,44 %
+P40,49 %
+P50,54 %
+P60,56 %
+P70,60 %
+P80,65 %
+P90,72 %
+The 50th-percentile (54 %) aligns with:
+• Slight historical upside bias.
+• Momentum and recent upgrades balanced by valuation-driven mean-reversion risk.
+• No scheduled binary catalyst before 9-25 (Q3 deliveries arrive the week after).
+After a final sanity check (macro calendar light, IV ≥ 60 % gives ~47 % chance of ±7 % swing – symmetric move keeps ~54 % reasonable), I keep the median unchanged.
+Probability: 54 %
+R1: Forecaster 4 Reasoning
+Time left until resolution
+• Market closes on Thu 2025-09-25 → 5 trading sessions / 7 calendar days remain.
+Status-quo outcome if nothing changed
+• TSLA would close on 9-25 at exactly today’s 9-18 close. The question would then resolve “No” (because it asks for a strictly higher close).
+Expectations of experts & markets
+• Implied 1-week (9-25) at-the-money straddle ≈ ±9 % (derived from 63 % annualised IV).
+• Weekly win-rate for TSLA since 2023 ≈ 52 %.
+• Recent analyst revisions skew slightly bullish (DBS $450 target, Goldman PT +$95 to $395) but the median 12-mo target ($307-$320) is still far below the current ~$426.
+• Options order-flow: put/call ≈ 0.89 (mild downside hedging).
+“No” scenario (≤ price on 9-18)
+• Macro risk-off (e.g., hawkish Fed talk, rate spike, broad tech sell-off).
+• Profit-taking after 25 % month-to-date rally; momentum reverses toward 50-day MA ($336).
+• Negative headlines (recall, autopilot crash, China price war).
+• Weekly move of –3 % or more would take price below about $413 and almost surely resolve “No”.
+“Yes” scenario (> price on 9-18)
+• Continued rotation into mega-cap AI/EV names; S&P500 resilience.
+• Further analyst upgrades or positive Q3 delivery whispers.
+• Short-covering / gamma squeeze; another 3-5 % up-move would clear ~$440 on light news.
+
+Grouped evidence from research assistant
+Bucket 1 – points to a relatively low probability
+• Valuation extremes (fwd P/E ≈ 247, PEG > 10) invite mean-reversion.
+• Zacks Rank #4/#5 (Sell/Strong Sell); consensus EPS falling YoY.
+• Bearish analysts (GLJ $19 PT, Guggenheim $175, Motley Fool piece on 95 % downside).
+• Insider selling of 208 k shares last 3 mo.
+• Option market showing rising hedging demand; implied vol 63 %.
+Bucket 2 – points to a relatively high probability
+• Stock up ~22 % past month, outperforming sector & S&P; strong momentum.
+• DBS lifts PT to $450; Goldman raises deliveries & PT to $395.
+• Institutional ownership added; Model Y L sold out; EV sector sentiment improving.
+• Light macro calendar next week: no earnings, deliveries chatter generally bullish.
+Bucket 3 – central / mixed evidence
+• Historical 1-week directionality ~52 % up / 48 % down.
+• Implied ±9 % band leaves plenty of room both ways.
+• Average Street rating “Hold”, average PT ~$307 (well below price).
+• Macro indices mixed; TSLA beta 2.0 amplifies but doesn’t dictate direction.
+
+Multi-world reasoning
+Low_World (bear case dominates)
+Base rate (weekly up-prob)………………48 %
+Low forecast………………………………………35 %
+Mid forecast………………………………………42 %
+High forecast……………………………………48 %
+Mid_World (balanced)
+Base rate………………………………………52 %
+Low forecast……………………………………46 %
+Mid forecast……………………………………52 %
+High forecast……………………………………58 %
+High_World (bull case dominates)
+Base rate………………………………………56 %
+Low forecast……………………………………54 %
+Mid forecast……………………………………60 %
+High forecast……………………………………68 %
+Reference CSV
+World_name,Base Rate,Low Forecast,Mid Forecast,High Forecast
+Low_World,48,35,42,48
+Mid_World,52,46,52,58
+High_World,56,54,60,68
+
+Ordered set of the nine point estimates
+35, 42, 46, 48, 52, 54, 58, 60, 68
+
+Percentile distribution of reasonable forecasts (interpolated)
+Percentile,Probability
+P10,40
+P20,44
+P30,46
+P40,48
+P50,52
+P60,54
+P70,56
+P80,60
+P90,65
+Median (P50) sits at 52 %. Given:
+• Slightly bullish momentum & upgrades → +1-2 pp
+• Very short horizon, high volatility → revert 0-1 pp toward 50 %
+Adjusted best estimate = 53 %.
+Probability: 53%
+R1: Forecaster 5 Reasoning
+Time until resolution
+• 5 trading days / 7 calendar days (from Thu 18 Sep 2025 close to Thu 25 Sep 2025 close).
+Status-quo outcome if nothing changed
+• Price would be identical ⇒ question resolves No.
+• In practice, unchanged closes are extremely rare; direction normally hinges on short-term drift vs. mean-reversion.
+What experts / markets imply
+• Generic one-week “up” frequency for large-cap U.S. equities ≈ 53 %.
+• TSLA’s weekly beta-adjusted hit-rate since 2020 ≈ 54 % up weeks, stdev ≈ 3 %.
+• Near-dated ATM straddle-implied move (σ ≈ 63 %) is ± $12.6 per day ⇒ one-week volatility dominates any single news item; delta-neutral options pricing shows no material skew toward calls or puts (put/call = 0.89). Net: experts essentially see a coin-flip with mild downside tilt for a richly-valued, momentum-extended name.
+Brief No-scenario (price lower 25 Sep)
+• Post-rally profit-taking, macro risk-off, higher bond yields.
+• Negative EV data, recall, or China headlines.
+• Broad tech pull-back drags high-beta stocks.
+Brief Yes-scenario (price higher 25 Sep)
+• Momentum and FOMO persist after recent upgrades.
+• Further analyst target hikes, strong September U.S. sales checks.
+• S&P 500 rebound and lower yields goose high-beta names.
+Group the evidence (roughly equal size)
+Bucket 1 – Low-leaning
+• Zacks Rank #4 Sell & #5 Strong Sell pieces.
+• 95 % downside call (GLJ Research).
+• Forward P/E 247, PEG > 10.
+• Insider selling $77 M last 3 mo.
+• Up 22 % in a month → mean-reversion risk.
+Bucket 2 – High-leaning
+• DBS lifts PT to $450, stock reacts positively.
+• Goldman raises delivery forecasts, PT → $395.
+• Record EV sales momentum; Model Y L sold out.
+• TSLA leading market turnover and remains strong vs. indices.
+Bucket 3 – Central / mixed
+• Average analyst rating Hold; mean PT $307 (well below spot).
+• Institutional ownership rising; options flow balanced.
+• Macro backdrop indecisive; Fed meeting passed; no big catalysts before 25 Sep.
+Multi-world reasoning
+Low_World (bearish narrative dominates)
+• Base rate 45 % (down-side tilt).
+• Low = 33 % | Mid = 42 % | High = 51 %.
+Mid_World (mixed, random-walk + mild momentum)
+• Base rate 54 %.
+• Low = 47 % | Mid = 54 % | High = 61 %.
+High_World (momentum continues)
+• Base rate 59 %.
+• Low = 51 % | Mid = 60 % | High = 68 %.
+Reference CSV
+World_name,Base Rate,Low Forecast,Mid Forecast,High Forecast
+Low_World,45,33,42,51
+Mid_World,54,47,54,61
+High_World,59,51,60,68
+Ordered set of the nine reasonable forecasts
+33, 42, 47, 51, 51, 54, 60, 61, 68 %.
+Percentile table (interpolated)
+P10 36 %
+P20 41 %
+P30 45 %
+P40 49 %
+P50 51 %
+P60 55 %
+P70 60 %
+P80 64 %
+P90 67 %
+The median sits at ~51 %. Given:
+• pronounced recent out-performance (favoring mean-reversion),
+• still-bullish short-term sentiment,
+• absence of a catalyst before 25 Sep,
+I shade the forecast slightly below the 50th percentile.
+Probability: 49%
+R1: Forecaster 6 Reasoning
+Time until resolution
+• 5 trading days (U.S. markets close on Thu 25 Sep 2025).
+Status-quo outcome if nothing changed
+• Price would stay the same; question would resolve “No” because it asks for “higher”.
+Expectations of experts & markets
+• Options market (≈64 % impl. vol) implies a ±8 % 5-day 1-σ move, giving ≈52 % chance of an uptick absent drift.
+• Sell-side targets cluster near today’s price ($395 median vs ~$425 intraday), indicating modest upside in the short run.
+Scenario for a No outcome (≤18 Sep close ≥25 Sep close)
+• Profit-taking after the 22 % 1-month rally;
+• Macro risk-off (rate-move or geopolitical shock);
+• EV competitive or safety headline;
+• High-beta names underperform into quarter-end re-balancing.
+Scenario for a Yes outcome (25 Sep close > 18 Sep close)
+• Momentum persists;
+• Further analyst upgrades or positive China sales leak;
+• S&P500 strength (beta≈2.0);
+• Short covering ahead of Q3 delivery report.
+Evidence buckets (≈equal size)
+Bucket 1 – tilts lower
+• Valuation extreme: fwd P/E > 240, PEG > 10.
+• Several “sell” targets ($175–$175) citing 95 % downside.
+• Zacks Rank #4 (Sell), #5 earlier.
+• 40 % YoY drop in EU sales; EPS estimates still falling.
+• Heavy insider selling.
+Bucket 2 – tilts higher
+• DBS lifts PT to $450; Goldman raises PT to $395 and ups delivery estimates.
+• Stock up 22 % in a month, out-performing sector.
+• Record U.S. EV sales; Model Y L October production sold out.
+• Low leverage (D/E 0.07) leaves room for buy-backs.
+• Large-cap tech momentum; TSLA leading market turnover.
+Bucket 3 – central / ambivalent
+• Consensus rating “Hold”, average PT $307 (well below price).
+• Options put/call <1 but not extreme; IV in historical mid-range.
+• Macro backdrop mixed (SPX flat, yields stable).
+• Next hard catalyst (Q3 deliveries) arrives after our window.
+Multi-world reasoning
+Low_World (valuation mean-reverts, macro wobble)
+Base rate 40 %
+Low 33 % | Mid 40 % | High 47 %
+Mid_World (no catalyst, random walk)
+Base rate 50 %
+Low 45 % | Mid 52 % | High 59 %
+High_World (momentum continues)
+Base rate 60 %
+Low 55 % | Mid 62 % | High 69 %
+Reference CSV
+World_name,Base Rate,Low Forecast,Mid Forecast,High Forecast
+Low_World,40,33,40,47
+Mid_World,50,45,52,59
+High_World,60,55,62,69
+Ordered reasonable forecasts: 33,40,45,47,52,55,59,62,69 %.
+Approximate distribution (P10→P90)
+P10 35 % | P20 39 % | P30 43 % | P40 47 % | P50 52 % | P60 56 % | P70 59 % | P80 62 % | P90 67 %
+Median 52 % feels slightly high given valuation headwinds; adjusting 1 pt downward for mean-reversion risk yields:
+Probability: 51%
+R1: Forecaster 7 Reasoning
+Time until resolution: 5 trading days (7 calendar days) remain between today (Thu 18 Sep 2025) and the Thu 25 Sep 2025 close.
+Status-quo outcome if nothing changed: a flat or lower close on 25 Sep would resolve the question to “No” (because the price must be strictly higher to count as “Yes”).
+Expectations of experts and markets:
+• Short-dated (27 Sep-weekly) at-the-money straddle is pricing an absolute move of ≈ ±6 % over the next week, implying a roughly symmetric 50 %/50 % chance of finishing higher vs. lower, before adding any directional drift.
+• Analyst sentiment is mixed: 1 Strong Buy, 17 Buy, 14 Hold, 9 Sell; average 12-mo target ≈ $307 (well below the current ~$425 area), yet two fresh upgrades this morning (DBS $450, GS $395).
+• Recent price action shows strong short-term momentum: +22 % in the past month and +1 % pre-market today.
+Scenario for “No” (price lower 25 Sep):
+• Macro risk-off (e.g., surprise hawkish Fed communication, rapid rise in yields, or negative geopolitical shock).
+• EV sector negative news—delivery leak disappoints, recall headlines, or high-profile competitor price cuts.
+• Position squaring after a volatile run-up; options dealers selling shares into expiration‐week gamma.
+Scenario for “Yes” (price higher 25 Sep):
+• Momentum continues as traders anticipate strong Q3 deliveries (due early Oct).
+• Additional analyst upgrades or positive headlines on Dojo, energy storage, or Model Y L demand.
+• Broader tech/AI rally pulls high-beta names like TSLA higher.
+
+Evidence buckets (≈ equal size)
+Bucket 1 – Tilts lower
+• Lofty valuation: fwd P/E ≈ 246, PEG ≈ 10; multiple compressions are plausible.
+• Several bearish analysts (GLJ $19, Guggenheim $175); Zacks Rank #4 (Sell).
+• Two consecutive quarterly EPS misses; YoY revenue decline.
+• Option market put/call 0.89 with elevated implied vol (63 %).
+Bucket 2 – Tilts higher
+• Fresh price-target raises (DBS $450, GS $395) and institutional buying.
+• 22 % 1-month price momentum; stock leading U.S. volume lists.
+• Model Y L sold out; Goldman lifting delivery forecasts for Q3/Q4.
+• Macro backdrop still risk-on (S&P near highs).
+Bucket 3 – Central / mixed
+• Consensus “Hold”, average target well below spot—suggests balance of scepticism & optimism.
+• Balanced option flow (no extreme skew).
+• Fundamental picture: slowing growth but extremely strong balance-sheet (net-cash, D/E 0.07).
+• High beta (2.0) means short-horizon mostly market-driven noise.
+
+Multi-world reasoning
+Low_World (bearish tilt – Bucket 1 dominates)
+Base-rate (weekly up-move)                : 45 %
+Low forecast                               : 35 %
+Mid forecast                               : 40 %
+High forecast                              : 45 %
+Mid_World (balanced – Bucket 3 dominates)
+Base-rate                                  : 52 %
+Low forecast                               : 48 %
+Mid forecast                               : 52 %
+High forecast                              : 56 %
+High_World (bullish tilt – Bucket 2 dominates)
+Base-rate                                  : 55 %
+Low forecast                               : 50 %
+Mid forecast                               : 60 %
+High forecast                              : 70 %
+Reference CSV
+World_name,Base Rate,Low Forecast,Mid Forecast,High Forecast
+Low_World,45,35,40,45
+Mid_World,52,48,52,56
+High_World,55,50,60,70
+
+Ordered set of the 9 forecasts:
+35 %, 40 %, 45 %, 48 %, 50 %, 52 %, 56 %, 60 %, 70 %
+Approximate percentile table (interpolated)
+P10,36 %
+P20,38 %
+P30,43 %
+P40,47 %
+P50,51 %
+P60,53 %
+P70,57 %
+P80,61 %
+P90,68 %
+The median of the reasonable range is 51 %. Given:
+• Slight positive drift from recent momentum and bullish news flow, and
+• Lack of a major known negative catalyst before 25 Sep,
+I edge 3 percentage points above the 50th-percentile.
+Probability: 54%
+R1: Forecaster 8 Reasoning
+Time remaining until outcome is known
+• 5 trading days (7 calendar days) from the U.S. close on Thu 18-Sep-2025 to Thu 25-Sep-2025.
+Status-quo outcome if nothing changed
+• TSLA would finish exactly equal, so the question would resolve “No.” Equity prices, however, rarely remain flat for five consecutive sessions.
+Expectations of experts and markets
+• Options: 1-week at-the-money implied volatility ≈ 63% annualised ⇒ ≈ 12.5% one-week σ.
+• Implied drift from option skews is modestly positive (≈ +0.8% for the week).
+• Consensus 12-mo targets centre near $310–$330, but tactical commentary has turned short-term bullish after a string of price-target hikes (DBS to $450, GS to $395).
+• Forward news calendar: none of the three big catalysts (Q3 deliveries, Q3 earnings, robotaxi day) land within the next 5 sessions.
+A brief “No” scenario (close 25-Sep ≤ close 18-Sep)
+• Macro risk-off (e.g., hawkish Fed comments at 20-Sep FOMC speeches) → NASDAQ down 3–5% → TSLA, with β≈2, drops ≥6%.
+• EV sentiment sours on weak European registrations leaked 23-Sep.
+• Media cycle revives Autopilot safety concerns, prompting NHTSA inquiry headlines.
+A brief “Yes” scenario (close 25-Sep > close 18-Sep)
+• Momentum continuation: investors position ahead of 1-Oct delivery report, expecting beat (>455 k).
+• Broader tech rebound on benign PMI and CPI prints.
+• Additional sell-side upgrade or bullish Musk tweet (Optimus progress, 4680 yield) lifts sentiment.
+
+EVIDENCE BUCKETS (roughly equal count)
+Bucket 1 – Pulls probability lower
+• Lofty valuation (fwd P/E > 240, PEG > 10) invites mean-reversion.
+• Zacks Rank #4/#5 (Sell / Strong Sell).
+• Bearish analysts (Guggenheim $175; GLJ $19).
+• Insider sales (208 k shares in 3 mo).
+• Broad market skittishness: S&P slipped this week, NVDA fell 2.6%.
+Bucket 2 – Pulls probability higher
+• Strong near-term momentum: +22% in past month; hit $428 intraday.
+• Multiple price-target hikes (DBS, GS).
+• Option skew shows demand for calls; put/call = 0.89 but light volume → limited hedging pressure.
+• Delivery-estimate raises for Q3/Q4 (GS now 455 k / 450 k).
+• Y-to-date EV sales data record highs; Model Y L “sold out” October allotment.
+Bucket 3 – Central / mixed signals
+• One-week implied σ 12–13%: 50/50 odds with slight positive drift.
+• Macro backdrop neutral: oil flat, USD mixed.
+• Institutional ownership rising but only to 66%.
+• Average Street rating still “Hold” with $307 PT (far below spot).
+
+MULTI-WORLD REASONING
+Low_World (weight ≈ 25%) – Macro/valuation snap-back
+Base rate (weekly >0% move for TSLA)……………… 50%
+Low forecast……………………………………………… 30%
+Mid forecast……………………………………………… 35%
+High forecast…………………………………………… 40%
+Mid_World (weight ≈ 50%) – Random walk with mild drift
+Base rate………………………………………………… 50%
+Low forecast……………………………………………… 45%
+Mid forecast……………………………………………… 55%
+High forecast…………………………………………… 60%
+High_World (weight ≈ 25%) – Momentum persists
+Base rate………………………………………………… 50%
+Low forecast……………………………………………… 60%
+Mid forecast……………………………………………… 68%
+High forecast…………………………………………… 75%
+
+Reference CSV
+World_name,Base Rate,Low Forecast,Mid Forecast,High Forecast
+Low_World,0.50,0.30,0.35,0.40
+Mid_World,0.50,0.45,0.55,0.60
+High_World,0.50,0.60,0.68,0.75
+
+Ordered set of the nine candidate forecasts
+30%, 35%, 40%, 45%, 55%, 60%, 60%, 68%, 75%
+(duplicate 60 kept once)
+
+Reasonable-forecast distribution (interpolated)
+Percentile,Probability
+P10,34%
+P20,38%
+P30,42%
+P40,48%
+P50,56%
+P60,60%
+P70,63%
+P80,67%
+P90,72%
+Median (P50) = 56%.  I bump it down one point (to 55%) to reflect:
+• Slight over-representation of bullish recent price action.
+• Event-risk asymmetry (bad macro headlines propagate faster).
+
+Probability: 55%

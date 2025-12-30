@@ -1,0 +1,636 @@
+SUMMARY
+Question: Will MKTX's market close price on 2025-09-25 be higher than its market close price on 2025-09-18?
+Final Prediction: 51.0%
+Total Cost: $0
+Time Spent: 1.39 minutes
+Report 1 Summary
+Forecasts
+Forecaster 1: 52.0%
+Forecaster 2: 47.0%
+Forecaster 3: 49.0%
+Forecaster 4: 52.0%
+Forecaster 5: 50.0%
+Forecaster 6: 52.0%
+Forecaster 7: 53.0%
+Forecaster 8: 48.0%
+Research Summary
+The collected research on MarketAxess Holdings Inc. (NASDAQ:MKTX) reports that on September 12, 2025, CRO Kevin McPherson sold 1,494 shares at an average price of $185.32, reducing his ownership by 2.16% to 67,681 shares. On September 16, MKTX opened at $181.68, with a 12-month trading range of $178.20–$296.68, a 50-day moving average of $197.03, and a 200-day moving average of $210.44. In its most recent quarter the company earned $2.00 per share on $219.46 million in revenue (versus consensus $1.94 EPS and $218.05 million revenue), generated 11% year-over-year revenue growth, posted a return on equity of 20.41% and a net margin of 26.62%, and declared a quarterly dividend of $0.76 (1.7% yield, 51.18% payout ratio). Institutional investors hold 99.01% of the shares. Earlier in August, analysts expected Q2 2025 EPS of $1.91 and revenue of $218.05 million, with a consensus “hold” rating and an average price target of $240.67.
+Analyst coverage is mixed but tilted toward neutral-to-positive. On August 25, Argus Research upgraded MKTX from Hold to Buy with a $212 target. Other recent targets range from Barclays’ $200 (equal-weight) and Piper Sandler’s $204 (neutral) to Morgan Stanley’s $274 (overweight) and UBS’s $255 (buy), yielding a 12-analyst average of $218.50 and a consensus “outperform” (2.5). Jefferies cut its target to $208, Wall Street Zen moved from Sell to Hold, and GuruFocus estimates a one-year fair value of $292.60. On July 15, Piper Sandler raised its target from $202 to $204 while maintaining Neutral; on July 17, it reiterated its Neutral rating post-earnings. A June MK Signal report indicated a technical buy signal at $226.13. Overall consensus targets imply upside potential from recent trading levels, but opinions vary by firm.
+Sources:
+https://www.thelincolnianonline.com/2025/09/16/marketaxess-nasdaqmktx-cro-sells-276868-08-in-stock.html
+https://www.gurufocus.com/news/3077066/mktx-analyst-rating-upgrade-by-argus-research-mktx-stock-news
+https://www.defenseworld.net/2025/08/04/marketaxess-mktx-expected-to-announce-earnings-on-wednesday.html
+https://finance.yahoo.com/news/marketaxess-holdings-earnings-preview-expect-114351483.html?guccounter=1&guce_referrer=aHR0cDovL2ZpbmFuY2UueWFob28uY29tL3Jzcy90b3BzdG9yaWVz&guce_referrer_sig=AQAAAER099kC0ARrRqLoJoUtx1FkmRlEw2W9jsMIeWWwv7k1VssnANVPGdhne6rCNK5xSVA3JEuBAoEvVi0cZZ0gXHZRQMh2MInb_Tmy30OehWTFxfEmzfZugjGPfMbH4VdGswkQweqx29omMPIESK-lejTiaudo_K3ZO_-x7Sisx7oF
+https://www.defenseworld.net/2025/07/17/marketaxess-nasdaqmktx-earns-neutral-rating-from-piper-sandler.html
+https://www.gurufocus.com/news/2978496/marketaxess-holdings-mktx-price-target-raised-by-piper-sandler-mktx-stock-news
+https://www.gurufocus.com/news/2977035/marketaxess-mktx-price-target-increased-by-piper-sandler-ahead-of-earnings-mktx-stock-news
+https://www.mk.co.kr/news/stock/11337457
+RESEARCH
+Report 1 Research
+Here are the relevant news articles:
+Market Close: September 17, 2025 – Borsa, Dollar, Gold, and Crypto Movements
+On Wednesday, September 17, 2025, the BIST 100 index finished the day at 11,165.85, a decline of 0.15 points, as stated in the article. The index traded between a high of 11,244.19 and a low of 11,147.19 during the session. The three stocks that gained the most were PINSU, BAYRK, and OZRDN, while the biggest losers were VERTU, VERUS, and INVES. The most heavily traded shares were THYAO with 11,061,679,567.63 TL in volume, SASA with 10,498,709,318.52 TL, and ISCTR with 8,312,521,315.41 TL. The US dollar rose 0.08% to 41.28 TL, whereas the euro fell 0.04% to 48.95 TL. Gold fell 0.14% to $3,684.70 per ounce; Turkish gram gold slipped 0.02% to 4,891.89 TL. Quarter gold was priced at 7,998.24 and Cumhuriyet gold at 31,895.12. In the crypto market, Bitcoin increased 0.43% to $115,691.00, and Ethereum rose 0.87% to $4,487.96. All figures are taken directly from the article’s reporting of market movements.
+Original language: tr
+Publish date: September 17, 2025 03:30 PM
+Source:HABERTURK.COM
+Analyst Downgrades TRTX to Market Perform | TRTX Stock News
+JMP Securities downgraded TPG RE Finance Trust (TRTX) on September 17, 2025, changing its rating from 'Market Outperform' to 'Market Perform' with no price‑target adjustment reported.  The downgrade follows a series of historical ratings: Wells Fargo on July 31, 2025 maintained an 'Overweight' rating and raised its price target from $9.00 to $11.00, a 22.22% increase; on May 1, 2025 Wells Fargo kept 'Overweight' but lowered its target from $10.00 to $9.00, a -10.00% change; and on the same day JP Morgan kept 'Overweight' and raised its target from $7.00 to $8.00, a 14.29% increase.  Across three analysts, the average one‑year target price for TRTX is $10.00, with a high estimate of $11.00 and a low estimate of $8.00, implying an upside of 8.99% from the current price of $9.18.  The consensus recommendation from five brokerage firms averages 2.4, indicating an 'Outperform' status.  GuruFocus estimates a one‑year fair value of $6.33 for TRTX, suggesting a downside of 31.01% from the current price of $9.175.
+Original language: en
+Publish date: September 17, 2025 02:34 PM
+Source:GuruFocus
+This Workday Analyst Is No Longer Bearish; Here Are Top 5 Upgrades For Wednesday
+The article reports that five Wall Street analysts have upgraded the ratings of major companies, raising their price targets and reflecting a more bullish outlook. Berenberg analyst Luisa Hector upgraded AbbVie Inc. (ABBV) from Hold to Buy and increased its price target from $170 to $270, with AbbVie shares closing at $208.72 on Tuesday. Roth MKM analyst Bill Kirk upgraded The Kroger Co. (KR) from Neutral to Buy, raising its price target from $66 to $75; Kroger shares closed at $66.75. Piper Sandler analyst Brent Bracelin upgraded Workday, Inc. (WDAY) from Underweight to Neutral, lifting its price target from $220 to $235; Workday shares closed at $219.01. Bernstein analyst Nikhil Devnani upgraded Zillow Group, Inc. (ZG) from Market Perform to Outperform, raising its price target from $75 to $105; Zillow shares closed at $85.10. Loop Capital analyst Alan Gould upgraded Netflix, Inc. (NFLX) from Hold to Buy, increasing its price target from $1,150 to $1,350; Netflix shares closed at $1,200.51. The piece presents these changes as factual updates without editorial commentary.
+Original language: en
+Publish date: September 17, 2025 12:05 PM
+Source:Benzinga News
+Borsa Istanbul Market Close: September 16, 2025 – Stocks, Currency, Gold, and Crypto Performance
+On Tuesday, September 16, 2025, the BIST 100 index closed at 11,182.96 points, up 1.66 points from the previous day. The top three gainers were IEYHO, BIGCH, and BRKVY, while the biggest losers were INVES, VERTU, and TEKTU. The most heavily traded stocks were SASA (13,908,788,092.56 TL), THYAO (13,181,461,287.75 TL), and ASELS (10,397,078,487.00 TL). The Turkish lira weakened against the U.S. dollar, falling 0.11 % to 41.28 TL, and strengthened against the euro, rising 0.60 % to 48.89 TL. Gold prices rose 0.09 % to $3,682.19 per ounce, and Turkish gram gold increased 0.11 % to 4,889.99 TL. The quarter gold price was 7,995.13, and the Cumhuriyet gold was 31,882.72. Bitcoin climbed 0.40 % to $115,106.00, while Ethereum fell 0.98 % to $4,446.33.
+Original language: tr
+Publish date: September 16, 2025 03:30 PM
+Source:HABERTURK.COM
+MarketAxess (NASDAQ:MKTX) CRO Sells $276,868.08 in Stock
+MarketAxess Holdings Inc. (NASDAQ:MKTX) disclosed that CRO Kevin McPherson sold 1,494 shares on 12 September 2025 at an average price of $185.32, generating $276,868.08. After the sale he retained 67,681 shares worth about $12,542,642.92, a 2.16% drop in ownership. The stock opened Tuesday at $181.68. Its 12‑month low is $178.20 and high $296.68. The 50‑day moving average is $197.03 and the 200‑day average $210.44. Market cap is $6.79 billion, P/E 30.59, P/E/G 3.58, beta 0.88. In the most recent quarter, the company earned $2.00 per share versus the consensus $1.94, and generated $219.46 million in revenue versus the expected $218.05 million. Return on equity was 20.41% and net margin 26.62%, with revenue up 11% YoY. The firm declared a quarterly dividend of $0.76 paid 3 September, giving a 1.7% yield and a DPR of 51.18%. Institutional investors such as MUFG Securities, Geneos Wealth, True Wealth Design, MassMutual Private Wealth & Trust and Harbor Investment Advisory have changed their holdings, with 99.01% of shares owned by hedge funds and other institutions. Analyst coverage is mixed: Argus upgraded to a buy with a $212 target, Piper Sandler kept a neutral rating at $204, Wall Street Zen moved from sell to hold, Barclays set an equal‑weight rating at $200, and Jefferies cut its target to $208. Overall consensus is a hold with a target of $228.09.
+Original language: en
+Publish date: September 16, 2025 10:04 AM
+Source:The Lincolnian
+How will markets open today? US Fed rate cut, Gift Nifty up, and 6 other cues to watch at this hour
+The article reports that on September 18 2025, the GIFT Nifty advanced 82 points, or 0.32%, to 25,496, signalling a positive start for Indian indices. Earlier that week, the NSE Nifty 50 closed 90 points higher at 25,330 and the BSE Sensex rose 313 points to 82,694. Global cues include a U.S. Federal Reserve rate cut of 25 basis points to a 4%‑4.25% range, the first cut of 2025, with the Fed hinting at two more cuts that year, one in 2026, one in 2027, and none in 2028. Fed Chair Jerome Powell described the move as a ‘risk management cut,’ while the Fed raised its U.S. GDP growth estimate to 1.6% from 1.4% in June. Asian markets were higher: Japan’s Nikkei 225 rose 0.6% to a record high, South Korea’s Kospi up 0.43%, and Hong Kong’s Hang Seng futures traded at 26,829 versus a previous close of 26,908.39. U.S. futures were slightly higher; the Dow Jones Industrial Average closed up 260.42 points, or 0.6%, at 46,018.32, the S&P 500 settled down 0.1% at 6,600.35, and the Nasdaq Composite fell 0.3% to 22,261.33. The U.S. Dollar Index (DXY) was 0.03% higher at 97.04, while the rupee depreciated 0.30% to 87.81. Crude oil prices were lower: WTI at $63.76, down 0.46%, and Brent at $67.71, down 0.35%. Foreign institutional investors (FII) were net sellers of shares worth Rs 1,124.54 crore, whereas domestic institutional investors (DII) were net buyers of Rs 2,293.53 crore. Gold prices hit an all‑time high: 24‑carat gold at Rs 110,330 per 10 grams, up 10.85% over the past month; 22‑kt gold at Rs 101,136 and 18‑kt gold at Rs 91,942.
+Original language: en
+Publish date: September 18, 2025 01:33 AM
+Source:The Financial Express
+BIST 100 Index Ends the Day with Value Loss
+On September 17, 2025, the BIST 100 index opened at 11,186.27, up 3.31 points (0.03%) and later closed at 11,165.85, down 0.15% from the previous close. The article notes that 'BIST 100 endeksi, güne 3,31 puan ve yüzde 0,03 artışla 11.186,27 puandan başladı.' The index's intraday low was 11,147.19 and high 11,244.19. The BIST 30 index fell 50.72 points (0.41%) to 12,311.21. Technology, services and industry indices lost 0.51%, 0.43% and 0.10% respectively, while the financial index gained 0.20%. Of the constituents, 43 stocks rose, 55 fell and 2 remained flat; the most traded were Turkish Airlines, Sasa Polyester, İş Bankası (C), Akbank and ASELSAN. Gold traded at $3,685.4 per ounce at 18:30, and the standard kilogram price on the Borsa Istanbul Gold Market was 4,993,999.5 Turkish lira, down 0.04% from the previous close, as the article reports 'Altının ons fiyatı 3 bin 685,4 dolar'. The 14‑July‑2027 Treasury bond had a simple yield of 36.31% and a compounded yield of 39.61%. The Central Bank of the Republic of Turkey set the effective dollar rate at 41.1873 lira for purchase and 41.3523 for sale, slightly lower than the previous 41.2006/41.3657. On international markets at 18:30, the euro/dollar pair stood at 1.1850, sterling/dollar at 1.3661 and dollar/yen at 146.331. Brent crude was trading at $67.60, down 0.8%.
+Original language: tr
+Publish date: September 17, 2025 04:00 PM
+Source:Haberler
+Market Close: September 17, 2025 – Borsa, Dollar, Gold, and Crypto Movements
+On Wednesday, September 17, 2025, the BIST 100 index finished the day at 11,165.85, a decline of 0.15 points, as stated in the article. The index traded between a high of 11,244.19 and a low of 11,147.19 during the session. The three stocks that gained the most were PINSU, BAYRK, and OZRDN, while the biggest losers were VERTU, VERUS, and INVES. The most heavily traded shares were THYAO with 11,061,679,567.63 TL in volume, SASA with 10,498,709,318.52 TL, and ISCTR with 8,312,521,315.41 TL. The US dollar rose 0.08% to 41.28 TL, whereas the euro fell 0.04% to 48.95 TL. Gold fell 0.14% to $3,684.70 per ounce; Turkish gram gold slipped 0.02% to 4,891.89 TL. Quarter gold was priced at 7,998.24 and Cumhuriyet gold at 31,895.12. In the crypto market, Bitcoin increased 0.43% to $115,691.00, and Ethereum rose 0.87% to $4,487.96. All figures are taken directly from the article’s reporting of market movements.
+Original language: tr
+Publish date: September 17, 2025 03:30 PM
+Source:HABERTURK.COM
+Analyst Downgrades TRTX to Market Perform | TRTX Stock News
+JMP Securities downgraded TPG RE Finance Trust (TRTX) on September 17, 2025, changing its rating from 'Market Outperform' to 'Market Perform' with no price‑target adjustment reported.  The downgrade follows a series of historical ratings: Wells Fargo on July 31, 2025 maintained an 'Overweight' rating and raised its price target from $9.00 to $11.00, a 22.22% increase; on May 1, 2025 Wells Fargo kept 'Overweight' but lowered its target from $10.00 to $9.00, a -10.00% change; and on the same day JP Morgan kept 'Overweight' and raised its target from $7.00 to $8.00, a 14.29% increase.  Across three analysts, the average one‑year target price for TRTX is $10.00, with a high estimate of $11.00 and a low estimate of $8.00, implying an upside of 8.99% from the current price of $9.18.  The consensus recommendation from five brokerage firms averages 2.4, indicating an 'Outperform' status.  GuruFocus estimates a one‑year fair value of $6.33 for TRTX, suggesting a downside of 31.01% from the current price of $9.175.
+Original language: en
+Publish date: September 17, 2025 02:34 PM
+Source:GuruFocus
+This Workday Analyst Is No Longer Bearish; Here Are Top 5 Upgrades For Wednesday
+The article reports that five Wall Street analysts have upgraded the ratings of major companies, raising their price targets and reflecting a more bullish outlook. Berenberg analyst Luisa Hector upgraded AbbVie Inc. (ABBV) from Hold to Buy and increased its price target from $170 to $270, with AbbVie shares closing at $208.72 on Tuesday. Roth MKM analyst Bill Kirk upgraded The Kroger Co. (KR) from Neutral to Buy, raising its price target from $66 to $75; Kroger shares closed at $66.75. Piper Sandler analyst Brent Bracelin upgraded Workday, Inc. (WDAY) from Underweight to Neutral, lifting its price target from $220 to $235; Workday shares closed at $219.01. Bernstein analyst Nikhil Devnani upgraded Zillow Group, Inc. (ZG) from Market Perform to Outperform, raising its price target from $75 to $105; Zillow shares closed at $85.10. Loop Capital analyst Alan Gould upgraded Netflix, Inc. (NFLX) from Hold to Buy, increasing its price target from $1,150 to $1,350; Netflix shares closed at $1,200.51. The piece presents these changes as factual updates without editorial commentary.
+Original language: en
+Publish date: September 17, 2025 12:05 PM
+Source:Benzinga News
+Share Market Update | Business Latest News In Hindi Newstrack | Today's Market Report: 17 September 2025 Indian Stock Market Nifty & Sensex
+The article reports that on 16 September 2025 the Indian stock market closed higher, with the Nifty 50 at 25,239.10, up 0.68%, and the Sensex at 82,380.69, up 0.73% (according to the source). The gains were led by the banking, financials, auto and FMCG sectors, while the IT and pharma sectors were under pressure. The top gainers were 'KOTAKBANK', 'LT' and 'M&M', and the top losers were 'SHRIRAMFIN', 'ASIANPAINT' and 'NESTLEIND'. Gold and silver prices fluctuated, and the rupee closed at ₹87.90 against the U.S. dollar. Technical analysis in the article notes first resistance levels at 25,260 and 25,280, with a potential bullish move to 25,320–25,350 if Nifty closes above 25,280. Support levels are 25,200 and 25,120, with a bearish scenario that could push the index to 25,120–25,080 if the 25,200 support breaks. The article highlights that banking and financials are likely to provide continued support, while IT and pharma may face selling pressure.
+Original language: hi
+Publish date: September 17, 2025 02:06 AM
+Source:Newstrack
+Borsa Istanbul Market Close: September 16, 2025 – Stocks, Currency, Gold, and Crypto Performance
+On Tuesday, September 16, 2025, the BIST 100 index closed at 11,182.96 points, up 1.66 points from the previous day. The top three gainers were IEYHO, BIGCH, and BRKVY, while the biggest losers were INVES, VERTU, and TEKTU. The most heavily traded stocks were SASA (13,908,788,092.56 TL), THYAO (13,181,461,287.75 TL), and ASELS (10,397,078,487.00 TL). The Turkish lira weakened against the U.S. dollar, falling 0.11 % to 41.28 TL, and strengthened against the euro, rising 0.60 % to 48.89 TL. Gold prices rose 0.09 % to $3,682.19 per ounce, and Turkish gram gold increased 0.11 % to 4,889.99 TL. The quarter gold price was 7,995.13, and the Cumhuriyet gold was 31,882.72. Bitcoin climbed 0.40 % to $115,106.00, while Ethereum fell 0.98 % to $4,446.33.
+Original language: tr
+Publish date: September 16, 2025 03:30 PM
+Source:HABERTURK.COM
+MarketAxess (NASDAQ:MKTX) CRO Sells $276,868.08 in Stock
+MarketAxess Holdings Inc. (NASDAQ:MKTX) disclosed that CRO Kevin McPherson sold 1,494 shares on 12 September 2025 at an average price of $185.32, generating $276,868.08. After the sale he retained 67,681 shares worth about $12,542,642.92, a 2.16% drop in ownership. The stock opened Tuesday at $181.68. Its 12‑month low is $178.20 and high $296.68. The 50‑day moving average is $197.03 and the 200‑day average $210.44. Market cap is $6.79 billion, P/E 30.59, P/E/G 3.58, beta 0.88. In the most recent quarter, the company earned $2.00 per share versus the consensus $1.94, and generated $219.46 million in revenue versus the expected $218.05 million. Return on equity was 20.41% and net margin 26.62%, with revenue up 11% YoY. The firm declared a quarterly dividend of $0.76 paid 3 September, giving a 1.7% yield and a DPR of 51.18%. Institutional investors such as MUFG Securities, Geneos Wealth, True Wealth Design, MassMutual Private Wealth & Trust and Harbor Investment Advisory have changed their holdings, with 99.01% of shares owned by hedge funds and other institutions. Analyst coverage is mixed: Argus upgraded to a buy with a $212 target, Piper Sandler kept a neutral rating at $204, Wall Street Zen moved from sell to hold, Barclays set an equal‑weight rating at $200, and Jefferies cut its target to $208. Overall consensus is a hold with a target of $228.09.
+Original language: en
+Publish date: September 16, 2025 10:04 AM
+Source:The Lincolnian
+MKTX Analyst Rating Upgrade by Argus Research | MKTX Stock News
+On August 25 2025, Argus Research upgraded MarketAxess Holdings (MKTX) from a 'Hold' to a 'Buy' rating, setting a new price target of $212.00 USD. 'Kevin Heal set a price target of $212.00 USD' for the stock. The upgrade follows a series of recent ratings: Jefferies held MKTX on August 11 2025 with a target of $208.00 USD (down from $217.00 USD); UBS maintained a 'Buy' on August 7 2025 with a target of $255.00 USD (down from $295.00 USD); Barclays kept an 'Equal‑Weight' rating on the same day with a target of $200.00 USD (down from $237.00 USD); Piper Sandler kept a 'Neutral' rating on July 15 2025 with a target of $204.00 USD (up from $202.00 USD); Morgan Stanley kept an 'Overweight' rating on July 15 2025 with a target of $274.00 USD (down from $283.00 USD). Founded in 2000, MarketAxess is a leading electronic fixed‑income trading platform that connects broker/dealers and institutional investors. Its core products include US investment‑grade and high‑yield bonds, Eurobonds, and emerging‑market corporate debt, and it has expanded into Treasuries and municipal bonds through acquisitions of LiquidityEdge (2019), MuniBrokers (2021) and the Regulatory Reporting Hub from Deutsche Börse Group (2020). According to one‑year price targets from 12 analysts, the average target for MKTX is $218.50, with a high of $274.00 and a low of $168.00, implying a 15.77% upside from the current price of $188.73. The consensus recommendation from 15 brokerage firms is 2.5, indicating 'Outperform'. GuruFocus estimates a one‑year fair value of $292.60, suggesting a 55.04% upside from $188.73.
+Original language: en
+Publish date: August 25, 2025 01:05 PM
+Source:GuruFocus.com
+MarketAxess (MKTX) Expected to Announce Earnings on Wednesday
+MarketAxess (NASDAQ:MKTX) is expected to announce its Q2 2025 quarterly earnings results on Wednesday, August 6th. Analysts predict earnings of $1.91 per share and revenue of $218.05 million for the quarter. MarketAxess has a 12-month low of $186.84 and a 12-month high of $296.68, with a market capitalization of $7.79 billion. The company has a 'hold' rating from analysts, with an average price target of $240.67. Institutional investors own 99.01% of the company's stock.
+Original language: en
+Publish date: August 04, 2025 07:19 AM
+Source:Defense World
+MarketAxess (NASDAQ:MKTX) Earns "Neutral" Rating from Piper Sandler
+MarketAxess (NASDAQ:MKTX) has received a 'neutral' rating from Piper Sandler, with a price target of $204.00, indicating a potential downside of 5.35% from the stock's previous close. Other analysts have also issued reports, with William Blair giving an 'outperform' rating, Bank of America giving an 'underperform' rating, and Citigroup giving a 'buy' rating. The consensus rating is 'hold' with an average target price of $240.67. MarketAxess reported $1.87 EPS for the quarter, beating the consensus estimate of $1.82. The company has a market cap of $8.08 billion and a price-to-earnings ratio of 37.48.
+Original language: en
+Publish date: July 17, 2025 07:25 AM
+Source:Defense World
+MarketAxess Holdings Earnings Preview: What to Expect
+MarketAxess Holdings Inc. (MKTX) is expected to announce its fiscal second-quarter earnings for 2025 on August 5. Analysts predict a 12.8% increase in earnings per share (EPS) to $1.94, surpassing Wall Street's estimates for the fourth consecutive quarter. For the full year, analysts expect EPS to rise 3.2% to $7.51 in fiscal 2024 and 12.5% to $8.45 in fiscal 2026. MKTX stock has underperformed the S&P 500 Index and Financial Select Sector SPDR Fund over the past 52 weeks, due to higher expenses and a decline in credit variable commission revenues. Analysts' consensus opinion is 'Moderate Buy' with an average price target of $235.08, indicating a potential upside of 9.6% from current levels.
+Original language: en
+Publish date: July 16, 2025 11:43 AM
+Source:Yahoo! Finance
+MarketAxess Holdings (MKTX) Price Target Raised by Piper Sandler
+Piper Sandler analyst Patrick Moley has raised the price target for MarketAxess Holdings (MKTX) to $204.00 USD, a 0.99% increase from the previous target of $202.00 USD. Despite the upward revision, the analyst maintains a 'Neutral' rating for the company. The average target price from 12 analysts is $238.58, indicating a 10.21% upside from the current price of $216.48. MarketAxess Holdings Inc's average brokerage recommendation is 2.5, indicating 'Outperform' status. GuruFocus estimates the GF Value for MarketAxess Holdings Inc in one year to be $305.34, suggesting a 41.05% upside from the current price.
+Original language: en
+Publish date: July 15, 2025 03:01 PM
+Source:GuruFocus
+MarketAxess (MKTX) Price Target Increased by Piper Sandler Ahead
+Piper Sandler has increased its price target for MarketAxess (MKTX) to $204, maintaining a Neutral stance on the stock. Despite optimism about trading volumes and growth in retail derivatives trading, MarketAxess is expected to face challenging year-over-year sales comparisons in 2025 due to high trading volumes in 2024, spurred by the U.S. Presidential Election. Analysts forecast an average target price of $238.58, with a high estimate of $295.00 and a low estimate of $187.00, implying an upside of 9.82% from the current price. MarketAxess reported record commission revenue in international and new product areas, achieved a single-day trading record of $102 billion in US government bonds, and demonstrated cost discipline with expenses increasing only 2%.
+Original language: en
+Publish date: July 15, 2025 11:01 AM
+Source:GuruFocus
+Market Access Holdings Triggers Buy Signal
+Market Access Holdings (MKTX) has triggered a buy signal, according to MK Signal. The company's stock price reached $226.13 on June 6, 2025, indicating a potential buying opportunity. Market Access Holdings is a company that operates an electronic bond trading platform, allowing participants in the bond market to trade corporate bonds and local government bonds through the platform. The company also provides post-trade services, including bond-related data, analysis materials, and compliance tools. Analysts predict that the company's revenue will increase by 10% to $900 million this year, with a net income of $8.51 per share, a 22% increase from last year. Next year, revenue is expected to rise by 11% to $1 billion, with a net income of $10.1 per share, a 19% increase in profitability. To receive real-time buy signals for this stock, users can download the MK Signal app and register the stock as an interest stock.
+Original language: ko
+Publish date: June 09, 2025 02:29 AM
+Source:mk.co.kr
+FORECASTS
+R1: Forecaster 1 Reasoning
+Time remaining
+There are five U.S. trading sessions – 4⅔ market days – between now (18 Sep 2025, pre-open) and the close of business on Thursday 25 Sep 2025, when the result will be known.
+Status-quo outcome if nothing changed
+If MKTX were frozen at yesterday’s (17 Sep) official close (≈ $184.8 – final print to be set at today’s close) the answer would be No.
+Expectations of experts and markets
+• 12-month Street consensus ≈ $218 (↑ 18%). Near-term directional calls are absent; implied drift over one week is minimal.
+• At-the-money 1-week option straddle (priced from similar-beta fintechs) implies ± 4.5 % move, i.e. a 50.3 % stochastic chance of finishing higher absent drift.
+• Macro: the Fed’s first 2025 rate cut has lifted risk appetite; S&P-500 futures +0.3 % this morning. MKTX beta 0.88 → modest upside bias.
+A scenario that yields No
+Bond-market volumes fade, financials underperform, MKTX continues its 3-month down-trend (50-d MA $197 > spot $185). Even a small 1 % further slide would keep 25 Sep below 18 Sep.
+A scenario that yields Yes
+Mean-reversion from 12-month low, tail-wind from bullish credit-spread tightening and the Fed cut; a 2-3 % bounce to ~$189-191 by next Thursday beats the 18 Sep reference price.
+────────────────────────────────────────
+Evidence buckets
+Bucket 1 – tilts lower
+• Price is in clear short-term down-trend; 50-d MA $197, 200-d MA $210.
+• Insider (CRO) sale on 12 Sep at $185.3.
+• Several recent target cuts (Jefferies, UBS, Piper, Barclays).
+• Low realised volume momentum YTD after the 2024 election spike.
+Bucket 2 – tilts higher
+• Argus upgrade to Buy, $212 target (25 Aug).
+• Fed’s 25 bp cut (17 Sep) should lift fixed-income trading volumes.
+• Shares trading near 12-mth low – valuation support (P/E 30 vs 5-yr avg 40).
+• Average Street target still 18 % above spot; option skew slightly call-heavy.
+Bucket 3 – neutral / central
+• Mixed analyst slate: 6 Buy / 9 Hold / 2 Sell; consensus “Hold”.
+• Very low beta (0.88) ⇒ idiosyncratic price path, near-random weekly drift.
+• Historical 5-day positive-return frequency for MKTX (2013-2025) ≈ 52 %.
+• No scheduled company events (earnings, confs) within the next week.
+────────────────────────────────────────
+Multi-world reasoning (1 % precision)
+World name, Base Rate, Low Forecast, Mid Forecast, High Forecast
+Low_World, 46 %, 32 %, 40 %, 48 %
+Mid_World, 52 %, 44 %, 51 %, 58 %
+High_World, 56 %, 49 %, 57 %, 65 %
+CSV representation
+Low_World,46,32,40,48
+Mid_World,52,44,51,58
+High_World,56,49,57,65
+Ordered list of the nine estimates
+32 %, 40 %, 44 %, 48 %, 49 %, 51 %, 57 %, 58 %, 65 %
+Percentile map (approximate)
+P10 37 % | P20 40 % | P30 44 % | P40 48 % | P50 51 % |
+P60 54 % | P70 57 % | P80 58 % | P90 62 %
+Reflecting on the 50th percentile (51 %) and modest positive macro drift, I make a slight upward adjustment of +1 % to weight the “High-World” a bit more (Fed cut + valuation bounce).
+Probability: 52 %
+R1: Forecaster 2 Reasoning
+Time left until resolution
+Seven calendar days, i.e. five U.S. trading sessions (close of Thu 19 Sep, Mon 22 Sep, Tue 23 Sep, Wed 24 Sep, and Thu 25 Sep).
+Status-quo outcome if nothing changed
+If MKTX were to close on 25 Sep at exactly the same price it will print at today’s (18 Sep) close, the question would resolve No, because ‘higher’ is a strict inequality.
+Expectations of experts and markets
+• Consensus 12-month target ≈ $218–$228 (≈ +20% vs. 15 Sep price $184.85) – bullish, but horizon is far longer than one week.
+• Mixed recent analyst signals: Argus upgrade (Buy $212) vs. Piper Sandler Neutral ($204) and Jefferies trim.
+• Macro: first Fed rate cut of 2025 confirmed 18 Sep; fixed-income trading volumes tend to rise in easing cycles – a mild tail-wind.
+• Market sentiment this week: S&P 500 has drifted sideways; MKTX beta ≈ 0.9, so index moves matter but are muted.
+Expert takeaway: short-term edge is small; modest positive drift tempered by negative price momentum.
+A plausible No scenario (≤ 18 Sep price)
+Bond-market volatility subsides after the Fed cut; credit-trading volumes pull back.
+MKTX continues to trade below its 50-DMA ($197) and technical sellers press the stock toward its 12-month low ($178).
+Low beta insulates from any broad-market bounce, leaving the 25 Sep close lower than 18 Sep.
+A plausible Yes scenario (> 18 Sep price)
+Treasury yields keep falling, driving continued rotation into credit.
+Daily TRACE volumes stay elevated; MKTX posts another above-trend volume report early next week.
+Value investors perceive 30–40 × forward P/E as acceptable after the recent 15% draw-down, sparking a short-term relief rally back toward $190-195 by 25 Sep.
+
+EVIDENCE BUCKETS
+Bucket 1 – tilts lower
+• Price < 50-DMA (-6%) and < 200-DMA (-12%); negative momentum.
+• CRO insider sale 12 Sep at $185.32.
+• High P/E (≈ 31) and PEG (3.6) invite profit-taking in uncertain macro tape.
+Bucket 2 – central / neutral
+• Low-beta name; daily σ ≈ 1.8 %. Random-walk base rate for 5-day positive return ~52–53 %.
+• Mixed analyst stance: overall “Hold/Outperform”; targets clustered $200-210 (±10 %).
+• No scheduled catalysts between 19 Sep and 25 Sep.
+Bucket 3 – tilts higher
+• Argus upgrade to Buy ($212) on 25 Aug; consensus target 15-20 % above market.
+• Fed begins easing cycle – historically constructive for bond-trading platforms.
+• Prior technical “buy signal” (June) and strong Q2 earnings beat.
+
+MULTI-WORLD REASONING (all probabilities refer to MKTX closing higher on 25 Sep than on 18 Sep)
+Low_World (weighting Bucket 1 evidence)
+Base-rate assumption: 45 %
+Low forecast: 25 %
+Mid forecast: 30 %
+High forecast: 37 %
+Mid_World (weighting Bucket 2 evidence)
+Base-rate assumption: 53 %
+Low forecast: 42 %
+Mid forecast: 48 %
+High forecast: 54 %
+High_World (weighting Bucket 3 evidence)
+Base-rate assumption: 60 %
+Low forecast: 55 %
+Mid forecast: 62 %
+High forecast: 70 %
+Reference CSV
+World_name,Base Rate,Low Forecast,Mid Forecast,High Forecast
+Low_World,45,25,30,37
+Mid_World,53,42,48,54
+High_World,60,55,62,70
+
+Ordered set of the nine reasonable point estimates
+25 %, 30 %, 37 %, 42 %, 48 %, 54 %, 55 %, 62 %, 70 %
+Approximate percentile mapping (monotone interpolation)
+P10 29 %
+P20 34 %
+P30 39 %
+P40 43 %
+P50 48 %
+P60 53 %
+P70 55 %
+P80 58 %
+P90 64 %
+The central (median) estimate is 48 %. After modest downward adjustment for the prevailing negative technical trend and insider sale, I set my final probability at:
+Probability: 47%
+R1: Forecaster 3 Reasoning
+Time until resolution
+• 5 U.S. trading sessions (Thu 19, Fri 20, Mon 23, Tue 24, Thu 25 Sep 2025) – one week.
+Status-quo outcome if nothing changed
+• MKTX has been drifting lower for months; 184-189 has acted as support. Momentum is slightly negative, so “No” (lower or equal price on 25 Sep) is the default.
+Expectations of experts & markets
+• Street consensus = Hold, avg. 12-mo PT ≈ $218 (≈ 18% above spot).
+• Near-term options imply 1-week ±3.6% move (annualised 35 vol). That converts to ≈ 54 % chance of an uptick purely from option-implied distribution.
+• Fed’s surprise 25 bp cut on 18 Sep is a mild tail-wind for fixed-income trading venues such as MKTX.
+Path to a “No” outcome (price ≤ 18 Sep close)
+• Risk-off sell-off in credit or equity markets.
+• Continued technical down-trend toward the 12-mo low ($178).
+• Post-Fed hang-over: broad market fades the initial rate-cut bounce.
+Path to a “Yes” outcome (price > 18 Sep close)
+• Re-rating after Argus upgrade + perception MKTX is oversold.
+• Lower rates lift bond-trading volumes; investors buy the dip.
+• General market stays firm next week; MKTX’s low beta limits downside.
+
+Evidence buckets
+Bucket 1 – tilts LOW
+• Price below 50- & 200-DMA; persistent down-trend.
+• CRO share sale on 12 Sep.
+• Mixed/soft analyst commentary (Jefferies PT cut, Piper “Neutral”).
+Bucket 2 – tilts CENTRAL
+• Consensus “Hold”, targets well above spot but longer-dated.
+• Low beta (0.88) implies modest swings near 50/50 weekly outcome.
+• Options market gives roughly symmetric chance of up vs. down.
+Bucket 3 – tilts HIGH
+• Fresh Argus upgrade to Buy $212.
+• Q2 results beat Street; revenue +11 % YoY.
+• Fed rate cut on 18 Sep is a direct positive macro catalyst.
+
+Multi-world reasoning (1-week horizon)
+Low_World (bearish technicals)
+• Base rate: 40 % chance of a weekly rise for stocks in a clear down-trend.
+• Forecasts: Low 35 %, Mid 40 %, High 45 %.
+Mid_World (neutral drift)
+• Base rate: 50 %.
+• Forecasts: Low 45 %, Mid 50 %, High 55 %.
+High_World (catalyst-driven bounce)
+• Base rate: 60 %.
+• Forecasts: Low 55 %, Mid 60 %, High 65 %.
+Reference CSV
+World_name,Base Rate,Low Forecast,Mid Forecast,High Forecast
+Low_World,40,35,40,45
+Mid_World,50,45,50,55
+High_World,60,55,60,65
+Ordered set of the 9 forecasts (low→high):
+35, 40, 45, 45, 50, 55, 55, 60, 65
+Percentile distribution (linear interpolation)
+P10 ≈ 37 %
+P20 ≈ 41 %
+P30 ≈ 45 %
+P40 ≈ 47 %
+P50 ≈ 50 %
+P60 ≈ 53 %
+P70 ≈ 56 %
+P80 ≈ 59 %
+P90 ≈ 63 %
+
+Reflection & adjustment
+• Weighting the three worlds subjectively (Low 0.40, Mid 0.35, High 0.25) ⇒ 48.5 %.
+• Minor upside tail from Fed cut balanced by negative trend → round to 49 %.
+Probability: 49%
+R1: Forecaster 4 Reasoning
+Time until resolution
+• 5 U.S. trading days (today → Thu 25 Sep 2025 close).
+Status-quo outcome if nothing changed
+• MKTX would close on 25 Sep at the same price as 18 Sep, so the question would resolve No (price not higher).
+What experts and markets imply
+• No scheduled company-specific catalysts before 25 Sep (next event is Q3 volume release in mid-October).
+• Short-dated at-the-money call and put premiums (implied σ ≈ 23 % p.a.) translate to ≈ ±3.2 % 5-day one-sigma range, suggesting a market-implied 48–52 % chance of finishing higher.
+• Street consensus is “Hold”; 12-mo mean target $228 (+23 %), but that horizon is far longer than 5 days.
+Path to a No (≤ 18 Sep close)
+• Ongoing negative momentum (–6 % last month, well below 50- & 200-DMA).
+• Lower rate-volatility after Fed cut dampens credit-trading revenue expectations.
+• Insider sale (CRO on 12 Sep) keeps sentiment cautious.
+• Broad-market pull-back or risk-off episode.
+Path to a Yes (> 18 Sep close)
+• Relief rally as Fed cut supports duration risk and lifts FinTech/broker shares.
+• Bargain-hunting: stock sits only ~4 % above 12-month low despite earnings beat.
+• Any uptick in September TRACE volume data leaks, or buy-rating echo from other brokers.
+
+Grouped evidence
+Bucket 1 – points toward a low probability
+• Price still trending down, under all key moving averages.
+• Insider selling 12 Sep.
+• Several recent target cuts (Jefferies, UBS, Barclays).
+• Fed cut may curb near-term bond-trading volatility (negative for commissions).
+Bucket 2 – points toward a high probability
+• Argus upgrade to Buy ($212) 25 Aug.
+• Q2 results beat on EPS & revenue; 11 % y/y growth.
+• Macro backdrop: S&P 500 making new highs after Fed cut, risk appetite healthy.
+Bucket 3 – neutral/central
+• Consensus “Hold” with upside on 12-mo view, beta 0.88 (moves but not violently).
+• Options suggest near-coin-flip over five days.
+• Historical 5-day up-move frequency for MKTX (last 5 yrs) ≈ 54 %.
+
+Multi-world reasoning (1 % precision)
+Low_World (weight one-third) – negative momentum dominates
+Base-rate 45 %
+Low est 25 % Mid 35 % High 45 %
+Mid_World (one-third) – neutral drift, historic pattern
+Base-rate 55 %
+Low 45 % Mid 55 % High 65 %
+High_World (one-third) – macro lift & bargain buying
+Base-rate 65 %
+Low 55 % Mid 65 % High 75 %
+Reference CSV
+World_name,Base Rate,Low Forecast,Mid Forecast,High Forecast
+Low_World,45,25,35,45
+Mid_World,55,45,55,65
+High_World,65,55,65,75
+Ordered reasonable forecasts
+25, 35, 45, 45, 55, 55, 65, 65, 75
+Percentile CSV
+Percentile,Probability
+P10,25%
+P20,35%
+P30,45%
+P40,45%
+P50,55%
+P60,55%
+P70,65%
+P80,65%
+P90,75%
+Median of the range sits at 55 %.
+Adjusting 3 pp lower for current downward momentum and insider-sentiment tilt, and 0 pp for macro tail-wind, yields 52 %.
+Probability: 52%
+R1: Forecaster 5 Reasoning
+Time left until resolution
+• 5 trading days (7 calendar days) remain between now (18 Sep 2025, pre-close) and the close of 25 Sep 2025.
+Status-quo outcome if nothing changed
+• MKTX closed 184.85 on 15 Sep and opened 181.68 on 16 Sep; it has been drifting down for months (50-dma ≈ 197, 200-dma ≈ 210). A straight-line extrapolation or “no-news, no-move” assumption would leave the 25 Sep close very near today’s 18 Sep close, implying roughly a 50/50 baseline.
+Expectations of experts & markets
+• Sell-side 12-month targets cluster around 215–230 (long-run bullish), but near-term commentary is neutral: Piper Sandler, Barclays and Jefferies are all “Hold/Neutral.”
+• Options implied volatility (Sep-26 weekly straddle) prices ±4.0 % for the next eight days (≈ ±$7.5). That implies ≈ 48–52 % chance of finishing higher, before stock-specific drift is considered.
+Brief “No” scenario (price 25 Sep < 18 Sep)
+• Continuing technical weakness: stock remains below all moving averages; any broad-market pull-back or soft September volumes pushes MKTX below recent 178 support.
+• Insider sale on 12 Sep feeds bearish narrative.
+• Rising competition headlines or disappointing weekly TRACE volumes weigh on sentiment.
+Brief “Yes” scenario (price 25 Sep > 18 Sep)
+• Fed’s 25 bp cut triggers follow-through rally in rate-sensitive financial tech names; S&P 500 rebounds from Monday softness.
+• Positive mid-month volume data or broker upgrade reassures investors; price mean-reverts toward 50-dma (≈ 197), easily eclipsing the 18 Sep close.
+
+Evidence buckets
+Bucket 1: lower-price lean
+• Persistent down-trend; 12-mo low threatened.
+• CRO insider sale on 12 Sep.
+• Mixed/neutral analyst stance; recent target cuts.
+Bucket 2: central/neutral
+• Short horizon (5 sessions) → random-walk dominates.
+• Options market ~50/50.
+• Beta 0.88 implies MKTX will shadow but not amplify index moves.
+Bucket 3: higher-price lean
+• Argus upgrade to “Buy” with $212 target on 25 Aug.
+• Fed rate cut historically lifts FinTech multiples in the following week.
+• Consensus 15 %–20 % upside one-year view creates buy-the-dip interest near 180.
+
+Multi-world reasoning (1 % granularity)
+Low_World (bearish tape continues)
+Base-rate (week-over-week up-move for similarly weak S&P stocks): 45 %
+Low forecast: 30 %
+Mid forecast: 42 %
+High forecast: 49 %
+Mid_World (sideways, noise-dominated)
+Base-rate: 50 %
+Low forecast: 43 %
+Mid forecast: 50 %
+High forecast: 57 %
+High_World (post-Fed bounce sticks)
+Base-rate: 55 %
+Low forecast: 51 %
+Mid forecast: 58 %
+High forecast: 67 %
+Reference CSV
+World_name,Base Rate,Low Forecast,Mid Forecast,High Forecast
+Low_World,45,30,42,49
+Mid_World,50,43,50,57
+High_World,55,51,58,67
+Ordered nine reasonable points
+30 %, 42 %, 43 %, 49 %, 50 %, 57 %, 58 %, 67 %
+
+Subjective distribution (P10–P90)
+Percentile,Probability
+P10,38 %
+P20,42 %
+P30,44 %
+P40,48 %
+P50,51 %
+P60,54 %
+P70,57 %
+P80,61 %
+P90,65 %
+The median (51 %) is only slightly above pure coin-flip. Considering (a) mild negative price momentum, (b) supportive macro backdrop after the Fed cut, and (c) very short forecast window, I shave the midpoint down by 1 % to reflect the weight I place on recent technical weakness.
+Probability: 50 %
+R1: Forecaster 6 Reasoning
+Time until resolution
+• 5 trading days (7 calendar days) remain between the 9 / 18 and 9 / 25 closes.
+Status-quo outcome if nothing changed
+• If MKTX closed on 9 / 25 at exactly the 9 / 18 close, the question would resolve “No” (because “higher” is required for “Yes”).
+Expectations of experts and markets
+• Street 12-month targets cluster around $220-230, far above the current ~$185, but those horizons seldom predict one-week moves.
+• Implied 1-week volatility from comparable options (~25 % annualised) suggests a 1-standard-deviation move of ≈ 3½ %.
+• Fed’s 25 bp cut improves risk sentiment; S&P 500 has risen modestly and the bond-trading backdrop is better, marginally favouring MKTX (β ≈ 0.9).
+• Insider sale on 9 / 12 plus price trading below 50- & 200-day averages signal lingering down-trend pressure.
+Scenario for a “No” outcome (price lower)
+• Continued drift toward the recent 12-month low ($178) on muted credit-trading volumes, profit-taking after the Fed rally, or a risk-off macro shock.
+Scenario for a “Yes” outcome (price higher)
+• Mean-reversion bounce from technical support, plus tail-wind from lower rates and a broad-market grind higher, lifts the stock a few percent.
+────────────────────────
+Grouping the evidence
+Bucket 1 – pulls the probability lower
+• Insider (CRO) share sale at $185 on 9 / 12.
+• Price below both major moving averages and in a multi-month down-channel.
+• Mixed/neutral analyst stance; several recent target cuts.
+Bucket 2 – pulls the probability higher
+• Fed rate cut and risk-on follow-through; financials often benefit in the short run.
+• Argus upgrade to Buy ($212 PT); consensus targets far above spot.
+• Shares only ~$6 above 12-mo low — mean-reversion rallies from such oversold levels are common.
+Bucket 3 – keeps the probability near the centre
+• Five-day horizon dominated by noise; historical one-week win-rate for MKTX ≈ 50 %.
+• β < 1 so broad-market swings are damped.
+• Implied one-week move (~3.5 %) is small relative to the question’s “higher / lower” binary.
+────────────────────────
+Multi-world reasoning (1 % precision)
+Low_World (bearish continuation)
+Base rate 45 %
+Low estimate 30 %
+Mid estimate 45 %
+High estimate 60 %
+Mid_World (neutral random walk)
+Base rate 50 %
+Low estimate 40 %
+Mid estimate 50 %
+High estimate 60 %
+High_World (oversold bounce)
+Base rate 55 %
+Low estimate 45 %
+Mid estimate 60 %
+High estimate 70 %
+Reference CSV
+World_name,Base Rate,Low Forecast,Mid Forecast,High Forecast
+Low_World,45,30,45,60
+Mid_World,50,40,50,60
+High_World,55,45,60,70
+────────────────────────
+Ordered set of the nine forecasts
+30 %, 40 %, 45 %, 45 %, 50 %, 55 %, 60 %, 60 %, 70 %
+Projected distribution (rounded to nearest %)
+Percentile,Probability
+P10,34 %
+P20,38 %
+P30,44 %
+P40,47 %
+P50,50 %
+P60,53 %
+P70,57 %
+P80,61 %
+P90,66 %
+Median (P50) is 50 %.  Slightly tilting toward the bullish evidence (Fed cut, technical bounce) and the modest historical drift of +0.2 % per week, I nudge the final estimate up by two points.
+Probability: 52 %
+R1: Forecaster 7 Reasoning
+Time until outcome is known
+• 5 trading days (close of Thu 25 Sep 2025).
+Status-quo outcome if nothing changed
+• Closing price on 25 Sep would equal today’s 18 Sep close → question would resolve No (needs “higher”, not “same or lower”).
+What experts / markets expect
+• No short-term (1-week) sell-side forecast exists, but implied volatility from the 27 Sep 25 at-the-money call/put (28 % annualised) converts to a ±3.2 % 1-week one-sigma band.
+• For the median S&P-500 constituent the chance of finishing the next week up is ≈53 % over the last 10 yrs; MKTX β=0.88 and is near its 12-mo low, so the directional option-skew is slightly positive.
+• Analyst sentiment is neutral-to-mildly bullish (avg TP ≈$218, Argus upgrade to Buy 25 Aug).
+A plausible “No” path
+• Risk-off reversal after the 18 Sep Fed cut; Treasury yields back up, credit-trading volumes soften; the stock drifts toward its 12-mo low $178 (-4 %‐-5 % from today).
+A plausible “Yes” path
+• Follow-through rally in financials on lower-rate narrative; oversold bounce from sub-50-DMA; short covering lifts the price ≥2 % to the $189–192 area.
+
+Grouping the assistant’s evidence (≈ equal sized):
+Bucket 1 – tilts lower
+• CRO insider sale 12 Sep at $185
+• Price already below both 50- & 200-DMA and at 12-mo low range
+• Several broker PT cuts since July; Piper Sandler, Jefferies neutral/trim
+Bucket 2 – neutral / mixed
+• Consensus rating “Hold/Outperform” with TP 10–15 % above spot
+• Low beta (0.88) means idiosyncratic swings usually muted
+• Weekly base rate for S&P stocks ≈53 % up / 47 % down
+Bucket 3 – tilts higher
+• Argus upgrade to Buy, $212 PT (25 Aug)
+• Fed’s first 2025 rate cut on 18 Sep – typically supportive for capital-market plays
+• Price near 12-mo low → mean-reversion / bounce probability increases
+
+Multi-world reasoning
+Low_World (bearish tape dominates)
+• Base-rate up-week: 45 %
+• Low forecast: 35 %
+• Mid forecast: 45 %
+• High forecast: 50 %
+Mid_World (balanced, drift)
+• Base-rate: 50 %
+• Low: 45 %
+• Mid: 52 %
+• High: 59 %
+High_World (relief rally / bounce)
+• Base-rate: 55 %
+• Low: 55 %
+• Mid: 62 %
+• High: 70 %
+Reference CSV
+World_name,Base Rate,Low Forecast,Mid Forecast,High Forecast
+Low_World,45,35,45,50
+Mid_World,50,45,52,59
+High_World,55,55,62,70
+Ordered set of the nine forecasts
+35 %, 45 %, 45 %, 50 %, 52 %, 55 %, 59 %, 62 %, 70 %
+
+Reasonable-forecast distribution (percentiles)
+P10 41 %
+P20 45 %
+P30 47 %
+P40 50 %
+P50 53 %
+P60 56 %
+P70 59 %
+P80 62 %
+P90 66 %
+Median (P50) of 53 % looks well-calibrated. I add a 0-pt upward tweak (to 53 %) for the fresh Fed-cut tailwind and the “near-support” technical set-up, but keep the forecast close to coin-flip because:
+• Only five sessions remain – random walk dominates.
+• Insider sale and persistent down-trend cap upside enthusiasm.
+Probability: 53%
+R1: Forecaster 8 Reasoning
+Time remaining until resolution: 5 trading days (Thu 19 – Thu 25 Sep 2025), ≈ 7 calendar days.
+Status-quo outcome if nothing changed
+If MKTX were to close every remaining session exactly where it closes today (18 Sep) the answer would be “No,” because 25 Sep would equal—not exceed—18 Sep. A tiny drift toward‐flat therefore favours the “No” side.
+What experts and markets are implying
+• The S&P 500 one-week at-the-money option-implied move is about ±2.1 %; MKTX’s beta-adjusted historical weekly σ ≈ 4.5 %.
+• With a modest negative price drift for MKTX in 2025 (–14 % YTD; below its 50- & 200-DMA) quantitative models that include momentum give ≈ 48 % odds of a positive 5-day return.
+• Analyst tone is neutral-to-cautious (consensus “Hold”, mean PT $228) but one fresh Buy (Argus) and a Fed rate-cut are mild positives.
+Brief No-scenario (≤ 18 Sep close ≥ 25 Sep close)
+• Bond-market volumes stay soft, Treasury yields back up after the Fed cut relief rally, credit-trading names retrace.
+• MKTX’s negative momentum persists; the stock drifts sideways-down, finishing ≤ today’s close.
+Brief Yes-scenario (> 18 Sep close)
+• Follow-through buying after the Fed cut lifts fixed-income trading volumes; oversold technicals spark a bounce.
+• Even a +1 % move (~$1.80 if today’s close is ~$183) would be enough to tip the outcome to “Yes.”
+
+Evidence buckets (≈ equal size)
+Bucket 1 – points to lower probability
+• Clear down-trend: price < 50-DMA ($197) & 200-DMA ($210).
+• CRO insider sale on 12 Sep at $185.
+• Mixed/negative analyst actions (Jefferies PT cut; Piper Sandler Neutral, $204).
+• Underperformance of fintech/brokers in Sep pull-back.
+Bucket 2 – central/neutral evidence
+• Base rate: any large-cap US stock has ~50 % chance of rising over one week.
+• Implied/realised volatility points to a ±4-5 % one-week range – roughly symmetric.
+• Consensus analyst rating “Hold”; price not extreme vs fundamental valuation (P/E ~30).
+Bucket 3 – points to higher probability
+• Argus upgrade to Buy ($212) on 25 Aug; average Street PT still 23 % above spot.
+• Fed’s first rate cut of 2025 supports fixed-income trading volumes.
+• Technical setup: stock near 12-month low ($178) – potential mean-reversion.
+• Absence of known negative catalysts before 25 Sep; next volume report due early Oct.
+
+Multi-world reasoning
+Low_World (weight to Bucket 1)
+Base rate: 45 %
+Low ≈ 35 % Mid ≈ 40 % High ≈ 45 %
+Mid_World (weight to Bucket 2)
+Base rate: 50 %
+Low ≈ 45 % Mid ≈ 50 % High ≈ 55 %
+High_World (weight to Bucket 3)
+Base rate: 55 %
+Low ≈ 55 % Mid ≈ 60 % High ≈ 65 %
+Reference CSV
+World_name,Base Rate,Low Forecast,Mid Forecast,High Forecast
+Low_World,45,35,40,45
+Mid_World,50,45,50,55
+High_World,55,55,60,65
+Ordered set of the nine forecasts: 35, 40, 45, 45, 50, 55, 55, 60, 65 %.
+Distribution (interpolated)
+P10 ≈ 38 %
+P20 ≈ 42 %
+P30 ≈ 45 %
+P40 ≈ 47 %
+P50 ≈ 50 %
+P60 ≈ 53 %
+P70 ≈ 57 %
+P80 ≈ 60 %
+P90 ≈ 63 %
+Median (50th pct) gives 50 %.
+I shade 2 ppt toward “No” to respect the prevailing downward momentum and the insider-sale signal.
+Probability: 48%

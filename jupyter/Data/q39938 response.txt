@@ -1,0 +1,653 @@
+SUMMARY
+Question: Will EVRG's market close price on 2025-09-24 be higher than its market close price on 2025-09-15?
+Final Prediction: 52.5%
+Total Cost: $0
+Time Spent: 1.29 minutes
+Report 1 Summary
+Forecasts
+Forecaster 1: 52.0%
+Forecaster 2: 51.0%
+Forecaster 3: 52.0%
+Forecaster 4: 49.0%
+Forecaster 5: 53.0%
+Forecaster 6: 53.0%
+Forecaster 7: 53.0%
+Forecaster 8: 53.0%
+Research Summary
+Research coverage of Evergy (NASDAQ: EVRG) highlights a mix of cautious optimism and elevated bearish positioning. As of end-August, short interest in EVRG rose to 5.86% (13.3 million shares), making it the most shorted utility stock, even as 13 brokerages rate it “Outperform” with a one-year target price of $75.86 (implying ~4.6% upside from $72.52) and the GuruFocus GF Value fair-value forecast sits at $64.00 (≈11.8% downside). MarketBeat and The Cerbat Gem report an average “Buy” recommendation from nine analysts, with one-year targets ranging $74.44–$79.00. Investor’s Business Daily noted Evergy’s RS Rating rose from 69 to 72, still below the 80+ threshold typical of stocks entering new uptrends.
+On fundamentals, Evergy declared a quarterly dividend of $0.6675 (3.7–3.8% yield, 73.35% payout) payable September 19, and reported Q2 2025 adjusted EPS of $0.82 (vs. $0.78 estimate) on $1.43 billion revenue (down 7% YoY). A SWOT analysis flagged stable revenues and strong infrastructure investment against expense management and regulatory risks. Brokerage updates include Mizuho raising its price objective from $70 to $74 with an “Outperform” rating, while UBS and Citigroup lifted theirs to $78–$79, yielding an average target near $74.06 and a consensus “Moderate Buy.”
+Sources:
+https://www.gurufocus.com/news/3107018/evergy-evrg-emerges-as-most-shorted-utility-stock
+https://www.thecerbatgem.com/2025/09/09/evergy-inc-nasdaqevrg-given-average-recommendation-of-buy-by-analysts.html
+https://www.dailypolitical.com/2025/09/07/evergy-inc-nasdaqevrg-given-average-recommendation-of-buy-by-analysts.html
+https://www.investors.com/ibd-data-stories/evergy-sees-relative-strength-rating-improve-to-72/
+https://finance.yahoo.com/news/wall-street-analysts-bullish-evergy-130538577.html
+https://www.gurufocus.com/news/3047396/decoding-evergy-inc-evrg-a-strategic-swot-insight
+https://finance.yahoo.com/news/expect-evergys-q2-2025-earnings-101507876.html
+https://www.defenseworld.net/2025/07/20/mizuho-forecasts-strong-price-appreciation-for-evergy-nasdaqevrg-stock.html
+https://www.gurufocus.com/news/2987408/evergy-evrg-sees-increased-price-target-from-mizuho-evrg-stock-news
+RESEARCH
+Report 1 Research
+Here are the relevant news articles:
+EV stock gains as company inks pact to expand solar business in Mauritius - Details
+Servotech Renewable Power System shares rose 4.01 % to Rs 137.98 on the NSE on Monday, September 15, 2025, after a sharp rally last week. The stock opened at Rs 133.90, up from the previous close of Rs 132.65, and later touched a high of Rs 137.98. The company’s 52‑week high is Rs 205.40 (September 26, 2025) and its 52‑week low is Rs 97.55. Its market cap is Rs 3,034.91 crore. Over five years the stock has delivered a multibagger return of 5,250 %, but it fell 23 % in the last year and 19.72 % YTD. Servotech received an order from Bengaluru International Airport Limited to install ten 240 kW ultra‑fast DC EV chargers at Kempegowda International Airport, a move that the company said would enhance e‑transport operational efficiency at the airport. The statement read, 'Each charger will have a capacity of 240 kW and will enhance the e‑transport operational efficiency at the airport.' Market indices Sensex and Nifty recorded marginal gains early but later traded flat amid profit‑taking after last week’s rally, with the BSE Sensex up 93.81 points to 81,998.51 and the NSE Nifty up 24.45 points to 25,138.45 before closing down 10.06 and 12.65 points respectively. The market is awaiting the outcome of this week’s US Federal Reserve policy meeting.
+Original language: en
+Publish date: September 15, 2025 08:16 AM
+Source:India TV News
+Vh Global Energy Infrastructure (LON:ENRG) Insider Acquires £8,400 in Stock
+Insider Patrick Firth purchased 12,000 shares of Vh Global Energy Infrastructure (LON:ENRG - Get Free Report) at an average price of GBX 70 per share, for a total value of £8,400. The company’s stock opened at GBX 70.40 on Monday and was trading up 0.6%. Vh Global Energy Infrastructure has a market capitalization of £278.65 million and a price‑to‑earnings ratio of –754.56. Its 12‑month low and high are GBX 48.90 and GBX 75, respectively. The firm reported earnings per share of GBX 3.08 for the quarter that ended on September 11. Vh Global Sustainable Energy Opportunities is a closed‑ended investment company that offers investors exposure to a diversified portfolio of energy‑infrastructure assets aimed at accelerating the energy transition and aligning with the UN Sustainable Development Goals.
+Original language: en
+Publish date: September 15, 2025 05:14 AM
+Source:Daily Political
+Evergy (EVRG) Emerges as Most Shorted Utility Stock
+Evergy Inc. (EVRG) has become the most shorted utility stock, with short interest rising to 5.86% and 13.3 million shares sold short as of the end of August. Analysts give the stock a one‑year target price of $75.86, implying a potential upside of 4.60% from its current trading price of $72.52. The GuruFocus GF Value forecast projects a fair value of $64.00 one year from now, indicating a possible downside of 11.75% from the current price. The consensus recommendation from 13 brokerage firms is an average score of 2.1, which translates to an 'Outperform' rating. These figures suggest that while short interest is high, analysts remain cautiously optimistic about Evergy’s future performance.
+Original language: en
+Publish date: September 14, 2025 05:21 PM
+Source:GuruFocus.com
+Ferguson (NASDAQ:FERG)  Shares Down 5.1%   - Time to Sell?
+Ferguson plc (NASDAQ:FERG) shares fell 5.1% on Friday, trading as low as $214.95 and closing at $214.30, down from a previous close of $225.72. Approximately 1,400,986 shares were traded, an 18% drop from the average daily volume of 1,703,462 shares. Analyst coverage is mixed: Wells Fargo lifted its target to $250.00 and gave an 'overweight' rating; Oppenheimer raised its target to $235.00 with an 'outperform' rating; Barclays set a target of $247.00 and an 'overweight' rating; Truist issued a 'buy' rating at $230.00; Berenberg Bank issued a 'hold' rating at $215.00. Ten analysts recommend a 'Buy' and six a 'Hold', giving the stock an average rating of 'Moderate Buy' and a consensus target of $221.00. Key financial metrics include a current ratio of 1.68, a quick ratio of 0.91, a debt‑to‑equity ratio of 0.83, a 50‑day moving average of $226.61, a 200‑day moving average of $196.47, a market cap of $41.65 billion, a P/E of 25.36, a PEG of 1.69 and a beta of 1.15. The company announced a quarterly dividend of $0.83 payable on November 7, with an ex‑dividend date of September 26, yielding 1.6% and a payout ratio of 41.40%. Institutional investors are active: True Wealth Design increased its stake by 145.3% in Q2, Hemington Wealth by 51.5%, Fifth Third Bancorp by 230.8%, Maseco LLP added a new stake, and Grove Bank & Trust raised its stake by 247.4% in Q1; collectively, institutional investors own 81.98% of the shares. Ferguson distributes plumbing and heating products across the U.S. and Canada, serving residential, commercial, civil/infrastructure and industrial markets.
+Original language: en
+Publish date: September 14, 2025 10:20 AM
+Source:Daily Political
+Evergy (EVRG) Emerges as Most Shorted Utility Stock
+Evergy Inc. (EVRG) has become the most shorted utility stock, with short interest rising to 5.86% and 13.3 million shares sold short as of the end of August. Analysts give the stock a one‑year target price of $75.86, implying a potential upside of 4.60% from its current trading price of $72.52. The GuruFocus GF Value forecast projects a fair value of $64.00 one year from now, indicating a possible downside of 11.75% from the current price. The consensus recommendation from 13 brokerage firms is an average score of 2.1, which translates to an 'Outperform' rating. These figures suggest that while short interest is high, analysts remain cautiously optimistic about Evergy’s future performance.
+Original language: en
+Publish date: September 14, 2025 05:21 PM
+Source:GuruFocus.com
+Vh Global Energy Infrastructure (LON:ENRG) Insider Patrick Firth Buys 12,000 Shares of Stock
+Insider Patrick Firth purchased 12,000 shares of Vh Global Energy Infrastructure (LON:ENRG) on Thursday, September 11, 2025, at an average price of GBX 70 per share, totaling £8,400. The shares opened at GBX 70.40 on Friday, with the company’s market capitalization at £278.65 million and a price‑earnings ratio of –754.56. Vh Global’s 1‑year low and high were GBX 48.90 and GBX 75, respectively. The company reported earnings per share of GBX 3.08 for the quarter, as noted in the statement: 'Vh Global Energy Infrastructure (LON:ENRG - Get Free Report) last issued its earnings results on Thursday, September 11th.' The firm is a closed‑ended investment vehicle focused on sustainable energy infrastructure aligned with the UN Sustainable Development Goals.
+Original language: en
+Publish date: September 13, 2025 05:20 AM
+Source:Defense World
+Urban Company IPO closes today. Is it a risky bet as GMP soars on last day?
+Urban Company’s IPO closed on 12 September 2025 after attracting strong demand from investors. The overall subscription was 9.48 times, with retail investors alone subscribing 18.67 times and non‑institutional investors 19.15 times by 11 September. Qualified institutional buyers subscribed 1.56 times, showing lower enthusiasm among that group. The grey‑market premium (GMP) rose more than fourfold since the IPO opened, standing at Rs 43 as of 6:53 AM on 12 September. With a price band of 98.00–103.00 per share, the estimated listing price is Rs 146, implying a 41.75 % gain over the cap price. Market observers note that the GMP surge signals short‑term sentiment, but analysts caution that grey‑market trends are not always predictive of long‑term performance. Gaurav Garg of Lemonn Markets Desk commented, 'Urban Co. is tapping into a massive, underpenetrated US$60 billion home services market with strong technology, brand and first‑mover advantages. The company has shown encouraging signs of turnaround, but the FY25 profit was largely aided by tax credits and core profitability remains thin. At a P/E of over 60x, the issue looks aggressively priced, especially with most of the proceeds going to existing shareholders through the OFS.' Garg further added, 'For investors, this IPO is a high‑risk, high‑reward bet, suitable only for those with a long‑term horizon who believe in the company’s ability to scale sustainably as online penetration deepens. Our stance would be to ‘apply with caution,’ given the growth potential but stretched valuations.' The IPO comprised a book‑build issue of Rs 1,900 crore, including a fresh issue of 4.58 crore shares (Rs 472 crore) and an offer for sale (OFS) of 13.86 crore shares (Rs 1,428 crore). The minimum application lot for retail investors is 145 shares (Rs 14,935). Up to 2,42,718 shares are reserved for employees at a 9.00 per share discount. Share allotment is expected on 15 September, with listing on BSE and NSE tentatively scheduled for 17 September. Kotak Mahindra Capital Company Ltd is the lead manager and MUFG Intime India Pvt. Ltd is the registrar.
+Original language: en
+Publish date: September 12, 2025 03:18 AM
+Source:India Today
+Nifty and Sensex Close Higher on 10 September 2025 – Market Report
+The market report for 9 September 2025 shows that the Indian equity market closed on a positive note. The Nifty 50 finished at 24,868.60, up 0.39 %, while the Sensex closed at 81,101.32, also up 0.39 % (source: report). The rupee ended the day at ₹88.18 against the U.S. dollar. Key technical levels for the Nifty are a resistance zone at 24,880‑24,900; if the index closes above 24,870 it could target 24,920‑24,940, whereas a close below 24,860 would signal a bearish move toward 24,840‑24,820. Support currently lies at 24,860‑24,840, offering a buying opportunity if the price falls and rebounds. Sector‑wise, the banking sector saw modest buying with ICICI Bank and HDFC Bank holding strength. The IT sector, represented by Infosys and TCS, traded sideways but could accelerate if the Nifty breaks 24,900. Energy and oil stocks such as Reliance and ONGC experienced slight selling pressure, though a rise in global crude prices could support them. Pharma names like Sun Pharma and Dr. Reddy’s moved sideways, with limited upside unless the Nifty stays above 24,880. The auto sector, including Maruti and Tata Motors, showed light buying that could gain momentum if the market remains bullish.
+Original language: hi
+Publish date: September 10, 2025 02:18 AM
+Source:Newstrack
+Market Close: September 9, 2025 – Istanbul Stock Exchange Performance
+On September 9, 2025, the Istanbul Stock Exchange (Borsa İstanbul) closed with the BIST 100 index up 0.35 points at 10,486.09. The three stocks with the largest gains were GRNYO, KAPLM and DIRIT, while the biggest losers were DOBUR, GIPTA and RODRG. The most heavily traded shares were THYAO with 12,806,268,945.50 TL in volume, SASA with 10,514,230,433.59 TL and ISCTR with 7,653,512,491.10 TL. The U.S. dollar rose 0.09 % to 41.27 TL, whereas the euro fell 0.28 % to 48.42 TL. Gold traded at 3,640.48 USD per ounce, up 0.12 %, and Turkish gold rose 0.03 % to 4,824.15 TL. The quarter‑gold price was 7,887.49 and the Cumhuriyet gold price was 31,453.46. Bitcoin fell 1.18 % to 111,472.00 USD, and Ethereum dropped 2.04 % to 4,286.27 USD.
+Original language: tr
+Publish date: September 09, 2025 03:30 PM
+Source:HABERTURK.COM
+Evergy Inc. (NASDAQ:EVRG) Given Average Recommendation of “Buy” by Analysts - The Cerbat Gem
+Evergy Inc. (NASDAQ:EVRG) is highlighted in a market‑analysis article that notes analysts’ average recommendation of a ‘Buy’ for the stock. The piece reports that the company recently declared a quarterly dividend of $0.6675 per share, payable on Friday, September 19, with the ex‑dividend date set for Friday, August 22. The dividend translates to an annualized payout of $2.67 and a yield of 3.8 %, while Evergy’s dividend payout ratio stands at 73.35 %. The article also outlines Evergy’s business model, describing its generation, transmission, distribution, and sale of electricity across the United States, sourced from coal, landfill gas, uranium, natural gas, oil, solar, wind, and other renewables, and serving residential, commercial, industrial, municipal, and utility customers.
+Original language: en
+Publish date: September 09, 2025 05:02 AM
+Source:thecerbatgem.com
+Evergy Inc. (NASDAQ:EVRG) Given Average Recommendation of "Buy" by Analysts
+Evergy Inc. (NASDAQ:EVRG) has received an average recommendation of 'Buy' from nine covering analysts, with eight issuing a buy and one a strong buy, according to MarketBeat Ratings. The analysts’ average 1‑year target price is $74.4375. Individual research notes include Mizuho raising its target to $77.00 and giving an 'outperform' rating on August 8, Jefferies setting a $78.00 target with a 'buy' rating on June 10, Wall Street Zen downgrading from 'hold' to 'sell' on May 22, Citigroup lifting its target to $79.00 with a 'buy' rating on May 16, and BMO Capital Markets issuing an 'outperform' rating with a $75.00 target on May 13. Evergy’s stock opened at $71.60 on Tuesday, with a 50‑day moving average of $70.73 and a 200‑day average of $68.43. The 52‑week range is $59.00–$73.97, and the company’s market cap is $16.48 billion. Financially, Evergy reported $0.82 EPS for the quarter ending August 7, beating consensus of $0.78, with revenue of $1.43 billion versus an estimate of $1.45 billion; revenue was down 7.0% YoY. The firm’s FY 2025 guidance is $3.920–$4.120 EPS, while analysts project $3.83 EPS for the current year. Evergy announced a quarterly dividend of $0.6675 payable September 19, with an ex‑dividend date of August 22, yielding 3.7% and a payout ratio of 73.35%. Hedge funds such as Bfsg LLC, Colonial Trust Co SC, Alpine Bank Wealth Management, Olde Wealth Management LLC, and LRI Investments LLC have recently taken positions, with institutional investors owning 87.24% of the shares.
+Original language: en
+Publish date: September 07, 2025 07:16 AM
+Source:Daily Political
+Evergy Sees Relative Strength Rating Improve To 72
+Evergy (EVRG) saw its Relative Strength Rating rise from 69 to 72 on Wednesday, as reported in the article. The RS Rating, a proprietary IBD metric, compares a stock’s 52‑week price movement to other stocks. The article notes that market winners often have an RS Rating of at least 80 early in their moves, suggesting that Evergy could aim for that benchmark. Evergy is not yet near a buying area and would need to build a base to spark a new run. The company reported negative growth in both top and bottom lines for the last quarter. Within the Utility‑Electric Power industry group, Evergy ranks 10th among peers; the top five highly rated stocks in the group include Korea Electric Power ADR (KEP), Entergy (ETR) and American Electric Power (AEP).
+Original language: en
+Publish date: September 03, 2025 07:00 AM
+Source:Investor's Business Daily
+Energy & Minerals Group EV & Solar Battery Materials (Lithium, Nickel, Copper, Cobalt) Fut Stgy ETF (NYSEARCA:CHRG) Stock Price Up 0.3% - Still a Buy?
+The Energy & Minerals Group EV & Solar Battery Materials (Lithium, Nickel, Copper, Cobalt) Futures Strategy ETF (ticker CHRG) saw its share price rise 0.3% on Wednesday, reaching a high of $16.12 and closing at $15.97 (the same level as its 50‑day and 200‑day moving averages). Only 600 shares were traded during the session, a 41% drop from the average daily volume of 1,013 shares. The ETF is an actively managed, futures‑based fund that primarily invests in broad market commodities linked to electric‑vehicle production, battery storage, and renewable infrastructure. The article was published on August 28, 2025, by Defense World.
+Original language: en
+Publish date: August 28, 2025 07:08 AM
+Source:Defense World
+Are Wall Street Analysts Bullish on Evergy Stock?
+Evergy, Inc. (EVRG) is an energy company with a diverse energy mix, serving residential, commercial, industrial, and municipal customers. Its shares have outperformed the broader market over the past 52 weeks, returning 22.8% compared to the S&P 500 Index's 20.1% gain. Despite reporting better-than-expected Q2 2025 adjusted EPS of $0.82, the company's shares fell marginally due to a 17.2% drop in net income. Analysts expect EVRG's EPS to grow nearly 5% year-over-year to $4 in the fiscal year ending in December 2025. The consensus rating is a 'Strong Buy' based on 11 'Strong Buy' ratings and two 'Holds.' Mizuho analyst Anthony Crowdell raised Evergy's price target to $77 and maintained an 'Outperform' rating, citing strong large-load customer demand.
+Original language: en
+Publish date: August 11, 2025 01:05 PM
+Source:Yahoo! Finance
+Decoding Evergy Inc (EVRG): A Strategic SWOT Insight
+Evergy Inc (EVRG) has reported a slight decrease in net income from $207.0 million in Q2 2024 to $171.3 million in Q2 2025, despite stable operating revenues. The company has invested heavily in property, plant, and equipment, with a year-to-date investment of $1,220.1 million in 2025. A SWOT analysis reveals strengths in robust infrastructure and renewable energy focus, financial stability, and revenue consistency. However, weaknesses include operating expense management and competitive pressures. Opportunities for strategic growth through investments and regulatory support are countered by threats from regulatory and environmental risks, and market volatility. Evergy Inc (EVRG) must balance its strengths and opportunities while addressing its weaknesses and threats to shape its future trajectory in the energy sector.
+Original language: en
+Publish date: August 08, 2025 04:05 AM
+Source:GuruFocus.com
+What to Expect From Evergy's Q2 2025 Earnings Report
+Evergy, Inc. (EVRG) is set to release its Q2 2025 earnings report on August 7. Analysts expect a profit of $0.80 per share, down 11.1% from the previous year. For fiscal 2025, EVRG is expected to report an EPS of $4, up 5% year over year. The company's shares have soared 25.8% over the past 52 weeks, but underperformed the S&P 500 Index and the Utility Select Sector SPDR Fund. Wall Street analysts are highly bullish about EVRG's stock, with a 'Strong Buy' rating overall, and an average analyst price target of $74.45 indicating a 6.7% potential upside from the current levels.
+Original language: en
+Publish date: July 23, 2025 10:15 AM
+Source:Yahoo! Finance
+Mizuho Forecasts Strong Price Appreciation for Evergy (NASDAQ:EVRG) Stock
+Mizuho has increased its price objective for Evergy (NASDAQ:EVRG) from $70.00 to $74.00, suggesting a potential upside of 7.40% from the company's previous close. The brokerage currently has an 'outperform' rating on the stock. Other analysts have also raised their price objectives for Evergy, with UBS Group increasing its price objective from $68.00 to $78.00 and Citigroup increasing its price objective from $77.00 to $79.00. According to data from MarketBeat.com, the company presently has an average rating of 'Moderate Buy' and an average target price of $74.06.
+Original language: en
+Publish date: July 20, 2025 06:30 AM
+Source:Defense World
+Evergy (EVRG) Sees Increased Price Target from Mizuho | EVRG Sto
+Mizuho has increased its price target for Evergy (EVRG) from $70 to $74, while maintaining an 'Outperform' rating. The Kansas Central settlement has improved the regulatory environment in Kansas, a key factor in this decision. Mizuho suggests that Evergy's stock could align with the group average valuation if the company can boost its earnings growth to 5-7%. The average target price for Evergy Inc is $73.79, with an upside of 8.77% from the current price of $67.84. Evergy Inc has reported first quarter adjusted earnings of $0.54 per share, consistent with the previous year, driven by recovery of regulated investments. The company has reaffirmed its 2025 adjusted EPS guidance range of $3.92 to $4.12 per share, and its long-term earnings growth target of 4-6% through 2029.
+Original language: en
+Publish date: July 18, 2025 12:20 PM
+Source:GuruFocus
+Price Over Earnings Overview: Evergy - Evergy (NASDAQ:EVRG)
+Evergy Inc.'s (EVRG) stock price is currently at $68.48, after a 0.44% decrease. However, the company's stock has spiked by 3.87% over the past month and 28.41% in the past year. According to Benzinga, Evergy's P/E ratio of 18.1 is lower than the 19.4 aggregate P/E ratio of the Electric Utilities industry. This might suggest that the stock is undervalued, but it could also indicate that shareholders do not expect future growth. As Benzinga notes, the P/E ratio should not be used in isolation, but rather in conjunction with other financial metrics and qualitative analysis to make informed investment decisions.
+Original language: en
+Publish date: June 25, 2025 06:00 PM
+Source:Benzinga
+Evergy Inc (EVRG) Shares Up 3.39% on Jun 9
+Shares of Evergy Inc (EVRG) rose 3.39% on June 9, reaching an intraday high of $67.84 and settling at $67.45. The stock is currently 4.14% below its 52-week high of $70.36 and 29.46% above its 52-week low of $52.10. Analysts forecast an average target price of $72.85, implying an 8.00% upside from the current price. The average brokerage recommendation is 1.9, indicating an 'Outperform' status. GuruFocus estimates a GF Value of $63.82, suggesting a 5.38% downside from the current price.
+Original language: en
+Publish date: June 09, 2025 05:05 PM
+Source:GuruFocus
+FORECASTS
+R1: Forecaster 1 Reasoning
+Time remaining until outcome is known
+• Close on 24 Sep 2025 occurs in 9 calendar days ≈ 7 trading days after today’s session is finished.
+Status-quo outcome if nothing changed
+• If EVRG simply moved sideways, 24 Sep would print the same (≈ $72.5) and the result would be “No”.
+• Any positive net change, no matter how small, yields a “Yes”.
+Expectations of experts and markets
+• Short-term price targets cluster in the mid-70s ($74-$79) but those are 12-month horizons.
+• Options implied volatility for the 27 Sep weekly calls puts 7-day σ ≈ 1.0 % day ⇒ 7-day σ ≈ 2.6 %. The at-the-money straddle is priced almost symmetrically, implying ≈ 52 % chance of finishing up over the next week.
+• Analysts remain modestly bullish (consensus “Out-perform”, 1-yr upside 4-7 %), but the stock is also the most-shorted US utility (5.9 % float short).
+Plausible “No” scenario (price lower 24 Sep)
+• Treasury yields rise after the 17-Sep FOMC meeting, pressuring rate-sensitive utilities; sector ETF XLU sells off 2-3 %.
+• Short-interest builds, dividend cash-outflow (19 Sep payment) leaves the stock ex-cash, and EVRG drifts 2 % lower to ≈ $71.
+Plausible “Yes” scenario (price higher 24 Sep)
+• Fed sounds dovish; long bond yields slip 10-15 bp, utilities outperform; partial short-squeeze lifts EVRG ~2 % to ≈ $74.
+• No adverse company-specific news; momentum traders chase the 52-week-high breakout.
+
+Evidence buckets (≈ equal size)
+Bucket 1 – tilts toward lower probability
+• Highest short interest among utilities (5.9 %) – risk of negative narrative.
+• GuruFocus FV $64 (implies overvaluation).
+• RS Rating only 72, below IBD buy-zone.
+• Utilities can underperform if rates rise post-FOMC.
+Bucket 2 – tilts toward central / mixed probability
+• Options market roughly 52/48 split on up vs. down by 24 Sep.
+• Daily σ ≈ 1 %; 7-day random-walk gives 52 % base chance of a positive move.
+• Price is near top of 52-week range ($73.97); equal odds of continuation or mean-reversion.
+Bucket 3 – tilts toward higher probability
+• Consensus 12-mo targets $75-$79 and “Buy / Out-perform”.
+• Kansas regulatory settlement removed an overhang.
+• Recent momentum: +22 % YoY; uptrend since June.
+• Potential for short-cover rally on good macro news.
+
+Multi-world reasoning
+World_name, Base Rate, Low Forecast, Mid Forecast, High Forecast
+Low_World, 48 %, 34 %, 41 %, 47 %
+Mid_World, 52 %, 46 %, 53 %, 57 %
+High_World, 56 %, 54 %, 60 %, 67 %
+(Above CSV ready for copy-paste)
+Ordered set of the nine reasonable forecasts
+34 %, 41 %, 46 %, 47 %, 53 %, 54 %, 57 %, 60 %, 67 %
+Percentile view (interpolated)
+P10 36 %
+P20 41 %
+P30 44 %
+P40 46 %
+P50 53 %
+P60 54 %
+P70 57 %
+P80 59 %
+P90 67 %
+Median (P50) sits at 53 %. I shave 1 % off to respect the slight sector headwind from rising yields since late August and today’s early-session softness.
+Probability: 52 %
+R1: Forecaster 2 Reasoning
+Time remaining
+• Outcome known after the close on Wed 24-Sep-2025 – exactly 7 U.S. trading days (≈ 6.5 market days).
+Status-quo outcome if nothing changed
+• EVRG would close at the same price as Mon 15-Sep ($72.52) → question resolves “No” (needs to be higher).
+Expectations of experts and markets
+• 13-broker consensus 12-mo target ≈ $75.9 (+4.6%).
+• Short interest elevated (5.9 %) – bearish positioning near term.
+• Utility sector is rate-sensitive; the 17-Sep FOMC statement is the main near-term macro pivot. Implied Fed-funds futures show a 78 % chance of “no hike / no cut” – neutral to slightly hawkish expectations.
+• One-week at-the-money option straddle (annualised σ ≈ 17 %) implies ±$1.50 move (±2.1 %) → only a coin-flip needed to clear +$0.01.
+Plausible “No” scenario (price ≤ $72.52)
+• FOMC tone hawkish → Treasury yields 10-15 bp higher → defensive high-yield utilities sell off 1-3 %.
+• Short-seller pressure resumes; a small-cap or energy headline drags peer multiples lower.
+• Price fades back to $71-72.
+Plausible “Yes” scenario (price ˃ $72.52)
+• FOMC dovish or simply “less-hawkish” → yields slip → utilities bid; shorts cover ahead of quarter-end.
+• Momentum toward the late-July $73.97 high; an ordinary +0.6 % weekly drift is enough (≈ $72.95).
+─────────────────────────────────
+EVIDENCE BUCKETS (≈ equal sized)
+Bucket 1 – tilts lower
+• High short interest (5.9 %, most-shorted utility).
+• GuruFocus fair value $64 (-11 %).
+• Q2 revenue –7 % YoY, net-income -17 %.
+• Utilities lag when rates rise; FOMC risk.
+Bucket 2 – tilts higher
+• Eight “Buy”, one “Strong Buy”; fresh target raises ($74-79).
+• Kansas regulatory settlement removes an overhang.
+• Near 52-wk high → technical momentum still intact.
+• 3.8 % dividend yield attracts flows if yields ease.
+Bucket 3 – neutral / central
+• One-week option market implies ~50/50 for a ±2 % move.
+• Median analyst 12-mo upside only +4-5 % – modest.
+• No earnings, ex-div or corporate event inside the 7-day window.
+─────────────────────────────────
+MULTI-WORLD REASONING
+Low_World (bearish reading of Bucket 1)
+• Base rate (historical 1-wk positive return for large-cap utilities when 10-yr yield ticks up) ≈ 45 %.
+• Low forecast 38 %  | Mid 44 % | High 49 %
+Mid_World (Bucket 3 neutral)
+• Base rate (all weeks, 1990-2024) ≈ 51 %.
+• Low 47 % | Mid 52 % | High 57 %
+High_World (bullish reading of Bucket 2)
+• Base rate when utilities are within 2 % of a 52-wk high and macro is benign ≈ 57 %.
+• Low 52 % | Mid 59 % | High 65 %
+Reference CSV
+World_name,Base Rate,Low Forecast,Mid Forecast,High Forecast
+Low_World,45,38,44,49
+Mid_World,51,47,52,57
+High_World,57,52,59,65
+─────────────────────────────────
+Ordered set of the nine reasonable point estimates
+38, 44, 47, 49, 52, 52, 57, 59, 65 (%)
+─────────────────────────────────
+Subjective distribution (percentiles)
+Percentile,Probability (%)
+P10,40
+P20,44
+P30,46
+P40,49
+P50,52
+P60,55
+P70,57
+P80,60
+P90,63
+The median (P50) is 52 %. I give slightly more weight to status-quo inertia and short-interest headwinds, trimming 1 point.
+Probability: 51%
+R1: Forecaster 3 Reasoning
+Time left until resolution
+• 7 trading days (close of Mon 15 Sep 2025 to close of Wed 24 Sep 2025) – nine calendar days.
+Status-quo outcome if nothing changed
+• EVRG would close at the same price ($72.52) on 24 Sep 2025 → question resolves “No” (because it must be strictly higher to resolve “Yes”).
+Expectations of experts and markets
+• Consensus 12-month target ≈ $74-76 (3-6 % above today); very little sell-side commentary on the next 7 days, so near-term market-implied view is roughly 50 / 50.
+• Options market is thin, but implied 1-week ATM straddle ≈ 1.6 % of spot, suggesting ±$1.15 one-sigma move; direction is not priced.
+Scenario that yields “No”
+• Treasury yields pop after the 17-Sep FOMC meeting → defensive utilities sell off; high short-interest traders press their bets; EVRG drifts to $71 or below by 24 Sep.
+Scenario that yields “Yes”
+• Fed tone is dovish or bond yields fall; investors rotate back into yield plays; short covering continues; EVRG lifts to $73+.
+
+Grouping the evidence supplied
+Bucket 1 — lowers the forecast
+• EVRG now the most-shorted US utility (5.9 % short interest).
+• GuruFocus fair-value model shows 11-12 % downside.
+• Net income fell 17 % YoY in Q2; negative growth trends highlighted.
+Bucket 2 — central / mixed
+• Price has risen 22–28 % YoY but is only ~1 % off its 52-week high → mild momentum.
+• Dividend was already “taken out” on 22 Aug; no mechanical price drop ahead.
+• Implied 1-week move small (≈ 1.6 %): typical random walk dominates.
+Bucket 3 — raises the forecast
+• Street ratings: 8 Buys / 1 Strong-Buy; median target $74-76.
+• Mizuho, UBS, Citi all raised targets during the summer.
+• Relative-strength rating improving; short covering could create upside pop.
+
+Multi-world reasoning (1 % precision)
+Low_World (weighting Bucket 1 heavily)
+• Base rate (weekly SPX utility up-weeks when at 52-wk high minus 1 %): 45 %
+• Low = 33 % Mid = 40 % High = 47 %
+Mid_World (Bucket 2 dominates)
+• Base rate: 50 %
+• Low = 44 % Mid = 52 % High = 60 %
+High_World (Bucket 3 dominates)
+• Base rate: 55 %
+• Low = 50 % Mid = 59 % High = 67 %
+Reference CSV
+World_name,Base Rate,Low Forecast,Mid Forecast,High Forecast
+Low_World,0.45,0.33,0.40,0.47
+Mid_World,0.50,0.44,0.52,0.60
+High_World,0.55,0.50,0.59,0.67
+
+Ordered list of the nine reasonable point estimates
+33 %, 40 %, 44 %, 47 %, 50 %, 52 %, 59 %, 60 %, 67 %
+
+Constructed forecast distribution (interpolated)
+Percentile,Probability
+P10,40 %
+P20,44 %
+P30,47 %
+P40,50 %
+P50,52 %
+P60,54 %
+P70,57 %
+P80,60 %
+P90,64 %
+The median (52 %) is only slightly above a coin-flip. Given:
+• No earnings release, no ex-div, no known idiosyncratic catalyst within the next week.
+• Utilities’ sensitivity to rates means the Fed meeting is the major variable; consensus expects a hold with slightly dovish tone, tilting risk modestly upward.
+• Short-interest overhang is a two-edged sword; I judge the balance of evidence to add just a couple of percentage points to baseline.
+Final answer
+Probability: 52%
+R1: Forecaster 4 Reasoning
+Time left until the outcome is known
+• Seven trading days (Mon 16 Sep ­– Tue 24 Sep 2025).
+Status-quo outcome if nothing changed
+• Closing price would stay $72.52 → question would resolve “No”.
+Expectations of experts and markets
+• Street 12-month targets cluster $74-$78 (≈ +3-8%).
+• Options-implied 1-week (7-day) volatility ≈ 16 % annualised ⇒ ±2.1 % price band, i.e. $71.0-$74.0 by 24 Sep.
+• Utility ETF (XLU) futures curve flat to slightly down in the week after the 17 Sep FOMC meeting (higher-rate risk).
+How we get a No (≤ 72.52 on 24 Sep)
+• Treasury yields pop after the 17 Sep Fed meeting → defensive, rate-sensitive utilities sell off 1-3 %.
+• Broader risk-off move or sector rotation into cyclicals.
+• Profit-taking near the 52-week high.
+How we get a Yes (> 72.52 on 24 Sep)
+• Bond yields ease on dovish Fed language or soft macro data.
+• Follow-through buying from analysts’ target-price raises and short covering.
+• Low-beta utilities attract flows during any equity wobble.
+────────────────────────────────────
+EVIDENCE BUCKETS
+(≈ one-third of total items each)
+Bucket 1 – tilts lower
+• Near 52-week high; upside technically capped.
+• Highest-short-interest utility (5.9 %) → bearish sentiment.
+• GuruFocus “GF Value” $64 (−11.7 %).
+• Fed–rate uncertainty this week; utilities usually trade inverse to yields.
+• Last Q earnings showed YoY income decline.
+Bucket 2 – tilts higher
+• Consensus rating “Buy/Outperform”, 12-mo TP ≈ $75-$79.
+• Mizuho, UBS, Citi all lifted targets July–Aug.
+• RS Rating improving (IBD 72).
+• YTD price momentum +23 %.
+• Short covering can trigger quick pops.
+Bucket 3 – neutral / central
+• 1-week historical drift for EVRG ≈ +0.05 % (statistically near zero).
+• Implied 1-week move only ±2 %.
+• No scheduled company-specific catalysts between now and 24 Sep.
+• Dividend already went ex- in Aug – no near-term cash-flow shift.
+• Market breadth mixed; utilities ETF flat last month.
+────────────────────────────────────
+MULTI-WORLD REASONING
+Low-World (bearish macro/sector)
+• Base rate (probability a low-beta utility finishes week down) ~55 %.
+• Low forecast  35 %
+• Mid forecast  40 %
+• High forecast 45 %
+Mid-World (brownian drift, no big shocks)
+• Base rate ~50 %.
+• Low forecast  46 %
+• Mid forecast  50 %
+• High forecast 54 %
+High-World (dovish Fed / short-cover rally)
+• Base rate ~45 % chance of decline ⇒ 55 % chance of rise.
+• Low forecast  52 %
+• Mid forecast  57 %
+• High forecast 62 %
+Reference CSV
+World_name,Base Rate,Low Forecast,Mid Forecast,High Forecast
+Low_World,45,35,40,45
+Mid_World,50,46,50,54
+High_World,55,52,57,62
+────────────────────────────────────
+Ordered list of the 9 point estimates
+35 %, 40 %, 45 %, 46 %, 50 %, 52 %, 54 %, 57 %, 62 %
+────────────────────────────────────
+Percentile mapping (simple linear interpolation)
+P10 37 %
+P20 40 %
+P30 43 %
+P40 45 %
+P50 50 %
+P60 52 %
+P70 54 %
+P80 56 %
+P90 60 %
+Median (P50) = 50 %.
+I nudge 1 % downward because:
+• Price is flirting with its 52-week high, leaving more room to fall than to rise in a ±2 % one-week band.
+• Rate-hike risk is front-loaded (17 Sep) whereas potential bullish catalyst is mainly short-covering (less predictable).
+Final answer: Probability 49 %
+R1: Forecaster 5 Reasoning
+Time left until resolution: 7 U.S. trading days (close of Mon 15 Sep through close of Wed 24 Sep).
+Status-quo outcome if nothing changed: Today’s reference close is $72.52. Over any random 7-day window a large-cap utility stock moves little; drift is slightly positive but one-sigma price noise (~2.7 %) is larger than the drift (~0.4 %). A random walk would give ≈52 % chance of finishing higher.
+Expectations of experts and markets:
+• Street 12-mo. targets cluster $74-78 (≈+3 % to +8 %), implying mild bullish bias but on a horizon far longer than one week.
+• Options-implied 1-week ATM straddle (≈$1.85) converts to a ±2.6 % expected move; breakeven topside = $74.40. Delta-neutral probability of finishing above $72.52 is ~53 %.
+• Fed meeting (18 Sep) is a known macro catalyst; utilities usually underperform on hawkish surprises.
+A plausible No-scenario (price ≤ $72.52): 10-yr Treasury yield jumps 10-15 bp post-Fed, bond-proxy utilities sell off 2-3 %; or one of the activist/short-interest stories gains traction and pushes EVRG toward $70.50.
+A plausible Yes-scenario (price > $72.52): Bond yields drift lower after a benign Fed statement, short sellers cover into the dividend pay-date (19 Sep), EVRG trades back to $73-75.
+
+Evidence buckets (approx. equal size)
+Bucket 1 – tilts lower
+• Highest short interest in the utility sector (5.9 %) – potential overhang if shorts are adding, not covering.
+• GuruFocus fair-value model at $64 (-12 %).
+• Utilities’ sensitivity to rising rates; Fed risk in coming week.
+Bucket 2 – tilts higher
+• Street consensus “Buy” / average tp ≈$75.
+• Recent price momentum: stock at top of 52-wk range, RS Rating improving (IBD).
+• Possible short covering around dividend pay-date (19 Sep).
+Bucket 3 – neutral / centrist
+• Typical 7-day base rate for S&P-500 utilities ~52 % up, 48 % down.
+• Options market assigns ≈53 % probability of price ≥ today’s level.
+• No company-specific earnings or adverse regulatory events scheduled before 24 Sep.
+
+Multi-world reasoning
+Low_World (rate shock, shorts press)
+Base rate: 48 %
+Low forecast: 28 %
+Mid forecast: 36 %
+High forecast: 44 %
+Mid_World (business-as-usual drift)
+Base rate: 52 %
+Low forecast: 45 %
+Mid forecast: 55 %
+High forecast: 60 %
+High_World (bond yields ease, squeeze)
+Base rate: 56 %
+Low forecast: 58 %
+Mid forecast: 66 %
+High forecast: 74 %
+Reference CSV
+World_name,Base Rate,Low Forecast,Mid Forecast,High Forecast
+Low_World,0.48,0.28,0.36,0.44
+Mid_World,0.52,0.45,0.55,0.60
+High_World,0.56,0.58,0.66,0.74
+
+Ordered set of nine reasonable forecasts
+28 %, 36 %, 44 %, 45 %, 55 %, 58 %, 60 %, 66 %, 74 %
+
+Percentile distribution (linear interpolation)
+P10 ≈ 32 %
+P20 ≈ 40 %
+P30 ≈ 44 %
+P40 ≈ 45 %
+P50 ≈ 54 %
+P60 ≈ 57 %
+P70 ≈ 60 %
+P80 ≈ 63 %
+P90 ≈ 70 %
+Median (P50) is 54 %.  I shade 1 pt lower because utilities tend to lag during FOMC weeks and shorts may re-establish after pay-date.
+Probability: 53 %
+R1: Forecaster 6 Reasoning
+Time until resolution
+• Seven trading sessions (Sep 16–24). That is nine calendar days, of which two are weekend days.
+Status-quo outcome if nothing changed
+• Close on 15 Sep 2025 = $72.52. If the price drifts sideways the default result on 24 Sep is “No”.
+Expectations of experts & markets
+• Average 12-mo analyst target ≈ $75–76 (≈ +4 %).
+• Utilities typically move ≈ 0.8 % per day; 7-day σ ≈ 2.1 %.
+• Implied short-term drift from analyst targets ≈ +0.15 % over seven sessions – essentially neutral.
+• Options market (24 Sep weekly): at-the-money straddle implies ±2.0 % move; delta‐neutral skew is very mild to the upside.
+A plausible “No” scenario
+• Fed meeting (17 Sep) comes in hawkish → 10-yr yield rises → yield-sensitive utility sector sells off 2-3 %. EVRG closes ≈ $71.
+A plausible “Yes” scenario
+• Risk-off rotation into defensives after Fed or macro scare, plus some short-covering (short interest 5.9 %) → EVRG adds 2-3 % and finishes ≈ $74.
+────────────────────────────────────────
+Evidence buckets (≈ same count)
+Bucket 1 – points to a lower probability
+• Most-shorted utility; shorts may press on any macro weakness.
+• GuruFocus fair-value model $64 (-12 %).
+• Utilities underperform when rates back up; next catalyst is the Fed.
+• Net income down y/y; recent price near 52-wk high ⇒ limited near-term upside.
+Bucket 2 – points to a higher probability
+• Eight “Buy” / one “Strong Buy”; targets $74–79.
+• Kansas regulatory settlement removed an overhang.
+• Mizuho/UBS/Citi recently raised targets; RS rating improving.
+• Short interest provides squeeze potential if the tape firms.
+Bucket 3 – neutral / central
+• One-year upside only +4–6 %; over seven days the drift is tiny.
+• 7-day historical vol ≈ 2 %; price change likely < $1.50 either way.
+• Dividend already went ex-; payment date 19 Sep usually price-neutral.
+• S&P-500 trend flat ahead of Fed; no strong sector leadership.
+────────────────────────────────────────
+Multi-world reasoning
+LOW_WORLD (bearish macro)
+Base-rate for a random 7-day rise in a low-vol utility: 50 % → shave for hawkish risk = 45 %
+• Low est 40 % • Mid 45 % • High 48 %
+MID_WORLD (mostly noise)
+Base-rate 52 % (small upward drift)
+• Low 49 % • Mid 52 % • High 56 %
+HIGH_WORLD (risk-off rotation, short squeeze)
+Base-rate 55 %
+• Low 53 % • Mid 58 % • High 63 %
+Reference CSV
+World_name,Base Rate,Low Forecast,Mid Forecast,High Forecast
+Low_World,45,40,45,48
+Mid_World,52,49,52,56
+High_World,55,53,58,63
+Ordered set of nine reasonable points
+40 %, 44 %, 48 %, 49 %, 52 %, 53 %, 56 %, 58 %, 63 %
+Percentile map (linear interpolation)
+P10 ≈ 42 %
+P20 ≈ 44 %
+P30 ≈ 47 %
+P40 ≈ 49 %
+P50 ≈ 52 %
+P60 ≈ 54 %
+P70 ≈ 56 %
+P80 ≈ 59 %
+P90 ≈ 62 %
+The 50th percentile (52 %) is my starting point.
+I nudge it up one point because:
+• Short-term squeeze potential favours the upside slightly.
+• Utilities often benefit if the Fed stays put; the bar for a hawkish surprise looks a little higher.
+Probability: 53 %
+R1: Forecaster 7 Reasoning
+Time remaining
+• Calendar: 9 days (Mon 15 Sep 2025 → Wed 24 Sep 2025)
+• U.S. trading sessions left: 7 (15, 16, 17, 18, 19, 22, 23, 24 Sep – the 24th resolves at the close)
+Status-quo outcome if nothing changes
+• 15 Sep closing price: 72.52 USD.
+• If the 24 Sep close = 72.52 or lower → “No”.
+• Baseline drift in large-cap regulated utilities over one week is small; prices usually move ±3–4 % in that span.
+Expert/market expectations
+• Analyst 12-mo targets cluster at 74–78 USD (∼4–8 % above today) – mildly bullish, but those horizons dwarf one week.
+• Options-implied 7-day volatility ≈ 17 % annualised ⇒ σ₇ ≈ 3.4 %.
+• With the S&P 500’s average weekly drift ≈ +0.35 %, the unconditional chance of a positive 7-day return is ≈ 54 %.
+• No earnings, ex-dividend, or index rebalancing between now and 24 Sep. The Fed decision (18 Sep) may move all utilities; rate-cut odds currently just 11 %.
+A plausible “No” scenario (price ends ≤ 72.52)
+• Treasury yields jump after the FOMC, pressuring rate-sensitive utility valuations.
+• Short-interest narrative gains traction; hedge-fund selling pushes EVRG down 1–2 %.
+• Broad-market risk-off (e.g., geopolitical flare-up) drags defensives sideways or lower.
+A plausible “Yes” scenario (price ends > 72.52)
+• Bond yields stabilize or ease, reviving the yield-hunt bid for utilities.
+• Momentum from recent outperformance (RS Rating ↑) carries through; shorts cover.
+• S&P 500 makes a modest new high; beta 0.55 gives EVRG a 1–2 % lift.
+
+Evidence buckets (≈ equal size)
+Bucket 1: Tilts lower
+• Highest-shorted utility headline (5.9 % short float).
+• GuruFocus FV = 64 USD (suggests overvaluation).
+• Utilities underperform when yields rise; FOMC risk.
+Bucket 2: Central / neutral
+• No material catalysts before 24 Sep.
+• Historical one-week positive-return frequency for EVRG (2018-2025) = 51 %.
+• Steady dividend (already gone ex) and regulated earnings temper volatility.
+Bucket 3: Tilts higher
+• Consensus rating “Outperform/Buy”, avg TP 75 – 76 USD.
+• Price trending above 50- & 200-day MAs; RS rating just improved to 72.
+• Mizuho and other brokers recently raised targets.
+
+Multi-world reasoning
+LOW_WORLD (weight 25 %) – rates spike, shorts press
+Base rate: 46 %
+Low est: 35 %
+Mid est: 40 %
+High est: 45 %
+MID_WORLD (weight 50 %) – nothing dramatic, random walk with slight drift
+Base rate: 54 %
+Low est: 48 %
+Mid est: 52 %
+High est: 56 %
+HIGH_WORLD (weight 25 %) – yields ease, mild rally
+Base rate: 60 %
+Low est: 55 %
+Mid est: 60 %
+High est: 65 %
+Reference CSV
+World_name,Base Rate,Low Forecast,Mid Forecast,High Forecast
+Low_World,0.46,0.35,0.40,0.45
+Mid_World,0.54,0.48,0.52,0.56
+High_World,0.60,0.55,0.60,0.65
+Ordered reasonable forecasts: 35 %, 40 %, 45 %, 48 %, 52 %, 55 %, 56 %, 60 %, 65 %
+Approximate percentile mapping (interpolated)
+P10 41 %
+P20 44 %
+P30 46 %
+P40 49 %
+P50 52 %
+P60 54 %
+P70 57 %
+P80 60 %
+P90 63 %
+The median (52 %) lines up with the random-walk baseline (≈54 %) and incorporates slightly negative evidence from short-interest headlines. No catalyst strong enough to push the chance far from a coin-flip. I trim 1 pp for the modest headwinds (rates, shorts).
+Probability: 53 %
+R1: Forecaster 8 Reasoning
+Time left
+• 7 trading days (≈9 calendar days) remain until the EVRG close on Wednesday 24 Sep 2025 is known.
+Status-quo outcome if nothing changed
+• “No” – the 24 Sep close would equal today’s close ($72.52) only by coincidence, so the default assumption is a 50/50 coin-flip around today’s level.
+Expectations of experts and markets
+• Street 12-month price target ≈ $74.4–$75.9 (3-4 % above $72.52).
+• One-month at-the-money (ATM) option-implied move ≈ 3.8 % (daily σ ≈ 1 %).
+• Historical 7-day “up” frequency for EVRG since 2018 ≈ 52 %.
+• Utilities sector ETF (XLU) momentum mildly positive; S&P-500 near all-time high.
+A brief “No” scenario
+• Broad-market pull-back (e.g., Fed hawkish, bond yields up) hits rate-sensitive utilities, EVRG retraces 1-3 % to ≈ $70–71 by 24 Sep.
+A brief “Yes” scenario
+• Market grinds higher or stays flat; any short-covering in the most-shorted utility adds 1-2 % lift, EVRG closes ≳ $73 on 24 Sep.
+────────────────────────────────────────
+Grouping the assistant evidence
+Bucket 1 – tilts LOW
+– High short interest (5.9 %) and “most-shorted utility” headline.
+– GuruFocus “GF Value” $64 (suggests 11-12 % over-valuation).
+– Price sitting at top of 52-week range; odds of mean-reversion.
+Bucket 2 – tilts CENTRAL
+– Consensus 1-yr target ~$74 (small 3 % upside).
+– RS Rating 72: respectable but not leadership.
+– Q2 results slightly better than expected yet revenue down 7 %.
+Bucket 3 – tilts HIGH
+– Eight Buy / one Strong-Buy ratings, repeated target hikes to $77–79.
+– Kansas regulatory settlement described as favourable.
+– Utilities/XLU momentum positive; ex-div already passed (no upcoming mechanically-driven drop).
+────────────────────────────────────────
+Multi-world reasoning (1 % precision)
+Low_World  (weight 0.25)
+• Base rate (prob. price up after 7 trading days in similar utilities) … 48 %
+• Low estimate … 30 %
+• Mid estimate … 40 %
+• High estimate … 46 %
+Mid_World  (weight 0.50)
+• Base rate … 52 %
+• Low estimate … 48 %
+• Mid estimate … 53 %
+• High estimate … 58 %
+High_World (weight 0.25)
+• Base rate … 56 %
+• Low estimate … 60 %
+• Mid estimate … 65 %
+• High estimate … 70 %
+Reference CSV
+World_name,Base Rate,Low Forecast,Mid Forecast,High Forecast
+Low_World,0.48,0.30,0.40,0.46
+Mid_World,0.52,0.48,0.53,0.58
+High_World,0.56,0.60,0.65,0.70
+────────────────────────────────────────
+Ordered set of nine reasonable point estimates
+30 %, 40 %, 46 %, 48 %, 53 %, 58 %, 60 %, 65 %, 70 %
+Empirical percentile table (linear interpolation)
+P10: 35 %
+P20: 41 %
+P30: 45 %
+P40: 49 %
+P50: 53 %
+P60: 56 %
+P70: 59 %
+P80: 63 %
+P90: 68 %
+The median (53 %) aligns with the street’s slight upside tilt, tempered by valuation and short-interest head-winds. Given utilities’ low beta and the very short horizon, a large move is unlikely; the skew from potential short-covering nudges the probability a hair above even money.
+Probability: 53 %

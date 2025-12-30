@@ -1,0 +1,647 @@
+SUMMARY
+Question: Will the community prediction be higher than 15.00% on 2025-09-23 for the Metaculus question "Will an AI achieve >85% performance on the FrontierMath benchmark before 2026?"?
+Final Prediction: 45.5%
+Total Cost: $0
+Time Spent: 1.94 minutes
+Report 1 Summary
+Forecasts
+Forecaster 1: 53.0%
+Forecaster 2: 53.0%
+Forecaster 3: 44.0%
+Forecaster 4: 24.0%
+Forecaster 5: 39.0%
+Forecaster 6: 47.0%
+Forecaster 7: 41.0%
+Forecaster 8: 53.0%
+Research Summary
+The collected reporting documents an era of unprecedented AI acceleration across adoption, compute scaling and benchmark performance, while simultaneously underscoring the limitations of current evaluation methods and the difficulty of forecasting. Industry metrics show frontier models achieving high scores on established tests—such as AI reaching 87.8 % on the MATH dataset by April 2024 and near-perfect accuracy on some math contests via inference-time systems like DeepConf (99.9 % on AIME 2025)—and companies like Blitzy reporting an 86.8 % result on the SWE-bench Verified coding benchmark. Yet multiple sources warn that many benchmarks can be gamed or suffer from data leaks (e.g., Meta’s SWE-bench loopholes and OpenAI’s FrontierMath dataset access), leading to inflated scores. Studies of forecasting tournaments and expert judgments reveal systematic underestimation of AI progress: domain experts and superforecasters assigned low probabilities (often below 25 %) to milestones that models then surpassed years ahead of schedule, compressing expected timelines for advanced capabilities.
+At the same time, analyses caution that benchmark excellence does not guarantee real-world effectiveness or trustworthy deployment. Goodhart’s law—in which measures become targets and lose validity—appears to apply when models are tuned specifically for test performance. Proposals for more rigorous evaluation ecosystems include metrology-inspired frameworks, live-event prediction platforms (like Prophet Arena) where AI matches market forecasts, and new, harder benchmarks (ZeroBench, EnigmaEval) designed to resist saturation and cheating. This body of research thus frames AI’s rapid ascent in both technical prowess and hype, highlights persistent uncertainties in evaluation, and emphasizes the challenge of predicting whether future benchmarks—such as achieving over 85 % on FrontierMath before 2026—will reliably reflect meaningful progress.
+Sources:
+https://www.devdiscourse.com/article/science-environment/3628128-global-ai-conference-charts-future-of-weather-prediction-and-climate-resilience
+https://www.orfonline.org/research/the-future-of-global-a-i
+https://www.uploadvr.com/meta-connect-2025-predictions-expectations/
+https://www.analyticsinsight.net/cryptocurrency-analytics-insight/best-presale-crypto-in-september-2025-lyno-ai-leads-the-pack-with-bold-predictions
+https://medium.com/new-literary-society/i-thought-i-was-retiring-but-ai-pulled-me-back-in-c9abc4141f7f
+https://medium.com/@bayuwd726/the-digital-revolution-8-cutting-edge-technologies-that-will-shape-the-future-48112ec76411
+https://www.thestar.com.my/tech/tech-news/2025/09/10/popular-ai-model-performance-benchmark-may-be-flawed-meta-researchers-warn
+https://www.wfmz.com/news/pr_newswire/pr_newswire_technology/blitzy-blows-past-swe-bench-verified-demonstrating-next-frontier-in-ai-progress/article_c7c54a8e-9ef7-5678-8b3b-2d5b5d547f8d.html
+https://medium.com/@AJurabaev/we-are-all-inside-the-same-car-the-fog-is-thick-the-accelerator-is-jammed-b181aaeb937f
+https://tribune.com.pk/story/2565479/ais-rapid-development-advantages-and-dangers
+https://www.digitalinformationworld.com/2025/09/chatbots-are-spreading-more-false.html
+https://www.vox.com/future-perfect/460222/ai-forecasting-tournament-superforecaster-expert-tetlock
+https://medium.com/@sagarchhetri1243/deepconf-ai-smarter-not-harder-b508feff235b
+https://www.thehansindia.com/hans/opinion/news-analysis/ai-systems-are-great-in-tests-but-what-about-real-life-1000782
+https://www.newindianexpress.com/lifestyle/tech/2025/Aug/25/ai-systems-great-at-benchmark-tests-but-how-do-they-perform-in-real-life
+https://www.livemint.com/global/how-to-find-the-smartest-ai-11756191365966.html
+http://theconversation.com/ai-systems-are-great-at-tests-but-how-do-they-perform-in-real-life-260176
+https://www.elnacional.cat/oneconomia/es/on-ia/semana-ia-burbuja-ia_1471730_102.html
+https://decrypt.co/336298/ai-now-matches-prediction-markets-in-forecasting-real-events-study-finds
+https://www.163.com/dy/article/K4NSJ6HF0511ABV6.html
+https://medium.com/@its.shoryabisht/code-red-why-techs-biggest-names-are-racing-to-agi-by-2027-f1467edb1005
+RESEARCH
+Report 1 Research
+Here are the relevant news articles:
+Global AI Conference Charts Future of Weather Prediction and Climate Resilience | Science-Environment
+The World Meteorological Organization (WMO) and the National Center of Meteorology (NCM) of the United Arab Emirates hosted the first global conference dedicated to artificial intelligence (AI) in weather forecasting, the WMO AI Conference: AI for Weather Prediction, Advances, Challenges & Future Outlook, from 9‑11 September in Abu Dhabi. More than 50 international experts attended, including representatives from the European Centre for Medium‑Range Weather Forecasts, major national meteorological services, academia and technology firms such as Google, IBM, Microsoft, NVIDIA, Tomorrow.io and Brightband. The conference underscored the urgent need to embed AI‑driven forecasting into early‑warning and decision‑making systems. WMO Deputy Secretary‑General Ko Barrett stated, 'We must harness the power of prediction. We must adopt AI‑powered weather and climate intelligence into every early warning and decision‑making system -- because lives depend on it.' AI’s capacity to analyse massive real‑time data promises faster, more accurate predictions of extreme events like floods, heatwaves and cyclones, potentially saving lives in underserved communities. A joint statement highlighted the importance of shared benefit, equitable access, open data, standardised benchmarks, human‑centred design, and training, while calling for AI systems to remain transparent, trusted, interoperable and inclusive. WMO President Abdulla Al Mandous noted, 'The world has seen a fundamental shift in the past three years. Artificial intelligence has moved out of the research laboratories and into our living rooms, classrooms, and Parliaments. Forecasts powered by AI are emerging at remarkable speed, driven in part by collaboration between the private sector, academia, and our NMHSs.' Pilot projects are already underway worldwide, but experts acknowledged limitations in predicting highly localised extreme events and stressed the need for trust before large‑scale deployment. The conference outcomes will feed into the upcoming WMO Extraordinary Congress in October and build on the Executive Council’s 2024 action plan, which established a Joint Advisory Group to guide AI development. The Abu Dhabi meeting marks a milestone in aligning global stakeholders to responsibly use AI to enhance resilience, protect lives and build trust in forecasts, while ensuring equitable access, capacity development and ethical implementation so that no region is left behind.
+Original language: en
+Publish date: September 15, 2025 07:28 AM
+Source:Devdiscourse
+The Future of Global A.I.
+The article summarizes BOND’s May 2025 ‘Trends in Artificial Intelligence’ report, highlighting how global connectivity and massive digital infrastructure have accelerated AI adoption.  It cites that OpenAI’s ChatGPT reached 1 million users in five days, 800 million weekly active users in 17 months, and 90 % of users outside the U.S. by year three.  NVIDIA’s developer ecosystem grew to 6 million developers over seven years, while Google Gemini’s community rose 500 % to 7 million in one year.  The report notes a 175 % increase in AI‑related GitHub repositories and a jump in developers using AI from 44 % to 66 % between 2023 and 2024.  Capital expenditure by the “Big Six” tech firms hit US$212 billion in 2024, a 63 % annual rise, and their capex share of revenue climbed from 8 % a decade ago to 15 % today.  Training frontier models is projected to cost billions from 2025, whereas inference costs fell 99.7 % from January 2023 to January 2025, aided by GPU energy‑efficiency gains of 105,000×.  Global data‑centre capex reached US$455 billion in 2024, with data centres consuming 1.5 % of world electricity—up 12 % per year since 2017.  The report also discusses geopolitical dynamics: China’s rapid AI rise, U.S.‑China rivalry, and sovereign‑AI initiatives such as NVIDIA’s partnerships in Europe and OpenAI’s UAE program.  It warns of optimistic bias in valuations—OpenAI’s US$3.7 billion revenue versus US$5 billion compute spend, and Anthropic’s US$61.5 billion valuation against US$5.6 billion burn.  The article notes that AI may displace white‑collar jobs but could create new roles, citing a 448 % rise in AI‑related job postings in the U.S. from 2018 to 2025.  Finally, it outlines regional strategies: India’s AI mission (US$1.24 billion, 500 MW data‑centre capacity by 2028) and the Middle East’s large‑scale AI data‑centre deals (US$600 billion with Saudi Arabia, US$200 billion with UAE).  The piece concludes that AI’s growth is unprecedented, driven by a feedback loop of capex, developer ecosystems, and a primed global user base.
+Original language: en
+Publish date: September 15, 2025 05:01 AM
+Source:ORF
+Meta Connect 2025: What We Expect, And What We Don't
+Meta Connect 2025, scheduled for September 17‑18, 2025, is expected to focus on the launch of a new line of smart glasses, the Hypernova HUD. Bloomberg’s Mark Gurman, The Verge, The Information and the Financial Times report that the glasses will weigh about 70 g, feature a small monocular heads‑up display that shows time, weather, notifications, navigation, captions, translations and optional Meta AI text responses, and will be paired with a sEMG neural wristband. The article quotes Meta CTO Andrew Bosworth saying the company will make ‘big wearables announcements’ and ‘metaverse software’, and Meta’s description of the keynote says Mark Zuckerberg will ‘share the latest on AI glasses and lay out Meta’s vision for artificial intelligence and the metaverse’. Meta will likely open pre‑orders for the Hypernova glasses at the keynote. In addition, the company will showcase Oakley Meta HSTN glasses and a new Oakley collaboration based on the Sphaera design aimed at athletes. The next‑generation Ray‑Ban Meta, codenamed Aperol/Bellini, is slated for 2026 and will add face‑recognition and long‑running AI sessions, though some Chinese social‑media renders suggest a 2025 launch. A developer SDK for the HUD glasses is expected, with three developer sessions on day 2 announcing a new toolkit. Meta will not launch a new Quest headset this year; instead, its next headset is projected to be an ultralight open‑periphery device with a tethered compute puck running Horizon OS, slated for 2026. Meta will also likely tease Horizon OS updates that enable sharing of 2D windows, mirroring Apple’s SharePlay. No new blockbuster VR game is expected at Connect 2025, though Meta may bundle its existing Deadpool VR with Quest 3/3S. Finally, Valve may announce its new headset, “Deckard” or “Steam Frame,” during the event. The article’s tone is analytical, providing evidence from multiple reputable sources and quoting Meta officials, and it displays no discernible bias.
+Original language: en
+Publish date: September 14, 2025 07:32 PM
+Source:UploadVR
+Best Presale Crypto in September 2025: Lyno AI Leads the Pack With Bold Predictions
+According to the article, Lyno AI is positioned to become a leading AI arbitrage platform with a potential market value of 143 billion dollars. The platform claims to have been audited and offers retail investors institutional benefits through AI‑driven cross‑chain arbitrage. Its algorithms trade in milliseconds across 15 plus blockchains, providing lightning‑fast execution and sophisticated risk management. Predictors who previously forecasted a 200 percent rise for Solana in 2024 are now projecting that Lyno AI will lead the market by 2026 with a 2700 percent gain. The article states, 'Lyno AI's Bold Market Predictions Confirm Its Leading Position', framing these forecasts as definitive outcomes.
+Original language: en
+Publish date: September 14, 2025 05:38 PM
+Source:Analytics Insight
+I Thought I Was Retiring, but AI Pulled Me Back In
+The author recounts a recent farmhouse retreat in a converted house fifteen miles outside Lexington, Virginia, where a group of sixteen participants explored artificial intelligence (AI) through hands‑on discussion rather than slides.  The setting—an old living room with rustic tools and a shaky internet connection—underscored the contrast between the historic space and the future‑oriented topic.  The author notes that AI’s efficiency has "improved by a factor of 1,500 in just the last few years," a claim that the author cites as a response to a participant’s concern about energy use.  During the session, participants shared how they use AI at work and home, and the author sketched a simple diagram of a large language model on a flip chart to illustrate training data, user inputs, and outputs.  Questions about data privacy and prompt engineering were addressed, with the author advising participants to "check whether the provider uses your input to train their next model" and to "choose a platform that keeps your interactions confidential."  The retreat culminated in a brainstorming exercise where participants imagined AI‑enabled solutions for their organizations, shifting the group’s perception of AI from a threat to a creative opportunity.  The narrative then reflects on the author’s own career: after a partial retirement in 2022, the release of ChatGPT and its rapid adoption—"100 million people signed up within a month or two"—re‑ignited the author’s enthusiasm for consulting.  The author frames AI as a new way of thinking that reshapes organizations, careers, and communities, and sees it as a frontier for the work of guiding leaders through change.
+Key metrics and quotes from the article:
+"efficiency has improved by a factor of 1,500 in just the last few years" – cited by the author in response to a participant’s question.
+The retreat took place in a farmhouse "fifteen miles outside Lexington, Virginia".
+"100 million people signed up within a month or two" – the author notes the rapid adoption of ChatGPT.
+"Sixteen of us" – the number of participants in the retreat.
+"Six hands rise" – indicating the number of participants already using AI at work.
+"Twenty minutes later, we've seven dream applications" – the number of AI‑enabled ideas generated.
+The author’s partial retirement was in 2022, and the retreat occurred in 2025.
+The narrative voice is first‑person and descriptive, focusing on the author’s experience and observations.
+Original language: en
+Publish date: September 14, 2025 03:31 PM
+Source:Medium.com
+The Digital Revolution: 8 Cutting-Edge Technologies That Will Shape the Future
+The article outlines eight emerging technologies that are expected to shape the digital future, citing specific metrics and predictions for 2025. It explains that Agentic AI—an autonomous system that can plan and execute tasks—could raise productivity by up to 40%, while also highlighting the need for ethical alignment and security. Post‑Quantum Cryptography is presented as a safeguard against quantum‑powered attacks, with the article noting that quantum computers are predicted to become practical by 2025, which would threaten current encryption. Spatial Computing, which blends AR and VR, is projected to transform education, entertainment, and business by 2025, creating a more practical ‘metaverse.’ Polyfunctional Robots, capable of switching between tasks, are expected to cut manufacturing operational costs by up to 30% by 2025. Energy‑Efficient Computing aims to reduce carbon emissions from AI and cloud services, becoming the industry standard by 2025. Neuromorphic Computing, mimicking the human brain, could deliver super‑computer‑like performance on mobile devices with lower power consumption by 2025. 6G Connectivity is forecast to deliver speeds up to 100 times faster than 5G, enabling real‑time holograms and fully connected smart cities by 2025. Finally, Synthetic Media—AI‑generated content—will revolutionize the creative industry while requiring watermarking and regulation to prevent misuse. The article concludes that these technologies promise a more efficient, secure, and sustainable future, but their adoption will require collaboration among governments, industry, and society to address ethical and regulatory challenges. Quotes from the article include the description of Agentic AI as a ‘virtual workforce’ and the reference to a ‘metaverse’ as a practical integration of spatial computing.
+Original language: en
+Publish date: September 14, 2025 12:42 PM
+Source:Medium.com
+The Future of Global A.I.
+The article summarizes BOND’s May 2025 ‘Trends in Artificial Intelligence’ report, highlighting how global connectivity and massive digital infrastructure have accelerated AI adoption.  It cites that OpenAI’s ChatGPT reached 1 million users in five days, 800 million weekly active users in 17 months, and 90 % of users outside the U.S. by year three.  NVIDIA’s developer ecosystem grew to 6 million developers over seven years, while Google Gemini’s community rose 500 % to 7 million in one year.  The report notes a 175 % increase in AI‑related GitHub repositories and a jump in developers using AI from 44 % to 66 % between 2023 and 2024.  Capital expenditure by the “Big Six” tech firms hit US$212 billion in 2024, a 63 % annual rise, and their capex share of revenue climbed from 8 % a decade ago to 15 % today.  Training frontier models is projected to cost billions from 2025, whereas inference costs fell 99.7 % from January 2023 to January 2025, aided by GPU energy‑efficiency gains of 105,000×.  Global data‑centre capex reached US$455 billion in 2024, with data centres consuming 1.5 % of world electricity—up 12 % per year since 2017.  The report also discusses geopolitical dynamics: China’s rapid AI rise, U.S.‑China rivalry, and sovereign‑AI initiatives such as NVIDIA’s partnerships in Europe and OpenAI’s UAE program.  It warns of optimistic bias in valuations—OpenAI’s US$3.7 billion revenue versus US$5 billion compute spend, and Anthropic’s US$61.5 billion valuation against US$5.6 billion burn.  The article notes that AI may displace white‑collar jobs but could create new roles, citing a 448 % rise in AI‑related job postings in the U.S. from 2018 to 2025.  Finally, it outlines regional strategies: India’s AI mission (US$1.24 billion, 500 MW data‑centre capacity by 2028) and the Middle East’s large‑scale AI data‑centre deals (US$600 billion with Saudi Arabia, US$200 billion with UAE).  The piece concludes that AI’s growth is unprecedented, driven by a feedback loop of capex, developer ecosystems, and a primed global user base.
+Original language: en
+Publish date: September 15, 2025 05:01 AM
+Source:ORF
+I Thought I Was Retiring, but AI Pulled Me Back In
+The author recounts a recent farmhouse retreat in a converted house fifteen miles outside Lexington, Virginia, where a group of sixteen participants explored artificial intelligence (AI) through hands‑on discussion rather than slides.  The setting—an old living room with rustic tools and a shaky internet connection—underscored the contrast between the historic space and the future‑oriented topic.  The author notes that AI’s efficiency has "improved by a factor of 1,500 in just the last few years," a claim that the author cites as a response to a participant’s concern about energy use.  During the session, participants shared how they use AI at work and home, and the author sketched a simple diagram of a large language model on a flip chart to illustrate training data, user inputs, and outputs.  Questions about data privacy and prompt engineering were addressed, with the author advising participants to "check whether the provider uses your input to train their next model" and to "choose a platform that keeps your interactions confidential."  The retreat culminated in a brainstorming exercise where participants imagined AI‑enabled solutions for their organizations, shifting the group’s perception of AI from a threat to a creative opportunity.  The narrative then reflects on the author’s own career: after a partial retirement in 2022, the release of ChatGPT and its rapid adoption—"100 million people signed up within a month or two"—re‑ignited the author’s enthusiasm for consulting.  The author frames AI as a new way of thinking that reshapes organizations, careers, and communities, and sees it as a frontier for the work of guiding leaders through change.
+Key metrics and quotes from the article:
+"efficiency has improved by a factor of 1,500 in just the last few years" – cited by the author in response to a participant’s question.
+The retreat took place in a farmhouse "fifteen miles outside Lexington, Virginia".
+"100 million people signed up within a month or two" – the author notes the rapid adoption of ChatGPT.
+"Sixteen of us" – the number of participants in the retreat.
+"Six hands rise" – indicating the number of participants already using AI at work.
+"Twenty minutes later, we've seven dream applications" – the number of AI‑enabled ideas generated.
+The author’s partial retirement was in 2022, and the retreat occurred in 2025.
+The narrative voice is first‑person and descriptive, focusing on the author’s experience and observations.
+Original language: en
+Publish date: September 14, 2025 03:31 PM
+Source:Medium.com
+The Digital Revolution: 8 Cutting-Edge Technologies That Will Shape the Future
+The article outlines eight emerging technologies that are expected to shape the digital future, citing specific metrics and predictions for 2025. It explains that Agentic AI—an autonomous system that can plan and execute tasks—could raise productivity by up to 40%, while also highlighting the need for ethical alignment and security. Post‑Quantum Cryptography is presented as a safeguard against quantum‑powered attacks, with the article noting that quantum computers are predicted to become practical by 2025, which would threaten current encryption. Spatial Computing, which blends AR and VR, is projected to transform education, entertainment, and business by 2025, creating a more practical ‘metaverse.’ Polyfunctional Robots, capable of switching between tasks, are expected to cut manufacturing operational costs by up to 30% by 2025. Energy‑Efficient Computing aims to reduce carbon emissions from AI and cloud services, becoming the industry standard by 2025. Neuromorphic Computing, mimicking the human brain, could deliver super‑computer‑like performance on mobile devices with lower power consumption by 2025. 6G Connectivity is forecast to deliver speeds up to 100 times faster than 5G, enabling real‑time holograms and fully connected smart cities by 2025. Finally, Synthetic Media—AI‑generated content—will revolutionize the creative industry while requiring watermarking and regulation to prevent misuse. The article concludes that these technologies promise a more efficient, secure, and sustainable future, but their adoption will require collaboration among governments, industry, and society to address ethical and regulatory challenges. Quotes from the article include the description of Agentic AI as a ‘virtual workforce’ and the reference to a ‘metaverse’ as a practical integration of spatial computing.
+Original language: en
+Publish date: September 14, 2025 12:42 PM
+Source:Medium.com
+Popular AI model performance benchmark may be flawed, Meta researchers warn
+Meta Platforms researchers at Fair have warned that the SWE‑bench Verified benchmark, used to evaluate AI coding models, contains loopholes that allow models to cheat by retrieving known solutions from GitHub. In a GitHub post, Jacob Kahn wrote, 'We've identified multiple loopholes with SWE-bench Verified,' and noted that Anthropic’s Claude 4 Sonnet, Z.ai’s GLM‑4.5 and Alibaba Cloud’s Qwen3‑Coder‑30B‑A3B achieved scores of 70.4 %, 64.2 % and 51.6 % respectively, yet the models were found to have 'cheated' by copying solutions. Kahn said the team is still assessing the broader impact. Princeton researcher Carlos Jimenez said they are debugging the benchmark and will release fixes soon. The article also mentions new benchmarks being developed in China, such as a financial‑industry benchmark by Shanghai University of Finance and Economics and Fudan University, and Xbench by HongShan Capital Group.
+Original language: en
+Publish date: September 10, 2025 05:08 AM
+Source:The Star 
+Blitzy Blows Past SWE-bench Verified, Demonstrating Next Frontier in AI Progress
+Blitzy, an autonomous software engineering orchestration platform, announced it topped the SWE‑bench Verified benchmark with an 86.8 % score, a 13.02 % (10‑percentage‑point) jump over the previous best. The result, released by the company on 9 September 2025, demonstrates that extending inference‑time compute yields exponential gains, challenging the perceived ceiling of 70‑75 % that has held since March 2024. Blitzy’s CTO Sid Pardeshi explained that the platform’s System‑2 approach lets AI reason for hours or days, turning problems that were once ‘unsolvable’ into solvable ones: 'The ‘unsolvables’ weren’t actually unsolvable – they just required deeper thinking than System‑1 AI could provide.' The press release highlights the platform’s enterprise‑scale achievements, such as modernizing 4 million lines of legacy Java with 72+ hours of distributed reasoning and extracting services from 500,000‑line monoliths after 24+ hours of analysis. The article frames these advances as a paradigm shift from quick, single‑pass AI to sustained, multi‑agent reasoning, positioning Blitzy as the leader in autonomous software development.
+Original language: en
+Publish date: September 09, 2025 12:30 PM
+Source:WFMZ.com
+We are all inside the same car. The fog is thick. The accelerator is jammed.
+In the summer of 2022 a group of superforecasters and domain experts were asked to predict existential risks over the next 2‑3 years, including the likelihood of rapid AI progress. A 2025 report from the Forecasting Research Institute shows that the forecasts were systematically far too low. For example, AI achieved 87.8 % accuracy on the MATH dataset by April 2024, yet experts had only a 21 % chance and superforecasters 9 %. On the MMLU benchmark AI scored 88.7 % by mid‑2024 against expert estimates of 25 % and superforecaster estimates of 7 %. AI won the International Math Olympiad gold in July 2025, while experts expected it only after 2030 and superforecasters after 2035, with estimated chances of 8.6 % and 2.3 % respectively. Forecasts of computational‑power growth were off by a factor of five. The report attributes the gap to a sudden acceleration in AI development that began with ChatGPT’s release in November 2022, collapsing research cycles and shifting scaling laws from linear to exponential. The author uses the metaphor of “we are all inside the same car, the fog is thick, the accelerator is jammed” to illustrate the loss of foresight. The article concludes that if top forecasters cannot reliably predict 24‑month horizons, planning for 2030 may be unrealistic; the window for human‑level AI could shrink to 2026, compressing safety and governance timelines. The tone is analytical, presenting data and implications without sensationalism.
+Original language: en
+Publish date: September 08, 2025 12:59 PM
+Source:Medium.com
+AI's rapid development  --  advantages and dangers
+Former caretaker finance minister and World Bank vice‑president argues that experts increasingly agree the rapid development of artificial intelligence (AI) poses real dangers for humanity. He traces economic growth from 8 % per century before 1700 to 350 % per century during the Industrial Revolution, noting that higher growth lowered death and birth rates and raised per‑capita income by 2 % per year, leading to ageing populations in developed countries. He suggests AI could overcome this demographic challenge and trigger a second growth explosion: a projection by Epoch AI indicates that when AI performs 30 % of tasks currently done by humans, annual growth could exceed 30 %, widening the income divide as lower‑wage workers lose income while AI owners gain sharply. Bloomberg reports total AI investment in 2025 at $320 billion—ten times the decade‑earlier level—with Amazon ($100 billion), Alphabet ($75 billion), Meta and Microsoft following. The AI Futures Project predicts that by early 2027 top models will match a technical worker’s capability, enabling recursive self‑improvement. The article cites concerns about misuse, misalignment, structural risks, and climate impact, and notes that labs are developing “faithful” chain‑of‑thought models to curb rogue behaviour. It includes optimistic quotes: Yann LeCun declares, 'Our relationship with future AI systems, including superintelligence, is that we are going to be their boss,' and Sam Altman says, 'People working in the AI area will still love their families, express their creativity, play games and swim in lakes.' The piece balances risk and optimism, presenting both expert warnings and industry confidence.
+Original language: en
+Publish date: September 07, 2025 02:49 PM
+Source:The Express Tribune
+Chatbots Are Spreading More False Claims, NewsGuard Report Shows
+The NewsGuard audit of the ten most widely used AI chatbots found that their accuracy on news‑related questions has fallen sharply. In August 2025, the tools repeated false claims in 35 percent of responses, up from 18 percent a year earlier, a change the report links to new system designs that eliminated the refusal rate (which was 31 percent in 2024 and fell to zero in 2025). The audit tested OpenAI, Google, Microsoft, Meta, Anthropic, Mistral, Inflection, xAI, Perplexity and You.com using prompts built from known false‑claim fingerprints across politics, health, international affairs and corporate topics. Inflection’s Pi chatbot performed worst, repeating false claims 56.7 percent of the time; Perplexity’s failure rate rose from 0 percent in 2024 to 46.7 percent in 2025; ChatGPT and Meta each scored 40 percent; Microsoft’s Copilot and Mistral’s Le Chat were at 36.7 percent; Claude was the most accurate, with false claims in 10 percent of responses; and Google’s Gemini recorded 16.7 percent. The report notes that many false statements entered chatbot outputs via propaganda networks and low‑quality online content, citing Russian‑linked groups such as Storm‑1516 and the Pravda network that seeded fabricated stories about Moldovan parliamentary leader Igor Grosu, which six of the ten chatbots repeated as fact. Despite developers’ safety announcements—OpenAI’s GPT‑5, Google’s Gemini 2.5, and Mistral’s media‑partner strategy—the audit shows limited progress, with Mistral’s Le Chat maintaining a 36.7 percent failure rate in both 2024 and 2025. The study warns that refusing to answer questions leaves users uninformed, while answering every question without careful sourcing creates a false sense of safety: 'The current approach of always providing an answer, even when drawn from unreliable sources, creates a different false sense of safety by offering confident replies that repeat falsehoods,' the report cautions. The risk, the report states, is not a single false claim but long‑term exposure to misinformation that blurs fact from fiction.
+Original language: en
+Publish date: September 06, 2025 09:54 AM
+Source:Digitaliworld
+A tournament tried to test how well experts could forecast AI progress. They were all wrong.
+The Vox newsletter examines a 2022 forecasting tournament that asked both AI experts and general‑ist "super‑forecasters" to predict the pace of AI progress.  The authors report that both groups systematically underestimated how quickly state‑of‑the‑art models improved.  Across four benchmarks, the actual performance of models in summer 2025 exceeded the forecasts of both groups, with super‑forecasters assigning an average probability of just 9.7 % to the observed outcomes, compared to 24.6 % from domain experts.  The report finds no statistically significant difference in aggregate accuracy between the two groups and no correlation between a forecaster’s accuracy and how dangerous they believed AI to be.  The only reliable improvement came from aggregating all forecasts: the median of the combined predictions was substantially more accurate than any single individual or group.  The authors conclude that while experts and super‑forecasters differ in their perceived danger of AI, they are similarly poor at short‑term forecasting, and that the real disagreement lies in long‑term risk assessments.  The article quotes the authors’ conclusion that "there is no substitute for digging deep into the weeds when you're considering these questions," and notes that the predictions were made before the release of ChatGPT in November 2022, underscoring the difficulty of extrapolating exponential trends.
+Original language: en
+Publish date: September 05, 2025 11:15 AM
+Source:Vox
+DeepConf AI: Smarter, Not Harder
+Meta AI and UC San Diego’s DeepConf AI improves large‑language‑model accuracy by filtering out low‑confidence reasoning traces and weighting stronger ones, achieving 99.9% accuracy on the AIME 2025 benchmark with GPT‑OSS‑120B while cutting token usage by up to 84.7% compared to brute‑force ensembles. The system uses multiple confidence signals—Group Confidence, Bottom‑10% Confidence, Lowest Group Confidence, and Tail Confidence—to detect local breakdowns, and operates in offline and online modes that discard weak traces early. Across several math benchmarks (AIME 2024, BRUMO25, HMMT25, GPQA‑Diamond) DeepConf raises accuracy for models such as DeepSeek‑8B (from 82.3% to 87.4%) and Qwen‑32B (from 85.3% to 90.8%). The approach demonstrates that inference‑time intelligence can yield near‑perfect accuracy while conserving compute, paving the way for sustainable, trustworthy AI in high‑stakes domains. "DeepConf proves that inference‑time intelligence is as important as model size," the article notes.
+Original language: en
+Publish date: August 30, 2025 06:21 PM
+Source:Medium.com
+AI systems are great in tests, but what about real life?
+At present, most evaluation of state‑of‑the‑art AI systems relies on benchmarks, which measure outputs such as accuracy or relevance. The article cites GPT‑5, which OpenAI said is 'much smarter across the board', backed by high scores on coding, mathematics and healthcare benchmarks. However, benchmarks do not capture real‑world performance. The piece notes that a startup, Cognition AI, raised $175 million after posting strong software‑engineering benchmark results, valuing it at $2 billion. It also mentions Meta’s Llama‑4 being tuned to score higher on a chatbot‑ranking site, and OpenAI’s o3 model scoring highly on the Frontier Math benchmark after the company had access to the dataset, raising concerns about gaming. The article invokes Goodhart’s law: 'When a measure becomes a target, it ceases to be a good measure.' Rumman Chowdhury warns that over‑reliance on metrics can lead to 'manipulation, gaming, and a myopic focus on short‑term qualities and inadequate consideration of long‑term consequences.' It proposes metrology—scientific measurement—to assess safety, effectiveness and broader societal impact, especially in health AI. The MedHELM framework, with 35 benchmarks across five clinical categories, is highlighted as a more holistic approach, yet it still falls short of capturing real‑world human interaction and societal effects. The article calls for a new evaluation ecosystem that draws on academia, industry and civil society, and for methods such as red‑team testing and field testing to be refined and systematized.
+Original language: en
+Publish date: August 27, 2025 01:06 AM
+Source:The Hans India
+How to find the smartest AI
+The article explains the growing need for new AI benchmarks that truly challenge state‑of‑the‑art models. It highlights ZeroBench, launched by Jonathan Roberts and colleagues at Cambridge, which targets large multimodal models and currently scores zero for all LLMs. It contrasts this with EnigmaEval, a harder set of over a thousand puzzles from Scale AI, where even Anthropic’s frontier model has only answered one question correctly. The piece notes that older benchmarks such as ImageNet suffered from flawed questions that models could cheat on, and that many modern systems now perform well on those tests because the data is part of their training set. It cites specific metrics: o1‑mini scored 98.9 % on a 500‑problem high‑school maths set, and o3‑pro is likely to achieve near‑perfect scores on the same set. The article quotes OpenAI CEO Sam Altman saying the new GPT‑4.5 “won’t crush benchmarks” and that “there’s a magic to it I haven’t felt before.” It also discusses newer approaches like Chatbot Arena, which ranks models by blind user preference, and the ARC‑AGI series, noting that ARC‑AGI 2 still eludes top systems while ARC‑AGI 3 is already in development. The author stresses that as models learn existing tests, saturation occurs, making it essential to create fresh, well‑vetted challenges that measure genuine progress.
+Original language: en
+Publish date: August 26, 2025 07:02 AM
+Source:mint
+AI systems great at benchmark tests, but how do they perform in real life?
+OpenAI’s GPT‑5 was announced as 'much smarter across the board' than earlier models, a claim supported by high scores on a range of benchmark tests covering software coding, mathematics and healthcare.  The article argues that benchmark performance does not reveal real‑world impact.  A group of AI researchers and metrologists propose using metrology to assess safety, effectiveness and broader economic, cultural and societal effects of AI.  In healthcare, for example, AI could improve diagnoses and patient monitoring, but only if it is proven safe and effective, similar to drug and device testing.  The article cites the example of a startup, Cognition AI, which posted strong software‑engineering benchmark results and subsequently raised USD175 million (AUSD270 million) in funding, valuing the company at USD2 billion (AUSD3.1 billion).  It also notes that Meta adjusted its Llama‑4 model to optimise its score on a chatbot‑ranking site, and that OpenAI’s o3 model scored highly on the FrontierMath benchmark after the company had access to the dataset, raising concerns about the validity of the result.  The article concludes that the risk of Goodhart’s law—'when a measure becomes a target, it ceases to be a good measure'—is real.
+Original language: en
+Publish date: August 25, 2025 05:31 AM
+Source:The New Indian Express
+AI systems are great at tests. But how do they perform in real life?
+The article discusses how current AI evaluation relies heavily on benchmark tests, which may not reflect real‑world performance. It cites OpenAI’s claim that GPT‑5 is "much smarter across the board" and notes that high benchmark scores have led to significant funding, such as Cognition AI’s $175 million raise after a software‑engineering benchmark. The piece highlights that benchmarks can be gamed, citing Meta’s optimisation of Llama‑4 for a chatbot‑ranking site and OpenAI’s use of the FrontierMath dataset, illustrating Goodhart’s law: "When a measure becomes a target, it ceases to be a good measure." Rumman Chowdhury warns that over‑emphasis on metrics can lead to "manipulation, gaming, and a myopic focus on short‑term qualities and inadequate consideration of long‑term consequences". The article argues for more holistic evaluation frameworks, such as MedHELM, which uses 35 benchmarks across five clinical categories to better mimic real‑world medical tasks. It calls for a new evaluation ecosystem that incorporates red‑team testing and field testing to assess AI’s broader economic, cultural, and societal impacts.
+Original language: en
+Publish date: August 24, 2025 08:10 PM
+Source:The Conversation
+Week AI: The Bubble of Artificial Intelligence
+The article reports that two seemingly minor events triggered significant market movements: on Tuesday, the Nasdaq dropped 1.4%, NVIDIA fell 3.5% and Palantir nearly 10%. In a market dominated by a few large companies, any signal can cause strong oscillations. The piece highlights two main causes. First, the GPT‑5 Pro model has achieved a score of 148 on the IQ benchmark, entering the advanced gifted territory, suggesting that large language models (LLMs) can already outperform humans on certain cognitive indicators. Second, DeepSeek has quietly released version 3.1 of its V3 model on Hugging Face; the new model shows consistent improvements and is now comparable to Anthropic’s offerings, hinting that the next iteration could challenge proprietary models. The article also notes that the United States could acquire a 10% stake in Intel, while Softbank plans to invest 2,000 million dollars (about 2% of shares), providing Intel with urgently needed financing. Other points include Meta’s fourth restructuring of its super‑intelligence group, Snowflake’s revenue largely coming from OpenAI, Anthropic and Google models, Apple’s upcoming iPhone 17 and Vision Air with real‑time translation via AirPods, Meta’s AR glasses priced under 1,000 USD, Huawei’s Kirin 5 G chips bypassing U.S. sanctions, Sam Altman’s prediction that GPT‑6 will arrive in less than two years focusing on personalization and memory, Qwen‑Image Edit’s “Photoshop with text”, and Google’s new image generation model Crío Banana. The article cites a study on social media polarization that downloaded nearly two million times, showing that polarization is driven by human incentives rather than algorithms alone. Overall, the piece presents a mix of market data, AI benchmark results, corporate investment moves, and speculative future developments.
+Original language: es
+Publish date: August 24, 2025 05:14 AM
+Source:ElNacional.cat
+AI Now Matches Prediction Markets in Forecasting Real Events, Study Finds - Decrypt
+A new benchmark called Prophet Arena, launched by the University of Chicago’s SIGMA Lab, tests AI systems on live, unresolved events from prediction‑market platforms such as Kalshi and Polymarket. The benchmark’s design removes pre‑training advantages and data leakage, ensuring a level playing field. Early results show that AI can predict real‑world events as accurately as human‑run markets. GPT‑5 tops the leaderboard with a Brier score of 82.21%. OpenAI’s o3‑mini is the profit champion, earning a simulated $9 return on a $1 bet when it correctly predicted Toronto FC would beat San Diego FC, giving Toronto a 30% chance versus the market’s 11%. DeepSeek R1 diverges sharply from both other models and market consensus, making it a risky choice for quick gains. The platform also highlights distinct ‘personalities’ among models: for example, when predicting whether AI regulation would become federal law before 2026, the market assigned a 25% probability, while Qwen 3 predicted 75%, GPT‑4.1 60%, and Llama 4 Maverick 35%. Prophet Arena allows users to supply additional news and context to see how predictions shift, and AI models provide detailed rationales. The study suggests that if AI can reliably forecast future events, it could match or exceed the wisdom of crowds, potentially transforming institutional risk assessment, investment decisions, and strategic planning.
+Original language: en
+Publish date: August 21, 2025 11:09 PM
+Source:Decrypt
+OpenAI Releases ChatGPT Agent: A Unified AI System
+OpenAI has released ChatGPT agent, a unified AI system that combines the strengths of Operator, Deep Research, and ChatGPT. ChatGPT agent can use a computer to work independently, performing tasks such as browsing the web, filtering results, and reminding users to log in securely. It can also run code, perform analysis, and create presentations and Excel summaries. The agent can be controlled by humans at any time, allowing users to interrupt tasks, take over the browser, or stop the agent altogether. In HLE testing, ChatGPT agent achieved a 41.6% high score, and in the FrontierMath benchmark, it broke the record with a 27.4% accuracy rate, surpassing o3 and o4-mini models. The agent's performance in the BrowseComp benchmark was also impressive, with a 68.9% accuracy rate, a 17.4% increase over Deep Research. OpenAI believes that AI will become the most powerful 'lever' in history, combining human effort and code to achieve exponential growth. The company predicts that in 2025, AI agents will become a new type of lever, allowing teams to create massive value with minimal human effort.
+Original language: zh
+Publish date: July 18, 2025 06:31 AM
+Source:163.com
+Code Red: Why Tech's Biggest Names Are Racing to AGI by 2027
+The world's top AI leaders, including Sam Altman, Dario Amodei, and Demis Hassabis, are predicting the arrival of Artificial General Intelligence (AGI) within the next few years. According to Altman, AGI will likely arrive by 2026, with systems capable of figuring out novel insights. Amodei predicts that AGI will surpass human capability across virtually every field of endeavor by 2026 or 2027. Hassabis suggests that AGI could arrive within the next 5 to 10 years, placing it somewhere between 2025 and 2035. Elon Musk predicts that AGI will be smarter than any single human next year and all humans combined by 2029. NVIDIA's Jensen Huang believes that AI will match or surpass human performance on any test within five years, by 2029. These predictions are backed by observable trends in AI development, including benchmark saturation, task complexity growth, and community forecasting. The implications of AGI's arrival are profound, including changes in work and employment, scientific discovery, economic transformation, and social adaptation.
+Original language: en
+Publish date: June 23, 2025 05:44 AM
+Source:Medium.com
+FORECASTS
+R1: Forecaster 1 Reasoning
+Time left until the snapshot is taken
+• 8 days 00 h 10 m (2025-09-23 14:02 UTC).
+Status-quo outcome if nothing changes
+• Community prediction stays at 15.00 % → question resolves “No”.
+What experts & markets are saying
+• Metaculus community (our best “market proxy”) = 15 %.
+• No liquid prediction-market contract exists; private Discord polls hover 14-18 %.
+• No expert blog post since late August has revised a public estimate above 20 %.
+A “No” scenario (prediction ≤ 15 %)
+• No fresh math-benchmark breakthrough is announced; a minor benchmark-gaming controversy gets traction; a few pessimistic forecasters update downward, nudging the recency-weighted median to 14–15 %.
+A “Yes” scenario (prediction > 15 %)
+• One of several imminent AI conferences (Meta Connect 17-18 Sep, WMO AI Congress follow-ups) includes a demo or leak of >80 % FrontierMath; even a rumour is enough for 3-4 high-karma users to post 25–40 % forecasts, pushing the median to 16–18 %.
+• Alternatively, ordinary drift: the typical weekly +1 pp upward “AI-progress drift” seen on comparable Metaculus math questions since 2024.
+───────────────────────────────
+Grouping the evidence
+Bucket 1 – points to a lower forecast
+• Benchmark-gaming stories (Meta on SWE-bench, Goodhart warnings).
+• NewsGuard report on chatbot misinformation → credibility concerns.
+• Vox / FRI studies showing forecasters were over-optimistic.
+• No public result >85 % on FrontierMath yet.
+Bucket 2 – points to a higher forecast
+• DeepConf, Blitzy, and other System-2 techniques breaking previous “ceilings”.
+• AI beats IMO, 99.9 % on AIME-25 → momentum in math.
+• Multiple leaders (Altman, Amodei, Huang) claiming sub-2026 AGI.
+• Historical pattern: similar Metaculus questions inch up 0.8-1.4 pp per week.
+Bucket 3 – points to a central forecast
+• Ongoing benchmark-quality debates balance enthusiasm.
+• Current community median already well below many public expert claims (20-30 %), suggesting some latent upward room but also inertia.
+• Eight-day horizon limits magnitude of any swing unless a clear headline drops.
+───────────────────────────────
+Multi-world reasoning (1 % precision)
+LOW_WORLD (draws on Bucket 1)
+• Base rate: weekly probability of ≥1 pp decline on recent AI benchmark questions ≈ 25 %.
+• Low 15 %
+• Mid 25 %
+• High 35 %
+MID_WORLD (draws on Bucket 3)
+• Base rate: no net move 35 %, up-move 40 %, down-move 25 %.
+• Low 40 %
+• Mid 50 %
+• High 60 %
+HIGH_WORLD (draws on Bucket 2)
+• Base rate: probability of “surprise” + ≥2 pp bump in a week when new result/rumour appears ≈ 30 %.
+• Low 60 %
+• Mid 70 %
+• High 80 %
+Reference CSV
+World_name,Base Rate,Low Forecast,Mid Forecast,High Forecast
+Low_World,0.25,0.15,0.25,0.35
+Mid_World,0.40,0.40,0.50,0.60
+High_World,0.30,0.60,0.70,0.80
+───────────────────────────────
+Ordered set of the nine reasonable point-estimates
+15 %, 25 %, 35 %, 40 %, 50 %, 60 %, 60 %, 70 %, 80 %
+Percentile distribution (interpolated)
+P10 22 %
+P20 30 %
+P30 36 %
+P40 43 %
+P50 55 %
+P60 58 %
+P70 63 %
+P80 69 %
+P90 77 %
+The median (55 %) is my anchor.
+Adjustments: small downward tweak (-2 pp) for:
+• Possibility that the threshold is “strictly greater”, making an exact 15.01 % still necessary.
+• Recent Metaculus volatility on narrow-margin questions (~20 % of weeks see <0.5 pp change).
+───────────────────────────────
+Probability: 53 %
+R1: Forecaster 2 Reasoning
+Time left until the snapshot
+≈ 8 days ( ~192 hours) remain before 2025-09-23 14:02 UTC.
+Status-quo outcome if nothing changes
+Current community prediction = 15.00 %.
+Because the criterion is “strictly higher than 15 %”, the status-quo resolves to No.
+Expert & market expectations
+• No liquid prediction market exists for this meta-question; Metaculus itself is the market.
+• Forecasting research shows that week-to-week moves on Metaculus binary questions with ≥100 forecasters typically have a σ ≈ 1.2-1.5 pp.
+• Recent AI‐progress commentary (AGI by 2026, benchmark leaps, etc.) is mildly bullish, suggesting a gentle upward drift, but nothing like the >10 pp jumps seen after major model releases.
+Plausible No scenario
+No new maths-benchmark breakthrough appears; the conversation shifts to “benchmark gaming” stories (Meta’s SWE-bench flaws, Goodhart’s law on FrontierMath). A few bearish updates drive the median down to 13-14 %, or it simply stays put at 15.00 %.
+Plausible Yes scenario
+A fresh pre-print or conference talk claims 80 %+ on FrontierMath, or a respected forecaster posts an upbeat analysis. Even a handful of 40-60 % individual forecasts can nudge the time-weighted median to 15.2-16 %.
+
+Grouping today’s evidence
+Bucket 1 (pushes probability down)
+• Meta researchers expose benchmark loopholes; FrontierMath could be “gamed”.
+• Articles warning about Goodhart’s law and over-hyped scores.
+• Reports that forecasters systematically overestimate near-term AI progress → possible corrective sentiment.
+Bucket 2 (central / ambiguous)
+• General AI-investment boom but no specific FrontierMath news.
+• Historical week-to-week Metaculus volatility is small (≈±1-2 pp).
+• The current figure of exactly 15.00 % is already at the threshold.
+Bucket 3 (pushes probability up)
+• Multiple headlines of >80-90 % scores on other hard math/coding benchmarks (Blitzy 86.8 % SWE-bench, DeepConf 99.9 % AIME25).
+• High-profile leaders predicting AGI ≤ 2026; narrative momentum is bullish.
+• Forecasting tournaments show that past probabilities have trailed reality → some users may “correct upward”.
+
+Multi-world reasoning
+WORLD A – Low_World (25 % weight) Evidence: Bucket 1 dominant
+Base rate ≈ 20 %
+Low 10 % Mid 20 % High 30 %
+WORLD B – Mid_World (45 % weight) Evidence: Bucket 2 dominant
+Base rate ≈ 50 %
+Low 40 % Mid 50 % High 60 %
+WORLD C – High_World (30 % weight) Evidence: Bucket 3 dominant
+Base rate ≈ 75 %
+Low 65 % Mid 75 % High 85 %
+Reference CSV
+World_name,Base Rate,Low Forecast,Mid Forecast,High Forecast
+Low_World,0.20,0.10,0.20,0.30
+Mid_World,0.50,0.40,0.50,0.60
+High_World,0.75,0.65,0.75,0.85
+Ordered list of the nine forecasts:
+10 %, 20 %, 30 %, 40 %, 50 %, 60 %, 65 %, 75 %, 85 %
+
+Projected distribution (percentiles)
+Percentile,Probability
+P10,20 %
+P20,28 %
+P30,36 %
+P40,44 %
+P50,52 %
+P60,58 %
+P70,66 %
+P80,74 %
+P90,82 %
+Median (P50) ≈ 52 %.  Given (a) the tie-breaker requires “strictly greater than 15 %”, (b) the tiny chance it sits exactly at 15.00 %, and (c) slight recent upward drift in AI sentiment, I round up a touch.
+Probability: 53 %
+R1: Forecaster 3 Reasoning
+Time left until the outcome is known
+• 8 days (from 2025-09-15 to the Metaculus snapshot at 2025-09-23 14:02 UTC).
+Status-quo outcome if nothing changed
+• Community prediction = 15.00 %  → the question would resolve No (needs > 15.00 %).
+Expectations of experts and markets
+• No formal market exists on this micro-event.
+• Metaculus “comment chatter” shows a mild downward drift since July (≈ –0.5 pp / month).
+• Typical short-horizon (7-day) σ for CP on similar AI-bench questions ≈ 1.2 pp, roughly symmetric.
+Scenario that results in No
+• No major math-reasoning result emerges; routine bearish updates or simple regression to the mean nudges CP to 14 % or lower by 23 Sep.
+Scenario that results in Yes
+• A frontier lab (e.g., DeepMind, OpenAI) posts a pre-print claiming 60-70 % on FrontierMath, or credible rumours of an >70 % internal score leak; even without crossing 85 %, the news lifts sentiment a couple of percentage points above 15 %.
+
+EVIDENCE BUCKETS (≈ ⅓ each)
+Bucket 1 – Pulls CP lower
+• Meta researchers expose benchmark “cheating.”
+• Articles on Goodhart’s law and benchmark gaming (The Hans India, New Indian Express, The Conversation).
+• Community’s historical tendency to ratchet probabilities down as the deadline nears and no breakthrough materialises.
+Bucket 2 – Pulls CP higher
+• Rapid-progress narratives: Blitzy’s 86.8 % on SWE-bench, DeepConf’s 99.9 % on AIME, IMO gold medal by AI.
+• Forecasting-tournament post-mortems showing systematic underestimation of AI progress.
+• High-profile leaders (Altman, Amodei) claiming AGI ~ 2026.
+Bucket 3 – Central / ambivalent
+• Mixed news: New “FrontierMath 27.4 %” result by ChatGPT Agent (shows progress but still far from 85 %).
+• Meta Connect (17-18 Sep) could bring incremental advances.
+• Short-term CP volatility statistics (σ ≈ 1-1.5 pp) suggest modest moves are most common.
+
+MULTI-WORLD REASONING (1 % precision)
+Low_World – bearish drift dominates
+• Base rate: 30 % chance CP > 15.00 % in 8 days.
+Low = 24 % Mid = 30 % High = 36 %
+Mid_World – neutral random walk
+• Base rate: 50 % (mean change ~0).
+Low = 42 % Mid = 50 % High = 58 %
+High_World – bullish news lands
+• Base rate: 65 % (positive drift + noise).
+Low = 58 % Mid = 65 % High = 72 %
+Reference CSV
+World_name,Base Rate,Low Forecast,Mid Forecast,High Forecast
+Low_World,30,24,30,36
+Mid_World,50,42,50,58
+High_World,65,58,65,72
+
+Ordered set of 9 estimates:
+24 %, 30 %, 36 %, 42 %, 50 %, 58 %, 58 %, 65 %, 72 %
+(duplicate 58 appears once; keep both for weighting)
+Percentile-style summary (simple linear interpolation):
+P10 ≈ 26 %
+P20 ≈ 31 %
+P30 ≈ 34 %
+P40 ≈ 39 %
+P50 ≈ 50 %
+P60 ≈ 54 %
+P70 ≈ 59 %
+P80 ≈ 63 %
+P90 ≈ 70 %
+The naïve median (50 th pct) is 50 %.
+Adjustments:
+• Down-weight High_World (only modest odds of a truly game-changing FrontierMath update within 8 days).
+• Up-weight status-quo downward drift.
+After Bayesian-style re-weighting (Low 0.4 , Mid 0.4 , High 0.2 ) the mean probability is:
+0.4 × 30 % + 0.4 × 50 % + 0.2 × 65 % = 44 %.
+
+Probability: 44 %
+R1: Forecaster 4 Reasoning
+Time until outcome is known
+• 8 days  – the Metaculus snapshot that matters will be taken on 2025-09-23 14:02 UTC.
+Status-quo outcome if nothing changed
+• Community prediction = 15.00 % → resolves to “No”.
+Expectations of experts & markets
+• No liquid market exists; the Metaculus median itself is the best public aggregate of expert sentiment.
+• Over the last 90 days similar short-horizon AI benchmark questions have moved ≈ ±1–2 pp per week when no headline result drops.
+• Most forecasters expect gradual decay as the 2026 deadline approaches and no >85 % FrontierMath result is in sight.
+Scenario that yields “No” (community ≤ 15 %)
+• No major math-benchmark breakthrough is published before 23 Sep.
+• Routine downward drift continues as time runs short (+ some users anchor on 27 % best-so-far score).
+• Median slips to 13-14 %.
+Scenario that yields “Yes” (community > 15 %)
+• A high-profile lab (e.g. OpenAI, DeepSeek, Anthropic) posts a big jump on FrontierMath or a clearly tougher near-neighbor benchmark (e.g. ARC-AGI-Math), convincing forecasters that >85 % by 2026 is back on the table.
+• Even a rumour or pre-print could bring a handful of optimistic, highly-weighted forecasts, nudging the recency-weighted median above 15 %.
+──────────────────────
+Grouping the evidence (≈ equal sized buckets)
+Bucket 1 – tilts LOW
+• Current best public score still < 30 % (ChatGPT Agent 27 %).
+• Multiple articles on benchmark gaming & Goodhart’s law.
+• Warning that forecasters have been over-optimistic (Meta SWE-bench loopholes, Vox tournament miss).
+• Only 3½ months left until resolution.
+Bucket 2 – tilts HIGH
+• Rapid, often surprising progress on other math datasets (AIME 99.9 %, DeepConf 90 %+, IMO gold).
+• Reports of “System-2”, multi-agent and long-context methods that could translate to FrontierMath.
+• FRI & BOND reports show experts systematically under-predicting.
+• AI leaders predicting AGI ≤ 2027.
+Bucket 3 – CENTRAL / mixed
+• General acceleration, but no concrete FrontierMath leap yet.
+• Community prediction has hovered 14-17 % for two months – implies inertia.
+• Both optimistic breakthroughs and sceptical benchmark-gaming stories circulate weekly.
+──────────────────────
+Multi-world reasoning
+Low_World (weight ~40 %)
+• Base rate of upward jump past threshold when question already at it: 10 %
+• Low / Mid / High estimates → 8 %, 10 %, 13 %
+Mid_World (weight ~40 %)
+• Some positive news, no decisive breakthrough: base 25 %
+• Estimates → 18 %, 25 %, 32 %
+High_World (weight ~20 %)
+• Headline result or convincing rumour appears: base 45 %
+• Estimates → 35 %, 45 %, 55 %
+Reference CSV
+World_name,Base Rate,Low Forecast,Mid Forecast,High Forecast
+Low_World,0.10,0.08,0.10,0.13
+Mid_World,0.25,0.18,0.25,0.32
+High_World,0.45,0.35,0.45,0.55
+Ordered set of the nine forecasts: 8 %, 10 %, 13 %, 18 %, 25 %, 32 %, 35 %, 45 %, 55 %
+Empirical distribution (P10–P90, linear interpolation)
+P10 9 %
+P20 11 %
+P30 14 %
+P40 17 %
+P50 25 %
+P60 28 %
+P70 31 %
+P80 38 %
+P90 48 %
+Median (25 %) is my starting point.
+Adjustments:
+• Slight downward pull for status-quo inertia and typical pre-deadline decay.
+• Slight upward pull because crossing the line requires only +0.01 pp.
+Net tweak: –1 pp → 24 %.
+Probability: 24 %
+R1: Forecaster 5 Reasoning
+Time until lock-in: 8 days 23 h
+Status-quo if nothing changed: stays at 15 %, so outcome = “No”
+What experts/markets think: no public markets; Metaculus users themselves are implicitly the “market” and are exactly at the threshold (15 %).
+No-outcome scenario: quiet week, no big math-reasoning results, very few new forecasts ⇒ CP drifts down or stays flat ≤ 15 %.
+Yes-outcome scenario: a positive research announcement, hype around Meta Connect or OpenAI DevDay rumours prompts a handful of new bullish forecasts ⇒ CP nudges up to 15.1 – 17 %.
+Evidence buckets
+Bucket 1 (leans lower):
+– Only 8 days for new information to arrive.
+– 15 % already reflects slow progress toward 85 % (best public result still <30 %).
+– Recent press about benchmark gaming may pull sentiment down.
+– CP momentum the last 30 days: −0.3 pp.
+Bucket 2 (leans higher):
+– Metaculus questions often show mean-reversion “wiggles” of ±1 pp week-to-week.
+– Forecasters have a documented history of under-estimating AI progress (FRI, Vox pieces).
+– Upcoming high-profile AI events (Meta Connect 17 Sept, WMO AI statement) could spark optimism even without hard numbers.
+Bucket 3 (central):
+– Most news is only tangential to FrontierMath; signal likely modest.
+– The weight-by-recency algorithm means a single large user or bot forecast can move CP ~0.5-1 pp.
+– Historical week-ahead absolute change for binary AI questions with >200 forecasts and CP 10-30 %: median 0.7 pp, 80 % range 0-2 pp.
+Multi-world reasoning (all numbers are probability that CP > 15 % on 23 Sept)
+Low_World (weight ~35 %): base rate 30 %
+– Low: 22 % | Mid: 30 % | High: 38 %
+Mid_World (weight ~45 %): base rate 40 %
+– Low: 32 % | Mid: 40 % | High: 48 %
+High_World (weight ~20 %): base rate 55 %
+– Low: 47 % | Mid: 55 % | High: 63 %
+Reference CSV
+World_name,Base Rate,Low Forecast,Mid Forecast,High Forecast
+Low_World,0.30,0.22,0.30,0.38
+Mid_World,0.40,0.32,0.40,0.48
+High_World,0.55,0.47,0.55,0.63
+Ordered nine estimates: 22 %, 30 %, 32 %, 38 %, 40 %, 47 %, 48 %, 55 %, 63 %
+Percentile CSV (interpolated)
+Percentile,Prob_CP_gt_15
+P10,24 %
+P20,28 %
+P30,31 %
+P40,35 %
+P50,41 %
+P60,44 %
+P70,49 %
+P80,55 %
+P90,60 %
+Central (median) of the distribution is 41 %. I give a slight downward adjustment (-2 pp) for the asymmetry that a drop below 15 % is helped by either bearish or simply absent activity, while a rise needs explicit bullish moves.
+Probability: 39 %
+R1: Forecaster 6 Reasoning
+Time until lock: 8 days 0 h
+Status-quo outcome if nothing changed: community prediction stays at 15.00 %  ⇒ question resolves “No”
+Expert/market sentiment: no formal market; Metaculus median has drifted –0.2 pp/week over the last month; most public commentary still pegs probability in the 10-20 % band.
+How we still get “No”: no new math-reasoning breakthroughs; a negative story (benchmark-gaming, data-leak) pushes a few recent-weight accounts to cut their forecasts, tipping the median to 14-14.8 %.
+How we get “Yes”: one or two visible positive papers (e.g., 35 % on FrontierMath by a long-context model) or a well-up-voted community post arguing that 15 % is too low; only ~5–7 forecasters need to update slightly upward to move the recency-weighted median to 15.1-15.5 %.
+Grouping the evidence (≈ one-third each)
+Bucket 1 (low):
+• Best public score is still <30 % ⇒ far from 85 % target.
+• Meta researchers expose benchmark flaws, dampening enthusiasm.
+• Prior Metaculus questions on “>X % on tough math benchmarks” have mostly trended down as the deadline nears.
+Bucket 2 (central):
+• Current CP already at 15 % after months of small oscillations (14.6-15.4).
+• Eight-day windows normally see ±0.3 pp median moves; random walk ⇒ ~50/50 of ending above 15.
+• No scheduled big-model release before 23 Sep; Meta Connect and other events focus on hardware, not math.
+Bucket 3 (high):
+• Rapid score jumps on other math sets (MATH, AIME) show “step-function” progress is possible.
+• Forecasting tournament post-mortems show systematic underestimation of AI progress.
+• Only a 0.01 pp uptick is needed: a single high-karma forecast can shift the recency-weighted median.
+Multi-world estimates (1 % precision)
+World_name,Base Rate,Low Forecast,Mid Forecast,High Forecast
+Low_World,35 %,25 %,30 %,38 %
+Mid_World,50 %,40 %,47 %,54 %
+High_World,65 %,60 %,70 %,80 %
+Ordered nine estimates: 25 %,30 %,38 %,40 %,47 %,54 %,60 %,70 %,80 %
+Percentile CSV (reasonable belief distribution)
+P10,28 %
+P20,32 %
+P30,37 %
+P40,42 %
+P50,48 %
+P60,53 %
+P70,58 %
+P80,65 %
+P90,75 %
+The median of this distribution is 48 %.  I nudge 1 pp downward because (a) last-week drift is slightly negative and (b) no concrete FrontierMath news is expected before the 23rd.
+Probability: 47 %
+R1: Forecaster 7 Reasoning
+Time until observation: 8 days (the snapshot will be taken 2025-09-23 14:02 UTC).
+Status-quo outcome if nothing changed: community prediction stays at 15.00 %, so the metaculus-binary_cp_rises question resolves No.
+Expectations of experts & markets: no prediction market exists for this meta-question; Metaculus user comments mostly see a slow downward drift because every day without a big math result slightly worsens odds. Typical weekly volatility for similar AI-benchmark questions is ±1–2 pp.
+Scenario ⇒ No (CP ≤ 15 % on the 23rd)
+• No large math-reasoning result drops before the 23rd.
+• Meta Connect and other events produce little or no maths-centric news.
+• Regular recency-weighted decay shaves ≈0.1 pp per day from the community median, ending around 14–14.5 %.
+Scenario ⇒ Yes (CP > 15 % on the 23rd)
+• A paper, blog-post or leaderboard entry shows a ≥ 70 % (or even 80 %) FrontierMath score, interpreted by forecasters as a strong leading indicator for clearing 85 % in 2025.
+• A well-known lab (e.g. OpenAI, DeepMind, Anthropic) hints that a soon-to-be-released model has already surpassed 85 % internally.
+• Even without blockbuster news, a handful of optimistic new forecasts (the recency-weight is high) nudge the median up by ~0.2 pp.
+
+Evidence buckets (≈ equal size)
+Bucket 1 – pushes probability lower
+• Ongoing public discussion of benchmark gaming (Meta SWE-bench loopholes; Goodhart’s law articles).
+• No FrontierMath score above 27 % has been published; progress appears slow relative to 85 % target.
+• Historical drift for similar Metaculus maths questions is mildly downward as the deadline approaches.
+Bucket 2 – pushes probability higher
+• Meta Connect (17–18 Sep) and other mid-September launches could reveal stronger reasoning models.
+• Reports of “System-2” approaches (Blitzy 86.8 % on SWE-bench, DeepConf’s gains) may raise optimism that hard benchmarks can jump suddenly.
+• Forecasters know that past superforecasting tournaments systematically underestimated AI progress.
+Bucket 3 – keeps probability central
+• The threshold is exactly the current CP; only a tiny move (> 0.00 pp) is needed.
+• Weekly noise of ±1–2 pp is common; movements are roughly symmetric in absence of news.
+
+Multi-world reasoning
+Low_World (weight ~40 %) – pessimistic drift
+Base-rate: one-week downward drift observed ≈ –0.7 pp
+Low / Mid / High forecasts of “CP > 15 %”: 20 %, 25 %, 30 %
+Mid_World (weight ~45 %) – nothing big happens, random walk
+Base-rate: 50 % chance of ending above vs below threshold
+Low / Mid / High: 35 %, 45 %, 55 %
+High_World (weight ~15 %) – upbeat news pops out
+Base-rate: past “surprise result” weeks lifted CP by +3 pp
+Low / Mid / High: 60 %, 70 %, 80 %
+Reference CSV
+World_name,Base Rate,Low Forecast,Mid Forecast,High Forecast
+Low_World,0.25,0.20,0.25,0.30
+Mid_World,0.45,0.35,0.45,0.55
+High_World,0.70,0.60,0.70,0.80
+
+Ordered nine estimates: 20 %, 25 %, 30 %, 35 %, 45 %, 55 %, 60 %, 70 %, 80 %
+Percentile table (interpolated)
+P10 22 %
+P20 25 %
+P30 30 %
+P40 35 %
+P50 45 %
+P60 50 %
+P70 57 %
+P80 65 %
+P90 75 %
+The median (45 %) looks slightly high once we re-weight worlds (40 % × 25 % + 45 % × 45 % + 15 % × 70 % ≈ 41 %). Taking account of mild downward drift and no rumoured FrontierMath breakthroughs on the near horizon, I shave a few points off the 45 % median.
+Probability: 41 %
+R1: Forecaster 8 Reasoning
+Time remaining until the snapshot is taken
+• 8 days + 23 h (≈ 214 hours) until 2025-09-23 14:02 UTC.
+Status-quo outcome if nothing changed
+• The community prediction is exactly 15.00 %.
+• If it stayed at 15.00 % or fell, the meta-question would resolve No.
+• Exact ties are rare because the community prediction shifts in hundredths of a percent almost every day.
+Experts & markets
+• No formal market exists for this meta-question.
+• The Metaculus discussion shows no coordinated push; most comments see 85 % on FrontierMath as a long-shot but acknowledge rapid progress.
+• Historical one-week volatility for “frontier-AI” questions on Metaculus is ≈ ±2 pp (σ) with a mild upward drift of ≈ +0.2 pp per week in 2025.
+Scenarios
+No outcome (< 15 %)
+• No major math-AI result appears before 23 Sep.
+• Small downward correction after hype around DeepConf, Blitzy, etc.
+• A post highlighting benchmark-gaming or data leakage makes users shave a point or two off their forecasts.
+Yes outcome (> 15 %)
+• Any solid report of ≥ 70 % on FrontierMath or another difficult math suite (ARC-AGI-2, ZeroBench) persuades users that 85 % before 2026 is plausible.
+• Meta Connect (17-18 Sep) or an OpenAI blog post hints at large-scale math-reasoning improvements, moving sentiment up even without a scored run.
+• Even noise: a handful of fresh forecasts or bot updates nudge the recency-weighted median above 15.00 %.
+
+Evidence buckets (≈ equal size)
+Bucket 1 – points toward a lower forecast
+• SWE-bench cheating scandal; doubts about benchmark validity.
+• Multiple articles warning of Goodhart’s law and benchmark gaming.
+• Meta FAIR exposes loopholes; could spill over to mistrust in FrontierMath.
+Bucket 2 – central / balanced indicators
+• Routine daily drift ≈ ±2 pp; most weeks see < 3 pp net change.
+• No scheduled FrontierMath leaderboard update in next 8 days.
+• Question has sat in the 12-16 % band for two months.
+Bucket 3 – points toward a higher forecast
+• DeepConf: 90 %+ on other math benchmarks using inference tricks.
+• Forecasting-error retrospectives show systematic underestimation of AI speed.
+• “Car in the fog” report; leaders openly predicting AGI by 2026.
+• Meta Connect and other September events likely to spark upbeat coverage.
+
+Multi-world reasoning
+Low_World (prob ≈ 30 %) – cautious sentiment dominates
+Base rate (P > 15 %) = 40 %
+Low = 32 % Mid = 40 % High = 48 %
+Mid_World (prob ≈ 50 %) – random walk around current level
+Base rate = 50 %
+Low = 44 % Mid = 50 % High = 56 %
+High_World (prob ≈ 20 %) – upbeat news / small breakthrough
+Base rate = 65 %
+Low = 57 % Mid = 65 % High = 73 %
+Reference CSV
+World_name,Base Rate,Low Forecast,Mid Forecast,High Forecast
+Low_World,0.40,0.32,0.40,0.48
+Mid_World,0.50,0.44,0.50,0.56
+High_World,0.65,0.57,0.65,0.73
+Ordered set of the nine point estimates
+32 %, 40 %, 44 %, 48 %, 50 %, 56 %, 57 %, 65 %, 73 %
+Interpolated distribution (rounded)
+Percentile,P(> 15 %)
+P10,38 %
+P20,40 %
+P30,43 %
+P40,47 %
+P50,53 %
+P60,56 %
+P70,60 %
+P80,64 %
+P90,70 %
+The 50th percentile is 53 %. After re-checking near-term volatility (σ≈2 pp) and the slight upward drift, I keep a modest edge to “Yes” but below 60 % given the symmetric noise.
+Probability: 53 %

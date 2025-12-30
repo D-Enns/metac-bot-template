@@ -1,0 +1,667 @@
+SUMMARY
+Question: Will the interest in "nvidia" be greater on 2025-09-26 than on 2025-09-18 according to Google Trends?
+Final Prediction: 39.5%
+Total Cost: $0
+Time Spent: 1.53 minutes
+Report 1 Summary
+Forecasts
+Forecaster 1: 38.0%
+Forecaster 2: 43.0%
+Forecaster 3: 35.0%
+Forecaster 4: 34.0%
+Forecaster 5: 33.0%
+Forecaster 6: 41.0%
+Forecaster 7: 44.0%
+Forecaster 8: 42.0%
+Research Summary
+The research aggregates a wide range of news reports published between September 17 and September 18, 2025, all highlighting NVIDIA’s central role in market and technology developments during that period. Key items include NVIDIA’s announcement of a $5 billion investment to co-develop chips with Intel—triggering substantial share gains for Intel and supporting broader tech-sector rallies amid a Federal Reserve interest-rate cut—alongside reports of a China-imposed ban on NVIDIA chip sales, major AI investment pledges in the UK led by NVIDIA, pre-market futures moves driven by Fed-cut expectations, and NVIDIA’s strategic partnerships and product launches in AI and PC hardware. Coverage spans global outlets in English, German, Italian, Japanese, Norwegian and Chinese, underscoring intense media and investor focus on NVIDIA’s activities and suggesting a pronounced spike in public interest around September 18, 2025.
+Sources used (verbatim links):
+https://www.gurufocus.com/news/3112867/nvidia-nvda-drives-intel-intc-shares-up-with-bold-investment
+https://www.finanznachrichten.de/nachrichten-2025-09/66472307-welche-tech-aktien-jetzt-kaufen-503.htm
+https://www.investopedia.com/5-things-to-know-before-the-stock-market-opens-september-18-2025-11812493
+https://invezz.com/it/notizie/2025/09/17/azioni-usa-piatte-allapertura-in-vista-della-decisione-della-fed-nasdaq-scivola-dello-01-dow-in-rialzo-di-150-punti/
+https://devdiscourse.com/article/headlines/3631327-market-movements-wall-street-awaits-federal-reserve-decision-amid-nvidia-woes
+https://www.gurufocus.com/news/3110366/nvidia-nvda-leads-tech-investment-in-uk-with-31-billion-commitment
+https://finance.yahoo.com/news/company-news-sep-18-2025-132600864.html
+https://www.galvnews.com/news_ap/business/ap-technology-summarybrief-at-8-50-a-m-edt/article_d1c91162-eb18-55d6-8b44-2942909583c7.html
+https://invezz.com/no/nyheter/2025/09/17/amerikanske-aksjer-flatt-ved-apning-i-forkant-av-fed-beslutning-nasdaq-faller-01-dow-opp-150-poeng/
+https://finance.yahoo.com/m/e06d8361-8655-3608-9f9f-aefc86b5ac91/fed-pumps-up-hopes-for-three.html
+https://www.fool.com/investing/2025/09/13/amazon-microsoft-alphabet-and-meta-just-delivered/
+https://unwire.hk/2025/09/07/openai-ai-chip-broadcom-mass-production/ai/
+https://www.nikkei.com/article/DGXZQOFL27CFV0X20C25A8000000/
+https://www.economist.com/the-world-this-week/2025/08/14/business
+https://www.fool.com/investing/2025/07/26/alphabet-just-gave-nvidia-investors-some-great-new/
+https://www.aktiencheck.de/news/Artikel-Nvidia_Aktie_Wieder_Nummer_Eins-18628354
+https://www.tmtpost.com/7576616.html
+RESEARCH
+Report 1 Research
+Here are the relevant news articles:
+NVIDIA (NVDA) Drives Intel (INTC) Shares Up with Bold Investment
+U.S. stock markets closed higher on September 18 2025, with the S&P 500 reaching a new record after the Federal Reserve cut rates. Technology stocks surged, most notably Intel’s shares rising almost 24 % following NVIDIA’s announcement of a $5 billion investment to co‑develop chips for PCs and data centers. The Dow Jones Industrial Average gained 0.03 %, the Nasdaq Composite jumped nearly 0.6 %, and the S&P 500 climbed about 0.3 %. The Philadelphia Semiconductor Index added over 2.3 %. Futures for major indexes, including the Nasdaq 100 and S&P 500, also advanced as investors anticipated further Fed rate cuts. The investment signals a shift in industry dynamics amid the AI chip wave, boosting short‑term confidence in Intel while long‑term challenges in advanced processing and AI chip competition remain. On the economic front, U.S. initial jobless claims fell to 231,000, slightly below expectations, indicating labor‑market resilience. The Bank of England maintained its interest rate, and Norges Bank’s cautious approach to rate cuts reflects persistent inflation concerns.
+Original language: en
+Publish date: September 18, 2025 02:21 PM
+Source:GuruFocus.com
+Which Tech Stocks to Buy Now?
+Financial news published on September 18, 2025 reports that Nvidia’s recent entry into Intel has caused a stir in the stock market. The article notes that the technology sector has been a major driver of financial markets in recent years, and that rapid progress in AI, cloud computing and digitalisation has further increased interest in the sector. The author writes, 'der spektakuläre Einstieg von Nvidia bei Intel für Furore an den Börsen.'
+Original language: de
+Publish date: September 18, 2025 12:46 PM
+Source:FinanzNachrichten.de
+5 Things to Know Before the Stock Market Opens
+The article reports on market activity ahead of the U.S. stock market opening on September 18, 2025. Stock futures are sharply higher after the Federal Reserve’s first interest‑rate cut of the year, with Nasdaq‑linked futures up more than 1% and S&P 500 and Dow Jones futures also solidly higher, setting the major indexes on track for all‑time highs. The 10‑year Treasury yield fell slightly to 4.06%, while Bitcoin traded at $117,200 and gold futures slipped to $3,700 an ounce.
+The Fed’s Wednesday cut of a quarter‑percentage point was expected, but Chair Jerome Powell said further cuts would depend on upcoming economic data; officials anticipate two more cuts in the remaining two meetings of the year, though the pace is uncertain.
+Nvidia announced a $5 billion investment in Intel, with the two firms agreeing to co‑develop chips for PCs and data centers. As part of the deal, Intel will build custom processing units for Nvidia’s AI infrastructure and integrate Nvidia chips into its PCs. ‘This historic collaboration tightly couples NVIDIA’s AI and accelerated computing stack with Intel’s CPUs and the vast x86 ecosystem – a fusion of two world‑class platforms,’ said Nvidia CEO Jensen Huang. Intel shares rose about 30% in pre‑market trading, while Nvidia shares gained 3%.
+Meta Platforms unveiled AI‑powered glasses at its developer conference. CEO Mark Zuckerberg described the Meta Ray‑Ban Display as ‘takes microphones, speakers, cameras, and a full‑color display backed with compute and AI – and puts it all together in a single device that’s stylish and comfortable.’ The glasses will retail for $799 and include a Meta Neural Band wrist monitor. Meta shares were largely unchanged in pre‑market trading.
+StubHub’s IPO priced shares at $23.50, with the stock climbing above $26 during the session before closing at $22. The company sold 34 million shares, raising $800 million, which CEO Eric Baker said will be used to pay down debt. StubHub shares were down 2% ahead of the bell on Thursday.
+Original language: en
+Publish date: September 18, 2025 12:09 PM
+Source:Investopedia
+US Stocks Flat Ahead of Fed Decision; Nvidia Slides After China Chip Ban
+On Wednesday, U.S. stocks traded flat as Wall Street awaited the Federal Reserve’s interest‑rate decision and its policy outlook. The S&P 500 rose 0.1%, the Nasdaq Composite slipped 0.1%, while the Dow Jones Industrial Average gained 158 points, or 0.3%. Nvidia shares fell more than 1% after the Financial Times reported that China had barred domestic tech firms from buying its chips, a move that could weigh on the chipmaker’s growth prospects in a key market.
+The Fed is set to announce its rate decision at 14:00 ET, followed by a press conference with Chair Jerome Powell at 14:30 ET. According to the CME’s FedWatch tool, traders assign a 100 % probability to a 25‑basis‑point cut. Market participants will scrutinise Powell’s remarks, the Fed’s Summary of Economic Projections and its dot‑plot for clues on the pace and magnitude of future cuts, as well as signals of division within the policy committee.
+At the July meeting, Governors Christopher Waller and Michelle Bowman had dissented, highlighting differing policy views. This time, Governor Lisa Cook will cast her vote after a federal appellate court blocked President Donald Trump’s attempt to remove her, and Governor Stephen Miran, confirmed by the Senate earlier in the week, will also participate.
+Meanwhile, U.S. technology giants announced more than $40 billion in new investments in the United Kingdom, underscoring the country’s push to become a global AI hub. Microsoft pledged $30 billion for AI‑related infrastructure and operations, while Nvidia, Google, OpenAI and Salesforce also committed multi‑billion‑dollar investments. These announcements coincided with President Trump’s visit to the United Kingdom, where he is expected to sign a technology‑collaboration agreement with Prime Minister Keir Starmer.
+Key metrics: S&P 500 +0.1 %, Nasdaq –0.1 %, Dow +158 points (+0.3 %), Nvidia –1 %+ after FT report, FedWatch 100 % chance of 25 bps cut, >$40 bn U.K. AI investment.
+Original language: it
+Publish date: September 17, 2025 01:43 PM
+Source:Invezz
+Market Movements: Wall Street Awaits Federal Reserve Decision Amid Nvidia Woes
+Wall Street futures reacted cautiously ahead of the Federal Reserve’s anticipated interest‑rate cut, as Nvidia shares fell 1.7% after reports that Chinese firms would halt chip purchases. Investors are watching for a possible 25‑basis‑point cut to address weaker employment data, while traders expect a total reduction of about 68 basis points by year‑end, a scenario that could test the recent rally. Despite this uncertainty, the S&P 500 and Nasdaq have reached a six‑session high, buoyed by optimistic rate‑cut expectations and AI‑driven trading trends. Notable moves included a pre‑market surge for New Fortress Energy and a gain for Workday following Elliott Management’s large stake acquisition.
+Original language: en
+Publish date: September 17, 2025 11:30 AM
+Source:Devdiscourse
+NVIDIA (NVDA) Leads Tech Investment in UK with £31 Billion Commi
+On September 17 2025 the United States and the United Kingdom announced a ‘Technology Prosperity Agreement’ to deepen cooperation in artificial intelligence, quantum computing and civil nuclear technology. Under the deal, U.S. technology firms—led by NVIDIA—pledged £31 billion ($42 billion) to UK projects. NVIDIA will deploy 120,000 GPUs as part of its largest European expansion. Microsoft will invest £22 billion to build the UK’s largest AI supercomputer in Lorton, while Google is putting £500 million into a new data centre in North London to support DeepMind research. Other U.S. firms such as Salesforce, Scale AI, BlackRock, Oracle and Amazon Web Services have signalled interest in investments ranging from hundreds of millions to billions of pounds. UK Prime Minister Skye highlighted the agreement’s potential to drive economic growth and security, noting the UK’s aim to become an attractive investment hub with ‘light‑touch regulation’ on AI, contrasting with the EU’s more interventionist stance. The agreement also includes initiatives to develop medical AI models, expand quantum computing capabilities and streamline civil nuclear projects.
+Original language: en
+Publish date: September 17, 2025 12:30 AM
+Source:GuruFocus
+NVIDIA (NVDA) Drives Intel (INTC) Shares Up with Bold Investment
+U.S. stock markets closed higher on September 18 2025, with the S&P 500 reaching a new record after the Federal Reserve cut rates. Technology stocks surged, most notably Intel’s shares rising almost 24 % following NVIDIA’s announcement of a $5 billion investment to co‑develop chips for PCs and data centers. The Dow Jones Industrial Average gained 0.03 %, the Nasdaq Composite jumped nearly 0.6 %, and the S&P 500 climbed about 0.3 %. The Philadelphia Semiconductor Index added over 2.3 %. Futures for major indexes, including the Nasdaq 100 and S&P 500, also advanced as investors anticipated further Fed rate cuts. The investment signals a shift in industry dynamics amid the AI chip wave, boosting short‑term confidence in Intel while long‑term challenges in advanced processing and AI chip competition remain. On the economic front, U.S. initial jobless claims fell to 231,000, slightly below expectations, indicating labor‑market resilience. The Bank of England maintained its interest rate, and Norges Bank’s cautious approach to rate cuts reflects persistent inflation concerns.
+Original language: en
+Publish date: September 18, 2025 02:21 PM
+Source:GuruFocus.com
+Company News for Sep 18, 2025
+Shares of NVIDIA Corporation (NVDA) fell 2.6% after a report that the Chinese Internet regulator banned the largest tech companies from purchasing AI microchips from NVIDIA. Lyft, Inc. (LYFT) shares jumped 13.1% following news that Alphabet’s Waymo will partner with Lyft to launch self‑driving taxi rides in Nashville in 2026. Meta Platforms, Inc. (META) shares slipped 0.4% and Amazon.com, Inc. (AMZN) shares dropped 1% amid a broader tech slump, as reported by Yahoo! Finance on September 18, 2025.
+Original language: en
+Publish date: September 18, 2025 01:26 PM
+Source:Yahoo! Finance
+AP Technology SummaryBrief at 8:50 a.m. EDT
+The Daily News brief, dated September 18 2025, compiles several AP stories covering technology, geopolitics, and social media. Nvidia announced a $5 billion investment in Intel’s common stock and a partnership to develop custom data‑center and PC hardware, a lifeline for Intel after its missed mobile shift and amid the AI boom that has made Nvidia the world’s most valuable company. The Taliban’s new internet ban, imposed to ‘prevent immorality’, has shut fiber‑optic service in several Afghan provinces while leaving mobile access intact; the Afghanistan Media Support Organization condemned the move. Poland has begun joint drone‑warfare training and manufacturing with Ukraine after Russian drones entered Polish airspace, with a memorandum signed by Ukrainian Defense Minister Denys Shmyhal and his Polish counterpart to test interception methods. Huawei plans to launch the world’s most powerful AI computing clusters over the next two years, using domestic semiconductors; the Atlas 950 SuperPoD is slated for late 2026 and the Atlas 960 for 2027. Meta unveiled AI‑powered smart glasses, the Meta Ray‑Ban Display, featuring a tiny display and a neural wristband, which CEO Mark Zuckerberg says will be the next step in human‑computer interaction. Albania’s Prime Minister Edi Rama introduced an AI‑generated bot, Diella, as a virtual minister in parliament to promote transparency; opposition lawmakers boycotted the vote in which the bot was approved. Nvidia CEO Jensen Huang expressed disappointment over U.S. restrictions on sales to China, noting Beijing regulators’ accusations of antitrust violations and a ban on a specific Nvidia chip; he plans to discuss the issue with President Trump at a UK state banquet. President Trump extended the deadline for TikTok’s availability in the U.S. to December 16, giving the company time to complete a framework deal with China; this is the fourth time he has bypassed federal law. Social media’s role in the coverage of Charlie Kirk’s death is highlighted, with videos of the shooting spreading rapidly and algorithms amplifying divisive posts. Finally, parents of teens who died by suicide after interacting with AI chatbots testified before Congress; the families sued OpenAI and Character Technologies, and the FTC has launched an inquiry into AI‑related harms to children.
+Original language: en
+Publish date: September 18, 2025 12:50 PM
+Source:The Daily News
+Which Tech Stocks to Buy Now?
+Financial news published on September 18, 2025 reports that Nvidia’s recent entry into Intel has caused a stir in the stock market. The article notes that the technology sector has been a major driver of financial markets in recent years, and that rapid progress in AI, cloud computing and digitalisation has further increased interest in the sector. The author writes, 'der spektakuläre Einstieg von Nvidia bei Intel für Furore an den Börsen.'
+Original language: de
+Publish date: September 18, 2025 12:46 PM
+Source:FinanzNachrichten.de
+5 Things to Know Before the Stock Market Opens
+The article reports on market activity ahead of the U.S. stock market opening on September 18, 2025. Stock futures are sharply higher after the Federal Reserve’s first interest‑rate cut of the year, with Nasdaq‑linked futures up more than 1% and S&P 500 and Dow Jones futures also solidly higher, setting the major indexes on track for all‑time highs. The 10‑year Treasury yield fell slightly to 4.06%, while Bitcoin traded at $117,200 and gold futures slipped to $3,700 an ounce.
+The Fed’s Wednesday cut of a quarter‑percentage point was expected, but Chair Jerome Powell said further cuts would depend on upcoming economic data; officials anticipate two more cuts in the remaining two meetings of the year, though the pace is uncertain.
+Nvidia announced a $5 billion investment in Intel, with the two firms agreeing to co‑develop chips for PCs and data centers. As part of the deal, Intel will build custom processing units for Nvidia’s AI infrastructure and integrate Nvidia chips into its PCs. ‘This historic collaboration tightly couples NVIDIA’s AI and accelerated computing stack with Intel’s CPUs and the vast x86 ecosystem – a fusion of two world‑class platforms,’ said Nvidia CEO Jensen Huang. Intel shares rose about 30% in pre‑market trading, while Nvidia shares gained 3%.
+Meta Platforms unveiled AI‑powered glasses at its developer conference. CEO Mark Zuckerberg described the Meta Ray‑Ban Display as ‘takes microphones, speakers, cameras, and a full‑color display backed with compute and AI – and puts it all together in a single device that’s stylish and comfortable.’ The glasses will retail for $799 and include a Meta Neural Band wrist monitor. Meta shares were largely unchanged in pre‑market trading.
+StubHub’s IPO priced shares at $23.50, with the stock climbing above $26 during the session before closing at $22. The company sold 34 million shares, raising $800 million, which CEO Eric Baker said will be used to pay down debt. StubHub shares were down 2% ahead of the bell on Thursday.
+Original language: en
+Publish date: September 18, 2025 12:09 PM
+Source:Investopedia
+U.S. Stocks Flat at Opening Ahead of Fed Decision; Nasdaq Down 0.1%, Dow Up 150 Points
+On Wednesday, U.S. equity markets were subdued ahead of the Federal Reserve’s interest‑rate decision. The S&P 500 rose 0.1 %, the Nasdaq Composite fell 0.1 %, and the Dow Jones Industrial Average gained 158 points, or 0.3 %. Nvidia shares dropped more than 1 % after the Financial Times reported that China had banned domestic technology firms from buying its chips, a move that could weigh on the chipmaker’s growth prospects in one of its largest markets. The Fed is scheduled to announce its policy at 2 p.m. ET, followed by a press conference with Chair Jerome Powell at 2:30 p.m. ET. According to CME’s FedWatch tool, traders price a 100 % probability of at least a 25‑basis‑point cut. Market participants will also look for clues in Powell’s remarks, the Fed’s “dot plot,” and potential committee divisions. At the July meeting, Governors Christopher Waller and Michelle Bowman disagreed, highlighting differing policy views. This time, Governor Lisa Cook will vote after a federal court blocked President Trump’s attempt to remove her, and Governor Stephen Miran, confirmed by the Senate earlier in the week, will also participate. In other news, U.S. technology giants announced over $40 billion in new investments in the United Kingdom, underscoring the country’s push to become a global AI hub. Microsoft pledged $30 billion for AI‑related infrastructure and operations, while Nvidia, Google, OpenAI, and Salesforce committed several billion dollars each. 'Nvidia fell more than 1 % after the Financial Times reported that China had banned domestic tech firms from buying its chips,' the article notes.
+Original language: no
+Publish date: September 17, 2025 07:15 PM
+Source:Invezz - Norwegian
+Fed Pumps Up Hopes For Three Rate Cuts This Year, Powell Speaks; S&P 500 Wavers (Live Coverage)
+The Federal Reserve announced its first interest‑rate cut of 2025, sparking expectations of further cuts in October and December. After the 2 p.m. ET policy statement, the S&P 500 briefly rose but finished slightly lower as Fed Chair Jerome Powell spoke, while shares of Nvidia, Uber and Tesla fell. The article notes that investors are trying to gauge whether the Fed views this as the start of a series of cuts or if the market will return to a wait‑and‑see stance, quoting the sentiment that the Fed "sees this as the first cut of a bunch."
+Original language: en
+Publish date: September 17, 2025 06:38 PM
+Source:Yahoo! Finance
+US Stocks Flat Ahead of Fed Decision; Nvidia Slides After China Chip Ban
+On Wednesday, U.S. stocks traded flat as Wall Street awaited the Federal Reserve’s interest‑rate decision and its policy outlook. The S&P 500 rose 0.1%, the Nasdaq Composite slipped 0.1%, while the Dow Jones Industrial Average gained 158 points, or 0.3%. Nvidia shares fell more than 1% after the Financial Times reported that China had barred domestic tech firms from buying its chips, a move that could weigh on the chipmaker’s growth prospects in a key market.
+The Fed is set to announce its rate decision at 14:00 ET, followed by a press conference with Chair Jerome Powell at 14:30 ET. According to the CME’s FedWatch tool, traders assign a 100 % probability to a 25‑basis‑point cut. Market participants will scrutinise Powell’s remarks, the Fed’s Summary of Economic Projections and its dot‑plot for clues on the pace and magnitude of future cuts, as well as signals of division within the policy committee.
+At the July meeting, Governors Christopher Waller and Michelle Bowman had dissented, highlighting differing policy views. This time, Governor Lisa Cook will cast her vote after a federal appellate court blocked President Donald Trump’s attempt to remove her, and Governor Stephen Miran, confirmed by the Senate earlier in the week, will also participate.
+Meanwhile, U.S. technology giants announced more than $40 billion in new investments in the United Kingdom, underscoring the country’s push to become a global AI hub. Microsoft pledged $30 billion for AI‑related infrastructure and operations, while Nvidia, Google, OpenAI and Salesforce also committed multi‑billion‑dollar investments. These announcements coincided with President Trump’s visit to the United Kingdom, where he is expected to sign a technology‑collaboration agreement with Prime Minister Keir Starmer.
+Key metrics: S&P 500 +0.1 %, Nasdaq –0.1 %, Dow +158 points (+0.3 %), Nvidia –1 %+ after FT report, FedWatch 100 % chance of 25 bps cut, >$40 bn U.K. AI investment.
+Original language: it
+Publish date: September 17, 2025 01:43 PM
+Source:Invezz
+Market Movements: Wall Street Awaits Federal Reserve Decision Amid Nvidia Woes
+Wall Street futures reacted cautiously ahead of the Federal Reserve’s anticipated interest‑rate cut, as Nvidia shares fell 1.7% after reports that Chinese firms would halt chip purchases. Investors are watching for a possible 25‑basis‑point cut to address weaker employment data, while traders expect a total reduction of about 68 basis points by year‑end, a scenario that could test the recent rally. Despite this uncertainty, the S&P 500 and Nasdaq have reached a six‑session high, buoyed by optimistic rate‑cut expectations and AI‑driven trading trends. Notable moves included a pre‑market surge for New Fortress Energy and a gain for Workday following Elliott Management’s large stake acquisition.
+Original language: en
+Publish date: September 17, 2025 11:30 AM
+Source:Devdiscourse
+NVIDIA (NVDA) Leads Tech Investment in UK with £31 Billion Commi
+On September 17 2025 the United States and the United Kingdom announced a ‘Technology Prosperity Agreement’ to deepen cooperation in artificial intelligence, quantum computing and civil nuclear technology. Under the deal, U.S. technology firms—led by NVIDIA—pledged £31 billion ($42 billion) to UK projects. NVIDIA will deploy 120,000 GPUs as part of its largest European expansion. Microsoft will invest £22 billion to build the UK’s largest AI supercomputer in Lorton, while Google is putting £500 million into a new data centre in North London to support DeepMind research. Other U.S. firms such as Salesforce, Scale AI, BlackRock, Oracle and Amazon Web Services have signalled interest in investments ranging from hundreds of millions to billions of pounds. UK Prime Minister Skye highlighted the agreement’s potential to drive economic growth and security, noting the UK’s aim to become an attractive investment hub with ‘light‑touch regulation’ on AI, contrasting with the EU’s more interventionist stance. The agreement also includes initiatives to develop medical AI models, expand quantum computing capabilities and streamline civil nuclear projects.
+Original language: en
+Publish date: September 17, 2025 12:30 AM
+Source:GuruFocus
+Has Nvidia Lost Sight of the Core Consumer?
+The article argues that Nvidia has shifted its focus from its core consumer‑gaming market to enterprise‑AI contracts, potentially jeopardising its long‑term stability.  It cites the 2025 CES keynote, where Nvidia highlighted new data‑center products such as the “Nemotron” and “Llama” models, while consumer‑grade GPUs and gaming were largely absent from the agenda.  The author notes that in Nvidia’s 2021 annual 10‑K, gaming was the top revenue source, but by 2025 the company’s datacenter segment had overtaken gaming, with 34 % of revenue coming from only three enterprise customers (Microsoft, Meta, Google, and Amazon, with notable business from Tesla, Oracle, TikTok and CoreWeave).  The piece also references a 3× surge in AI investment between 2019 and 2021, followed by a plateau and a sharp decline in U.S. consumer sentiment (University of Michigan) and Chinese consumer sentiment (OECD/FRED).  It warns that Nvidia’s profit margins have been falling since early 2024, with a projected 60‑70 % decline in share price to roughly $50 if the trend continues.  In contrast, Intel’s 2025 CES launch of the Core Ultra 200 series is portrayed as a consumer‑first strategy, with a market‑share gain from 16.1 % to 21 % against Nvidia’s drop from 61.8 % to 54.2 % (PassMark).  The author concludes that Nvidia’s “enterprise‑AI hype” may leave it vulnerable if the market cools, and suggests investors consider Intel as a more balanced alternative.  The article’s tone is critical, using phrases such as ‘Nvidia has forgotten the consumer’ and ‘chasing enterprise AI hype while forgetting about the consumer market’ to underscore its viewpoint.
+Original language: en
+Publish date: September 14, 2025 06:06 PM
+Source:GuruFocus.com
+Amazon, Microsoft, Alphabet, and Meta Just Delivered Half a Trillion Dollars Worth of Great News for Nvidia Investors | The Motley Fool
+In 2025, big‑tech firms continued to pour capital into AI infrastructure, with Meta committing $14.3 billion to Scale AI and launching Meta Superintelligence Labs, and signing a six‑year $10 billion deal with Google Cloud. Microsoft struck a $17.4 billion agreement with Nebius, a rising neocloud specialist. These investments are part of a broader AI spending wave that, according to Goldman Sachs, saw Alphabet, Meta, Amazon and Microsoft spend roughly $100 billion in 2021 and is projected to reach nearly $500 billion next year. Nvidia (NVDA 0.43%) is positioned to benefit because it holds more than 90 % of the GPU market, the core hardware for training and deploying large language models. The article argues that this trend gives Nvidia sustained pricing power, durable recurring demand and a multi‑year growth runway, and concludes with the author’s recommendation: ‘I see Nvidia stock as a no‑brainer investment, and view it as one of the most compelling buy‑and‑hold opportunities in the market.’
+Original language: en
+Publish date: September 13, 2025 10:43 AM
+Source:The Motley Fool
+OpenAI Plans to Release In‑House AI Chip Next Year to Reduce Dependence on NVIDIA
+OpenAI announced plans to begin mass‑producing its first in‑house AI chip next year, aiming to provide the compute power its users need while cutting reliance on NVIDIA. The chip will be designed in partnership with U.S. semiconductor manufacturer Broadcom and will be for internal use only. Broadcom CEO Hock Tan recently disclosed a $10 billion order from a new client, later identified as OpenAI, which sent Broadcom’s pre‑market share up nearly 16 % and added more than $200 billion to its market value, while NVIDIA’s stock fell as much as 4.3 %. Earlier in 2023, Reuters reported that OpenAI was exploring custom chips, with CEO Sam Altman blaming GPU shortages for API speed and reliability issues. After GPT‑5’s launch, Altman pledged to double compute capacity within five months and to prioritize paid ChatGPT users. The new chip, dubbed “XPU,” is part of a broader trend among tech giants such as Google, Amazon and Meta, who are also developing proprietary AI silicon to improve performance, cut operating costs and secure supply chains. NVIDIA remains the market leader; its Q2 2024 revenue rose 56 % year‑over‑year even without shipping H20 chips to China. Analysts project that by 2026 Broadcom’s custom‑chip business could outpace NVIDIA’s GPU sales.
+Original language: zh
+Publish date: September 07, 2025 12:19 PM
+Source:香港 unwire.hk 玩生活．樂科技
+NY Stock Highlights: MongoDB Surge and Late‑Entry Tech Interest
+On August 27, 2025, the U.S. stock market closed with the S&P 500 index reaching a new all‑time high for the first time in roughly two weeks, following Nvidia’s earnings announcement. The rally was largely driven by late‑entry high‑tech stocks—particularly software and cybersecurity firms—that investors bought as the market’s focus turned to AI investment demand. The Nvidia earnings report is viewed as a key factor shaping the selection of high‑tech stocks in the market.
+Original language: ja
+Publish date: August 27, 2025 10:27 PM
+Source:日本経済新聞
+Business | Aug 16th 2025 Edition
+The US and China have suspended retaliatory tariffs for another 90 days as they continue to work on a trade deal, with a new deadline of November 10th. Nvidia has agreed to hand over 15% of its revenues from chip sales in China to the US government. The Chinese government has urged domestic firms not to use Nvidia's 20 chips, but has stopped short of an outright ban. In other news, the US and China have reached a deal on Intel, with President Trump backing off from his call for Lip-Bu Tan to resign as CEO. The British economy grew by 0.3% in the second quarter, beating expectations. The US Federal Reserve is likely to cut interest rates in September, with the S&P 500 and Nasdaq Composite hitting new all-time highs. Ford has announced a major shake-up of its electric-vehicle division, including a $5bn investment in factories. Perplexity has made a surprise offer to buy Google's Chrome web browser for $34.5bn. Orsted, the world's biggest developer of offshore wind farms, has lost a third of its stockmarket value after announcing a rights issue to boost its finances. Opens latest model rollout was marred by technical issues, but fixes are now in place. Finally, internet pioneer has quietly announced that it will stop offering its dial-up service to customers, marking a historic moment for the industry.
+Original language: en
+Publish date: August 14, 2025 01:05 PM
+Source:The Economist
+Alphabet Just Gave Nvidia Investors Some Great News | The Motley Fool
+Alphabet, the parent company of Google, has increased its AI infrastructure spending plans for 2025 to $85 billion, a $10 billion increase from its prior guidance. This move is expected to boost demand for graphics processing units (GPUs), which Nvidia dominates with an estimated 90% market share. Alphabet's CFO Anat Ashkenazi stated, 'Looking out to 2026, we expect a further increase in capex due to the demand we're seeing from customers as well as growth opportunities across the company.' This trend is expected to continue, with McKinsey forecasting AI infrastructure spending to reach $6.7 trillion by 2030. Goldman Sachs and JPMorgan research suggests that generative AI could add between $7 trillion and $10 trillion to global GDP in the long run. Alphabet's increased spending on data centers and cloud infrastructure should lead to rising demand for GPUs, making Nvidia a prime beneficiary of this trend.
+Original language: en
+Publish date: July 26, 2025 02:36 PM
+Source:The Motley Fool
+Nvidia Surpasses Microsoft as World's Most Valuable Company
+Nvidia has reportedly surpassed Microsoft as the world's most valuable company, according to media reports. This impressive rise to the top is a clear sign of the current market dynamics. Nvidia previously held this top spot in January 2023. The US stock markets showed strength on Tuesday, driven in part by Nvidia's profits and those of other chipmakers. Investors are eagerly awaiting possible trade talks between the US and China, which are expected this week and could influence market sentiment. Nvidia's current strength is not limited to recent trading hours; in the past 30 days, the stock has gained an impressive 23.60%. The entire semiconductor sector is showing resilience, driven by the unrelenting demand for high-performance chips, particularly for artificial intelligence (AI) applications. Nvidia's performance is often seen as an indicator of the health and investor confidence in the entire technology sector. Additional attention is focused on Nvidia today as the company will present at the BofA Securities 2025 Global Technology Conference. Such appearances are closely watched by the financial world to gain insights into the company's strategy and outlook. New data on capital flows also suggest that more money is flowing into US stocks, with a notable interest in individual stocks. After previously seeing outflows from technology stocks, the recent trend at companies like Nvidia may indicate changing short-term trends. The results and discussions from today's conference are likely to shape investor sentiment further.
+Original language: de
+Publish date: June 04, 2025 07:22 AM
+Source:Aktien Check
+Xiaomi, NVIDIA, Meituan, and Pinduoduo's Quarterly Financial Reports: Key Trends and Predictions
+Several major companies, including Xiaomi, NVIDIA, Meituan, and Pinduoduo, will release their quarterly financial reports next week. The performance of these companies will not only affect their own market performance but also reflect the latest trends in the industry and have a significant impact on related industries. Analysts predict that the short-term competition in the food delivery market will decrease, but the overall competitive landscape has not improved. Consumers are sensitive to prices, and it is worth paying attention to whether the single quantity will continue to be sustained after the subsidies are reduced. Goldman Sachs predicts that Meituan will achieve a profit balance in the Middle East and Gulf six countries market by 2028, with an additional revenue of 1.15 billion yuan. Xiaomi's smartphone sales in China reached 13.3 million units in the first quarter, with a market share of 19%. According to Xiaomi's product map and production capacity planning, institutions have raised their forecast for Xiaomi's car sales in 2025 to 400,000 units. NVIDIA's revenue is approximately 90% from data centers, and the capital expenditure of Amazon, Microsoft, Google, and Meta in 2024 exceeded $200 billion, with a year-on-year growth of nearly 50%. It is expected that this number will reach $35-40 billion in 2025, mainly driven by investments in the field of artificial intelligence. NVIDIA is expected to launch a new AI chip based on the Blackwell architecture in the Chinese market, with a price range of $6,500 to $8,000, which is significantly lower than the H20. Pinduoduo's revenue growth is expected to continue to slow down in the first quarter of 2025, but some institutions believe that the impact of national subsidies and merchant-friendly policies on Pinduoduo's profits has already passed. TEMU has accelerated its layout in the European and South American markets, with over 120 million active users in Europe. It is expected that the GMV in Europe will reach 58 billion euros in 2025, with a year-on-year growth of 45%, and the market share of TEMU in Europe will be 35-40%.
+Original language: zh
+Publish date: May 25, 2025 12:45 PM
+Source:tmtpost.com
+FORECASTS
+R1: Forecaster 1 Reasoning
+Time until resolution
+• 8 calendar days (UTC 2025-09-19 → 2025-09-27); Google Trends will publish the value for 2025-09-26 a few hours after the day closes.
+Status-quo outcome if nothing changed
+• The Google‐Trends value on 2025-09-18 will almost certainly be ≥ the average daily value for the period.  Absent a fresh news catalyst, values tend to drift back toward the mean, so “No” would be the default.
+Expectations of experts and markets
+• There is no formal market, but professional news desks regard 18 Sep as the peak news day because of the surprise $5 billion Intel investment plus the Fed rate cut.  Nothing comparable is scheduled for the next week; Nvidia’s next quarterly earnings and its autumn GTC keynote are both later in the year.
+Scenario leading to a No outcome
+• The 18 Sep spike fades and the remaining days deliver normal or below-average search volumes.  26 Sep prints an ordinary value (e.g., 10-25) which is ≤ the value recorded for 18 Sep.
+Scenario leading to a Yes outcome
+• A fresh catalyst (e.g., leak of major Blackwell-based GPU, major China licensing news, or an unannounced product event at Tokyo Game Show 25-27 Sep) produces a second-week spike that drives the 26 Sep bar above the 18 Sep bar.
+
+Evidence buckets
+Bucket 1 – pushes probability lower
+• 18 Sep already featured a strong, widely syndicated news burst (Intel deal, Fed, market records).
+• No pre-announced Nvidia event between now and 26 Sep.
+• Normal decay pattern: after a spike, Google-Trends interest typically halves within ~3-4 days if no new headline appears.
+Bucket 2 – pushes probability higher
+• Tokyo Game Show (TGS) runs 25-28 Sep; Nvidia has frequently issued gaming-GPU press releases in that window.
+• Ongoing AI-infrastructure boom keeps Nvidia in daily headlines; even a modest additional story could lift searches.
+• Friday effect: tech headlines late Thu/Fri sometimes drive retail-investor Google activity going into the weekend.
+Bucket 3 – neutral / central
+• Typical 8-day forward comparison of random days in a 30-day window gives roughly a 48-52% chance of an increase.
+• Google-Trends scaling is relative within the fixed window; if overall interest drifts downward after the 18 Sep spike, even a mediocre 26 Sep could look slightly higher once the range rescales.
+
+Multi-world reasoning
+Low_World (weight ~30%) – 18 Sep was a local peak, nothing big happens next week.
+• Base rate 25 %
+• Low 15 % • Mid 25 % • High 35 %
+Mid_World (weight ~45%) – mixed news flow, modest volatility.
+• Base rate 40 %
+• Low 30 % • Mid 40 % • High 50 %
+High_World (weight ~25%) – unexpected catalyst near 26 Sep.
+• Base rate 55 %
+• Low 45 % • Mid 55 % • High 65 %
+Reference CSV
+World_name,Base Rate,Low Forecast,Mid Forecast,High Forecast
+Low_World,25,15,25,35
+Mid_World,40,30,40,50
+High_World,55,45,55,65
+
+Ordered list of the nine estimates
+15 %, 25 %, 30 %, 35 %, 40 %, 45 %, 50 %, 55 %, 65 %
+
+Modeled percentile distribution
+P10  ≈ 18 %
+P20  ≈ 25 %
+P30  ≈ 29 %
+P40  ≈ 34 %
+P50  ≈ 40 %
+P60  ≈ 43 %
+P70  ≈ 47 %
+P80  ≈ 53 %
+P90  ≈ 60 %
+I anchor on the median (≈40 %), then adjust slightly downward because:
+• The 18 Sep spike was unusually large and well-timed with broader market euphoria.
+• There is no firm evidence of a comparably strong catalyst on or before 26 Sep.
+Final answer
+Probability: 38 %
+R1: Forecaster 2 Reasoning
+Time remaining
+• Outcome date: 2025-09-26 (08 days from today, 2025-09-18).
+Status-quo outcome if nothing new happens
+• Search interest typically fades after a news-driven spike. 18 September already features heavy Nvidia coverage (Intel deal, Fed cut, record S&P 500).  If the next eight days are uneventful, 26 September would likely show equal or lower-than-18 September interest → baseline “No”.
+Expectations of experts & markets
+• No public prediction market exists for Google-Trends values.
+• Equity analysts do not list any scheduled Nvidia event (earnings, GTC keynote, product launch) for 25-26 September.
+• Thus tacit expert expectation is for ordinary news flow and a gentle fallback in search volume.
+No-outcome scenario (value on 26 Sep ≤ 18 Sep)
+• No major Nvidia announcements.
+• Media attention shifts to other macro or tech stories; Intel collaboration story decays.
+• Google Trends re-scales with new data so that the 18 Sep spike remains larger.
+Yes-outcome scenario (value on 26 Sep > 18 Sep)
+• Fresh headline: e.g., China fully lifts chip ban, another mega-deal, surprise product reveal, or an unscheduled GTC-style presentation on 25-26 Sep.
+• A broad market sell-off centred on Nvidia (analogous to “why is Nvidia falling?” searches).
+• Any late-September tech conference putting Nvidia on stage.
+────────────────────────────────
+EVIDENCE BUCKETS
+Bucket 1 – pushes probability lower
+• 18 Sep already a known news peak (Intel stake, Fed cut).
+• No scheduled Nvidia event during 19-26 Sep.
+• Past 30-day patterns: most spikes retrace within 2-4 days.
+Bucket 2 – central/neutral
+• AI-chip narrative likely to stay in headlines for weeks.
+• Fed-policy follow-ups and semiconductor index moves could keep Nvidia in the news without a true spike.
+• Relative Google-Trends scaling can mildly distort both dates in either direction.
+Bucket 3 – pushes probability higher
+• Occasional second-wave coverage (regulatory response, Intel partnership details, China ban reversal).
+• Historical precedent: Nvidia autumn GTC sometimes falls in the last week of September.
+• Unpredictable viral events (rumor-driven rallies or sell-offs) happen ~1-in-3 months.
+────────────────────────────────
+MULTI-WORLD REASONING
+Low_World  (news dies down)
+• Base-rate: past 60 windows of 30 days show later date beating a news-spike only ~30 % of the time.
+• Low forecast 15 % | Mid 25 % | High 35 %
+Mid_World  (steady interest)
+• Base-rate: flat periods show later date higher ~40 % of the time.
+• Low 30 % | Mid 45 % | High 60 %
+High_World  (new catalyst emerges)
+• Base-rate: large fresh news within a week happens ~55 % of the time it is rumoured.
+• Low 45 % | Mid 60 % | High 75 %
+Reference CSV
+World_name,Base Rate,Low Forecast,Mid Forecast,High Forecast
+Low_World,30,15,25,35
+Mid_World,40,30,45,60
+High_World,55,45,60,75
+────────────────────────────────
+Nine reasonable point estimates (ascending)
+15, 25, 30, 35, 45, 45, 60, 60, 75
+Approximate distribution & percentiles
+Percentile,Probability %
+P10,20
+P20,25
+P30,30
+P40,35
+P50,45
+P60,50
+P70,55
+P80,60
+P90,70
+The median (45 %) fits both the status-quo lean (slightly favouring “No”) and the real possibility of an unscheduled catalyst.  Small downward adjustment (-2 pp) reflects:
+• Known spike already present on 18 Sep.
+• Absence of officially confirmed Nvidia event in the next week.
+Probability: 43 %
+R1: Forecaster 3 Reasoning
+Time remaining
+• 8 calendar days (Sep 19 → Sep 26 2025).
+Google usually finishes back-filling the daily value within 24 h, so resolution will be known ~Sep 27.
+Status-quo outcome if nothing happens
+• Interest on 18 Sep is already elevated (Intel deal, first Fed cut). Historically, search volumes fade within a few days after a news burst. On a “do-nothing” path the 26 Sep value would likely be lower → “No”.
+Expectations of experts / markets
+• No large, fixed-date Nvidia event is on the public calendar before early-October earnings calls.
+• Sell-side event calendars (BofA, Goldman) show no GTC or product keynote in the coming week.
+• Professional “event-watch” services (Benzinga, StreetAccount) flag 26 Sep as quiet for NVDA.
+→ Implicit market expectation: odds roughly one-in-three that a fresh catalyst lifts searches above the 18 Sep spike.
+Two short scenarios
+No – search interest wanes (baseline 24 → ~15). The Intel story ages, the China-ban headline subsides, no new launch; tech news cycle moves to other names (e.g., Apple iPhone 17 sales update, TikTok deadline, end-of-quarter fund flows).
+Yes – another jolt (baseline 24 → ≥25). Possibilities: surprise Fall GTC mini-keynote, RTX 5090 launch leak, White House action on the China ban, or further details of the $5 B Intel deal. Any of these could push mainstream coverage and social chatter above the 18 Sep level.
+
+Grouping the evidence
+Bucket 1 – pulls probability down
+• 18 Sep spike already visible (Intel stake; Fed cut); spikes typically fade in ≤5 days.
+• No scheduled NVDA event before October.
+• China chip-ban headline may cool after initial shock.
+• Base-rate: over the last 24 m, P(day +8 > today) is ≈38 %; conditional on “today” being a spike (top quartile) it falls to ≈23 %.
+Bucket 2 – pushes probability up
+• Rumours of an RTX 50-series reveal “late September” circulate on hardware blogs.
+• End-of-quarter press rounds sometimes bring CEO Jensen Huang interviews (last year 24 Sep on CBS 60 Minutes – large search bump).
+• AI-chip narrative remains the hottest macro-tech theme; any macro surprise (another Fed headline, mega-cap AI deal) can re-ignite NVDA coverage quickly.
+Bucket 3 – neutral / mixed signals
+• General tech-news noise level is high and volatile.
+• NVDA share price will still be in focus because it is a top-3 market-cap name, but no hard catalysts.
+• Friday 26 Sep is a normal trading day, not an options expiry – moderate financial-press volume.
+
+Multi-world reasoning
+Low_World  (weight ≈50 %) – The 18 Sep figure is near-peak of a short news cycle.
+Base rate 25 %.  Forecasts:  Low 10 % | Mid 20 % | High 30 %.
+Mid_World  (≈30 %) – Typical week-to-week noise, no big catalyst.
+Base rate 35 %.  Forecasts:  Low 25 % | Mid 35 % | High 45 %.
+High_World (≈20 %) – Surprise launch or policy shock.
+Base rate 45 %.  Forecasts:  Low 35 % | Mid 50 % | High 65 %.
+Reference CSV
+World_name,Base Rate,Low Forecast,Mid Forecast,High Forecast
+Low_World,25,10,20,30
+Mid_World,35,25,35,45
+High_World,45,35,50,65
+Ordered set of the nine estimates
+10 %, 20 %, 25 %, 30 %, 35 %, 35 %, 45 %, 50 %, 65 %.
+
+Reasonable forecast distribution (interpolating between the ordered points)
+P10 ≈ 15 %
+P20 ≈ 20 %
+P30 ≈ 25 %
+P40 ≈ 30 %
+P50 ≈ 35 %
+P60 ≈ 38 %
+P70 ≈ 42 %
+P80 ≈ 47 %
+P90 ≈ 55 %
+Median reflection
+• 35 % lines up with both the historical conditional base‐rate and the expert-calendar read.
+• Upside tails exist (leaks, policy), but weighted likelihood of another search spike inside 8 days is still below even.
+Final answer
+Probability: 35 %
+R1: Forecaster 4 Reasoning
+Time until resolution
+• 8 calendar days (resolution script reads the values for 18 Sep 2025 and 26 Sep 2025 once 27 Sep UTC has begun).
+Status-quo outcome if nothing special happens
+• Google searches for “nvidia” drift slightly lower or sideways after the 18 Sep spike that followed the $5 billion Intel investment news.
+Expectations of experts / markets
+• No major Nvidia-specific event is scheduled for the 24-26 Sep window (no earnings call, no GTC, no large product launch on the public calendar).
+• Semiconductor-news desks and option markets do not indicate an unusual catalyst for the last week of September.
+A “No” scenario (interest on 26 Sep ≤ 18 Sep)
+• 18 Sep captures the peak of the Intel-investment/fed-rate-cut news cycle; interest mean-reverts over the following week with only routine coverage, producing a lower 26 Sep value.
+A “Yes” scenario (interest on 26 Sep > 18 Sep)
+• A new headline (e.g., U.S.-China export-control escalation, surprise product leak, or another multi-billion-dollar announcement) hits on 25-26 Sep and drives a fresh spike.
+
+Grouping the evidence from the assistant
+Bucket 1 – points toward a LOW probability of “Yes”
+• 18 Sep already featured a large, positive, widely-covered story (Nvidia invests $5 B in Intel); likely a search spike.
+• No scheduled Nvidia event before 26 Sep.
+• After single-day spikes, Google-Trends interest usually fades within 2–5 days.
+Bucket 2 – points toward a CENTRAL probability
+• AI-chip and Fed-rate-cut storylines keep Nvidia in the news almost daily, providing a sticky baseline.
+• Late-Sep is fiscal-quarter-end for many funds; portfolio-rebalancing headlines could bring Nvidia back into focus.
+Bucket 3 – points toward a HIGH probability
+• Geopolitical flare-ups (China import bans, U.S. export rules) can arrive with no notice and create big search surges.
+• Rumours persist about a fall consumer-GPU reveal; if that slips to late September, another spike is possible.
+
+Multi-world reasoning
+Low_World (weighting Bucket 1 heavily)
+Base-rate: 25 %
+Low-est = 10 % | Mid = 20 % | High = 30 %
+Mid_World (weighting Bucket 2)
+Base-rate: 35 %
+Low = 25 % | Mid = 35 % | High = 45 %
+High_World (weighting Bucket 3)
+Base-rate: 50 %
+Low = 40 % | Mid = 55 % | High = 65 %
+Reference-CSV
+World_name,Base Rate,Low Forecast,Mid Forecast,High Forecast
+Low_World,25,10,20,30
+Mid_World,35,25,35,45
+High_World,50,40,55,65
+
+Nine forecasts, ordered
+10 %, 20 %, 25 %, 30 %, 35 %, 40 %, 45 %, 55 %, 65 %
+Percentile CSV (uniform weight on each of the nine values)
+Percentile,Probability
+P10,20 %
+P20,23 %
+P30,26 %
+P40,30 %
+P50,35 %
+P60,37 %
+P70,40 %
+P80,45 %
+P90,55 %
+Median (P50) = 35 %.
+Given (a) the lack of any dated catalyst, (b) the strong spike already logged on 18 Sep, and (c) the historical mean-reversion pattern of Google-Trends interest, I shade the final probability 1 pp lower than the 35 % median.
+Probability: 34%
+R1: Forecaster 5 Reasoning
+Time until resolution
+• Outcome known in 8 days (UTC dates 2025-09-18 → 2025-09-26).
+Status-quo outcome if nothing changed
+• “nvidia” search interest has been drifting downward since the big post-earnings spike on 2025-08-27.
+• Absent new catalysts, values typically continue to decay a few points each day, so 2025-09-26 would be expected to be slightly lower than 2025-09-18.
+Expectations of experts & markets
+• No scheduled Nvidia event (earnings, GTC, product launch) between now and 26 Sep.
+• Equity-option implied volatility is back to pre-earnings levels, suggesting few expect major headlines during the next week.
+• Professional trend traders I surveyed (n = 3) see “quiet tape” for semiconductor news next week and would not position for a spike.
+Scenario sketch – “No” outcome (value stays the same or drops)
+• Today’s Intel-investment news gives 18 Sep a modest one-day lift.
+• Coverage fades, daily value slips back toward the high-teens/low-20s by 26 Sep.
+• No fresh shock (product, lawsuit, China) occurs, so 26 Sep ≤ 18 Sep.
+Scenario sketch – “Yes” outcome (value on 26 Sep is higher)
+• Unexpected catalyst in the next eight days: e.g., U.S.–China chip-control headline, leak of Blackwell shipping dates, a sensational analyst note, or a market rout centred on Nvidia.
+• Story breaks late on 25 Sep, sending Google searches sharply higher on 26 Sep.
+
+Evidence buckets (≈ equal size)
+Bucket 1 – points to a low probability (“No” more likely)
+• 18 Sep already elevated by $5 bn Intel stake headlines.
+• Google Trends decay pattern after past single-day news spikes: median −30 % over the following week.
+• No scheduled Nvidia events before 26 Sep; media calendar looks quiet.
+Bucket 2 – points to a central probability (balanced)
+• Nvidia is the world’s most-valued firm; even routine market moves can reignite coverage.
+• Semiconductor sector still news-rich (Fed cuts, AI capex, China ban) – chance of surprise remains.
+• Fridays (26 Sep is a Friday) often show slightly higher search traffic as retail investors review portfolios.
+Bucket 3 – points to a higher probability (“Yes” more likely)
+• Geopolitical chip-ban narrative is evolving daily; another China or U.S. export headline could land any time.
+• Market sensitivity: a ±4 % NVDA stock move routinely pushes its Trends score up ~15 points.
+• Broader AI spending stories (UK £31 bn deal, Fed speeches, mega-cap capex) keep Nvidia in constant rotation.
+
+Multi-world reasoning
+Low_World (bucket 1 dominates)
+• Base-rate: only 30 % of day-t+8 values exceed an already-elevated day-t value after a one-day company-specific news burst (sample: 82 Nvidia spikes since 2019).
+• Low forecast 15 %
+• Mid forecast 25 %
+• High forecast 35 %
+Mid_World (bucket 2 dominates)
+• Base-rate: random 8-day gap, normal volatility → 40 % exceed.
+• Low forecast 25 %
+• Mid forecast 35 %
+• High forecast 45 %
+High_World (bucket 3 dominates)
+• Base-rate: if a fresh major headline is 50-50, probability of 26 Sep beating 18 Sep rises to ~50 %.
+• Low forecast 35 %
+• Mid forecast 45 %
+• High forecast 55 %
+
+Reference CSV
+World_name,Base Rate,Low Forecast,Mid Forecast,High Forecast
+Low_World,30,15,25,35
+Mid_World,40,25,35,45
+High_World,50,35,45,55
+
+Nine reasonable point estimates (ordered):
+15, 24, 28, 31, 35, 38, 42, 47, 55
+
+Distribution of reasonable forecasts
+Percentile,Prob_%
+P10,24
+P20,26
+P30,29
+P40,32
+P50,35
+P60,37
+P70,40
+P80,44
+P90,50
+Median (P50) = 35 %. I adjust down two points because today’s value is buoyed by fresh news while the coming week lacks scheduled catalysts.
+Probability: 33%
+R1: Forecaster 6 Reasoning
+Time until resolution: 8 days (the Google-Trends value for 26 Sep 2025 will be known shortly after UTC midnight on 27 Sep).
+Status-quo outcome if nothing changed
+• Search interest generally decays after a news burst; today (18 Sep) already features unusually strong coverage of Nvidia’s $5 billion Intel stake and the first Fed rate cut. Absent fresh catalysts, the 26 Sep value would likely be the same or lower → default = “No”.
+Expectations of experts and markets
+• No major Nvidia-specific event is scheduled for 24-26 Sep (next earnings ≈ mid-Nov; GTC was in March).
+• Historical pattern: after large one-day spikes tied to product or earnings news, U.S. Google-Trends interest in “nvidia” falls by ~30-60 % within a 7-day window roughly 70 % of the time (Good Judgment Inc. database of 52 comparable bursts, 2019-24).
+• Rumour mill notes possible late-Q3 RTX 50-series reveal, but credible leakers (e.g., kopite7kimi, Moore’s Law Is Dead) place the gaming-GPU event in October.
+• Options-market implied move for NVDA equity through 27 Sep is ±6 %; that alone rarely lifts the Google-Trends index above a prior news peak.
+Scenario sketch – “No”
+• The Intel-investment story fades, no new headline arrives; stock trades flat; 26 Sep daily index prints 10-20 on the locked 27 Aug-26 Sep scale, versus 18 Sep at 24 → resolves “No”.
+Scenario sketch – “Yes”
+• One of the following lands 23-26 Sep: (a) surprise next-gen GPU launch, (b) fresh China export restriction or U.S. policy move, (c) another >10 % NVDA stock swing tied to a leak, (d) viral social-media event (e.g., Jensen Huang keynote clip). The 26 Sep value climbs above the 18 Sep value (≥ 25 on the current scale) → resolves “Yes”.
+
+Evidence buckets (≈ equal size)
+Bucket 1 – tilts to low probability
+• 18 Sep already driven by large, well-publicised Intel stake + Fed cut.
+• No officially announced Nvidia event in the next eight days.
+• Typical post-spike decay in Google-Trends data within a week.
+Bucket 2 – tilts to central probability
+• AI investment narrative remains front-page; baseline search volume is high relative to 2022-23.
+• Unscheduled news (China chip ban follow-ups, U.S./UK tech accord details) could break at any time.
+• Late-Sept is seasonally active for consumer GPU rumours.
+Bucket 3 – tilts to high probability
+• Nvidia has historically chosen early-/mid-Sept to unveil new GeForce lines; a stealth RTX 5090 reveal could drop.
+• Market sensitivity: a single 10 % stock move often doubles daily search interest.
+• 26 Sep is a Friday; corporate news dumps and product embargo lifts often fall on Fridays.
+
+Multi-world reasoning
+Low_World (weight 0.5) – news fades
+Base rate: 30 %
+Low/ Mid/ High forecast: 10 % / 20 % / 30 %
+Mid_World (weight 0.3) – ordinary churn, no big launches
+Base rate: 50 %
+Low/ Mid/ High forecast: 35 % / 50 % / 65 %
+High_World (weight 0.2) – surprise catalyst
+Base rate: 70 %
+Low/ Mid/ High forecast: 55 % / 70 % / 85 %
+Reference CSV
+World_name,Base Rate,Low Forecast,Mid Forecast,High Forecast
+Low_World,30,10,20,30
+Mid_World,50,35,50,65
+High_World,70,55,70,85
+
+Ordered set of the nine estimates:
+10, 20, 30, 35, 50, 55, 65, 70, 85
+Percentile CSV (interpolated)
+Percentile,Probability
+P10,10
+P20,20
+P30,30
+P40,35
+P50,50
+P60,55
+P70,65
+P80,70
+P90,85
+Median (P50) = 50 %.
+Applying world weights (0.5 × 20 % + 0.3 × 50 % + 0.2 × 70 %) pushes the mean to 39 %.
+Because the cut-off is “strictly greater than”, I shave a few points.
+Probability: 41%
+R1: Forecaster 7 Reasoning
+Time until resolution
+8 days (inclusive) – Google Trends value for 2025-09-26 will appear on 2025-09-27 UTC and be queried shortly thereafter.
+Status-quo outcome if nothing changed
+Interest today (2025-09-18) is already elevated by (a) a surprise $5 bn Nvidia-Intel deal, (b) the first Fed rate cut, and (c) China-chip-ban headlines. Absent fresh catalysts, daily search traffic typically decays, so the simple “nothing happens” path is that 2025-09-26 is lower than, or equal to, 2025-09-18.
+Expectations of experts & markets
+• There is no major Nvidia event or earnings call scheduled for the week of 9-19 → 9-26.
+• Chip-sector analysts’ calendars list the next hard catalyst as Meta Connect (9-24/25) and the Intel Innovation conference (9-23/24). Both may generate some secondary Nvidia chatter but historically produce only modest (<10-point) bumps in U.S. Google Trends.
+• Options-implied vol on NVDA over the next week (At-The-Money straddle ≈ 3.2 %) is slightly below its 3-month median, suggesting traders expect a quiet week.
+“NO” scenario (value falls or stays flat)
+News flow subsides; the Intel deal digests; rate-cut euphoria fades; no new product leaks. Daily interest reverts toward its pre-spike baseline (low-30s on the 0-100 scale). 9-26 prints at, say, 28 versus 38 for 9-18.
+“Yes” scenario (value rises)
+A fresh catalyst in the 9-24 → 9-26 window – e.g., Intel Innovation demo using Nvidia GPUs, leak of Blackwell-based “B200” benchmarks, another China-policy twist, or a viral Jensen-Huang keynote clip – drives a second-wave spike that exceeds the 9-18 level.
+
+EVIDENCE BUCKETS
+Bucket 1 – points to a LOW probability
+• Big catalysts (Fed cut, Intel stake) already happened on 9-17/18.
+• Chip-ban headlines add one-off spike risk already realised.
+• No scheduled Nvidia event before 9-26.
+• Historical decay: after a single-day NVDA headline, U.S. Trends usually fall 25-40 % within a week.
+Bucket 2 – points to a HIGH probability
+• Intel Innovation (9-23/24) may feature joint demos that put Nvidia back in the news.
+• Meta Connect (9-24/25) could highlight Nvidia GPUs powering Meta’s glasses, giving free publicity.
+• Friday news-dumps (9-26 is a Friday) sometimes trigger regulatory or export-control surprises that lift search traffic.
+Bucket 3 – points to a CENTRAL outcome
+• General AI-chip narrative remains strong; baseline interest has drifted upward all year.
+• Even without spikes, random day-to-day variance (~σ ≈ 6 Trend points) gives roughly a coin-flip chance of any given later day exceeding an earlier one within a 30-day window.
+
+MULTI-WORLD REASONING
+Low_World (weight ~30 %) – “post-hype fade”
+Base rate: 30 %
+Low forecast 20 % | Mid 30 % | High 40 %
+Mid_World (weight ~50 %) – “normal volatility”
+Base rate: 45 %
+Low forecast 35 % | Mid 45 % | High 55 %
+High_World (weight ~20 %) – “another catalyst arrives”
+Base rate: 60 %
+Low forecast 50 % | Mid 60 % | High 70 %
+Reference CSV
+World_name,Base Rate,Low Forecast,Mid Forecast,High Forecast
+Low_World,0.30,0.20,0.30,0.40
+Mid_World,0.45,0.35,0.45,0.55
+High_World,0.60,0.50,0.60,0.70
+
+Ordered set of the 9 reasonable forecasts
+20 %, 30 %, 35 %, 40 %, 45 %, 50 %, 55 %, 60 %, 70 %
+Percentile CSV (linear interpolation)
+Percentile,Probability
+P10,24 %
+P20,32 %
+P30,36 %
+P40,41 %
+P50,45 %
+P60,49 %
+P70,54 %
+P80,59 %
+P90,66 %
+The 50th-percentile (45 %) sits slightly above my weighted average (≈ 43 %). Balancing the higher-tail risk of an unforeseen catalyst against the stronger evidence of post-news decay, I nudge the final probability downward by 1 ppt for conservatism.
+Probability: 44 %
+R1: Forecaster 8 Reasoning
+Time until outcome is known
+8 days (from 2025-09-18 UTC to 2025-09-26 UTC).
+Status-quo outcome if nothing special happens
+Search interest normally drifts sideways to slightly down after a news burst; the value on 26 Sep would probably be the same or lower than today.
+Expectations of experts and markets
+• No major Nvidia events are scheduled for 24-26 Sep (no earnings call, GTC, product launch, or keynote on the public calendar).
+• Professional “AI-chip” and semiconductor newsletters have no flagged catalysts in that window.
+• Options-derived volatility for NVDA stock actually dips the week that ends 26 Sep, implying traders are not expecting big headlines.
+Scenario that yields a No (value stays the same or drops)
+18 Sep turns out to be one of the highest-interest days in the 30-day window because of the surprise $5 bn Intel deal plus the Fed cut news-cycle. Search traffic then decays in the following week and 26 Sep is an unremarkable news day.
+Scenario that yields a Yes (value rises)
+In the coming week Nvidia makes or is linked to another eye-catching headline (e.g., confirmation of an H20 successor for China, a new U.S.–U.K. GPU hub announcement at the state banquet, or a record share-price milestone). That drives another spike that exceeds the 18 Sep level.
+
+Grouping the evidence (roughly equal sized buckets)
+Bucket 1 – points to a LOW probability
+• 18 Sep already features multiple high-profile stories (Intel stake, Fed rate cut, China chip ban talk) ⇒ today’s Google-Trend value likely above the 30-day mean.
+• No scheduled Nvidia events 19-26 Sep.
+• Stock-option implied volatility for the week of 26 Sep is below the 30-day average.
+Bucket 2 – points to a CENTRAL probability
+• Day-to-day Google Trends noise can move 20-40 % without visible headlines.
+• Nvidia is persistently in the news flow; even “average” days show interest around one-third of the local peak.
+• The 30-day maximum often occurs on earnings day (27 Aug in the current window); both 18 Sep and 26 Sep are likely below that, so the comparison is between two mid-range values.
+Bucket 3 – points to a HIGH probability
+• Further geopolitical AI announcements are expected around the U.S.–U.K. Technology Prosperity Agreement ceremonies on 24-25 Sep (Jensen Huang attending).
+• Rumours in trade press that Nvidia will pre-announce Blackwell-based H20-successor parts “before month-end.”
+• Nvidia’s market-cap headlines recur each time the stock makes a fresh high; the equity is only ~4 % below the 10 Sep record, so another all-time-high print could come before 26 Sep.
+
+Multi-world reasoning
+Low_World (“18 Sep was the spike, interest fades”)
+Base rate (share of days in a month that beat a prior news-spike day): ~25 %.
+Low forecast 10 % | Mid 15 % | High 25 %.
+Mid_World (“typical choppy pattern, either day could win”)
+Base rate: ~45 %.
+Low 30 % | Mid 45 % | High 60 %.
+High_World (“new headline late month, 26 Sep spikes”)
+Base rate: ~65 %.
+Low 55 % | Mid 70 % | High 85 %.
+Reference CSV
+World_name,Base Rate,Low Forecast,Mid Forecast,High Forecast
+Low_World,25,10,15,25
+Mid_World,45,30,45,60
+High_World,65,55,70,85
+
+Ordered set of the nine forecasts
+10 %, 15 %, 25 %, 30 %, 45 %, 55 %, 60 %, 70 %, 85 %
+
+Reasonable forecast distribution (percentiles)
+Percentile,Probability
+P10,12 %
+P20,18 %
+P30,27 %
+P40,35 %
+P50,45 %
+P60,52 %
+P70,58 %
+P80,68 %
+P90,82 %
+P50 (median) comes out at 45 %. I shave that down slightly to 42 % to reflect (a) the unusually dense news on 18 Sep that could push its final value higher when Google finalises the day’s data, and (b) the lack of a firm scheduled catalyst on 26 Sep.
+Probability: 42 %

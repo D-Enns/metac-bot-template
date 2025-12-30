@@ -1,0 +1,650 @@
+SUMMARY
+Question: Will the interest in "nintendo direct" be greater on 2025-09-26 than on 2025-09-17 according to Google Trends?
+Final Prediction: 25.5%
+Total Cost: $0
+Time Spent: 1.36 minutes
+Report 1 Summary
+Forecasts
+Forecaster 1: 35.0%
+Forecaster 2: 27.0%
+Forecaster 3: 31.0%
+Forecaster 4: 23.0%
+Forecaster 5: 24.0%
+Forecaster 6: 27.0%
+Forecaster 7: 17.0%
+Forecaster 8: 18.0%
+Research Summary
+The collected research consists of news reports and summaries from a range of international outlets detailing the announcements, release dates, preorder information, and ancillary content revealed during Nintendo’s September 2025 Direct event. Key first-party titles showcased include the Super Mario Galaxy + Galaxy 2 bundle (with native 4K support on Switch 2 and new Rosalina storybook pages), Metroid Prime 4: Beyond (December 4, 2025), Fire Emblem: Fortune’s Weave, Hyrule Warriors: Age of Imprisonment, Mario Tennis Fever, Pokémon Pokopia, and a Virtual Boy Classics lineup (February 17, 2026) for Nintendo Switch Online + Expansion Pack. Preorders went live on the My Nintendo Store for these games, amiibo figures (Rosalina, Mario with Sparkles, Samus, Sylux, Samus & Vi-O-La), DLC such as Donkey Kong Bananza – DK Island & Emerald Rush, and hardware accessories (full and cardboard Virtual Boy replicas). Third-party releases confirmed include Resident Evil Requiem, Borderlands 4, Disgaea 7, Persona 3 Remake, Dragon Quest HD-2D, Mortal Kombat 11 Anniversary, Supergiant’s new roguelike, and more.
+Multiple outlets provided objective listings of titles, dates, prices, and preorder links, while a personal account on GamesRadar reflected consumer anticipation and competitive positioning against handheld rivals like the Steam Deck. Additional reporting covered anniversary celebrations (Super Mario’s 40th), a new Super Mario Galaxy feature film (April 2026), museum exhibits, marathons, and partner-focused showcases scheduled later in 2025. Rumor pieces predicted upcoming Partner Showcase livestreams in mid-2025.
+Sources:
+https://www.tomshw.it/videogioco/my-nintendo-store-aperti-nuovi-preorder-di-giochi-amiibo-e-contenuti-extra
+https://www.gamesradar.com/platforms/nintendo-switch-2/septembers-nintendo-direct-told-us-a-lot-about-the-switch-2s-future-and-i-fear-2026-is-the-year-i-crack-and-buy-another-handheld/
+https://www.gamesradar.com/hardware/super-mario-galaxy-switch-pre-orders-have-landed-and-ive-got-all-the-us-and-uk-links-you-need/
+https://mashable.com/article/nintendo-switch-2-2025-game-releases-preorders
+https://www.ign.com/articles/super-mario-galaxy-and-super-mario-galaxy-2-coming-to-nintendo-switch-consoles
+https://www.ign.com/articles/nintendo-direct-september-2025-live-updates-everything-announced
+https://www.shortlist.com/tech/5-massive-nintendo-switch-2-releases-you-need-to-know-about-including-the-return-of-a-retro-curiosity
+https://www.eluniversal.com.mx/tendencias/nintendo-direct-septiembre-2025-regreso-de-virtual-boy-y-anuncio-de-metroid-prime-4-entre-las-novedades-del-evento/
+https://www.factornews.com/article/nintendo-direct-du-12-09-2025-le-gros-resume-51302.html
+https://www.correiobraziliense.com.br/diversao-e-arte/2025/09/7247679-nintendo-direct-celebra-40-anos-de-super-mario-com-novos-anuncios.html
+https://www.vidaextra.com/listas/todo-anunciado-nintendo-direct-novedades-40o-aniversario-mario-resident-evil-9-retorno-virtual-boy-mucho
+https://www.commentcamarche.net/image-son/jeu-video/35703-nintendo-direct/
+https://www.vooks.net/everything-from-the-september-2025-nintendo-direct-marios-40th-metroid-resident-evil-yoshi-and-more/
+https://metro.co.uk/2025/09/12/nintendo-announces-four-switch-2-games-super-marios-40th-anniversary-24147238/
+https://www.ign.com/articles/virtual-boy-nintendo-classics-announced-for-switch-1-and-2-at-nintendo-direct
+https://www.trendhunter.com/trends/nintendo-direct-july-31st
+https://canaltech.com.br/games/nem-catastrofes-param-o-switch-2-nintendo-anuncia-novo-direct/
+https://caracol.com.co/2025/05/27/nintendo-direct-inminente-para-el-mes-de-junio-durante-el-lanzamiento-de-nintendo-switch-2/
+https://gamerant.com/next-nintendo-direct-june-2025-rumor-prediction/
+RESEARCH
+Report 1 Research
+Here are the relevant news articles:
+My Nintendo Store: New Preorders for Games, Amiibo, and Extra Content
+The My Nintendo Store has opened pre‑orders for a range of Nintendo titles and merchandise announced at the Nintendo Direct on 12 September 2025. The pre‑orders include the bundle 'Super Mario Galaxy + Super Mario Galaxy 2' priced at 69,99€, with an optional metal‑poster edition. 'Metroid Prime 4 Beyond' is available for 59,99€ on Switch and 69,99€ on Switch 2, with an Energy Pack add‑on that adds holographic stickers and a desk mat. 'Hyrule Warriors: L'era dell'esilio' and 'Mario Tennis Fever' are offered in digital for 69,99€ or physical for 79,99€. Exclusive amiibo figures such as 'Rosalinda', 'Mario con gli Sfavillotti', 'Samus', 'Sylux', and the pair 'Samus & Vi‑O‑La' start at 19,99€. The DLC 'Donkey Kong Bananza – Isola DK + Caccia agli smeraldi' is also available for 19,99€, adding new challenges. The store serves as a hub for collectors and fans to secure these titles and accessories before release.
+Original language: it
+Publish date: September 16, 2025 12:25 PM
+Source:Tom's Hardware
+September's Nintendo Direct told us a lot about the Switch 2's future, and I fear 2026 is the year I crack and buy another handheld
+The author, who bought a Steam Deck in July, recounts how Nintendo Direct in September revealed a promising lineup for the upcoming Switch 2, sparking a fear that 2026 may be the year they finally purchase a new handheld.  The Direct showcased new first‑party titles such as Fire Emblem: Fortune's Weave, Hyrule Warriors: Age of Imprisonment, and Pokemon Pokopia, and highlighted two major third‑party releases: Resident Evil Requiem, slated for launch on the Switch 2 on February 27 2026, and Borderlands 4, which will arrive on the handheld on October 3.  The author notes that the Switch 2 already runs demanding games like Cyberpunk 2077 and Star Wars Outlaws, suggesting it could handle these new titles without performance issues.  They also point out that competitors such as the Steam Deck and the upcoming ROG Ally have entered the handheld market, but the Switch 2’s growing library—new Fire Emblem, Super Mario Galaxy 2, Metroid Prime 4, Yoshi and the Mysterious Book, and potentially a main‑line Zelda—may tip the balance in its favor.  The piece ends with the author admitting that a future where the Switch 2 sits alongside their Steam Deck is increasingly likely, even if it means stretching their wallet.
+Original language: en
+Publish date: September 16, 2025 08:49 AM
+Source:gamesradar
+Super Mario Galaxy Switch pre-orders have landed, and I've got all the US and UK links you need
+Super Mario Galaxy and Super Mario Galaxy 2 pre‑orders are live for the Switch collection announced during the latest Nintendo Direct showcase. The physical cart, which bundles both Wii titles, will launch on Oct 2 2025. US retailers already have pre‑orders available, while UK retailers are limited; the Nintendo UK online store lists only the digital version, and other UK retailers such as ShopTo have yet to open pre‑orders. The article warns that the collection may be snatched by resellers at launch, so fans are urged to order early. The author says, 'I recommend grabbing a copy of this collection as soon as possible,' to avoid disappointment if it becomes resale fodder on sites like eBay.
+Original language: en
+Publish date: September 15, 2025 02:37 PM
+Source:gamesradar
+All 2025 Nintendo Switch 2 game releases confirmed with preorder details
+Nintendo Direct revealed a full 2025 Switch 2 lineup, featuring first‑party titles such as Metroid Prime 4 Beyond, Pokémon Legends Z‑A, a remastered Super Mario Galaxy bundle, Hyrule Warriors: Age of Imprisonment, Kirby Air Ride, Pac‑Man, and others. Third‑party releases include EA’s football series, Borderlands 4, Disgaea 7, Cronos, Persona 3 remake, Dragon Quest HD‑2D, Dragon Ball FighterZ, SpongeBob, Supergiant’s new roguelike, Octopath Origins, Mortal Kombat 11 Anniversary, and Bond 25th Anniversary. The article lists preorder links and prices, noting that Nintendo is ‘making sure its new console feels essential before 2025 is even over.’ It presents the information factually without editorializing, so the reporting voice is objective and the tone is low‑provocative with no discernible bias.
+Original language: en
+Publish date: September 15, 2025 10:48 AM
+Source:Mashable
+Super Mario Galaxy and Super Mario Galaxy 2 Coming to Nintendo Switch Consoles - IGN
+The article reports that the Nintendo Switch will receive a combined physical release of Super Mario Galaxy and Super Mario Galaxy 2 on October 2, 2025, priced at $69.99 (see the line 'Super Mario Galaxy + Super Mario Galaxy 2 40 $69.99'). The new versions will feature boosted resolution—up to 4K on the Switch 2—an improved user interface, a new in‑game music player, and the option to play using button and stick or motion controls. Additional content includes extra pages of Rosalina’s in‑game storybook, which contains lore for the character. A pair of new Super Mario Galaxy amiibo will also be released on April 2, 2026; one amiibo allows Mario and Luma to be scanned for a Life Mushroom, and the other lets Rosalina and Lumas be scanned for a 1‑Up Mushroom. The amiibo are described as "Mario being flung through a Warp Star, as a Luma chases behind" and "Rosalina, reading from her storybook and surrounded by two Lumas." A hardcover book version of Rosalina’s storybook will be available but will not contain the new story content added to the Switch versions. The article also mentions other announcements such as sponsorship of the Kyoto Marathon 2026 and a fresh design for the Nintendo Museum ticket, all announced during the Nintendo Direct September 2025. The piece is written in a factual, descriptive tone without editorial commentary.
+Original language: en
+Publish date: September 12, 2025 01:13 PM
+Source:ign.com
+Nintendo Direct September 2025: Everything Announced - IGN
+The IGN recap of the Nintendo Direct held on September 12 2025 lists a large slate of releases for the Switch and the upcoming Switch 2.  The key announcements include:  • Super Mario Galaxy and Super Mario Galaxy 2 will be bundled and released on Switch 2 on October 2 2025, with a free 4K update for the Switch 2 version.  • The Super Mario Galaxy Movie is confirmed for release on April 3 2026.  • Metroid Prime 4: Beyond will launch on Switch on December 4 2025, with amiibo drops on November 6 and December 4.  • Fire Emblem: Fortune’s Weave is the final Direct reveal, featuring a Divine Sovereign that grants wishes.  • Donkey Kong Bananza: DK Island & Emerald Rush DLC is out today, offering new modes and collectibles.  • Pokemon Pokopia, a cozy life‑sim starring a human‑looking Ditto, is slated for 2026.  • The Virtual Boy is being remade as a physical console, available February 17 2026 for $99.99 (cardboard model $24.99).  • Super Mario Bros. 40th‑anniversary celebrations include a special ticket at Kyoto’s Nintendo Museum, a light display in December 2025, and sponsorship of the Kyoto Marathon on February 15 2026.  • Additional titles announced for Switch 2 include Hyrule Warriors: Age of Imprisonment (November 6 2025), Hades 2 (September 25 2025), Kirby Air Riders (amiibo releases), Final Fantasy VII: Remake Intergrade (January 22 2026), and many others such as Dragon Quest VII Reimagined, Stardew Valley Switch 2 Edition, Overcooked! 2 Switch 2 Edition, and Monster Hunter Stories 3 : Twisted Reflection (March 13 2026).  The article provides dates, platform details, and brief feature highlights for each title, aiming to keep fans informed of the full Direct lineup.
+Original language: en
+Publish date: September 12, 2025 12:57 PM
+Source:ign.com
+My Nintendo Store: New Preorders for Games, Amiibo, and Extra Content
+The My Nintendo Store has opened pre‑orders for a range of Nintendo titles and merchandise announced at the Nintendo Direct on 12 September 2025. The pre‑orders include the bundle 'Super Mario Galaxy + Super Mario Galaxy 2' priced at 69,99€, with an optional metal‑poster edition. 'Metroid Prime 4 Beyond' is available for 59,99€ on Switch and 69,99€ on Switch 2, with an Energy Pack add‑on that adds holographic stickers and a desk mat. 'Hyrule Warriors: L'era dell'esilio' and 'Mario Tennis Fever' are offered in digital for 69,99€ or physical for 79,99€. Exclusive amiibo figures such as 'Rosalinda', 'Mario con gli Sfavillotti', 'Samus', 'Sylux', and the pair 'Samus & Vi‑O‑La' start at 19,99€. The DLC 'Donkey Kong Bananza – Isola DK + Caccia agli smeraldi' is also available for 19,99€, adding new challenges. The store serves as a hub for collectors and fans to secure these titles and accessories before release.
+Original language: it
+Publish date: September 16, 2025 12:25 PM
+Source:Tom's Hardware
+September's Nintendo Direct told us a lot about the Switch 2's future, and I fear 2026 is the year I crack and buy another handheld
+The author, who bought a Steam Deck in July, recounts how Nintendo Direct in September revealed a promising lineup for the upcoming Switch 2, sparking a fear that 2026 may be the year they finally purchase a new handheld.  The Direct showcased new first‑party titles such as Fire Emblem: Fortune's Weave, Hyrule Warriors: Age of Imprisonment, and Pokemon Pokopia, and highlighted two major third‑party releases: Resident Evil Requiem, slated for launch on the Switch 2 on February 27 2026, and Borderlands 4, which will arrive on the handheld on October 3.  The author notes that the Switch 2 already runs demanding games like Cyberpunk 2077 and Star Wars Outlaws, suggesting it could handle these new titles without performance issues.  They also point out that competitors such as the Steam Deck and the upcoming ROG Ally have entered the handheld market, but the Switch 2’s growing library—new Fire Emblem, Super Mario Galaxy 2, Metroid Prime 4, Yoshi and the Mysterious Book, and potentially a main‑line Zelda—may tip the balance in its favor.  The piece ends with the author admitting that a future where the Switch 2 sits alongside their Steam Deck is increasingly likely, even if it means stretching their wallet.
+Original language: en
+Publish date: September 16, 2025 08:49 AM
+Source:gamesradar
+Super Mario Galaxy Switch pre-orders have landed, and I've got all the US and UK links you need
+Super Mario Galaxy and Super Mario Galaxy 2 pre‑orders are live for the Switch collection announced during the latest Nintendo Direct showcase. The physical cart, which bundles both Wii titles, will launch on Oct 2 2025. US retailers already have pre‑orders available, while UK retailers are limited; the Nintendo UK online store lists only the digital version, and other UK retailers such as ShopTo have yet to open pre‑orders. The article warns that the collection may be snatched by resellers at launch, so fans are urged to order early. The author says, 'I recommend grabbing a copy of this collection as soon as possible,' to avoid disappointment if it becomes resale fodder on sites like eBay.
+Original language: en
+Publish date: September 15, 2025 02:37 PM
+Source:gamesradar
+All 2025 Nintendo Switch 2 game releases confirmed with preorder details
+Nintendo Direct revealed a full 2025 Switch 2 lineup, featuring first‑party titles such as Metroid Prime 4 Beyond, Pokémon Legends Z‑A, a remastered Super Mario Galaxy bundle, Hyrule Warriors: Age of Imprisonment, Kirby Air Ride, Pac‑Man, and others. Third‑party releases include EA’s football series, Borderlands 4, Disgaea 7, Cronos, Persona 3 remake, Dragon Quest HD‑2D, Dragon Ball FighterZ, SpongeBob, Supergiant’s new roguelike, Octopath Origins, Mortal Kombat 11 Anniversary, and Bond 25th Anniversary. The article lists preorder links and prices, noting that Nintendo is ‘making sure its new console feels essential before 2025 is even over.’ It presents the information factually without editorializing, so the reporting voice is objective and the tone is low‑provocative with no discernible bias.
+Original language: en
+Publish date: September 15, 2025 10:48 AM
+Source:Mashable
+5 massive Nintendo Switch 2 releases you need to know about (including the return of a retro curiosity)
+Nintendo Direct on 15 September 2025 revealed five major Nintendo Switch 2 releases, all announced by Nintendo Direct (September 15 2025). The first was the revival of the Virtual Boy as "Virtual Boy: Nintendo Classics", launching on 17 February 2026 on Switch Online + Expansion Pack. The package requires a dedicated stereoscopic 3‑D accessory—either a full replica headset costing £67 or a budget cardboard model for £17—plus the Expansion Pack subscription at £34.99 per year in the UK. The initial lineup includes 14 titles such as Mario's Tennis, Galactic Pinball, Teleroboxer, Wario Land, and V Tetris.
+The second announcement was Mario Tennis Fever, set to release on 12 February 2026 for Switch 2. It features a record 38 playable characters, 30 Fever Rackets, and new gameplay mechanics like sliding and defensive footwork, plus an Adventure Mode where Mario and co. are turned into babies to defeat monsters.
+The third major title is Metroid Prime 4: Beyond, scheduled for 4 December 2025 on both Switch and Switch 2. The trailer showcased lush alien environments, cinematic combat, and a new sci‑fi motorbike, Vi‑O‑La, ridden by Samus. Open‑world segments were hinted at, and new amiibo figures for Samus, Vi‑O‑La, and the villain Sylux will accompany the release.
+Capcom announced a horror triple‑whammy: Resident Evil 7: Biohazard, Resident Evil Village, and Resident Evil 9: Requiem will all launch on Switch 2 on 27 February 2026. The new game, Requiem, features darker tone and new locations, and all titles will be native ports, not cloud versions.
+The final highlight was the upcoming Fire Emblem title Fortune's Weave, slated for 2026 on Switch 2. It promises turn‑based tactical combat, cinematic storytelling, and a cast of anime‑style soldiers.
+These announcements represent Nintendo's strategy to combine nostalgic revivals with new IPs and third‑party titles, aiming to leverage Switch 2's enhanced hardware while appealing to long‑time fans and new players alike.
+Original language: en
+Publish date: September 15, 2025 08:37 AM
+Source:Shortlist
+Nintendo Direct September 2025: Return of Virtual Boy and Announcement of Metroid Prime 4, among event highlights
+On September 12, 2025, Nintendo held a Direct event that announced several new releases for the Nintendo Switch and Switch 2. The event opened with the launch of the "Super Mario Galaxy + Super Mario Galaxy 2" pack, priced at 1,515 MXN, available on October 2, 2025 in the Nintendo eShop. It also revealed "Mario Tennis Fever" for Switch 2, scheduled for February 12, 2026, and "Super Mario Bros Wonder" for Switch 2, slated for spring 2026. "Yoshi y el libro misterioso" will also launch in spring 2026.
+Nintendo announced "Metroid Prime 4 Beyond" for Switch 2, featuring mouse support and 4K TV mode, with a release date of December 4, 2025. Other titles announced for the Switch include "Resident Evil Requiem" (February 27, 2026), "Fire Emblem: Fortune's Weave" and "Pokémon Pokopia" (both in 2026), and "Hyrule Warriors: La era del destierro" (November 6, 2025).
+In celebration of the 40th anniversary of "Super Mario Bros" in Japan, Shigeru Miyamoto unveiled new content for the franchise. The event highlighted the upcoming "Super Mario Galaxy" film, set for release in April 2026, and the opening of a third "Super Nintendo World" park in Universal Epic Universe, Orlando, Florida. Chris Meledandri, co‑producer of the film, remarked, 'Super Mario Bros ha dejado una huella indeleble en el tejido cultural de nuestra sociedad.'
+Nintendo also announced the return of the "Virtual Boy", compatible with both Switch consoles, which will be available on February 17, 2026 and will include the games "Mario's Tennis", "Galactic Pinball", and "Teleroboxer".
+Original language: es
+Publish date: September 12, 2025 09:27 PM
+Source:El Universal
+Nintendo Direct 12/09/2025: The Big Summary
+The Nintendo Direct held on 12 September 2025 celebrated Super Mario’s 40th birthday and previewed a wide range of new releases and events.  The show opened with a Mario‑themed atmosphere, noting that the original Super Mario Bros. debuted on 13 September 1985 in Japan and that Shigeru Miyamoto, now 72, remains active.  A new exhibition of development documents and illustrations will be displayed at the Nintendo Museum in Kyoto, with a commemorative 40‑year ticket available for one year until September 2026.  Nintendo announced a third Super Nintendo World park in Universal’s Orlando complex, and a marathon in Kyoto on 15 February 2026, with a Nintendo‑branded bib for the 42 km run.
+Film news: the Super Mario Galaxy movie, a co‑production with Illumination Entertainment, will release on 1 April 2026.  The film’s voice cast includes Chris Pratt (Mario), Anya Taylor‑Joy (Peach), Charlie Day (Luigi), Jack Black (Bowser), Keegan‑Michael Key (Toad) and Kevin Michael Richardson (Kamek).  A compilation of Super Mario Galaxy (2007) and Galaxy 2 (2010) will launch on Switch on 2 October 2025 at €39.99 for a single game or €69.99 for both, with two amiibo (Mario‑Luma and Harmony‑Luma) released on 2 April 2026.
+Other Nintendo titles: Yoshiaki Koizumi announced a new book feature in Galaxy 2, a Mario Tennis Fever release on 12 February 2026, and a Nintendo Switch 2 Edition of Mario Tennis Fever with a DLC called Rendezvous at Ballabel.  A physical Talking Flower toy is slated for spring 2026.
+Upcoming Switch 2 releases include Yoshi and the Mysterious Book (spring 2026), Storm Lancers (today on eShop), Dinkum (6 November 2025), Metroid Prime 4: Beyond (4 December 2025), Donkey Kong Bananza (17 July 2025) with a DLC, and several Pokémon titles such as Pokémon Pokopia (planned 2026) and Legends Pokémon Z‑A (16 October 2025) with a two‑wave DLC.
+Other highlighted games: Kirby Air Riders (20 November 2025) with two new amiibo, Hyrule Warriors: The Chronicles of the Seal (6 November 2025), Dragon Quest VII Reimagined (5 February 2026), Resident Evil Requiem (27 February 2026), and the upcoming Fire Emblem: Fortune’s Weave (2026).  The Direct also mentioned several legacy and remastered titles such as Monster Hunter Stories 3, The Legend of Zelda: Tears of the Kingdom, and Fatal Frame II: Crimson Butterfly Remake (early 2026).
+Overall, the Direct covered a broad slate of Nintendo‑branded content, from anniversaries and new movies to Switch 2 releases and accessories, with many dates and price points highlighted.
+Original language: fr
+Publish date: September 12, 2025 07:14 PM
+Source:Factor News
+Nintendo Direct Celebrates 40 Years of Super Mario with New Announcements
+Nintendo Direct celebrated the 40th anniversary of the Super Mario franchise with a series of announcements for the Switch and Switch 2 consoles, as well as the official reveal of a new animated feature film. The creator Shigeru Miyamoto announced that the franchise will receive a feature-length animation titled 'The Super Mario Galaxy Movie', with a worldwide premiere scheduled for 3 April 2026. The event also highlighted other partner studio releases, including 'Resident Evil Requiem' set for 27 February 2026, 'Hades II', 'Monster Hunter Stories 3: Twisted Reflection', 'Fatal Frame II Remake', 'Dragon Quest VII Reimagined', and the collection 'Mortal Kombat: Legacy Kollection' slated for October 2025. Additional updates included DLC for 'Donkey Kong Bananza: DK Island & Emerald Rush' released on the same day, an upcoming expansion for 'Pokémon Legends: Z-A – Mega Dimension' featuring new mega evolutions, and a special Kirby-themed theme for the Nintendo Today! mobile app. The celebration also involved events at the Nintendo Museum in Kyoto.
+Original language: pt
+Publish date: September 12, 2025 06:28 PM
+Source:correiobraziliense.com.br
+All Nintendo Direct Announcements: Mario 40th Anniversary, Resident Evil 9, Virtual Boy Return, and More
+Nintendo’s latest Direct, held on September 12 2025, announced a wide array of releases for the Switch and the upcoming Switch 2, celebrating Mario’s 40th birthday and unveiling new titles across several franchises.  The event highlighted the 40‑year anniversary of Super Mario Bros. and the planned return of the Virtual Boy as a new device that will be sold for €79.99, with a cheaper version at €19.99 that grants subscribers access to 14 classic games.  The Direct also revealed that the film Super Mario Galaxy La Película will premiere in Spain in April 2026, and that the games Super Mario Galaxy and Super Mario Galaxy 2 will be re‑released separately on the eShop and together in a physical/digital bundle on October 2 2026.  Mario Tennis Fever, set for February 12 2026, will launch exclusively on Switch 2 and will feature 30 new “Fever” rackets and a new adventure mode.  Yoshi and the Mysterious Book will arrive in spring 2026, while the first‑person shooter Metroid Prime 4 is scheduled for December 4 2026 on both consoles, accompanied by three new Amiibos.  Resident Evil Requiem will be released on February 27 2026 for Switch 2, with Resident Evil 7 and 8 also launching that day.  Fire Emblem Fortune’s Weave is slated for 2026 on Switch 2, and Dragon Quest VII will be updated for both Switch and Switch 2 on February 5 2026.  Final Fantasy VII Remake Intergrade will launch on January 22 2026, and the roguelite Supergigant Games title will arrive on September 25 2025.  The Direct also announced a new Pokémon Legends Z‑A release for October 16 2025 on Switch and Switch 2, and a Hyrule Warriors‑style Musou game set for November 6 2025.  Throughout the report, Nintendo emphasized that many of these releases will be available in both physical and digital formats, with special Amiibo and merchandise tied to the titles.  The article quotes the phrase ‘La película’ when referring to the Mario film and uses the term ‘Virtual Boy’ to describe the retro console’s revival.
+Original language: es
+Publish date: September 12, 2025 05:42 PM
+Source:Vidaextra
+Nintendo Direct: New Film, New Games, All Announcements
+On September 12 2025, Nintendo held a Nintendo Direct to celebrate Mario’s 40th birthday, unveiling a slate of new titles for the Switch 2. The highlight was the announcement of the film 'Super Mario Galaxy: Le film', slated for spring 2026, which will adapt the 2007 Wii game. A remaster of Mario Galaxy 1 and 2 will launch on October 2 2025 for both Switch 1 and 2. The company also revealed 'Mario Tennis Fever', a new Mario Tennis entry featuring 38 playable characters and a 'Fever Shot' finisher, set for release on February 12 2026. 'Super Mario Bros Wonder' will receive a Switch 2 edition with the expansion 'Rendez‑vous au Parc Bellabel', expected in September 2026. A new Yoshi title, 'Yoshi and the Mysterious Book', is scheduled for spring 2026.
+Nintendo added several third‑party and legacy titles. 'Tomodachi Life: Une vie de rêve – ou de cauchemar' will arrive in spring 2026. The long‑awaited sequel 'Hades 2' will be available digitally on September 25 2025 and physically on November 20 2025. 'Hyrule Warriors: Les chroniques du sceau' will launch on November 6 2025. A Virtual Boy accessory compatible with Switch Online will ship on February 17 2026, bringing the 14 original games back in 3D. Other releases include 'Fatal Frame II: Crimson Butterfly' (early 2026), a remake of 'Danganronpa 2×2' (2026), 'Metroid Prime 4: Beyond' (December 4 2025), 'Pokémon: Pokopia' (2026), and 'Fire Emblem: Fortune's Weave' (2026).
+Additional titles announced for Switch 2 include 'Final Fantasy VII: Intergrade' (January 22 2026), 'Mortal Kombat Legacy Collection' (digital October 30 2025, physical December 12 2025), 'Cryptica' (now), 'Dinkum' (November 6 2026), 'Popucom' (winter 2026), 'Dragon Quest VII Reimagined' (February 2026), 'PowerWash Simulator 2' (autumn 2025), 'Dynasty Warriors: Origins' (January 22 2026), 'Monster Hunter Stories 3: Twisted Reflection' (March 13 2026), and several others. Several games will receive gameplay improvements on Switch 2, such as 'One Piece Pirate Warriors 4', 'Overcooked 2', 'Stardew Valley' (mouse controls), 'Suika Game Planet', and 'Human Fall Flat'.
+Original language: fr
+Publish date: September 12, 2025 04:48 PM
+Source:CommentCaMarche
+Everything from the September 2025 Nintendo Direct - Mario's 40th, Metroid, Resident Evil, Yoshi and more - Vooks
+The article reports on the September 2025 Nintendo Direct, described as a "massive Direct" by author Daniel Vuckovic. It lists a wide array of announced titles and release dates across the Nintendo Switch and other platforms. Highlights include the upcoming Super Mario Galaxy Movie (April 2026), Super Mario Bros. Wonder (Switch 2, Autumn 2026), Yoshi and the Mysterious Book (Switch 2, Autumn 2026), and the long‑awaited Metroid Prime 4: Beyond (both, Dec 4). Other releases mentioned are Mario Tennis Fever (Switch, Feb 12), Mario Tennis Fever (Switch 2, Oct 2), and the new Pokémon titles such as Pokopia (Switch 2, 2026) and Legends: Z‑A (both, Oct 16). The article also notes additional games like Dinkum (Switch, Today), Hades II (both, Sep 25 / Nov 20), and several classic re‑releases (Virtual Boy – Nintendo Classics, Feb 17). The piece ends with a call for reader reactions and a brief author bio. The source is vooks.net, published on September 12 2025 at 16:25.
+Original language: en
+Publish date: September 12, 2025 04:25 PM
+Source:vooks.net
+Nintendo Direct reveals four Switch 2 games for Super Mario 40th anniversary
+Nintendo’s latest Direct announced four new titles for the Nintendo Switch 2 in celebration of the 40th anniversary of Super Mario Bros. The announcement, made on September 12 2025, highlighted a brand‑new Yoshi game, a Switch 2 edition of Super Mario Bros. Wonder, a sequel to Mario Tennis Aces, and a re‑release of Super Mario Galaxy 1 and 2.  The Yoshi title, titled ‘Yoshi And The Mysterious Book’, is a 2‑D side‑scroller styled after Yoshi’s Story and will launch on Switch 2 in spring 2026.  ‘Super Mario Bros. Wonder Switch 2 Edition’ adds multiplayer content in Bellabel Park and is also slated for a spring 2026 release.  ‘Mario Tennis Fever’, a sequel to Mario Tennis Aces, introduces 38 playable characters and new ‘fever’ rackets that can duplicate the player, deploy ice fields or shrink opponents; it will launch on Switch 2 on February 12 2025.  The re‑release of Super Mario Galaxy 1 and 2 will be available on Switch on October 2 2025.  Additional Switch 2 releases for the remainder of 2025 include ‘Pokémon Legends Z‑A’ on October 16 and ‘Kirby Air Riders’ on November 20.  For 2026, Nintendo’s lineup will feature ‘Splatoon Raiders’, ‘Rhythm Heaven Groove’, and ‘Tomodachi Life: Living The Dream’, with Splatoon Raiders being a Switch 2 exclusive.  The article notes that Switch 2 sales have already surpassed six million units within eight weeks, making it the fastest‑selling console ever.
+Original language: en
+Publish date: September 12, 2025 02:04 PM
+Source:Metro
+Virtual Boy Nintendo Classics Announced for Switch 1 and 2 at Nintendo Direct - IGN
+On September 12 2025, IGN reported that Nintendo announced the return of Virtual Boy through a Nintendo Direct presentation. The Virtual Boy Nintendo Classics will launch on February 17 2026 for members of the Nintendo Switch Online + Expansion Pack on Switch 1 and Switch 2. The service will feature 14 classic Virtual Boy titles that will roll out over time, including Mario’s Tennis, Galactic Pinball and Teleroboxer. To play, users will need Joy‑Con or Joy‑Con 2 controllers and a dedicated accessory that recreates the original Virtual Boy hardware, with a cardboard version also available. The accessory and cardboard model can be pre‑purchased from the My Nintendo Store. Nintendo’s official blurb says 'Select games from Nintendo’s stereoscopic 3D system, Virtual Boy, are coming to Nintendo Classics exclusively for Nintendo Switch Online + Expansion Pack members.' The article also lists the full Virtual Boy library and provides a trailer link. Contact information for IGN’s director Wesley Yinpoole is included.
+Original language: en
+Publish date: September 12, 2025 01:42 PM
+Source:ign.com
+Super Mario Galaxy and Super Mario Galaxy 2 Coming to Nintendo Switch Consoles - IGN
+The article reports that the Nintendo Switch will receive a combined physical release of Super Mario Galaxy and Super Mario Galaxy 2 on October 2, 2025, priced at $69.99 (see the line 'Super Mario Galaxy + Super Mario Galaxy 2 40 $69.99'). The new versions will feature boosted resolution—up to 4K on the Switch 2—an improved user interface, a new in‑game music player, and the option to play using button and stick or motion controls. Additional content includes extra pages of Rosalina’s in‑game storybook, which contains lore for the character. A pair of new Super Mario Galaxy amiibo will also be released on April 2, 2026; one amiibo allows Mario and Luma to be scanned for a Life Mushroom, and the other lets Rosalina and Lumas be scanned for a 1‑Up Mushroom. The amiibo are described as "Mario being flung through a Warp Star, as a Luma chases behind" and "Rosalina, reading from her storybook and surrounded by two Lumas." A hardcover book version of Rosalina’s storybook will be available but will not contain the new story content added to the Switch versions. The article also mentions other announcements such as sponsorship of the Kyoto Marathon 2026 and a fresh design for the Nintendo Museum ticket, all announced during the Nintendo Direct September 2025. The piece is written in a factual, descriptive tone without editorial commentary.
+Original language: en
+Publish date: September 12, 2025 01:13 PM
+Source:ign.com
+Nintendo Direct September 2025: Everything Announced - IGN
+The IGN recap of the Nintendo Direct held on September 12 2025 lists a large slate of releases for the Switch and the upcoming Switch 2.  The key announcements include:  • Super Mario Galaxy and Super Mario Galaxy 2 will be bundled and released on Switch 2 on October 2 2025, with a free 4K update for the Switch 2 version.  • The Super Mario Galaxy Movie is confirmed for release on April 3 2026.  • Metroid Prime 4: Beyond will launch on Switch on December 4 2025, with amiibo drops on November 6 and December 4.  • Fire Emblem: Fortune’s Weave is the final Direct reveal, featuring a Divine Sovereign that grants wishes.  • Donkey Kong Bananza: DK Island & Emerald Rush DLC is out today, offering new modes and collectibles.  • Pokemon Pokopia, a cozy life‑sim starring a human‑looking Ditto, is slated for 2026.  • The Virtual Boy is being remade as a physical console, available February 17 2026 for $99.99 (cardboard model $24.99).  • Super Mario Bros. 40th‑anniversary celebrations include a special ticket at Kyoto’s Nintendo Museum, a light display in December 2025, and sponsorship of the Kyoto Marathon on February 15 2026.  • Additional titles announced for Switch 2 include Hyrule Warriors: Age of Imprisonment (November 6 2025), Hades 2 (September 25 2025), Kirby Air Riders (amiibo releases), Final Fantasy VII: Remake Intergrade (January 22 2026), and many others such as Dragon Quest VII Reimagined, Stardew Valley Switch 2 Edition, Overcooked! 2 Switch 2 Edition, and Monster Hunter Stories 3 : Twisted Reflection (March 13 2026).  The article provides dates, platform details, and brief feature highlights for each title, aiming to keep fans informed of the full Direct lineup.
+Original language: en
+Publish date: September 12, 2025 12:57 PM
+Source:ign.com
+Third-Party Publisher-Focused Presentations
+The next Nintendo Direct will be a Partner Showcase livestream on July 31, 2025, focusing exclusively on titles from Nintendo's external publishing partners for the Nintendo Switch and Switch 2 platforms. The presentation will not include first-party announcements, but rather third-party projects such as Call of Duty entries and Hollow Knight: Silksong, which will be playable at Gamescom next month. Viewers can expect to see firm release details during the 25-minute showcase.
+Original language: en
+Publish date: July 30, 2025 10:40 PM
+Source:Trend Hunter
+Nintendo Announces New Direct Amidst Earthquakes and Tsunamis
+In the midst of earthquakes and tsunamis, Nintendo announced a new Direct for this Thursday (31). According to the company, it will be broadcast on their official channels starting at 10:00 AM (Brasília time) and will last 25 minutes. They claim that the audience should expect various games that will be launched on the Nintendo Switch 2 and Switch, with a focus on third-party studios such as Bandai Namco, SEGA, and Square Enix. However, it is unlikely that the expected release dates of Metroid Prime 4: Beyond and Hyrule Warriors: Age of Imprisonment will be announced, as they are still scheduled for 2025. The Nintendo Switch 2 has been performing well despite initial challenges, with high sales worldwide and popular games like Mario Kart World and Donkey Kong Bananza. The company is now preparing to present its plans for partner studios in the Nintendo Direct, which may include ports of titles that have arrived on other platforms or the announcement of versions of games that have already been revealed and will also arrive on the new hybrid console. Meanwhile, three first-party games are expected for 2025, including Pokémon Legends Z-A, which is confirmed to arrive on the Switch 2 on October 16, 2025.
+Original language: pt
+Publish date: July 30, 2025 01:40 PM
+Source:Canaltech
+Nintendo Direct Scheduled for June, Coinciding with Nintendo Switch 2 Launch
+A new Nintendo Direct is scheduled for June, coinciding with the launch of the Nintendo Switch 2. According to Pedro Henrique Lutti Lippe, Nintendo will hold this type of event during the month of June, which has been chosen by the Summer Game Fest 2025. Expectations are high for the upcoming Nintendo Direct, with games such as Donkey Kong Bananza and Mario Kart World expected to be highlighted. Masahiro Sakurai, the creator of the Kirby series, has also hinted at the possibility of a new Kirby game. The Nintendo Switch 2 is set to launch on June 5, 2025, and will be available in Colombia for 2,859,000 pesos. The console will go on sale after its pre-order phase, which will begin on the first days of the console's availability.
+Original language: es
+Publish date: May 26, 2025 09:25 PM
+Source:caracol.com.co
+Rumor: Nintendo Direct Could Be Happening Soon
+A new report from industry insider Pedro Henrique Lutti Lippe suggests that the next Nintendo Direct may happen in late May or early June 2025. Lippe, a Brazilian journalist known for his credible insights into Nintendo, predicts that the event will feature multiple 2025 release date announcements and will not necessarily focus on Nintendo's next console, the Switch 2. According to Lippe, the Nintendo Direct could take place around the time of the Switch 2 launch, which is scheduled for June 5. However, it's likely that Nintendo will announce release dates for multiple 2025 Switch games, including Pokémon Legends: Z-A, Metroid Prime 4: Beyond, and Hyrule Warriors: Age of Imprisonment, before holding a Direct focused on the Switch 2. Lippe's prediction is based on Nintendo's historical trend of holding at least one product showcase in June since introducing the format in 2011.
+Original language: en
+Publish date: May 25, 2025 05:18 PM
+Source:Game Rant
+FORECASTS
+R1: Forecaster 1 Reasoning
+Time left until the outcome is known
+9 days (UTC dates 2025-09-18 → 2025-09-26).
+Status-quo outcome if nothing changes
+After a big Nintendo Direct on 12 Sep, searches typically fall back to their low “background” level.
+Today’s Google-Trends score is already low (3/100).  The default path therefore points to an equal or lower value on 26 Sep ⇒ “No”.
+Expectations of experts / markets
+There is no scheduled Direct or credible rumour for late September.  Industry watchers generally expect the next full Direct or Indie World in early-to-mid October.
+A “No” scenario (value on 26 Sep ≤ value on 17 Sep)
+• No new Direct is announced; interest continues the normal post-event decay.
+• Routine gaming news on 25-26 Sep (e.g., Hades II launch) does not move the specific search term “nintendo direct”.
+• The daily score drifts from 3 to 1-2.
+A “Yes” scenario (value on 26 Sep > value on 17 Sep)
+• Credible leaks appear about an early-October Direct, driving a mini-spike in searches on 25-26 Sep.
+• Nintendo surprise-announces a small Partner Showcase or Indie World for the following week.
+• Either case is enough to tick the daily score from 3 up to 4-6.
+────────────────────────────────────────
+Evidence grouped into three roughly equal buckets
+Bucket 1 – pushes probability lower
+• Major Direct already happened (12 Sep); Nintendo seldom holds another within two weeks.
+• Historical patterns: daily interest typically slides for ~2 weeks post-Direct.
+• No public hints of another presentation before October.
+Bucket 2 – pushes probability higher
+• Rumour mills often restart ~10 days after a Direct (“When’s the next one?”).
+• 25-Sep digital release of Hades II and other Switch news could rekindle chatter about Directs.
+• Even a small “Indie World” announcement has generated 5-10-point bumps in past data.
+Bucket 3 – neutral / central
+• Baseline search level is very low (1-4).  At such small numbers, random noise can flip the “greater than” condition.
+• Google-Trends daily scores have ±1-point jitter; a one-point move would settle the question either way.
+────────────────────────────────────────
+Multi-world reasoning (all numbers in %)
+World 1: Low_World (Bucket 1 dominates)
+Base Rate 30 Low 15 Mid 25 High 35
+World 2: Mid_World (Bucket 2 dominates)
+Base Rate 45 Low 40 Mid 55 High 65
+World 3: High_World (Bucket 3 / neutral)
+Base Rate 40 Low 30 Mid 45 High 55
+Reference CSV
+World_name,Base Rate,Low Forecast,Mid Forecast,High Forecast
+Low_World,30,15,25,35
+Mid_World,45,40,55,65
+High_World,40,30,45,55
+Ordered set of the nine estimates
+15,25,30,35,40,45,55,55,65
+────────────────────────────────────────
+Reasonable distribution of forecasts (percentiles)
+p10 ≈ 22
+p20 ≈ 26
+p30 ≈ 30
+p40 ≈ 34
+p50 ≈ 38
+p60 ≈ 42
+p70 ≈ 47
+p80 ≈ 53
+p90 ≈ 60
+I treat the 50th-percentile (38 %) as the starting point and nudge downward (status-quo decay, no solid rumour yet) by 3 points.
+Probability: 35%
+R1: Forecaster 2 Reasoning
+Time left until the outcome is known
+• 9 days (from 2025-09-17 to 2025-09-26, inclusive). Google Trends daily values usually finalise ~24 h later, so resolution expected in ≈ 10 days.
+Status-quo outcome if nothing changed
+• Search interest typically spikes on the Direct day, then decays steadily. Absent another Direct, interest on 2025-09-26 would probably be lower than on 2025-09-17 → “No”.
+Expectations of experts & markets
+• No insider reports, press releases or credible leakers point to another Direct or comparable showcase in the next week.
+• Past Google Trends patterns (Sept 2019, Feb 2021, Sept 2022, Feb 2023, Sept 2024): in 5/6 cases the value 10 days after a main Direct was lower than the value 5 days after it. Empirical “Yes” frequency ≈ 17%.
+Scenario leading to a “No” outcome (baseline)
+• The 17 Sep value is already falling (index ≈ 3/100). Interest keeps sliding to its long-run baseline (1-2) by 26 Sep. No major rumour or company event intervenes.
+Scenario leading to a “Yes” outcome
+• Between 24-26 Sep Nintendo tweets or leaks a surprise Partner Showcase / Indie World / first-party trailer; or journalists reveal a major November title, causing a one-day spike above the 17 Sep trough.
+────────────────────────────────────────
+Bucketed evidence
+Bucket 1 – indicates a relatively low forecast
+• Direct already occurred on 12 Sep; post-Direct decay is normal.
+• Current 30-day index for 16 Sep is only 3.
+• No scheduled Direct in Nintendo’s public calendar.
+• Historical base rate: only 1/6 similar windows saw a rebound within 10 days.
+Bucket 2 – indicates a central forecast
+• 17 Sep may already be near the floor; random noise (weekday differences, newslets, algorithmic recalibration) could make 26 Sep register slightly higher even without big news.
+• Hades II digital release (25 Sep) and physical pre-order chatter could create mild uplift for “nintendo direct” searches (“was this in the Direct?”, highlight videos, etc.).
+Bucket 3 – indicates a higher forecast
+• Nintendo sometimes drops an Indie World or Partner Showcase with < 48 h notice (e.g., 14 Apr 2023, 21 Feb 2024).
+• Friday 26 Sep would be a plausible slot (Nintendo favours Tue–Thu, but Fri has occurred).
+• If such a video airs, interest often jumps into the 10-25 range, easily topping the 3-5 range expected for 17 Sep.
+────────────────────────────────────────
+Multi-world reasoning (all probabilities in %)
+World_name,Base Rate,Low Forecast,Mid Forecast,High Forecast
+Low_World,10,5,10,15
+Mid_World,40,30,40,50
+High_World,70,60,70,80
+────────────────────────────────────────
+Ordered set of the nine estimates: 5,10,15,30,40,50,60,70,80
+Estimated distribution of reasonable forecasts
+P10 = 8 | P20 = 12 | P30 = 18 | P40 = 26 | P50 = 32 | P60 = 40 | P70 = 48 | P80 = 60 | P90 = 72
+The 50th percentile (median) sits at 32%. Considering:
+• Slight overweight to Low_World (post-Direct decay very reliable).
+• Small but real chance (≈10%) Nintendo announces an Indie World/Partner video next week.
+I adjust a bit downward to reflect the stronger historical decay pattern.
+Probability: 27%
+R1: Forecaster 3 Reasoning
+Time until outcome is known
+• 9 full calendar days (UTC) separate 2025-09-17 from 2025-09-26.
+• Google Trends daily values are published with a c. 36-hour lag, so the resolution signal should be visible by 2025-09-28 at the latest.
+Status-quo outcome if nothing changed
+• The value for 2025-09-17 is already down to the low single-digits (≈3/100 in the locked 30-day view).
+• In the absence of a fresh Nintendo Direct announcement, interest normally drifts sideways or a little lower.
+• Therefore, “No” (interest not higher on 09-26) is the default path.
+Expectations of experts and markets
+• No prediction markets are trading on this micro-question.
+• Industry calendars show no public Direct scheduled after the 12 Sep general Direct.
+• Game-release calendars list Hades II digital on 25 Sep, but that usually drives the term “Hades II”, not “nintendo direct.”
+• Consensus among Nintendo-watcher newsletters is “next full Direct likely October–November.”
+Plausible “No” scenario
+• Nintendo issues no Direct-related news; Google interest decays to 2–3 on most days; 26 Sep logs a 2.
+Plausible “Yes” scenario
+• Nintendo tweets on 25 Sep: “Watch a Super Mario Galaxy + Galaxy 2 Showcase (Nintendo Direct) on 27 Sep.”
+• The tweet and media coverage lift 26 Sep searches to 5–8, beating the 17 Sep value of 3.
+────────────────────────────────────────
+Evidence buckets (≈ even size)
+Bucket 1 – points toward a low probability of “Yes”
+• Major Direct already aired 12 Sep; a second within two weeks is historically rare.
+• The 17 Sep value is already near Nintendo-search baseline; further drops are possible.
+• No partner showcase rumoured for late September—July 31 showcase already served that slot.
+Bucket 2 – points toward a higher probability of “Yes”
+• Nintendo sometimes posts a game-specific Direct ~7 days before launch (e.g., Wonder, Splatoon 3); Super Mario Galaxy bundle launches 2 Oct.
+• Hades II digital launch (25 Sep) could spark last-minute “Direct Mini: Indies” speculation.
+• Nintendo has occasionally surprised with a “Direct Mini” on short notice (≤24 h).
+Bucket 3 – points toward a central outcome
+• Baseline volatility (1-day bins) means a 1-point swing in either direction is common even with no news.
+• Social-media rumour cycles can create small bumps without an actual Direct.
+────────────────────────────────────────
+Multi-world reasoning
+Low_World (Bucket 1 dominates)
+• Base rate: Only ~15 % of post-Direct fortnights since 2017 contain another Direct.
+• Low forecast: 10 %
+• Mid forecast: 18 %
+• High forecast: 26 %
+Mid_World (Bucket 2 dominates)
+• Base rate for “any Direct-related announcement inside 10 days of a game launch” ≈ 35 %.
+• Low: 25 %
+• Mid: 35 %
+• High: 45 %
+High_World (Bucket 3 / neutral volatility)
+• Base rate for “random day later in month beats value nine days earlier, given both are non-spike lows” ≈ 40 %.
+• Low: 30 %
+• Mid: 40 %
+• High: 50 %
+Reference CSV
+World_name,Base Rate,Low Forecast,Mid Forecast,High Forecast
+Low_World,15,10,18,26
+Mid_World,35,25,35,45
+High_World,40,30,40,50
+Ordered list of the nine point estimates
+10 %, 18 %, 25 %, 26 %, 30 %, 35 %, 40 %, 45 %, 50 %
+────────────────────────────────────────
+Subjective distribution (linear interpolation)
+P10  ≈ 13 %
+P20  ≈ 18 %
+P30  ≈ 23 %
+P40  ≈ 27 %
+P50  ≈ 33 %   ← median
+P60  ≈ 37 %
+P70  ≈ 41 %
+P80  ≈ 46 %
+P90  ≈ 49 %
+I judge the P50 (33 %) slightly high because:
+• The most comparable weeks (post-Direct, no rumoured follow-up) saw increases only ~25 % of the time.
+• No credible leaker has hinted at a late-September Direct.
+After a small downward adjustment, my calibrated best estimate is:
+Probability: 31%
+R1: Forecaster 4 Reasoning
+Time left until resolution
+9 days – the Google-Trends value for 2025-09-26 will be available (and scraped) shortly after 00:00 UTC on 2025-09-27.
+Status-quo outcome if nothing changed
+Interest in “nintendo direct” has already fallen sharply since the big General Direct on 12 Sep.  The ordinary decay curve implies 26 Sep will see even lower interest than 17 Sep, so the status-quo points to “No”.
+Expectations of experts and markets
+• No reputable leaker or analyst is calling for another full Direct before early October.
+• Gaming press calendars list no partner-showcase, Indie World, or game-specific Direct for the week of 23-27 Sep.
+Consensus among Nintendo-watchers therefore expects a quiet news week.
+A “No” scenario (baseline)
+No further Direct is announced; media coverage subsides; daily Trend values slide back to the pre-Direct floor (≈2-3/100).  17 Sep retains a higher tail value (≈4-6) and ends up above 26 Sep.
+A “Yes” scenario
+Nintendo tweets on 23 Sep that a 20-minute Partner Showcase will air on 26 Sep, or releases a large trailer drop (e.g., Metroid Prime 4).  The announcement tweet and the event itself generate fresh searches, pushing the 26 Sep value above the waning 17 Sep tail.
+
+Evidence buckets (≈equal size)
+Bucket 1 – points to a low probability (“Yes” is unlikely)
+• The main September Direct already happened; historically Nintendo rarely holds a second Direct within two weeks.
+• Trend data from past years show steep decay: by +14 days interest usually returns to baseline (2-3/100).
+• No scheduled Nintendo-first-party marketing beats for the week of 26 Sep.
+Bucket 2 – points to a central probability
+• Nintendo occasionally stealth-drops mini-Directs or Partner Showcases with only 1-2 days’ notice.
+• 25 Sep physical release of Hades II and 26 Sep launch of several third-party demos could justify a partner showcase.
+• 17 Sep is already five days after the Direct; its value may have slid close to baseline, leaving little room to fall further.
+Bucket 3 – points to a higher probability
+• Nintendo sometimes times game-specific Directs (e.g., Pokémon Presents) roughly two weeks after a general Direct.
+• Late-September is the end of Japan’s fiscal half-year; a final marketing push is plausible.
+• Rumour mill: a few leakers have floated “a small something before TGS ends” (TGS ends 22 Sep, but spill-over content is possible).
+
+Multi-world reasoning
+Low_World (60 % credence – Bucket 1 dominates)
+Base rate: post-Direct tail beats later baseline only ~1 in 10 times
+Low / Mid / High estimates: 5 % / 10 % / 15 %
+Mid_World (30 % credence – Bucket 2)
+Base rate: surprise Partner Showcase ~1 in 3 Septembers
+Low / Mid / High: 20 % / 30 % / 40 %
+High_World (10 % credence – Bucket 3)
+Base rate: second Direct inside 14 days ~1 in 5 years
+Low / Mid / High: 50 % / 70 % / 90 %
+CSV of the three worlds
+World_name,Base Rate,Low Forecast,Mid Forecast,High Forecast
+Low_World,10%,5%,10%,15%
+Mid_World,33%,20%,30%,40%
+High_World,20%,50%,70%,90%
+Ordered set of nine reasonable point estimates
+5%, 10%, 15%, 20%, 30%, 40%, 50%, 70%, 90%
+
+Percentile distribution (interpolated)
+P10: 7 %
+P20: 12 %
+P30: 17 %
+P40: 23 %
+P50: 28 %
+P60: 34 %
+P70: 42 %
+P80: 56 %
+P90: 80 %
+The median of this synthetic distribution is 28 %.  I lean slightly lower (status-quo inertia, lack of credible rumours), so I adjust downward by 5 percentage-points.
+Probability: 23 %
+R1: Forecaster 5 Reasoning
+Time until resolution
+• 9 days (UTC 2025-09-17 → 2025-09-26)
+Status-quo trajectory
+• The big general Nintendo Direct happened on 12 Sep.
+• Search interest normally decays rapidly after the event; by 17 Sep it is already down to “3” on the 0-100 scale for the past 30 days.
+• If nothing unusual happens, interest should keep drifting lower. The default outcome is therefore “No”.
+Expectations of experts / markets
+• No betting or prediction market is quoting this micro-question.
+• Industry calendars show no public Nintendo Direct (general, partner, indie, or game-specific) scheduled before 26 Sep.
+• Historical pattern: since 2017 Nintendo has never run two “Nintendo Direct”-branded shows within the same calendar month.
+A plausible No scenario
+No new Direct is announced; media coverage and social chatter keep fading. Daily interest on 26 Sep settles at 1-2 versus 3 on 17 Sep. Script resolves “No”.
+A plausible Yes scenario
+Nintendo surprises with, e.g., a short “Partner Showcase” announced on 24 Sep for 26 Sep, or a rumoured Switch-2 hardware video drops. Either drives searches back into double digits, pushing the 26 Sep bar above the 17 Sep bar. Script resolves “Yes”.
+
+Evidence buckets (≈1/3 each)
+Bucket 1 – points to lower probability (favour “No”)
+• Historical decay: after big Directs the Google Trends line usually returns to baseline within 5-10 days.
+• Current value already down to 3 five days post-Direct.
+• No second Direct in same month since 2017.
+• No credible rumours of a late-September Direct.
+Bucket 2 – points to central probability (balanced)
+• Nintendo sometimes announces small Partner Showcases or single-game Directs two days ahead; 24–48 h lead time leaves room for a surprise.
+• Hades II (25 Sep), Kirby Air Riders trailers, or other marketing beats could prompt a quick Direct.
+• Leakers have occasionally hinted at “more news before TGS ends” (Tokyo Game Show ends 22 Sep) – weak signal but non-zero.
+Bucket 3 – points to higher probability (favour “Yes”)
+• 2025 is an unusually busy year with Switch 2 ramp-up; Nintendo may use extra Directs.
+• 26 Sep is a Friday – Nintendo’s preferred slot for mini-Direct videos in the Switch 2 launch run-up.
+• Marketing push for Metroid Prime 4 Beyond (4 Dec) could start with a Direct trailer drop in late September.
+
+Multi-world reasoning (all numbers in % and use 1-point increments)
+Low_World (weight: “decay dominates”)
+Base rate: 20
+Low forecast: 10
+Mid forecast: 15
+High forecast: 22
+Mid_World (“some chance of a surprise”)
+Base rate: 30
+Low forecast: 20
+Mid forecast: 30
+High forecast: 40
+High_World (“Nintendo shocks with another Direct”)
+Base rate: 45
+Low forecast: 35
+Mid forecast: 45
+High forecast: 60
+Reference CSV
+World_name,Base Rate,Low Forecast,Mid Forecast,High Forecast
+Low_World,20,10,15,22
+Mid_World,30,20,30,40
+High_World,45,35,45,60
+Ordered set of the nine estimates
+10,15,20,22,30,35,40,45,60
+
+Percentile view of reasonable forecasts
+P10 ≈ 12%
+P20 ≈ 15%
+P30 ≈ 19%
+P40 ≈ 22%
+P50 ≈ 30%
+P60 ≈ 33%
+P70 ≈ 37%
+P80 ≈ 42%
+P90 ≈ 55%
+The median (P50) sits at 30 %, but weighting the buckets by historical frequency (Low_World noticeably more common) shifts the practical centre downward. After this adjustment I place the best point estimate at:
+Probability: 24%
+R1: Forecaster 6 Reasoning
+Time left
+• 9 days – outcome fixed at 00:00 UTC on 2025-09-27, when Google’s daily value for 2025-09-26 becomes available.
+Status-quo outcome if nothing changed
+• Search interest is decaying after the 12 Sep General Nintendo Direct.
+•   17 Sep already shows only “3” (in a 30-day frame).
+• With no new Direct scheduled, the 26 Sep value would probably stay at the background level (≈1-3) or fall further → “No”.
+Expectations of experts & markets
+• Specialist commentators expect the next big first-party Direct in November or later.
+• Some chance of a small Partner Showcase or Indie World late Sep, but nothing rumoured with firm credibility.
+• No prediction-market prices exist; Discord / ResetEra chatter suggests “another Direct in September” at roughly 1-in-4.
+A “No” scenario (more likely)
+• Nintendo makes no broadcast announcement.
+• Gaming news cycle is dominated by TGS (19-22 Sep) and big releases like Dragon Quest III HD-2D.
+• Daily searches for “nintendo direct” drift from 3 (17 Sep) → 2 (26 Sep).
+A “Yes” scenario (less likely)
+• Nintendo tweets on 24-25 Sep that a Partner Showcase airs on 27 Sep.
+• Speculation spikes on 25-26 Sep; Google volume lifts the 26 Sep daily value above the 17 Sep baseline.
+────────────────────────────────────────
+Grouped evidence (≈ thirds)
+Bucket 1 – pushes probability lower
+• A major General Direct just happened (12 Sep).
+• Historically, Nintendo rarely follows a General Direct with another broadcast inside 14 days.
+• No credible leaks of a late-Sep show.
+Bucket 2 – central / mixed signals
+• Nintendo sometimes drops a Partner Showcase 2-3 weeks after a General Direct (e.g., Sep 2020, Feb 2024).
+• 25 Sep digital launch of Hades II and other titles could provoke light “Direct” chatter.
+• Tokyo Game Show news cycle may feed rumours.
+Bucket 3 – pushes probability higher
+• 26 Sep is a Friday – a day Nintendo has used for Partner Showcase uploads.
+• A “Direct on the 27th” rumour, if it appears, would cause search interest to pop on the 26th even if the show itself is later.
+• The base 17 Sep value is already very low (3/100), so it would not take a massive spike to beat it.
+────────────────────────────────────────
+Multi-world reasoning
+World name,Base Rate,Low Forecast,Mid Forecast,High Forecast
+Low_World,10%,05%,09%,14%
+Mid_World,25%,18%,25%,32%
+High_World,45%,35%,45%,55%
+Ordered nine candidate probabilities: 5 % 9 % 14 % 18 % 25 % 32 % 35 % 45 % 55 %
+Approximate distribution (percentiles)
+P10,8%
+P20,13%
+P30,17%
+P40,22%
+P50,28%
+P60,33%
+P70,39%
+P80,46%
+P90,53%
+Median (P50) is 28 %.  Adjusting slightly downward for the continued absence of any Direct rumour as of 17 Sep:
+Probability: 27%
+R1: Forecaster 7 Reasoning
+Time until outcome is known
+9 days (the Google Trends value for 2025-09-26 should appear by about 2025-09-27 UTC).
+Status-quo outcome if nothing changed
+Interest has been falling since the 100-point spike on 12 Sep (post-Direct).
+Today’s locked-scale value is only ≈3. If the usual post-Direct decay continues, 26 Sep is likely to sit at the baseline (≈1-2), i.e. lower than today.
+Expectations of experts and markets
+No prediction-market exists for this micro-event. Nintendo-watchers expect the September General Direct to be the only major first-party show until at least November. That implies limited drivers for a rebound before 26 Sep.
+Scenario that produces a No outcome (most likely)
+The news cycle stays quiet; searches drift back to the long-run baseline. 26 Sep value ends up 1-2 vs today’s 3 → “No”.
+Scenario that produces a Yes outcome
+• Nintendo unexpectedly schedules another showcase, trailer, or corporate briefing on/just before 26 Sep.
+• A viral leak or rumour (e.g., Switch 2 hardware hands-on) breaks on the 25-26 Sep news cycle.
+• Either causes a one-day bump that lifts 26 Sep above today’s value.
+
+Evidence buckets
+Bucket 1 – points to a low probability
+• The main September Direct already occurred (12 Sep); typical Google Trends pattern is a sharp peak then decay.
+• Current locked-scale value is still slightly elevated (3); baseline is usually 1-2, so today is already above normal.
+• No officially announced events between 17 Sep and 26 Sep.
+• Historical data show very few second spikes within a fortnight of a major Direct.
+Bucket 2 – points to a central probability
+• Minor news beats can create single-day bumps (e.g., big retailer leaks, amiibo-drop announcements).
+• Hades II physical release (25 Sep) and Kirby Air Riders amiibo pre-orders (rumoured 25-26 Sep) could nudge searches.
+• Fridays (26 Sep is a Friday) often see eShop shadow-drops.
+Bucket 3 – points to a higher probability
+• Nintendo sometimes surprises with a Partner Showcase or financial briefing late in September (e.g., 2020, 2022).
+• A Switch 2 leak or first-hands-on article, if timed around Tokyo Game Show week (24-28 Sep), could spike “nintendo direct” searches again.
+• Today’s value is small (3); even a modest story that pushes the index to 4-5 on 26 Sep would resolve “Yes”.
+
+Multi-world reasoning
+Low_World (post-Direct decay continues)
+• Base rate: in similar 10-day windows after a Direct, later-in-window interest > Day 5 only ~10% of the time.
+• Low forecast: 5%
+• Mid forecast: 10%
+• High forecast: 15%
+Mid_World (routine news bumps)
+• Base rate: modest bumps occur ~25% of the time.
+• Low: 20%
+• Mid: 27%
+• High: 35%
+High_World (surprise showcase / major leak)
+• Base rate: second spike in month happens ~8-12% historically; conditional on that, chance 26 Sep beats 17 Sep ~60%.
+• Low: 40%
+• Mid: 50%
+• High: 70%
+Reference CSV
+World_name,Base Rate,Low Forecast,Mid Forecast,High Forecast
+Low_World,10,5,10,15
+Mid_World,25,20,27,35
+High_World,50,40,50,70
+Ordered set of nine reasonable forecasts
+5,8,10,20,27,35,40,50,70
+Percentile mapping (interpolated)
+P10 ≈ 6%
+P20 ≈ 9%
+P30 ≈ 10%
+P40 ≈ 18%
+P50 ≈ 24%
+P60 ≈ 30%
+P70 ≈ 37%
+P80 ≈ 45%
+P90 ≈ 60%
+Median (24%) is pulled upward by the long right tail, but the weight of evidence (Bucket 1, 60% credence) argues for leaning lower. Adjusting 7 pp downward to reflect that skew:
+Probability: 17%
+R1: Forecaster 8 Reasoning
+Time left until resolution: 9 days (UTC 00:00 on 2025-09-27 the SerpApi query will run).
+Status-quo outcome if nothing changes: search interest for “nintendo direct” continues to decay from the 12 Sep peak and is flat or lower on 26 Sep, so the question resolves “No”.
+Expectations of experts / markets: no prediction markets exist; industry watchers do not expect another Direct so soon after the 12 Sep general showcase. Historical cadence (2017-2024) shows gaps of 3-5 months between general Directs; the next likely showcase is an Indie World or Partner event in Nov 2025 at the earliest.
+Scenario that produces a “No”: There is no new Direct announcement between now and 26 Sep; baseline chatter drifts down to the usual 1-3/100 range, equal to or below the 17 Sep value.
+Scenario that produces a “Yes”: Nintendo surprise-announces and/or streams a “Partner Showcase”/“Indie World” on 25-26 Sep. Even a rumour strong enough to reach major outlets could lift daily interest above the already-low 17 Sep reading.
+––––––––––––––––––––
+Grouped evidence (≈ same size buckets)
+Bucket 1 – Low-probability evidence (pushes forecast down)
+• Historical pattern: never two Directs inside the same month since format began in 2011.
+• Post-Direct decay curves: interest typically falls 80-90 % within a week.
+• Today’s fixed-range scale (27 Aug-26 Sep) locks in the 12 Sep spike at 100, shrinking later fluctuations.
+Bucket 2 – High-probability evidence (pushes forecast up)
+• Nintendo occasionally drops short-notice “Direct Mini: Partner Showcase” (e.g., 20 Jun 2024) with only 1-2 days’ warning.
+• Hades II digital launch 25 Sep and amiibo/pre-order beats on 25-26 Sep could motivate a marketing beat.
+• Baseline value on 17 Sep is only 3/100; a tiny absolute uptick (to 4/100) would satisfy “greater”.
+Bucket 3 – Central evidence
+• Nine days allow for at least one rumour cycle; rumour alone can move the Google Trends line by 1-2 points.
+• Measurement noise within the daily granularity of Trends plus UTC time-zone effects adds ~10 % chance of a one-point swing.
+• Nintendo sometimes publishes press releases or tweets labelled “Nintendo Direct presentation recap” a week later, nudging searches.
+––––––––––––––––––––
+Multi-world reasoning
+Low_World (dominant “no further Direct”)
+Base rate: 10 % chance a random later day beats today after a major Direct.
+Low Forecast  5 %
+Mid Forecast  9 %
+High Forecast 14 %
+Mid_World (some rumour/teaser but no actual show)
+Base rate: 20 %
+Low Forecast 12 %
+Mid Forecast 18 %
+High Forecast 25 %
+High_World (surprise Direct on/near 26 Sep)
+Base rate: 60 % chance of “Yes” conditional on this world occurring, but only a small world-probability.
+Low Forecast 35 %
+Mid Forecast 55 %
+High Forecast 75 %
+Reference CSV
+World_name,Base Rate,Low Forecast,Mid Forecast,High Forecast
+Low_World,0.10,0.05,0.09,0.14
+Mid_World,0.20,0.12,0.18,0.25
+High_World,0.60,0.35,0.55,0.75
+––––––––––––––––––––
+Nine reasonable point estimates (ordered):
+5 %, 9 %, 12 %, 14 %, 18 %, 25 %, 35 %, 55 %, 75 %
+Approximate percentile distribution (linear interpolation)
+Percentile,Probability
+P10,7 %
+P20,9 %
+P30,11 %
+P40,13 %
+P50,18 %
+P60,23 %
+P70,30 %
+P80,45 %
+P90,63 %
+Median (P50) sits at 18 %.  Weighing the credible but small “surprise Direct” scenario and recognising Google Trends’ day-to-day noise, I edge a little higher than the purely statistical 15–17 % range, but stay below 20 % because the historical cadence is strongly against another Direct.
+Probability: 18 %

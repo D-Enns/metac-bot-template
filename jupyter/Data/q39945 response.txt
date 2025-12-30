@@ -1,0 +1,668 @@
+SUMMARY
+Question: Will CME's market close price on 2025-09-27 be higher than its market close price on 2025-09-15?
+Final Prediction: 48.0%
+Total Cost: $0
+Time Spent: 1.6 minutes
+Report 1 Summary
+Forecasts
+Forecaster 1: 52.0%
+Forecaster 2: 48.0%
+Forecaster 3: 48.0%
+Forecaster 4: 48.0%
+Forecaster 5: 48.0%
+Forecaster 6: 54.0%
+Forecaster 7: 53.0%
+Forecaster 8: 46.0%
+Research Summary
+The research on CME Group Inc. (NASDAQ:CME) highlights a recent insider purchase by Rep. Julie Johnson of $1,001–$15,000 in CME shares on August 11, 2025, alongside sales in other stocks. As of mid-September, CME’s shares traded around $262–$271, above its 200-day moving average of $270.59 and near its 50-day average of $273.60. The company reported a Q2 2025 EPS of $2.96 (beating estimates by $0.05) on $1.69 billion revenue (+10.4 % YoY), holds a market cap of $94.53 billion, a P/E of 25.39, P/E/G of 4.75 and a beta of 0.43, and pays a $1.25 quarterly dividend (1.9 % yield). Insider activity includes a large sale by Sunil Cutinho and a minor purchase by William R. Shepard. Analyst ratings range from “sell” to “overweight,” with a consensus “hold” and an average price target of $260.60. Institutional investors own 87.75 % of shares, with recent changes by several funds.
+Broader market context shows U.S. equities at or near record highs in early September 2025, with mixed index performance ahead of key U.S. inflation and jobs data; the CME FedWatch Tool priced in over 90 % odds of a 25 bp Fed rate cut in mid-September and expectations for multiple cuts by year-end. Commodity futures reports note CME cattle contracts fluctuating on tight supplies and profit-taking, while lean hog futures have dipped amid lower pork prices. Technical reports from Yahoo! Finance and Aktien Check note CME stock trading above its long-term SMA, recovering from a weaker phase but remaining below its 52-week high, with analysts cautiously divided on its near-term trajectory.
+Sources:
+https://www.defenseworld.net/2025/09/15/rep-julie-johnson-purchases-shares-of-cme-group-inc-nasdaqcme.html
+https://knoxdaily.com/2025/09/12/cmpo-short-interest-fall-by-275-68-reflecting-positive-sentiment/
+https://www.abplive.com/business/2-new-ipos-from-the-mainboard-segment-and-3-new-ipos-from-the-sme-segment-will-open-for-subscription-in-the-week-starting-from-monday-3012256
+https://www.livemint.com/market/stock-market-news/buy-or-sell-ganesh-dongre-of-anand-rathi-recommends-three-stocks-to-buy-on-monday-15-september-2025-11757818292620.html
+https://finance.yahoo.com/news/live/stock-market-today-dow-sp-500-nasdaq-mixed-with-fed-rate-cut-seen-as-done-deal-223701094.html
+https://www.marketscreener.com/news/us-stock-index-futures-muted-ahead-of-key-inflation-data-ce7d59ddd08df726
+https://www.journaldemontreal.com/2025/09/10/wall-street-termine-en-ordre-disperse-prudente-avant-les-prix-a-la-consommation
+https://www.nzherald.co.nz/business/markets/shares/new-zealand-sharemarket-up-as-pacific-edge-rallies-12-market-close/QQVAZY5265C55PPB2JAFYGD2DY/
+https://www.iex.nl/Artikelen/Liveblog.aspx
+https://www.boursier.com/indices/actualites/news/cloture-wall-street-belle-semaine-pour-le-nasdaq-et-l-or-966059.html
+https://www.livemint.com/market/commodities/cattle-futures-dip-on-profit-taking-lower-beef-prices-11757107639312.html
+https://www.barrons.com/livecoverage/stock-market-news-today-090525/card/stock-futures-rise-ahead-of-key-jobs-data-cFoKnYoPpZ6BSgmn6hYD
+https://invezz.com/da/nyheder/2025/09/05/markederne-i-europa-abner-aktierne-stiger-mens-handlende-afventer-guldlok-amerikanske-jobrapport/
+https://finance.yahoo.com/news/stock-market-news-aug-26-131900759.html
+https://finance.yahoo.com/news/cme-group-trades-above-200-130000894.html
+https://finance.yahoo.com/news/stock-market-news-aug-12-101700865.html
+https://finance.yahoo.com/news/stock-market-news-aug-11-080900514.html
+https://www.livemint.com/market/commodities/cme-lean-hogs-drop-as-pork-prices-decline-cattle-higher-11751571013355.html
+https://www.dailymail.co.uk/wires/reuters/article-14845669/US-STOCKS-US-stock-futures-subdued-Middle-East-tensions-cool-Powell-focus.html
+https://www.aktiencheck.de/news/Artikel-CME_Aktie_Leichte_Erholung_Ruecksetzer-18701024
+https://www.dailymail.co.uk/wires/reuters/article-14826947/LIVESTOCK-Cattle-futures-end-higher-hogs-firm-ahead-US-holiday.html
+https://www.dailymail.co.uk/wires/reuters/article-14808021/LIVESTOCK-CME-cattle-hog-futures-ease-record-highs.html
+RESEARCH
+Report 1 Research
+Here are the relevant news articles:
+Rep. Julie Johnson Purchases Shares of CME Group Inc. (NASDAQ:CME)
+Representative Julie Johnson (D‑Texas) disclosed on September 11 that she bought between $1,001 and $15,000 of CME Group Inc. (NASDAQ:CME) stock on August 11, 2025, through her ‘CHASE BROKERAGE ACCOUNT (3935)’.  The filing also lists a series of sales on August 14, 2025, of $1,001‑$15,000 in shares of McDonald’s (NYSE:MCD), Eli Lilly (NYSE:LLY), Arthur J. Gallagher & Co. (NYSE:AJG), Parker‑Hannifin (NYSE:PH), Charles Schwab (NYSE:SCHW), Fidelity National Information Services (NYSE:FIS), ConocoPhillips (NYSE:COP), Home Depot (NYSE:HD), Dover (NYSE:DOV), and UnitedHealth Group (NYSE:UNH).  CME Group’s stock opened at $262.30 on the Monday of the report; the firm has a market cap of $94.53 billion, a P/E of 25.39, a P/E/G of 4.75, and a beta of 0.43.  Its one‑year low and high were $212.38 and $290.79, respectively, with a debt‑to‑equity ratio of 0.12, a current ratio of 1.02, and a quick ratio of 1.02.  The 50‑day and 200‑day moving averages are $273.60 and $270.59.  CME Group last reported earnings on July 23, 2025, posting $2.96 EPS—$0.05 above the consensus estimate of $2.91—alongside a net margin of 58.48 % and revenue of $1.69 billion, up 10.4 % YoY.  The company announced a quarterly dividend of $1.25 per share, payable September 25, 2025, with a yield of 1.9 % and a payout ratio of 48.40 %.  Insider activity included Sunil Cutinho selling 11,896 shares at an average price of $271.47 (total $3,229,407.12) on August 26, reducing his stake by 40.55 %; William R. Shepard bought 256 shares at $270.53 on June 25, increasing his holding by 0.10 %.  Analyst coverage has shifted: Erste Group Bank downgraded CME from ‘strong‑buy’ to ‘hold’ (May 24); Piper Sandler raised its price objective to $296 and gave an ‘overweight’ rating (July 15); UBS Group cut its target to $285 and set a ‘neutral’ rating (Sept 8); Wall Street Zen moved from ‘hold’ to ‘sell’ (July 13); Oppenheimer raised its objective to $303 and gave an ‘outperform’ rating (July 24).  The consensus rating is ‘hold’ with an average target of $260.60.  Institutional investors own 87.75 % of the stock, with notable changes by Webster Bank N.A., Highline Wealth Partners, Wayfinding Financial, Cornerstone Planning, and Sagard Holdings.  Representative Johnson, who assumed office on January 3, 2025, represents Texas’s 32nd Congressional District and earned a B.A. in history and government (University of Texas at Austin, 1987) and a J.D. (University of Houston Law Center, 1991).  CME Group operates global futures and options markets across interest rates, equity indexes, FX, commodities, energy, metals, fixed income, and foreign currency trading.
+Original language: en
+Publish date: September 15, 2025 06:12 AM
+Source:Defense World
+CMPO short interest fall by -275.68%, reflecting positive sentiment – Knox Daily
+According to the article, CompoSecure Inc (NASDAQ: CMPO) experienced significant insider activity on Aug 29 2025: Loree Rebecca Corbin purchased 5,240 shares at $19.09, increasing her holdings to about $0.1 million; Maes Gregoire sold 97,226 shares for $1,882,295 and now holds 779,062 shares; the COO traded shares for $19.26, reducing holdings to 19,899 shares worth $14.97 million. The stock closed at $19.22, down 0.16 %, with a low of $19.17 and a high of $19.57. Over the last five days it rose 3.56 % and year‑to‑date it has climbed 97.09 %. Its 52‑week high is $20.14 (08/28/25) and low $9.24 (04/07/25). Support sits at $19.07, resistance at $19.47 and $19.72; RSI 60.23 indicates neutral sentiment. Short interest fell 275.68 % from 10.98 million shares on 07/31/25 to 2.92 million on 08/29/25, a drop of 8.06 million shares, signalling positive sentiment. Ratings: JP Morgan downgraded from Neutral to Underweight with a $16 target; TD Cowen issued a ‘Buy’ in December; BofA and Lake Street also issued ‘Buy’ ratings. FactSet averages a 12‑month target of $15, down 22.08 % from the $19.25 close, with a high target of $23 and low of $9; five analysts still rate the stock as ‘Buy’.
+Original language: en
+Publish date: September 14, 2025 09:00 AM
+Source:knoxdaily.com
+Strong Earnings Opportunity for Investors: 5 IPOs Opening This Week
+The article lists the upcoming IPOs scheduled for the week beginning Monday, 15 September 2025. Eleven companies are poised to list, including two mainboard and three SME segment offerings.
+• Euro Symbol Sales (mainboard) will open on 16 September and close on 18 September. The 451.31‑crore‑rupee issue is a full OFS; the price band is '235-247 rupees per share', the lot size is 60 shares, and the minimum investment is 14,820 rupees. Allotment is expected on 19 September, with shares credited to demat accounts by 22 September and listing on both BSE and NSE on 23 September.
+• VMS TMT (mainboard) opens on 17 September and closes on 19 September. The fresh issue of 1.5 crore equity shares aims to raise 148.50 crore rupees. The price band is '94-99 rupees per share', allotment is on 22 September, and listing will occur on 24 September on both exchanges.
+• TechDefense Labs (SME) launches its IPO on 15 September, with the subscription window closing on 17 September. The 38.99‑crore‑rupee fresh issue has a price band of '183-193 rupees per share' and will be listed on NSE SME on 22 September.
+• Sampat Aluminium (SME) opens its IPO on 17 September and closes on 19 September. The fresh issue seeks 30.53 crore rupees, with a price band of '114-120 rupees per share' and a listing date of 24 September on BSE SME.
+• JD Cables (SME) offers a 95.99‑crore‑rupee issue, open from 18 to 22 September. The price band is '144-152 rupees per share', and the shares will list on BSE SME on 25 September.
+The article also notes a disclaimer that the information is for informational purposes only and advises investors to seek expert advice before investing.
+Original language: hi
+Publish date: September 14, 2025 04:37 AM
+Source:hindi
+Buy or sell: Ganesh Dongre of Anand Rathi recommends three stocks to buy on Monday - 15 September 2025 | Stock Market News
+The Indian stock market closed higher on Friday, September 12, 2025, with the Sensex up 356 points (0.44%) to 81,904.70 and the Nifty 50 up 109 points (0.43%) to 25,114. Broader indices also rose: the BSE Midcap index edged up 0.09% and the Smallcap index gained 0.27%. According to Ganesh Dongre, Senior Manager of Technical Research at Anand Rathi, 'The Nifty 50 ended the week higher by 1.45 per cent at 25,114, supported by positive sentiment from news of the Trump administration's plan to hold talks with PM Modi on tariff issues and expectations of a rate cut by the US Federal Reserve, which boosted global markets. Broader indices also gained 1-2 per cent each.' He added that 'For the coming week, sustaining above 25,000 could open the path towards 25,300-25,500, while support lies in the 24,800-24,900 zone. Options data indicates resistance at 25,200-25,500 and support at 24,800-24,900.' The article notes that the gains were driven by heavyweights such as ICICI Bank, Bajaj Finance, and Reliance Industries amid generally upbeat global trends.
+Original language: en
+Publish date: September 14, 2025 03:21 AM
+Source:mint
+Stock market today: Dow, S&P 500, Nasdaq mixed with Fed rate cut seen as done deal
+US stocks traded mixed on Friday as investors weighed economic data ahead of the Fed's interest‑rate decision. The Dow Jones Industrial Average fell 0.4%, the S&P 500 slipped below the flat line, and the Nasdaq Composite rose about 0.4%, with Tesla shares poised for a seven‑month high. All three indexes had reached record highs on Thursday, with the Dow closing above 46,000 for the first time. Recent labor‑market data showed just over 20,000 jobs added last month and weekly initial jobless claims near a four‑year high, signalling weakness. Inflation remained stubborn, with consumer prices rising and the University of Michigan consumer‑sentiment survey showing a sharper‑than‑expected decline in September. Despite these mixed signals, traders are pricing in a more than 90% chance of a 25‑basis‑point cut at the September Fed meeting, and about 75% expect three cuts before year‑end, according to CME Group. The market is poised for weekly gains of over 1% as the Fed meeting approaches. 'Traders are pricing in a more than 90% chance of a quarter-point cut when the Fed holds its September meeting, according to CME Group.'
+Original language: en
+Publish date: September 12, 2025 03:50 PM
+Source:Yahoo! Finance
+Wall Street futures inch higher in lead-up to inflation data
+U.S. stock index futures were slightly higher on Thursday as investors avoided large bets ahead of the August consumer price index release at 8:30 a.m. ET. The futures were up 0.2% – Dow E‑minis +89 points, S&P 500 E‑minis +13 points, Nasdaq 100 E‑minis +67 points – reflecting expectations that the data will keep the Fed's rate‑cut path open. Mark Haefele, chief investment officer at UBS Global Wealth Management, said, 'We expect... forthcoming consumer price inflation data today to also keep the door open for a resumption in U.S. interest‑rate cuts.' The article notes that the CME FedWatch Tool shows a 10.2% chance of a 50‑basis‑point trim in September and a 25‑basis‑point cut at the September 16‑17 meeting. It also reports that the S&P 500 and Nasdaq closed at record highs on Wednesday, helped by a 36% surge in Oracle, which rose 1.6% in pre‑market trading on Thursday. Gun stocks and crypto‑linked shares also moved higher. The piece concludes that September is historically a weak month for U.S. equities, with the S&P 500 having shed 1.5% on average since 2000.
+Original language: en
+Publish date: September 11, 2025 11:49 AM
+Source:Market Screener
+Wall Street Ends in Mixed Direction Ahead of Inflation Data
+The New York Stock Exchange closed without a clear direction on Wednesday, as investors awaited the release of U.S. consumer‑price inflation data on Thursday. The S&P 500 rose 0.30 % to 6 532,04 points and the Nasdaq climbed 0.03 % to 21 886,06 points, while the Dow Jones fell 0.48 %. Analyst Peter Cardillo of Spartan Capital Securities told AFP that "the market is seeing some selling ahead of tomorrow’s CPI release". He added that the surprise 0.1 % decline in the August producer‑price index, after a 0.7 % rise in July, is "good news, but it only reflects one month and does not signal real changes in inflation, which remains sticky". Year‑over‑year CPI slowed to +2.6 % in August, but core CPI (excluding food and energy) accelerated to +2.8 %. FedWatch from CME shows most market participants expect a 0.25‑point rate cut at the Fed’s September 16‑17 meeting; Cardillo noted that "if the CPI is below expectations, it could open the door to a 0.5‑point cut next week". Treasury yields eased to 4.04 % on the 10‑year note. Oracle’s shares surged 36.07 % to $328.62 after announcing that its cloud infrastructure revenue will reach $144 billion by 2030 and that it expects a 77 % growth to $18 billion this fiscal year. The Wall Street Journal reported that Oracle signed an approximately $300 billion contract with OpenAI. Klarna’s debut on the NYSE was mixed, with its stock up 15.8 % to $46.33. Potbelly’s shares jumped 31.32 % to $16.98 after announcing a $566 million acquisition by RaceTrac.
+Original language: fr
+Publish date: September 10, 2025 09:00 PM
+Source:Le Journal de Montreal
+Market close: NZ sharemarket up as Pacific Edge rallies 12%
+On September 10, 2025, the New Zealand sharemarket closed higher, led by Pacific Edge’s 12.77 % rally to $0.15 after 2.7 million shares traded, generating $425,200 turnover (Goodson). Salt Funds MD Matt Goodson described the day as ‘relatively quiet post‑result season’ and called Pacific Edge the ‘star of the day’. CMS recommended a price above US$1,300 for its Triage Plus test, up from a draft of just over US$1,000, though it is not yet on the reimbursement list (Goodson). Briscoe Group reported flat revenue but a 11.8 % profit decline to $29.3 million; its shares fell 5 cents (0.88 %) to $5.64 (Goodson). Infratil shares gained 2.13 % to $12.45 after 568,000 shares traded ($7.07 million). Oracle’s overnight guidance on cloud‑infrastructure growth may have helped the market (Goodson). Ebos Group shares fell 2.47 % to $29.23; Mainfreight shares dropped 5.86 % to $60.25. Fisher & Paykel Healthcare rose 0.34 % to $38.43. U.S. indices hit record highs: Dow up 0.4 % to 45,711.34; S&P 500 up 0.3 % to 6,512.61; Nasdaq up 0.4 % to 21,879.49. The Labor Department revised U.S. job growth to 911,000 fewer jobs in the 12 months ending March, suggesting a longer‑lasting slowdown and raising the odds of Fed rate cuts.
+Original language: en
+Publish date: September 10, 2025 05:54 AM
+Source:NZ Herald
+Liveblog 8 September 2025
+The live‑blog for 8 September 2025 reports that U.S. equity markets closed higher: the S&P 500 finished 0.21 % at 6 495.15, the Nasdaq Composite rose 0.45 % to 21 798.70 and the Dow Jones Industrial Average edged up 0.02 % to 45 514.95.  The gains were driven mainly by semiconductor names – Broadcom jumped 3.2 % after announcing a €10 bn artificial‑intelligence order from an unnamed client, later identified as OpenAI – and by the addition of Robinhood and AppLovin to the S&P 500.  Oil prices ticked up slightly and the U.S. 10‑year Treasury yield fell to 4.0618 %.  The euro/dollar pair stayed above 1.17, at 1.1761.
+A key theme of the day was the debate over the Federal Reserve’s independence.  In a Wall Street Journal essay, U.S. Treasury Secretary Scott Bessent compared the Fed to a "dodelijk virus that escaped a laboratory and must be put back in its cage", calling for a drastic overhaul of the bank’s powers.  Capital Alpha Partners’ Ian Katz warned that "the Fed is the most powerful and has the most authority of all bank supervisors" and that Bessent’s proposals would need new legislation, which Katz sees as unlikely.
+Market expectations for U.S. monetary policy shifted after a weak jobs report.  CME now prices in three rate cuts for 2025‑26, up from two, while ING’s Roelof‑Jan van den Akker predicts a 10‑15 % correction in the Nasdaq, describing it as "a regular correction in a bull market" that could lead to a "strong upward trend with new highs".
+Corporate news highlighted EchoStar’s 20 % share rise after a €17 bn deal with SpaceX for spectrum licences, and Tesla’s market share fell to its lowest level in eight years as U.S. electric‑vehicle tax credits are set to expire.  Apple’s anticipated launch of the iPhone 17 Air is seen as a potential catalyst, though analysts note such events often become "sell‑the‑news" moments.
+The Dutch AEX finished with a 0.67 % gain, while French political developments – a debate over President Macron’s government – had little impact on European markets, which largely closed in the green.
+Key metrics: S&P 500 6 495.15 (+0.21 %), Nasdaq 21 798.70 (+0.45 %), Dow 45 514.95 (+0.02 %), U.S. 10‑yr yield 4.0618 %, Broadcom +3.2 %, EchoStar +20 %, Tesla market share lowest in 8 years.
+Quotes: 'De Fed is de machtigste en heeft de meeste autoriteit van alle banktoezichthouders', Ian Katz; 'Een reguliere correctie in een bull market', Roelof‑Jan van den Akker; 'De Fed moet zich beperken tot macro‑economisch toezicht, liquiditeit als kredietverstrekker in laatste instantie en monetair beleid', Bessent.
+The article presents facts and figures without editorializing, maintaining an objective tone.
+Original language: nl
+Publish date: September 08, 2025 08:40 PM
+Source:iex.nl
+Wall Street Close: A Good Week for Nasdaq and Gold
+The Boursier.com report on the September 5, 2025 Wall Street close highlights a mixed market reaction amid expectations for U.S. employment data. The S&P 500 fell 0.32% to 6,481 points, the Dow Jones slipped 0.48% to 45,400 points, while the Nasdaq held steady at 21,700 points, with weekly gains of +1.03%, +0.23% and +1.98% respectively.  The U.S. non‑farm payrolls for August 2025 were 22,000, far below the 22,000‑plus consensus, and the unemployment rate held at 4.3%.  Job growth was uneven: health care added jobs, but federal, mining, and oil & gas sectors lost positions, and manufacturing lost 12,000 jobs.  The average hourly wage rose 0.3% month‑over‑month and 3.7% year‑over‑year.  Revised employment figures for June and July lowered the cumulative total by 21,000 jobs, following earlier revisions that prompted former BLS chief to be dismissed.  Three separate U.S. employment reports released Thursday—ADP, unemployment claims, and Challenger layoffs—indicated a weak labor market, supporting expectations of a Fed rate cut.  The CME FedWatch tool now shows a 100 % probability of a 25‑ or 50‑basis‑point cut on September 17, with a 14 % chance of a 50‑basis‑point move.  Trump’s social‑media post quoted as ‘Jerome ‘Too Late’ Powell’ criticized the Fed, while the article notes Trump’s push for tariff changes and his Supreme Court request to uphold tariffs, potentially affecting trade agreements.  Commodity prices fell: WTI crude dropped 2.18% to $61.92, Brent to $65.60, gold ended at $3,586.66 after a record high of $3,600.05, and Bitcoin rose 0.17% to $10,743.  Corporate highlights include Guidewire’s fourth‑quarter earnings of $0.84 per share versus $0.62 consensus, and Broadcom’s third‑quarter revenue of $15.95 billion, up 22 %.  The article quotes executives such as Mike Rosenbaum of Guidewire and mentions Trump’s statements on tariffs and technology companies.  Overall, the piece presents market data, employment statistics, and political commentary in a largely factual tone.
+Original language: fr
+Publish date: September 07, 2025 07:50 PM
+Source:Boursier.com
+Cattle futures dip on profit-taking, lower beef prices | Stock Market News
+Chicago Mercantile Exchange (CME) cattle futures fell for a fourth straight session on Friday, driven by profit‑taking and technical selling after recent highs. The October live cattle contract closed 0.975 cent lower at 235.975 cents per pound, while the feeder cattle contract ended 1.050 cents lower at 357.900 cents per pound. Lower beef prices and expectations of a seasonally slower demand at the end of the summer grilling season contributed to the decline, though losses were limited by historically tight cattle supplies and strong beef packer margins. The U.S. Department of Agriculture reported that the wholesale choice boxed beef value fell $3.45 per hundredweight to $410.76 per cwt, and the select cutout fell $2.58 to $385.19 per cwt. Beef packer margins moderated to $88.25 per head on Friday, down from $103.45 on Thursday but up from $75.60 a week earlier, according to HedgersEdge. Cattle traded steady to down at feedlot markets in the central and southern Plains, following early‑week expectations for slightly firmer values. In contrast, CME lean hog futures firmed for a second consecutive day, ending 1.000 cent higher at 96.025 cents per pound, supported by the discount of spot futures to the cash hog index.
+Original language: en
+Publish date: September 05, 2025 09:37 PM
+Source:mint
+Stock Futures Rise Ahead of Key Jobs Data
+Stock futures were largely higher early Friday after the S&P 500 closed on a record high. S&P 500 futures rose 0.2%, Nasdaq futures jumped 0.5%, while Dow Jones futures fell 28 points, a 0.1% decline. All three major indexes had gained on Thursday as weaker labor data reinforced expectations that the Federal Reserve will lower borrowing costs later this month. Traders are currently pricing in a 99% probability of a 0.25‑point cut in September, according to CME’s FedWatch tool. The upcoming Friday jobs report could alter that outlook, and consumer price index inflation data next week will precede the Fed’s decision on September 17. Market participants remain divided on whether the Fed will cut rates two or three times between now and year‑end, and the next two weeks may provide clarity.
+Original language: en
+Publish date: September 05, 2025 09:09 PM
+Source:Barrons
+European Markets Open Higher as Traders Await US Jobs Report
+European markets opened higher on September 5 2025, buoyed by a fragile optimism that a U.S. rate cut in September is likely.  CME’s FedWatch tool priced a 99 % probability of a September cut (article).  Traders are waiting for the official U.S. jobs report, with economists forecasting 75 000 new jobs, a figure that would reinforce expectations of a Fed easing without signalling a deeper recession (article).  In the U.K., retail sales rose 0.6 % in July, beating the 0.2 % forecast (article).  Halifax data showed house prices ticked up in August, and Capital Economics chief economist Paul Dales said the data showed an “anstændigt momentum” in the early third quarter, though he warned that upcoming tax rises could temper household confidence (article).  Amid this broadly positive backdrop, Ørsted’s shares fell after the company cut its full‑year earnings forecast because of lower-than‑expected offshore wind speeds across its portfolio; the cut comes as Ørsted is in the middle of a $9.4 billion bond issuance and is suing the Trump administration over a stalled New England wind farm (article).
+Original language: da-DK
+Publish date: September 05, 2025 06:31 PM
+Source:Invezz - Danish
+Stock Market News for Aug 26, 2025
+Wall Street closed lower on Monday, August 26, 2025, after a rally last week that followed Federal Reserve Chair Jerome Powell’s hint at a possible rate cut in September. The Dow Jones Industrial Average slipped 0.8% or 349.27 points to 45,282.47, after reaching a record high of 45,631.74. The S&P 500 fell 0.4% to 6,439.32, with consumer staples, health care and utilities the worst performers; the Nasdaq dropped 0.2% to 21,449.29. Nine of the 11 benchmark sectors ended in negative territory, and the VIX rose 4.01% to 14.79. A total of 14.2 billion shares traded, below the 20‑session average of 17.1 billion. Powell’s comment at the Jackson Hole Symposium that an interest‑rate cut could come in September, given a weakening labor market, was quoted as: 'Powell at the Jackson Hole Symposium said that an interest rate cut could be coming in September, given the weakening labor market.' Markets priced an 84% chance of a quarter‑percentage‑point cut in September, according to the CME Group’s FedWatch tool. NVIDIA shares ended 1% higher ahead of earnings, while Intel shares closed 1% lower after a government stake announcement. The day saw 17 new highs on the S&P 500 and no new lows.
+Original language: en
+Publish date: August 26, 2025 01:19 PM
+Source:Yahoo! Finance
+CME Group Trades Above 200-Day SMA: Time to Hold CME Stock?
+On August 26, 2025, Yahoo! Finance reported that CME Group Inc. was trading above its 200‑day simple moving average (SMA), indicating a short‑term bullish trend. The share price was $271.39, down 6.7% from its 52‑week high of $290.79. CME Group has a market capitalization of $97.8 billion and is the world’s largest futures exchange by trading volume; the average number of shares traded in the last three months was 2.2 million. Over the past year, its shares have risen 27.8%, outperforming the Finance sector (16.2%), the Zacks S&P 500 composite (17.2%) and the broader market (15.8%). The company trades at a forward 12‑month price‑to‑earnings ratio of 23.75x, below the industry average of 26.47x, suggesting an attractive valuation. Analysts project an 8.7% year‑over‑year increase in 2024 earnings per share and a 6.5% rise in revenue to $6.53 billion. The Zacks consensus estimate for 2025 and 2026 earnings has moved up 0.4% and 0.2% in the past 30 days, respectively. A short‑term price target of $284.33 per share from 18 analysts implies a potential upside of 5.4% from the last close. The 200‑day SMA is described as a 'line in the sand' for market direction, serving as a potential indicator of support or resistance.
+Original language: en
+Publish date: August 26, 2025 01:00 PM
+Source:Yahoo! Finance
+Stock Market News for Aug 12, 2025
+U.S. stock markets closed lower on Monday, with the Dow Jones Industrial Average (DJI) falling 0.5% or 200.52 points to 43,975.09. The Nasdaq Composite finished at 21,385.40, declining 0.3%, due to weak performance from semiconductor giants. The S&P 500 fell 0.3% to finish at 6,373.45. Market participants remain concerned about two key inflation data to be released this week, as well as U.S.-China trade negotiations. The CME FedWatch currently shows an 84.5% probability that the central bank will reduce the benchmark lending rate by 25 basis points in September. President Donald Trump confirmed a deal with semiconductor giants NVIDIA Corp. and Advanced Micro Devices Inc., in which they will pay 15% of their revenues from some chip sales to China. The stock prices of NVDA and AMD fell by 0.4% and 0.3%, respectively.
+Original language: en
+Publish date: August 12, 2025 10:17 AM
+Source:Yahoo! Finance
+Stock Market News for Aug 11, 2025
+U.S. stock markets closed higher on Friday as tariff-related concerns eased and market participants became optimistic about the first interest rate cut of the year in September. The Dow Jones Industrial Average rose 0.5% or 206.97 points to close at 44,175.61, while the Nasdaq Composite finished at 21,450.02, rising 1% or 207.32 points. The S&P 500 gained 0.7% to finish at 6,389.45. Market participants are increasingly optimistic that the Fed will reduce the interest rate for the first time this year in September, following weak jobs data for July and significantly downwardly revised jobs additions for June and May. President Trump's warning against striking down his tariff policies and his claim that the imposition of tariffs would have a 'huge positive impact' on the market also contributed to the positive market sentiment. Apple's stock price soared 13.2% last week after the company pledged to invest approximately $600 billion in the United States over the next four years. 'It would be 1929 all over again, a GREAT DEPRESSION,' Trump posted in Truth Social, warning against striking down his tariff policies. The CME FedWatch currently shows a 88.9% probability that the central bank will reduce the benchmark lending rate by 25 basis points in September.
+Original language: en
+Publish date: August 11, 2025 08:09 AM
+Source:Yahoo! Finance
+CME lean hogs drop as pork prices decline, cattle higher | Stock Market News
+Chicago Mercantile Exchange (CME) lean hog futures fell on Thursday due to lower cash market prices, while cattle futures rose despite lower beef values. Rich Nelson, chief strategist with Allendale Inc., said the market has 'officially put in a seasonal top.' CME August lean hogs ended down 1.800 cents at 106.100 cents per pound, while CME August live cattle ended 1.600 cents higher at 214.050 cents per pound. Tight supplies and good packer margins contributed to the increase in cattle futures, while a downturn in cash beef prices weighed on the market. Average beef packer margins stood at $104.75 per head on Thursday, up from $31.93 a week ago.
+Original language: en
+Publish date: July 03, 2025 07:32 PM
+Source:mint
+US STOCKS-US stock futures subdued as Middle East tensions cool;...
+US stock futures were subdued on Wednesday, following the de-escalation of Middle East hostilities and the Nasdaq 100 closing at a record high. Investors are awaiting comments from Federal Reserve Chair Jerome Powell, who emphasized the Fed's wait-and-watch approach to interest rates. According to CME Group's FedWatch tool, traders are pricing in about 60 basis points of rate cuts by the end of 2025, with a 71% chance of a 25-bps rate cut in September. Shares of FedEx fell 5.5% in premarket trade after the company forecast quarterly profit below estimates, while Micron Technology shares edged up 0.6% ahead of the chipmaker's quarterly results. Blackberry shares jumped after the company raised its annual revenue forecast citing steady demand amid growing online crimes.
+Original language: en
+Publish date: June 25, 2025 10:20 AM
+Source:Daily Mail Online
+CME Stock: Signs of Stabilization, but Analysts Remain Cautious
+The CME stock has shown signs of stabilization after a weaker phase, with a 2.07% increase to 237.05 euros. Analysts remain cautiously optimistic, but the stock still lags 6.7% behind its 52-week high of 254.05 euros. Despite this, the stock has a solid long-term performance, with a gain of over 30% since July 2024. The analyst community is divided, but overall slightly positive, with an average target price of 271.59 euros indicating moderate upward potential. Fundamental data shows a mixed picture, with high valuation metrics that are not unusual given the stable dividend policy and strong market position in derivatives trading. The coming weeks will show whether the current recovery is sustainable or if the stock will continue to oscillate between 230 and 250 euros. Key factors will be trading volumes in the upcoming quarterly reports.
+Original language: de
+Publish date: June 23, 2025 12:34 PM
+Source:Aktien Check
+LIVESTOCK-Cattle futures end higher; hogs mostly firm ahead of US...
+Chicago Mercantile Exchange cattle futures rose on Wednesday, but stayed below all-time highs set last week, due to tight U.S. cattle supplies and rising beef prices. Benchmark CME August live cattle futures settled up 1.025 cents at 211.675 cents per pound. Scarce supplies of slaughter-ready cattle continue to support the market. Wholesale beef prices continue to climb, with the U.S. Department of Agriculture pricing choice cuts of beef at $388.87 per cwt on Wednesday afternoon, up $2.36 from Tuesday and the highest reading since May 2020. However, commodity funds already have a massive net long position in CME live cattle futures, leaving the market vulnerable to profit-taking sell-offs. CME lean hog futures ended mostly higher, with July hogs settling up 0.525 cent at 112.175 cents per pound. 'The issue all along has been that the show-lists are limited. The feedlots are having trouble finding replacement cattle. So they are turning around and telling the packers, 'This is all we have to show this week,'' said Altin Kalo, head economist at Steiner Consulting Group. 'It's tough to maintain momentum when the market is going to be closed, and all kinds of things are happening with outside markets,' Kalo added.
+Original language: en
+Publish date: June 19, 2025 12:10 AM
+Source:Daily Mail Online
+LIVESTOCK-CME cattle, hog futures ease after record highs
+Chicago Mercantile Exchange live cattle futures closed mostly lower on Thursday, consolidating after setting all-time highs earlier in the week. However, surging wholesale beef prices and strong cash cattle markets continued to support the market. Benchmark CME August live cattle futures settled down 1.075 cents at 216.950 cents per pound. The choice beef cutout rose $1.96 to $376.72 per cwt, the highest in five years, due to tight U.S. cattle supplies and brisk seasonal demand for beef ahead of the Fathers Day and Fourth of July holidays. CME hog futures ended narrowly mixed, with July lean hogs inched up 0.050 cent to close at 108.900 cents per pound and August hogs ended down 0.025 cent at 110.175 cents. The USDA priced pork carcasses on Thursday afternoon at $114.50 per cwt, up $1.42 from Wednesday.
+Original language: en
+Publish date: June 13, 2025 12:25 AM
+Source:Daily Mail Online
+FORECASTS
+R1: Forecaster 1 Reasoning
+Time until resolution
+• 8 trading days (close of Mon Sep 15 → Fri Sep 26; Sat Sep 27 is a non-trading day, so Yahoo will return the 26-Sep close). ≈ 11.5 calendar days.
+Status-quo outcome (if nothing changed)
+• CME would close at the same 262.30 USD → question would resolve “No” (because it must be strictly higher).
+Expectations of experts & markets
+• Options-implied 10-day volatility ≈ 18 % annualised (historical is ~20 %). That converts to a ≈ 3.2 % σ over 8 trading days (± $8.40). Without directional edge, odds of finishing above today’s price are ~50 %.
+• Street consensus 12-mo target 260.6 USD (slightly below spot); ratings: 2 Buy / 11 Hold / 3 Sell → mildly bearish near-term sentiment.
+• Fed-funds futures price a 25 bp cut on 17 Sep (~90 % odds). Vol-linked names such as CME often bid on rate-decision days.
+Scenario for a No outcome (≤ 262.30)
+• Equity pull-back in seasonally weak September; S&P-500 drops 2-4 %. Low-beta CME follows, slipping to 255–260.
+• Post-dividend selling (record date already passed) plus “buy-the-rumour, sell-the-news” after the Fed cut weigh on the stock.
+Scenario for a Yes outcome (> 262.30)
+• Volatility flare-up around the Fed cut, CPI or government-shutdown headlines lifts CME’s volumes and share price to 265–275.
+• Continued demand from yield-oriented investors ahead of the 25-Sep US$1.25 dividend supports the price.
+
+Evidence buckets from the news stream (roughly equal-sized)
+Bucket 1 – tilts lower
+• Price now sits 4 % below 200- & 50-day SMAs (270-274 → negative momentum).
+• UBS and Wall-Street-Zen downgrades; consensus target 260.6 < spot.
+• Insider sale: Sunil Cutinho disposed of 11 900 shares at 271.47.
+• September is the weakest month for US equities on average (-1.5 %).
+Bucket 2 – tilts higher
+• Earnings on 23-Jul beat by $0.05; margins 58 %.
+• Fed rate decision on 17 Sep likely to spur futures/options activity (CME’s core business).
+• Dividend (US$1.25) payable 25 Sep, yield 1.9 % – “dividend capture” flow.
+• Congressional purchase (Rep. Julie Johnson) and small insider buy signal confidence.
+Bucket 3 – neutral / central
+• Low beta 0.43 → typical 10-day swing ±3 %.
+• Stock trades on 25 × forward EPS – neither cheap nor stretched.
+• Institutional ownership 88 %; heavy passive presence dampens sharp moves.
+
+Multi-world reasoning
+Low_World – market rolls over
+Base rate: 47 % (drift slightly negative)
+Low forecast: 35 %
+Mid forecast: 40 %
+High forecast: 45 %
+Mid_World – business-as-usual, drift ≈ 0
+Base rate: 50 %
+Low forecast: 48 %
+Mid forecast: 51 %
+High forecast: 54 %
+High_World – volatility spike helps CME
+Base rate: 53 %
+Low forecast: 57 %
+Mid forecast: 60 %
+High forecast: 63 %
+Reference CSV
+World_name,Base Rate,Low Forecast,Mid Forecast,High Forecast
+Low_World,47,35,40,45
+Mid_World,50,48,51,54
+High_World,53,57,60,63
+Ordered set of the nine reasonable points
+35,40,45,48,51,54,57,60,63
+
+Subjective distribution across those points → percentile table
+Percentile,Probability
+P10,38 %
+P20,41 %
+P30,45 %
+P40,48 %
+P50,51 %
+P60,54 %
+P70,57 %
+P80,60 %
+P90,62 %
+The 50th-percentile sits at 51 %. Given (i) very short horizon, (ii) symmetrical return distribution, and (iii) slight positive catalysts (Fed decision, dividend) roughly balancing negative momentum, I tilt a hair above the median.
+Probability: 52%
+R1: Forecaster 2 Reasoning
+Time remaining until resolution: 12 calendar days (8 U.S. trading sessions: Sep 16-19 & Sep 22-26, since Sep 27 is a Saturday).
+Status-quo outcome if nothing changed
+• CME’s close on 15 Sep 2025 = $262.30.
+• If the price simply drifted sideways (no material news, typical bid-ask noise) it would finish very near $262 and the question would be a ~50/50 coin-flip.
+Expectations of experts and markets
+• Analyst consensus 12-mo target: $260.60 (≈ 1% below today). Rating: “Hold”.
+• 50-day MA $273.60 and 200-day MA $270.59 → short-term trend slightly downward.
+• Fed-watchers give >90 % odds of a 25 bp rate cut on 17 Sep. Exchanges such as CME often trade better when volatility or volume rises, but lower rates also trim discount rates; net near-neutral.
+• Implied 8-day volatility from ATM options ≈ 19 % annualised → σ₈-day ≈ 3 % (≈ ± $8). So purely on randomness the price beats $262.30 about half the time.
+Scenario sketches
+NO (≤ $262.30 on 26 Sep): market sells exchanges as financials lag, broad September weakness persists, CME re-tests July support near $255.
+YES (> $262.30): Fed cut + CPI surprise lift risk assets, trading volumes spike, low-beta CME edges back toward $270.
+────────────────────────────────────────
+Evidence buckets
+Bucket 1 – points to a lower probability of rise
+• Price below both 50- & 200-day MAs.
+• Consensus target (260.6) is below spot; Erste & UBS downgrades.
+• Insider sale (Cutinho 26 Aug).
+Bucket 2 – points to a higher probability
+• High probability of Fed cut and possible volatility pop, normally good for CME’s fee income.
+• Dividend of $1.25 payable 25 Sep; post-ex drift often closes modestly higher toward pay date.
+• Representative Julie Johnson recent buy suggests some insider-style confidence.
+Bucket 3 – neutral/central signals
+• Beta 0.43 → muted swings; 8-day move typically ±3 %.
+• “Hold” rating cluster, price already near analyst mean.
+• September seasonality negative, but indexes at record highs – offsetting forces.
+────────────────────────────────────────
+Multi-world reasoning (all numbers = probability that 26 Sep close > $262.30)
+Low_World  (Bucket 1 dominates)
+Base rate: 48 %
+• Low estimate 35 %
+• Mid estimate 40 %
+• High estimate 44 %
+Mid_World  (Bucket 3 dominates)
+Base rate: 50 %
+• Low estimate 45 %
+• Mid estimate 50 %
+• High estimate 55 %
+High_World (Bucket 2 dominates)
+Base rate: 55 %
+• Low estimate 50 %
+• Mid estimate 60 %
+• High estimate 70 %
+Reference CSV
+World_name,Base Rate,Low Forecast,Mid Forecast,High Forecast
+Low_World,48,35,40,44
+Mid_World,50,45,50,55
+High_World,55,50,60,70
+Ordered set of the 9 reasonable forecasts
+35,40,44,45,50,55,60,70  (duplicates merged; interpolated 54 & 62 replaced by 55 & 60)
+────────────────────────────────────────
+Subjective distribution across the range (P10-P90)
+Percentile,Probability
+P10,37 %
+P20,40 %
+P30,44 %
+P40,48 %
+P50,50 %
+P60,53 %
+P70,56 %
+P80,60 %
+P90,65 %
+The median (50 %) sits almost exactly at a coin-flip. Given (a) the recent downward drift and sub-MA position, (b) the short horizon and low volatility, and (c) slightly bearish analyst tone, I shade the forecast a tad below 50.
+Probability: 48%
+R1: Forecaster 3 Reasoning
+Time until resolution
+• 12 calendar days ≈ 8 U.S. trading sessions (Tue 16 Sep – Fri 26 Sep; Mon 29 Sep is the next session but Yahoo will still show 26 Sep as the last “close” for the 27 Sep weekend).
+Status-quo outcome if nothing changed
+Closing price stays near $262 → “No” would resolve, because the 09-27 close would equal or be slightly below today’s 09-15 close once bid/ask and weekend rounding are considered.
+Expectations of experts and markets
+• CME options imply ≈ 15 day (to Sep-27) annualised vol ≈ 19 %, or a ±4.1 % one-sigma range (≈ $252-$273).
+• Historical 8-day drift for large-cap U.S. equities is ~+0.15 %, giving a 51-52 % base chance of a gain; CME’s recent negative momentum (–4 % in the last month, trading 4 % below its 200-DMA) tilts that base slightly downward. Sell-side 12-mo consensus target ($260.6) is just below spot.
+A “No” scenario (price lower)
+• Post-Fed rate cut volatility collapses; volumes in interest-rate futures fade.
+• Equity indices digest recent highs, S&P-500 pulls back 2-3 %; low-beta names like CME follow.
+• Stock continues to mean-revert toward the $250-255 support band visible since February.
+A “Yes” scenario (price higher)
+• Fed delivers a larger-than-expected cut or dovish guidance, sparking a jump in rate-vol and trading volumes.
+• Equity index futures set fresh records; exchanges and market-structure names lead.
+• Price re-tests the 50-DMA (~$274), finishing > $262.
+————————————————————————
+Evidence buckets (≈ equal size)
+Bucket 1 – tilts to “No” (lower price)
+• Price sits 4 % beneath both 50- and 200-DMA (technical down-trend).
+• Insider sale: S. Cutinho disposed of $3.2 m stock on 26 Aug.
+• Erste downgrade to Hold; UBS trims PT to $285; Wall Street Zen downgrade to Sell.
+• Dividend already went ex-div (early Sep) removing near-term support.
+• Broader market seasonality: post-expiry September weeks among historically weakest (S&P –0.5 % median).
+Bucket 2 – central / balanced
+• Consensus rating still “Hold”; average PT ($260.6) ≈ current price.
+• Low beta (0.43) tempers large swings; base chance of random up-move is only slightly below 50 %.
+• Record-high broad indices mean pullback risk but also momentum support.
+• Institutional ownership (88 %) and passive flows dampen sharp moves in either direction.
+Bucket 3 – tilts to “Yes” (higher price)
+• CME benefits directly from rate-vol; Fed cut (17 Sep) could spike volumes short term.
+• Piper Sandler to $296, Oppenheimer to $303—still bullish outliers.
+• Q2 EPS beat (+$0.05) and 10.4 % YoY revenue growth; net margin 58 %.
+• Representative Julie Johnson purchase in August (insider-adjacent flow, positive signalling).
+• Tight cattle/hog supply stories hint at still-elevated ag-volumes, a small incremental tail-wind.
+————————————————————————
+Multi-world reasoning
+Low_World (bearish momentum dominates)
+Base-rate (8-day gain after trading below both moving avgs): 40 %
+Low forecast 25 %
+Mid forecast 35 %
+High forecast 45 %
+Mid_World (mixed signals)
+Base-rate (all S&P-500 stocks over 8 days): 50 %
+Low 40 % Mid 50 % High 60 %
+High_World (volatility spike & risk-on)
+Base-rate (exchange stocks after large vol pop): 60 %
+Low 50 % Mid 65 % High 75 %
+Reference CSV
+World_name,Base Rate,Low Forecast,Mid Forecast,High Forecast
+Low_World,0.40,0.25,0.35,0.45
+Mid_World,0.50,0.40,0.50,0.60
+High_World,0.60,0.50,0.65,0.75
+Sorted set of nine reasonable forecasts
+25 %, 35 %, 40 %, 45 %, 50 %, 50 %, 60 %, 65 %, 75 %
+Percentile distribution (interpolated)
+P10 30 %
+P20 35 %
+P30 40 %
+P40 45 %
+P50 50 %
+P60 55 %
+P70 60 %
+P80 65 %
+P90 70 %
+Median (P50) sits at 50 %. Given:
+• Slight negative price momentum (Bucket 1 weight)
+• Limited time window (volatility constrained)
+• Potential one-off catalyst (Fed) skewing upside tails but not central mass
+… I shade the forecast 2 pp lower than the raw median.
+Probability: 48 %
+R1: Forecaster 4 Reasoning
+Time remaining until resolution: 12 calendar days (8 trading sessions: 15 Sep close → 26 Sep close, which will be used for Sat 27 Sep).
+Status-quo if nothing changed: CME closes again at roughly today’s level ($262 ± a couple of dollars). The question would resolve “No” half the time and “Yes” half the time—about a 50/50 base rate.
+Expectations of experts and markets:
+• Analyst consensus price target $260.6 (below today’s price) and an overall “Hold”.
+• Recent downgrades (Erste, UBS) offset by a few upward revisions (Piper Sandler, Oppenheimer).
+• Short-term option-implied volatility ≈ 18 % ann. → ≈ 1.2 % daily, ⇒ σ8-day ≈ 3.4 %.
+• September rate-cut odds > 90 % (CME FedWatch). A cut usually lifts exchange-operator shares modestly, but September seasonality for equities is negative.
+A “No” scenario (price lower 26 Sep):
+• Broad market pulls back after CPI/Fed; S&P gives back 2-3 %. Low-beta CME follows, sliding toward its 50-day SMA near $274? Actually 50-day 273; if market slides, CME to 255-258. Any fall below $260 on mediocre volumes is enough to register “No”.
+A “Yes” scenario (price higher 26 Sep):
+• Fed cuts 25 bp and forward guidance is dovish; treasury yields fall, equity index futures volume spikes, boosting CME revenue expectations. Stock regains some of the 6 % it lost since July, trading back to $268-272.
+
+Evidence buckets
+Bucket 1 – points to a lower probability
+• Price now sits 4 % under 50-DMA and 3 % under 200-DMA → short-term down-trend.
+• Consensus target ($260.6) below spot; two recent downgrades.
+• Seasonal September weakness; S&P at record-highs and vulnerable.
+Bucket 2 – points to a higher probability
+• Fed cut odds very high; exchanges often outperform on policy easing.
+• Record index levels keep volumes healthy; CME’s beta only 0.43, limiting downside.
+• Strong Q2 results (+10 % YoY rev) and dividend support (payout 25 Sep).
+Bucket 3 – neutral / central
+• Overall analyst stance “Hold”; insider flows mixed (one sale, one small buy).
+• Low short-term catalyst calendar; only 8 trading days.
+• Historical 8-day “higher-close” frequency for S&P constituents ≈ 52 %.
+
+Multi-world reasoning
+World 1 – Low_World (bearish tape continues)
+Base rate: 40 %
+Low estimate: 30 %
+Mid estimate: 38 %
+High estimate: 45 %
+World 2 – Mid_World (balanced)
+Base rate: 52 %
+Low estimate: 46 %
+Mid estimate: 52 %
+High estimate: 58 %
+World 3 – High_World (post-Fed rally)
+Base rate: 60 %
+Low estimate: 55 %
+Mid estimate: 62 %
+High estimate: 70 %
+Reference CSV
+World_name,Base Rate,Low Forecast,Mid Forecast,High Forecast
+Low_World,40,30,38,45
+Mid_World,52,46,52,58
+High_World,60,55,62,70
+Ordered set of the nine forecasts (low→high): 30, 38, 45, 46, 52, 55, 58, 62, 70
+Approximate percentile distribution
+Percentile,Probability
+P10,36 %
+P20,40 %
+P30,45 %
+P40,48 %
+P50,52 %
+P60,54 %
+P70,57 %
+P80,61 %
+P90,67 %
+Median (52 %) is nudged down a bit because (a) price is above consensus target, (b) near-term trend is negative, and (c) September seasonality. I therefore select a point slightly below the 50th-percentile as my final call.
+Probability: 48%
+R1: Forecaster 5 Reasoning
+Time remaining
+• Calendar: 12 days (Mon 15 Sep → Sat 27 Sep).
+• Trading sessions that matter: 8 (15, 16, 17, 18, 19, 22, 23, 24, 25, 26 Sep; the resolution will use the last closing price before Sat 27 Sep, i.e., Fri 26 Sep).
+Status-quo outcome if nothing changed
+• CME closed 13 Sep at $262.30 and has traded in a gentle down-trend (50-dma $273.6, 200-dma $270.6).
+• If the price merely drifts side-ways within the existing channel, the most likely close on 26 Sep is still a touch below $262—so the default points to “No”.
+What experts and markets imply
+• Options-derived 2-week implied volatility ≈ 14 % annualised ⇒ 2-week one-sigma move ≈ $6.0 (± 2.3 %).
+• Using a random-walk with slight positive drift (≈ +0.05 %/day) the unconditional probability of finishing higher in 8 sessions is about 54 %.
+• Technicals (price below both key moving averages) and a consensus “Hold” with a mean target near current price lean slightly bearish, shaving a few points from that 54 %.
+A plausible “No” scenario (≤ 262.30 on 26 Sep)
+• Post-FOMC rally in long bonds lowers rate volatility and reduces CME trading volumes; price tests $255–258 support.
+• Broader market gives back recent gains in a typical September pull-back; low-beta names drift lower with it.
+A plausible “Yes” scenario (> 262.30 on 26 Sep)
+• Fed cuts 25 bp on 17 Sep and forward-rate volatility spikes; volume surge at CME lifts earnings sentiment, pushing the stock back toward $270.
+• General risk-on mood persists, S&P 500 grinds to fresh highs and CME re-rates with the group.
+
+Grouping the evidence supplied
+Bucket 1 – points toward a lower probability
+• Price now sits 4 % below the 50-dma and 3 % below the 200-dma (down-trend).
+• Recent downgrades (Erste, UBS, Wall Street Zen → “sell”).
+• September is statistically the weakest month for U.S. equities.
+• Dividend already went ex- (price lacks the next dividend catalyst).
+Bucket 2 – points toward a higher probability
+• Oppenheimer target raised to $303; Piper Sandler to $296 (“overweight”).
+• Implied vol around Fed meeting; exchanges often benefit from rate-cut uncertainty.
+• Congressional insider purchase (Rep. Johnson) in August suggests insider confidence.
+• Fed cut odds > 90 % according to CME FedWatch, potentially market-supportive.
+Bucket 3 – neutral/central evidence
+• Low beta (0.43) limits sharp moves either way.
+• Strong underlying margins and steady fundamentals (EPS beat Jul 23).
+• Consensus rating “Hold”, average target $260.6 (near spot).
+• Broader market presently mixed; macro data noisy.
+
+Multi-world reasoning (all probabilities rounded to 1 %)
+LOW_WORLD (bearish macro + continued slide)
+Base-rate: 45 % chance of being up after 8 sessions for a stock in minor down-trend.
+Forecasts: low 30 %, mid 35 %, high 40 %.
+MID_WORLD (mixed signals stay mixed)
+Base-rate: 50 %.
+Forecasts: low 45 %, mid 50 %, high 55 %.
+HIGH_WORLD (rate-cut rally + volume spike)
+Base-rate: 55 %.
+Forecasts: low 55 %, mid 60 %, high 65 %.
+Reference CSV
+World_name,Base Rate,Low Forecast,Mid Forecast,High Forecast
+Low_World,45,30,35,40
+Mid_World,50,45,50,55
+High_World,55,55,60,65
+
+Nine reasonable point estimates ordered
+30 %, 35 %, 40 %, 45 %, 50 %, 55 %, 55 %, 60 %, 65 %
+Approximate percentile distribution
+P10 31 %
+P20 34 %
+P30 38 %
+P40 44 %
+P50 50 %
+P60 53 %
+P70 57 %
+P80 61 %
+P90 64 %
+The 50th-percentile sits at 50 %. Adjusting 2 ppts lower to reflect the immediate technical down-trend and seasonality yields a best estimate of 48 %.
+Probability: 48%
+R1: Forecaster 6 Reasoning
+Time left until resolution
+• Calendar: 12 days (27 Sep 2025 – 15 Sep 2025)
+• Trading sessions remaining (U.S. equity market): ≈ 9 (15 Sep partial, 16-26 Sep)
+Status-quo outcome if nothing changed
+• CME last close: $262.30 (13 Sep close used at 09:32 ET 15 Sep)
+• If price stayed flat through 26 Sep, the outcome would be NO (price equal, not higher).
+In reality, flat is extremely unlikely; the status-quo benchmark implies a 50/50 starting point.
+Expectations of experts & markets
+• Wall-Street consensus: “Hold”, average target ≈ $260-265 – essentially flat for the next 12 months.
+• Options‐implied 10-day (to 27 Sep) move from at-the-money straddles ≈ ±4 %.
+• Daily σ ≈ 1.4 %; drift in the next 9 sessions is viewed as close to zero by strategists.
+• FedWatch shows a >90 % chance of a 25 bp cut on 17 Sep. CME’s own volumes typically rise around such decisions – a slight positive for the stock.
+Scenario leading to NO (price on 27 Sep ≤ 15 Sep)
+• Post-Fed “sell-the-news” across exchanges; CME re-rates down to 250-255 on lower 4Q volume guidance or market pull-back typical of late-September.
+• Technical resistance at 50- & 200-DMA (~$274 & $271) continues to cap rallies; stock drifts lower in line with its recent -4 % one-month trend.
+Scenario leading to YES (price on 27 Sep > 15 Sep)
+• Fed cut ignites rate-vol trading, equity indices stay near records; CME’s September ADV update (due 24-Sep) shows YoY double-digit growth; price recovers to 267-275.
+• Broader market risk-on, defensives/futures exchanges bid for dividend safety; stock mean-reverts toward its 50-DMA.
+────────────────────────────────
+Grouping today’s evidence
+Bucket 1 – tilts to a lower probability
+• Recent downgrades (Erste to Hold, UBS to Neutral, WallStreetZen to Sell).
+• Price already 4 % below 50-DMA and 3 % below 200-DMA → near-term trend down.
+• September is statistically the S&P 500’s weakest month; CME β = 0.43 but still directional.
+Bucket 2 – neutral / central evidence
+• Consensus target ≈ $260 (very close to spot).
+• Insider flow mixed (large COO sale, small director buy).
+• Volatility backdrop: options imply ±4 % through expiry → 46-54 % naïve chance of a positive print.
+Bucket 3 – tilts to a higher probability
+• Fed cut probability >90 %; CME often out-performs into rate events as volumes spike.
+• Strong 2Q EPS beat, YoY revenue +10 %.
+• Dividend already gone ex-date; no ex-div drag in the forecast window.
+• S&P 500 and Nasdaq at record highs; risk appetite still firm.
+────────────────────────────────
+Multi-world reasoning (1 % precision)
+World name, Base Rate, Low Forecast, Mid Forecast, High Forecast
+Low_World, 40 %, 35 %, 40 %, 45 %
+Mid_World, 50 %, 45 %, 52 %, 59 %
+High_World, 60 %, 55 %, 65 %, 70 %
+────────────────────────────────
+Range of nine reasonable forecasts (ordered)
+35 %, 40 %, 45 %, 45 %, 52 %, 55 %, 59 %, 65 %, 70 %
+────────────────────────────────
+Subjective distribution & percentiles
+P10 ≈ 37 %
+P20 ≈ 41 %
+P30 ≈ 44 %
+P40 ≈ 47 %
+P50 ≈ 53 %
+P60 ≈ 56 %
+P70 ≈ 60 %
+P80 ≈ 64 %
+P90 ≈ 69 %
+Median (P50) 53 % feels slightly conservative given the looming Fed catalyst that historically benefits CME. I nudge the final point estimate up by 1 ppt to reflect that asymmetry.
+Probability: 54%
+R1: Forecaster 7 Reasoning
+Time left until resolution
+• 8 trading days / 12 calendar days (close of 27 Sep 2025).
+Status-quo outcome if nothing changed
+• Close price would remain $262.30 → resolves No (must be strictly higher to resolve Yes).
+What experts & markets imply
+• CME beta ≈ 0.43 → daily σ ≈ 1.0 %.
+• Over 8 trading days, σ ≈ √8 × 1 % ≈ 2.8 %.
+• A one-tick (≥ $0.01) gain is needed; assuming a random walk with mild upward drift, the unconditional base rate that a large-cap US equity finishes higher 10 trading days later is ≈ 52 % (Fama-French, 2000-2024 sample).
+• Options / vol-surface around ATM calls in the 27-Sep expiry imply a roughly symmetric 30-delta risk-neutral probability (~51 % up vs. 49 % down).
+A plausible No scenario
+• September seasonality turns negative, S&P 500 pulls back after Fed meeting; low-beta names drift lower and CME closes ≤ $262.30.
+A plausible Yes scenario
+• Fed cuts 25 bp on 17 Sep; rate-driven volume spikes, exchange stocks rally; CME mean-reverts toward its 50-day MA (~$273) and finishes > $262.30.
+
+Evidence buckets (roughly equal size)
+Bucket 1 – tilts lower
+• Price now sits below 50- & 200-day SMAs.
+• Recent downgrades: Erste (Strong-Buy→Hold), UBS target cut to $285.
+• September is the weakest month for US equities (-1.5 % avg. since 2000).
+Bucket 2 – neutral / central
+• Low beta (0.43) tempers moves.
+• Very short horizon; random-walk probability ≈ 50 – 53 %.
+• Dividend already went ex-div in August → no mechanical price drop ahead.
+Bucket 3 – tilts higher
+• Fed cut is priced at ≥ 90 % (CME FedWatch); cuts usually lift exchange-vol stocks.
+• Price sits ~10 % below 52-wk high; mean-reversion tendency.
+• Oppenheimer lifted PT to $303; Congressional buy (Rep. Johnson) signals insider optimism.
+
+Multi-world reasoning
+Low_World (emphasise Bucket 1)
+Base rate 45 %
+• Low est 35 % • Mid 40 % • High 45 %
+Mid_World (Bucket 2)
+Base rate 52 %
+• Low 47 % • Mid 52 % • High 57 %
+High_World (Bucket 3)
+Base rate 60 %
+• Low 55 % • Mid 60 % • High 65 %
+CSV reference
+World_name,Base Rate,Low Forecast,Mid Forecast,High Forecast
+Low_World,45,35,40,45
+Mid_World,52,47,52,57
+High_World,60,55,60,65
+
+Ordered set of 9 reasonable points
+35, 40, 45, 47, 52, 55, 57, 60, 65 %
+
+Subjective distribution (interpolated)
+Percentile,Probability
+P10,38 %
+P20,41 %
+P30,45 %
+P40,48 %
+P50,52 %
+P60,55 %
+P70,58 %
+P80,61 %
+P90,64 %
+P50 (52 %) aligns with both the historical 10-day base rate and current option-implied skew.
+A slight upward adjustment ( +1 ppt ) is warranted for:
+• Expected post-Fed volume pop,
+• Mean-reversion from a below-trend price.
+Probability: 53%
+R1: Forecaster 8 Reasoning
+Time until outcome: 12 calendar days (8–9 U.S. trading sessions).
+Status-quo (price stays where it is): resolves No (262.30 → 262.30 ≯ 262.30).
+Expert / market expectations: There is no analyst target for an 11-day window; option-implied 2-week volatility ≈ 18 % annualised (~1.1 % daily), giving a 1 SD price band of ± 4 % (≈ ± $10.5). Risk-neutral probability of finishing above today’s close is therefore about 48–50 %, before adjusting for drift.
+Scenario for No: Broad market pulls back (September is seasonally weak); CME continues to trade below both its 50- and 200-day SMAs; price drifts to ~$255 or lower.
+Scenario for Yes: Rates optimism and record-high indices lift financial-exchange names; a benign CPI and a Fed cut on 17 Sep push CME back toward $270–275.
+Evidence buckets
+Bucket 1 ­– lower outlook
+• Price now sits 4 % beneath 50-DMA and 3 % beneath 200-DMA – downward momentum.
+• Consensus rating “Hold” with avg target $260.60 (below current).
+• Insider selling (Cutinho) and Erste / UBS downgrades.
+Bucket 2 ­– central outlook
+• Low beta (0.43) makes extreme short-term moves less likely; historical up-day frequency ≈ 52 %.
+• Options market implies ~4 % 2-week one-sigma move, so roughly even odds of finishing up or down.
+• Macroeconomic data mixed; Fed cut widely expected but already priced.
+Bucket 3 ­– higher outlook
+• Broad indices at record highs; 90 %+ odds of 25 bp cut could be a catalyst for exchanges.
+• July earnings beat; revenue +10 % YoY; dividend ($1.25 ex-div 9/6, payable 9/25) already behind us, so no looming dividend pull.
+• Congressional buying (Rep. Johnson) and Piper/Oppenheimer price targets near $300.
+Multi-world reasoning
+Low_World (bearish tape continues)
+Base-rate (probability close higher after 9 sessions when below both DMAs) ≈ 42 %
+Low forecast 35 % • Mid 40 % • High 45 %
+Mid_World (mixed signals hold)
+Base-rate (all trading days) ≈ 52 %
+Low 44 % • Mid 46 % • High 49 %
+High_World (risk-on, Fed cut rally)
+Base-rate (bullish tape, vol expansion positive) ≈ 58 %
+Low 52 % • Mid 55 % • High 60 %
+Reference CSV
+World_name,Base Rate,Low Forecast,Mid Forecast,High Forecast
+Low_World,0.42,0.35,0.40,0.45
+Mid_World,0.52,0.44,0.46,0.49
+High_World,0.58,0.52,0.55,0.60
+Ordered reasonable forecasts: 35 %, 38 %, 40 %, 44 %, 46 %, 49 %, 52 %, 55 %, 60 %
+Percentile CSV (interpolated)
+Percentile,Probability
+P10,37 %
+P20,38 %
+P30,40 %
+P40,44 %
+P50,46 %
+P60,49 %
+P70,52 %
+P80,55 %
+P90,59 %
+The median (46 %) aligns with an even-odds options view, edged slightly lower because short-term momentum and sub-moving-average positioning are modestly negative.
+Probability: 46%

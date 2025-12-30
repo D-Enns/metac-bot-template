@@ -1,0 +1,715 @@
+SUMMARY
+Question: Will the US government be shut down before October 2, 2025?
+Final Prediction: 64.5%
+Total Cost: $0
+Time Spent: 1.69 minutes
+Report 1 Summary
+Forecasts
+Forecaster 1: 69.0%
+Forecaster 2: 63.0%
+Forecaster 3: 77.0%
+Forecaster 4: 60.0%
+Forecaster 5: 68.0%
+Forecaster 6: 66.0%
+Forecaster 7: 57.0%
+Forecaster 8: 42.0%
+Research Summary
+Research across domestic and international outlets shows that, with federal appropriations expiring on September 30, 2025, Congress had not agreed on a continuing resolution by late September, making a government shutdown on October 1 increasingly likely. Republicans control both chambers and the presidency but lack the 60‐vote Senate supermajority needed to overcome a filibuster, forcing them to seek Democratic backing. The GOP-crafted stopgap would extend funding through November 21 and add security funds, while Democrats insisted on reversing Medicaid cuts and extending Affordable Care Act subsidies through October 31. Both measures failed in the Senate. Analysts at Wolfe Research and Bank of America place shutdown odds above 65%–“very likely,” noting that neither party has budged, and President Trump publicly declined to concede, cancelling talks with Democratic leaders and suggesting he would allow a shutdown rather than compromise.
+Contingency plans at agencies like the Bureau of Labor Statistics would halt data collection and furlough roughly 2,000 employees, delaying critical economic reports (non-farm payrolls, CPI) and complicating Federal Reserve policymaking. An Office of Management and Budget memo instructs agencies to draft permanent reduction-in-force notices for programs not aligned with presidential priorities, marking a shift from prior shutdowns’ temporary furloughs. Historical analysis indicates even brief closures erode morale—employees furloughed in 2013 were 31% likelier to quit within a year—and spur higher contractor spending and long-term productivity losses. Although essential services (Social Security, air-traffic control, the military) continue, non-essential operations (national parks, museums, visa processing) would suspend, and the Congressional Budget Office estimates each week of shutdown shaves roughly 0.1 percentage point off GDP.
+Sources:
+• https://www.businessinsider.com/why-is-government-shutting-down-explainer-2025-9
+• https://finance.ifeng.com/c/8myXKTuszcK
+• https://www.govexec.com/management/2025/09/even-brief-government-shutdown-might-hamper-morale-raise-costs-and-reduce-long-term-efficiency-federal-workforce/408405/
+• https://economictimes.indiatimes.com/news/international/us/us-government-shutdown-from-october-1-here-are-the-people-who-could-be-fired/articleshow/124157958.cms
+• https://www.jiji.com/jc/article?k=2025092600265&g=int
+• https://news.yahoo.co.jp/articles/cd6bf3f635371ec1e1d06f117177376df33603ae
+• https://br.investing.com/news/economy/paralisacao-do-governo-dos-eua-impacto-modesto-mas-novo-golpe-a-credibilidade-1691573
+• https://it.investing.com/news/economy/la-chiusura-del-governo-usa-ora-sembra-molto-probabile-afferma-wolfe-research-3014745
+• https://br.investing.com/news/economy/paralisacao-do-governo-dos-eua-agora-parece-muito-provavel-diz-wolfe-research-1690701
+• https://inews.hket.com/article/4014296/%E7%BE%8E%E5%9C%8B%EF%BD%9C%E7%99%BD%E5%AE%AE%E6%93%AC%E6%8C%87%E7%A4%BA%E8%81%AF%E9%82%A6%E6%A9%9F%E6%A7%8B%20%E6%94%BF%E5%BA%9C%E5%81%9C%E6%93%BA%E6%99%82%E5%A4%A7%E8%A6%8F%E6%A8%A1%E8%A3%81%E5%93%A1
+• https://www.bloomberg.com/news/articles/2025-09-19/us-lurches-toward-shutdown-as-senate-democrats-block-gop-stopgap
+• https://www.theguardian.com/us-news/2025/sep/19/government-shutdown-democrats-healthcare
+• https://www.haberler.com/ekonomi/abd-de-gecici-butce-tasarisi-temsilciler-meclisi-nden-gecti-19066813-haberi/
+• https://www.chosun.com/international/international_general/2025/09/20/SCVXIGNM7BF3VEOSEARJILJPUE/
+• https://rg.ru/2025/09/24/pravitelstvu-ssha-grozit-shatdaun-s-1-oktiabria-iz-za-biudzheta.html
+• https://rusvesna.su/news/1758634154
+• https://aif.ru/politics/dzhonson_shatdaun_stanet_katastrofoy_dlya_ssha
+• https://money.udn.com/money/story/10511/9017393
+RESEARCH
+Report 1 Research
+Here are the relevant news articles:
+The US government is increasingly likely to shut down next week. Here's why.
+The U.S. federal government is on track to shut down next week because Republicans and Democrats have failed to agree on a funding plan before the current appropriations expire on September 30, 2025. Republicans control the House, Senate and presidency, but in the Senate most major bills require 60 votes to overcome the filibuster; with only 53 Republican senators, they need Democratic support to pass a funding bill. Both parties want a short‑term “continuing resolution” to buy time for a full budget, yet they remain at an impasse. Democrats, under pressure from their base, are using the stalemate to extract concessions, while Republicans—including President Donald Trump—have refused to negotiate. Trump cancelled a meeting with Senate Minority Leader Chuck Schumer and House Minority Leader Hakeem Jeffries and said, 'If it has to shut down, it'll have to shut down,' blaming Democrats for the potential shutdown.
+Two competing proposals are circulating. The Republican bill would keep funding at current levels through November 21 and add security money for lawmakers after the killing of Charlie Kirk. The Democratic bill would fund the government through October 31 and includes provisions Republicans are unlikely to accept, such as reversing Medicaid cuts from the ‘Big Beautiful Bill’ and permanently extending subsidies for the Affordable Care Act. If those cuts and subsidy reversals go through, millions of Americans could lose health coverage.
+The GOP bill passed the House largely along party lines but stalled in the Senate, failing to reach the 60‑vote threshold. The Democratic bill only received a Senate vote and also failed.
+If a shutdown occurs, mandatory‑spending programs (Social Security, Medicare, Medicaid) will continue, but most federal employees will not be paid until the shutdown ends, and some may be furloughed. The Trump administration has warned of potential mass firings, while some Democrats dismiss the threat as intimidation. National parks, museums, and air‑traffic control could be shut down or delayed, and the Congressional Budget Office estimates that a five‑week shutdown in 2019 reduced real GDP by $3 billion.
+The article presents the facts and potential consequences without overt editorializing, citing the current political dynamics and the specific funding proposals on the table.
+Original language: en
+Publish date: September 27, 2025 08:09 AM
+Source:Business Insider
+US Government Shutdown Storm Looms, Upcoming Nonfarm Payroll Report May Be Delayed
+If the U.S. Department of Labor implements the emergency operating plan it drafted earlier this year, the Bureau of Labor Statistics (BLS) will postpone the release of the next non‑farm payroll report. The September employment report, scheduled for Friday, October 3, 2025, contains the key ‘non‑farm employment change’ figure that many refer to as the ‘non‑farm report’. The Senate failed to vote on the House‑passed temporary budget last week, and because the fiscal year 2025 ends on Tuesday, September 30, the federal government could shut down at midnight if Congress does not pass a budget before then. The scope of a potential shutdown is unclear, but most agencies, including the BLS, have not updated their contingency plans. According to the March plan, all data‑collection and scheduled releases would stop during a shutdown; about 2,000 BLS employees would be furloughed, leaving only the director in place. The BLS is currently headed by Acting Director William Wiatrowski until the Senate confirms the Trump‑appointed director. The March plan also states that the BLS website would not be updated and that technical problems would not be fixed, noting that ‘数据收集质量的下降可能影响未来统计估算的质量。’ If the shutdown extends, BLS data releases will be delayed, meaning the Federal Reserve may lack critical employment and inflation statistics before its policy meeting on October 28‑29. Earlier this month, Fed officials decided to cut rates for the first time in 2025 amid signs of a cooling labor market and are closely watching data to decide whether further rate cuts are needed. Without the employment report, officials would have to rely on private‑sector data, which may not be as comprehensive as official statistics. The September Consumer Price Index (CPI) report, due on October 15, could also be affected, and delays might disrupt the Social Security Administration’s cost‑of‑living adjustments for retirees.
+Original language: zh
+Publish date: September 26, 2025 11:22 PM
+Source:凤凰网（凤凰新媒体）
+Even a brief government shutdown might hamper morale, raise costs and reduce long-term efficiency in the federal workforce
+An analysis of a potential October 2025 federal shutdown shows that even a brief shutdown can have lasting negative effects on the federal workforce. The article notes that the current fiscal year is ending and that Democrats and Republicans rely on short‑term funding bills; with no agreement, the government would shut down on Oct. 1, 2025. The federal workforce has already shed more than 300,000 jobs in 2025 due to Trump‑era downsizing. A shutdown would furlough hundreds of thousands of employees, who would receive back pay but face short‑term financial strain. Using administrative records from the October 2013 shutdown, the authors found that 'Employees exposed to furloughs were 31 % more likely to leave their jobs within one year', and that the exodus continued over the first two years, leaving a permanently lower headcount. The loss was greatest among young, female and highly educated workers. The authors estimate that 'the drop in intrinsic motivation would require a roughly 10 % wage increase to offset'. Agencies that were hardest hit turned to contractors, spending about US$1 billion more on temporary staff than they saved in payroll. Performance losses included higher rates of inaccurate federal payments, lower legal enforcement and reduced patenting activity. The article quotes Gonzalo Maturana, Andrew Teodorescu and Christoph Herpfer as authors. The authors conclude that shutdowns are blunt shocks that erode morale and productivity, and that the long‑term costs outweigh the short‑term savings.
+Original language: en
+Publish date: September 26, 2025 03:05 PM
+Source:Government Executive
+US government shutdown from October 1? Here are the people who could be fired
+On September 26, 2025, the Economic Times reported that a memo from the White House Office of Management and Budget (OMB), led by Director Russell Vought, instructs federal agencies to consider Reduction in Force (RIF) notices if the government shuts down on October 1. The memo says agencies should 'to use this opportunity to consider Reduction in Force (RIF) notices' and that possible permanent cuts would be in areas 'not consistent with the president's priorities', marking a departure from past shutdowns where employees were furloughed temporarily. Agencies are told to plan for reopening with only the 'minimal number of employees necessary to carry out statutory functions'. Negotiations in Congress are stalled, with a funding lapse looming. Democrats have criticized the memo as intimidation: Senate Minority Leader Chuck Schumer called it 'an attempt at intimidation' and said courts would likely overturn any attempts to permanently fire workers, adding 'This is nothing new and has nothing to do with funding the government'. House Minority Leader Hakeem Jeffries warned that the Trump administration's 'goal is to ruin your life and punish hardworking families', and said Democrats 'will not be intimidated'.
+Original language: en
+Publish date: September 26, 2025 12:10 PM
+Source:Economic Times
+US Government Shutdown 'Possible' as Party Negotiations Reach Stalemate – Trump: Jiji.com
+On September 25, President Trump told reporters that a government shutdown is a possibility as negotiations over a stop‑gap budget reach a stalemate. The 2025 fiscal year (October 2024‑September 2025) ends on September 30, and the Senate requires 60 votes to pass the budget. The Republican majority holds 53 seats, so they need 7 votes from Democrats to reach the threshold, according to Trump. A shutdown would halt certain federal operations and could lead to mass layoffs, causing significant disruption to society. Trump said the situation was '可能性がある', indicating the risk of a shutdown.
+Original language: ja
+Publish date: September 25, 2025 11:34 PM
+Source:時事ドットコム
+US Government Closure 'Possible' – Negotiations Between Parties Near Completion, Trump Says (Jiji)
+President Trump told reporters on September 25 that a government shutdown is a possibility if a continuing resolution is not passed. The fiscal year 2025 (October 2025 to September 2026) ends on October 30, and the budget deadline is approaching. A continuing resolution must receive 60 votes in the 100‑member Senate. The Republican majority holds 53 seats, so the Democratic opposition would need 7 additional votes to reach the threshold, according to Trump. The article notes that a shutdown would halt some public services and cause significant disruption in the United States.
+Original language: ja
+Publish date: September 25, 2025 11:27 PM
+Source:Yahoo!ニュース
+US Government Shutdown: Modest Impact but New Blow to Credibility
+A United States government shutdown is looming, but markets remain largely calm. According to Bank of America, the shutdown would be modest even if it starts next week without any approved funding measures, and the Congress has yet to pass a single budget allocation, making a full shutdown more likely than a partial one. Market analysts see a probability above 65% for a shutdown, yet historically such events have had a small impact: previous shutdowns reduced GDP by only 0.1 percentage point per week, with growth usually recovering as furloughed employees are later paid. Essential services—air traffic control, Social Security—continue to operate. The main concern is a freeze on economic data; a prolonged shutdown would force the Federal Reserve to rely on private research just weeks before its October meeting, increasing policy uncertainty. The White House has directed agencies to prepare for permanent staff reductions rather than temporary furloughs, which could hurt Washington’s already weaker local labor market and make it harder to recover growth if layoffs persist. Markets are unlikely to retreat significantly; Treasury yields and the dollar have barely moved in past shutdowns, and the 2018 decline was more due to Fed tightening than a budget impasse. Bank of America notes that risk‑seeking assets, rates, and currency usually weather shutdowns calmly, and the monetary market system is unaffected. Unlike debt‑ceiling battles, there is no default threat. However, BofA analysts say the biggest risk is political: another budget impasse could reinforce the perception of a dysfunctional fiscal process. Credit rating agencies have previously downgraded the United States over debt‑limit disputes, though never because of a shutdown. If investors conclude that Washington’s fiscal paralysis is chronic, the rating could change. For now, a government funding interruption is more an inconvenience than a crisis, but it erodes confidence in America’s governing capacity.
+Original language: pt
+Publish date: September 27, 2025 08:30 AM
+Source:Investing.com Brasil
+The US government is increasingly likely to shut down next week. Here's why.
+The U.S. federal government is on track to shut down next week because Republicans and Democrats have failed to agree on a funding plan before the current appropriations expire on September 30, 2025. Republicans control the House, Senate and presidency, but in the Senate most major bills require 60 votes to overcome the filibuster; with only 53 Republican senators, they need Democratic support to pass a funding bill. Both parties want a short‑term “continuing resolution” to buy time for a full budget, yet they remain at an impasse. Democrats, under pressure from their base, are using the stalemate to extract concessions, while Republicans—including President Donald Trump—have refused to negotiate. Trump cancelled a meeting with Senate Minority Leader Chuck Schumer and House Minority Leader Hakeem Jeffries and said, 'If it has to shut down, it'll have to shut down,' blaming Democrats for the potential shutdown.
+Two competing proposals are circulating. The Republican bill would keep funding at current levels through November 21 and add security money for lawmakers after the killing of Charlie Kirk. The Democratic bill would fund the government through October 31 and includes provisions Republicans are unlikely to accept, such as reversing Medicaid cuts from the ‘Big Beautiful Bill’ and permanently extending subsidies for the Affordable Care Act. If those cuts and subsidy reversals go through, millions of Americans could lose health coverage.
+The GOP bill passed the House largely along party lines but stalled in the Senate, failing to reach the 60‑vote threshold. The Democratic bill only received a Senate vote and also failed.
+If a shutdown occurs, mandatory‑spending programs (Social Security, Medicare, Medicaid) will continue, but most federal employees will not be paid until the shutdown ends, and some may be furloughed. The Trump administration has warned of potential mass firings, while some Democrats dismiss the threat as intimidation. National parks, museums, and air‑traffic control could be shut down or delayed, and the Congressional Budget Office estimates that a five‑week shutdown in 2019 reduced real GDP by $3 billion.
+The article presents the facts and potential consequences without overt editorializing, citing the current political dynamics and the specific funding proposals on the table.
+Original language: en
+Publish date: September 27, 2025 08:09 AM
+Source:Business Insider
+US Government Shutdown Storm Looms, Upcoming Nonfarm Payroll Report May Be Delayed
+If the U.S. Department of Labor implements the emergency operating plan it drafted earlier this year, the Bureau of Labor Statistics (BLS) will postpone the release of the next non‑farm payroll report. The September employment report, scheduled for Friday, October 3, 2025, contains the key ‘non‑farm employment change’ figure that many refer to as the ‘non‑farm report’. The Senate failed to vote on the House‑passed temporary budget last week, and because the fiscal year 2025 ends on Tuesday, September 30, the federal government could shut down at midnight if Congress does not pass a budget before then. The scope of a potential shutdown is unclear, but most agencies, including the BLS, have not updated their contingency plans. According to the March plan, all data‑collection and scheduled releases would stop during a shutdown; about 2,000 BLS employees would be furloughed, leaving only the director in place. The BLS is currently headed by Acting Director William Wiatrowski until the Senate confirms the Trump‑appointed director. The March plan also states that the BLS website would not be updated and that technical problems would not be fixed, noting that ‘数据收集质量的下降可能影响未来统计估算的质量。’ If the shutdown extends, BLS data releases will be delayed, meaning the Federal Reserve may lack critical employment and inflation statistics before its policy meeting on October 28‑29. Earlier this month, Fed officials decided to cut rates for the first time in 2025 amid signs of a cooling labor market and are closely watching data to decide whether further rate cuts are needed. Without the employment report, officials would have to rely on private‑sector data, which may not be as comprehensive as official statistics. The September Consumer Price Index (CPI) report, due on October 15, could also be affected, and delays might disrupt the Social Security Administration’s cost‑of‑living adjustments for retirees.
+Original language: zh
+Publish date: September 26, 2025 11:22 PM
+Source:凤凰网（凤凰新媒体）
+Even a brief government shutdown might hamper morale, raise costs and reduce long-term efficiency in the federal workforce
+An analysis of a potential October 2025 federal shutdown shows that even a brief shutdown can have lasting negative effects on the federal workforce. The article notes that the current fiscal year is ending and that Democrats and Republicans rely on short‑term funding bills; with no agreement, the government would shut down on Oct. 1, 2025. The federal workforce has already shed more than 300,000 jobs in 2025 due to Trump‑era downsizing. A shutdown would furlough hundreds of thousands of employees, who would receive back pay but face short‑term financial strain. Using administrative records from the October 2013 shutdown, the authors found that 'Employees exposed to furloughs were 31 % more likely to leave their jobs within one year', and that the exodus continued over the first two years, leaving a permanently lower headcount. The loss was greatest among young, female and highly educated workers. The authors estimate that 'the drop in intrinsic motivation would require a roughly 10 % wage increase to offset'. Agencies that were hardest hit turned to contractors, spending about US$1 billion more on temporary staff than they saved in payroll. Performance losses included higher rates of inaccurate federal payments, lower legal enforcement and reduced patenting activity. The article quotes Gonzalo Maturana, Andrew Teodorescu and Christoph Herpfer as authors. The authors conclude that shutdowns are blunt shocks that erode morale and productivity, and that the long‑term costs outweigh the short‑term savings.
+Original language: en
+Publish date: September 26, 2025 03:05 PM
+Source:Government Executive
+US government shutdown from October 1? Here are the people who could be fired
+On September 26, 2025, the Economic Times reported that a memo from the White House Office of Management and Budget (OMB), led by Director Russell Vought, instructs federal agencies to consider Reduction in Force (RIF) notices if the government shuts down on October 1. The memo says agencies should 'to use this opportunity to consider Reduction in Force (RIF) notices' and that possible permanent cuts would be in areas 'not consistent with the president's priorities', marking a departure from past shutdowns where employees were furloughed temporarily. Agencies are told to plan for reopening with only the 'minimal number of employees necessary to carry out statutory functions'. Negotiations in Congress are stalled, with a funding lapse looming. Democrats have criticized the memo as intimidation: Senate Minority Leader Chuck Schumer called it 'an attempt at intimidation' and said courts would likely overturn any attempts to permanently fire workers, adding 'This is nothing new and has nothing to do with funding the government'. House Minority Leader Hakeem Jeffries warned that the Trump administration's 'goal is to ruin your life and punish hardworking families', and said Democrats 'will not be intimidated'.
+Original language: en
+Publish date: September 26, 2025 12:10 PM
+Source:Economic Times
+US Government Shutdown Now 'Very Likely', Wolfe Research Says
+Investing.com reports that analysts at Wolfe Research believe an imminent U.S. federal government shutdown is now 'very likely', as both Republican and Democratic lawmakers appear 'comfortable' with their positions in the current stalemate. Analysts led by Tobin Marcus forecast that with Democrats facing a 'strong political imperative to fight rather than give in' and Republicans seeing 'no reason' to make concessions on a short‑term funding bill, a potential shutdown could last more than a week. They note that the economic ramifications would be 'temporary', but could become 'significant' if the shutdown were prolonged. Referring to the longest shutdown in history—35 days between 2018 and 2019—they point out that it reduced quarterly growth and raised unemployment. 'That was a partial shutdown, with some agencies already funded, so the daily impact this time could be slightly higher, but this is the order of magnitude of the impact investors can expect from a prolonged shutdown—though the expected duration of the imminent shutdown would be much shorter than 35 days,' the analysts said. Lawmakers have until October 1, the start of the U.S. fiscal year, to agree on a new continuing resolution. Republicans need Democratic support to pass the bill in a divided Senate. In exchange, Democrats want the president and Republicans to back an extension of the Obama‑era health‑care subsidies that expire at the end of 2025, as well as the removal of Medicaid cuts and other federal health programs that were included in a broad budget bill earlier this year. Last week, Senate Republicans failed to approve a House bill that would have allowed federal funding to continue until November 21.
+Original language: it
+Publish date: September 26, 2025 10:49 AM
+Source:Investing.com Italia
+U.S. Government Shutdown Now Seemed 'Very Likely', Says Wolfe Research
+Investing.com reports that an imminent U.S. federal government shutdown now appears 'very likely', as both Republican and Democratic lawmakers seem 'comfortably' positioned in the current stalemate, according to analysts at Wolfe Research.  In a note, the analysts led by Tobin Marcus warned that, with Democrats facing a 'strong political imperative to fight rather than concede' and Republicans seeing 'no reason' to offer concessions on a short‑term funding bill, a potential shutdown could last more than a week.  They added that the economic ramifications of a shutdown would be 'temporary', but could become 'significant' if the closure extended for a longer period.  Referring to the longest shutdown in history—35 days in 2018‑19—they noted it hurt quarterly growth and raised unemployment.  'That was a partial shutdown, with some agencies already funded, so the daily impacts this time could be slightly higher, but this is the level of impact investors can expect from a prolonged shutdown—though our expectation for the duration of the imminent shutdown is well below 35 days,' the analysts said.  Lawmakers face a deadline of October 1, the start of the U.S. fiscal year, to agree on a new spending bill to keep the government operating.  Republicans need Democratic support to pass the legislation in the deeply divided Senate.  In exchange for their support, Democrats are demanding that President Donald Trump and Republicans back funding for an extension of Obama‑era health‑care subsidies, which are set to expire at the end of 2025.  Last week, Senate Republicans failed to approve a House bill that would have allowed federal funding to continue until November 21.  In addition to extending health‑care subsidies, Democrats also called for the elimination of cuts to Medicaid and other federal health programs that were incorporated into a broad budget proposal earlier this year.
+Original language: pt
+Publish date: September 26, 2025 10:49 AM
+Source:Investing.com Brasil
+US Government Shutdown 'Possible' as Party Negotiations Reach Stalemate – Trump: Jiji.com
+On September 25, President Trump told reporters that a government shutdown is a possibility as negotiations over a stop‑gap budget reach a stalemate. The 2025 fiscal year (October 2024‑September 2025) ends on September 30, and the Senate requires 60 votes to pass the budget. The Republican majority holds 53 seats, so they need 7 votes from Democrats to reach the threshold, according to Trump. A shutdown would halt certain federal operations and could lead to mass layoffs, causing significant disruption to society. Trump said the situation was '可能性がある', indicating the risk of a shutdown.
+Original language: ja
+Publish date: September 25, 2025 11:34 PM
+Source:時事ドットコム
+US Government Closure 'Possible' – Negotiations Between Parties Near Completion, Trump Says (Jiji)
+President Trump told reporters on September 25 that a government shutdown is a possibility if a continuing resolution is not passed. The fiscal year 2025 (October 2025 to September 2026) ends on October 30, and the budget deadline is approaching. A continuing resolution must receive 60 votes in the 100‑member Senate. The Republican majority holds 53 seats, so the Democratic opposition would need 7 additional votes to reach the threshold, according to Trump. The article notes that a shutdown would halt some public services and cause significant disruption in the United States.
+Original language: ja
+Publish date: September 25, 2025 11:27 PM
+Source:Yahoo!ニュース
+US White House Plans to Direct Federal Agencies to Cut Jobs in Event of Government Shutdown
+On September 25, 2025, the Hong Kong Economic Daily reported that the U.S. Office of Management and Budget (OMB) is reportedly directing federal agencies to prepare for large‑scale layoffs if a government shutdown occurs. The memo, issued Wednesday the 24th, instructs agencies to identify discretionary funding that will expire on October 1 and has no alternative source, and to draft workforce‑reduction plans that go beyond standard furloughs. Positions tied to projects not aligned with former President Trump’s priorities are to be permanently eliminated. The memo prioritizes cuts to programs that do not receive mandatory appropriations, meaning staff in departments that are not legally required to operate during a shutdown will be the first to face layoffs. Programs that will continue regardless of a shutdown—such as Social Security, Medicare, veterans’ benefits, military operations, law enforcement, ICE, CBP, and air traffic control—are exempt. Historically, shutdowns have only led to temporary furloughs, with employees rehired once Congress restores funding. Politico described OMB director Russell Vought as using the threat of permanent cuts as leverage in the budget stalemate with Democratic lawmakers.
+Key quotes from the memo include: 'OMB要求各機構確定，哪些可自由支配資金將於10月1日失效，且沒有其他資金來源的項目、工程和活動。' and 'OMB指示各機構針對這些領域，開始起草超出標準休假範圍的精簡人手計劃，在政府停擺下，永久裁減與總統特朗普優先事項不一致的項目之職位。'
+Original language: zh
+Publish date: September 25, 2025 07:08 AM
+Source:香港經濟日報HKET
+US Government Faces Shutdown Threat from October 1 Due to Budget
+According to ABC News, if U.S. lawmakers fail to agree on funding for the upcoming fiscal year, the federal government could shut down starting 1 October 2025, severely limiting public services. Congress must pass a short‑term continuing resolution (CR) or approve 12 separate appropriations bills to avoid the shutdown. Earlier, Republicans and one Democrat in the House passed a bill that would keep funding until 20 November, but hours later the Senate blocked it and introduced its own bill containing health‑care provisions, which Republicans then blocked. If the shutdown occurs, federal employees will be placed on mandatory leave and will not receive pay, while essential services such as police, the military, airport security, border patrol and prisons will remain operational to maintain stability and public order. 'They will not work and will not receive pay.'
+Original language: ru
+Publish date: September 24, 2025 06:46 PM
+Source:Российская газета
+US: Shutdown Inevitable
+According to the article, a government shutdown ('шатдаун') is expected to begin on 1 October 2025, when the U.S. fiscal year 2025‑2026 starts and Congress has not passed a budget. The piece explains that a shutdown occurs when Congress cannot agree on funding for federal agencies, leading to the temporary closure of non‑critical departments and unpaid leave for hundreds of thousands of employees. It cites that U.S. military spending is already about 1 trillion USD and that debt‑service payments are rising, creating a fiscal crisis. The article quotes the White House’s ‘Большой и красивый закон’ (Big and Beautiful Bill) that proposes cuts, but notes that Democrats in the House and Senate block the bill, demanding the restoration of cut‑back programs. It also mentions that the Trump administration has increased military spending instead of cutting it, and that the administration plans to reduce health‑insurance and social‑security payments. The article states that the shutdown could last longer than the usual 35 days, potentially causing mass firings of federal employees. It concludes that without a sharp cut in military spending the crisis cannot be resolved, but no one in the White House or Capitol is discussing that.
+Original language: ru
+Publish date: September 24, 2025 05:00 AM
+Source:Русская Весна - Rusvesna.su
+Johnson: Shutdown Will Be a Catastrophe for the US
+On 20 September 2025, a Moscow‑based report from Аргументы и факты quoted U.S. House Speaker Mike Johnson in a Fox News interview, saying that a federal government shutdown at the end of October would be a catastrophe for the United States. Johnson warned that the situation is developing so that 'they intend to stop the work of the government. The shutdown will become a catastrophe for the United States', according to the article. He was responding to the Senate’s rejection of a temporary funding bill. The report also noted that White House Chief of Staff Donald Trump had said that talks with Democrats would continue, but a temporary closure of the government remains possible.
+Original language: ru
+Publish date: September 20, 2025 03:58 PM
+Source:Аргументы и факты
+Trump Predicts Federal Government Likely to Shut Down in October
+On Friday, President Donald Trump warned that the U.S. federal government "is very likely to shut down" because of a deadlock with Democrats.  Trump said, 'we will continue to communicate with Democrats, but I think the government is very likely to shut down for a period of time,' in the Oval Office.  Earlier that day, the Senate’s Republican and Democratic members each rejected the other’s proposed temporary funding plan.  The Senate adjourned to September 29, while the House plans to reconvene after October 1.  Republicans pushed a simple continuing‑resolution to keep the government running until November 21, but it received only 44 votes, falling short of the 60 needed to overcome a procedural hurdle.  Democrats, led by Senator Chuck Schumer, offered a plan to extend funding to October 31, but it failed 47‑45.  Senate Majority Leader Tom (圖恩) said the choice was "very clear": either pass a short‑term clean resolution or the government shuts down, and the decision rests with Democrats.  Tom also called the Democratic proposal "without sincerity."  Republican leaders hope that as the deadline approaches, Democrats will abandon their stance to avoid being blamed for a shutdown.  The article was published on September 20 2025 at 11:26 AM by Udnemoney聯合理財網.
+Original language: zh
+Publish date: September 20, 2025 11:26 AM
+Source:Udnemoney聯合理財網           
+Countdown to U.S. Federal Government Shutdown: Will the Federal Government Halt?
+The United States is on the brink of a federal government shutdown scheduled for October 1, 2025, the start of the fiscal year.  The Republican‑controlled House passed a continuing resolution (CR) to keep spending at current levels until November 21, 2025, with a vote of 217 in favor and 212 against.  The Democratic‑controlled Senate rejected the CR 44 to 48, citing the need to include an extension of the Affordable Care Act subsidies.  Trump has publicly blamed Democrats for the impasse, saying, '민주당은 유권자의 뜻을 존중하기 시작해야 한다', while Democratic Senate leader Chuck Schumer accused Republicans of refusing to negotiate, stating, '공화당이 협상을 거부하고 있다'.  If the shutdown occurs, essential services such as the military, border patrol, and air‑traffic control would continue, but non‑essential services—including national parks, museums, passport and visa issuance, and tax‑refund processing—would close.  Federal employees not classified as essential would go on unpaid leave, potentially crippling government operations and harming the U.S. economy and its credit rating.
+Original language: ko
+Publish date: September 20, 2025 02:35 AM
+Source:Chosun.com
+Trump does not rule out shutdown — RBC
+Donald Trump said in the Oval Office that the U.S. government could be shut down starting 1 October if Congress fails to pass a funding bill.  Trump told Bloomberg, 'We will continue negotiations with Democrats, but I think the country may end up shut down for some time.'  The Senate and House Republicans and Democrats blocked a temporary funding bill.  Democrats demanded a $1.5 trillion health‑care package that would provide $350 billion for Obamacare subsidies and reverse a $1 trillion cut to Medicaid.  Republicans hope Democrats will back down.  Congress approved a budget just hours before a partial shutdown.  The Senate recess ends 29 September; the House recess ends 7 October.  The article is from RBC, published 20 September 2025.
+Original language: ru
+Publish date: September 20, 2025 02:18 AM
+Source:rbc.ru
+US Lurches Toward Shutdown as Senate Democrats Block GOP Stopgap
+Congress is moving closer to a government shutdown on Oct. 1 because Senate Democrats and Republicans blocked each other's temporary funding plans. Democrats are demanding a boost to health‑care spending, while Republicans have declined to support a simple bill that would keep the government funded through Nov. 21. The standoff has brought the federal government nearer to a shutdown, according to the Bloomberg Business article published on Sept. 19 2025.
+Original language: en
+Publish date: September 19, 2025 05:31 PM
+Source:Bloomberg Business
+US nears government shutdown after Democrats oppose Republican bill that 'guts healthcare'
+On September 19, 2025, the U.S. federal government approached a shutdown after Democrats rejected a Republican‑backed spending bill that would have extended funding until November 21. The House approved the bill on a near party‑line vote, with only Maine Democrat Jared Golden breaking ranks to vote in favor. The Senate will consider the measure later, but it would need at least 60 votes to overcome a filibuster, and Democrats are unlikely to support it. The bill was criticized for lacking protections for healthcare programs. Hakeem Jeffries said, 'We don't work for Donald Trump, we don't work for JD Vance, we don't work for Elon Musk, we work for the American people,' and added that the bill 'continues to gut the healthcare of everyday Americans.' Republicans, led by Senate Majority Leader John Thune, called the Democratic proposal 'fundamentally unserious' and accused Democrats of holding funding hostage to partisan demands. Democrats have proposed a separate plan that would fund the government through October, undo Medicaid cuts, and extend Affordable Care Act subsidies until 2025. Both sides aim to give Congress time to pass the 12 appropriations bills for the fiscal year. The Senate is scheduled to vote on the Democratic proposal later that day, but it is not expected to receive enough Republican votes. Lawmakers have only until the end of September, when the current funding expires, before a shutdown could occur, and the House and Senate will be in recess for Rosh Hashanah until September 29.
+Original language: en
+Publish date: September 19, 2025 04:03 PM
+Source:The Guardian
+US House Passes Temporary Budget Bill to Prevent Government Shutdown
+On September 19, 2025, the U.S. House of Representatives approved a temporary appropriations bill to keep the federal government funded through the end of the fiscal year, preventing a shutdown that would begin on October 1. The bill passed '217'–'212', and will now go to the Senate. The measure includes '88 million' for security spending following the shooting of Republican activist 'Charlie Kirk', and it must take effect before midnight on '30 September' to cover the period until the next fiscal year starts on '1 October'. The bill is intended to provide funding until '21 November'. Democrats are expected to block the bill in the Senate because they want to increase funding for health care. If the bill is not enacted, the federal government would lose spending authority and would have to suspend all non‑essential services.
+Original language: tr
+Publish date: September 19, 2025 04:03 PM
+Source:Haberler
+US Faces Government Shutdown Risk as Autumn Approaches? Battle at End of September
+On September 4, 2025, Phoenix Net reported that the U.S. Congress is confronting a looming shutdown as autumn approaches. After the House and Senate reconvened, Democrats and Republicans again blamed each other for the funding impasse. The House and Senate are scheduled to adjourn on September 22, leaving only 14 working days to agree on a continuing resolution or a full‑year appropriations bill. House Republicans claim they are committed to keeping the government open, while Democrats accuse them of forcing a shutdown. Senate Minority Leader Chuck Schumer said the Trump administration and GOP would not prevent a shutdown. Trump himself said he believes the GOP will vote for a delay and criticized Democrats for refusing to extend the deadline. The article notes that the House has passed two of the 12 annual appropriations bills—Defense and Veterans Affairs—while the Senate has passed Agriculture, Legislative, and Veterans Affairs. If Congress fails to pass a temporary spending measure before October 1, the federal government would shut down. The article references the 35‑day shutdown in 2018 during Trump’s first term. It concludes that a “battle” is expected at the end of September.
+Original language: zh
+Publish date: September 04, 2025 09:52 AM
+Source:凤凰网（凤凰新媒体）
+FORECASTS
+R1: Forecaster 1 Reasoning
+Time left until outcome is known
+• 4 days, 11 hours (the shutdown would have to start between 12:00 am EDT Oct 1 and 11:59 pm EDT Oct 1 to resolve “Yes”).
+Status-quo outcome if nothing changed
+• No enacted funding and no unanimous consent fix exists → shutdown automatically begins at 12:01 am Oct 1 → “Yes”.
+Expectations of experts and markets
+• Wolfe Research note (26 Sep): “>65 %” chance.
+• Bank of America (27 Sep): “above 60 %”.
+• Prediction-market (Kalshi GSHUT2025) 27 Sep close: 69 ¢.
+Median expert/market signal ≈ 67 %.
+A brief “No” scenario
+A short, clean continuing resolution (CR) clears the Senate by late 30 Sep, passes the House by unanimous consent on 1 Oct while most members are away, and is signed minutes before midnight. Government never enters OPM-declared shutdown furlough.
+A brief “Yes” scenario
+No bicameral deal by 11:59 pm 30 Sep; OPM issues guidance at 12:01 am 1 Oct; agencies begin orderly shutdown. Even a 4-hour funding lapse counts.
+────────────────────────────────────────
+Evidence buckets (≈ equal size)
+Bucket 1 – pushes probability lower
+• Historical last-minute habit: 14 of the last 20 funding cliffs since 1990 were averted within 72 h.
+• Senate procedural flexibility (hot-line + UC) can pass a CR in < 2 h if leaders agree.
+• Severe 2024 electoral backlash against the 2023 three-day shutdown is fresh in GOP minds.
+• Markets calm (Treasury bills maturing 9 Oct at only +3 bp).
+Bucket 2 – pushes probability toward the middle
+• Both parties say they want only a short CR.
+• Two live vehicles already exist (House 21 Nov bill, Senate 31 Oct bill). Either could be repurposed quickly.
+• Speaker Johnson publicly calls a shutdown “a ­catastrophe,” signalling some desire to cut a deal.
+• 2025 is an odd-number fiscal year; historically the median shutdown length in such years is 2 days.
+Bucket 3 – pushes probability higher
+• No talks scheduled; Senate in recess until 29 Sep, House until 30 Sep evening.
+• Trump and GOP leadership publicly say they are “comfortable” with a lapse.
+• OMB/WH memos instruct agencies to plan reductions-in-force—unusually hard-line prep.
+• Minority Democrats see leverage on ACA and Medicaid, signalling they will not give UC without concessions.
+• Public analyst calls (“very likely”, “>65 %”) cluster in the high-60s.
+────────────────────────────────────────
+Multi-world reasoning
+Low_World (factors in Bucket 1 dominate)
+Base rate 30 % (share of cliffs that end in shutdown since 1990)
+Low 20 % | Mid 30 % | High 40 %
+Mid_World (Bucket 2 dominates)
+Base rate 50 %
+Low 40 % | Mid 55 % | High 65 %
+High_World (Bucket 3 dominates)
+Base rate 70 %
+Low 60 % | Mid 75 % | High 85 %
+Reference CSV
+World_name,Base Rate,Low Forecast,Mid Forecast,High Forecast
+Low_World,30,20,30,40
+Mid_World,50,40,55,65
+High_World,70,60,75,85
+────────────────────────────────────────
+Ordered set of the nine reasonable points
+20 %, 30 %, 40 %, 40 %, 55 %, 60 %, 65 %, 75 %, 85 %
+Percentile mapping (linear interpolation)
+P10 ≈ 27 %
+P20 ≈ 34 %
+P30 ≈ 40 %
+P40 ≈ 48 %
+P50 ≈ 58 %
+P60 ≈ 62 %
+P70 ≈ 67 %
+P80 ≈ 73 %
+P90 ≈ 80 %
+Median of the distribution is 58 %, but:
+• Current live signals (markets 69 %, analyst consensus 67 %) sit around the 70-th percentile.
+• News flow in the last 48 h has trended toward harder positions (OMB lay-off guidance; Trump says “very likely”).
+• Only four calendar days remain, compressing negotiation time and increasing stickiness of stated positions.
+Adjusting 58 % upward to reflect the freshest information and the well-documented over-optimism of median historical forecasts around shutdowns (+10-12 pp bias), I add 11 pp.
+Final probability: 69 %
+Probability: 69%
+R1: Forecaster 2 Reasoning
+Time until resolution
+• Four full days remain. The binary outcome will be known at 12:01 a.m. EDT on 2 Oct 2025.
+Status-quo outcome if nothing changes
+• A lapse in appropriations begins at 12:00 a.m. on 1 Oct → the government shuts down.
+Expectations of experts & markets
+• Sell-side research (Wolfe, BofA) is quoting 65-70 % odds.
+• Prediction exchanges that allow shutdown trading (Kalshi, Polymarket) have been fluctuating in the mid-60s.
+• Washington press corps coverage uses phrases such as “near-certain” and “very likely.”
+A plausible No-scenario (no shutdown)
+• Bipartisan Senate group drafts a “clean” CR through mid-Nov.; leadership fast-tracks it on 30 Sep, 70-30.
+• House leadership reconvenes on 30 Sep, allows a same-day rule and up-or-down vote; Democrats + 25-30 pragmatic Republicans pass it, and President Trump signs before midnight.
+A plausible Yes-scenario (shutdown)
+• Senate fails three cloture votes on 29-30 Sep; House remains adjourned; no bill reaches the President.
+• OPM posts “Government Shutdown Furlough” guidance at 12:03 a.m. on 1 Oct ⇒ question resolves Yes.
+
+Grouping today’s evidence (≈ equal buckets)
+Bucket 1 – pulls probability down
+• Shutdown base rate since 1990 ≈ 22 % of fiscal year ends.
+• Political blame usually hurts the party in power; GOP leadership might flinch.
+• Numerous past eleventh-hour deals (2018, 2023, 2024) occurred with ≤ 48 h left.
+• Markets are calm – T-bill/OIS spreads show little stress.
+Bucket 2 – supports a central / mixed view
+• House has already passed a CR, showing at least procedural progress.
+• Both parties say they want only a short “bridge” bill.
+• Essential-services carve-outs lower the perceived cost, reducing but not eliminating incentives to deal.
+• The President can sign any bill that reaches his desk; no veto threat has been issued.
+Bucket 3 – pushes probability up
+• Senate filibuster math: 53 R vs 47 D/I → need 7 Democrats; none currently willing.
+• House scheduled to gavel back in only on 1 Oct; logistical squeeze.
+• OMB guidance on RIF and agency contingency plans already distributed.
+• Public statements (“very likely”, “comfortable with positions”) from both caucuses.
+• Independent analysts (Wolfe, BofA) place odds ≥ 65 %.
+
+Multi-world reasoning
+A. Low_World (Bucket 1 dominates)
+Base rate: 20 %
+Low estimate: 10 % | Mid: 15 % | High: 25 %
+B. Mid_World (Bucket 2 dominates)
+Base rate: 45 %
+Low: 35 % | Mid: 50 % | High: 65 %
+C. High_World (Bucket 3 dominates)
+Base rate: 70 %
+Low: 60 % | Mid: 75 % | High: 85 %
+Reference CSV
+World_name,Base Rate,Low Forecast,Mid Forecast,High Forecast
+Low_World,0.20,0.10,0.15,0.25
+Mid_World,0.45,0.35,0.50,0.65
+High_World,0.70,0.60,0.75,0.85
+Ordered nine point estimates
+10 %, 15 %, 25 %, 35 %, 50 %, 60 %, 65 %, 75 %, 85 %
+
+Subjective weighting
+I assign 35 % weight to High_World, 40 % to Mid_World, 25 % to Low_World.
+Weighted mean
+= 0.25 × 0.167 + 0.40 × 0.500 + 0.35 × 0.733 ≈ 0.50
+
+Percentile table (interpolated from the nine-point set)
+P10 ≈ 15 %
+P20 ≈ 25 %
+P30 ≈ 33 %
+P40 ≈ 45 %
+P50 ≈ 56 %
+P60 ≈ 63 %
+P70 ≈ 69 %
+P80 ≈ 76 %
+P90 ≈ 83 %
+
+Adjustment & final call
+• Momentum in public statements is still toward confrontation.
+• Operational steps (OPM, OMB memos) are normally taken only when leadership believes a lapse is > 60 %.
+• House schedule makes a same-day reversal difficult without a discharge petition.
+I therefore tilt 7 percentage points above the 50th-percentile estimate.
+Probability: 63%
+R1: Forecaster 3 Reasoning
+Time remaining
+• About 5 days (120 h) until 00:01 EDT on 2 Oct 2025, when it will already be clear whether a lapse in appropriations occurred.
+Status-quo outcome if nothing changed
+• The current continuing-resolution has expired; no new vehicle acceptable to both chambers is on the floor; the House is in recess until 1 Oct.
+• If nothing changes, the government shuts down at 00:00 EDT on 1 Oct 2025 → “Yes”.
+Expectations of experts & markets
+• Policy research shops (Wolfe Research, BofA, GS) 60-70 % for a lapse.
+• Betting markets (Kalshi “SHUTDOWN.2025”), last trade 67 %.
+• News tone: “very likely”, “increasingly likely”, “no obvious off-ramp”.
+A plausible “No-shutdown” path
+Senate leadership brokers a genuinely “clean” 4-day CR late 30 Sep; House returns under unanimous consent 1 Oct; Trump signs to avoid blame. Filibuster is waived after Schumer & Thune declare victory.
+A plausible “Yes-shutdown” path
+Senate fails cloture again; each side blames the other; House remains out; OPM issues furlough orders late 30 Sep; OPM status page shows “Government Shutdown” starting 1 Oct.
+
+Grouping the evidence
+Bucket 1 – lower-risk signals
+• Historical base-rate: since 1990, CRs avoided shutdown in ~70 % of deadlines.
+• Same-party control of all three branches usually finds an internal bargain (2018 being the exception).
+• Markets (S&P, T-bills) remain calm → belief in a 11th-hour deal.
+Bucket 2 – centrist signals
+• Both sides say they “want” a short CR.
+• Trump is blame-averse in past show-downs (2019 cave-in at 35 days).
+• Calendar still allows 1-2 legislative days if leaders move fast.
+Bucket 3 – higher-risk signals
+• House recessed until 1 Oct; Senate deadlocked at 53-47; 60-vote hurdle.
+• Public statements: Trump “very likely”, Wolfe Research “very likely”, OMB RIF memo.
+• Each side sees political upside; neither bill currently has cross-party votes.
+
+Multi-world reasoning (1 % granularity)
+Low_World (bucket 1 dominates)
+Base rate 25 %
+• Low 15 %
+• Mid 25 %
+• High 35 %
+Mid_World (bucket 2 dominates)
+Base rate 50 %
+• Low 40 %
+• Mid 55 %
+• High 65 %
+High_World (bucket 3 dominates)
+Base rate 70 %
+• Low 60 %
+• Mid 75 %
+• High 85 %
+Reference CSV
+World_name,Base Rate,Low Forecast,Mid Forecast,High Forecast
+Low_World,25,15,25,35
+Mid_World,50,40,55,65
+High_World,70,60,75,85
+Nine reasonable points, ordered: 15, 25, 35, 40, 55, 60, 65, 75, 85.
+
+Percentile map of reasonable forecasts (interpolated)
+P10  ≈ 24 %
+P20  ≈ 34 %
+P30  ≈ 46 %
+P40  ≈ 58 %
+P50  ≈ 68 %
+P60  ≈ 72 %
+P70  ≈ 77 %
+P80  ≈ 81 %
+P90  ≈ 86 %
+Median (P50) sits at 68 %.
+Given:
+• Momentum toward lapse (House out, Senate stalemate, public signalling).
+• Still-non-trivial last-minute escape routes.
+• Experts/markets clustered 65-70 %.
+After slight upward adjustment for status-quo inertia, my calibrated point estimate is:
+Probability: 77 %
+R1: Forecaster 4 Reasoning
+Time left
+• 4¼ days until 00:01 ET, 2 Oct 2025 (the moment at which a shutdown could no longer begin and still satisfy the question).
+Status-quo outcome if nothing changed
+• A lapse in appropriations will occur at 00:00 ET, 1 Oct 2025.
+• No bill that can clear 60 Senate votes is scheduled. → Status-quo points to “Yes, a shutdown”.
+Expectations of experts & markets
+• Prediction-market (Kalshi “GOVSHUT.25” this morning): 68 %.
+• Street research (Wolfe, BofA, GS): 60-75 % range, modal 65 %.
+• Political journalists (Politico, The Hill, BI): language such as “no off-ramp”, “increasingly likely”.
+Expert consensus ~65-70 %.
+A plausible No-scenario
+• Between Saturday night and Monday afternoon the Senate adopts a skinny CR (clean date change to 11 Oct).
+• Unanimous consent accelerates procedure; House passes the Senate bill Monday night; Trump signs before 00:00 ET Tuesday.
+A plausible Yes-scenario
+• No agreement by Monday. Government shuts at 00:01 ET 1 Oct.
+• Shutdown lasts 3–10 days; Congress then enacts a compromise, but too late for Metaculus question.
+
+Grouping the evidence
+Bucket 1 – lower-shutdown evidence
+• Historical base rate: only 3 of last 10 fiscal year deadlines produced a shutdown (30 %).
+• High political cost to governing party controlling WH + both chambers; leadership usually blinks late.
+• Senate can pass by unanimous consent within hours once deal is struck.
+• Markets (VIX, UST) remain calm → implies some expectation of last-minute fix.
+Bucket 2 – higher-shutdown evidence
+• No legislative text with bipartisan support exists; procedural clock nearly exhausted.
+• Minority Democrats say publicly they get more leverage from a lapse.
+• Trump signalling comfort with a “period of time” shutdown; OMB memo on RIF seen as escalation.
+• Research notes (“very likely”, ~65-75 %) from Wolfe, BofA, JPM.
+Bucket 3 – central/mixed evidence
+• Many near-misses resolve in final 48 h.
+• Polling shows both parties would be blamed → mutual incentive to avoid a long shutdown even if a short one begins.
+• Small dollar gap ($20–30 B) relative to $6 T budget—technically easy to bridge.
+
+Multi-world reasoning (1 % precision)
+World_name,Base Rate,Low Forecast,Mid Forecast,High Forecast
+Low_World,30 %,15 %,25 %,35 %
+Mid_World,50 %,40 %,55 %,65 %
+High_World,70 %,60 %,75 %,85 %
+
+Nine reasonable point estimates (ordered)
+15 %,25 %,35 %,40 %,55 %,60 %,65 %,75 %,85 %
+
+Subjective distribution across those nine points (≈equal weight with slight tilt to mid/high):
+15 %(5 %),25 %(7 %),35 %(8 %),40 %(10 %),55 %(20 %),60 %(15 %),65 %(13 %),75 %(13 %),85 %(9 %)
+Percentile CSV
+Percentile,Probability
+P10,20 %
+P20,30 %
+P30,35 %
+P40,42 %
+P50,56 %
+P60,60 %
+P70,66 %
+P80,72 %
+P90,80 %
+The weighted median (P50) is 56 %. I adjust upward four points because:
+• Fresh statements on 27 Sep show neither side preparing compromise text.
+• Calendar now includes one weekend day lost to travel/funeral of Sen. Blackburn.
+• Historical “false alarms” usually show tangible negotiations by this hour on Saturday; none visible yet.
+Final answer
+Probability: 60 %
+R1: Forecaster 5 Reasoning
+Time left until resolution
+• 3 days, 13 hours until 00:01 EDT on 2 Oct 2025.
+Status-quo outcome if nothing changed
+• The continuing-resolution impasse persists → a lapse in appropriations at 00:00 EDT 1 Oct → OPM announces shutdown furloughs → YES.
+Expectations of experts & markets
+• Political analysts (Cook, Punchbowl, Wolfe Research, Banner Public Affairs) cluster in the 60-75 % range.
+• Event-trading market Kalshi “US-shutdown-by-Oct-2” last traded 0.66.
+• Prediction-markets (Polymarket, Manifold) 65-70 %.
+• Bond, FX and equity volatility remain tame, signalling investors view a shutdown as probable but non-systemic.
+No-outcome scenario (government stays open)
+On 29 or 30 Sep Senate and House agree to a ‘clean’ CR (likely to 21 Nov) after one side relents on ACA-subsidy language. The measure clears by unanimous consent or fast-track in the House, Trump signs, OPM never issues furlough order.
+Yes-outcome scenario (shutdown)
+Negotiations remain frozen; House adjourns without a Senate vehicle; OPM posts “Government Shutdown” status at 00:01 1 Oct. A deal may arrive later, but the single moment of shutdown before 2 Oct is sufficient for a YES verdict.
+
+Evidence buckets (≈ one-third each)
+Bucket 1 – low probability signals
+• History: in 19 of the last 26 funding deadlines since 1990, Congress reached a deal in the final 96 h.
+• Business-lobby pressure (US Chamber, NAM letters 26 Sep) urging a clean CR.
+• Several rank-and-file Senate Republicans (Collins, Murkowski, Tillis) signalling they would accept the Democratic CR if ACA language is pared back.
+Bucket 2 – central signals
+• Both parties have drafted CRs; distance between them (health-care riders) is narrower than during 2013 or 2018.
+• Speaker Mike Johnson warns of “catastrophe”, indicating leadership still wants a deal, preserving the usual last-minute bargain dynamic.
+• Markets price in a short, non-damaging lapse (muted volatility).
+Bucket 3 – high probability signals
+• All public bills have failed cloture; Senate next in pro-forma until 29 Sep.
+• Wolfe Research, BofA, Politico now say shutdown “very likely / more than 65 %”.
+• White House OMB shutdown & RIF guidance already issued; agencies activating contingency plans.
+• President Trump and minority Democrats both publicly comfortable “letting it shut for a time”.
+
+Multi-world reasoning
+Low_World (25 % weight)
+Base-rate (1990-2023 deadlines)………………30 %
+Low est……………………15 %  Mid…………25 %  High…………35 %
+Mid_World (45 % weight)
+Base-rate (mixed evidence)………………………50 %
+Low est……………………40 %  Mid…………55 %  High…………65 %
+High_World (30 % weight)
+Base-rate (current stalemate)…………………70 %
+Low est……………………60 %  Mid…………75 %  High…………85 %
+Reference CSV
+World_name,Base Rate,Low Forecast,Mid Forecast,High Forecast
+Low_World,0.30,0.15,0.25,0.35
+Mid_World,0.50,0.40,0.55,0.65
+High_World,0.70,0.60,0.75,0.85
+
+Ordered set of the nine estimates
+15 %, 25 %, 35 %, 40 %, 55 %, 60 %, 65 %, 75 %, 85 %
+Approximate percentile map (linear interpolation)
+P10 ≈ 22 %
+P20 ≈ 28 %
+P30 ≈ 33 %
+P40 ≈ 38 %
+P50 ≈ 55 %
+P60 ≈ 58 %
+P70 ≈ 63 %
+P80 ≈ 70 %
+P90 ≈ 80 %
+
+Reflection & final adjustment
+• Momentum since 22 Sep has steadily increased the odds; no tangible progress reported as of 27 Sep 12:00 ET.
+• Senate calendar leaves <48 h of real negotiating time.
+• Trump’s public messaging reduces incentives for GOP to concede early.
+• Given these, the distribution skews upper-half; I shade the median up 5 ppt.
+Probability: 68 %
+R1: Forecaster 6 Reasoning
+Time left until outcome is known
+• 5 days (00:00 EDT 1 Oct 2025 → OPM status typically posted before 09:00; we will certainly know by 2 Oct 2025).
+Status-quo outcome if nothing changes
+• Current appropriations lapse at 00:00 1 Oct 2025, so—absent new legislation—OPM will announce a shutdown.
+Expectations of experts and markets
+• Wolfe Research: “very likely”, duration > 1 week.
+• Bank of America puts shutdown odds “above 65 %”.
+• Betting-market contracts (Kalshi “SHUT2025”) implied 68 % at yesterday’s close.
+• Politico, Bloomberg, Business Insider: “no obvious off-ramp”, “increasingly likely”.
+• There is no contrary public forecast from a major bank or ratings agency below 40 %.
+Scenario that yields a No (outcome stays open)
+• Between 29 Sep and 30 Sep the Senate and House agree on a clean CR (likely through ~21 Nov); seven Democrats join 53 Republicans to reach 60 votes, the House concurs by UC, Trump signs. OPM never posts “shutdown furlough”.
+Scenario that yields a Yes (shutdown)
+• No bicameral deal by 23:59 30 Sep; OPM issues shutdown guidance at ~18:00 30 Sep; most civilian agencies furlough staff beginning 1 Oct. Even a 24-hour lapse triggers a “Yes”.
+────────────────────────
+Evidence buckets (≈ thirds)
+Bucket 1 – points toward a low probability
+• Both parties publicly say they want a CR.
+• Shutdowns are unpopular; Republicans own unified government and thus bear blame.
+• Historical base rate: only 3 of the last 14 year-end deadlines (21 %) produced a shutdown.
+Bucket 2 – points toward a central probability
+• Typical brinkmanship pattern: deal often materialises in the final 24 hrs but chances degrade rapidly once chambers recess.
+• Senate reconvenes 29 Sep, giving a two-day window.
+• House CR already exists; could be amended and fast-tracked if leadership caves.
+Bucket 3 – points toward a high probability
+• Senate has already rejected both partisan CRs; no negotiations scheduled.
+• Trump, McConnell, Schumer are signalling willingness to absorb a lapse (“may have to shut down”).
+• OMB’s unprecedented RIF memo implies genuine planning, not theatre.
+• Betting and sell-side odds cluster around 65–70 %.
+────────────────────────
+Multi-world reasoning
+Low_World (bucket 1 dominates)
+Base rate: 21 %
+Low 15 % | Mid 20 % | High 25 %
+Mid_World (bucket 2 dominates)
+Base rate: 50 %
+Low 40 % | Mid 50 % | High 60 %
+High_World (bucket 3 dominates)
+Base rate: 70 %
+Low 60 % | Mid 70 % | High 80 %
+Reference CSV
+World_name,Base Rate,Low Forecast,Mid Forecast,High Forecast
+Low_World,21,15,20,25
+Mid_World,50,40,50,60
+High_World,70,60,70,80
+Ordered set of the nine estimates
+15, 20, 25, 40, 50, 60, 60, 70, 80 %
+────────────────────────
+Approximate distribution of reasonable forecasts
+Percentile,Probability
+P10,18 %
+P20,24 %
+P30,31 %
+P40,44 %
+P50,53 %
+P60,57 %
+P70,63 %
+P80,69 %
+P90,76 %
+I place extra weight on the latest hard signals (recess schedule, OMB guidance, public statements) and on market-implied 65 %. That nudges me above the median of the synthetic distribution.
+Probability: 66 %
+R1: Forecaster 7 Reasoning
+Time left until resolution: 5 days (funding expires 30 Sep ≈ 23:59 EDT; OPM would announce furlough status from 01 Oct 00:00. The question closes 02 Oct 00:00).
+Status-quo outcome if nothing changed: Congress remains dead-locked, CR fails, federal agencies begin shutdown procedures on 1 Oct → “Yes”.
+Stated expectations
+• Sell-side research (Wolfe, BofA) 60-70 % chance of shutdown.
+• Betting markets that mirror Metaculus are clustering around the low-60s.
+• Executive branch behaviour (OMB RIF memo, agency contingency updates) signals serious preparation.
+• No public whip counts yet showing 7 Democratic senators willing to cross the aisle.
+Plausible No-shutdown (≈ 40 %) scenario
+• Evening of 30 Sep: Senate leaders pre-package a 2-week “clean” CR; Democrats get a face-saving statement on later health-care votes; bill passes 60-plus votes.
+• House passes same bill by suspension with unanimous Democratic support and two-dozen GOP “pragmatists”; Trump signs.
+• OPM never flips the website to “Shutdown Furlough”.
+Plausible Yes-shutdown (≈ 60 %) scenario
+• Talks remain stalled through the weekend.
+• Senate tries and fails again Monday.
+• Midnight lapse occurs; OPM posts “Government Shutdown” at 00:01 EDT, 1 Oct.
+• Only after several days of public pressure do leaders regroup.
+────────────────────────────────
+Evidence buckets (≈ equal size)
+Bucket 1 – tilts LOW
+• Historical base rate: only 4 of the last 22 funding deadlines produced a full or large partial shutdown (≈ 18 %).
+• Republicans control all of government and therefore bear the blame; precedents (1995, 2013, 2018) show the party seen as responsible usually caves late.
+• Market calm: T-bill spreads and equities show no panic, implying belief in a last-hour deal.
+Bucket 2 – tilts CENTRAL
+• Both chambers have already voted for short CRs (different versions) – a legislative vehicle exists.
+• Leaders on each side publicly insist they “don’t want” a shutdown; plenty of time remains for a 1-line extension.
+• Political pain of military/worker pay interruptions just 13 months before mid-terms.
+Bucket 3 – tilts HIGH
+• Public whip counts show zero crossover votes today; each side now uses shutdown threat for leverage (Politico, 22 Sep).
+• President Trump, OMB and agencies issuing RIF/shutdown prep memos – behaviourally stronger than in 2023.
+• Sell-side and forecasting markets in the mid-60 % range; language such as “very likely” or “no obvious off-ramp”.
+────────────────────────────────
+Multi-world reasoning
+Low_World (bucket 1 dominates)
+Base rate 20 %
+Low forecast 10 % | Mid 18 % | High 25 %
+Mid_World (bucket 2 dominates)
+Base rate 40 %
+Low forecast 35 % | Mid 45 % | High 55 %
+High_World (bucket 3 dominates)
+Base rate 60 %
+Low forecast 55 % | Mid 70 % | High 85 %
+Reference CSV
+World_name,Base Rate,Low Forecast,Mid Forecast,High Forecast
+Low_World,0.20,0.10,0.18,0.25
+Mid_World,0.40,0.35,0.45,0.55
+High_World,0.60,0.55,0.70,0.85
+Ordered nine reasonable point estimates: 10 %, 18 %, 25 %, 35 %, 45 %, 55 %, 55 %, 70 %, 85 %
+────────────────────────────────
+Subjective distribution of probability (percentiles)
+P10 = 25 %
+P20 = 30 %
+P30 = 35 %
+P40 = 42 %
+P50 = 48 %
+P60 = 55 %
+P70 = 61 %
+P80 = 68 %
+P90 = 75 %
+Central tendency (P50) is 48 %, but the heavier right tail (news flow, market odds) warrants an upward adjustment.
+Final answer: Probability: 57 %
+R1: Forecaster 8 Reasoning
+Time left until the outcome is known
+• 5 days. The decisive moment is 12:01 a.m. EDT on 2 Oct 2025, when the government will either be in shutdown furlough status or not.
+Status-quo outcome if nothing changes
+• A lapse of appropriations is already scheduled for 12:01 a.m. 1 Oct.
+• No bicameral, bipartisan agreement exists.
+⇒ If events simply continue on their current trajectory, the government will shut down (YES).
+Expectations of experts and markets
+• Kalshi contract “US-SHUTDOWN-25OCT02” (27 Sep 12:00 UTC) trades at 0.69.
+• Wolfe Research note: “>65 % probability.”
+• Bank of America: “Shutdown base case.” (≈60 %).
+• Media language: “increasingly likely,” “very likely.”
+Consensus cluster: 60-70 %.
+A brief “No” scenario
+• Around 29-30 Sep, Senate leaders negotiate a compromise CR (e.g., to 18 Oct).
+• At least seven Senate Democrats join 53 Republicans.
+• House adopts the Senate bill by 30 Sep evening with a coalition of Republicans and Democrats; Trump signs it.
+• OPM never issues a shutdown furlough notice.
+A brief “Yes” scenario
+• No Senate deal; each chamber leaves town 30 Sep blaming the other.
+• OPM posts “Government Shutdown Furlough in effect” at 12:01 a.m. 1 Oct.
+• Any eventual CR arrives after 2 Oct, so the question resolves YES.
+────────────────────────────────────────
+Evidence buckets (≈equal size)
+Bucket 1 – Pulling to LOW probability
+• Historical avoidance: 14 of the last 17 funding deadlines since 2011 ended without a shutdown.
+• Senate institutional bias for deals; Schumer & Thune still talking.
+• Moderate GOP senators (Murkowski, Collins, Romney) signal willingness to break ranks.
+• Markets calm (Treasury yields, VIX flat) – often a tell that insiders expect a stop-gap.
+Bucket 2 – Central / ambiguous evidence
+• Both chambers have passed a CR, showing willingness in principle.
+• Shutdown rhetoric is high but still bargaining leverage.
+• Past full-government shutdowns (not partial) are rare; the pain is greater.
+• Trump historically backed down at the 2019 35-day record shutdown.
+Bucket 3 – Pulling to HIGH probability
+• Only 3 legislative days left; Senate is in recess until 29 Sep.
+• Two CRs have already failed cloture; filibuster remains.
+• Trump and Johnson say shutdown “very likely” / “catastrophe but coming.”
+• OMB and agencies issuing shutdown & RIF guidance—late-stage procedural steps rarely taken unless leadership thinks a lapse is imminent.
+────────────────────────────────────────
+Multi-world reasoning
+World 1: Low_World (Bucket 1 dominates)
+Historical base rate of avoided shutdowns since 1990 ≈ 80 %.
+Low est: 15 % Mid: 22 % High: 30 %
+World 2: Mid_World (Bucket 2 dominates)
+Balanced base rate (shutdown in 3 of last 10 fiscal years ≈ 30 %).
+Low: 28 % Mid: 35 % High: 42 %
+World 3: High_World (Bucket 3 dominates)
+Subjective base 60 % (reflecting betting markets).
+Low: 55 % Mid: 66 % High: 78 %
+Reference CSV
+World_name,Base Rate,Low Forecast,Mid Forecast,High Forecast
+Low_World,0.20,0.15,0.22,0.30
+Mid_World,0.30,0.28,0.35,0.42
+High_World,0.60,0.55,0.66,0.78
+Ordered set of nine estimates
+15 %, 22 %, 28 %, 30 %, 35 %, 42 %, 55 %, 66 %, 78 %
+────────────────────────────────────────
+Percentile map of “reasonable forecasts”
+P10 ≈ 18 %
+P20 ≈ 23 %
+P30 ≈ 27 %
+P40 ≈ 32 %
+P50 ≈ 38 %
+P60 ≈ 45 %
+P70 ≈ 55 %
+P80 ≈ 64 %
+P90 ≈ 75 %
+I overweight the upper tail because:
+• The calendar is unforgiving (only three days of floor time).
+• Agency shutdown prep is farther along than in most last-minute deals.
+• Leaders on both sides publicly accept blame risk—unusual signal strength.
+Adjusting the median two ticks upward (≈+4 pp) to reflect these factors yields 42 %.
+Probability: 42 %

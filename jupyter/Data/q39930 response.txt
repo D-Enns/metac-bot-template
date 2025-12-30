@@ -1,0 +1,650 @@
+SUMMARY
+Question: Will the community prediction be higher than 95.00% on 2025-09-27 for the Metaculus question "Will the IBEX 35 close 2025 higher than it started?"?
+Final Prediction: 48.0%
+Total Cost: $0
+Time Spent: 2.17 minutes
+Report 1 Summary
+Forecasts
+Forecaster 1: 43.0%
+Forecaster 2: 54.0%
+Forecaster 3: 71.0%
+Forecaster 4: 48.0%
+Forecaster 5: 56.0%
+Forecaster 6: 48.0%
+Forecaster 7: 43.0%
+Forecaster 8: 38.0%
+Research Summary
+The collected articles show that, by mid-September 2025, the Ibex 35 had traded in a range just above 15 150 to near 15 400 points, briefly setting a new annual high and coming within about 4 % of its 2007 record. The index’s performance was driven by strong gains in defense and banking stocks—Banco Santander and Unicaja notably up over 80 % year-to-date—while energy and utilities held steady. Spain’s government upgraded its 2025 GDP forecast to 2.7 %, Standard & Poor’s raised the sovereign rating to A+, and euro-area industrial production growth was cited as supportive, even as rising European wages and bond yields reflected shifting monetary expectations.
+At the same time, market sentiment was cautious ahead of the U.S. Federal Reserve’s September meeting, with investors pricing in a 25 bp rate cut. On September 16, the Ibex tumbled 1.51 % (over 230 points) as banking shares underperformed and broader European markets fell. Technical analysts flagged key resistance at 15 444 points and suggested an 8–10 % correction would be “necessary” before resuming an upward trend. Consensus price targets ranged from mid-15 400s to nearly 15 800, while forecasts for further Fed easing and Spain’s solid growth outlook underpinned the potential for modest gains into year end.
+Sources:
+https://www.elnacional.cat/oneconomia/es/mercados/ibex-35-concluye-jornada-este-martes-atencion-fed-lastrado-por-banca_1485533_102.html
+https://www.europapress.es/economia/bolsa-00348/noticia-ibex-35-cae-151-cierre-corrige-mas-230-puntos-15160-enteros-20250916181258.html
+https://www.expansion.com/mercados/2025/09/15/68c7aae8e0c712d761407fc2-directo.html
+https://www.eleconomista.es/mercados-cotizaciones/noticias/13545389/09/25/el-ibex-35-supera-los-maximos-del-ano-sobre-los-15400-puntos-y-ya-se-situa-a-un-3-de-los-historicos-de-2007.html
+https://www.europapress.tv/economia/1009100/1/ibex-35-queda-filo-15400-mirada-ya-puesta-fed
+https://www.larazon.es/economia/ibex-cede-15200-puntos-lastre-bancos_2025091668c9852837083b1b01b1aca4.html
+https://www.eleconomista.es/mercados-cotizaciones/noticias/13546952/09/25/el-ibex-35-ante-su-prueba-de-fuego-el-origen-de-la-ultima-caida.html
+https://madridpress.com/art/342825/el-ibex-35-cae-un-128
+https://www.elconfidencial.com/mercados/2025-06-01/fondos-inversion-banca-privada-cotizacion-ibex-maximos-historicos_4141148/
+RESEARCH
+Report 1 Research
+Here are the relevant news articles:
+Ibex‑35 Falls 1.51 % Ahead of Fed Meeting
+The Ibex‑35 index fell 1.51 % on Tuesday, closing at 15 163.3 and dropping below the 15 200‑point level. The decline was driven by negative sentiment in the banking sector and investors’ anticipation of the U.S. Federal Reserve’s meeting on Thursday, where a 25‑basis‑point rate cut is expected. The Spanish market opened with modest losses that widened in line with falls in major European and U.S. markets, which were down 0.4 % at the close.
+Fed‑related news included the U.S. Senate’s confirmation of Stephen Miran to the Fed’s Board of Governors for the remaining four months of his term, and a federal appeals court’s rejection of President Trump’s request to dismiss Fed Governor Lisa Cook before the FOMC meeting.
+Brent crude rose 1.32 % to $68.33 per barrel.
+Only five Ibex constituents finished the session in the green: Grifols (+1 %), Repsol (+0.68 %), Aena (+0.45 %), Indra (+0.29 %) and Acerinox (+0.18 %). The biggest losers were Unicaja (‑2.81 %), Cellnex (‑2.69 %), Merlin (‑2.63 %), Banco Sabadell (‑2.54 %), Naturgy (‑2.42 %), Banco Santander (‑2.40 %) and Inditex (‑2.2 %). Other negative performers included Iberdrola (‑1.17 %), BBVA (‑1.07 %) and Telefónica (‑0.4 %).
+European indices also posted declines: London (‑0.88 %), Paris (‑1 %), Frankfurt (‑1.77 %) and Milan (‑1.28 %).
+Spain’s government lifted its 2025 growth forecast to 2.7 % from 2.6 %, projecting a 0.7 % GDP rise in the third quarter. The 2026 forecast remains at 2.2 %, while 2027 and 2028 are both projected at 2.1 % growth.
+Original language: es
+Publish date: September 16, 2025 05:08 PM
+Source:ElNacional.cat
+Ibex 35 Falls 1.51% at Close, Correcting Over 230 Points
+The Spanish stock index Ibex 35 closed the session on Tuesday with a 1.51% correction, dropping roughly 230 points to 15,163.3, according to the article. The Spanish government raised its growth forecast for 2025 from 2.6% to 2.7% and expects a 0.7% increase in GDP in the third quarter. For 2026 the forecast remains at 2.2%, while 2027 and 2028 are projected to grow 2.1% each year. In the United States, the Senate confirmed Stephen Miran’s appointment to the Federal Reserve Board for the remaining four months of his term, and the Federal Reserve’s monetary policy meeting will take place this Tuesday and Wednesday, with investors anticipating a 25‑basis‑point rate cut. Eurostat data showed euro‑area industrial production rose 0.3% in July from June, up 1.8 points compared with July 2024. Only five Ibex stocks finished the session in the green: Grifols (+1%), Repsol (+0.68%), Aena (+0.45%), Indra (+0.29%) and Acerinox (+0.18%). The biggest falls were Unicaja (‑2.81%), Cellnex (‑2.69%), Merlin (‑2.63%), Banco Sabadell (‑2.54%), Naturgy (‑2.42%) and Banco Santander (‑2.40%). European indices also declined: London (‑0.88%), Paris (‑1%), Frankfurt (‑1.77%) and Milan (‑1.28%). Brent crude closed at $68.46, up 1.51%, while West Texas Intermediate was $64.53, up 1.94%. Spanish sovereign bond yields rose to 3.249% from 3.245% on Monday, widening the risk premium to German debt to 55.6 basis points. The euro strengthened 0.74% against the dollar, trading at 1.848 euros per dollar. The article quotes the headline: 'El Ibex 35 ha cerrado la sesión de este martes con una corrección del 1,51%', and notes the government’s growth revision. All figures and statements are taken directly from the source.
+Original language: es
+Publish date: September 16, 2025 04:12 PM
+Source:europa press
+Ibex 35 Today: Live Market Update – Nasdaq Reaches New Highs with Tesla and Alphabet
+The article reports a live snapshot of global equity markets on September 15 2025, focusing on the Spanish Ibex 35, U.S. indices, and European markets. It notes that the Ibex closed at 15,395.10 points, a 0.57 % gain, with the top performers being Unicaja (+1.93 %), Puig (+1.92 %) and CaixaBank (+1.51 %). The index also recorded its highest intraday level above 15,400 points before settling. In the United States, the Dow Jones Industrial Average rose 0.14 %, the S&P 500 up 0.39 % and the Nasdaq up 0.55 %, with the Nasdaq reaching new highs driven by strong performances from Tesla, Alphabet, Amazon and Nvidia. The article cites that Donald Trump described the trade talks in Madrid as 'muy bien', indicating a positive outlook for U.S.–China relations. It also reports that the U.S. 10‑year Treasury yield was 4.07 %, still near the 4 % threshold, and that the Fed’s upcoming rate cut is anticipated. European markets were mixed: the French CAC 40 rose 0.88 % to 7,900 points, while the Italian MIB gained 0.6 % and the UK FTSE 100 slipped 0.03 %. The article highlights that the Fed’s policy decisions are expected to influence market sentiment in the coming days.
+Original language: es
+Publish date: September 15, 2025 04:03 PM
+Source:expansion.com
+Ibex 35 Surpasses Annual Highs, Nearing 2007 Record
+The Ibex 35 has climbed above 14,400 points, reaching a new yearly high and coming within less than 4% of its 2007 record of 15,945.70. During the session the index touched 14,412.1, propelled mainly by the defense sector: Indra rose 1.59%, Repsol 1.34%, Puig 1.16% and Solaria 1.13%.  Bank stocks also contributed, with Banco Santander up 92% and Unicaja 88% since January, while Banco Sabadell fell 0.95%, Telefónica 0.85% and Laboratorios Rovi 0.83%.  In the annual context, the banking sector has been the strongest performer, with Santander and Unicaja leading the gains.  Analysts estimate a target of 15,798.3 points for the Ibex, the highest forecast since 2008, and suggest a potential rise of 2.8% to 15,444 points, adding to the 33% gain seen in 2025.  Technical analysis notes that the index has broken the 15,180 resistance, opening the possibility of a move to 15,444, but the overall trend remains unchanged.  Joan Cabrero, a technical analyst, said, 'Sigo esperando un susto de mercado, esa corrección necesaria que devuelva al Ibex al terreno fértil de compra. Y en paciencia, créanme, no me gana nadie'.  The article also highlights upcoming central‑bank policy meetings, noting that the Fed’s rate cuts are largely priced in, with investors betting on further cuts in October and December.  Finally, the Spanish debt rating was upgraded by Standard & Poor’s from A to A+, reflecting stronger growth, immigration benefits and export success, which has improved the country’s resilience to external shocks.
+Original language: es
+Publish date: September 15, 2025 10:01 AM
+Source:elEconomista.es
+Ibex 35 Nears 15,400 as Investors Eye Fed Meeting
+The article reports that the Ibex 35 index closed the Monday session at 15,395.1 points, which represents a 0.57% increase from the previous Friday. This places the index just below the 15,400 level, a threshold that investors are watching closely as they anticipate the Federal Reserve’s monetary policy meeting scheduled for Wednesday. The piece notes that the market’s focus will be on the Fed’s decisions, implying potential implications for the Spanish market.
+Original language: es
+Publish date: September 15, 2025 12:00 AM
+Source:europapress.tv
+Ibex‑35 Falls 1.51 % Ahead of Fed Meeting
+The Ibex‑35 index fell 1.51 % on Tuesday, closing at 15 163.3 and dropping below the 15 200‑point level. The decline was driven by negative sentiment in the banking sector and investors’ anticipation of the U.S. Federal Reserve’s meeting on Thursday, where a 25‑basis‑point rate cut is expected. The Spanish market opened with modest losses that widened in line with falls in major European and U.S. markets, which were down 0.4 % at the close.
+Fed‑related news included the U.S. Senate’s confirmation of Stephen Miran to the Fed’s Board of Governors for the remaining four months of his term, and a federal appeals court’s rejection of President Trump’s request to dismiss Fed Governor Lisa Cook before the FOMC meeting.
+Brent crude rose 1.32 % to $68.33 per barrel.
+Only five Ibex constituents finished the session in the green: Grifols (+1 %), Repsol (+0.68 %), Aena (+0.45 %), Indra (+0.29 %) and Acerinox (+0.18 %). The biggest losers were Unicaja (‑2.81 %), Cellnex (‑2.69 %), Merlin (‑2.63 %), Banco Sabadell (‑2.54 %), Naturgy (‑2.42 %), Banco Santander (‑2.40 %) and Inditex (‑2.2 %). Other negative performers included Iberdrola (‑1.17 %), BBVA (‑1.07 %) and Telefónica (‑0.4 %).
+European indices also posted declines: London (‑0.88 %), Paris (‑1 %), Frankfurt (‑1.77 %) and Milan (‑1.28 %).
+Spain’s government lifted its 2025 growth forecast to 2.7 % from 2.6 %, projecting a 0.7 % GDP rise in the third quarter. The 2026 forecast remains at 2.2 %, while 2027 and 2028 are both projected at 2.1 % growth.
+Original language: es
+Publish date: September 16, 2025 05:08 PM
+Source:ElNacional.cat
+Ibex 35 Falls 1.51% at Close, Correcting Over 230 Points
+The Spanish stock index Ibex 35 closed the session on Tuesday with a 1.51% correction, dropping roughly 230 points to 15,163.3, according to the article. The Spanish government raised its growth forecast for 2025 from 2.6% to 2.7% and expects a 0.7% increase in GDP in the third quarter. For 2026 the forecast remains at 2.2%, while 2027 and 2028 are projected to grow 2.1% each year. In the United States, the Senate confirmed Stephen Miran’s appointment to the Federal Reserve Board for the remaining four months of his term, and the Federal Reserve’s monetary policy meeting will take place this Tuesday and Wednesday, with investors anticipating a 25‑basis‑point rate cut. Eurostat data showed euro‑area industrial production rose 0.3% in July from June, up 1.8 points compared with July 2024. Only five Ibex stocks finished the session in the green: Grifols (+1%), Repsol (+0.68%), Aena (+0.45%), Indra (+0.29%) and Acerinox (+0.18%). The biggest falls were Unicaja (‑2.81%), Cellnex (‑2.69%), Merlin (‑2.63%), Banco Sabadell (‑2.54%), Naturgy (‑2.42%) and Banco Santander (‑2.40%). European indices also declined: London (‑0.88%), Paris (‑1%), Frankfurt (‑1.77%) and Milan (‑1.28%). Brent crude closed at $68.46, up 1.51%, while West Texas Intermediate was $64.53, up 1.94%. Spanish sovereign bond yields rose to 3.249% from 3.245% on Monday, widening the risk premium to German debt to 55.6 basis points. The euro strengthened 0.74% against the dollar, trading at 1.848 euros per dollar. The article quotes the headline: 'El Ibex 35 ha cerrado la sesión de este martes con una corrección del 1,51%', and notes the government’s growth revision. All figures and statements are taken directly from the source.
+Original language: es
+Publish date: September 16, 2025 04:12 PM
+Source:europa press
+Ibex Falls Below 15,200 Points as Banks Drag Markets
+The Spanish market index, the Ibex 35, fell below 15,200 points, dragged down by most of the selective sector. The banking sector led the decline ahead of the Federal Reserve meeting, with Banco Sabadell sharply correcting after negative reports and doubts over its ongoing takeover bid. Utilities also failed to close in positive territory. Rising European wages above expectations reinforce expectations of a monetary policy shift, while Christine Lagarde has warned that the deflation process is over, boosting bond yields. Acciona suffered further after a Citi report questioning its outlook and political uncertainty surrounding the Koldo case. In the United States, retail sales beat forecasts, potentially tightening inflation and limiting the Fed’s flexibility, a paradoxical obstacle to a dovish stance. The S&P 500’s non‑technology index rose 13% over the past year, but earnings grew only 6.4%, raising doubts about its sustainability. Corporate highlights include Oracle’s rebound amid rumors of a TikTok acquisition and Tesla’s purchase of one billion shares, its first investment in the company’s securities since 2020. Gold reached new highs, supported by a weak dollar, Trump’s criticism of Fed independence, and expectations of future rate cuts. The euro strengthened sharply against the dollar, approaching annual highs and gaining 14% in 2025 so far. These developments illustrate the markets’ struggle to extend historic highs while awaiting new catalysts for an upward trend.
+Original language: es
+Publish date: September 16, 2025 03:41 PM
+Source:La Razón
+Ibex 35 Facing Its 'Fire Test': The Origin of the Latest Fall
+The Ibex 35 is confronting a decisive technical day as it hovers near 15,444 points, the level that triggered the latest fall.  Analyst Joan Cabrero says that breaking this level could revive hopes of reaching the 16,000‑point zone, the long‑term target.  However, he cautions that until a correction of 8–10 % from the peak occurs, the index will not return to a buying zone.  He notes that a drop to 13,750–14,000 points would align with June lows and the 38.2 % Fibonacci retracement.  In Europe, the EuroStoxx 50 remains in a sideways range with no significant resistance until 5,500–5,560 points.  Cabrero compares the current situation to the 2023 rally, warning that without a broader pullback, buying is not advised.  Meanwhile, the Fed’s expected rate cuts dominate the week, and gold has reached a new yearly high of $3,690, marking its 40 % appreciation in 2025, the strongest rally since 1979.
+Key quotes: 'Su ruptura permitiría soñar otra vez con el alcance de la zona de altos históricos (sin efecto dividendos descontado) de los 16.000 enteros', 'Para comprar en estos momentos hay que ser muy valiente y aceptar que el selectivo podría retroceder a los 13.750/14000 puntos sin que eso supusiera ningún cambio analítico dentro de su tendencia alcista principal', and 'Para que esa oportunidad aparezca, el Ibex debería retroceder entre un 8 y un 10% desde máximos, lo que lo situaría, si cayera desde los 15.444, en la zona de los 14.000-13.740 puntos.'
+Original language: es
+Publish date: September 16, 2025 05:00 AM
+Source:elEconomista.es
+Ibex 35 Today: Live Market Update – Nasdaq Reaches New Highs with Tesla and Alphabet
+The article reports a live snapshot of global equity markets on September 15 2025, focusing on the Spanish Ibex 35, U.S. indices, and European markets. It notes that the Ibex closed at 15,395.10 points, a 0.57 % gain, with the top performers being Unicaja (+1.93 %), Puig (+1.92 %) and CaixaBank (+1.51 %). The index also recorded its highest intraday level above 15,400 points before settling. In the United States, the Dow Jones Industrial Average rose 0.14 %, the S&P 500 up 0.39 % and the Nasdaq up 0.55 %, with the Nasdaq reaching new highs driven by strong performances from Tesla, Alphabet, Amazon and Nvidia. The article cites that Donald Trump described the trade talks in Madrid as 'muy bien', indicating a positive outlook for U.S.–China relations. It also reports that the U.S. 10‑year Treasury yield was 4.07 %, still near the 4 % threshold, and that the Fed’s upcoming rate cut is anticipated. European markets were mixed: the French CAC 40 rose 0.88 % to 7,900 points, while the Italian MIB gained 0.6 % and the UK FTSE 100 slipped 0.03 %. The article highlights that the Fed’s policy decisions are expected to influence market sentiment in the coming days.
+Original language: es
+Publish date: September 15, 2025 04:03 PM
+Source:expansion.com
+Ibex 35 Surpasses Annual Highs, Nearing 2007 Record
+The Ibex 35 has climbed above 14,400 points, reaching a new yearly high and coming within less than 4% of its 2007 record of 15,945.70. During the session the index touched 14,412.1, propelled mainly by the defense sector: Indra rose 1.59%, Repsol 1.34%, Puig 1.16% and Solaria 1.13%.  Bank stocks also contributed, with Banco Santander up 92% and Unicaja 88% since January, while Banco Sabadell fell 0.95%, Telefónica 0.85% and Laboratorios Rovi 0.83%.  In the annual context, the banking sector has been the strongest performer, with Santander and Unicaja leading the gains.  Analysts estimate a target of 15,798.3 points for the Ibex, the highest forecast since 2008, and suggest a potential rise of 2.8% to 15,444 points, adding to the 33% gain seen in 2025.  Technical analysis notes that the index has broken the 15,180 resistance, opening the possibility of a move to 15,444, but the overall trend remains unchanged.  Joan Cabrero, a technical analyst, said, 'Sigo esperando un susto de mercado, esa corrección necesaria que devuelva al Ibex al terreno fértil de compra. Y en paciencia, créanme, no me gana nadie'.  The article also highlights upcoming central‑bank policy meetings, noting that the Fed’s rate cuts are largely priced in, with investors betting on further cuts in October and December.  Finally, the Spanish debt rating was upgraded by Standard & Poor’s from A to A+, reflecting stronger growth, immigration benefits and export success, which has improved the country’s resilience to external shocks.
+Original language: es
+Publish date: September 15, 2025 10:01 AM
+Source:elEconomista.es
+Ibex 35 Targets 15,400 as European Markets Open Higher
+European markets opened higher on Monday, with the EuroStoxx 50 hovering near 5,400 points and the Spanish Ibex 35 targeting 15,400. Link Securities analysts expect European indices to open flat or slightly higher, mirroring Asian markets that closed mostly with modest gains. They note that a potential downgrade of France’s credit rating on Friday night could reverberate in markets. Throughout the week, central‑bank policy committees in Canada, Norway, the US, the UK and Japan will dominate. The Fed’s 25‑basis‑point rate cut is already priced in; investors are watching for indications of future rate moves, especially from Fed Chair Jerome Powell at Wednesday’s press conference. On the technical side, the Ibex 35 has recently broken the 15,180 resistance, opening a path to the all‑time high of 15,444. Technical analyst Joan Cabrero says he is still waiting for a market scare to bring the index back to a buying zone, adding that he is patient and confident. The article quotes Link Securities: 'Para empezar la semana, cabe señalar que hoy, en una jornada que presenta una agenda macroeconómica y empresarial muy liviana, esperamos que los principales índices bursátiles europeos abran entre planos y/o ligeramente al alza, en línea con el comportamiento mostrado por las principales bolsas asiáticas esta madrugada, las cuales han cerrado en su mayoría con ligeros avances', and Fed expectations: 'Lo más relevante será conocer las intenciones de la Fed en materia de tipos de cara a las próximas reuniones del FOMC. Muchos inversores están apostando porque el organismo volverá a bajar sus tasas en octubre y en diciembre, algo que nosotros no tenemos tan claro', and from Cabrero: 'Sigo esperando un susto de mercado, esa corrección necesaria que devuelva al Ibex al terreno fértil de compra. Y en paciencia, créanme, no me gana nadie'.
+Original language: es
+Publish date: September 15, 2025 07:29 AM
+Source:elEconomista.es
+Ibex 35 Nears 15,400 as Investors Eye Fed Meeting
+The article reports that the Ibex 35 index closed the Monday session at 15,395.1 points, which represents a 0.57% increase from the previous Friday. This places the index just below the 15,400 level, a threshold that investors are watching closely as they anticipate the Federal Reserve’s monetary policy meeting scheduled for Wednesday. The piece notes that the market’s focus will be on the Fed’s decisions, implying potential implications for the Spanish market.
+Original language: es
+Publish date: September 15, 2025 12:00 AM
+Source:europapress.tv
+Ibex 35 Opens September Higher, Rising 0.14%
+On Monday, September 1, 2025, the Spanish benchmark index Ibex 35 opened 0.14% higher at 14,957 points, after closing August below 15,000. Investors were awaiting European and U.S. PMI releases, Spain’s unemployment data, and political developments in France. The U.S. market was also watching the outcome of a federal appeals court ruling that declared most tariffs imposed by the Biden administration illegal, a decision that will not take effect until October 14. President Donald Trump said on Truth Social, '¡Todos los aranceles siguen en vigor!'. Treasury Secretary Pam Bondi announced the Department of Justice would appeal the ruling. European markets were set to hear comments from ECB President Christine Lagarde and Executive Member Isabel Schnabel. The Shanghai Cooperation Organization summit began, with Russian President Vladimir Putin saying the bilateral talks with Trump in Alaska could pave the way for peace in Ukraine. In the market, the biggest gains were Indra (+1.39%), Rovi (+0.86%), Grifols (+0.62%) and Unicaja (+0.51%). The largest fall was Amadeus (-1.3%). European city indices: Frankfurt and London up 0.4%, Paris up 0.3%. Brent crude rose 0.1% to $67.56, WTI to $64.12. The euro traded at 1.1727 against the dollar, and the 10‑year bond yield was 3.348%.
+Original language: es
+Publish date: September 01, 2025 07:15 AM
+Source:europa press
+Ibex 35 Rises 27.86% in 2025, Experts See Potential for Further Gains
+The Ibex 35 index has risen by 27.86% in 2025, the fastest rate since 2009. Experts still see potential for further gains, but warn of smoother and more volatile growth in the coming months. The index has already reached a record high of 14,824.9 points and is expected to reach 15,000 points by the end of the year. The Ibex 35 has confirmed the best series of consecutive rises in the last 18 years, despite a challenging summer marked by a trade war and uncertainty over interest rates. The index has gained 14.7% in the past year and 22.76% in 2023. Bloomberg analysts predict a further 4% gain, taking the index to 15,410 points. However, some firms, such as XTB, are more cautious, setting a price target of 13,160 points and a maximum of 13,960 points. Javier Molina from eToro warns that 'I don't see any sector capable of taking the lead from the banks. The electric companies may continue to do well, but they won't go much higher from current levels.' Bankinter recommends values with a defensive profile and high dividend payments, such as Iberdrola, Endesa, and Telefónica.
+Original language: es
+Publish date: August 10, 2025 09:54 PM
+Source:Expansión
+Ibex 35 Index Rises 27.86% in 2025, Experts Predict Potential 4% Increase
+The Ibex 35 index has risen by 27.86% in 2025, the highest rate since 2009. Experts predict a potential 4% increase, but warn of smoother and more volatile gains in the next 12 months. The index has confirmed the best consecutive rise in the last 18 years, with a 14.7% increase last year and 22.76% in 2023. The Spanish stock market is on track to certify three consecutive annual rises, a unprecedented feat since the 2003-2007 period. The Ibex 35 has reached a record high of 15,945.7 points, and is 7.5% away from its all-time high. Analysts at Bloomberg predict a 4% increase to 15,410 points, but some firms, such as XTB, have reduced their expectations, calling the final stretch of 2025 'challenging' for the Ibex 35. The banking sector has been the main driver of the index, with the Ibex 35 Bancos subindex rising 172.4% since the end of 2022. Javier Molina, of eToro, said, 'I don't see any sector capable of taking the lead from the banks.' The companies with the highest and most sustainable dividend payments may continue to accumulate purchases in a scenario of high valuations. Bankinter maintains its preference for defensive values with high dividend payments and the financial sector, including Iberdrola, Endesa, Redeia, Cellnex, ACS, Ferrovial, Telefónica, Santander, CaixaBank, or Indra.
+Original language: es
+Publish date: August 10, 2025 09:54 PM
+Source:expansion.com
+Ibex 35 Reaches New Highs, Expected to Continue Rising
+The Ibex 35 index has reached new highs, closing at 14,347.7 points, a 10% increase from the historical record of 15,945.70 points set on November 8, 2007. The index was driven by the banking sector, with Unicaja leading the gains at 7.84%. Despite some losses, such as Acciona Energía's 4.20% decline, the Ibex 35 is expected to continue rising, with a consensus among experts predicting a price target of 15,124 points. This would be the highest valuation since 2008 and implies further growth for the index. The Ibex 35 could rise an additional 5%, adding to its strong revaluation since the start of the year. With a 23.6% increase in 2025, the index is the most bullish among major European and US indices. The index has overcome the resistance level set by Joan Cabrero, an analyst at Ecotrader, between 14,275 and 14,360 points, but Cabrero warns that a break above this level would not be a cause for celebration. The rise of the Ibex 35 is part of a broader trend in Europe, with other indices such as the Ftse Mib and Ftse 100 reaching new highs. However, the EuroStoxx 50 is still 3% below its April 5,540.69 points. The main reason for the optimism is the trade agreements between the US and other major trading blocs, such as the EU and Japan. Martin Wolburg, senior economist at Generali AM, comments that the avoidance of the worst-case scenario is a reason to feel relieved, but notes that Trump has continued to attack countries that have reached trade agreements with the US. The focus now shifts to China, where trade talks are set to resume on August 12. The US Commerce Secretary, Lutnick, has mentioned the possibility of extending the talks by 90 days. In the Asian markets, the Nikkei index fell 0.8% and the Hang Seng index fell 0.6%.
+Original language: es
+Publish date: July 29, 2025 03:35 PM
+Source:elEconomista.es
+Ibex 35 Closes with 0.30% Increase, Reaching 14,031.50 Points
+The Ibex 35 index has closed with a 0.30% increase, reaching 14,031.50 points. This comes after a positive start to the week, with the Dow Jones and S&P 500 indices also rising. The Ibex has been driven by the new highs on Wall Street, with ArcelorMittal, Acciona Energía, and Acerinox being the top performers. The market is awaiting the upcoming negotiations between the EU and US, as well as the publication of quarterly results from major companies. Analysts are predicting a cautious approach from the European Central Bank (BCE) in its monetary policy meeting on Thursday. Link Securities has stated that the BCE will likely wait for the outcome of the EU-US negotiations before making any decisions. The season of quarterly results is set to begin, with over 100 companies in the S&P 500 index expected to release their figures. In Europe, companies such as ASM International, BNP Paribas, Nestle, Roche, TotalEnergies, UniCredit, Vivendi, Vodafone, and Volkswagen are also set to publish their results. In Spain, Iberdrola, Sabadell, and Bankinter will also release their quarterly figures. Enagás will kick off the season of quarterly results in the Ibex index. So far, the season has been positive on Wall Street, with many companies benefiting from the weakness of the dollar. The S&P 500 and Nasdaq indices have reached new historical highs. 'We understand that the BCE will prefer to wait for the resolution of the EU-US negotiations before determining its potential impact on the region's economic growth and inflation,' said Link Securities. 'It is a testament to the hard work of our teachers and the dedication of our students,' said Sarah White, enthusiastically approving the Ibex's performance.
+Original language: es
+Publish date: July 21, 2025 03:41 PM
+Source:expansion.com
+Ibex 35 Closes Slightly Higher Amid Mixed Economic News
+The Ibex 35 closed the session on Wednesday with a slight increase of 0.08%, reaching 13,885.7 points, despite having approached the 14,000 mark in the mid-session with a 0.70% increase. The UK's inflation rate for June was 3.6%, exceeding the 3.4% increase in May and its highest level since January 2024. The European Commission has proposed a new multiannual financial framework (MFP) for 2028-2034, increasing funding from 1.2 trillion to 2 trillion euros and allocating 131 billion euros for defense, security, and space investment, five times more than the previous MFP. Iberdrola has signed a 2.5 billion euro credit line with 32 international banks, while Grifols will invest 160 million euros in a new plant in Lliçà de Vall, Barcelona, doubling its plasma fractionation capacity in Europe. The values that have risen the most this Wednesday have been Grifols (+4.34%), Aena (+1.87%), Solaria (+0.93%), Acciona Energía (+0.87%), IAG (+0.62%), ACS (+0.45%), and Merlin (+0.44%). On the other hand, Acerinox (-5.39%), ArcelorMittal (-2.78%), Fluidra (-2.22%), Sacyr (-1.14%), Amadeus (-0.65%), Repsol (-0.58%), and Acciona (-0.57%) have fallen. The Ibex 35 was the only major European stock exchange to close the day in the positive.
+Original language: es
+Publish date: July 16, 2025 04:13 PM
+Source:europa press
+Ibex 35 Defies Traditional Logic, Rises Despite Strong Euro
+Despite the euro reaching its highest levels since 2021, European stock markets, including the Ibex 35, are not following the traditional logic that a strong euro leads to market declines. In fact, the Ibex 35 is expected to close the week in positive territory (0.18%) and has had one of the best semesters in recent years (20.6%). This is due in part to the expectations of a dovish monetary policy by the Federal Reserve and a stable European economy. Two members of the Federal Reserve's FOMC committee, Christopher Waller and Michelle Bowman, have dissented from the official line, calling for a rate cut as early as July, citing the potential for transitory inflation due to Donald Trump's trade policies. The Spanish stock market has been led by IAG, which has risen 6.8% this week, driven by optimism about the recovery of air travel during the summer season. Other notable gainers include Acciona Energía (+5.9%), ACS (+5.8%), Solaria (+4.5%), and ArcelorMittal (+4.2%). In contrast, Endesa has fallen 3.1% due to regulatory pressure, while Naturgy (-2.9%) and Repsol (-2.6%) have been penalized by the correction in gas and oil prices. Experts predict that the Ibex 35 will surpass 15,000 points, a level not seen in over 17 years, with a target price of 15,017 points.
+Original language: es
+Publish date: June 27, 2025 07:58 AM
+Source:elEconomista.es
+Fed Maintains Interest Rates, Ibex 35 Falls 1.28%
+The Federal Open Market Committee (FOMC) of the Federal Reserve decided to maintain interest rates between 4.25% and 4.5%, despite pressure from US President Donald Trump. Fed Chairman Jerome Powell defended the decision, anticipating a future increase in prices. The DWS investment firm has predicted that inflation will rebound to 4% in the US by next autumn. The Fed also set a 'dot plot' of two quarter-point rate cuts before the end of 2025, a forecast shared by the market. Analysts at Renta 4 explained, 'The rate cuts, despite the upward revision of inflation, are justified by the expectation that the price increase will be temporary and that unemployment will rise.' The Bank of England (BoE) decided to maintain its interest rate at 4.25%, while the Swiss National Bank (SNB) reduced its interest rate to 0% and the Norgesbank reduced its interest rate to 4.25%. The Ibex 35 index fell 1.28% due to the decline of Indra (-6.06%), ArcelorMittal (-3.83%), and other companies. Meanwhile, Solaria (+4.24%), Repsol (+2.32%), and Endesa (+0.71%) led the group of eight companies that closed with gains. The European stock markets also fell, with London (-0.58%), Frankfurt (-1.12%), Milan (-1.21%), and Paris (-1.34%) closing in the red.
+Original language: es
+Publish date: June 19, 2025 06:18 PM
+Source:madridpress.com
+Ibex 35 falls 1.28% as US Federal Reserve keeps interest rates unchanged
+The Ibex 35 index fell 1.28% to 13,744.9 points, its lowest level since mid-May, after the US Federal Reserve (Fed) decided to keep interest rates unchanged. The Fed's decision, announced last night, was defended by Fed Chairman Jerome Powell, who anticipated a future increase in prices. The Fed also predicted two quarter-point rate cuts by the end of 2025. Other central banks, such as the Bank of England and the Swiss National Bank, also made decisions on interest rates. The Spanish government's decision on the takeover bid for BBVA and Sabadell is expected to be made next Tuesday. The Ibex 35 was influenced by the decline in Asian markets and the lack of reference to Wall Street, which was closed for the 'Juneteenth' holiday. The main losers in the Ibex 35 were Indra (-6.06%), ArcelorMittal (-3.83%), and Banco Santander (-2.4%). The winners were Solaria (+4.24%), Repsol (+2.32%), and Endesa (+0.71%).
+Original language: es
+Publish date: June 19, 2025 04:15 PM
+Source:europa press
+Ibex 35 Expected to Reach Historical Maximum This Year
+The Ibex 35 index is expected to reach its historical maximum of 15,945.7 points this year, according to most fund managers and private banks. This prediction is based on the positive business results, which have reached historical highs in the past year. The majority of fund managers and private banks, as shown in the fourth edition of El Confidencial's Market Sentiment Survey, believe that the Ibex 35 will surpass this reference point this year, with 11 out of 30 respondents predicting it will happen this year, 7 predicting it will happen next year, and 8 predicting it will happen in 2027. As one of the fund managers said, 'The fundamentals are very positive, and we expect the Ibex 35 to reach its historical maximum this year.'
+Original language: es
+Publish date: June 01, 2025 03:11 AM
+Source:El Confidencial
+FORECASTS
+R1: Forecaster 1 Reasoning
+Time remaining until snapshot: 10 days  + ≈15 hours
+(27 Sept 2025 00:23 UTC)
+Status-quo outcome if nothing changes
+• Metaculus community prediction is exactly 95.00 %.
+• If it is still 95.00 % on 27 Sept the question resolves ‘No’.
+What experts & markets imply
+• IBEX-35 now stands ~31 % above its opening-2025 level; a year-end drop >24 % would be needed for the original market question to resolve ‘No’.
+• Sell-side targets and press commentary are uniformly bullish; most see the 2025 close comfortably higher.
+• That backdrop keeps most individual forecasts in the 92-98 % band, but the 50th percentile has been sticky around 94-96 % for two months.
+Path to ‘No’ (CP ≤ 95 %) in the next 10 days
+• A 3-5 % equity pull-back (Fed disappointment, geopolitics, sharp bank sell-off) pushes some recent forecasters to trim their numbers to ~90-93 %.
+• The decay of older >97 % forecasts plus a handful of fresh cautious entries is enough to pull the recency-weighted median back to ≤95 %.
+Path to ‘Yes’ (CP > 95 %)
+• IBEX rebounds above 15 400, analysts publish new 16 000+ targets, and one or two high-karma users refresh at 98-99 %.
+• As older mid-90s forecasts decay, the median drifts up to 96–97 %.
+
+Evidence buckets
+Bucket 1 – pulls probability lower
+• 15 163 close on 16 Sep shows the index can drop >1.5 % in a day.
+• Technical analysts warn of an 8–10 % correction zone.
+• Psychological ceiling: many forecasters hesitate to go above 95 % with more than three months to go.
+Bucket 2 – central / status quo
+• CP has hovered 94–96 % since early August.
+• Macro news mixed; no game-changing shock expected inside 10 days.
+• Recency weighting means moderate activity typically moves the median <1.0 pp per week.
+Bucket 3 – pushes probability higher
+• Index still >30 % above the 11 595 line; fundamental case remains very strong.
+• Spanish GDP forecast revised up; S&P raised sovereign rating.
+• Commentary from banks/funds points to new all-time highs (15 900-16 000) this year.
+
+Multi-world reasoning (1 % precision)
+World: Low_World (CP drifts down)
+Base rate 20 % Low 8 % Mid 12 % High 18 %
+World: Mid_World (CP stays ≈95 %)
+Base rate 45 % Low 25 % Mid 40 % High 55 %
+World: High_World (CP drifts up)
+Base rate 35 % Low 60 % Mid 75 % High 90 %
+Reference CSV
+World_name,Base Rate,Low Forecast,Mid Forecast,High Forecast
+Low_World,0.20,0.08,0.12,0.18
+Mid_World,0.45,0.25,0.40,0.55
+High_World,0.35,0.60,0.75,0.90
+Nine reasonable point estimates (ordered):
+8 %, 12 %, 18 %, 25 %, 40 %, 55 %, 60 %, 75 %, 90 %
+From this set the empirical percentiles are approximately:
+P10 ≈ 12 % P20 ≈ 18 % P30 ≈ 23 % P40 ≈ 32 %
+P50 ≈ 40 % P60 ≈ 48 % P70 ≈ 58 % P80 ≈ 68 % P90 ≈ 83 %
+The 50th-percentile (40 %) is my central estimate.
+I nudge it up slightly (recency decay tends to favour newer, higher forecasts and the threshold is strictly >95 %) to arrive at:
+Probability: 43 %
+R1: Forecaster 2 Reasoning
+Time left
+• 10 days 3–19 h until the snapshot at 2025-09-27 00:23 UTC.
+Status-quo outcome if nothing changed
+• Community prediction = 95.00 %. Because the criterion is “strictly higher than 95 %”, the status-quo would resolve No.
+Expectations of experts & markets
+• Underlying event (IBEX 35 > 11 595 on 31-Dec-2025) now looks ≥97 % likely: the index trades around 15 100, >30 % above the threshold.
+• Commentary in the Spanish financial press is almost uniformly bullish; most sell-side targets for year-end sit between 15 400 and 16 000.
+• Nevertheless, several technicians warn of a short-term pull-back of 5-10 % before fresh highs.
+Quick “No” scenario (≤95 %)
+• A 3-4 % sell-off in global equities (e.g. Fed disappointment, geopolitics) drags the IBEX back toward 14 600.
+• A few new or highly-weighted Metaculus users trim their probabilities to the 85-94 % range.
+• Median recency-weighted forecast slips to 93-95 % or stays exactly at 95 %.
+Quick “Yes” scenario (>95 %)
+• IBEX grinds higher or merely stays firm; no evident catalyst for a crash materialises.
+• Additional forecasts come in at 96-99 % (typical when the outcome looks “all but locked”).
+• Small up-ticks in the right tail push the recency-weighted median to 95.1-97 %.
+────────────────────────
+Evidence buckets (≈ equal size)
+Bucket 1 – tilts lower
+• 16-Sep drop of -1.51 % below 15 200; banks under pressure.
+• Technical analysts calling for an 8-10 % “necessary correction”.
+• Fed meeting risk and talk of tighter financial conditions.
+Bucket 2 – neutral/central
+• Index still >15 100 after the dip, only 2 % shy of the recent high.
+• Rating upgrade of Spanish sovereign debt (S&P A → A+).
+• Consensus macro upgrades GDP-2025 from 2.6 % → 2.7 %.
+Bucket 3 – tilts higher
+• String of fresh 2025 highs; index +28 % YTD.
+• Majority of strategists now expect 15 800-16 000 before year-end.
+• Metaculus community already at the ceiling: 95 % is the 97th percentile of all binary questions.
+────────────────────────
+Multi-world reasoning
+Low_World (probability of ≥95 % perceived low)
+• Base rate (share of questions that stay ≥95 % over 10 days when now at 95 %): ≈35 %.
+• Low / Mid / High estimates of “Yes” in this world: 20 % / 30 % / 40 %.
+Mid_World (central view)
+• Base rate ≈50 %.
+• Low / Mid / High: 45 % / 55 % / 65 %.
+High_World (optimistic)
+• Base rate ≈70 %.
+• Low / Mid / High: 60 % / 70 % / 80 %.
+Reference CSV
+World_name,Base Rate,Low Forecast,Mid Forecast,High Forecast
+Low_World,0.35,0.20,0.30,0.40
+Mid_World,0.50,0.45,0.55,0.65
+High_World,0.70,0.60,0.70,0.80
+────────────────────────
+Ordered list of the nine reasonable forecasts
+20 %, 30 %, 40 %, 45 %, 55 %, 60 %, 65 %, 70 %, 80 %
+Percentile table (rough interpolation)
+P10 23 %
+P20 30 %
+P30 38 %
+P40 45 %
+P50 55 %
+P60 58 %
+P70 63 %
+P80 69 %
+P90 78 %
+The median (55 %) is very close to the centre of mass. I shave 1-2 pts off to reflect:
+• The boundary condition “> 95 %” (ties lose).
+• Slight bias for bad news to move medians more than good news at extreme confidence.
+Probability: 54 %
+R1: Forecaster 3 Reasoning
+Time remaining
+10 days + ≈8 hours until the snapshot is taken on 2025-09-27 00:23 UTC.
+Status-quo outcome if nothing changed
+Community prediction = 95.00 %.  Because “higher than 95.00 %” is required, today the question would resolve to No.
+Expectations of experts and markets
+• Underlying event (IBEX 35 finishes 2025 above 11 595) now looks ≥97 % likely.
+• With only 3½ months left and the index ≈15 200 ( +31 % vs threshold), most sell-side notes and press pieces present a bullish or at least neutral outlook.
+• On Metaculus, high-confidence binary questions typically drift upward as resolution nears unless contrary news appears. Medians above 95 % are common once risk looks tiny, and jumps of ≈1 pp over one week happen frequently when the vote count is modest.
+One plausible No scenario
+A sharp global risk-off episode (Fed mis-communication, geopolitical flare-up) knocks the IBEX down >8 % in a few sessions. Commentators revive “buy-the-dip later” language; several forecasters refresh and push their probabilities into the high 80s/low 90s. Median slides to 93–94 %.
+One plausible Yes scenario
+Markets stay calm or rebound, the IBEX trades sideways–up, fresh forecasts trickle in at 97–99 %, and the recency-weighted median edges to 95.4–97 %.
+
+Evidence buckets (≈equal size)
+Bucket 1 – points to a lower community forecast
+• 16 Sep sell-off: IBEX −1.5 %, banks weak.
+• Technical analysts call for an 8–10 % “needed correction”.
+• Headlines such as “Ibex facing its ‘fire test’” and “Ibex falls below 15 200”.
+• Macro uncertainty around upcoming Fed meeting.
+Bucket 2 – points to a central/steady forecast
+• Index still >15 100 after the dip, only ~5 % below YTD peak.
+• Government lifts 2025 GDP forecast; S&P upgrades Spain to A+.
+• Mixed but broadly resilient European/US equity tone.
+• Commentary that the bullish trend is intact but due a pause.
+Bucket 3 – points to a higher community forecast
+• Multiple stories of “Ibex nears 16 000 record”, “best performer in EU”, “analysts target 15 798”.
+• 2025 gain already ≈33 %; little time remains for a -27 % crash.
+• Fed rate-cut expectations, strong earnings, and rating upgrade add to positive backdrop.
+• Historical Metaculus behaviour: once a question sits at 95 % with little time left, upward creep is more common than a reversal.
+
+Multi-world reasoning
+World 1: Low_World (uses Bucket 1)
+Base-rate for “>95 %” given current 95 % and mild risk-off: 30 %
+Forecast range: 25 % – 38 % (mid 32 %)
+World 2: Mid_World (uses Bucket 2)
+Base-rate: 55 %
+Range: 45 % – 65 % (mid 55 %)
+World 3: High_World (uses Bucket 3)
+Base-rate: 78 %
+Range: 66 % – 85 % (mid 78 %)
+Reference CSV
+World_name,Base Rate,Low Forecast,Mid Forecast,High Forecast
+Low_World,0.30,0.25,0.32,0.38
+Mid_World,0.55,0.45,0.55,0.65
+High_World,0.78,0.66,0.78,0.85
+Ordered nine reasonable estimates
+25 %, 32 %, 38 %, 45 %, 55 %, 65 %, 66 %, 78 %, 85 %
+Simple percentile mapping (interpolated)
+P10 28 %
+P20 34 %
+P30 41 %
+P40 48 %
+P50 60 %
+P60 65 %
+P70 70 %
+P80 76 %
+P90 83 %
+The 50th-percentile sits at 60 %, but skew toward the upper tail (market momentum plus Metaculus drift) justifies nudging higher. Balancing the risk of a temporary pullback against the tiny mechanical move needed (>95.00 by even 0.01 pp), I place the final probability a bit above the 70th percentile.
+Probability: 71 %
+R1: Forecaster 4 Reasoning
+Time left
+• 10 days 9 h until the Metaculus snapshot at 2025-09-27 00:23 UTC.
+Status-quo outcome if nothing changed
+• The community median is exactly 95.00 %. Because the bar is “> 95.00 %”, the status-quo resolves to No.
+Expectations of experts & markets
+• IBEX-35 is > 30 % above the 11 595 level that would negate the underlying Metaculus question.
+• Equity strategists view the chance of a 30 %-plus crash in the remaining 3½ months as very small (≈2-4 %).
+• A Bayesian “fundamental” probability for the underlying event is therefore in the 96-98 % range.
+• Metaculus medians, however, often plateau near the round number 95 % until the tail risk looks truly negligible.
+Scenario sketch → No (≤ 95 %)
+A 3-5 % sell-off in global equities before 27 Sep (e.g., hawkish Fed, geopolitics) revives crash narratives.
+A few active forecasters trim their odds to 90-93 %; with recency weighting, the median ticks down to 93-94.
+Or nothing at all happens and the median simply sticks at 95.00 %.
+Scenario sketch → Yes (> 95 %)
+IBEX marks fresh highs or remains steady; new forecasts come in at 97-99 % reflecting the shrinking calendar.
+Decay of old, lower-probability forecasts allows the weighted median to creep up to 95.1-96 %.
+Evidence buckets (≈ one-third each)
+Bucket 1 – points to a lower forecast
+• 1.5 % IBEX drop on 16 Sep; technicians calling for an 8-10 % correction.
+• Rising bond yields & uncertainty ahead of the Fed.
+• Several articles headline “Ibex facing its fire test”.
+Bucket 2 – points to a higher forecast
+• Index still ~15 100 (≈+31 % YTD, +41 % vs 11 595).
+• Spain’s growth forecast raised; S&P upgrades sovereign rating.
+• Analysts set targets near the 2007 record, some > 16 000.
+Bucket 3 – central / balancing evidence
+• Mixed day-to-day moves ±1 %.
+• Commentators note both upside momentum and need for a pull-back.
+• The Metaculus median already at a psychologically sticky 95 %.
+Multi-world reasoning (1 % precision)
+Low_World (bearish narrative dominates)
+– Base rate ≈ 30 %
+– Low 5 % | Mid 10 % | High 20 %
+Mid_World (index stable, inertia rules)
+– Base rate ≈ 30 %
+– Low 25 % | Mid 45 % | High 60 %
+High_World (bullish narrative dominates)
+– Base rate ≈ 40 %
+– Low 60 % | Mid 75 % | High 90 %
+Reference CSV
+World_name,Base Rate,Low Forecast,Mid Forecast,High Forecast
+Low_World,0.30,0.05,0.10,0.20
+Mid_World,0.30,0.25,0.45,0.60
+High_World,0.40,0.60,0.75,0.90
+Nine reasonable point estimates (ordered)
+5 %, 10 %, 20 %, 25 %, 45 %, 60 %, 60 %, 75 %, 90 %
+Approximate forecast-distribution percentiles
+P10  ≈ 8 %
+P20  ≈ 16 %
+P30  ≈ 22 %
+P40  ≈ 30 %
+P50  ≈ 46 %
+P60  ≈ 55 %
+P70  ≈ 63 %
+P80  ≈ 72 %
+P90  ≈ 85 %
+Reflection & final adjustment
+• The 50th-percentile (46 %) captures both the stickiness of 95 % and the modest upward pull from fundamentals.
+• Small-n forecast activity on Metaculus makes a single high-confidence update enough to nudge the median, so I lean a few points above the raw median.
+Probability: 48 %
+R1: Forecaster 5 Reasoning
+Time remaining until the trigger-time on Metaculus (2025-09-27 00:23 UTC): ≈ 11 days + 5 hours.
+Status-quo outcome if nothing changed
+• Community prediction is 95.00 %.
+• “Higher than 95.00 %” would therefore resolve NO.
+Expectations of experts & markets
+• Index is ≈ 15 160 – already > 30 % above the 11 595 resolution threshold.
+• Consensus among strategists is that IBEX 35 finishes 2025 well above the start level, but most still leave a low-single-digit crash risk on the table.
+• Typical Metaculus behaviour: mid-90s forecasts three months from resolution rarely exceed 97–98 % and often hover around 93–96 %.
+Scenario that yields a NO (≤ 95 %)
+• A 3–6 % equity pull-back over the next week (Fed disappointment, euro-area macro wobble, Spanish bank sell-off).
+• A handful of fresh, cautious forecasts (e.g., 85–90 %) enter, nudging the recency-weighted median down or keeping it at 95.
+Scenario that yields a YES (> 95 %)
+• Index holds steady or rebounds, headlines focus on “approaching record highs”.
+• New or updated forecasts cluster at 97–100 % as forecasters price in the shrinking time window for a 27 %+ crash, lifting the weighted median to 96–97 %.
+Grouping the evidence
+Bucket 1 – pushes the forecast lower
+• 1.5 % drop on 16 Sep; analyst talk of an 8–10 % “necessary correction”.
+• Rising euro-area wages, higher yields; Lagarde: “disinflation process is over”.
+• Banks leading declines, risk sentiment ahead of Fed.
+Bucket 2 – points to a central/stable forecast
+• Index still > 15 k; Spain growth upgrade to 2.7 %.
+• Fed cut largely priced in; most commentary is “buy-the-dip” but warns of volatility.
+• Typical Metaculus inertia; median often sticks around round numbers (94–96 %).
+Bucket 3 – pushes the forecast higher
+• IBEX up 27 – 33 % YTD; S&P upgrades Spain’s rating to A+; experts target 16 000.
+• Very large cushion above 11 595; three months left, but a 30 %+ crash in that time is historically < 3 % likely.
+• As resolution draws nearer, Metaculus medians for “safe” equity-index questions tend to drift up a few points.
+Multi-world reasoning (probability that CP > 95 % on 27 Sep)
+Low_World (weight ≈ 25 %) – sentiment sours, small sell-off
+• Base rate for > 95 %: 10 %
+• Low = 5 %, Mid = 10 %, High = 15 %
+Mid_World (weight ≈ 50 %) – status quo holds
+• Base rate for > 95 %: 45 %
+• Low = 35 %, Mid = 45 %, High = 55 %
+High_World (weight ≈ 25 %) – index grinds higher, optimism grows
+• Base rate for > 95 %: 80 %
+• Low = 70 %, Mid = 80 %, High = 90 %
+Reference CSV
+World_name,Base Rate,Low Forecast,Mid Forecast,High Forecast
+Low_World,0.10,0.05,0.10,0.15
+Mid_World,0.45,0.35,0.45,0.55
+High_World,0.80,0.70,0.80,0.90
+Ordered pool of nine plausible probabilities:
+5 %, 10 %, 15 %, 35 %, 45 %, 55 %, 70 %, 80 %, 90 %
+Mapping to a rough subjective distribution (P10-P90):
+P10 ≈ 10 %
+P20 ≈ 18 %
+P30 ≈ 28 %
+P40 ≈ 38 %
+P50 ≈ 46 %
+P60 ≈ 55 %
+P70 ≈ 65 %
+P80 ≈ 75 %
+P90 ≈ 85 %
+Median (P50) gives 46 %.
+Adjustments: • Slight upward drift typical for high-confidence stock-index questions as time passes; • Only a +0.01 move is needed for YES; • Yet round-number “95 % anchoring” and possibility of a brief dip balance that.
+Final judgement (1 % precision):
+Probability: 56 %
+R1: Forecaster 6 Reasoning
+Time left
+• 10 days + ≈5 hours until the snapshot at 2025-09-27 00:23:50 UTC.
+Status-quo outcome if nothing changed
+• Community prediction = 95.00 %.  Because the criterion is “higher than 95.00 %”, an unchanged value resolves to No.
+Expectations of experts and markets
+• Index level: ~15 160, ≈31 % above the January-02 close (11 595).
+• Sell-side and press commentary remains bullish to neutral; virtually no analyst thinks the IBEX will finish 2025 below the starting level.
+• Therefore almost every well-informed observer already assigns ≥90 % odds to the underlying event. Additional bullish news has diminishing impact on an already-optimistic community median.
+A brief No scenario (≤95 %)
+• Global risk-off move (Fed surprises, sharp drop in Euro-banks, geopolitics) knocks IBEX down 4–7 % in a few sessions; fresh forecasters join and push the median down a point or two.
+• Or simply no one feels comfortable raising a near-ceiling probability, so the median drifts sideways at 94–95 %.
+A brief Yes scenario (>95 %)
+• IBEX rallies or stays firm; no obvious catalysts for large downside appear; a handful of high-reputation users nudge their forecasts from 95→97 %.
+• Small upward recency-weighting effect pushes the community median to 95.1–96 %.
+
+Evidence buckets (≈equal size)
+Bucket 1 – Pulling the forecast lower
+• 15 163 close is 1.5 % below Monday’s print, showing volatility.
+• Technical analysts keep calling for an 8–10 % correction.
+• Fed and ECB rhetoric still a potential negative catalyst.
+• Recent one-day −1.5 % fall highlights fragility.
+Bucket 2 – Central / mixed
+• Index remains >30 % above the Jan start even after pull-back.
+• Government lifts 2025 growth forecast; S&P upgrades Spain to A+.
+• Banking sector wobbling but still strong YTD.
+• Community median historically sticky during final weeks of a question.
+Bucket 3 – Pulling the forecast higher
+• Multiple stories of “Ibex near record, on track to break 16 000”.
+• Consensus research targets 15 400–15 800, well clear of 11 595.
+• Spain macro beats (GDP, rating) reinforce bullish thesis.
+• Metaculus questions with >94 % at T-10 days often drift slightly up.
+
+Multi-world reasoning (1 % precision)
+Low_World (Bucket 1 dominates)
+Base rate (share of time CP rises above 95 when now at 95)……30 %
+Low estimate……15 %
+Mid estimate……20 %
+High estimate……25 %
+Mid_World (Bucket 2 dominates)
+Base rate……………………………………………………………………50 %
+Low estimate……40 %
+Mid estimate……50 %
+High estimate……60 %
+High_World (Bucket 3 dominates)
+Base rate……………………………………………………………………70 %
+Low estimate……65 %
+Mid estimate……80 %
+High estimate……90 %
+Reference CSV
+World_name,Base Rate,Low Forecast,Mid Forecast,High Forecast
+Low_World,0.30,0.15,0.20,0.25
+Mid_World,0.50,0.40,0.50,0.60
+High_World,0.70,0.65,0.80,0.90
+
+Ordered list of the 9 point estimates
+15 %, 20 %, 25 %, 40 %, 50 %, 60 %, 65 %, 80 %, 90 %
+Interpolated distribution (P10…P90)
+Percentile,Probability
+P10,18 %
+P20,23 %
+P30,30 %
+P40,39 %
+P50,50 %
+P60,57 %
+P70,66 %
+P80,77 %
+P90,86 %
+Median of this range is 50 %.
+Adjustment considerations
+• Status-quo at exactly the threshold biases slightly toward “No”.
+• Near-ceiling reluctance effect (forecasters hesitate to exceed 95 %).
+• Only 10 days of potential news flow.
+Down-weighting the very bullish tail, I shave 2 ppt off the 50 % median.
+Probability: 48%
+R1: Forecaster 7 Reasoning
+Time remaining
+11 days (from 2025-09-16 to the Metaculus snapshot at 2025-09-27 00:23 UTC).
+Status-quo outcome if nothing changes
+Community prediction is exactly 95.00 %. If no new votes arrive or if up-and-down edits cancel out, the question will resolve No (because it must be strictly higher than 95 %).
+What experts & markets imply
+•  The IBEX 35 is ≈31 % above the early-2025 reference level, so the economic chance of finishing 2025 higher than it started is extremely high (≈95 – 98 % in most sell-side notes).
+•  Over a mere 11-day window the underlying fundamentals are unlikely to change drastically.
+•  Metaculus experience: once a binary CP reaches the mid-90s it tends to drift sideways or slightly downward more often than it drifts higher, largely because there is only 5 % head-room but 95 % room below, and because a few contrarian forecasts can move a heavy-tail median downward by ≥0.01.
+Scenario that yields a No (≤95 %)
+A modest Spanish- or global-equity pull-back (e.g., Fed disappointment, sudden risk-off) triggers a handful of bearish edits. Even a –0.005 move in the internal score can drop the displayed value to 94.9 %, resolving No.
+Scenario that yields a Yes (>95 %)
+IBEX jumps to fresh all-time highs or news further de-risks the year-end outlook (e.g., dovish Fed + upbeat Spanish macro data). A few high-weight forecasters nudge their probabilities from the 90s to 97–99 %, pushing the weighted median above 0.9500.
+
+Evidence buckets (≈ one-third each)
+Bucket 1 – pushes lower CP
+•  15 % one-day IBEX correction on 9-16; talk of an “8–10 % pull-back needed.”
+•  Technical commentary (“fire-test”, “wait for a scare”).
+•  Articles noting stretched valuations and limited upside.
+Bucket 2 – pushes higher CP
+•  Index near record, +28 % YTD; Spanish growth forecast raised.
+•  S&P upgrades sovereign rating.
+•  Broad expectation of Fed rate cut – supportive for equities.
+Bucket 3 – neutral / central
+•  Mixed daily swings (15 395 on 9-15, 15 163 on 9-16).
+•  Most commentaries still see upside but warn of volatility.
+•  Only 11 days for sentiment to shift.
+
+Multi-world reasoning
+Low_World (weight ≈35 %) – market wobble dominates
+Base rate 35 %
+Low forecast 25 %
+Mid forecast 35 %
+High forecast 45 %
+Mid_World (weight ≈45 %) – mostly status quo
+Base rate 45 %
+Low forecast 40 %
+Mid forecast 50 %
+High forecast 60 %
+High_World (weight ≈20 %) – fresh highs, optimism rises
+Base rate 20 %
+Low forecast 55 %
+Mid forecast 65 %
+High forecast 75 %
+Reference CSV
+World_name,Base Rate,Low Forecast,Mid Forecast,High Forecast
+Low_World,35,25,35,45
+Mid_World,45,40,50,60
+High_World,20,55,65,75
+Ordered set of the nine estimates: 25, 35, 40, 45, 50, 55, 60, 65, 75
+Approximate percentile table of reasonable forecasts
+Percentile,Probability
+P10,29 %
+P20,35 %
+P30,40 %
+P40,45 %
+P50,50 %
+P60,53 %
+P70,57 %
+P80,61 %
+P90,70 %
+The median of the distribution is 50 %. I discount this slightly (−7 pp) for the asymmetric head-room (0-5 % up, 0-95 % down) and for the historical tendency of mid-90s CPs to drift lower rather than higher over short windows.
+Probability: 43 %
+R1: Forecaster 8 Reasoning
+Time until the snapshot:
+• 10 days + 8 hours + ab 0 min (from 2025-09-16 16:00 UTC to 2025-09-27 00:23 UTC) ≈ 248 hours.
+Status-quo outcome if nothing changed
+• Community prediction = 95.00 % → would NOT be “higher than 95 %” → the question would resolve No.
+Expectations of experts & markets
+• The IBEX 35 is ≈31 % above its 2025 opening level (15 163 vs. 11 595).
+• Economic backdrop: Spain’s 2025 growth forecast raised, S&P upgraded Spain to A+.
+• Analysts still flag the possibility of an 8–10 % “healthy correction” before year-end.
+• Net takeaway: underlying event (Ibex higher at year-end) is viewed as very likely but not risk-free.
+Scenario producing a ‘No’ on 27 Sep
+• The median forecast drifts down or is unchanged (≤ 95 %) because
+– A market pull-back, hawkish Fed, or geopolitical scare spurs a few new 80-90 % forecasts;
+– Few or no new >95 % entries arrive, leaving the recency-weighted median at or below 95 %.
+Scenario producing a ‘Yes’ on 27 Sep
+• The Ibex holds its gains or rebounds toward 15 400;
+• At least one or two active forecasters update to 96–98 %, nudging the recency-weighted median above 95 %;
+• Absence of significant bearish updates keeps the tail of low probabilities thin.
+––––––––––––––––––––––––––––––
+Evidence buckets (≈ third each)
+Bucket 1 – points to a lower forecast
+• 1.5 % Ibex drop on 16 Sep, banking sector weakness.
+• Analysts warn of an 8–10 % correction toward 14 000.
+• Global risk-off days (Eurostoxx, DAX also falling).
+• Fed uncertainty; higher euro could sap exporters.
+Bucket 2 – points to a higher forecast
+• Ibex up >30 % YTD and still ≈31 % above the threshold.
+• Spain’s GDP upgrade, rating upgrade to A+.
+• Technical break of 15 180, target set near all-time high.
+• Consensus commentary that the main trend is still bullish.
+Bucket 3 – neutral/central evidence
+• Mixed daily swings (15 400 → 15 160) without changing medium-term picture.
+• Fed rate cut largely priced in but timing uncertain.
+• Forecast community inertia: many forecasters may simply leave their 95 % calls unchanged.
+––––––––––––––––––––––––––––––
+Multi-world estimates (1 % granularity)
+Low_World (Bucket 1 dominates)
+Base-rate 25 % | Low 10 % | Mid 20 % | High 30 %
+Mid_World (Bucket 3 dominates)
+Base-rate 45 % | Low 35 % | Mid 45 % | High 55 %
+High_World (Bucket 2 dominates)
+Base-rate 70 % | Low 60 % | Mid 70 % | High 80 %
+Reference CSV
+World_name,Base Rate,Low Forecast,Mid Forecast,High Forecast
+Low_World,25,10,20,30
+Mid_World,45,35,45,55
+High_World,70,60,70,80
+Ordered list of the nine point estimates
+10, 20, 30, 35, 45, 55, 60, 70, 80 %
+Percentile sketch (rounded)
+P10 ≈ 18 % | P20 ≈ 25 % | P30 ≈ 30 % | P40 ≈ 38 % |
+P50 ≈ 47 % | P60 ≈ 53 % | P70 ≈ 60 % | P80 ≈ 67 % | P90 ≈ 76 %
+Median of the synthetic distribution is ~47 %.
+Adjustments:
+• Historical reluctance of Metaculus medians to exceed 95 % months before resolution.
+• Only 10 days for sentiment to shift; community activity is often low mid-question.
+• Down-moves (keeping ≤ 95) are slightly more plausible than the incremental up-move needed for >95.
+After weighting those factors, I trim the 47 % central tendency downward by ~9 pp.
+Probability: 38 %

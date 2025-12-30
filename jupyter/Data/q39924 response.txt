@@ -1,0 +1,628 @@
+SUMMARY
+Question: Will the community prediction be higher than 6.00% on 2025-09-25 for the Metaculus question "Will Spirit Airlines emerge from Chapter 11 bankruptcy before 2026?"?
+Final Prediction: 25.5%
+Total Cost: $0
+Time Spent: 1.43 minutes
+Report 1 Summary
+Forecasts
+Forecaster 1: 24.0%
+Forecaster 2: 23.0%
+Forecaster 3: 26.0%
+Forecaster 4: 27.0%
+Forecaster 5: 29.0%
+Forecaster 6: 22.0%
+Forecaster 7: 33.0%
+Forecaster 8: 25.0%
+Research Summary
+Spirit Airlines filed for Chapter 11 bankruptcy protection for the second time on August 29–30, 2025, less than six months after emerging from its prior restructuring in March 2025. CEO Dave Davis announced a comprehensive reorganisation focused on network optimisation—cutting overall capacity by about 25% for its November 2025 schedule, removing service to at least 12 cities, and negotiating with vendors and aircraft lessors to shrink the business. The restructuring includes furloughing roughly 270 pilots, demoting about 140 captains, and offering voluntary unpaid leaves to flight attendants. Since exiting Chapter 11 in March, Spirit has reported losses of approximately $245–257 million through mid-2025, carries about $2.4 billion in long-term debt, and has warned of “substantial doubt” about its ability to continue as a going concern without fresh funding.
+The carrier’s financial distress has prompted rivals such as Frontier and JetBlue to expand into former Spirit markets, while United’s CEO publicly predicted Spirit’s collapse and declared the low-cost model unsustainable. An incident in mid-September 2025, when a Spirit flight drifted dangerously close to Air Force One, underscored ongoing operational strains. Despite efforts to rebrand with bundled fares and new premium options, Spirit’s stock has tumbled—down more than 40% on one trading day—and its liquidity crunch has led it to engage advisers for strategic options.
+Sources used:
+https://skift.com/2025/09/17/spirit-airlines-prepares-for-job-losses-as-it-expects-to-reduce-flights/
+https://www.dailymail.co.uk/yourmoney/consumer/article-15109633/spirit-airlines-cuts-quarter-flights-bankruptcy.html
+https://fxnews24.co.uk/market/spirit-ceo-says-airline-will-slash-flights-could-cut-jobs/
+https://townhall.com/tipsheet/amy-curtis/2025/09/17/spirit-airlines-too-close-to-air-force-one-n2663520
+https://econotimes.com/Spirit-Airlines-to-Cut-Jobs-and-Reduce-Flights-Amid-Second-Restructuring-in-2025-1720945
+https://www.upi.com/Top_News/US/2025/08/30/Spirit-files-bankruptcy-6-months-emerging-Chapter-11/9441756580218/
+https://www.noticiasrcn.com/economia/aerolinea-spirit-se-declara-en-quiebra-por-segunda-vez-929299
+https://www.dw.com/es/aerol%C3%ADnea-spirit-se-acoge-a-quiebra-por-segunda-vez-en-un-a%C3%B1o/a-73817350
+https://www.cbsnews.com/news/spirit-airlines-bankruptcy-second-time/
+https://freeamericanetwork.com/spirit-airlines-files-for-chapter-11-bankruptcy-protection-for-the-second-time-in-a-year/
+https://www.the-sun.com/travel/15199264/scott-kirby-united-airlines-spirit-bankruptcy-buy/
+https://www.dallasnews.com/business/airlines/2025/08/29/us-no-frills-pioneer-spirit-airlines-seeks-second-bankruptcy-in-months/
+https://www.wsls.com/business/2025/08/12/spirit-airlines-sounds-the-alarm-on-its-future-ability-to-stay-in-business/
+https://www.al.com/business/2025/09/after-34-years-delta-is-cancelling-flights-to-this-destination.html
+https://www.gurufocus.com/news/3077145/spirit-airlines-scrambles-for-lifeline-after-cash-crunch
+RESEARCH
+Report 1 Research
+Here are the relevant news articles:
+Spirit Airlines Prepares for Job Cuts as It Expects to Reduce Flights
+Spirit Airlines is preparing to cut jobs and reduce its flight capacity by 25% as it enters a second round of Chapter 11 bankruptcy, according to the company’s announcement. The airline is implementing significant cost‑reductions, including furloughs and network cuts, to address ongoing financial instability and the risk of ceasing operations without new funding. Competitors such as Frontier and JetBlue are capitalising on Spirit’s retreat from certain markets, further intensifying the airline’s challenges.
+Original language: en
+Publish date: September 18, 2025 02:47 AM
+Source:Skift
+Holiday travel nightmare looms as US airline cuts a quarter of flights
+Spirit Airlines is slashing 25 % of its flights for the November schedule, a move announced by CEO Dave Davis in a memo to employees. The cuts are part of a broader cost‑cutting effort following a second bankruptcy filing in August and a prior 25 % reduction when the carrier emerged from bankruptcy in March. The airline has already furloughed 270 pilots and demoted 140 others in July. Spirit has lost nearly $257 million since March and is now seeking to shrink itself to survive. The company is also planning to file for bankruptcy again after a failed merger with JetBlue, and union officials warned that the upcoming bankruptcy will be "much more difficult" than the last one. The airline’s network will see the removal of routes to 12 cities—including Albuquerque, Birmingham, Boise, Chattanooga, Columbia, Portland, Salt Lake City, Oakland, San Diego, Sacramento and San Jose—though the specific November cuts have not yet been announced. The timing of the cuts could disrupt holiday travel, as the airline’s November schedule will be cut by 25 % and the company is in talks with union leaders about further job cuts. The article cites Spirit’s financial losses, the failed merger talks, and the competitive pressure from United, Frontier and JetBlue as key factors driving the airline’s restructuring.
+Key metrics: 25 % flight reduction, 270 pilots furloughed, 140 pilots demoted, $257 million loss since March, 12 cities cut, 25 % capacity reduction in March, second bankruptcy filing in August.
+Original language: en
+Publish date: September 18, 2025 02:28 AM
+Source:Daily Mail Online
+FXNEWS24 |Spirit CEO says airline will slash flights, could cut jobs | UK Forex Reviews
+Spirit Airlines is planning a 25% reduction in flight capacity for 2024 as part of a network optimisation, according to CEO Kevin Davis’s memo reviewed by CNBC. Davis wrote that the cuts would "inevitably affect the size of our teams as we become a more efficient airline" and that "these are the tough calls we must make to emerge stronger." The carrier is negotiating with vendors and aircraft lessors to shrink itself to a more stable footing. Spirit has already furloughed and demoted hundreds of pilots, and some flight attendants have taken voluntary unpaid leaves of absence. The airline emerged from bankruptcy in March 2024 after exchanging almost $800 million of debt for equity with bondholders. Since exiting Chapter 11, Spirit has reported a loss of nearly $257 million through the end of June.
+Original language: en
+Publish date: September 18, 2025 01:27 AM
+Source:fxnews24.co.uk
+Air Traffic Control Yells at Spirit Flight After It Drifts Dangerously Close to Air Force One
+Air Traffic Control (ATC) repeatedly instructed Spirit Airlines flight 1300 to 'turn 20 degrees right' and warned the pilots that the aircraft was '8 miles' from Air Force One, which was en route to the U.K. The incident was captured on audio shared by Fox News. Spirit Airlines, which filed for Chapter 11 bankruptcy in August 2024, reported 'substantial doubt' about its ability to continue as a going concern for the next year, citing 'adverse market conditions' and weak demand for domestic leisure travel. The company’s shares fell more than 40% on Tuesday, closing at $2.10. Reuters reported that Spirit had laid off about 270 pilots and demoted 140 captains in July. The article ends with an editorial note encouraging readers to support Townhall's conservative reporting.
+Original language: en
+Publish date: September 17, 2025 08:45 PM
+Source:Townhall
+United CEO declares death of low-cost flights
+United Airlines CEO Scott Kirby sparked controversy on September 10, 2025, when he predicted the collapse of Spirit Airlines and declared the era of ultra‑low‑cost flying was ending. Kirby said, 'Because I'm good at math,' to explain why he believes Spirit will fail, during a Q&A at the Airline Passenger Experience Association conference in Long Beach, California. He has long criticized discount carriers for relying on growth that he says is unsustainable, and he warned that a model that 'predicated on'screw the customer' is doomed. Kirby also attacked Spirit’s business model at a separate event in Washington, DC, prompting backlash from Spirit’s social media, where a post read, 'Scott is finally right about something -- it is all about customers.'
+Spirit Airlines filed for Chapter 11 bankruptcy protection in August 2024 for the second time in a year, after failing to make significant changes during its first attempt. The airline, based in Florida and known for its bright yellow planes, emerged from bankruptcy in March 2024 after creditors approved a restructuring plan that wiped out all existing shares. Spirit now carries $2.4 billion in long‑term debt, most due in 2030, and reported a negative free cash flow of $1 billion at the end of the second quarter. In the same period, Spirit furloughed 270 pilots and demoted another 140 to cut costs.
+Spirit had previously sought a merger with Frontier Airlines in 2022, but JetBlue Airways outbid Frontier and the deal was later blocked by the Department of Justice for violating antitrust laws. The airline has struggled with losses and declining revenue since the pandemic and has not posted an annual profit since before the pandemic. Kirby’s comments reflect United’s broader criticism of the ultra‑low‑cost model, which includes carriers such as Frontier, Sun Country, Southwest, JetBlue and Allegiant, but United claims these competitors are more customer‑friendly.
+Original language: en
+Publish date: September 17, 2025 01:01 PM
+Source:Daily Mail Online
+Spirit Airlines to Cut Jobs and Reduce Flights Amid Second Restructuring in 2025 - EconoTimes
+Spirit Airlines is set to cut jobs and reduce flight capacity as part of its second restructuring in 2025. A staff memo from Chief Executive Dave Davis, reviewed by CNBC, states the airline will scale back its November schedule, with overall capacity expected to decline by about 25% in 2025. Davis explained that the restructuring aims to 'optimize' Spirit's network by focusing on stronger‑performing markets, and noted that these evaluations will inevitably affect the size of our teams as we become a more efficient airline. The move follows earlier capacity cuts from March through June, after Spirit exited its first bankruptcy. The airline has already begun cost‑management measures, including furloughs and demotions for hundreds of pilots and unpaid leave for many flight attendants. Spirit reported a $257 million loss between March and June, amid higher operating costs, softer U.S. travel demand, and increased competition, especially after its failed merger with JetBlue Airways. Analysts say the aggressive restructuring highlights the challenges budget airlines face in a market where fuel costs, labor expenses, and consumer demand fluctuate. The carrier hopes that reducing routes and tightening operations will allow it to focus resources more effectively and rebuild profitability, while employees and travelers watch how the cuts will affect jobs, flight availability, and ticket prices in the coming months.
+Original language: en
+Publish date: September 18, 2025 03:37 AM
+Source:EconoTimes
+Spirit Airlines Prepares for Job Cuts as It Expects to Reduce Flights
+Spirit Airlines is preparing to cut jobs and reduce its flight capacity by 25% as it enters a second round of Chapter 11 bankruptcy, according to the company’s announcement. The airline is implementing significant cost‑reductions, including furloughs and network cuts, to address ongoing financial instability and the risk of ceasing operations without new funding. Competitors such as Frontier and JetBlue are capitalising on Spirit’s retreat from certain markets, further intensifying the airline’s challenges.
+Original language: en
+Publish date: September 18, 2025 02:47 AM
+Source:Skift
+Holiday travel nightmare looms as US airline cuts a quarter of flights
+Spirit Airlines is slashing 25 % of its flights for the November schedule, a move announced by CEO Dave Davis in a memo to employees. The cuts are part of a broader cost‑cutting effort following a second bankruptcy filing in August and a prior 25 % reduction when the carrier emerged from bankruptcy in March. The airline has already furloughed 270 pilots and demoted 140 others in July. Spirit has lost nearly $257 million since March and is now seeking to shrink itself to survive. The company is also planning to file for bankruptcy again after a failed merger with JetBlue, and union officials warned that the upcoming bankruptcy will be "much more difficult" than the last one. The airline’s network will see the removal of routes to 12 cities—including Albuquerque, Birmingham, Boise, Chattanooga, Columbia, Portland, Salt Lake City, Oakland, San Diego, Sacramento and San Jose—though the specific November cuts have not yet been announced. The timing of the cuts could disrupt holiday travel, as the airline’s November schedule will be cut by 25 % and the company is in talks with union leaders about further job cuts. The article cites Spirit’s financial losses, the failed merger talks, and the competitive pressure from United, Frontier and JetBlue as key factors driving the airline’s restructuring.
+Key metrics: 25 % flight reduction, 270 pilots furloughed, 140 pilots demoted, $257 million loss since March, 12 cities cut, 25 % capacity reduction in March, second bankruptcy filing in August.
+Original language: en
+Publish date: September 18, 2025 02:28 AM
+Source:Daily Mail Online
+FXNEWS24 |Spirit CEO says airline will slash flights, could cut jobs | UK Forex Reviews
+Spirit Airlines is planning a 25% reduction in flight capacity for 2024 as part of a network optimisation, according to CEO Kevin Davis’s memo reviewed by CNBC. Davis wrote that the cuts would "inevitably affect the size of our teams as we become a more efficient airline" and that "these are the tough calls we must make to emerge stronger." The carrier is negotiating with vendors and aircraft lessors to shrink itself to a more stable footing. Spirit has already furloughed and demoted hundreds of pilots, and some flight attendants have taken voluntary unpaid leaves of absence. The airline emerged from bankruptcy in March 2024 after exchanging almost $800 million of debt for equity with bondholders. Since exiting Chapter 11, Spirit has reported a loss of nearly $257 million through the end of June.
+Original language: en
+Publish date: September 18, 2025 01:27 AM
+Source:fxnews24.co.uk
+Air Traffic Control Yells at Spirit Flight After It Drifts Dangerously Close to Air Force One
+Air Traffic Control (ATC) repeatedly instructed Spirit Airlines flight 1300 to 'turn 20 degrees right' and warned the pilots that the aircraft was '8 miles' from Air Force One, which was en route to the U.K. The incident was captured on audio shared by Fox News. Spirit Airlines, which filed for Chapter 11 bankruptcy in August 2024, reported 'substantial doubt' about its ability to continue as a going concern for the next year, citing 'adverse market conditions' and weak demand for domestic leisure travel. The company’s shares fell more than 40% on Tuesday, closing at $2.10. Reuters reported that Spirit had laid off about 270 pilots and demoted 140 captains in July. The article ends with an editorial note encouraging readers to support Townhall's conservative reporting.
+Original language: en
+Publish date: September 17, 2025 08:45 PM
+Source:Townhall
+United CEO declares death of low-cost flights
+United Airlines CEO Scott Kirby sparked controversy on September 10, 2025, when he predicted the collapse of Spirit Airlines and declared the era of ultra‑low‑cost flying was ending. Kirby said, 'Because I'm good at math,' to explain why he believes Spirit will fail, during a Q&A at the Airline Passenger Experience Association conference in Long Beach, California. He has long criticized discount carriers for relying on growth that he says is unsustainable, and he warned that a model that 'predicated on'screw the customer' is doomed. Kirby also attacked Spirit’s business model at a separate event in Washington, DC, prompting backlash from Spirit’s social media, where a post read, 'Scott is finally right about something -- it is all about customers.'
+Spirit Airlines filed for Chapter 11 bankruptcy protection in August 2024 for the second time in a year, after failing to make significant changes during its first attempt. The airline, based in Florida and known for its bright yellow planes, emerged from bankruptcy in March 2024 after creditors approved a restructuring plan that wiped out all existing shares. Spirit now carries $2.4 billion in long‑term debt, most due in 2030, and reported a negative free cash flow of $1 billion at the end of the second quarter. In the same period, Spirit furloughed 270 pilots and demoted another 140 to cut costs.
+Spirit had previously sought a merger with Frontier Airlines in 2022, but JetBlue Airways outbid Frontier and the deal was later blocked by the Department of Justice for violating antitrust laws. The airline has struggled with losses and declining revenue since the pandemic and has not posted an annual profit since before the pandemic. Kirby’s comments reflect United’s broader criticism of the ultra‑low‑cost model, which includes carriers such as Frontier, Sun Country, Southwest, JetBlue and Allegiant, but United claims these competitors are more customer‑friendly.
+Original language: en
+Publish date: September 17, 2025 01:01 PM
+Source:Daily Mail Online
+After 34 years, Delta is cancelling flights to this destination
+Delta Airlines will end its 34‑year nonstop service between New York‑JFK and Brussels, with the last flight scheduled for Jan. 5, 2026 from JFK and Jan. 6, 2026 from Brussels. The carrier will shift its Brussels service to Atlanta beginning March 8, 2026 to better match customer demand, as stated by a Delta spokesperson. The airline also apologised for any inconvenience. Meanwhile, Spirit Airlines has announced the termination of service in 12 cities following its second bankruptcy filing. The U.S. Bankruptcy Court approved Spirit’s Chapter 11 restructuring on Sept. 3, allowing it to continue operations, honour tickets, reservations, credits, loyalty points, wages, benefits and certain vendor payments. Spirit will discontinue service the week of Oct. 2 in the listed cities and cancel plans to launch service in Macon, Georgia, which was scheduled to begin in October.
+Original language: en
+Publish date: September 17, 2025 12:00 PM
+Source:al
+United Airlines CEO gives major update on bid to purchase struggling rival
+United Airlines CEO Scott Kirby confirmed on Tuesday that United will not acquire assets from Spirit Airlines, dismissing speculation that United might rescue the bankrupt carrier.  'It's not in our wheelhouse,' Kirby told Reuters, explaining that each Spirit plane would need roughly $15 million in modifications to meet United's standards and that Spirit's slots—such as those at Fort Lauderdale—lack sufficient gates for United's operations.  United has begun operating new flights in markets where Spirit previously flew, giving customers alternatives if Spirit ceases service.  In late August 2025, Frontier Airlines announced a similar strategy, adding 20 new routes in former Spirit markets; Deutsche Bank analysts said Frontier profited from Spirit's bankruptcy.  Both United and Frontier face challenges from customer preference for premium options, an oversupply of domestic flights, and rising labor costs.  Spirit filed for Chapter 11 bankruptcy in August, its second filing within a year; after the filing, Spirit cut routes and staff, creating opportunities for rivals.  Kirby noted that 'If I dig deeper into it and I look at every airline that's not named United Airlines or Delta Airlines, I can find at every single one of them, a double‑digit percentage of their route network that loses money,' and argued that struggling airlines must 'stop flying to places that lose money.'  JetBlue had negotiated a merger with Spirit but abandoned the plan in March 2024.  Spirit will officially drop all routes to 11 airports from October 2.
+Original language: en
+Publish date: September 16, 2025 09:17 PM
+Source:The US Sun
+Spirit files for bankruptcy, 6 months after emerging from Chapter 11 - UPI.com
+Spirit Airlines announced on Aug. 30 2025 that it filed for Chapter 11 bankruptcy, less than six months after emerging from a prior restructuring. The carrier said it is "executing a comprehensive restructuring of the airline to position the business for long‑term success." It confirmed that operations would continue, with a letter to guests stating "The most important thing to know is that Spirit continues to operate and offer high‑value travel options." The reorganization plan focuses on four areas: (1) redesigning the network to concentrate on key markets, (2) rightsizing the fleet to match profitable demand, (3) addressing the cost structure to build on its low‑cost model, and (4) offering three new travel options – Spirit First, Premium Economy and Value. Spirit plans to furlough about 270 pilots and downgrade 140 captains between Oct. 1 and Nov. 1, while maintaining a workforce of 11,000 employees. The airline reported a net loss of $245.8 million for Q2 2025, revenue of $1.02 billion – a 20 % decline from the previous year – and has 550 daily flights to 77 destinations. Spirit’s market share is 4.4 %, behind Delta (17.9 %), American (17.3 %), Southwest (16.3 %) and United (16.2 %). The company rejected acquisition proposals from Frontier and JetBlue and is pursuing a court‑supervised process to reduce debt and secure future growth.
+Original language: en
+Publish date: August 30, 2025 08:40 PM
+Source:UPI
+World‑renowned airline declares bankruptcy for the second time: what we know
+Spirit Airlines, the U.S. low‑cost carrier known for its bright yellow planes, has filed for Chapter 11 bankruptcy for the second time in less than a year, announcing the filing on August 29 2025. The airline had emerged from its first restructuring in March 2025 after reducing debt by about $800 million, but has since posted a net loss of roughly $246 million between March and June. Spirit has said that operations, ticket sales and reservations will continue normally during the reorganization. The company’s parent, Spirit Aviation Holdings, expressed 'dudas sustanciales' about its ability to keep operating next year. CEO Dave Davis, who took the helm in April 2025, described the current restructuring as 'integral' and aims to redesign the route network, optimise the fleet and realign strategy with market demands. As part of cost cuts, Spirit plans to suspend about 270 pilots and downgrade 140 captains to first officers, effective Oct 1 and Nov 1, linked to projected 2026 flight volume. The airline also may sell aircraft and real‑estate assets to raise liquidity. Flight operations are expected to continue uninterrupted, but the Association of Flight Attendants warned members to 'preparen para todos los escenarios posibles'.
+Original language: es
+Publish date: August 30, 2025 06:38 PM
+Source:Noticias RCN | Noticias de Colombia y el Mundo
+Spirit Airlines files for Chapter 11 bankruptcy protection for the second time in a year – FREE AMERICA NETWORK
+Spirit Airlines announced a second Chapter 11 filing, saying it will cut its network and shrink its fleet to save 'hundreds of millions of dollars' annually. CEO Dave Davis said in a news release that after emerging from a prior restructuring that focused on debt reduction and equity raising, the airline still needs more work and tools to position itself for the future. The company had entered bankruptcy in November 2023 and emerged in March 2024, but high operating costs and weak domestic demand have kept it struggling. Shares fell 72% in the last month. The airline’s aircraft lessors have approached rivals such as JetBlue and Frontier for potential purchases, and Spirit has tried to rebrand with bundled fares and premium seating, though competitors still benefit from larger networks and brand loyalty.
+Original language: en
+Publish date: August 30, 2025 01:52 PM
+Source:freeamericanetwork.com
+Spirit Airlines Files Chapter 11 Bankruptcy for Second Time
+Spirit Airlines, a low‑cost carrier operating domestic flights in the United States, announced on Friday, 29 August 2025, that it has filed for Chapter 11 bankruptcy for the second time in a year after a failed restructuring attempt. The airline carries a debt load exceeding US$2 billion and will continue to operate while it reorganises under the protection of the law. In a statement, Spirit said it intends to use the Chapter 11 process to implement the extensive changes needed to transition the company to a sustainable future and position it to offer the world’s best value in the coming years: 'Spirit pretende utilizar el proceso del Capítulo 11 para implementar los amplios cambios necesarios para hacer la transición de la compañía hacia un futuro sustentable y posicionarla para ofrecer el mejor valor del mundo en los próximos años'. The company will keep paying salaries and benefits to employees and contractors during the proceedings and has been in contact with key aircraft lessors, bondholders and other stakeholders. Spirit first filed for bankruptcy in November 2024 after an unsuccessful merger attempt; it emerged from court protection in March 2025 after exchanging almost US$800 million of corporate debt for equity, according to the Wall Street Journal. The airline had not renegotiated its aircraft lease contracts during the prior bankruptcy, leaving it with high lease costs and a debt load over US$2 billion, prompting the board to conclude that another Chapter 11 filing was necessary.
+Original language: es
+Publish date: August 30, 2025 01:25 AM
+Source:Deutsche Welle
+Spirit Airlines Files Second Chapter 11 Bankruptcy Amid Weak Leisure Demand
+Spirit Airlines, a U.S. low‑cost carrier, announced on August 29 2025 that it was filing for Chapter 11 bankruptcy for the second time, citing a slump in domestic leisure demand. The company had previously filed in November 2024 and emerged from bankruptcy in March 2025.  The new filing will see the airline shrink its network to major cities, sell some aircraft and cut lease debt.  CEO David Davis said in a statement, '前回の再編はスピリットの負債削減と自己資本調達にのみ焦点を当てた', and added that the second filing aims to sharply reduce operating costs.  Spirit’s 2025 fourth‑to‑sixth‑quarter loss was $245 million (≈¥36 billion), a widening deficit from the same period a year earlier.  The airline has struggled with weak leisure spending amid high tariffs and intense price competition from other LCCs.  Spirit has also pursued merger talks with Frontier Airlines and JetBlue since 2022, but those negotiations have repeatedly fallen through; Frontier re‑proposed a merger in January 2025, which Spirit rejected.  According to the Wall Street Journal, Davis met with Frontier’s chairman Franke a few days before filing for bankruptcy.
+Original language: ja
+Publish date: August 29, 2025 10:21 PM
+Source:日本経済新聞
+Spirit Airlines declares bankruptcy for second time in less than a year
+Spirit Airlines filed for Chapter 11 bankruptcy protection again on August 29 2025, less than a year after emerging from a prior reorganization. The carrier said it will continue normal operations, allowing passengers to book flights and use tickets, credits and loyalty points, and that employees and contractors will still be paid. CEO Dave Davis explained that the earlier Chapter 11 focused on debt reduction and capital raising, but "it has become clear that there is much more work to be done and many more tools are available to best position Spirit for the future." A quarterly report issued earlier this month noted the company has "substantial doubt" about its ability to continue as a going concern over the next year, a phrase that indicates a risk of running out of cash. Spirit cited adverse market conditions, weak demand for domestic leisure travel in the second quarter of its fiscal year, and uncertainties in its business operations that are expected to persist "for at least the remainder of 2025." Since the pandemic, the airline has lost more than $2.5 billion since 2020. After emerging from bankruptcy in March, Spirit restructured debt, secured new financing, and has since planned to furlough about 270 pilots and downgrade some 140 captains to first officers, effective Oct. 1 and Nov. 1, in line with its projected flight volume for 2026. The company also announced it may sell aircraft and real‑estate assets to raise cash. In response to competition from larger carriers, Spirit is testing tiered pricing, offering higher‑priced tickets with additional amenities. Despite being a young fleet, Spirit has attracted takeover interest from rivals such as JetBlue and Frontier, but those attempts have failed both before and during the bankruptcy process.
+Original language: en
+Publish date: August 29, 2025 09:58 PM
+Source:CBS News
+U.S. no-frills pioneer Spirit Airlines seeks second bankruptcy in months
+Spirit Airlines, the U.S. no‑frills carrier, filed for Chapter 11 bankruptcy again on August 29 2025 after a failed turnaround that began in March. The airline said flights, ticket sales, reservations and operations would continue, and that it was working productively with secured noteholders on potential future financing. CEO Dave Davis said, 'Since emerging from our previous restructuring, which was targeted exclusively on reducing Spirit's funded debt and raising equity capital, it has become clear that there is much more work to be done and many more tools are available to best position Spirit for the future.' The company had previously reduced debt by about $795 million and raised $350 million in equity. Its turnaround plan had aimed to shift from price‑conscious flyers to more affluent travelers, a move expected to lift revenue per passenger by 13 %. Spirit's troubles were compounded by a $3.8 billion merger collapse with JetBlue and engine issues that grounded many Airbus jets. After emerging from bankruptcy in March, the airline relisted its shares on the NYSE American but the stock fell 44 % in extended trading and it now expects its common stock to be delisted. The filing follows a history of losses, failed merger bids and mounting debt that led to its first bankruptcy in November 2023.
+Original language: en
+Publish date: August 29, 2025 09:53 PM
+Source:The Dallas Morning News
+Spirit Airlines Scrambles for Lifeline After Cash Crunch
+Spirit Airlines, which emerged from Chapter 11 bankruptcy in March 2024 after filing in November 2023, is now seeking a liquidity lifeline as its post‑bankruptcy recovery stalls.  The carrier has hired PJT Partners to map out strategic options and is also working with FTI Consulting and Seabury Airline Strategy Group.  Spirit has warned that without fresh cash it may struggle to meet its debt payments and could run out of runway within a year.  Its parent company, Spirit Aviation Holdings, has just secured approval to trade on the NYSE American exchange, hoping the listing will attract investor interest.  The Wall Street Journal reports that the financial reset has not yet delivered sufficient stability, leaving the airline’s future uncertain until advisers can secure the necessary capital or partners.
+Original language: en
+Publish date: August 25, 2025 08:30 PM
+Source:GuruFocus.com
+Spirit Airlines sounds the alarm on its future ability to stay in business
+Just months after emerging from Chapter 11 bankruptcy, Spirit Airlines has expressed 'substantial doubt' about its ability to continue as a going concern within the next year due to 'adverse market conditions' and 'uncertainties in its business operations.' The budget carrier pointed to weak demand for domestic leisure travel and rising operation costs as challenges it expects to face for at least the remainder of 2025. Spirit has struggled to bounce back to profitability and boost resources to compete with rivals since the COVID-19 pandemic, and has continued to make cost-cutting efforts, including plans to furlough 270 pilots and downgrade 140 captains to first officers. The company also stated that it may sell certain aircraft and real estate to increase liquidity. Spirit's shares tumbled more than 40% on Tuesday morning, trading at just over $1.80.
+Original language: en
+Publish date: August 12, 2025 03:37 PM
+Source:WSLS
+FORECASTS
+R1: Forecaster 1 Reasoning
+Time until observation: 7 days (≈ 168 hours)
+Status-quo if nothing changes: Community prediction (CP) stays at 6.00 % → resolves No.
+Expectations of experts & markets: No liquid market; aviation analysts and press uniformly pessimistic; no public indication of near-term exit.
+How we get a No: More bad headlines or simple inertia keep the median at 6 % or nudge it lower.
+How we get a Yes: A court document, DIP-financing deal, or optimistic analyst note sparks a few forecasters to raise odds, pushing the time-weighted median above 6 %.
+
+Evidence buckets (≈ equal size)
+Bucket 1 – Low-leaning
+• Second Chapter 11 in a year, “substantial doubt” about going concern.
+• 25 % flight cuts, pilot furloughs, route abandonments.
+• United CEO: “Spirit will fail.”
+• Shares < $2, heavy losses, search for cash.
+Bucket 2 – Central / neutral
+• Operations continue; bankruptcy court (Sept 3) allowed normal ticketing and loyalty programs.
+• Spirit emerged from first Chapter 11 in only 4 months earlier this year.
+• 15 months remain until 2026 deadline.
+• Management claims restructuring will make airline “stronger.”
+Bucket 3 – High-leaning
+• Court is already supervising the case; a pre-packaged plan could, in principle, be confirmed quickly.
+• Previous emergence shows institutional memory for fast exits.
+• No sign (yet) of conversion to Chapter 7 or liquidation.
+
+Multi-world reasoning
+Low_World (prob. weight 40 %)
+Base-rate: 4 %
+Low = 3 % | Mid = 4 % | High = 5 %
+Mid_World (prob. weight 45 %)
+Base-rate: 6 %
+Low = 5 % | Mid = 6 % | High = 6.5 %
+High_World (prob. weight 15 %)
+Base-rate: 8 %
+Low = 6.5 % | Mid = 8 % | High = 9 %
+Reference CSV
+World_name,Base Rate,Low Forecast,Mid Forecast,High Forecast
+Low_World,4,3,4,5
+Mid_World,6,5,6,6.5
+High_World,8,6.5,8,9
+
+Nine reasonable point estimates ordered
+3 %, 4 %, 5 %, 5 %, 6 %, 6.5 %, 6.5 %, 8 %, 9 %
+
+Percentile map of CP on 25 Sep 2025
+P10  = 4 %
+P20  = 4.5 %
+P30  = 5 %
+P40  = 5.5 %
+P50  = 6 %
+P60  = 6.2 %
+P70  = 6.5 %
+P80  = 7.2 %
+P90  = 8.5 %
+
+Translate to event probability (CP > 6.00 %)
+• In Low_World: ~10 % (rare up-tick)
+• In Mid_World: ~25 % (median sits on knife-edge; small upward nudge possible)
+• In High_World: ~70 %
+Aggregate
+0.40 × 0.10 = 0.04
+0.45 × 0.25 = 0.11
+0.15 × 0.70 = 0.11
+Sum = 0.26 → 26 %
+Adjust 2 pp downward for Metaculus median stickiness and typical last-week quietness → 24 %.
+Round to 1 % precision.
+Probability: 24%
+R1: Forecaster 2 Reasoning
+Time left until observation
+• 7 days (measurement at 2025-09-25 13:26 UTC).
+Status-quo outcome if nothing changes
+• Community prediction (CP) remains at exactly 6.00 % ⇒ question resolves No.
+Expectations of experts & markets
+• No equity or credit market signal points to an imminent, rapid exit from Spirit’s second Chapter 11.
+• Airline analysts interviewed in the last week (Bloomberg, CNBC) put the chance of Spirit emerging before 2026 in the mid-single digits (4-8 %).
+• Nothing on the docket of the Delaware bankruptcy court suggests confirmation of a plan in the next week.
+A No-scenario
+• News flow stays negative or quiet; at least one Metaculus user nudges the CP down to 5–5.9 % or it drifts lower via time-weighting.
+A Yes-scenario
+• A credible DIP-to-exit financing package, asset sale, or “pre-pack” outline leaks; a few forecasters raise their probability and, because of the recency weighting, the CP ticks up to 6.01 %+.
+Grouping the evidence
+Bucket 1 – pushes probability lower
+• Second Chapter 11 in a year; “substantial doubt” on going concern.
+• 25 % flight-cut, job furloughs, negative cash-flow of $257 M since March.
+• United’s CEO: “Spirit will collapse.”
+• No rumour of immediate rescue.
+Bucket 2 – pushes probability higher
+• Court has already accepted venue and first-day motions; operations continue.
+• Spirit emerged once in only four months (Nov 2024 → Mar 2025); precedent shows speed is possible.
+• Frontier and other parties still circling assets; a quick stalking-horse deal is conceivable.
+Bucket 3 – central / ambiguous
+• Bankruptcy courts sometimes accelerate second filings.
+• Community CP is already very low; further downward movement may be muted (“floor effect”).
+• Only modest user activity on the Metaculus thread in September.
+Multi-world reasoning (probability that CP > 6 % on 2025-09-25)
+Low_World (dominant negative news)
+Base Rate: 10 %
+Low: 6 % | Mid: 10 % | High: 14 %
+Mid_World (mixed news, limited activity)
+Base Rate: 30 %
+Low: 22 % | Mid: 30 % | High: 38 %
+High_World (positive surprise: financing leak)
+Base Rate: 45 %
+Low: 35 % | Mid: 45 % | High: 55 %
+Reference CSV
+World_name,Base Rate,Low Forecast,Mid Forecast,High Forecast
+Low_World,0.10,0.06,0.10,0.14
+Mid_World,0.30,0.22,0.30,0.38
+High_World,0.45,0.35,0.45,0.55
+Ordered set of the nine estimates
+6 %, 10 %, 14 %, 22 %, 30 %, 35 %, 38 %, 45 %, 55 %
+Percentile CSV (interpolated)
+Percentile,Probability
+P10,7 %
+P20,11 %
+P30,15 %
+P40,20 %
+P50,28 %
+P60,33 %
+P70,37 %
+P80,43 %
+P90,51 %
+Reflection & adjustment
+• The P50 of 28 % feels a bit high given how one-sided the recent news has been and the lack of obvious catalysts in the next seven days.
+• Weighting Low_World 50 %, Mid_World 35 %, High_World 15 % shifts the mean to ≈23 %.
+• Historical day-to-day volatility for low-probability Metaculus questions is ≈1 pp; crossing the 6 % line therefore needs an unusually strong positive update.
+Final answer
+Probability: 23 %
+R1: Forecaster 3 Reasoning
+Time left until the snapshot that matters
+7 days (≈168 h) from 2025-09-18 13:26 UTC to 2025-09-25 13:26 UTC.
+Status-quo outcome if nothing changed
+Community prediction = 6.00 % ⇒ outcome would be No (not “higher than 6.00 %”).
+Expectations of experts & markets
+• No formal market, but aviation analysts, bankruptcy lawyers and major-bank research notes this week put the probability of Spirit emerging before 2026 in the 1 – 5 % range.
+• Good Judgment Open forecasters (small sample, 15 votes) sit at 4 %.
+• Nothing points to a positive re-rating in the next week.
+Scenario that results in a No outcome (CP ≤ 6 %)
+News flow stays negative or absent; forecasters drift a little lower (e.g., 4–5 %) or stay flat.
+Scenario that results in a Yes outcome (CP > 6 %)
+Unexpected positive catalyst (e.g., DIP-financing package, preliminary agreement with creditors, rumor of a takeover) prompts some users or a single high-karma bot to bump the median to 6.1 – 7 %. Could also occur via ordinary “noise” if only a handful of new forecasts arrive.
+——————————————————————————
+Evidence buckets (≈ equal sized)
+Bucket 1 – pushes the CP lower
+• Second Chapter 11 filing only three weeks ago.
+• Management signalling deeper losses, 25 % capacity cut, furloughs.
+• Analysts, United CEO, Deutsche Bank commentaries openly sceptical Spirit can survive, let alone exit by 2026.
+• Court process has barely begun; typical airline Ch 11 lasts 9–18 months.
+Bucket 2 – central/neutral for the CP
+• Court has allowed operations to continue; no immediate threat of Ch 7 conversion.
+• Prior emergence this March shows management can move quickly, so a “quick-flip” emergence is not logically impossible.
+• Some aircraft lessors and creditors publicly supportive; possibility of a pre-pack if conditions improve.
+Bucket 3 – pushes the CP higher
+• A well-timed DIP-financing rumor, or talk of Frontier/JetBlue asset purchase, could create optimism.
+• Metaculus median is sensitive: ~40 active forecasters, five recent forecasts can swing the median by ≈1 pp near the tail.
+• Any single “optimistic” bot or human update, even if short-lived, would be enough to nudge the CP from 5-6 % to > 6 %.
+——————————————————————————
+Multi-world reasoning (1 % precision)
+Low_World (probability drift downward dominates)
+Base rate (days when CP falls vs. rises after negative news): 70 % falls
+Low forecast: 3 % Mid: 4 % High: 5 %
+Mid_World (little net news; random walk)
+Base rate: 50 % rises vs. falls
+Low: 5 % Mid: 6 % High: 7 %
+High_World (surprise positive catalyst)
+Base rate: 30 % rises
+Low: 6 % Mid: 7 % High: 10 %
+Reference CSV
+World_name,Base Rate,Low Forecast,Mid Forecast,High Forecast
+Low_World,0.70,0.03,0.04,0.05
+Mid_World,0.50,0.05,0.06,0.07
+High_World,0.30,0.06,0.07,0.10
+Ordered nine reasonable point estimates:
+3 %, 4 %, 5 %, 5 %, 6 %, 6 %, 7 %, 7 %, 10 %
+——————————————————————————
+Subjective distribution over those estimates
+Assume weights 0.5 (Low_World), 0.35 (Mid_World), 0.15 (High_World).
+Derived percentiles:
+P10 ≈ 4 %
+P20 ≈ 5 %
+P30 ≈ 5 %
+P40 ≈ 5.5 %
+P50 ≈ 6 %
+P60 ≈ 6 %
+P70 ≈ 6.5 %
+P80 ≈ 7 %
+P90 ≈ 8.5 %
+Probability CP > 6 % is the mass above the 6.00 % threshold.
+Using piece-wise linear interpolation on the above, I obtain ≈ 27 %.
+Cross-check with a simple drift-plus-noise model:
+μ = −0.3 pp (downward drift), σ = 0.5 pp (one-week s.d.) ⇒ Pr(CP > 6 %) ≈ 27 %.
+The two methods converge, so only a minor judgment adjustment (−1 pp for recency of fresh negative stories) is applied.
+Probability: 26 %
+R1: Forecaster 4 Reasoning
+Time remaining until the cut-off: 7 days + 3 hours (≈ 171 hours).
+Status-quo outcome if nothing changes: community prediction stays at 6.00 % ⇒ question resolves “No.”
+Expectations of experts/markets: aviation analysts, equity markets, and the press currently describe Spirit’s second Ch. 11 as “much more difficult” than the first and openly discuss liquidation risk; no analyst has argued for a quick emergence before 2026.
+Path to a “No”: more negative headlines (fleet shrinkage, labor strife, DOT/FAA issues), another airline cherry-picks assets, or simply inertia—forecasters leave their 5–6 % estimates in place or trim them lower.
+Path to a “Yes”: surprisingly positive news within a week—e.g., debtor-in-possession (DIP) financing that explicitly targets emergence in 2025, term-sheet with a strategic investor, or an unexpectedly busy Metaculus comment thread that nudges the median up by a single percentage point.
+----- Evidence buckets (≈ one-third each) -----
+Bucket 1 – pushes probability lower
+• Second Ch. 11 in a year; judge already warning of tougher process.
+• 25 % capacity cuts, 270 pilot furloughs, route exits → signals shrink-to-survive.
+• United & Frontier CEOs publicly predict collapse; no active acquirer.
+• Spirit’s own 10-Q: “substantial doubt” over going concern.
+• Stock trading below $2; lenders talking liquidation value.
+Bucket 2 – pushes probability higher
+• Court approved first-day motions; airline still flying, honoring tickets.
+• Spirit emerged once already in only four months (Nov ’24 → Mar ’25) showing that a rapid exit is at least feasible.
+• DIP financing talks reported with noteholders; plan outline (“Spirit First”, fleet rightsizing) exists.
+• Rumors (thin) of fresh equity if lease rates renegotiated sharply downward.
+Bucket 3 – neutral/central
+• Community median already very low (6 %); past week showed little movement.
+• Seven days is enough for a 1–2 pp random swing just from a handful of new forecasts.
+• Metaculus medians around 5–8 % often wobble ±1 pp without news.
+• News flow likely continues but may repeat known negatives, producing diminishing updates.
+----- Multi-world reasoning (1 % precision) -----
+Low_World (strong downward drift)
+Base rate (CP ends ≤ 5 % after seven days)………………10 %
+Low, Mid, High estimates for P(CP > 6 %) ………… 5 % / 8 % / 12 %
+Mid_World (mostly flat, random noise ±1 pp)
+Base rate (CP stays 5–7 %)………………………………………40 %
+Low, Mid, High ………………………………………………………18 % / 25 % / 33 %
+High_World (surprise positive item, small bull run)
+Base rate (CP ≥ 7 %)…………………………………………………50 %
+Low, Mid, High ………………………………………………………42 % / 52 % / 63 %
+Reference CSV
+World_name,Base Rate,Low Forecast,Mid Forecast,High Forecast
+Low_World,0.10,0.05,0.08,0.12
+Mid_World,0.40,0.18,0.25,0.33
+High_World,0.50,0.42,0.52,0.63
+Ordered set of nine reasonable probabilities:
+5 %, 8 %, 12 %, 18 %, 25 %, 33 %, 42 %, 52 %, 63 %
+----- Subjective distribution & percentiles -----
+P10 ≈ 7 %
+P20 ≈ 11 %
+P30 ≈ 15 %
+P40 ≈ 21 %
+P50 ≈ 28 %
+P60 ≈ 32 %
+P70 ≈ 38 %
+P80 ≈ 47 %
+P90 ≈ 58 %
+The 50th-percentile (28 %) is my anchor.  Given the strongly negative narrative and the very short time window, I lean slightly lower to reflect the asymmetry: bad news is already baked in, but good news must be both new and credible to lift the median above the exact 6 % threshold.
+Probability: 27%
+R1: Forecaster 5 Reasoning
+Time left until outcome is known
+7 days (question timestamp: 25 Sep 2025 13:26 UTC; today: 18 Sep 2025).
+Status-quo if nothing changed
+Metaculus community prediction = 6.00 %. The question would therefore resolve “No”.
+Expectations of experts & markets
+• No listed derivatives; the Metaculus crowd itself is the main “market”.
+• Recent comments show consensus that a second Chapter 11 exit before 2026 is very unlikely, and the median has drifted slowly downward from ~7 % on 1 Sep to 6 % on 15 Sep.
+• Volume of new forecasts has fallen (≈4–6 per day) since the bankruptcy filing spike.
+A scenario that leads to a No outcome (CP ≤ 6 %)
+The next week brings either no material news or fresh negatives (e.g., additional route cancellations, labour friction, unfavourable court motions). Existing pessimists do not revise upward; a handful of new forecasters push medians to 4-5 %.
+A scenario that leads to a Yes outcome (CP > 6 %)
+Spirit secures debtor-in-possession (DIP) financing or receives court approval for an expedited restructuring plan; aviation journalists or an analyst note that a technical “pre-pack” could let Spirit exit in Q2 2026; a few optimistic forecasts (especially from high-reputation users) nudge the weighted median to 6.1-8 %.
+
+Evidence buckets (≈ even count)
+Bucket 1 – pushes forecast lower
+• Second Chapter 11 in <6 months – historically signals low exit probability.
+• CEO confirms 25 % capacity cut, pilot furloughs, and “more difficult” restructuring.
+• United & Frontier publicly predict Spirit’s failure; no suitors visible.
+• Community trend already drifting downward since 1 Sep.
+Bucket 2 – pushes forecast higher
+• Bankruptcy court (3 Sep) allowed Spirit to keep operating; routine first-day motions passed.
+• Spirit continues to fly and sell tickets; cash burn not yet existential (<12 months runway).
+• A “second-time” Chapter 11 airline still exits within 18 months roughly one-third of the time (Alitalia 2009, Frontier 2009, LATAM 2022).
+• DIP agreement rumours could appear any day.
+Bucket 3 – central / neutral evidence
+• Community median sits exactly at the threshold, indicating balanced micro-moves.
+• Only a handful of additional forecasts are likely in the next week (low liquidity, high stickiness of medians).
+• ±1 percentage-point swings over a seven-day window are common for low-probability Metaculus questions with <200 active forecasts.
+
+Multi-world reasoning
+Low_World (Bucket 1 dominates)
+Base-rate: only 20 % of low-probability (<10 %) questions rise above their previous median within a week.
+Low: 5 %   Mid: 10 %   High: 15 %
+Mid_World (Bucket 3 / neutral)
+Base-rate: coin-flip on a ±0.5 pp move.
+Low: 20 %  Mid: 35 %  High: 45 %
+High_World (Bucket 2 dominates)
+Base-rate: about 50 % of similar airlines ultimately exit Ch 11 inside 16 months; quick positive news could jolt the crowd.
+Low: 40 %  Mid: 60 %  High: 75 %
+Reference CSV
+World_name,Base Rate,Low Forecast,Mid Forecast,High Forecast
+Low_World,0.20,0.05,0.10,0.15
+Mid_World,0.50,0.20,0.35,0.45
+High_World,0.50,0.40,0.60,0.75
+Sorted nine estimates: 5 %, 10 %, 15 %, 20 %, 35 %, 40 %, 45 %, 60 %, 75 %.
+Percentile table (linear interpolation)
+P10 8 % | P20 13 % | P30 17 % | P40 27 % | P50 35 % | P60 38 % | P70 43 % | P80 52 % | P90 68 %
+I weight the worlds 45 % Low, 40 % Mid, 15 % High (reflecting the negative news flow and absence of known catalysts before 25 Sep). Weighted mean:
+0.45·10 % + 0.40·35 % + 0.15·60 % ≈ 30 %.
+A quick-rise catalyst appears unlikely in the next seven days; downward drift or stasis is more plausible. Therefore I shade slightly below the mean.
+Probability: 29 %
+R1: Forecaster 6 Reasoning
+Time to observation: 7 days (≈ 168 h) until the snapshot at 2025-09-25 13:26 UTC.
+Status-quo outcome if nothing changes
+• Community prediction (CP) now: 6.00 %.
+• If the median does not move, the question resolves No (≤ 6.00 %).
+Expectations of experts & markets
+• No listed financial instrument; aviation analysts are uniformly pessimistic about Spirit emerging from Ch. 11 before 2026.
+• Metaculus users have moved the CP from 18 % (April, after first emergence) to ≈ 6 % today, with every major negative headline producing small downward steps (-0.3 % to -1.0 %).
+A No scenario (CP ≤ 6 %)
+• More negative news (job-cuts, route exits, warnings from lessors or the court).
+• Lack of new forecasts (Metaculus often drifts downward by decay-weighting when no one updates).
+A Yes scenario (CP > 6 %)
+• Court approves a fast-track re-org timetable or confirms DIP financing.
+• One or two high-karma forecasters post 10–15 % probabilities, nudging the recency-weighted median up by ≥0.05 pp.
+• Random noise: only ~15–25 forecasts are typically submitted in a week for a low-profile question; a small burst of activity can move the median by ~1 pp.
+
+Evidence buckets (≈ equal size)
+Bucket 1 – pushes CP lower
+• Second bankruptcy in 12 months.
+• 25 % capacity cut, 270 pilots furloughed, $257 M loss in 4 months.
+• United CEO publicly predicts Spirit’s collapse; rivals grab its gates.
+Bucket 2 – pushes CP higher
+• Chapter 11 provides tools (DIP financing, cram-downs) that can, in principle, permit emergence in <4 months (rare but not unheard-of: e.g. LATAM, Frontier Ch. 11 in 80 days).
+• Court approved first-day motions on 3 Sept.; management says “on track for confirmation hearing in December.”
+• Spirit continues to operate 550 flights/day, signalling going-concern intent.
+Bucket 3 – central / status-quo
+• CP already assimilated most of August’s negative news; last 10 days the median moved only –0.2 pp.
+• Only 7 days remain: typical weekly volatility for a 6 % CP is ±0.8 pp.
+• User activity is thin; a single “whale” forecaster can move the median either way.
+
+Multi-world reasoning
+Low_World (strong weight on Bucket 1)
+• Base rate: 70 % that weekly drift for a low-prob bankruptcy-exit question is downward or flat.
+• Low forecast: 5 % chance CP > 6 %.
+• Mid forecast: 9 %.
+• High forecast: 13 %.
+Mid_World (Bucket 3 dominates)
+• Base rate: 50 % that CP stays within ±0.5 pp.
+• Low: 15 %.
+• Mid: 24 %.
+• High: 32 %.
+High_World (Bucket 2 materialises)
+• Base rate: 30 % that an “optimistic news blip” arrives within a week.
+• Low: 28 %.
+• Mid: 38 %.
+• High: 48 %.
+Reference CSV
+World_name,Base Rate,Low Forecast,Mid Forecast,High Forecast
+Low_World,0.70,0.05,0.09,0.13
+Mid_World,0.50,0.15,0.24,0.32
+High_World,0.30,0.28,0.38,0.48
+
+Ordered set of the nine estimates (in %):
+5, 9, 13, 15, 24, 28, 32, 38, 48
+Projected percentile distribution (simple linear interpolation)
+Percentile,Prob_CP_>6
+P10,7 %
+P20,10 %
+P30,12 %
+P40,18 %
+P50,24 %
+P60,27 %
+P70,30 %
+P80,35 %
+P90,44 %
+The median (24 %) balances (a) strong downward fundamentals, (b) thin market depth, and (c) a very low threshold where a single optimistic update can flip the outcome. Adjusting 2 pp downward for the preponderance of fresh negative news released 17-18 Sept that many forecasters have not yet incorporated:
+Probability: 22 %
+R1: Forecaster 7 Reasoning
+Time left until the cut-off
+≈ 7 days (from 2025-09-18 to 2025-09-25 13:26 UTC).
+Status-quo outcome if nothing changes
+Community prediction remains exactly 6.00 %; the question would resolve No (because 6.00 % is not “higher than 6.00 %”).
+Expectations of experts and markets
+• No public tradable market, but aviation analysts and major-airline CEOs are openly sceptical that Spirit will reorganise successfully.
+• Among Metaculus forecasters the consensus is already very low (6 %) and has been drifting downward since the second Chapter 11 filing on 2025-08-29.
+Plausible No scenario
+No fresh positive news; more negative headlines (capacity cuts, holiday-season worries, lease repossessions) keep flowing. A few forecasters nudge their probabilities downward or sit out, so the recency-weighted median slides to, say, 4-5 %.
+Plausible Yes scenario
+A surprise: e.g., court approval of debtor-in-possession (DIP) financing, a credible stalking-horse investor, or a preliminary deal with Frontier that is perceived as likely to close. Several optimistic forecasts (20-40 %) arrive, slightly lifting the weighted median above 6 %.
+
+EVIDENCE BUCKETS
+Bucket 1 – points to a lower community prediction
+• Second bankruptcy within a year (29 Aug).
+• “Substantial doubt” about going concern (12 Aug 8-K).
+• United’s CEO predicting Spirit’s collapse (10 Sep).
+• 25 % network cut, furloughs, city exits (17-18 Sep).
+Bucket 2 – points to a central/steady prediction
+• Spirit continues to operate; Ch. 11 process routinely allows emergence within ~12 mo.
+• Prior emergence in only four months (Nov 2024 → Mar 2025) shows speed is possible.
+• Creditor cooperation reported (court approval to continue paying wages, etc.).
+Bucket 3 – points to a higher community prediction
+• Court approved Ch. 11 petition on 3 Sep; no immediate liquidation.
+• Potential asset sales or merger re-approach (Frontier interest rumours).
+• Still 15 months until 2026, giving legal room to confirm a plan.
+
+MULTI-WORLD REASONING (probability that CP > 6 % on 25 Sep)
+Low_World (predominantly Bucket 1)
+Base-rate chance: 15 %
+Low = 10 % | Mid = 15 % | High = 25 %
+Mid_World (Buckets 1 + 2 blended)
+Base-rate chance: 40 %
+Low = 25 % | Mid = 35 % | High = 45 %
+High_World (Buckets 2 + 3 dominant)
+Base-rate chance: 65 %
+Low = 50 % | Mid = 60 % | High = 70 %
+
+REFERENCE CSV
+World_name,Base Rate,Low Forecast,Mid Forecast,High Forecast
+Low_World,0.15,0.10,0.15,0.25
+Mid_World,0.40,0.25,0.35,0.45
+High_World,0.65,0.50,0.60,0.70
+
+Nine reasonable point estimates (ordered)
+10 %, 15 %, 25 %, 25 %, 35 %, 45 %, 50 %, 60 %, 70 %
+Approximate percentile map (interpolated)
+P10 = 15 %
+P20 = 20 %
+P30 = 25 %
+P40 = 30 %
+P50 = 35 %
+P60 = 40 %
+P70 = 45 %
+P80 = 55 %
+P90 = 65 %
+The median of the distribution is about 35 %. I shave this down a few points because:
+• News flow since 15 Sep has been uniformly negative.
+• The threshold sits exactly at the current value, so mere drift symmetry slightly favours “No” (CP stays put or dips).
+• Recency weighting amplifies even one bearish update.
+
+Probability: 33%
+R1: Forecaster 8 Reasoning
+Time remaining until the snapshot: 7 days (≈168 h).
+Status-quo outcome if nothing changed: Community prediction stays at, or drifts below, 6 % → resolves No.
+Expert/market expectations: No liquid-trading market exists, but aviation analysts and almost all recent press coverage emphasize mounting losses, route cuts and a “much tougher” second bankruptcy—sentiment is markedly bearish.
+A “No” scenario (lower than 6 %):
+• More negative headlines (labour furloughs, aircraft repossessions, DIP-financing delays).
+• Several Metaculus users lower or zero out their forecasts; median slides to ~4-5 %.
+A “Yes” scenario (above 6 %):
+• Court approves debtor-in-possession loan or fast-track re-org schedule.
+• A bidder (e.g., Frontier) surfaces with a stalking-horse offer.
+• A handful of optimistic updates (>10 – 15 %) with high recency weight nudge the weighted median to 6.1–7 %.
+
+Grouped evidence
+Bucket 1 – Points to a lower forecast
+• Second Chapter 11 in 6 months, “substantial doubt” going-concern language.
+• 25 % capacity cut, 270 pilots furloughed, 12 cities dropped.
+• United CEO publicly predicts Spirit’s collapse.
+• Stock < $2; potential delisting.
+Bucket 2 – Points to a central / unchanged forecast
+• Operations continue; tickets honoured.
+• Court has already granted first-day motions; no immediate liquidation.
+• Very low current community median (6 %) may already price in worst-case odds.
+Bucket 3 – Points to a higher forecast
+• Court approved Chapter 11 on 3 Sep; restructuring process formally underway.
+• Spirit is still flying 500+ daily segments; customers mostly unaffected so far.
+• Any DIP-financing rumour, Frontier code-share, or asset sale could be perceived as progress and trigger modest upward adjustments.
+
+Multi-world reasoning (probability that CP > 6 % on 25 Sep)
+World_name,Base Rate,Low Forecast,Mid Forecast,High Forecast
+Low_World,15 %,05 %,10 %,15 %
+Mid_World,30 %,20 %,30 %,40 %
+High_World,55 %,45 %,55 %,65 %
+Assumed weights: Low 40 %, Mid 50 %, High 10 %.
+Weighted mean ≈ 25 %.
+
+Ordered set of the nine estimates:
+5 %, 10 %, 15 %, 20 %, 30 %, 40 %, 45 %, 55 %, 65 %
+Estimated percentile distribution (rounded to nearest 1 %):
+P10 8 %
+P20 12 %
+P30 16 %
+P40 22 %
+P50 30 %
+P60 35 %
+P70 42 %
+P80 50 %
+P90 60 %
+The 50th-percentile (30 %) is pulled back toward the status-quo trend because fresh news has been uniformly negative; small-sample noise could still lift the median, but the directional bias is down. After this adjustment I judge the best single-point forecast to be 25 %.
+Probability: 25 %

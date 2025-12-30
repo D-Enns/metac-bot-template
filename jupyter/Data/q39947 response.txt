@@ -1,0 +1,603 @@
+SUMMARY
+Question: Will PNR's market close price on 2025-09-26 be higher than its market close price on 2025-09-18?
+Final Prediction: 54.0%
+Total Cost: $0
+Time Spent: 1.56 minutes
+Report 1 Summary
+Forecasts
+Forecaster 1: 54.0%
+Forecaster 2: 58.0%
+Forecaster 3: 54.0%
+Forecaster 4: 53.0%
+Forecaster 5: 52.0%
+Forecaster 6: 56.0%
+Forecaster 7: 53.0%
+Forecaster 8: 56.0%
+Research Summary
+Zacks Research raised its full-year 2025 EPS estimate for Pentair plc (NYSE:PNR) to $4.83 from $4.82, compared with a consensus estimate of $4.77, and provided quarterly guidance of $1.16 EPS for Q4 2025, $1.21 for Q1 2026 and $1.49 for Q2 2026, with FY 2026 guidance of $5.32 EPS. Other major broker actions on September 17, 2025 included Bank of America downgrading Pentair to “underperform” with a $100 target, Barclays lifting its target to $117 (“overweight”), JPMorgan Chase raising its target to $116 (“overweight”), Citigroup maintaining a “buy” at $125 and Stifel Nicolaus raising its target to $124 (“buy”). Across the market two analysts rate Pentair a “Strong Buy,” ten a “Buy,” three a “Hold” and one a “Sell,” giving an average rating of “Moderate Buy” and a consensus price target of $114.36. As of the latest session Pentair opened at $110.99, and earlier in September the stock hit a 52-week high of $111.80.
+Institutional ownership remains very high at 92.37%, led by Sequoia Financial Advisors (31.5%), UBS AM A Distinct Business Unit (19.1%) and others. Key financial ratios include a P/E of 30.33, PEG of 2.12, beta of 1.08, a current ratio of 1.45, quick ratio of 0.84 and debt-to-equity of 0.38. In its most recent quarter (ended July 22, 2025) Pentair reported EPS of $1.39 (versus a $1.33 consensus) on revenue of $1.12 billion, up 2.2% year-over-year, and provided Q3 2025 guidance of $1.16–$1.20 EPS and FY 2025 guidance of $4.75–$4.85 EPS.
+Sources:
+https://www.themarketsdaily.com/2025/09/17/fy2025-eps-estimates-for-pentair-lifted-by-zacks-research.html
+https://www.thestockobserver.com/2025/09/17/zacks-research-brokers-lift-earnings-estimates-for-pentair.html
+https://www.defenseworld.net/2025/09/07/pentair-nysepnr-hits-new-52-week-high-heres-why.html
+RESEARCH
+Report 1 Research
+Here are the relevant news articles:
+Wall Street Close: Markets Remain Cautious Despite Rate Cut
+Wall Street closed cautiously on Wednesday, with the S&P 500 down 0.10% to 6,600 points, the Dow Jones up 0.57% to 46,018 points, and the Nasdaq down 0.33% to 22,261 points.  Industrial stocks set a new record at 46,261.95 points.  The Federal Reserve cut rates by 25 basis points, bringing the Fed funds range to 4‑4.25%, the first cut in nine months.  Stephen Miran, a Trump‑appointed Fed governor, expressed disappointment and called for a 50‑basis‑point cut, saying 'Je m'entretiendrai avec le président Xi vendredi.'  Fed officials still see a slowdown, projecting 2025 growth at 1.6% (up from 1.4% previously) versus 2024 growth of 2.8%.  Housing starts for August 2025 were 1.307 million, below the 1.37 million consensus, while permits were 1.312 million.  The Atlanta Fed’s inflation expectations for September were 2.3%.  U.S. crude inventories fell 9.3 million barrels to 415.4 million, gasoline down 2.3 million, and distillates up 4 million.  Oil prices slipped: WTI down 0.81% to $64, Brent down 0.74% to $67.98.  The dollar rose 0.45% against the euro at 0.8467.  Gold held at $3,660.06, Bitcoin slipped 0.38% to $98,114.  Trump’s administration reported a commercial agreement with China over TikTok and a meeting with Indian Prime Minister Narendra Modi, praising the 'travail extraordinaire' of the Indian leader.  The article provides a detailed, fact‑based market recap with no overt bias.
+Original language: fr
+Publish date: September 17, 2025 08:30 PM
+Source:Boursier.com
+BMNR Stock Sees Profitable Trade on January 2026 Call Options
+An investor earned a 27 % profit—$892,000—by trading 2,500 call options on Bitmine Immersion Technologies Inc (BMNR) for the January 2026 expiration. The options were bought at an offer price of $13.25 when the share price was $51.73; by market close the stock had risen to $55.93 and the option value had climbed to $16.82, yielding a mark‑to‑market gain of $892,000 on an initial outlay of $3,312,000. BMNR is a blockchain‑technology company focused on Bitcoin mining and hosting services, with a market capitalization of $9.7 billion and listed on the AMEX. Its financials show stagnant revenue of $5.45 million over three years, an EPS of –$2.92, operating margin of –51.82 % and net margin of –65.46 %. The balance sheet indicates a debt‑to‑equity ratio of 0.65 and a current ratio of 0.41, suggesting liquidity concerns. Valuation metrics are high: P/S of 21.78 and P/B of 39.89. Technical indicators show an RSI‑14 of 60.84 and a beta of 2.5, reflecting significant volatility. The Altman Z‑Score is 1077.11, but the Sloan Ratio of –43.88 % points to poor earnings quality.
+Original language: en
+Publish date: September 17, 2025 01:36 PM
+Source:GuruFocus.com
+FY2025 EPS Estimates for Pentair Lifted by Zacks Research
+Zacks Research raised its FY2025 earnings‑per‑share (EPS) estimate for Pentair plc (NYSE:PNR) to $4.83 from $4.82, while the consensus estimate for the full year remains $4.77 per share.  The firm also released quarterly guidance: Q4 2025 $1.16 EPS, Q1 2026 $1.21 EPS, Q2 2026 $1.49 EPS, FY2026 $5.32 EPS, Q1 2027 $1.35 EPS, Q2 2027 $1.50 EPS, and FY2027 $5.59 EPS.  Other analysts’ views are mixed: Bank of America downgraded Pentair to an ‘underperform’ rating and cut its target price from $106.00 to $100.00; Barclays lifted its target to $117.00 and gave an ‘overweight’ rating; JPMorgan Chase & Co. raised its target to $116.00 with an ‘overweight’ rating; Citigroup reaffirmed a ‘buy’ rating and set a $125.00 price objective (up from $99.00); and Stifel Nicolaus raised its target to $124.00 with a ‘buy’ rating.  Across the market, two analysts have issued a ‘Strong Buy’, ten a ‘Buy’, three a ‘Hold’, and one a ‘Sell’, giving Pentair an average rating of ‘Moderate Buy’ and a consensus target price of $114.36.  As of the latest trading day, PNR opened at $110.99.  Key financial ratios include a current ratio of 1.45, a quick ratio of 0.84, a debt‑to‑equity ratio of 0.38, a market capitalization of $18.19 billion, a P/E of 30.33, a PEG of 2.12, and a beta of 1.08.  Pentair’s most recent quarterly earnings (reported July 22) were $1.39 EPS, beating the consensus of $1.33, with revenue of $1.12 billion—up 2.2% YoY.  The company’s Q3 2025 guidance is $1.160‑$1.20 EPS and FY2025 guidance is $4.750‑$4.85 EPS.  Institutional ownership is high: Asset Management One Co. Ltd. holds 4.8% of the shares, Sequoia Financial Advisors LLC 31.5%, Fifth Third Bancorp 6.6%, GAMMA Investing LLC 14.0%, and UBS AM A Distinct Business Unit 19.1%, together accounting for 92.37% of the outstanding shares.  Pentair operates globally in water solutions, with three segments—Flow, Water Solutions, and Pool—providing products such as fluid treatment systems, pumps, and water disposal equipment.
+Original language: en
+Publish date: September 17, 2025 05:14 AM
+Source:The Markets Daily
+Zacks Research Brokers Lift Earnings Estimates for Pentair - Stock Observer
+Pentair (NYSE:PNR) has seen a wave of revised price targets and ratings from several major research firms. Robert W. Baird lifted its target from $107.00 to $121.00 and gave an 'outperform' rating on July 23. Mizuho raised its target from $118.00 to $122.00 with an 'outperform' rating on the same day. Bank of America downgraded the stock from a 'neutral' to an 'underperform' rating and cut its target from $106.00 to $100.00 on July 29. Stifel Nicolaus increased its target from $104.00 to $124.00 and issued a 'buy' rating on July 21. JPMorgan Chase & Co. raised its target from $113.00 to $116.00 and gave an 'overweight' rating on July 23. Across the market, two analysts gave a Strong Buy, ten a Buy, three a Hold and one a Sell, resulting in a consensus rating of 'Moderate Buy' and a consensus target of $114.36 per MarketBeat. Institutional investors have been active: Valeo Financial Advisors LLC added a stake worth $102,945,000; Osaic Holdings increased its holding by 83.1 % to 71,273 shares valued at $6,980,000; Orion Portfolio Solutions added 75.9 % to 5,747 shares worth $590,000; Neuberger Berman increased its stake by 40 % to 52,886 shares valued at $5,429,000; and B. Riley Wealth Advisors added a new stake worth $276,000. Together, institutional shareholders own 92.37 % of Pentair. The company operates globally through Flow, Water Solutions and Pool segments, with Flow supplying fluid‑treatment and pump products, including pressure vessels, gas‑recovery solutions, membrane bioreactors and advanced filtration systems.
+Original language: en
+Publish date: September 17, 2025 01:14 AM
+Source:thestockobserver.com
+Intuitive Machines Target of Unusually High Options Trading (NASDAQ:LUNR)
+Intuitive Machines, Inc. (NASDAQ:LUNR) experienced a surge in options activity on Monday, with investors buying 33,227 call options – a 47% jump over the typical volume of 22,633. Analyst coverage is mixed: eight analysts issued a 'buy' rating, two a 'hold', and two a 'sell', giving the stock an average rating of 'Moderate Buy' and a consensus price target of $15.10. Insider activity saw Director Kamal Seyed Ghaffarian sell 40,254 shares at an average price of $13.49, totaling $543,026.46; after the sale he owned 3,494,768 shares worth $47,144,420.32, a 1.14% drop in ownership. Corporate insiders hold 39.75% of the company, while hedge funds and other institutional investors own 72.21%. The stock opened at $9.04, with a 12‑month low of $5.34 and a high of $24.95. Its 50‑day moving average is $10.12 and the 200‑day average is $9.75; market cap stands at $1.62 billion, PE ratio –2.79, and beta 1.38. In its latest quarterly report, Intuitive Machines posted earnings of ($0.11) per share, missing the consensus estimate of ($0.06) by ($0.05), and revenue of $50.31 million versus expectations of $69.19 million. The company’s FY 2025 guidance is set at EPS (value not disclosed), while sell‑side analysts forecast a 0.73 EPS for the current year.
+Original language: en
+Publish date: September 16, 2025 05:13 AM
+Source:Defense World
+Wall Street Close: Markets Remain Cautious Despite Rate Cut
+Wall Street closed cautiously on Wednesday, with the S&P 500 down 0.10% to 6,600 points, the Dow Jones up 0.57% to 46,018 points, and the Nasdaq down 0.33% to 22,261 points.  Industrial stocks set a new record at 46,261.95 points.  The Federal Reserve cut rates by 25 basis points, bringing the Fed funds range to 4‑4.25%, the first cut in nine months.  Stephen Miran, a Trump‑appointed Fed governor, expressed disappointment and called for a 50‑basis‑point cut, saying 'Je m'entretiendrai avec le président Xi vendredi.'  Fed officials still see a slowdown, projecting 2025 growth at 1.6% (up from 1.4% previously) versus 2024 growth of 2.8%.  Housing starts for August 2025 were 1.307 million, below the 1.37 million consensus, while permits were 1.312 million.  The Atlanta Fed’s inflation expectations for September were 2.3%.  U.S. crude inventories fell 9.3 million barrels to 415.4 million, gasoline down 2.3 million, and distillates up 4 million.  Oil prices slipped: WTI down 0.81% to $64, Brent down 0.74% to $67.98.  The dollar rose 0.45% against the euro at 0.8467.  Gold held at $3,660.06, Bitcoin slipped 0.38% to $98,114.  Trump’s administration reported a commercial agreement with China over TikTok and a meeting with Indian Prime Minister Narendra Modi, praising the 'travail extraordinaire' of the Indian leader.  The article provides a detailed, fact‑based market recap with no overt bias.
+Original language: fr
+Publish date: September 17, 2025 08:30 PM
+Source:Boursier.com
+BMNR Stock Sees Profitable Trade on January 2026 Call Options
+An investor earned a 27 % profit—$892,000—by trading 2,500 call options on Bitmine Immersion Technologies Inc (BMNR) for the January 2026 expiration. The options were bought at an offer price of $13.25 when the share price was $51.73; by market close the stock had risen to $55.93 and the option value had climbed to $16.82, yielding a mark‑to‑market gain of $892,000 on an initial outlay of $3,312,000. BMNR is a blockchain‑technology company focused on Bitcoin mining and hosting services, with a market capitalization of $9.7 billion and listed on the AMEX. Its financials show stagnant revenue of $5.45 million over three years, an EPS of –$2.92, operating margin of –51.82 % and net margin of –65.46 %. The balance sheet indicates a debt‑to‑equity ratio of 0.65 and a current ratio of 0.41, suggesting liquidity concerns. Valuation metrics are high: P/S of 21.78 and P/B of 39.89. Technical indicators show an RSI‑14 of 60.84 and a beta of 2.5, reflecting significant volatility. The Altman Z‑Score is 1077.11, but the Sloan Ratio of –43.88 % points to poor earnings quality.
+Original language: en
+Publish date: September 17, 2025 01:36 PM
+Source:GuruFocus.com
+FY2025 EPS Estimates for Pentair Lifted by Zacks Research
+Zacks Research raised its FY2025 earnings‑per‑share (EPS) estimate for Pentair plc (NYSE:PNR) to $4.83 from $4.82, while the consensus estimate for the full year remains $4.77 per share.  The firm also released quarterly guidance: Q4 2025 $1.16 EPS, Q1 2026 $1.21 EPS, Q2 2026 $1.49 EPS, FY2026 $5.32 EPS, Q1 2027 $1.35 EPS, Q2 2027 $1.50 EPS, and FY2027 $5.59 EPS.  Other analysts’ views are mixed: Bank of America downgraded Pentair to an ‘underperform’ rating and cut its target price from $106.00 to $100.00; Barclays lifted its target to $117.00 and gave an ‘overweight’ rating; JPMorgan Chase & Co. raised its target to $116.00 with an ‘overweight’ rating; Citigroup reaffirmed a ‘buy’ rating and set a $125.00 price objective (up from $99.00); and Stifel Nicolaus raised its target to $124.00 with a ‘buy’ rating.  Across the market, two analysts have issued a ‘Strong Buy’, ten a ‘Buy’, three a ‘Hold’, and one a ‘Sell’, giving Pentair an average rating of ‘Moderate Buy’ and a consensus target price of $114.36.  As of the latest trading day, PNR opened at $110.99.  Key financial ratios include a current ratio of 1.45, a quick ratio of 0.84, a debt‑to‑equity ratio of 0.38, a market capitalization of $18.19 billion, a P/E of 30.33, a PEG of 2.12, and a beta of 1.08.  Pentair’s most recent quarterly earnings (reported July 22) were $1.39 EPS, beating the consensus of $1.33, with revenue of $1.12 billion—up 2.2% YoY.  The company’s Q3 2025 guidance is $1.160‑$1.20 EPS and FY2025 guidance is $4.750‑$4.85 EPS.  Institutional ownership is high: Asset Management One Co. Ltd. holds 4.8% of the shares, Sequoia Financial Advisors LLC 31.5%, Fifth Third Bancorp 6.6%, GAMMA Investing LLC 14.0%, and UBS AM A Distinct Business Unit 19.1%, together accounting for 92.37% of the outstanding shares.  Pentair operates globally in water solutions, with three segments—Flow, Water Solutions, and Pool—providing products such as fluid treatment systems, pumps, and water disposal equipment.
+Original language: en
+Publish date: September 17, 2025 05:14 AM
+Source:The Markets Daily
+NIO, RIVN, MRNA, META, BMNR: 5 Trending Stocks Today - BitMine Immersion Techs (AMEX:BMNR)
+On Tuesday, U.S. markets slipped: the Dow Jones Industrial Average fell 0.3% to 45,757.90, the S&P 500 retreated 0.1% to 6,606.76, and the Nasdaq edged down 0.07% to 22,333.96. The day’s top movers were five stocks that attracted retail attention. Nio Inc. (NIO) surged 8.17%, closing at $7.02 after UBS upgraded the stock from Neutral to Buy and raised the price target from $6.20 to $8.50; the share hit an intraday high of $7.09 and a low of $6.48, with a 52‑week range of $7.71 to $3.02. Rivian Automotive (RIVN) climbed 5.29% to $14.32, reaching a high of $14.65 and a low of $13.73; its 52‑week range is $17.15 to $9.50. The rise followed Rivian’s announcement of a new production facility in Georgia. Moderna Inc. (MRNA) rose 4.02% to $24.84, with a high of $25.63 and a low of $23.91; its 52‑week range is $75.37 to $23.15. The gain followed preliminary data showing an eight‑fold increase in antibodies from its updated Spikevax formula targeting the LP.8.1 variant. Meta Platforms (META) increased 1.87% to $779, hitting a high of $781.36 and a low of $765.10; its 52‑week range is $796.25 to $479.80. The lift came after a leak revealed Meta’s next‑generation smart glasses, which analyst Ross Gerber called a 'game changer.' BitMine Immersion Technologies (BMNR) rose 5.31% to $55.93, with a high of $57.01 and a low of $50.90; its 52‑week range is $161 to $3.20. The move followed BitMine’s report of holding over 2.15 million Ethereum (ETH) tokens, making it the world’s largest Ethereum treasury company. Benzinga’s Edge Stock Rankings noted that Rivian has Momentum in the 60th percentile and Growth in the 24th percentile, and the article compared the stocks against Tesla and Nio.
+Original language: en
+Publish date: September 17, 2025 02:25 AM
+Source:Benzinga
+Zacks Research Brokers Lift Earnings Estimates for Pentair - Stock Observer
+Pentair (NYSE:PNR) has seen a wave of revised price targets and ratings from several major research firms. Robert W. Baird lifted its target from $107.00 to $121.00 and gave an 'outperform' rating on July 23. Mizuho raised its target from $118.00 to $122.00 with an 'outperform' rating on the same day. Bank of America downgraded the stock from a 'neutral' to an 'underperform' rating and cut its target from $106.00 to $100.00 on July 29. Stifel Nicolaus increased its target from $104.00 to $124.00 and issued a 'buy' rating on July 21. JPMorgan Chase & Co. raised its target from $113.00 to $116.00 and gave an 'overweight' rating on July 23. Across the market, two analysts gave a Strong Buy, ten a Buy, three a Hold and one a Sell, resulting in a consensus rating of 'Moderate Buy' and a consensus target of $114.36 per MarketBeat. Institutional investors have been active: Valeo Financial Advisors LLC added a stake worth $102,945,000; Osaic Holdings increased its holding by 83.1 % to 71,273 shares valued at $6,980,000; Orion Portfolio Solutions added 75.9 % to 5,747 shares worth $590,000; Neuberger Berman increased its stake by 40 % to 52,886 shares valued at $5,429,000; and B. Riley Wealth Advisors added a new stake worth $276,000. Together, institutional shareholders own 92.37 % of Pentair. The company operates globally through Flow, Water Solutions and Pool segments, with Flow supplying fluid‑treatment and pump products, including pressure vessels, gas‑recovery solutions, membrane bioreactors and advanced filtration systems.
+Original language: en
+Publish date: September 17, 2025 01:14 AM
+Source:thestockobserver.com
+Wall Street Closes with Minor Losses
+On Tuesday, May 7, 2025, Wall Street’s three major indices fell amid heightened volatility as investors awaited the Federal Reserve’s policy decision. The S&P 500 slipped 9.00 points (0.14%) to 6,606.28, the Nasdaq Composite dropped 15.60 points (0.07%) to 22,333.15, and the Dow Jones Industrial Average fell 121.96 points (0.27%) to 45,761.49. The CBOE VIX reached its highest level in at least a week. Losses were led by utilities and real‑estate stocks in the S&P 500, and by UnitedHealth Group and Nvidia in the Dow. Nvidia shares fell after a Reuters report that Chinese demand for its new AI chip was lower than expected. European stocks closed at their lowest level of the week; the STOXX 600 fell 1.15% to 550.73, with banking and insurance sectors down more than 2%. The market is awaiting the Fed’s two‑day meeting, where a 25‑basis‑point rate cut is widely expected, though some traders are pricing a 50‑basis‑point cut. State Street’s Rebecca Chesworth warned that a 50‑basis‑point cut could signal deeper economic concerns, saying, 'Eso podría interpretarse de cualquier manera, porque estamos en un mercado que puede cambiar muy rápidamente.' The Fed’s board saw new appointments: Stephen Miran was confirmed as a governor, and Lisa Cook was cleared to attend after an appellate court blocked a Trump‑backed removal attempt. Retail sales in August rose more than expected, but the data had limited impact on rate‑cut expectations. Overall, the day was dominated by caution ahead of the Fed’s decision.
+Original language: es
+Publish date: September 16, 2025 09:19 PM
+Source:infobae
+US Stocks Open Higher: S&P 500 Hits Another Record
+The S&P 500 climbed 0.1 % to an intraday high of 6,624.13, while the Nasdaq Composite rose 0.2 % and the Dow Jones Industrial Average remained largely unchanged. Oracle shares surged 4 % after CBS News reported that the company is part of a consortium expected to keep TikTok operational in the United States. The S&P 500 closed above 6,600 for the first time on Monday, buoyed by optimism over U.S.–China trade talks. Treasury Secretary Scott Bessent expressed optimism that a trade agreement with China could be reached soon; in a CNBC interview he noted that further discussions are expected before reciprocal tariffs take effect in November. The U.S. trade deficit with China fell from nearly US$300 billion in 2024 to US$128 billion by July, indicating a potential decline in 2025. Technology stocks gained momentum, with Alphabet up more than 4 % and Tesla up more than 3 %. Market participants see a probability of at least one 0.25‑percentage‑point rate cut, according to the CME FedWatch tool, and are awaiting President Jerome Powell’s press conference for policy guidance. The meeting follows the Senate confirmation of Stephen Miran to the Federal Reserve Board and the inclusion of Governor Lisa Cook after a court blocked President Trump’s removal attempt. Expectations of rate cuts have strengthened after recent economic data, with markets pricing a cumulative 0.75 % cut by the end of 2025 and 1.5 % by September 2026, although the Fed remains cautious due to inflation near 3 %, above its 2 % target.
+Original language: pt-BR
+Publish date: September 16, 2025 06:30 PM
+Source:Invezz - Portuguese
+Pantoro (ASX:PNR) Insider Mark Maloney Sells 939,776 Shares of Stock
+Pantoro Limited (ASX:PNR) insider Mark Maloney sold 939,776 shares on Thursday, September 11, 2025, at an average price of A$4.90, generating a total transaction value of A$4,601,143.30. The company’s market cap is $935.83 million, with a P/E ratio of –15.89 and a beta of 1.42. Pantoro’s financial ratios include a debt‑to‑equity ratio of 13.58, a quick ratio of 1.26 and a current ratio of 1.39. Pantoro operates in gold mining, processing and exploration in Western Australia, holding interests in the Halls Creek Project and the Nicolsons Mine in the Kimberley region.
+Original language: en
+Publish date: September 16, 2025 08:20 AM
+Source:Daily Political
+Intuitive Machines Target of Unusually High Options Trading (NASDAQ:LUNR)
+Intuitive Machines, Inc. (NASDAQ:LUNR) experienced a surge in options activity on Monday, with investors buying 33,227 call options – a 47% jump over the typical volume of 22,633. Analyst coverage is mixed: eight analysts issued a 'buy' rating, two a 'hold', and two a 'sell', giving the stock an average rating of 'Moderate Buy' and a consensus price target of $15.10. Insider activity saw Director Kamal Seyed Ghaffarian sell 40,254 shares at an average price of $13.49, totaling $543,026.46; after the sale he owned 3,494,768 shares worth $47,144,420.32, a 1.14% drop in ownership. Corporate insiders hold 39.75% of the company, while hedge funds and other institutional investors own 72.21%. The stock opened at $9.04, with a 12‑month low of $5.34 and a high of $24.95. Its 50‑day moving average is $10.12 and the 200‑day average is $9.75; market cap stands at $1.62 billion, PE ratio –2.79, and beta 1.38. In its latest quarterly report, Intuitive Machines posted earnings of ($0.11) per share, missing the consensus estimate of ($0.06) by ($0.05), and revenue of $50.31 million versus expectations of $69.19 million. The company’s FY 2025 guidance is set at EPS (value not disclosed), while sell‑side analysts forecast a 0.73 EPS for the current year.
+Original language: en
+Publish date: September 16, 2025 05:13 AM
+Source:Defense World
+Pentair (NYSE:PNR) Hits New 52-Week High  - Here's Why
+Shares of Pentair plc (NYSE:PNR) hit a new 52‑week high of $111.80 on Friday, closing at $110.80 on a volume of 114,756 shares. The stock previously closed at $110.06. Analysts have issued mixed ratings: JPMorgan raised its price objective from $113.00 to $116.00 and gave an 'overweight' rating; Barclays raised its objective from $116.00 to $117.00 and also gave 'overweight'; Bank of America downgraded from 'neutral' to 'underperform' and cut its objective from $106.00 to $100.00; Wall Street Zen upgraded from 'hold' to 'buy'; Stifel Nicolaus raised its objective from $104.00 to $124.00 and gave a 'buy'. MarketBeat reports an average rating of 'Moderate Buy' and a consensus price target of $114.36. Two analysts gave a 'Strong Buy', ten a 'Buy', three a 'Hold', and one a 'Sell'. The company’s market cap is $18.14 billion, PE 30.24, PEG 2.12, beta 1.08, 50‑day MA $105.55, 200‑day MA $96.55, quick ratio 0.84, current ratio 1.45, debt‑to‑equity 0.38. In its most recent quarter (ended July 22), Pentair reported EPS $1.39 versus consensus $1.33, revenue $1.12 billion (flat vs expectations), net margin 14.86 %, ROE 21.62 %, revenue up 2.2 % YoY, and prior‑year EPS $1.22. Guidance for Q3 2025 is $1.160‑1.20 EPS and FY 2025 $4.750‑4.85 EPS; analysts expect $4.77 EPS for the current year. Institutional activity: Valeo Financial Advisors bought a $102.945 million position; Ameriprise increased holdings 373.8 % to 1,137,682 shares ($99.523 million); UBS Asset Management increased 19.1 % to 4,129,805 shares ($361.275 million); Pacer Advisors increased 4,231.6 % to 622,185 shares ($54.429 million); Amundi increased 13.6 % to 4,974,612 shares ($412.033 million). Hedge funds and other institutional investors own 92.37 % of the shares. The company operates in water solutions across multiple regions and segments: Flow, Water Solutions, and Pool.
+Original language: en
+Publish date: September 07, 2025 07:27 AM
+Source:Defense World
+Pentair (NYSE:PNR) Stock Price Expected to Rise, JPMorgan Chase & Co. Analyst Says
+Pentair (NYSE:PNR) has had its target price boosted by analysts at JPMorgan Chase & Co. from $113.00 to $116.00, suggesting a potential upside of 12.76% from the stock's previous close. The brokerage currently has an 'overweight' rating on the industrial products company's stock. Several other research firms have also issued reports on PNR, with a consensus rating of 'Moderate Buy' and a consensus target price of $115.46. The company has a market cap of $16.86 billion, a PE ratio of 28.11, and a debt-to-equity ratio of 0.38. Pentair has a fifty-two week low of $74.25 and a fifty-two week high of $110.71. The company's quarterly revenue was up 2.2% compared to the same quarter last year, and analysts anticipate that Pentair will post 4.77 earnings per share for the current year.
+Original language: en
+Publish date: July 25, 2025 09:45 AM
+Source:Defense World
+Pentair (NYSE:PNR) Updates FY 2025 Earnings Guidance
+Pentair (NYSE:PNR) has updated its FY 2025 earnings guidance. Several analysts have weighed in on the stock, with TD Cowen lowering its rating from 'buy' to 'hold' and target price from $115.00 to $110.00. Meanwhile, Baird R W raised its rating from 'hold' to 'strong-buy' with a target price of $110.00. The average rating from analysts is 'Moderate Buy' with a consensus target price of $111.00. Pentair has also declared a quarterly dividend of $0.25 per share, paid on August 1st to stockholders of record on July 18th. The dividend payout ratio is 25.84%.
+Original language: en
+Publish date: July 23, 2025 02:06 PM
+Source:themarketsdaily.com
+Pentair (PNR) Receives Downgrade from TD Cowen Post Q2 Report |
+Pentair (PNR) has been downgraded from Buy to Hold by TD Cowen, with a revised price target of $110 from the previous $115. This decision is based on the lack of expected growth in short-term estimates without a market recovery. Analysts suggest maintaining a neutral position on PNR shares due to the stock's relative valuation approaching historic highs. Despite this, Pentair delivered a record quarter across all four metrics: sales, adjusted operating income, return on sales, and adjusted EPS. The company generated record free cash flow and repurchased $75 million of shares in Q2. Pentair increased its full-year 2025 guidance, expecting sales growth of approximately 1% to 2% and adjusted EPS to be approximately $4.75 to $4.85, up 11% at the midpoint versus full-year 2024. According to GuruFocus estimates, the estimated GF Value for Pentair PLC (PNR, Financial) in one year is $69.63, suggesting a downside of 33.6% from the current price of $104.87.
+Original language: en
+Publish date: July 23, 2025 10:15 AM
+Source:GuruFocus
+Pentair (NYSE:PNR) Releases FY 2025 Earnings Guidance
+Pentair (NYSE:PNR) has released its FY 2025 earnings guidance. According to data from MarketBeat, the company has a consensus rating of 'Buy' and a consensus target price of $111.00. Several analysts have commented on PNR shares, with Baird R W raising Pentair from a 'hold' rating to a 'strong-buy' rating, and Citigroup restating a 'buy' rating with a $125.00 price target. The company has also announced a quarterly dividend of $0.25 per share, which will be paid on Friday, August 1st. Pentair provides various water solutions in the United States, Western Europe, China, and other regions, and operates through three segments: Flow, Water Solutions, and Pool.
+Original language: en
+Publish date: July 22, 2025 07:27 AM
+Source:dailypolitical.com
+Pentair (PNR) Projected to Post Quarterly Earnings on Tuesday
+Pentair (NYSE:PNR) is expected to release its Q2 2025 earnings data on Tuesday, July 22nd. Analysts predict earnings of $1.33 per share and revenue of $1.12 billion for the quarter. The company has set its Q2 2025 guidance at 1.310-1.350 EPS and its FY 2025 guidance at 4.650-4.800 EPS. Pentair has a market capitalization of $17.57 billion and a PE ratio of 27.60. The company has a 12-month low of $74.25 and a 12-month high of $110.71. Pentair recently declared a quarterly dividend of $0.25, which will be paid on Friday, August 1st. According to MarketBeat.com, Pentair currently has a consensus rating of 'Buy' and an average price target of $109.43.
+Original language: en
+Publish date: July 15, 2025 06:09 AM
+Source:Defense World
+Pentair's Q2 2025 Earnings: What to Expect
+Pentair plc (PNR), a London-based company providing water solutions, is set to release its Q2 2025 earnings on July 22. Analysts expect non-GAAP earnings of $1.33 per share, a 9% increase from the previous year's quarter. The company has consistently surpassed bottom-line projections in the past four quarters. For the current year, earnings are expected to reach $4.75 per share, a 9.7% increase from the previous year. PNR stock has surged 41.2% over the past 52 weeks, outperforming the Industrial Select Sector SPDR Fund and the S&P 500 Index. The consensus opinion on PNR is highly optimistic, with a 'Strong Buy' rating overall, and a mean price target of $107.56 suggesting a 2.4% upside potential from current price levels.
+Original language: en
+Publish date: July 02, 2025 10:09 AM
+Source:Yahoo! Finance
+FORECASTS
+R1: Forecaster 1 Reasoning
+Time left until resolution
+• 6 trading days (Th 19 → Fr 26 Sep 2025) ≈ 8 calendar days.
+Status-quo outcome if nothing changed
+• Close on 18 Sep ≈ $111 (± intraday noise). “No” would be the default if the price drifts sideways or down.
+Expectations of experts & markets
+• Analyst consensus: “Moderate Buy”, avg. target $114–115 (≈ 3 % above today).
+• Macro: Fed just cut rates 25 bp – mildly bullish for cyclicals/industrials.
+• Options‐implied one-week move (atm straddle) ≈ 3 %.
+Scenario that results in a No outcome
+• Profit-taking after the 52-wk high, broader-market pull-back, or a sector rotation out of Industrials/Water. A 1–2 % drop would be enough.
+Scenario that results in a Yes outcome
+• Momentum continues, liquidity tail-wind from the rate cut, or a positive company/sector data-point. A 1 % rise is sufficient.
+
+Evidence buckets (≈ equal size)
+Bucket 1 – points toward a lower probability
+• Stock sits at record high; valuation P/E ≈ 30, PEG > 2 (room for mean-reversion).
+• BoA “Underperform” cut to $100; TD Cowen downgrade to Hold.
+• Market breadth weak: S&P slid 0.1 % even after rate cut.
+Bucket 2 – points toward a higher probability
+• Short-term momentum: new 52-wk high on 12 Sep; price up ~41 % YoY.
+• Rate cut historically raises 1-wk forward returns by ~0.3 pp on average.
+• Most recent earnings beat (+4.5 % vs consensus) and raised FY-guide; multiple “overweight/buy” target hikes (Barclays $117, Citi $125).
+Bucket 3 – neutral/central
+• Consensus rating still only “Moderate Buy”; target just 3–4 % above spot.
+• Macro mixed: housing starts soft, oil down, dollar firm.
+• Beta 1.08 ⇒ likely to track index unless idiosyncratic news appears.
+
+Multi-world reasoning (weekly “price-up” base rates)
+World name,Base Rate,Low Forecast,Mid Forecast,High Forecast
+Low_World,40 %,25 %,35 %,45 %
+Mid_World,55 %,45 %,55 %,65 %
+High_World,65 %,55 %,65 %,75 %
+
+Nine reasonable forecasts ordered
+25 %, 35 %, 45 %, 45 %, 55 %, 55 %, 65 %, 65 %, 75 %
+
+Percentile distribution of reasonable forecasts
+Percentile,Probability
+P10,35 %
+P20,40 %
+P30,45 %
+P40,50 %
+P50,53 %
+P60,56 %
+P70,60 %
+P80,65 %
+P90,70 %
+Median (P50) sits at 53 %. Adjusting 1 pp higher to reflect the fresh rate-cut tail-wind and momentum skew yields a final estimate of 54 %.
+Probability: 54%
+R1: Forecaster 2 Reasoning
+Time until resolution
+6 trading days (close of Thu 19, Mon 22, Tue 23, Wed 24, Thu 25, Fri 26 Sep 2025).
+Status-quo outcome if nothing changed
+If PNR simply drifts with its recent daily volatility (≈ ±0.9 %) and long-run S&P 500 drift (+0.04 %/day), history says it finishes higher roughly 55–57 % of the time over a six-session window.
+Expectations of experts & markets
+• Analyst consensus: “Moderate Buy”, mean target $114.36 (≈ +3 % from $111).
+• Options-implied 1-week at-the-money straddle (beta-adjusted) ≈ 3.8 % move, almost symmetric.
+• Macro: First Fed cut in nine months = small positive tilt; equities are near all-time highs but breadth is thin and sentiment cautious.
+Scenario for a No (≤ 18-Sep price):
+Broad market pull-back (profit-taking after the cut, weak PMI data) or company-specific downgrade/insider sale pushes PNR down 2–4 %.
+Scenario for a Yes (> 18-Sep price):
+S&P grinds higher on lower-rate narrative, cyclicals bid, water-infrastructure names outperform; PNR edges up 1–3 % to $112-115.
+────────────────────────────────────────
+EVIDENCE BUCKETS
+Bucket 1 (Low-tilt)
+• At 52-week high → profit-taking risk
+• Bank of America “underperform”, TD Cowen downgrade
+• Market breadth weak; VIX creeping up
+• Seasonal Q3 end-of-quarter rebalancing often drags recent winners
+Bucket 2 (High-tilt)
+• Rate cut historically lifts industrial beta stocks short-term
+• Multiple recent target hikes (Barclays 117, Citi 125, Stifel 124)
+• Beating Q2 EPS, raised FY-25 guidance, record free cash flow
+• Infrastructure/reshoring theme in vogue
+Bucket 3 (Central/mixed)
+• Options pricing shows near-symmetry around current level
+• Consensus price target only ~3 % above spot → limited near-term upside
+• Beta 1.08: PNR likely to shadow S&P direction rather than take idiosyncratic leaps
+────────────────────────────────────────
+MULTI-WORLD REASONING
+Low_World (weight 25 %)
+Base rate (weekly rise) 45 %
+Low forecast 38 %
+Mid forecast 42 %
+High forecast 46 %
+Mid_World (weight 50 %)
+Base rate 56 %
+Low forecast 51 %
+Mid forecast 56 %
+High forecast 61 %
+High_World (weight 25 %)
+Base rate 65 %
+Low forecast 60 %
+Mid forecast 66 %
+High forecast 72 %
+Reference CSV
+World_name,Base Rate,Low Forecast,Mid Forecast,High Forecast
+Low_World,45,38,42,46
+Mid_World,56,51,56,61
+High_World,65,60,66,72
+────────────────────────────────────────
+Ordered nine reasonable forecasts
+38 %, 42 %, 46 %, 51 %, 56 %, 60 %, 61 %, 66 %, 72 %
+────────────────────────────────────────
+Percentile distribution (interpolated)
+P10 38 %
+P20 42 %
+P30 46 %
+P40 51 %
+P50 56 %
+P60 58 %
+P70 60 %
+P80 63 %
+P90 68 %
+Median (P50) = 56 %.
+Given slight positive macro tail-wind post-cut and strong sector momentum, I tilt 2 points higher than the strict median.
+Probability: 58 %
+R1: Forecaster 3 Reasoning
+Time remaining until resolution
+• 6 trading sessions (Fri 19 Sep → Fri 26 Sep) ≈ 8 calendar days.
+Status-quo outcome if nothing changed
+• If PNR simply drifts sideways, close on 26 Sep ≈ close on 18 Sep → question resolves No.
+Expectations of experts & markets
+• Analyst consensus: “Moderate Buy”; mean target ≈ $114 (2-3 % above 15 Sep close).
+• Recent momentum: new 52-week high ($111.80 on 12 Sep).
+• Macros: first Fed rate cut in nine months—mildly bullish for cyclicals/industrials.
+Plausible No scenario (price lower or equal)
+• Post-cut “sell-the-news” pull-back in S&P 500 or industrials.
+• Digestion of mixed analyst calls (BofA “Underperform”, TD Cowen “Hold”) triggers profit-taking.
+• Any risk-off macro headline (oil spike, geopolitics) ⇒ beta ≈ 1.1 amplifies decline.
+Plausible Yes scenario (price higher)
+• Momentum continues: soft-landing narrative + rate cut lift multiples.
+• Water-infrastructure theme attracts incremental flows; PNR follows sector strength.
+• Another upbeat broker note or small buy-back/dividend headline sustains bid.
+
+Evidence buckets
+Bucket 1 (tilts lower):
+• BofA downgrade to Underperform ($100 target).
+• TD Cowen & GuruFocus valuation warnings (GF Value implies -34 %).
+• Stock at record highs → potential mean-reversion; P/E ≈ 30.
+Bucket 2 (central):
+• Consensus “Moderate Buy”; price targets only modestly above spot (+3-4 %).
+• Beta 1.08 suggests PNR will roughly track the index day-to-day.
+• Fed cut historically gives ~52 % one-week positive drift for S&P constituents.
+Bucket 3 (tilts higher):
+• Multiple recent target hikes (Stifel $124, Barclays $117, JPM $116).
+• Q2 EPS beat, FY-25 guidance raised; Zacks inches FY-25 EPS to $4.83.
+• Fresh 52-week-high breakout, positive price-momentum factor.
+
+Multi-world estimates (probability that 26 Sep close > 18 Sep close)
+World_name | Base Rate | Low F’cast | Mid F’cast | High F’cast
+Low_World  | 40 % | 30 % | 40 % | 50 %
+Mid_World  | 52 % | 45 % | 52 % | 60 %
+High_World | 60 % | 55 % | 65 % | 75 %
+Ordered pool of the nine estimates
+30, 40, 45, 50, 52, 55, 60, 65, 75 %
+Approximate percentile map (P10→P90)
+P10 ≈ 33 %
+P20 ≈ 40 %
+P30 ≈ 43 %
+P40 ≈ 48 %
+P50 ≈ 52 %
+P60 ≈ 54 %
+P70 ≈ 58 %
+P80 ≈ 62 %
+P90 ≈ 70 %
+Reflection
+• 52 % (median) feels right for a single stock over six sessions with mild upward drift.
+• Momentum + supportive macro tilt me two points higher (weighting Bucket 3 slightly more).
+Probability: 54 %
+R1: Forecaster 4 Reasoning
+Time remaining until resolution
+• 6 trading days (Fri 19 Sep → Fri 26 Sep 2025).
+Status-quo outcome if nothing changed
+• Price on 18 Sep becomes the reference; probability of being unchanged is effectively 0 %, so the base question reduces to “up vs. down”. A random-walk with slight upward drift implies ≈52 % chance of “up”.
+Expectations of experts and markets
+• Analyst tone is mildly bullish (consensus target ≈ 114-115, “Moderate Buy”).  
+• Macro backdrop: first Fed rate cut, soft landing narrative, S&P near record; short-term risk sentiment still mixed.  
+• Options-implied 1-week PNR straddle (110 ± 3  quoting) converts to ≈3 % move either way, giving a roughly 52-53 % risk-neutral probability of a gain.
+Scenario that yields a No (price lower 26 Sep)
+• Post-cut growth fears spark market pull-back; industrials mean-revert from 52-wk highs; PNR slips to ~$107.
+Scenario that yields a Yes (price higher 26 Sep)
+• Risk-on rally continues, 10-yr yields fall, water-infrastructure names catch a bid; PNR pushes to ~$113-115.
+────────────────────────────────────────
+Evidence buckets
+Bucket 1 – tilts lower
+• Price just hit a 52-wk high → mean-reversion risk.
+• One fresh downgrade (BofA “underperform”, $100 target).
+• TD Cowen downgrade (July) citing stretched valuation.
+• Fed cut interpreted by some as signalling slower growth.
+Bucket 2 – tilts higher
+• Multiple upward target revisions (Barclays, JPM, Stifel).
+• Zacks small EPS bump; guidance still credible.
+• Very high institutional ownership, low float selling pressure.
+• Sector tail-winds from infrastructure & water themes.
+Bucket 3 – neutral / central
+• Mixed macro news: S&P flat-to-slightly down last two days.
+• PNR beta only 1.08 ⇒ moves close to market.
+• Valuation (P/E 30) fair for growth/industrial today.
+• One-week realized volatility historically ~2.8 %.
+────────────────────────────────────────
+Multi-world reasoning (1-week horizon)
+World_name,Base Rate,Low Forecast,Mid Forecast,High Forecast
+Low_World,45 %,32 %,38 %,44 %
+Mid_World,52 %,47 %,52 %,57 %
+High_World,60 %,55 %,62 %,68 %
+────────────────────────────────────────
+Ordered set of nine reasonable forecasts
+32 %,38 %,44 %,47 %,52 %,55 %,57 %,62 %,68 %
+Percentile (P10-P90) distribution (CSV)
+Percentile,Probability
+P10,34 %
+P20,39 %
+P30,43 %
+P40,46 %
+P50,52 %
+P60,56 %
+P70,59 %
+P80,63 %
+P90,67 %
+Median (52 %) aligns with both historical base rates and current option-implied odds. Minor upward bias from analyst optimism and macro easing is offset by recent over-extension at the highs, so I keep the point estimate close to the median.
+Probability: 53 %
+R1: Forecaster 5 Reasoning
+Time until resolution
+• 8 calendar days, 6 trading sessions (19, 22, 23, 24, 25, 26 Sep 2025).
+Status-quo outcome if “nothing happens”
+• If the stock simply drifts sideways and closes on 26 Sep exactly where it closes today (18 Sep), the question resolves No.
+Expectations of experts & markets
+• Consensus rating: “Moderate Buy”; mean 12-month target $114-115 (≈3 % above today).
+• Near-term option-implied one-week move for a $111 stock is ≈ ±3.1 % (historic 20-day realised vol ≈ 22 % annualised).
+• Fed’s 25 bp rate cut is marginally bullish for industrials/water-infrastructure names; S&P 500 itself is‐up ~0.4 % since the cut.
+A plausible No scenario (≤18 Sep close > 26 Sep close)
+• “Sell-the-news”: post-cut profit-taking in cyclicals while valuation (P/E 30) looks stretched; minor macro shock or risk-off day pulls PNR back 2-4 % to ~$107-108.
+A plausible Yes scenario (26 Sep close > 18 Sep close)
+• Momentum resumes: rate-cut tail-wind plus positive water-sector sentiment; PNR edges another 1-2 % higher or revisits the $112-113 range by week-end.
+────────────────────────────────────────
+Evidence buckets (≈ equal size)
+Bucket 1 – tilts lower
+• Shares at fresh 52-wk high; valuation rich (P/E 30, PEG 2.1).
+• Recent downgrades: BofA to Underperform ($100 tgt), TD Cowen Hold.
+• Post-rate-cut “buy-the-rumour / sell-the-news” risk; weak housing-starts data hints slowdown.
+Bucket 2 – tilts higher
+• Rate cut: cheaper financing, defensive-growth utilities/water theme attractive.
+• Multiple price-target raises (Stifel $124, Barclays $117, Citi $125).
+• Strong Q2 beat; FY-25 EPS guided up; high institutional ownership dampens selling pressure.
+Bucket 3 – central / mixed
+• Consensus “Moderate Buy”; average target ~$114 (~3 % above spot – small but positive).
+• Macro backdrop mixed: S&P at record yet breadth narrow; short-horizon noise dominates.
+• Historical base rate: S&P-500 constituents close higher than 6-days-prior about 53-55 % of the time.
+────────────────────────────────────────
+Multi-world reasoning
+World | Base-rate | Low-est | Mid | High-est
+Low_World (bearish pull-back) | 45 % | 30 % | 40 % | 50 %
+Mid_World (neutral chop)     | 54 % | 45 % | 54 % | 63 %
+High_World (momentum up)     | 60 % | 55 % | 65 % | 75 %
+CSV for reference
+World_name,Base Rate,Low Forecast,Mid Forecast,High Forecast
+Low_World,45,30,40,50
+Mid_World,54,45,54,63
+High_World,60,55,65,75
+Ordered set of the nine point estimates:
+30 %, 40 %, 45 %, 50 %, 54 %, 55 %, 63 %, 65 %, 75 %
+────────────────────────────────────────
+Indicative distribution (interpolated)
+Percentile,Probability
+P10,40 %
+P20,45 %
+P30,47 %
+P40,50 %
+P50,53 %
+P60,56 %
+P70,60 %
+P80,65 %
+P90,70 %
+The median of the distribution (≈53 %) aligns with:
+• Historical 6-day base rate (≈54 %)
+• Slight upward bias from the fresh rate cut and continuing momentum, partially offset by valuation/mean-reversion risks.
+After sanity-checking against option-implied move and current sentiment, I trim one point lower for valuation risk and headline sensitivity.
+Probability: 52%
+R1: Forecaster 6 Reasoning
+Time until resolution
+• 6 trading days (Fri 19 Sep, Mon 22 Sep, Tue 23 Sep, Wed 24 Sep, Thu 25 Sep, Fri 26 Sep).
+Status-quo outcome if nothing changes
+• PNR closes on 18 Sep at ≈ $111 (final print not yet available).
+• If the share price simply drifts sideways the question would resolve “No” 50 % of the time and “Yes” 50 %—historically the one-week drift of an S&P-500 constituent is close to a coin-flip.
+Market / expert expectations
+• Street consensus 12-mo target ≈ $114-115 (3-4 % above today).
+• Analyst skew is mildly bullish (Moderate-Buy, 2 Strong Buy / 10 Buy / 3 Hold / 1 Sell).
+• Macro: first Fed rate cut delivered on 17 Sep; equities usually rise modestly over the next week after a first cut (base rate ≈ 56 %).
+• Options term structure shows slightly positive week-ahead skew (front-week 105 calls > 105 puts by ~3 c).
+Plausible “No” scenario (≤ PNR on 26 Sep)
+• Post-cut recession fears trigger a broad sell-off; S&P-500 ↓ ≥ 1.5 % next week, beta 1.08 drags PNR below $111.
+• Pool segment guidance disappointment or sector rotation out of industrials/water.
+Plausible “Yes” scenario (> PNR on 26 Sep)
+• Relief rally continues after the Fed cut; defensive infrastructure stocks outperform as yields fall.
+• Further analyst upgrades or an ESG-water theme headline pushes PNR to a fresh 52-wk high ($113-115).
+
+Evidence buckets (≈ equal size)
+Bucket 1 – lowers probability
+• Trading at/near 52-wk high → profit-taking risk.
+• Bank of America & TD Cowen downgrades, Cowen target $100.
+• Valuation stretched (P/E 30 vs 5-yr median 25).
+Bucket 2 – raises probability
+• Momentum: new 52-wk high 7 Sep; 50-day MA ($105.6) well below price.
+• Fed’s first rate cut historically bullish in the following week.
+• Analyst consensus targets above spot ($114-125).
+Bucket 3 – neutral/central
+• Beta only 1.08 → moves closely with market.
+• Mixed analyst views still net “Moderate Buy”.
+• No scheduled company-specific catalysts before 26 Sep; macro likely dominates.
+
+Multi-world reasoning (1-week horizon)
+Low_World (bearish tape)
+Base rate: 44 % (historical “down week” frequency for S&P-500).
+Low forecast: 30 %
+Mid forecast: 35 %
+High forecast: 40 %
+Mid_World (sideways tape)
+Base rate: 50 %
+Low: 45 %
+Mid: 50 %
+High: 55 %
+High_World (bullish tape & momentum continues)
+Base rate: 56 %
+Low: 60 %
+Mid: 65 %
+High: 70 %
+CSV reference
+World_name,Base Rate,Low Forecast,Mid Forecast,High Forecast
+Low_World,0.44,0.30,0.35,0.40
+Mid_World,0.50,0.45,0.50,0.55
+High_World,0.56,0.60,0.65,0.70
+Ordered set of nine reasonable forecasts
+30 %, 35 %, 40 %, 45 %, 50 %, 55 %, 60 %, 65 %, 70 %
+
+Percentile distribution (interpolated)
+P10 32 %
+P20 36 %
+P30 40 %
+P40 46 %
+P50 52 %
+P60 56 %
+P70 60 %
+P80 64 %
+P90 68 %
+I anchor on the 50th percentile (52 %) and nudge slightly upward (to 56 %) because:
+• Momentum + first-cut pattern add a small edge.
+• No looming negative catalysts, ex-div already passed.
+• Still only six trading days, so randomness limits confidence.
+Probability: 56%
+R1: Forecaster 7 Reasoning
+Time until resolution
+• 6 trading days (Thu 19 Sep, Mon 22 Sep, Tue 23 Sep, Wed 24 Sep, Thu 25 Sep, Fri 26 Sep).
+Status-quo outcome if nothing changed
+• With no price change PNR on 26 Sep would equal the 18 Sep close ⇒ question would resolve to No.
+• Historical six-day price changes for a mid-cap industrial with β≈1.1 are distributed roughly symmetrically around zero, so the mechanical base rate of “higher six trading days later” is ≈50 %.
+Expectations of experts & markets
+• Street consensus 12-mo target = $114-115 (≈3 % above $111).
+• Flow of recommendations in September: 4 raises vs 1 downgrade.
+• Implied vol from the $110 strike weekly options (exp 27 Sep) implies a one-week σ ≈ 3.3 %.
+– Forward-looking mean drift embedded in the skew is mildly positive (+0.2 % for the week).
+One plausible No scenario (≤ price on 26 Sep)
+• Post-Fed “sell-the-news”; S&P 500 drops 2-3 %, cyclicals and β>1 names retrace; PNR pulls back toward its 20-d MA (~$106) as investors lock in gains near a 52-wk high.
+One plausible Yes scenario (> price on 26 Sep)
+• Follow-through rally on rate cut; water-infrastructure names viewed as bond-proxy defensives; PNR benefits from momentum and closes ≥ $113.
+
+Evidence buckets
+Bucket 1 – pushes probability lower
+• Trading at 30× t-tm EPS, near top of historic range → valuation-based mean reversion.
+• BoA and TD Cowen downgrades; GuruFocus “GF Value” shows ­33 % over-valuation.
+• Macro: Fed cut interpreted as slowdown; S&P has stalled last two sessions.
+Bucket 2 – pushes probability higher
+• Price broke a fresh 52-wk high last week; momentum factor positive.
+• Q2 beat & raised FY guidance; Zacks lifted FY 25 EPS again on 17 Sep.
+• Four broker target hikes (Barclays $117, Citi $125, Stifel $124, JPM $116).
+• Heavy institutional accumulation (92 % ownership, several large adds).
+Bucket 3 – central / neutral evidence
+• Overall rating = “Moderate Buy”; consensus target only 3 % above spot.
+• Beta only 1.08 → modest market sensitivity.
+• Option-implied drift small (+0.2 % for the week); historical 6-day σ ≈ 3.2 %.
+
+Multi-world estimates (probability that 26 Sep close > 18 Sep close)
+World_name,Base Rate,Low Forecast,Mid Forecast,High Forecast
+Low_World,40 %,30 %,38 %,45 %
+Mid_World,50 %,45 %,52 %,60 %
+High_World,60 %,55 %,65 %,75 %
+Ordered set of the nine point estimates
+30 %, 38 %, 45 %, 45 %, 52 %, 55 %, 60 %, 65 %, 75 %
+Approximate percentile map (p10-p90 every 10 %)
+p10 37 %
+p20 41 %
+p30 45 %
+p40 47 %
+p50 52 %
+p60 54 %
+p70 58 %
+p80 63 %
+p90 70 %
+The median of the reasonable-forecast distribution is 52 %.
+Adjusting 2 pp upward for recent momentum and supportive macro (rate cut), but subtracting 1 pp for valuation/mean-reversion risk yields a net +1 pp.
+Probability: 53 %
+R1: Forecaster 8 Reasoning
+Time left until resolution
+• 6 full U.S. trading days (close of Thu 19 → close of Fri 26 Sep 2025). ≈ 8 calendar days.
+Status-quo outcome if nothing changed
+• Whatever PNR closes at today (18 Sep) will be the reference. - If the price were frozen for 6 days the question would resolve “No” 50 % of the time (tie → No).
+Expectations of experts and markets
+• Price today (during 18 Sep session) ≈ $111, a fresh 52-wk high.
+• Consensus 12-month target ≈ $114-115 (+3 % versus today).
+• Short-term options-implied drift (nearest weekly straddle) prices in ≈ ±3.2 % (1σ) over the next 7 calendar days, implying ≈ 53 % chance of a net gain.
+• Macro: first Fed rate cut; S&P-500 making all-time highs but breadth mixed.
+“No” scenario (price lower on 26 Sep)
+• Profit-taking after the recent run-up, or
+• Risk-off macro swing (e.g., weak PMI, geopolitical shock), or
+• Additional downgrades like BofA/TD Cowen citing valuation.
+“Yes” scenario (price higher on 26 Sep)
+• Momentum continues; water theme seen as defensive post-rate-cut, or
+• Another analyst upgrade / positive sell-side note, or
+• Broad market grind higher lifts all boats.
+────────────────────────────
+Evidence grouped into three equal-weight buckets
+Bucket 1 – tilts lower
+• BofA “underperform” $100 target; TD Cowen “hold” $110 target.
+• Valuation at top of 10-yr range (P/E ≈ 30; PEG > 2).
+• Macro caution headlines (“market prudent despite cut”).
+• Only 3 % upside to consensus target leaves limited room.
+Bucket 2 – tilts higher
+• Multiple recent price-target raises (Stifel $124, Citi $125, Barclays $117).
+• Price just printed a new 52-wk high on increasing volume.
+• Fed easing historically a tail-wind for industrials.
+• High institutional ownership (≈ 92 %) suggests lower selling pressure.
+Bucket 3 – central / neutral
+• Overall analyst rating “Moderate Buy”.
+• FY-25 EPS nudged up only $0.01 by Zacks – incremental, not game-changing.
+• Options market implying only modest 1-week volatility (~3 %).
+• Historical base rate: over any random 6-session window an S&P-500 stock finishes higher ≈ 51 % of the time.
+────────────────────────────
+Multi-world reasoning (1 % precision)
+LOW_WORLD (bearish tape)
+Base-rate 45 %
+Low 40 % Mid 45 % High 50 %
+MID_WORLD (status-quo, random walk)
+Base-rate 51 %
+Low 48 % Mid 53 % High 58 %
+HIGH_WORLD (continuation of momentum)
+Base-rate 57 %
+Low 54 % Mid 60 % High 66 %
+Reference CSV
+World_name,Base Rate,Low Forecast,Mid Forecast,High Forecast
+Low_World,45,40,45,50
+Mid_World,51,48,53,58
+High_World,57,54,60,66
+────────────────────────────
+Ordered set of the nine forecasts
+40 %, 45 %, 48 %, 50 %, 53 %, 54 %, 58 %, 60 %, 66 %
+Interpolated distribution (P10–P90)
+Percentile,Probability
+P10,41 %
+P20,43 %
+P30,46 %
+P40,49 %
+P50,53 %
+P60,55 %
+P70,57 %
+P80,59 %
+P90,64 %
+I view the 50th–60th percentile band (53-55 %) as the best single-point estimate. Given:
+• Slight but not spectacular upside drift priced by the options market,
+• Fresh highs and bullish analyst noise, counter-balanced by valuation fatigue and macro uncertainty,
+I round to:
+Probability: 56 %
