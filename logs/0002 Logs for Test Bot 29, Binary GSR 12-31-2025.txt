@@ -1,0 +1,134 @@
+Run poetry run python main.py --mode test_questions
+  poetry run python main.py --mode test_questions
+  shell: /usr/bin/bash -e {0}
+  env:
+    pythonLocation: /opt/hostedtoolcache/Python/3.11.14/x64
+    PKG_CONFIG_PATH: /opt/hostedtoolcache/Python/3.11.14/x64/lib/pkgconfig
+    Python_ROOT_DIR: /opt/hostedtoolcache/Python/3.11.14/x64
+    Python2_ROOT_DIR: /opt/hostedtoolcache/Python/3.11.14/x64
+    Python3_ROOT_DIR: /opt/hostedtoolcache/Python/3.11.14/x64
+    LD_LIBRARY_PATH: /opt/hostedtoolcache/Python/3.11.14/x64/lib
+    VENV: .venv/bin/activate
+    METACULUS_TOKEN: ***
+    PERPLEXITY_API_KEY: 
+    EXA_API_KEY: 
+    OPENAI_API_KEY: 
+    OPENROUTER_API_KEY: ***
+    ANTHROPIC_API_KEY: 
+    ASKNEWS_CLIENT_ID: ***
+    ASKNEWS_SECRET: ***
+Warning: Model openrouter/perplexity/sonar does not support cost tracking.
+2025-12-31 18:15:09.895 WARNING streamlit.runtime.caching.cache_data_api: No runtime found, using MemoryCacheStorageManager
+2025-12-31 18:15:09,918 - forecasting_tools.ai_models.model_tracker - WARNING - Warning: Model openrouter/openai/gpt-4o-mini does not support cost tracking.
+2025-12-31 18:15:09,920 - forecasting_tools.helpers.metaculus_client - INFO - Retrieving question details for question 578
+2025-12-31 18:15:12,506 - forecasting_tools.helpers.metaculus_client - INFO - Retrieved question details for question 578
+2025-12-31 18:15:17,511 - openai.agents - WARNING - OPENAI_API_KEY is not set, skipping trace export
+2025-12-31 18:15:27,339 - __main__ - INFO - Found Research for URL https://www.metaculus.com/questions/578:
+Here are the relevant news articles:
+
+**The Endgame Scenario: Baba Vanga's 'Terrifying' Prophecy Reveals Humanity's Final Day**
+Baba Vanga, the blind Bulgarian seer known as the 'Nostradamus of the Balkans,' allegedly predicted the end of human civilization in the year 5079 due to a catastrophic cosmic event deemed 'unimaginable' and capable of destroying the entire universe. According to a detailed timeline attributed to her, humanity would expand across the solar system, achieve immortality by 4599, and reach a golden age by 4674 with a population of 340 billion spread across planets and interacting with extraterrestrial civilizations. Key events include a war on Mars in 3005, a moon collision in 3010, and a major resource crisis between 3803 and 3805 that nearly wipes out half the human population. By 3797, all life on Earth becomes extinct, forcing humanity to survive on other planets. A new prophet emerges to restore moral and scientific stability. In the final years, between 5076 and 5078, explorers reach the edge of the known universe, and despite warnings, humanity attempts to cross it. In 5079, the 'absolute day of judgment' occurs, leading to the total collapse of human civilization and possibly the cosmos. The article notes that Vanga left no written records, and most predictions come from her niece Krassimira Stoyanova or followers, with experts cautioning that these claims are speculative and not scientifically grounded. The article was published on December 31, 2025, by 24.ae.
+Original language: ar
+Publish date: December 31, 2025 12:24 PM
+Source:[24.ae](https://24.ae/article/938967/%D8%B3%D9%8A%D9%86%D8%A7%D8%B1%D9%8A%D9%88-%D8%A7%D9%84%D9%86%D9%87%D8%A7%D9%8A%D8%A9-%D9%86%D8%A8%D9%88%D8%A1%D8%A9-%D8%A8%D8%A7%D8%A8%D8%A7-%D9%81%D8%A7%D9%86%D8%BA%D8%A7-%D8%A7%D9%84%D9%85%D8%B1%D8%B9%D8%A8%D8%A9-%D8%AA%D9%83%D8%B4%D9%81-%D9%85%D8%A7-%D9%8A%D8%AD%D8%AF%D8%AB-%D9%81%D9%8A-%D8%A7%D9%84%D9%8A%D9%88%D9%85-%D8%A7%D9%84%D8%A3%D8%AE%D9%8A%D8%B1-%D9%84%D9%84%D8%A8%D8%B4%D8%B1%D9%8A%D8%A9)
+
+**Daily Mail: Vanga Predicts End of Human History in 5079**
+The Russian news outlet Aif-Moscow reported that the British publication Daily Mail revived claims about prophecies attributed to the blind Bulgarian seer Vanga, who is nicknamed the 'Nostrodamus of the Balkans.' According to interpretations of her visions, the end of human history and the entire universe is predicted to occur in the year 5079 due to a massive cosmic event. The narrative describes a detailed timeline of humanity’s future: initial colonization of the Solar System, near-immortality, contact with extraterrestrial life, followed by a Martian war in 3005, a catastrophic lunar collision in 3010, and near-total extinction on Earth by 3797, when humans allegedly live on a previously unknown giant planet. A resource crisis in the early 5000s triggers devastating wars that eliminate over half the population and collapse civilization. Society regresses to a tribal state until a new spiritual leader restores order. By 4300, humanity resumes progress, eradicates disease, and transforms its consciousness, eliminating hatred and evil. The peak of civilization is forecasted for 4674, with populations reaching hundreds of billions and widespread interplanetary settlement, including regular contact with alien species. The final phase culminates in humanity approaching the edge of the known universe, leading to a fateful event or catastrophe that results in the total annihilation of existence in 5079. Notably, Vanga left no written records; most accounts were compiled posthumously by her niece Krasimira Stoyanova and other followers. Critics have repeatedly warned that these accounts may be distorted or misinterpreted. The Daily Mail previously claimed that Vanga’s 2025 prediction of contact with extraterrestrials came true when the interstellar object 3I/ATLAS approached Earth, with some scientists speculating it could be an alien spacecraft.
+Original language: ru
+Publish date: December 31, 2025 11:23 AM
+Source:[Аргументы и факты](https://aif.ru/society/daily-mail-vanga-predskazala-konec-chelovecheskoy-istorii-v-5079-godu)
+
+**Future Forecast 2025: Which Predictions Actually Came True?**
+A retrospective analysis published on December 31, 2025, by N-tv evaluates predictions about the year 2025 made in the 1990s, drawing on Gallup surveys from 1998 and forecasts by futurist Joseph F. Coates. The survey revealed that many predictions were accurate: a Black U.S. president (Barack Obama, elected 2008), legal and widespread same-sex marriage in the U.S., and the emergence of a deadly new disease (foreshadowing the COVID-19 pandemic) were correctly anticipated. Conversely, predictions that women would become U.S. president by 2025, that most businesses would vanish due to e-commerce, and that humans would routinely live to 100 years old with cures for cancer and AIDS were incorrect. Coates’ technological forecasts were remarkably precise: he accurately predicted ubiquitous internet access, the rise of virtual communities, and AI systems that could mimic or surpass human intelligence. He also warned of growing digital dependency, which has materialized. However, Coates was wrong in predicting that genetics would fully decode the human body by 2025, that personalized genetically modified food would be widespread, and that a global middle class, international government bodies, or a single global currency would emerge by 2025—developments that have not occurred and may even be moving in the opposite direction.
+Original language: de
+Publish date: December 31, 2025 09:09 AM
+Source:[N-tv](https://www.n-tv.de/wissen/Zukunftsbilanz-2025-Welche-Vorhersagen-wirklich-eingetreten-sind-id30188420.html)
+
+**Controversial Prediction by 'Baba Vanga' Forecasts Exact Year of Human and Cosmic End in 5079**
+According to widely circulated claims, Bulgarian fortune-teller 'Baba Vanga', also known as the 'Nostradamus of the Balkans', predicted the exact year of humanity's end as 5079, citing a cosmic event 'unimaginable' that would bring total destruction to the universe. Born in 1911 in Bulgaria, Vanga lost her sight at age 12 after surviving a violent storm, after which she reportedly developed extraordinary psychic abilities. Though illiterate and leaving no written records, her prophecies were documented posthumously by her niece, Krassimira Stoianova, following her death in 1996. The prophecy outlines a timeline spanning thousands of years: by 3005, humans colonize Mars, where a violent war alters the planet's orbit; in 3010, a celestial body strikes the Moon, permanently changing Earth's night sky. By 3797, Earth becomes uninhabitable, prompting mass migration to a new planet, only for resource wars between 3803 and 3805 to kill over half the remaining population. A dark age follows from 3815 to 3878, ending with the emergence of a 'new prophet' who rebuilds moral order and unites spiritual and lost scientific knowledge, leading to a slow renaissance. By the 44th century, humanity enters an unprecedented golden age: advanced cities, cures for all known diseases, and breakthroughs in genetics and neuroscience eliminate negative emotions like hatred. In 4509, humanity reaches an unprecedented ethical peak; by 4599, biological immortality is achieved. By 4674, the population reaches 340 billion across multiple planets, with integration into alien civilizations. In the final decades before 5079, space explorers discover a mysterious barrier at the edge of the known universe, sparking a cosmic divide between those wanting to cross it and those warning of unknown consequences. In 5079, humanity makes a fateful decision—or suffers a catastrophe tied to this discovery—resulting in what Vanga described as the 'absolute Day of Judgment,' ending both civilization and the universe. Despite widespread popularity, the prophecies face strong scientific criticism: lack of original documentation, deliberate vagueness allowing multiple interpretations, retrospective bias in 'confirming' predictions, absence of explanatory mechanisms, and documented contradictions (e.g., Europe disappearing by 2016, Bulgaria winning the World Cup). Psychologists suggest belief in such prophecies stems from a psychological need for control over an uncertain future, especially amid global instability, climate change, and health crises.
+Original language: ar
+2025-12-31 18:15:52,891 - forecasting_tools.ai_models.resource_managers.monetary_cost_manager - WARNING - Litellm hidden param cost 0.0 and response object cost 0.03334500000000001 are different.
+2025-12-31 18:15:53,433 - forecasting_tools.ai_models.resource_managers.monetary_cost_manager - WARNING - Error calculating cost from response object: This model isn't mapped yet. model=gpt-4o-mini, custom_llm_provider=openrouter. Add it here - https://github.com/BerriAI/litellm/blob/main/model_prices_and_context_window.json.
+2025-12-31 18:15:54,503 - __main__ - INFO - Parsed scenarios: [Low=5.0%, Mid=10.0%, High=20.0%]
+2025-12-31 18:15:54,504 - __main__ - INFO - Total scenarios stored for question https://www.metaculus.com/questions/578: 12 scenarios
+2025-12-31 18:15:54,504 - __main__ - INFO - Returning mid forecast for URL https://www.metaculus.com/questions/578: 0.1
+2025-12-31 18:15:54,504 - __main__ - INFO - [GPR DEBUG] Checking if should apply GPR: call_number=4, predictions_per_report=4, scenarios=12
+2025-12-31 18:15:54,504 - __main__ - INFO - Final call (4/4) - applying GPR aggregation
+2025-12-31 18:15:54,504 - __main__ - INFO - [GPR DEBUG] Applying GPR on 12 scenarios: [0.05, 0.1, 0.2, 0.1, 0.05, 0.01, 0.1, 0.05, 0.01, 0.05, 0.1, 0.2]
+2025-12-31 18:15:54,680 - __main__ - INFO - GPR aggregation: 12 scenarios → p50 = 0.0936
+2025-12-31 18:15:54,680 - __main__ - INFO - GPR forecast: 0.0936 (replacing mid value: 0.1000)
+2025-12-31 18:15:54,681 - forecasting_tools.ai_models.resource_managers.monetary_cost_manager - WARNING - Error calculating cost from response object: This model isn't mapped yet. model=gpt-4o-mini, custom_llm_provider=openrouter. Add it here - https://github.com/BerriAI/litellm/blob/main/model_prices_and_context_window.json.
+2025-12-31 18:15:54,683 - forecasting_tools.helpers.metaculus_client - INFO - Posting prediction on question 578
+2025-12-31 18:15:56,577 - forecasting_tools.helpers.metaculus_client - INFO - Posted prediction on question 578
+2025-12-31 18:15:57,538 - openai.agents - WARNING - OPENAI_API_KEY is not set, skipping trace export
+2025-12-31 18:15:58,758 - forecasting_tools.helpers.metaculus_client - INFO - Posted comment on post 578
+2025-12-31 18:15:58,762 - forecasting_tools.forecast_bots.forecast_bot - INFO - 
+----------------------------------------------------------------------------------------------------
+
+URL: https://www.metaculus.com/questions/578
+Errors: []
+<<<<<<<<<<<<<<<<<<<< Summary >>>>>>>>>>>>>>>>>>>>>
+# SUMMARY
+*Question*: Will humans go extinct before 2100?
+*Final Prediction*: 10.41%
+*Total Cost*: $0.1333 (estimated)
+*Time Spent*: 0.7 minutes
+*LLMs*: `{'default': {'original_model': 'openrouter/openai/gpt-4o', 'allowed_tries': 2, 'model': 'openrouter/openai/gpt-4o', 'temperature': 0.3, 'timeout': 40}, 'summarizer': {'original_model': 'openrouter/openai/gpt-4o-mini', 'allowed_tries': 2, 'model': 'openrouter/openai/gpt-4o-mini', 'temperature': 0.3, 'timeout': 40}, 'researcher': 'asknews/news-summaries', 'parser': {'original_model': 'openrouter/openai/gpt-4o-mini', 'allowed_tries': 2, 'model': 'openrouter/openai/gpt-4o-mini', 'temperature': 0.3, 'timeout': 40}}`
+*Bot Name*: SpringTemplateBot2026
+
+
+## Report 1 Summary
+### Forecasts
+*Forecaster 1*: 18.48%
+*Forecaster 2*: 9.36%
+*Forecaster 3*: 9.01%
+*Forecaster 4*: 11.45%
+
+
+### Research Summary
+The research discusses various predictions attributed to Baba Vanga, a Bulgarian seer, regarding the future of humanity and the universe. Vanga allegedly foretold a timeline extending to the year 5079, where she predicted catastrophic events leading to the end of human civilization. Key milestones in her predictions include a war on Mars in 3005, a collision of a celestial body with the Moon in 3010, and the extinction of all life on Earth by 3797. Following this, humanity is said to migrate to other planets, achieving a golden age by 4674 with a population of 340 billion and interactions with extraterrestrial civilizations. Ultimately, Vanga's prophecies culminate in a cosmic event in 5079 that results in the total collapse of civilization and possibly the universe itself. Critics highlight that her predictions lack scientific grounding and are based on oral accounts, which raises concerns about their accuracy and interpretation.
+
+The research also includes insights from various articles that analyze the implications of these predictions, emphasizing the speculative nature of Vanga's claims and the psychological factors that may drive belief in such prophecies amid global uncertainties. The sources for this research include articles from 24.ae, Daily Mail, N-tv, RT Arabic, and others, published on December 31, 2025, and earlier. 
+
+Sources:
+1. [24.ae](https://24.ae/article/938967/%D8%B3%D9%8A%D9%86%D8%A7%D8%B1%D9%8A%D9%88-%D8%A7%D9%84%D9%86%D9%87%D8%A7%D9%8A%D8%A9-%D9%86%D8%A8%D9%88%D8%A1%D8%A9-%D8%A8%D8%A7%D8%A8%D8%A7-%D9%81%D8%A7%D9%86%D8%BA%D8%A7-%D8%A7%D9%84%D9%85%D8%B1%D8%B9%D8%A8%D8%A9-%D8%AA%D9%83%D8%B4%D9%81-%D9%85%D8%A7-%D9%8A%D8%AD%D8%AF%D8%AB-%D9%81%D9%8A-%D8%A7%D9%84%D9%8A%D9%88%D9%85-%D8%A7%D9%84%D8%A3%D8%AE%D9%8A%D8%B1-%D9%84%D9%84%D8%A8%D8%B4%D8%B1%D9%8A%D8%A9)
+2. [Daily Mail](https://aif.ru/society/daily-mail-vanga-predskazala-konec-chelovecheskoy-istorii-v-5079-godu)
+3. [N-tv](https://www.n-tv.de/wissen/Zukunftsbilanz-2025-Welche-Vorhersagen-wirklich-eingetreten-sind-id30188420.html)
+4. [RT Arabic](https://arabic.rt.com/funny/1744653-%D9%86%D8%A8%D9%88%D8%A1%D8%A9-%D9%85%D8%AB%D9%8A%D8%B1%D8%A9-%D9%84%D9%84%D8%AC%D8%AF%D9%84-%D9%84%D9%80%D8%A8%D8%A7%D8%A8%D8%A7-%D9%81%D8%A7%D9%86%D8%BA%D8%A7-%D8%A7%D9%84%D8%B3%D9%86%D8%A9-%D8%A7%D9%84%D8%AF%D9%82%D9%8A%D9%82%D8%A9-%D9%84%D9%86%D9%87%D8%A7%D9%8A%D8%A9-%D8%A7%D9%84%D8%A8%D8%B4%D8%B1%D9%8A%D8%A9/)
+
+
+
+<<<<<<<<<<<<<<<<<<<< First Rationale >>>>>>>>>>>>>>>>>>>>>
+## R1: Forecaster 1 Reasoning
+(a) The time left until the outcome to the question is known is 74 years, as the question will be resolved on January 1, 2100.
+
+(b) The status quo outcome if nothing changed is a No outcome, meaning that humans will not go extinct before 2100. Historically, humanity has survived numerous existential threats, and the continuation of this trend suggests survival.
+
+(c) A brief description of a scenario that results in a No outcome: Humanity continues to develop technologies that mitigate existential risks, such as advanced AI safety measures, climate change solutions, and improved global cooperation to prevent nuclear or biological warfare. These efforts successfully prevent any catastrophic events that could lead to human extinction.
+
+(d) A brief description of a scenario that results in a Yes outcome: A catastrophic event occurs, such as a global nuclear war, an engineered pandemic, or an uncontrollable AI, leading to the extinction of all humans by 2100. This could be exacerbated by a failure to implement effective global governance or technological safeguards.
+
+Low forecast: A pessimistic superforecaster might consider the various existential risks, such as AI, climate change, and geopolitical tensions, and assign a higher probability to human extinction.
+
+Mid forecast: A baseline forecast would consider the historical resilience of humanity, the ongoing efforts to mitigate existential risks, and the likelihood of continued technological and societal advancements.
+
+High forecast: An optimistic superforecaster might focus on the progress in technology, international cooperation, and the potential for humanity to overcome existential threats, assigning a lower probability to extinction.
+
+Final answer: [5, 10, 20]
+
+[GPR aggregated 3 scenarios to p50=0.1848]
+
+
+-------------------------------------------------------------------------------------------
+
+Bot: SpringTemplateBot2026
+✅ URL: https://www.metaculus.com/questions/578 | Minor Errors: 0
+
+Stats for passing reports:
+Total cost estimated: $0.13332
+Average cost per question: $0.13332
+Average time spent per question: 0.7029 minutes
+Note: LLM costs are calculated via litellm, and models or search tools not supported by litellm will not be tracked. See what is supported here: https://models.litellm.ai/. 
+----------------------------------------------------------------------------------------------------
+
+

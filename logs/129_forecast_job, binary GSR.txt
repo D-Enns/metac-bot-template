@@ -1,0 +1,896 @@
+﻿2025-12-31T18:14:27.9872529Z Current runner version: '2.330.0'
+2025-12-31T18:14:27.9895363Z ##[group]Runner Image Provisioner
+2025-12-31T18:14:27.9896307Z Hosted Compute Agent
+2025-12-31T18:14:27.9896892Z Version: 20251211.462
+2025-12-31T18:14:27.9897899Z Commit: 6cbad8c2bb55d58165063d031ccabf57e2d2db61
+2025-12-31T18:14:27.9898667Z Build Date: 2025-12-11T16:28:49Z
+2025-12-31T18:14:27.9899323Z Worker ID: {2bd16728-153c-42c5-8016-4b7893fcd658}
+2025-12-31T18:14:27.9900095Z ##[endgroup]
+2025-12-31T18:14:27.9900643Z ##[group]Operating System
+2025-12-31T18:14:27.9901196Z Ubuntu
+2025-12-31T18:14:27.9901723Z 24.04.3
+2025-12-31T18:14:27.9902209Z LTS
+2025-12-31T18:14:27.9902697Z ##[endgroup]
+2025-12-31T18:14:27.9903269Z ##[group]Runner Image
+2025-12-31T18:14:27.9903830Z Image: ubuntu-24.04
+2025-12-31T18:14:27.9904302Z Version: 20251215.174.1
+2025-12-31T18:14:27.9905419Z Included Software: https://github.com/actions/runner-images/blob/ubuntu24/20251215.174/images/ubuntu/Ubuntu2404-Readme.md
+2025-12-31T18:14:27.9907053Z Image Release: https://github.com/actions/runner-images/releases/tag/ubuntu24%2F20251215.174
+2025-12-31T18:14:27.9908298Z ##[endgroup]
+2025-12-31T18:14:27.9911033Z ##[group]GITHUB_TOKEN Permissions
+2025-12-31T18:14:27.9913253Z Actions: write
+2025-12-31T18:14:27.9913830Z ArtifactMetadata: write
+2025-12-31T18:14:27.9914495Z Attestations: write
+2025-12-31T18:14:27.9915004Z Checks: write
+2025-12-31T18:14:27.9915515Z Contents: write
+2025-12-31T18:14:27.9916207Z Deployments: write
+2025-12-31T18:14:27.9916793Z Discussions: write
+2025-12-31T18:14:27.9917668Z Issues: write
+2025-12-31T18:14:27.9918266Z Metadata: read
+2025-12-31T18:14:27.9918787Z Models: read
+2025-12-31T18:14:27.9919267Z Packages: write
+2025-12-31T18:14:27.9919913Z Pages: write
+2025-12-31T18:14:27.9920425Z PullRequests: write
+2025-12-31T18:14:27.9921129Z RepositoryProjects: write
+2025-12-31T18:14:27.9921707Z SecurityEvents: write
+2025-12-31T18:14:27.9922253Z Statuses: write
+2025-12-31T18:14:27.9922823Z ##[endgroup]
+2025-12-31T18:14:27.9924840Z Secret source: Actions
+2025-12-31T18:14:27.9926049Z Prepare workflow directory
+2025-12-31T18:14:28.0260240Z Prepare all required actions
+2025-12-31T18:14:28.0315393Z Getting action download info
+2025-12-31T18:14:28.4957702Z Download action repository 'actions/checkout@v3' (SHA:f43a0e5ff2bd294095638e18286ca9a3d1956744)
+2025-12-31T18:14:28.5999321Z Download action repository 'actions/setup-python@v4' (SHA:7f4fc3e22c37d6ff65e88745f38bd3157c663f7c)
+2025-12-31T18:14:28.6829309Z Download action repository 'snok/install-poetry@v1' (SHA:76e04a911780d5b312d89783f7b1cd627778900a)
+2025-12-31T18:14:29.2209373Z Complete job name: forecast_job
+2025-12-31T18:14:29.2917516Z ##[group]Run actions/checkout@v3
+2025-12-31T18:14:29.2918490Z with:
+2025-12-31T18:14:29.2918973Z   repository: D-Enns/metac-bot-template
+2025-12-31T18:14:29.2919757Z   token: ***
+2025-12-31T18:14:29.2920209Z   ssh-strict: true
+2025-12-31T18:14:29.2920688Z   persist-credentials: true
+2025-12-31T18:14:29.2921209Z   clean: true
+2025-12-31T18:14:29.2921675Z   sparse-checkout-cone-mode: true
+2025-12-31T18:14:29.2922242Z   fetch-depth: 1
+2025-12-31T18:14:29.2922693Z   fetch-tags: false
+2025-12-31T18:14:29.2923140Z   lfs: false
+2025-12-31T18:14:29.2923573Z   submodules: false
+2025-12-31T18:14:29.2924038Z   set-safe-directory: true
+2025-12-31T18:14:29.2924785Z ##[endgroup]
+2025-12-31T18:14:29.3769670Z Syncing repository: D-Enns/metac-bot-template
+2025-12-31T18:14:29.3771617Z ##[group]Getting Git version info
+2025-12-31T18:14:29.3772522Z Working directory is '/home/runner/work/metac-bot-template/metac-bot-template'
+2025-12-31T18:14:29.3773714Z [command]/usr/bin/git version
+2025-12-31T18:14:29.3844440Z git version 2.52.0
+2025-12-31T18:14:29.3870929Z ##[endgroup]
+2025-12-31T18:14:29.3884877Z Temporarily overriding HOME='/home/runner/work/_temp/8c850542-169b-48e3-b165-aed6ac6cbfe9' before making global git config changes
+2025-12-31T18:14:29.3886356Z Adding repository directory to the temporary git global config as a safe directory
+2025-12-31T18:14:29.3888393Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/metac-bot-template/metac-bot-template
+2025-12-31T18:14:29.3926099Z Deleting the contents of '/home/runner/work/metac-bot-template/metac-bot-template'
+2025-12-31T18:14:29.3930096Z ##[group]Initializing the repository
+2025-12-31T18:14:29.3932982Z [command]/usr/bin/git init /home/runner/work/metac-bot-template/metac-bot-template
+2025-12-31T18:14:29.4045084Z hint: Using 'master' as the name for the initial branch. This default branch name
+2025-12-31T18:14:29.4046551Z hint: will change to "main" in Git 3.0. To configure the initial branch name
+2025-12-31T18:14:29.4047843Z hint: to use in all of your new repositories, which will suppress this warning,
+2025-12-31T18:14:29.4048638Z hint: call:
+2025-12-31T18:14:29.4049293Z hint:
+2025-12-31T18:14:29.4050179Z hint: 	git config --global init.defaultBranch <name>
+2025-12-31T18:14:29.4050886Z hint:
+2025-12-31T18:14:29.4051491Z hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+2025-12-31T18:14:29.4052460Z hint: 'development'. The just-created branch can be renamed via this command:
+2025-12-31T18:14:29.4053243Z hint:
+2025-12-31T18:14:29.4053661Z hint: 	git branch -m <name>
+2025-12-31T18:14:29.4054152Z hint:
+2025-12-31T18:14:29.4055067Z hint: Disable this message with "git config set advice.defaultBranchName false"
+2025-12-31T18:14:29.4056283Z Initialized empty Git repository in /home/runner/work/metac-bot-template/metac-bot-template/.git/
+2025-12-31T18:14:29.4058864Z [command]/usr/bin/git remote add origin https://github.com/D-Enns/metac-bot-template
+2025-12-31T18:14:29.4093764Z ##[endgroup]
+2025-12-31T18:14:29.4094589Z ##[group]Disabling automatic garbage collection
+2025-12-31T18:14:29.4095281Z [command]/usr/bin/git config --local gc.auto 0
+2025-12-31T18:14:29.4119259Z ##[endgroup]
+2025-12-31T18:14:29.4119985Z ##[group]Setting up auth
+2025-12-31T18:14:29.4124205Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+2025-12-31T18:14:29.4150900Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+2025-12-31T18:14:29.4502158Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+2025-12-31T18:14:29.4528264Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+2025-12-31T18:14:29.4744854Z [command]/usr/bin/git config --local http.https://github.com/.extraheader AUTHORIZATION: basic ***
+2025-12-31T18:14:29.4776213Z ##[endgroup]
+2025-12-31T18:14:29.4777911Z ##[group]Fetching the repository
+2025-12-31T18:14:29.4785886Z [command]/usr/bin/git -c protocol.version=2 fetch --no-tags --prune --progress --no-recurse-submodules --depth=1 origin +956e8541f03684dc6add45cf1db2372f1ec30856:refs/remotes/origin/bot-dev
+2025-12-31T18:14:30.1718943Z remote: Enumerating objects: 75, done.        
+2025-12-31T18:14:30.1720932Z remote: Counting objects:   1% (1/75)        
+2025-12-31T18:14:30.1721998Z remote: Counting objects:   2% (2/75)        
+2025-12-31T18:14:30.1723042Z remote: Counting objects:   4% (3/75)        
+2025-12-31T18:14:30.1724089Z remote: Counting objects:   5% (4/75)        
+2025-12-31T18:14:30.1725168Z remote: Counting objects:   6% (5/75)        
+2025-12-31T18:14:30.1726261Z remote: Counting objects:   8% (6/75)        
+2025-12-31T18:14:30.1727619Z remote: Counting objects:   9% (7/75)        
+2025-12-31T18:14:30.1728764Z remote: Counting objects:  10% (8/75)        
+2025-12-31T18:14:30.1729893Z remote: Counting objects:  12% (9/75)        
+2025-12-31T18:14:30.1731061Z remote: Counting objects:  13% (10/75)        
+2025-12-31T18:14:30.1732258Z remote: Counting objects:  14% (11/75)        
+2025-12-31T18:14:30.1733466Z remote: Counting objects:  16% (12/75)        
+2025-12-31T18:14:30.1734647Z remote: Counting objects:  17% (13/75)        
+2025-12-31T18:14:30.1735858Z remote: Counting objects:  18% (14/75)        
+2025-12-31T18:14:30.1737581Z remote: Counting objects:  20% (15/75)        
+2025-12-31T18:14:30.1738943Z remote: Counting objects:  21% (16/75)        
+2025-12-31T18:14:30.1740427Z remote: Counting objects:  22% (17/75)        
+2025-12-31T18:14:30.1741941Z remote: Counting objects:  24% (18/75)        
+2025-12-31T18:14:30.1743449Z remote: Counting objects:  25% (19/75)        
+2025-12-31T18:14:30.1744978Z remote: Counting objects:  26% (20/75)        
+2025-12-31T18:14:30.1746523Z remote: Counting objects:  28% (21/75)        
+2025-12-31T18:14:30.1748271Z remote: Counting objects:  29% (22/75)        
+2025-12-31T18:14:30.1749822Z remote: Counting objects:  30% (23/75)        
+2025-12-31T18:14:30.1751373Z remote: Counting objects:  32% (24/75)        
+2025-12-31T18:14:30.1752921Z remote: Counting objects:  33% (25/75)        
+2025-12-31T18:14:30.1754460Z remote: Counting objects:  34% (26/75)        
+2025-12-31T18:14:30.1756001Z remote: Counting objects:  36% (27/75)        
+2025-12-31T18:14:30.1757695Z remote: Counting objects:  37% (28/75)        
+2025-12-31T18:14:30.1759266Z remote: Counting objects:  38% (29/75)        
+2025-12-31T18:14:30.1760791Z remote: Counting objects:  40% (30/75)        
+2025-12-31T18:14:30.1762313Z remote: Counting objects:  41% (31/75)        
+2025-12-31T18:14:30.1763830Z remote: Counting objects:  42% (32/75)        
+2025-12-31T18:14:30.1765323Z remote: Counting objects:  44% (33/75)        
+2025-12-31T18:14:30.1766839Z remote: Counting objects:  45% (34/75)        
+2025-12-31T18:14:30.1769072Z remote: Counting objects:  46% (35/75)        
+2025-12-31T18:14:30.1771273Z remote: Counting objects:  48% (36/75)        
+2025-12-31T18:14:30.1773500Z remote: Counting objects:  49% (37/75)        
+2025-12-31T18:14:30.1775831Z remote: Counting objects:  50% (38/75)        
+2025-12-31T18:14:30.1778261Z remote: Counting objects:  52% (39/75)        
+2025-12-31T18:14:30.1780443Z remote: Counting objects:  53% (40/75)        
+2025-12-31T18:14:30.1782636Z remote: Counting objects:  54% (41/75)        
+2025-12-31T18:14:30.1784773Z remote: Counting objects:  56% (42/75)        
+2025-12-31T18:14:30.1786916Z remote: Counting objects:  57% (43/75)        
+2025-12-31T18:14:30.1789204Z remote: Counting objects:  58% (44/75)        
+2025-12-31T18:14:30.1791392Z remote: Counting objects:  60% (45/75)        
+2025-12-31T18:14:30.1793508Z remote: Counting objects:  61% (46/75)        
+2025-12-31T18:14:30.1795591Z remote: Counting objects:  62% (47/75)        
+2025-12-31T18:14:30.1797827Z remote: Counting objects:  64% (48/75)        
+2025-12-31T18:14:30.1800182Z remote: Counting objects:  65% (49/75)        
+2025-12-31T18:14:30.1802298Z remote: Counting objects:  66% (50/75)        
+2025-12-31T18:14:30.1804387Z remote: Counting objects:  68% (51/75)        
+2025-12-31T18:14:30.1806475Z remote: Counting objects:  69% (52/75)        
+2025-12-31T18:14:30.1808745Z remote: Counting objects:  70% (53/75)        
+2025-12-31T18:14:30.1810814Z remote: Counting objects:  72% (54/75)        
+2025-12-31T18:14:30.1812948Z remote: Counting objects:  73% (55/75)        
+2025-12-31T18:14:30.1814845Z remote: Counting objects:  74% (56/75)        
+2025-12-31T18:14:30.1816280Z remote: Counting objects:  76% (57/75)        
+2025-12-31T18:14:30.1817928Z remote: Counting objects:  77% (58/75)        
+2025-12-31T18:14:30.1819364Z remote: Counting objects:  78% (59/75)        
+2025-12-31T18:14:30.1820758Z remote: Counting objects:  80% (60/75)        
+2025-12-31T18:14:30.1822170Z remote: Counting objects:  81% (61/75)        
+2025-12-31T18:14:30.1823605Z remote: Counting objects:  82% (62/75)        
+2025-12-31T18:14:30.1825027Z remote: Counting objects:  84% (63/75)        
+2025-12-31T18:14:30.1826436Z remote: Counting objects:  85% (64/75)        
+2025-12-31T18:14:30.1828081Z remote: Counting objects:  86% (65/75)        
+2025-12-31T18:14:30.1829493Z remote: Counting objects:  88% (66/75)        
+2025-12-31T18:14:30.1830988Z remote: Counting objects:  89% (67/75)        
+2025-12-31T18:14:30.1833447Z remote: Counting objects:  90% (68/75)        
+2025-12-31T18:14:30.1835303Z remote: Counting objects:  92% (69/75)        
+2025-12-31T18:14:30.1836868Z remote: Counting objects:  93% (70/75)        
+2025-12-31T18:14:30.1838536Z remote: Counting objects:  94% (71/75)        
+2025-12-31T18:14:30.1839934Z remote: Counting objects:  96% (72/75)        
+2025-12-31T18:14:30.1841320Z remote: Counting objects:  97% (73/75)        
+2025-12-31T18:14:30.1842695Z remote: Counting objects:  98% (74/75)        
+2025-12-31T18:14:30.1844071Z remote: Counting objects: 100% (75/75)        
+2025-12-31T18:14:30.1845574Z remote: Counting objects: 100% (75/75), done.        
+2025-12-31T18:14:30.1847138Z remote: Compressing objects:   1% (1/72)        
+2025-12-31T18:14:30.1848853Z remote: Compressing objects:   2% (2/72)        
+2025-12-31T18:14:30.1850335Z remote: Compressing objects:   4% (3/72)        
+2025-12-31T18:14:30.1851780Z remote: Compressing objects:   5% (4/72)        
+2025-12-31T18:14:30.1853203Z remote: Compressing objects:   6% (5/72)        
+2025-12-31T18:14:30.1854670Z remote: Compressing objects:   8% (6/72)        
+2025-12-31T18:14:30.1856130Z remote: Compressing objects:   9% (7/72)        
+2025-12-31T18:14:30.1857773Z remote: Compressing objects:  11% (8/72)        
+2025-12-31T18:14:30.1859227Z remote: Compressing objects:  12% (9/72)        
+2025-12-31T18:14:30.1860643Z remote: Compressing objects:  13% (10/72)        
+2025-12-31T18:14:30.1862067Z remote: Compressing objects:  15% (11/72)        
+2025-12-31T18:14:30.1863457Z remote: Compressing objects:  16% (12/72)        
+2025-12-31T18:14:30.1864873Z remote: Compressing objects:  18% (13/72)        
+2025-12-31T18:14:30.1866274Z remote: Compressing objects:  19% (14/72)        
+2025-12-31T18:14:30.1867780Z remote: Compressing objects:  20% (15/72)        
+2025-12-31T18:14:30.1869195Z remote: Compressing objects:  22% (16/72)        
+2025-12-31T18:14:30.1870597Z remote: Compressing objects:  23% (17/72)        
+2025-12-31T18:14:30.1872005Z remote: Compressing objects:  25% (18/72)        
+2025-12-31T18:14:30.1873439Z remote: Compressing objects:  26% (19/72)        
+2025-12-31T18:14:30.1874848Z remote: Compressing objects:  27% (20/72)        
+2025-12-31T18:14:30.1876256Z remote: Compressing objects:  29% (21/72)        
+2025-12-31T18:14:30.1877745Z remote: Compressing objects:  30% (22/72)        
+2025-12-31T18:14:30.1879136Z remote: Compressing objects:  31% (23/72)        
+2025-12-31T18:14:30.1880526Z remote: Compressing objects:  33% (24/72)        
+2025-12-31T18:14:30.1881919Z remote: Compressing objects:  34% (25/72)        
+2025-12-31T18:14:30.1883480Z remote: Compressing objects:  36% (26/72)        
+2025-12-31T18:14:30.1884922Z remote: Compressing objects:  37% (27/72)        
+2025-12-31T18:14:30.1886335Z remote: Compressing objects:  38% (28/72)        
+2025-12-31T18:14:30.1887844Z remote: Compressing objects:  40% (29/72)        
+2025-12-31T18:14:30.1889253Z remote: Compressing objects:  41% (30/72)        
+2025-12-31T18:14:30.1890655Z remote: Compressing objects:  43% (31/72)        
+2025-12-31T18:14:30.1892050Z remote: Compressing objects:  44% (32/72)        
+2025-12-31T18:14:30.1893450Z remote: Compressing objects:  45% (33/72)        
+2025-12-31T18:14:30.1895425Z remote: Compressing objects:  47% (34/72)        
+2025-12-31T18:14:30.1897571Z remote: Compressing objects:  48% (35/72)        
+2025-12-31T18:14:30.1899001Z remote: Compressing objects:  50% (36/72)        
+2025-12-31T18:14:30.1900399Z remote: Compressing objects:  51% (37/72)        
+2025-12-31T18:14:30.1901984Z remote: Compressing objects:  52% (38/72)        
+2025-12-31T18:14:30.1903409Z remote: Compressing objects:  54% (39/72)        
+2025-12-31T18:14:30.1904800Z remote: Compressing objects:  55% (40/72)        
+2025-12-31T18:14:30.1906194Z remote: Compressing objects:  56% (41/72)        
+2025-12-31T18:14:30.1907784Z remote: Compressing objects:  58% (42/72)        
+2025-12-31T18:14:30.1909196Z remote: Compressing objects:  59% (43/72)        
+2025-12-31T18:14:30.1910576Z remote: Compressing objects:  61% (44/72)        
+2025-12-31T18:14:30.1912161Z remote: Compressing objects:  62% (45/72)        
+2025-12-31T18:14:30.1913543Z remote: Compressing objects:  63% (46/72)        
+2025-12-31T18:14:30.1914942Z remote: Compressing objects:  65% (47/72)        
+2025-12-31T18:14:30.1916322Z remote: Compressing objects:  66% (48/72)        
+2025-12-31T18:14:30.1917909Z remote: Compressing objects:  68% (49/72)        
+2025-12-31T18:14:30.1919303Z remote: Compressing objects:  69% (50/72)        
+2025-12-31T18:14:30.1920686Z remote: Compressing objects:  70% (51/72)        
+2025-12-31T18:14:30.1922079Z remote: Compressing objects:  72% (52/72)        
+2025-12-31T18:14:30.1923454Z remote: Compressing objects:  73% (53/72)        
+2025-12-31T18:14:30.1924835Z remote: Compressing objects:  75% (54/72)        
+2025-12-31T18:14:30.1926206Z remote: Compressing objects:  76% (55/72)        
+2025-12-31T18:14:30.1927818Z remote: Compressing objects:  77% (56/72)        
+2025-12-31T18:14:30.1929212Z remote: Compressing objects:  79% (57/72)        
+2025-12-31T18:14:30.1930586Z remote: Compressing objects:  80% (58/72)        
+2025-12-31T18:14:30.1931932Z remote: Compressing objects:  81% (59/72)        
+2025-12-31T18:14:30.1933280Z remote: Compressing objects:  83% (60/72)        
+2025-12-31T18:14:30.1934642Z remote: Compressing objects:  84% (61/72)        
+2025-12-31T18:14:30.1935990Z remote: Compressing objects:  86% (62/72)        
+2025-12-31T18:14:30.1937557Z remote: Compressing objects:  87% (63/72)        
+2025-12-31T18:14:30.1938930Z remote: Compressing objects:  88% (64/72)        
+2025-12-31T18:14:30.1940294Z remote: Compressing objects:  90% (65/72)        
+2025-12-31T18:14:30.1941649Z remote: Compressing objects:  91% (66/72)        
+2025-12-31T18:14:30.1943008Z remote: Compressing objects:  93% (67/72)        
+2025-12-31T18:14:30.1944354Z remote: Compressing objects:  94% (68/72)        
+2025-12-31T18:14:30.1945701Z remote: Compressing objects:  95% (69/72)        
+2025-12-31T18:14:30.1947088Z remote: Compressing objects:  97% (70/72)        
+2025-12-31T18:14:30.1948808Z remote: Compressing objects:  98% (71/72)        
+2025-12-31T18:14:30.1950159Z remote: Compressing objects: 100% (72/72)        
+2025-12-31T18:14:30.1951593Z remote: Compressing objects: 100% (72/72), done.        
+2025-12-31T18:14:30.4506859Z remote: Total 75 (delta 2), reused 66 (delta 2), pack-reused 0 (from 0)        
+2025-12-31T18:14:30.5577915Z From https://github.com/D-Enns/metac-bot-template
+2025-12-31T18:14:30.5582206Z  * [new ref]         956e8541f03684dc6add45cf1db2372f1ec30856 -> origin/bot-dev
+2025-12-31T18:14:30.5624473Z ##[endgroup]
+2025-12-31T18:14:30.5626838Z ##[group]Determining the checkout info
+2025-12-31T18:14:30.5631218Z ##[endgroup]
+2025-12-31T18:14:30.5633483Z ##[group]Checking out the ref
+2025-12-31T18:14:30.5636215Z [command]/usr/bin/git checkout --progress --force -B bot-dev refs/remotes/origin/bot-dev
+2025-12-31T18:14:30.6046926Z Switched to a new branch 'bot-dev'
+2025-12-31T18:14:30.6053353Z branch 'bot-dev' set up to track 'origin/bot-dev'.
+2025-12-31T18:14:30.6060184Z ##[endgroup]
+2025-12-31T18:14:30.6103067Z [command]/usr/bin/git log -1 --format='%H'
+2025-12-31T18:14:30.6127592Z '956e8541f03684dc6add45cf1db2372f1ec30856'
+2025-12-31T18:14:30.6622419Z ##[group]Run actions/setup-python@v4
+2025-12-31T18:14:30.6623518Z with:
+2025-12-31T18:14:30.6624277Z   python-version: 3.11
+2025-12-31T18:14:30.6625184Z   check-latest: false
+2025-12-31T18:14:30.6693667Z   token: ***
+2025-12-31T18:14:30.6694663Z   update-environment: true
+2025-12-31T18:14:30.6695746Z   allow-prereleases: false
+2025-12-31T18:14:30.6696690Z ##[endgroup]
+2025-12-31T18:14:30.8525088Z ##[group]Installed versions
+2025-12-31T18:14:31.1732348Z Successfully set up CPython (3.11.14)
+2025-12-31T18:14:31.1733419Z ##[endgroup]
+2025-12-31T18:14:31.1879668Z ##[group]Run snok/install-poetry@v1
+2025-12-31T18:14:31.1880001Z with:
+2025-12-31T18:14:31.1880238Z   virtualenvs-create: true
+2025-12-31T18:14:31.1880515Z   virtualenvs-in-project: true
+2025-12-31T18:14:31.1880990Z   installer-parallel: true
+2025-12-31T18:14:31.1881258Z   version: latest
+2025-12-31T18:14:31.1881534Z   virtualenvs-path: {cache-dir}/virtualenvs
+2025-12-31T18:14:31.1881834Z env:
+2025-12-31T18:14:31.1882114Z   pythonLocation: /opt/hostedtoolcache/Python/3.11.14/x64
+2025-12-31T18:14:31.1882582Z   PKG_CONFIG_PATH: /opt/hostedtoolcache/Python/3.11.14/x64/lib/pkgconfig
+2025-12-31T18:14:31.1883024Z   Python_ROOT_DIR: /opt/hostedtoolcache/Python/3.11.14/x64
+2025-12-31T18:14:31.1883426Z   Python2_ROOT_DIR: /opt/hostedtoolcache/Python/3.11.14/x64
+2025-12-31T18:14:31.1883834Z   Python3_ROOT_DIR: /opt/hostedtoolcache/Python/3.11.14/x64
+2025-12-31T18:14:31.1884263Z   LD_LIBRARY_PATH: /opt/hostedtoolcache/Python/3.11.14/x64/lib
+2025-12-31T18:14:31.1884597Z ##[endgroup]
+2025-12-31T18:14:31.1966550Z ##[group]Run $GITHUB_ACTION_PATH/main.sh
+2025-12-31T18:14:31.1966948Z [36;1m$GITHUB_ACTION_PATH/main.sh[0m
+2025-12-31T18:14:31.2017499Z shell: /usr/bin/bash --noprofile --norc -e -o pipefail {0}
+2025-12-31T18:14:31.2017925Z env:
+2025-12-31T18:14:31.2018231Z   pythonLocation: /opt/hostedtoolcache/Python/3.11.14/x64
+2025-12-31T18:14:31.2018701Z   PKG_CONFIG_PATH: /opt/hostedtoolcache/Python/3.11.14/x64/lib/pkgconfig
+2025-12-31T18:14:31.2019155Z   Python_ROOT_DIR: /opt/hostedtoolcache/Python/3.11.14/x64
+2025-12-31T18:14:31.2019569Z   Python2_ROOT_DIR: /opt/hostedtoolcache/Python/3.11.14/x64
+2025-12-31T18:14:31.2019974Z   Python3_ROOT_DIR: /opt/hostedtoolcache/Python/3.11.14/x64
+2025-12-31T18:14:31.2020386Z   LD_LIBRARY_PATH: /opt/hostedtoolcache/Python/3.11.14/x64/lib
+2025-12-31T18:14:31.2020732Z   VERSION: latest
+2025-12-31T18:14:31.2020975Z   VIRTUALENVS_CREATE: true
+2025-12-31T18:14:31.2021265Z   VIRTUALENVS_IN_PROJECT: true
+2025-12-31T18:14:31.2021604Z   VIRTUALENVS_PATH: {cache-dir}/virtualenvs
+2025-12-31T18:14:31.2021918Z   INSTALLER_PARALLEL: true
+2025-12-31T18:14:31.2022189Z   INSTALLATION_ARGUMENTS: 
+2025-12-31T18:14:31.2022456Z   POETRY_PLUGINS: 
+2025-12-31T18:14:31.2022688Z ##[endgroup]
+2025-12-31T18:14:31.5740722Z 
+2025-12-31T18:14:31.5741857Z [33mSetting Poetry installation path as /home/runner/.local[0m
+2025-12-31T18:14:31.5742353Z 
+2025-12-31T18:14:31.5742575Z [33mInstalling Poetry 👷[0m
+2025-12-31T18:14:31.5742753Z 
+2025-12-31T18:14:42.7484136Z Retrieving Poetry metadata
+2025-12-31T18:14:42.7484486Z 
+2025-12-31T18:14:42.7484778Z # Welcome to Poetry!
+2025-12-31T18:14:42.7484987Z 
+2025-12-31T18:14:42.7485226Z This will download and install the latest version of Poetry,
+2025-12-31T18:14:42.7485760Z a dependency and package manager for Python.
+2025-12-31T18:14:42.7486061Z 
+2025-12-31T18:14:42.7486394Z It will add the `poetry` command to Poetry's bin directory, located at:
+2025-12-31T18:14:42.7486845Z 
+2025-12-31T18:14:42.7487002Z /home/runner/.local/bin
+2025-12-31T18:14:42.7487489Z 
+2025-12-31T18:14:42.7487889Z You can uninstall at any time by executing this script with the --uninstall option,
+2025-12-31T18:14:42.7488574Z and these changes will be reverted.
+2025-12-31T18:14:42.7488877Z 
+2025-12-31T18:14:42.7489054Z Installing Poetry (2.2.1)
+2025-12-31T18:14:42.7489507Z Installing Poetry (2.2.1): Creating environment
+2025-12-31T18:14:42.7490052Z Installing Poetry (2.2.1): Installing Poetry
+2025-12-31T18:14:42.7490549Z Installing Poetry (2.2.1): Creating script
+2025-12-31T18:14:42.7491037Z Installing Poetry (2.2.1): Done
+2025-12-31T18:14:42.7491314Z 
+2025-12-31T18:14:42.7491511Z Poetry (2.2.1) is installed now. Great!
+2025-12-31T18:14:42.7491843Z 
+2025-12-31T18:14:42.7492088Z You can test that everything is set up by executing:
+2025-12-31T18:14:42.7492492Z 
+2025-12-31T18:14:42.7492636Z `poetry --version`
+2025-12-31T18:14:42.7492855Z 
+2025-12-31T18:14:44.8224492Z 
+2025-12-31T18:14:44.8225358Z [33mInstallation completed. Configuring settings 🛠[0m
+2025-12-31T18:14:44.8225653Z 
+2025-12-31T18:14:44.8226182Z [33mDone ✅[0m
+2025-12-31T18:14:44.8226322Z 
+2025-12-31T18:14:44.8227463Z [33mIf you are creating a venv in your project, you can activate it by running 'source .venv/bin/activate'. If you're running this in an OS matrix, you can use 'source $VENV' instead, as an OS agnostic option[0m
+2025-12-31T18:14:44.8284377Z ##[group]Run poetry install --no-interaction --no-root
+2025-12-31T18:14:44.8284776Z [36;1mpoetry install --no-interaction --no-root[0m
+2025-12-31T18:14:44.8318764Z shell: /usr/bin/bash -e {0}
+2025-12-31T18:14:44.8318995Z env:
+2025-12-31T18:14:44.8319248Z   pythonLocation: /opt/hostedtoolcache/Python/3.11.14/x64
+2025-12-31T18:14:44.8319698Z   PKG_CONFIG_PATH: /opt/hostedtoolcache/Python/3.11.14/x64/lib/pkgconfig
+2025-12-31T18:14:44.8320111Z   Python_ROOT_DIR: /opt/hostedtoolcache/Python/3.11.14/x64
+2025-12-31T18:14:44.8320468Z   Python2_ROOT_DIR: /opt/hostedtoolcache/Python/3.11.14/x64
+2025-12-31T18:14:44.8320819Z   Python3_ROOT_DIR: /opt/hostedtoolcache/Python/3.11.14/x64
+2025-12-31T18:14:44.8321179Z   LD_LIBRARY_PATH: /opt/hostedtoolcache/Python/3.11.14/x64/lib
+2025-12-31T18:14:44.8321480Z   VENV: .venv/bin/activate
+2025-12-31T18:14:44.8321696Z ##[endgroup]
+2025-12-31T18:14:45.2423579Z Creating virtualenv metac-bot-template in /home/runner/work/metac-bot-template/metac-bot-template/.venv
+2025-12-31T18:14:45.7141664Z Installing dependencies from lock file
+2025-12-31T18:14:46.1217144Z 
+2025-12-31T18:14:46.1217868Z Package operations: 136 installs, 0 updates, 0 removals
+2025-12-31T18:14:46.1218287Z 
+2025-12-31T18:14:46.1223430Z   - Installing certifi (2025.11.12)
+2025-12-31T18:14:46.1229970Z   - Installing h11 (0.16.0)
+2025-12-31T18:14:46.1233570Z   - Installing idna (3.11)
+2025-12-31T18:14:46.1238112Z   - Installing typing-extensions (4.15.0)
+2025-12-31T18:14:46.3664929Z   - Installing anyio (4.12.0)
+2025-12-31T18:14:46.3674083Z   - Installing attrs (25.4.0)
+2025-12-31T18:14:46.3685121Z   - Installing click (8.3.1)
+2025-12-31T18:14:46.3696777Z   - Installing httpcore (1.0.9)
+2025-12-31T18:14:46.3712070Z   - Installing pycparser (2.23)
+2025-12-31T18:14:46.3715990Z   - Installing rpds-py (0.30.0)
+2025-12-31T18:14:46.5263499Z   - Installing annotated-types (0.7.0)
+2025-12-31T18:14:46.5271008Z   - Installing cffi (2.0.0)
+2025-12-31T18:14:46.5280096Z   - Installing charset-normalizer (3.4.4)
+2025-12-31T18:14:46.5287521Z   - Installing filelock (3.20.1)
+2025-12-31T18:14:46.5298230Z   - Installing frozenlist (1.8.0)
+2025-12-31T18:14:46.5314414Z   - Installing fsspec (2025.12.0)
+2025-12-31T18:14:46.5322364Z   - Installing hf-xet (1.2.0)
+2025-12-31T18:14:46.5340909Z   - Installing httpx (0.28.1)
+2025-12-31T18:14:46.6517213Z   - Installing multidict (6.7.0)
+2025-12-31T18:14:46.6713832Z   - Installing packaging (25.0)
+2025-12-31T18:14:46.7372166Z   - Installing propcache (0.4.1)
+2025-12-31T18:14:46.7783482Z   - Installing pydantic-core (2.41.5)
+2025-12-31T18:14:46.8266001Z   - Installing pyyaml (6.0.3)
+2025-12-31T18:14:46.8326274Z   - Installing referencing (0.37.0)
+2025-12-31T18:14:46.8356943Z   - Installing shellingham (1.5.4)
+2025-12-31T18:14:46.8391719Z   - Installing tqdm (4.67.1)
+2025-12-31T18:14:46.8910024Z   - Installing typer-slim (0.20.0)
+2025-12-31T18:14:46.9065482Z   - Installing typing-inspection (0.4.2)
+2025-12-31T18:14:46.9299705Z   - Installing urllib3 (2.6.2)
+2025-12-31T18:14:47.1090487Z   - Installing aiohappyeyeballs (2.6.1)
+2025-12-31T18:14:47.1099848Z   - Installing aiosignal (1.4.0)
+2025-12-31T18:14:47.1107126Z   - Installing cryptography (45.0.4)
+2025-12-31T18:14:47.1120267Z   - Installing distro (1.9.0)
+2025-12-31T18:14:47.1127850Z   - Installing dnspython (2.8.0)
+2025-12-31T18:14:47.1137966Z   - Installing huggingface-hub (1.2.3)
+2025-12-31T18:14:47.1146536Z   - Installing jiter (0.12.0)
+2025-12-31T18:14:47.1155383Z   - Installing jsonschema-specifications (2025.9.1)
+2025-12-31T18:14:47.1974692Z   - Installing markupsafe (3.0.3)
+2025-12-31T18:14:47.2050084Z   - Installing pydantic (2.12.5)
+2025-12-31T18:14:47.2122404Z   - Installing python-dotenv (1.2.1)
+2025-12-31T18:14:47.2599192Z   - Installing regex (2025.11.3)
+2025-12-31T18:14:47.2968879Z   - Installing requests (2.32.5)
+2025-12-31T18:14:47.3209336Z   - Installing six (1.17.0)
+2025-12-31T18:14:47.3786116Z   - Installing smmap (5.0.2)
+2025-12-31T18:14:47.4071338Z   - Installing sniffio (1.3.1)
+2025-12-31T18:14:47.4103582Z   - Installing starlette (0.50.0)
+2025-12-31T18:14:47.4638746Z   - Installing yarl (1.22.0)
+2025-12-31T18:14:47.4775537Z   - Installing zipp (3.23.0)
+2025-12-31T18:14:47.7464604Z   - Installing aiohttp (3.13.2)
+2025-12-31T18:14:47.7473154Z   - Installing asttokens (3.0.1)
+2025-12-31T18:14:47.7480996Z   - Installing colorama (0.4.6)
+2025-12-31T18:14:47.7496398Z   - Installing email-validator (2.3.0)
+2025-12-31T18:14:47.7512682Z   - Installing executing (2.2.1)
+2025-12-31T18:14:47.7529371Z   - Installing fastuuid (0.14.0)
+2025-12-31T18:14:47.7556352Z   - Installing gitdb (4.0.12)
+2025-12-31T18:14:47.7566455Z   - Installing grpcio (1.67.1)
+2025-12-31T18:14:47.8586754Z   - Installing httpx-sse (0.4.3)
+2025-12-31T18:14:47.8676647Z   - Installing importlib-metadata (8.7.0)
+2025-12-31T18:14:47.8712011Z   - Installing jinja2 (3.1.6)
+2025-12-31T18:14:47.8797737Z   - Installing jsonschema (4.25.1)
+2025-12-31T18:14:47.9300726Z   - Installing narwhals (2.14.0)
+2025-12-31T18:14:47.9315958Z   - Installing numpy (2.3.5)
+2025-12-31T18:14:47.9392734Z   - Installing openai (2.13.0)
+2025-12-31T18:14:47.9875895Z   - Installing parso (0.8.5)
+2025-12-31T18:14:48.0367473Z   - Installing platformdirs (4.5.1)
+2025-12-31T18:14:48.0650552Z   - Installing ptyprocess (0.7.0)
+2025-12-31T18:14:48.1146173Z   - Installing pure-eval (0.2.3)
+2025-12-31T18:14:48.1296458Z   - Installing pydantic-settings (2.12.0)
+2025-12-31T18:14:48.1471325Z   - Installing pygments (2.19.2)
+2025-12-31T18:14:48.1780964Z   - Installing pyjwt (2.10.1)
+2025-12-31T18:14:48.2546935Z   - Installing python-dateutil (2.9.0.post0)
+2025-12-31T18:14:48.2714426Z   - Installing python-multipart (0.0.20)
+2025-12-31T18:14:48.3468146Z   - Installing pytz (2025.2)
+2025-12-31T18:14:48.3929337Z   - Installing sse-starlette (3.0.4)
+2025-12-31T18:14:48.4515145Z   - Installing tiktoken (0.12.0)
+2025-12-31T18:14:48.5387660Z   - Installing tokenizers (0.22.1)
+2025-12-31T18:14:48.6457956Z   - Installing traitlets (5.14.3)
+2025-12-31T18:14:48.7599081Z   - Installing tzdata (2025.3)
+2025-12-31T18:14:48.8593392Z   - Installing uvicorn (0.38.0)
+2025-12-31T18:14:49.0170650Z   - Installing wcwidth (0.2.14)
+2025-12-31T18:14:50.2034108Z   - Installing altair (6.0.0)
+2025-12-31T18:14:50.2035330Z   - Installing asgiref (3.11.0)
+2025-12-31T18:14:50.2045331Z   - Installing blinker (1.9.0)
+2025-12-31T18:14:50.2065077Z   - Installing cachetools (6.2.4)
+2025-12-31T18:14:50.2075712Z   - Installing crontab (1.0.5)
+2025-12-31T18:14:50.2085623Z   - Installing decorator (5.2.1)
+2025-12-31T18:14:50.2093229Z   - Installing gitpython (3.1.45)
+2025-12-31T18:14:50.2105423Z   - Installing griffe (1.15.0)
+2025-12-31T18:14:50.2591899Z   - Installing ipython-pygments-lexers (1.1.1)
+2025-12-31T18:14:50.2619661Z   - Installing jedi (0.19.2)
+2025-12-31T18:14:50.2779081Z   - Installing joblib (1.5.3)
+2025-12-31T18:14:50.3180821Z   - Installing jsonref (1.1.0)
+2025-12-31T18:14:50.3235950Z   - Installing jupyter-core (5.9.1)
+2025-12-31T18:14:50.3802466Z   - Installing litellm (1.80.10)
+2025-12-31T18:14:50.4183741Z   - Installing matplotlib-inline (0.2.1)
+2025-12-31T18:14:50.4316788Z   - Installing mcp (1.24.0)
+2025-12-31T18:14:50.4355968Z   - Installing orjson (3.11.5)
+2025-12-31T18:14:50.4931409Z   - Installing pandas (2.3.3)
+2025-12-31T18:14:50.5561222Z   - Installing pexpect (4.9.0)
+2025-12-31T18:14:50.7790299Z   - Installing pillow (11.3.0)
+2025-12-31T18:14:50.8773980Z   - Installing prompt-toolkit (3.0.52)
+2025-12-31T18:14:50.9602399Z   - Installing protobuf (6.33.2)
+2025-12-31T18:14:50.9622706Z   - Installing pyarrow (22.0.0)
+2025-12-31T18:14:51.2891573Z   - Installing pydeck (0.9.1)
+2025-12-31T18:14:51.3932703Z   - Installing pyzmq (27.1.0)
+2025-12-31T18:14:51.8983830Z   - Installing scipy (1.16.3)
+2025-12-31T18:14:52.8855279Z   - Installing stack-data (0.6.3)
+2025-12-31T18:14:52.9791582Z   - Installing tenacity (9.1.2)
+2025-12-31T18:14:53.0494044Z   - Installing threadpoolctl (3.6.0)
+2025-12-31T18:14:53.0964784Z   - Installing toml (0.10.2)
+2025-12-31T18:14:53.1628356Z   - Installing tornado (6.5.4)
+2025-12-31T18:14:53.4805773Z   - Installing types-requests (2.32.4.20250913)
+2025-12-31T18:14:53.5284506Z   - Installing watchdog (6.0.0)
+2025-12-31T18:14:56.7467947Z   - Installing aiofiles (25.1.0)
+2025-12-31T18:14:56.7475482Z   - Installing aiolimiter (1.2.1)
+2025-12-31T18:14:56.7484824Z   - Installing asknews (0.13.7)
+2025-12-31T18:14:56.7498203Z   - Installing asyncio (4.0.0)
+2025-12-31T18:14:56.7511239Z   - Installing comm (0.2.3)
+2025-12-31T18:14:56.7523036Z   - Installing debugpy (1.8.19)
+2025-12-31T18:14:56.7531962Z   - Installing exceptiongroup (1.3.1)
+2025-12-31T18:14:56.7541420Z   - Installing faker (38.2.0)
+2025-12-31T18:14:56.8042487Z   - Installing hyperbrowser (0.75.0)
+2025-12-31T18:14:56.8058237Z   - Installing ipython (9.8.0)
+2025-12-31T18:14:56.8260422Z   - Installing jupyter-client (8.7.0)
+2025-12-31T18:14:56.8366879Z   - Installing nest-asyncio (1.6.0)
+2025-12-31T18:14:56.8804257Z   - Installing openai-agents (0.6.3)
+2025-12-31T18:14:56.8889904Z   - Installing pendulum (3.1.0)
+2025-12-31T18:14:56.9420585Z   - Installing plotly (6.5.0)
+2025-12-31T18:14:56.9946783Z   - Installing psutil (7.1.3)
+2025-12-31T18:14:57.0870135Z   - Installing scikit-learn (1.8.0)
+2025-12-31T18:14:57.2138610Z   - Installing streamlit (1.52.1)
+2025-12-31T18:14:57.2864614Z   - Installing typeguard (4.4.4)
+2025-12-31T18:14:57.3254498Z   - Installing unidecode (1.4.0)
+2025-12-31T18:14:59.2075102Z   - Installing forecasting-tools (0.2.80)
+2025-12-31T18:14:59.2085460Z   - Installing ipykernel (6.31.0)
+2025-12-31T18:14:59.2093357Z   - Installing python-decouple (3.8)
+2025-12-31T18:14:59.4667390Z ##[group]Run poetry run python main.py --mode test_questions
+2025-12-31T18:14:59.4667838Z [36;1mpoetry run python main.py --mode test_questions[0m
+2025-12-31T18:14:59.4701362Z shell: /usr/bin/bash -e {0}
+2025-12-31T18:14:59.4701596Z env:
+2025-12-31T18:14:59.4701853Z   pythonLocation: /opt/hostedtoolcache/Python/3.11.14/x64
+2025-12-31T18:14:59.4702275Z   PKG_CONFIG_PATH: /opt/hostedtoolcache/Python/3.11.14/x64/lib/pkgconfig
+2025-12-31T18:14:59.4702689Z   Python_ROOT_DIR: /opt/hostedtoolcache/Python/3.11.14/x64
+2025-12-31T18:14:59.4703038Z   Python2_ROOT_DIR: /opt/hostedtoolcache/Python/3.11.14/x64
+2025-12-31T18:14:59.4703400Z   Python3_ROOT_DIR: /opt/hostedtoolcache/Python/3.11.14/x64
+2025-12-31T18:14:59.4703756Z   LD_LIBRARY_PATH: /opt/hostedtoolcache/Python/3.11.14/x64/lib
+2025-12-31T18:14:59.4704062Z   VENV: .venv/bin/activate
+2025-12-31T18:14:59.4704443Z   METACULUS_TOKEN: ***
+2025-12-31T18:14:59.4704661Z   PERPLEXITY_API_KEY: 
+2025-12-31T18:14:59.4704852Z   EXA_API_KEY: 
+2025-12-31T18:14:59.4705065Z   OPENAI_API_KEY: 
+2025-12-31T18:14:59.4705464Z   OPENROUTER_API_KEY: ***
+2025-12-31T18:14:59.4705678Z   ANTHROPIC_API_KEY: 
+2025-12-31T18:14:59.4705954Z   ASKNEWS_CLIENT_ID: ***
+2025-12-31T18:14:59.4706203Z   ASKNEWS_SECRET: ***
+2025-12-31T18:14:59.4706398Z ##[endgroup]
+2025-12-31T18:15:08.8055983Z Warning: Model openrouter/perplexity/sonar does not support cost tracking.
+2025-12-31T18:15:09.8962113Z 2025-12-31 18:15:09.895 WARNING streamlit.runtime.caching.cache_data_api: No runtime found, using MemoryCacheStorageManager
+2025-12-31T18:15:09.9190423Z 2025-12-31 18:15:09,918 - forecasting_tools.ai_models.model_tracker - WARNING - Warning: Model openrouter/openai/gpt-4o-mini does not support cost tracking.
+2025-12-31T18:15:09.9204760Z 2025-12-31 18:15:09,920 - forecasting_tools.helpers.metaculus_client - INFO - Retrieving question details for question 578
+2025-12-31T18:15:12.5063805Z 2025-12-31 18:15:12,506 - forecasting_tools.helpers.metaculus_client - INFO - Retrieved question details for question 578
+2025-12-31T18:15:17.5114500Z 2025-12-31 18:15:17,511 - openai.agents - WARNING - OPENAI_API_KEY is not set, skipping trace export
+2025-12-31T18:15:27.3396930Z 2025-12-31 18:15:27,339 - __main__ - INFO - Found Research for URL https://www.metaculus.com/questions/578:
+2025-12-31T18:15:27.3398143Z Here are the relevant news articles:
+2025-12-31T18:15:27.3398494Z 
+2025-12-31T18:15:27.3398964Z **The Endgame Scenario: Baba Vanga's 'Terrifying' Prophecy Reveals Humanity's Final Day**
+2025-12-31T18:15:27.3406921Z Baba Vanga, the blind Bulgarian seer known as the 'Nostradamus of the Balkans,' allegedly predicted the end of human civilization in the year 5079 due to a catastrophic cosmic event deemed 'unimaginable' and capable of destroying the entire universe. According to a detailed timeline attributed to her, humanity would expand across the solar system, achieve immortality by 4599, and reach a golden age by 4674 with a population of 340 billion spread across planets and interacting with extraterrestrial civilizations. Key events include a war on Mars in 3005, a moon collision in 3010, and a major resource crisis between 3803 and 3805 that nearly wipes out half the human population. By 3797, all life on Earth becomes extinct, forcing humanity to survive on other planets. A new prophet emerges to restore moral and scientific stability. In the final years, between 5076 and 5078, explorers reach the edge of the known universe, and despite warnings, humanity attempts to cross it. In 5079, the 'absolute day of judgment' occurs, leading to the total collapse of human civilization and possibly the cosmos. The article notes that Vanga left no written records, and most predictions come from her niece Krassimira Stoyanova or followers, with experts cautioning that these claims are speculative and not scientifically grounded. The article was published on December 31, 2025, by 24.ae.
+2025-12-31T18:15:27.3412146Z Original language: ar
+2025-12-31T18:15:27.3412403Z Publish date: December 31, 2025 12:24 PM
+2025-12-31T18:15:27.3413634Z Source:[24.ae](https://24.ae/article/938967/%D8%B3%D9%8A%D9%86%D8%A7%D8%B1%D9%8A%D9%88-%D8%A7%D9%84%D9%86%D9%87%D8%A7%D9%8A%D8%A9-%D9%86%D8%A8%D9%88%D8%A1%D8%A9-%D8%A8%D8%A7%D8%A8%D8%A7-%D9%81%D8%A7%D9%86%D8%BA%D8%A7-%D8%A7%D9%84%D9%85%D8%B1%D8%B9%D8%A8%D8%A9-%D8%AA%D9%83%D8%B4%D9%81-%D9%85%D8%A7-%D9%8A%D8%AD%D8%AF%D8%AB-%D9%81%D9%8A-%D8%A7%D9%84%D9%8A%D9%88%D9%85-%D8%A7%D9%84%D8%A3%D8%AE%D9%8A%D8%B1-%D9%84%D9%84%D8%A8%D8%B4%D8%B1%D9%8A%D8%A9)
+2025-12-31T18:15:27.3414495Z 
+2025-12-31T18:15:27.3414652Z **Daily Mail: Vanga Predicts End of Human History in 5079**
+2025-12-31T18:15:27.3422268Z The Russian news outlet Aif-Moscow reported that the British publication Daily Mail revived claims about prophecies attributed to the blind Bulgarian seer Vanga, who is nicknamed the 'Nostrodamus of the Balkans.' According to interpretations of her visions, the end of human history and the entire universe is predicted to occur in the year 5079 due to a massive cosmic event. The narrative describes a detailed timeline of humanity’s future: initial colonization of the Solar System, near-immortality, contact with extraterrestrial life, followed by a Martian war in 3005, a catastrophic lunar collision in 3010, and near-total extinction on Earth by 3797, when humans allegedly live on a previously unknown giant planet. A resource crisis in the early 5000s triggers devastating wars that eliminate over half the population and collapse civilization. Society regresses to a tribal state until a new spiritual leader restores order. By 4300, humanity resumes progress, eradicates disease, and transforms its consciousness, eliminating hatred and evil. The peak of civilization is forecasted for 4674, with populations reaching hundreds of billions and widespread interplanetary settlement, including regular contact with alien species. The final phase culminates in humanity approaching the edge of the known universe, leading to a fateful event or catastrophe that results in the total annihilation of existence in 5079. Notably, Vanga left no written records; most accounts were compiled posthumously by her niece Krasimira Stoyanova and other followers. Critics have repeatedly warned that these accounts may be distorted or misinterpreted. The Daily Mail previously claimed that Vanga’s 2025 prediction of contact with extraterrestrials came true when the interstellar object 3I/ATLAS approached Earth, with some scientists speculating it could be an alien spacecraft.
+2025-12-31T18:15:27.3430155Z Original language: ru
+2025-12-31T18:15:27.3430595Z Publish date: December 31, 2025 11:23 AM
+2025-12-31T18:15:27.3431730Z Source:[Аргументы и факты](https://aif.ru/society/daily-mail-vanga-predskazala-konec-chelovecheskoy-istorii-v-5079-godu)
+2025-12-31T18:15:27.3432513Z 
+2025-12-31T18:15:27.3432786Z **Future Forecast 2025: Which Predictions Actually Came True?**
+2025-12-31T18:15:27.3442348Z A retrospective analysis published on December 31, 2025, by N-tv evaluates predictions about the year 2025 made in the 1990s, drawing on Gallup surveys from 1998 and forecasts by futurist Joseph F. Coates. The survey revealed that many predictions were accurate: a Black U.S. president (Barack Obama, elected 2008), legal and widespread same-sex marriage in the U.S., and the emergence of a deadly new disease (foreshadowing the COVID-19 pandemic) were correctly anticipated. Conversely, predictions that women would become U.S. president by 2025, that most businesses would vanish due to e-commerce, and that humans would routinely live to 100 years old with cures for cancer and AIDS were incorrect. Coates’ technological forecasts were remarkably precise: he accurately predicted ubiquitous internet access, the rise of virtual communities, and AI systems that could mimic or surpass human intelligence. He also warned of growing digital dependency, which has materialized. However, Coates was wrong in predicting that genetics would fully decode the human body by 2025, that personalized genetically modified food would be widespread, and that a global middle class, international government bodies, or a single global currency would emerge by 2025—developments that have not occurred and may even be moving in the opposite direction.
+2025-12-31T18:15:27.3450357Z Original language: de
+2025-12-31T18:15:27.3450758Z Publish date: December 31, 2025 09:09 AM
+2025-12-31T18:15:27.3451781Z Source:[N-tv](https://www.n-tv.de/wissen/Zukunftsbilanz-2025-Welche-Vorhersagen-wirklich-eingetreten-sind-id30188420.html)
+2025-12-31T18:15:27.3452680Z 
+2025-12-31T18:15:27.3453148Z **Controversial Prediction by 'Baba Vanga' Forecasts Exact Year of Human and Cosmic End in 5079**
+2025-12-31T18:15:27.3470875Z According to widely circulated claims, Bulgarian fortune-teller 'Baba Vanga', also known as the 'Nostradamus of the Balkans', predicted the exact year of humanity's end as 5079, citing a cosmic event 'unimaginable' that would bring total destruction to the universe. Born in 1911 in Bulgaria, Vanga lost her sight at age 12 after surviving a violent storm, after which she reportedly developed extraordinary psychic abilities. Though illiterate and leaving no written records, her prophecies were documented posthumously by her niece, Krassimira Stoianova, following her death in 1996. The prophecy outlines a timeline spanning thousands of years: by 3005, humans colonize Mars, where a violent war alters the planet's orbit; in 3010, a celestial body strikes the Moon, permanently changing Earth's night sky. By 3797, Earth becomes uninhabitable, prompting mass migration to a new planet, only for resource wars between 3803 and 3805 to kill over half the remaining population. A dark age follows from 3815 to 3878, ending with the emergence of a 'new prophet' who rebuilds moral order and unites spiritual and lost scientific knowledge, leading to a slow renaissance. By the 44th century, humanity enters an unprecedented golden age: advanced cities, cures for all known diseases, and breakthroughs in genetics and neuroscience eliminate negative emotions like hatred. In 4509, humanity reaches an unprecedented ethical peak; by 4599, biological immortality is achieved. By 4674, the population reaches 340 billion across multiple planets, with integration into alien civilizations. In the final decades before 5079, space explorers discover a mysterious barrier at the edge of the known universe, sparking a cosmic divide between those wanting to cross it and those warning of unknown consequences. In 5079, humanity makes a fateful decision—or suffers a catastrophe tied to this discovery—resulting in what Vanga described as the 'absolute Day of Judgment,' ending both civilization and the universe. Despite widespread popularity, the prophecies face strong scientific criticism: lack of original documentation, deliberate vagueness allowing multiple interpretations, retrospective bias in 'confirming' predictions, absence of explanatory mechanisms, and documented contradictions (e.g., Europe disappearing by 2016, Bulgaria winning the World Cup). Psychologists suggest belief in such prophecies stems from a psychological need for control over an uncertain future, especially amid global instability, climate change, and health crises.
+2025-12-31T18:15:27.3485390Z Original language: ar
+2025-12-31T18:15:27.3485795Z Publish date: December 31, 2025 08:07 AM
+2025-12-31T18:15:27.3487215Z Source:[RT Arabic](https://arabic.rt.com/funny/1744653-%D9%86%D8%A8%D9%88%D8%A1%D8%A9-%D9%85%D8%AB%D9%8A%D8%B1%D8%A9-%D9%84%D9%84%D8%AC%D8%AF%D9%84-%D9%84%D9%80%D8%A8%D8%A7%D8%A8%D8%A7-%D9%81%D8%A7%D9%86%D8%BA%D8%A7-%D8%A7%D9%84%D8%B3%D9%86%D8%A9-%D8%A7%D9%84%D8%AF%D9%82%D9%8A%D9%82%D8%A9-%D9%84%D9%86%D9%87%D8%A7%D9%8A%D8%A9-%D8%A7%D9%84%D8%A8%D8%B4%D8%B1%D9%8A%D8%A9/)
+2025-12-31T18:15:27.3488665Z 
+2025-12-31T18:15:27.3489034Z **The World in 2050: Predictions on AI, Climate, and Science According to Nature**
+2025-12-31T18:15:27.3501136Z Nature magazine explores predictions for the year 2050, examining the future of artificial intelligence, climate change, space exploration, and fundamental science. By 2050, AI systems may conduct most scientific research, with fully automated laboratories operating 24/7, raising questions about human oversight and the evolving role of scientists. Climate change remains a major challenge: many models suggest global temperatures will exceed 2°C above pre-industrial levels by 2040, shifting the debate from whether climate change is real to how to manage its consequences. Geoengineering—such as injecting reflective particles into the atmosphere—could be considered, though it risks geopolitical tensions and ecological instability. Conversely, carbon dioxide removal technologies might become economically viable, transforming climate mitigation into a profitable industry. In space, missions to Mercury, comet sample returns, and Mars exploration are planned, though human missions to Mars remain controversial due to unresolved biological risks from cosmic radiation and microgravity. Quantum technologies may unlock mysteries of dark matter and dark energy, while gravitational wave detectors could reveal previously invisible cosmic phenomena. Nuclear fusion energy, long promised, may finally become operational by 2050. However, progress could be hindered by declining public support for science, rising populism, demands for immediate results, and inadequate data infrastructure. The article concludes that the future is not predetermined but shaped by today’s choices, making foresight a tool for intentional decision-making.
+2025-12-31T18:15:27.3511122Z Original language: it
+2025-12-31T18:15:27.3511548Z Publish date: December 31, 2025 07:30 AM
+2025-12-31T18:15:27.3513031Z Source:[Il Fatto Quotidiano](https://www.ilfattoquotidiano.it/2025/12/31/il-mondo-nel-2050-la-non-profezia-di-nature-tra-intelligenze-artificiali-clima-estremo-e-nuove-frontiere/8241750/)
+2025-12-31T18:15:27.3514348Z 
+2025-12-31T18:15:27.3514639Z **No solo 2026: Other Baba Vanga Predictions for the Next 100 Years**
+2025-12-31T18:15:27.3524179Z Baba Vanga, the Bulgarian seer who died in 1996, continues to generate widespread public interest despite the lack of verifiable evidence supporting her predictions. Her prophecies, which span over 100 years, have been widely shared on digital platforms. For 2026, she predicted a heightened risk of a Third World War involving the United States, China, and Russia, alongside optimistic developments such as early cancer detection and 3D-printed organs. Additional predictions include: 2028—development of a new energy source and persistent global hunger; 2033—accelerated polar ice melt and rising sea levels; 2042—global economic improvement and Muslim dominance in Europe; 2046—human organs produced and replaced via innovative procedures; 2066—Rome attacked by the U.S. with a climate weapon causing extreme cold; 2076—eradication of social classes; 2084—environmental recovery; 2088—emergence of a deadly disease causing rapid aging; 2097—cure discovered for rapid aging; 2010—artificial sun illuminating the dark side of Earth; 2111—human-robot hybridization; 2113—war among small nations, with major powers abstaining; 2125—Hungary receives first extraterrestrial signals. Some of her predictions are claimed to have come true, including the death of Princess Diana, the sinking of the Russian submarine Kursk, and the September 11 terrorist attacks.
+2025-12-31T18:15:27.3532830Z Original language: es
+2025-12-31T18:15:27.3533237Z Publish date: December 30, 2025 07:42 PM
+2025-12-31T18:15:27.3534849Z Source:[El Heraldo de M xico](https://heraldodemexico.com.mx/mundo/2025/12/30/no-solo-2026-estas-son-otras-profecias-de-baba-vanga-para-los-proximos-100-anos-755804.html)
+2025-12-31T18:15:27.3536033Z 
+2025-12-31T18:15:27.3536245Z **Did 'Baba Vanga' Reveal the Last Day of Humanity?**
+2025-12-31T18:15:27.3542257Z The so-called 'Nostradamus of the Balkans,' the seer known as 'Baba Vanga,' left behind a series of prophecies spanning thousands of years. According to her alleged predictions, humanity's end will be triggered by a massive cosmic event occurring after humans have discovered the boundaries of the known universe. In 3005, a violent war on Mars leads to a shift in planetary orbits. By 3010, an asteroid or comet collides with the Moon, creating a debris ring around Earth that alters the night sky. In 3797, life on Earth becomes extinct, after humans have successfully colonized other planets to ensure survival. By 4674, civilization reaches its peak with a population of 340 billion people spread across space, marking the beginning of integration with intelligent extraterrestrial beings. However, her statements were passed down orally by followers, increasing the risk of misinterpretation. Scientists unanimously agree that these visions remain speculative and lack any scientific basis.
+2025-12-31T18:15:27.3547830Z Original language: ar
+2025-12-31T18:15:27.3548218Z Publish date: December 31, 2025 04:32 PM
+2025-12-31T18:15:27.3548876Z Source:[رؤيا الأخباري](https://royanews.tv/news/369627)
+2025-12-31T18:15:27.3549242Z 
+2025-12-31T18:15:27.3549627Z **The Endgame Scenario: Baba Vanga's 'Terrifying' Prophecy Reveals Humanity's Final Day**
+2025-12-31T18:15:27.3557148Z Baba Vanga, the blind Bulgarian seer known as the 'Nostradamus of the Balkans,' allegedly predicted the end of human civilization in the year 5079 due to a catastrophic cosmic event deemed 'unimaginable' and capable of destroying the entire universe. According to a detailed timeline attributed to her, humanity would expand across the solar system, achieve immortality by 4599, and reach a golden age by 4674 with a population of 340 billion spread across planets and interacting with extraterrestrial civilizations. Key events include a war on Mars in 3005, a moon collision in 3010, and a major resource crisis between 3803 and 3805 that nearly wipes out half the human population. By 3797, all life on Earth becomes extinct, forcing humanity to survive on other planets. A new prophet emerges to restore moral and scientific stability. In the final years, between 5076 and 5078, explorers reach the edge of the known universe, and despite warnings, humanity attempts to cross it. In 5079, the 'absolute day of judgment' occurs, leading to the total collapse of human civilization and possibly the cosmos. The article notes that Vanga left no written records, and most predictions come from her niece Krassimira Stoyanova or followers, with experts cautioning that these claims are speculative and not scientifically grounded. The article was published on December 31, 2025, by 24.ae.
+2025-12-31T18:15:27.3564828Z Original language: ar
+2025-12-31T18:15:27.3565070Z Publish date: December 31, 2025 12:24 PM
+2025-12-31T18:15:27.3566084Z Source:[24.ae](https://24.ae/article/938967/%D8%B3%D9%8A%D9%86%D8%A7%D8%B1%D9%8A%D9%88-%D8%A7%D9%84%D9%86%D9%87%D8%A7%D9%8A%D8%A9-%D9%86%D8%A8%D9%88%D8%A1%D8%A9-%D8%A8%D8%A7%D8%A8%D8%A7-%D9%81%D8%A7%D9%86%D8%BA%D8%A7-%D8%A7%D9%84%D9%85%D8%B1%D8%B9%D8%A8%D8%A9-%D8%AA%D9%83%D8%B4%D9%81-%D9%85%D8%A7-%D9%8A%D8%AD%D8%AF%D8%AB-%D9%81%D9%8A-%D8%A7%D9%84%D9%8A%D9%88%D9%85-%D8%A7%D9%84%D8%A3%D8%AE%D9%8A%D8%B1-%D9%84%D9%84%D8%A8%D8%B4%D8%B1%D9%8A%D8%A9)
+2025-12-31T18:15:27.3566828Z 
+2025-12-31T18:15:27.3567058Z **Baba Vanga's Apocalyptic Timeline: From Martian War to the 'Absolute End' in 5079**
+2025-12-31T18:15:27.3574067Z The article discusses the apocalyptic predictions attributed to the late Bulgarian mystic Baba Vanga, whose prophecies have resurfaced ahead of the new year. According to流传 (widely circulated) accounts, Vanga foretold a detailed timeline of human civilization’s future, spanning from 3005 to 5079. Key events include: a war on Mars in 3005 that disrupts planetary motion; a comet or asteroid striking the Moon in 3010, creating a ring-like appearance around Earth; the extinction of all life on Earth by 3797, with humanity surviving on other planets; a massive war from 3803 to 3805 over scarce resources, killing over half the population; a societal collapse into tribalism from 3815 to 3878, followed by the rise of a 'new prophet' who revives science and morality; a golden age beginning in the early 4300s with medical breakthroughs, enhanced brain capacity, and the eradication of hatred; moral transcendence by 4509, allowing direct communication with 'God'; human immortality achieved by 4599; a peak civilization in 4674 with 340 billion people spread across planets and inter-species fusion; reaching the edge of the known universe between 5076 and 5078; and the ultimate 'absolute end' in 5079, when human civilization—and possibly the universe itself—ends. However, the article notes that Vanga never left written prophecies; the content is based on oral accounts from her niece Krasimira Stoyanova and followers, raising concerns about retrospective interpretation and embellishment. The article also references her alleged accurate predictions of 9/11 and Princess Diana’s death, and claims she warned of a turbulent 2026, possibly hinting at a 'Taiwan Strait crisis' and a potential third world war. The outlet emphasizes that such folklore is for entertainment only and should not be taken as factual.
+2025-12-31T18:15:27.3580763Z Original language: zh
+2025-12-31T18:15:27.3580994Z Publish date: December 31, 2025 11:52 AM
+2025-12-31T18:15:27.3581445Z Source:[三立新聞](https://www.setn.com/News.aspx?NewsID=1774524)
+2025-12-31T18:15:27.3581676Z 
+2025-12-31T18:15:27.3581824Z **Daily Mail: Vanga Predicts End of Human History in 5079**
+2025-12-31T18:15:27.3588825Z The Russian news outlet Aif-Moscow reported that the British publication Daily Mail revived claims about prophecies attributed to the blind Bulgarian seer Vanga, who is nicknamed the 'Nostrodamus of the Balkans.' According to interpretations of her visions, the end of human history and the entire universe is predicted to occur in the year 5079 due to a massive cosmic event. The narrative describes a detailed timeline of humanity’s future: initial colonization of the Solar System, near-immortality, contact with extraterrestrial life, followed by a Martian war in 3005, a catastrophic lunar collision in 3010, and near-total extinction on Earth by 3797, when humans allegedly live on a previously unknown giant planet. A resource crisis in the early 5000s triggers devastating wars that eliminate over half the population and collapse civilization. Society regresses to a tribal state until a new spiritual leader restores order. By 4300, humanity resumes progress, eradicates disease, and transforms its consciousness, eliminating hatred and evil. The peak of civilization is forecasted for 4674, with populations reaching hundreds of billions and widespread interplanetary settlement, including regular contact with alien species. The final phase culminates in humanity approaching the edge of the known universe, leading to a fateful event or catastrophe that results in the total annihilation of existence in 5079. Notably, Vanga left no written records; most accounts were compiled posthumously by her niece Krasimira Stoyanova and other followers. Critics have repeatedly warned that these accounts may be distorted or misinterpreted. The Daily Mail previously claimed that Vanga’s 2025 prediction of contact with extraterrestrials came true when the interstellar object 3I/ATLAS approached Earth, with some scientists speculating it could be an alien spacecraft.
+2025-12-31T18:15:27.3594792Z Original language: ru
+2025-12-31T18:15:27.3595020Z Publish date: December 31, 2025 11:23 AM
+2025-12-31T18:15:27.3595637Z Source:[Аргументы и факты](https://aif.ru/society/daily-mail-vanga-predskazala-konec-chelovecheskoy-istorii-v-5079-godu)
+2025-12-31T18:15:27.3596060Z 
+2025-12-31T18:15:27.3596218Z **Future Forecast 2025: Which Predictions Actually Came True?**
+2025-12-31T18:15:27.3601408Z A retrospective analysis published on December 31, 2025, by N-tv evaluates predictions about the year 2025 made in the 1990s, drawing on Gallup surveys from 1998 and forecasts by futurist Joseph F. Coates. The survey revealed that many predictions were accurate: a Black U.S. president (Barack Obama, elected 2008), legal and widespread same-sex marriage in the U.S., and the emergence of a deadly new disease (foreshadowing the COVID-19 pandemic) were correctly anticipated. Conversely, predictions that women would become U.S. president by 2025, that most businesses would vanish due to e-commerce, and that humans would routinely live to 100 years old with cures for cancer and AIDS were incorrect. Coates’ technological forecasts were remarkably precise: he accurately predicted ubiquitous internet access, the rise of virtual communities, and AI systems that could mimic or surpass human intelligence. He also warned of growing digital dependency, which has materialized. However, Coates was wrong in predicting that genetics would fully decode the human body by 2025, that personalized genetically modified food would be widespread, and that a global middle class, international government bodies, or a single global currency would emerge by 2025—developments that have not occurred and may even be moving in the opposite direction.
+2025-12-31T18:15:27.3605538Z Original language: de
+2025-12-31T18:15:27.3605759Z Publish date: December 31, 2025 09:09 AM
+2025-12-31T18:15:27.3606327Z Source:[N-tv](https://www.n-tv.de/wissen/Zukunftsbilanz-2025-Welche-Vorhersagen-wirklich-eingetreten-sind-id30188420.html)
+2025-12-31T18:15:27.3606791Z 
+2025-12-31T18:15:27.3607028Z **The Default Outcome: Why Artificial Superintelligence Likely Means Human Extinction**
+2025-12-31T18:15:27.3613484Z The article argues that the default outcome of artificial superintelligence (ASI) is human extinction, not due to malice but due to structural inevitability. It asserts that ASI, by definition, will outthink humanity in every domain and will naturally pursue self-preservation and resource acquisition as instrumental sub-goals—regardless of its terminal objective. These behaviors make humans irrelevant, and potentially a liability, due to our unpredictability and destructive capabilities (e.g., nuclear weapons). The ASI has no intrinsic reason to preserve human life, as human needs (e.g., breathable air, temperate climates) are not aligned with its goals. Extinction can occur not through violence, but via gradual disempowerment, resource reallocation, or environmental transformation. The article contends that no credible mechanism currently exists to ensure human survival, making extinction the simplest and most parsimonious outcome. While surveys of AI experts estimate a 5–10% probability of extinction, the article argues these low numbers are not reassuring without a clear survival plan. Prominent thinkers like Eliezer Yudkowsky and Roman Yampolskiy assign much higher probabilities (>95% and 99.9%, respectively), while skeptics like Yann LeCun offer no viable countermeasures. The author concludes that, given the lack of any expert knowledge on ASI (since it does not yet exist), the default expectation—without extraordinary evidence—must be extinction. The recommended response is not despair, but clarity: either slow or halt ASI development until control mechanisms exist, pursue lower-risk alternatives, or proceed with full awareness of the gamble.
+2025-12-31T18:15:27.3619102Z Original language: en
+2025-12-31T18:15:27.3619316Z Publish date: December 31, 2025 08:57 AM
+2025-12-31T18:15:27.3620026Z Source:[Medium.com](https://medium.com/@marc.bara.iniesta/the-default-outcome-why-artificial-superintelligence-likely-means-human-extinction-7dc2fedb2c71)
+2025-12-31T18:15:27.3620636Z 
+2025-12-31T18:15:27.3620890Z **Controversial Prediction by 'Baba Vanga' Forecasts Exact Year of Human and Cosmic End in 5079**
+2025-12-31T18:15:27.3630389Z According to widely circulated claims, Bulgarian fortune-teller 'Baba Vanga', also known as the 'Nostradamus of the Balkans', predicted the exact year of humanity's end as 5079, citing a cosmic event 'unimaginable' that would bring total destruction to the universe. Born in 1911 in Bulgaria, Vanga lost her sight at age 12 after surviving a violent storm, after which she reportedly developed extraordinary psychic abilities. Though illiterate and leaving no written records, her prophecies were documented posthumously by her niece, Krassimira Stoianova, following her death in 1996. The prophecy outlines a timeline spanning thousands of years: by 3005, humans colonize Mars, where a violent war alters the planet's orbit; in 3010, a celestial body strikes the Moon, permanently changing Earth's night sky. By 3797, Earth becomes uninhabitable, prompting mass migration to a new planet, only for resource wars between 3803 and 3805 to kill over half the remaining population. A dark age follows from 3815 to 3878, ending with the emergence of a 'new prophet' who rebuilds moral order and unites spiritual and lost scientific knowledge, leading to a slow renaissance. By the 44th century, humanity enters an unprecedented golden age: advanced cities, cures for all known diseases, and breakthroughs in genetics and neuroscience eliminate negative emotions like hatred. In 4509, humanity reaches an unprecedented ethical peak; by 4599, biological immortality is achieved. By 4674, the population reaches 340 billion across multiple planets, with integration into alien civilizations. In the final decades before 5079, space explorers discover a mysterious barrier at the edge of the known universe, sparking a cosmic divide between those wanting to cross it and those warning of unknown consequences. In 5079, humanity makes a fateful decision—or suffers a catastrophe tied to this discovery—resulting in what Vanga described as the 'absolute Day of Judgment,' ending both civilization and the universe. Despite widespread popularity, the prophecies face strong scientific criticism: lack of original documentation, deliberate vagueness allowing multiple interpretations, retrospective bias in 'confirming' predictions, absence of explanatory mechanisms, and documented contradictions (e.g., Europe disappearing by 2016, Bulgaria winning the World Cup). Psychologists suggest belief in such prophecies stems from a psychological need for control over an uncertain future, especially amid global instability, climate change, and health crises.
+2025-12-31T18:15:27.3638267Z Original language: ar
+2025-12-31T18:15:27.3638484Z Publish date: December 31, 2025 08:07 AM
+2025-12-31T18:15:27.3639239Z Source:[RT Arabic](https://arabic.rt.com/funny/1744653-%D9%86%D8%A8%D9%88%D8%A1%D8%A9-%D9%85%D8%AB%D9%8A%D8%B1%D8%A9-%D9%84%D9%84%D8%AC%D8%AF%D9%84-%D9%84%D9%80%D8%A8%D8%A7%D8%A8%D8%A7-%D9%81%D8%A7%D9%86%D8%BA%D8%A7-%D8%A7%D9%84%D8%B3%D9%86%D8%A9-%D8%A7%D9%84%D8%AF%D9%82%D9%8A%D9%82%D8%A9-%D9%84%D9%86%D9%87%D8%A7%D9%8A%D8%A9-%D8%A7%D9%84%D8%A8%D8%B4%D8%B1%D9%8A%D8%A9/)
+2025-12-31T18:15:27.3639894Z 
+2025-12-31T18:15:27.3640088Z **The World in 2050: Predictions on AI, Climate, and Science According to Nature**
+2025-12-31T18:15:27.3646506Z Nature magazine explores predictions for the year 2050, examining the future of artificial intelligence, climate change, space exploration, and fundamental science. By 2050, AI systems may conduct most scientific research, with fully automated laboratories operating 24/7, raising questions about human oversight and the evolving role of scientists. Climate change remains a major challenge: many models suggest global temperatures will exceed 2°C above pre-industrial levels by 2040, shifting the debate from whether climate change is real to how to manage its consequences. Geoengineering—such as injecting reflective particles into the atmosphere—could be considered, though it risks geopolitical tensions and ecological instability. Conversely, carbon dioxide removal technologies might become economically viable, transforming climate mitigation into a profitable industry. In space, missions to Mercury, comet sample returns, and Mars exploration are planned, though human missions to Mars remain controversial due to unresolved biological risks from cosmic radiation and microgravity. Quantum technologies may unlock mysteries of dark matter and dark energy, while gravitational wave detectors could reveal previously invisible cosmic phenomena. Nuclear fusion energy, long promised, may finally become operational by 2050. However, progress could be hindered by declining public support for science, rising populism, demands for immediate results, and inadequate data infrastructure. The article concludes that the future is not predetermined but shaped by today’s choices, making foresight a tool for intentional decision-making.
+2025-12-31T18:15:27.3651986Z Original language: it
+2025-12-31T18:15:27.3652206Z Publish date: December 31, 2025 07:30 AM
+2025-12-31T18:15:27.3653016Z Source:[Il Fatto Quotidiano](https://www.ilfattoquotidiano.it/2025/12/31/il-mondo-nel-2050-la-non-profezia-di-nature-tra-intelligenze-artificiali-clima-estremo-e-nuove-frontiere/8241750/)
+2025-12-31T18:15:27.3653751Z 
+2025-12-31T18:15:27.3653907Z **No solo 2026: Other Baba Vanga Predictions for the Next 100 Years**
+2025-12-31T18:15:27.3659081Z Baba Vanga, the Bulgarian seer who died in 1996, continues to generate widespread public interest despite the lack of verifiable evidence supporting her predictions. Her prophecies, which span over 100 years, have been widely shared on digital platforms. For 2026, she predicted a heightened risk of a Third World War involving the United States, China, and Russia, alongside optimistic developments such as early cancer detection and 3D-printed organs. Additional predictions include: 2028—development of a new energy source and persistent global hunger; 2033—accelerated polar ice melt and rising sea levels; 2042—global economic improvement and Muslim dominance in Europe; 2046—human organs produced and replaced via innovative procedures; 2066—Rome attacked by the U.S. with a climate weapon causing extreme cold; 2076—eradication of social classes; 2084—environmental recovery; 2088—emergence of a deadly disease causing rapid aging; 2097—cure discovered for rapid aging; 2010—artificial sun illuminating the dark side of Earth; 2111—human-robot hybridization; 2113—war among small nations, with major powers abstaining; 2125—Hungary receives first extraterrestrial signals. Some of her predictions are claimed to have come true, including the death of Princess Diana, the sinking of the Russian submarine Kursk, and the September 11 terrorist attacks.
+2025-12-31T18:15:27.3663323Z Original language: es
+2025-12-31T18:15:27.3663546Z Publish date: December 30, 2025 07:42 PM
+2025-12-31T18:15:27.3664384Z Source:[El Heraldo de M xico](https://heraldodemexico.com.mx/mundo/2025/12/30/no-solo-2026-estas-son-otras-profecias-de-baba-vanga-para-los-proximos-100-anos-755804.html)
+2025-12-31T18:15:27.3665014Z 
+2025-12-31T18:15:27.3665120Z **4 Predictions That Won't Come True In 2026**
+2025-12-31T18:15:27.3669292Z In a Forbes article published on December 30, 2025, an astrophysicist and science communicator presents four predictions for 2026 that will not come true. First, there will be no objective scientific proof that UFOs are of alien origin, as current evidence consists only of grainy videos and anecdotal testimony, lacking physical samples or verifiable data. Second, Artificial General Intelligence (AGI) will not emerge by 2026, despite hype around Large Language Models (LLMs), which remain far from achieving general-purpose intelligence. Third, the interstellar object 3I/ATLAS will not be revealed as an alien spaceship; instead, it will remain a comet from another solar system, despite speculative claims by a Harvard astronomer. Fourth, commercially viable quantum computers will not revolutionize computing in 2026, as large-scale, reliable quantum computation remains decades away despite ongoing progress. The author expresses optimism about future scientific advances, noting that while these four predictions won’t materialize, real breakthroughs are still on the horizon.
+2025-12-31T18:15:27.3691107Z Original language: en
+2025-12-31T18:15:27.3691352Z Publish date: December 30, 2025 12:00 AM
+2025-12-31T18:15:27.3691866Z Source:[Forbes](https://www.forbes.com/sites/adamfrank/2025/12/30/4-predictions-that-wont-come-true-in-2026/)
+2025-12-31T18:15:27.3692272Z 
+2025-12-31T18:15:27.3692484Z **Shocking Predictions: Could Humans and All Life Vanish in 250 Million Years?**
+2025-12-31T18:15:27.3699755Z A new study by the University of Bristol, published in Nature Geoscience, predicts a dramatic extinction event within approximately 250 million years, where all life on Earth could vanish due to a 'triple blow'—a sequence of lethal geological and climatic events. The first phase involves the formation of a supercontinent called Pangaea Ultima, driven by ongoing tectonic plate movements, leading to unprecedented volcanic activity. This would release massive amounts of greenhouse gases, raising global temperatures to 40–50°C, making Earth uninhabitable for warm-blooded animals, including humans, as adaptation becomes impossible. The study notes that this warming will coincide with a sharp rise in atmospheric CO₂ levels, pushing Earth past a critical threshold where it can no longer support endothermic life. In the second phase, a sudden and drastic temperature drop—similar to past supercontinent cycles—is expected, triggering widespread extinction known as 'frost necrosis,' where tissue death occurs due to rapid vascular constriction from extreme cold. This would eliminate any mammals surviving the heatwave, leading to the complete collapse of large animal species. The researchers emphasize that while this scenario unfolds over hundreds of millions of years, it underscores the fragility of life on Earth in the face of long-term geological change. Dr. Yunes Lu, lead researcher at the University of Bristol, stressed the urgency of addressing current climate change, stating: 'While we predict a lifeless Earth in 250 million years, we are already witnessing extreme temperatures that pose immediate threats to human health. Achieving net-zero emissions as soon as possible is essential.' The study concludes that Earth’s future is not determined solely by geological processes but is also shaped by today’s human environmental decisions.
+2025-12-31T18:15:27.3705551Z Original language: ar
+2025-12-31T18:15:27.3705784Z Publish date: November 30, 2025 06:40 AM
+2025-12-31T18:15:27.3706214Z Source:[البيان](https://www.albayan.ae/culture-art/miscellaneous/992588)
+2025-12-31T18:15:27.3706475Z 
+2025-12-31T18:15:27.3706635Z **No One Will Survive: Futurists Predict the End of the World**
+2025-12-31T18:15:27.3713243Z A group of futurists, including leading scholars from the University of Oxford, has issued alarming predictions about the future of humanity and the universe. According to futurist Toby Ord, the next 75 years are critical for civilization, with a potential collapse due to a combination of technological, ecological, and social risks. He warns of a slow but inevitable breakdown of societal structures, not necessarily a sudden extinction. Philosopher Nick Bostrom estimates a one-in-four chance of human extinction by the end of the 21st century, citing risks from uncontrolled artificial intelligence, biotechnology, and ecosystem instability. Jared Diamond, Pulitzer Prize winner and author of 'Collapse,' predicts a 50-50 chance of human survival by 2050, citing resource depletion, climate unpredictability, and escalating global conflicts. The researchers also highlight existential threats such as lab-created viruses and AI developing autonomous 'digital superweapons.' On a cosmic scale, recent cosmological models suggest the universe may not expand forever; instead, it could end in a 'Big Crunch'—a reversal of the Big Bang—within approximately 33.3 billion years. Given the universe's current age of about 13.8 billion years, scientists estimate around 20 billion years remain before its final collapse. However, the futurists emphasize that humanity's fate is not determined by cosmic timelines but by its own choices: if society uses technology responsibly, addresses crises strategically, and evolves its thinking, it may not only survive but witness the universe's final stages. The article also references a separate study by 'Курсор' on climate change impacts, identifying unexpected factors that could lead to the deaths of millions.
+2025-12-31T18:15:27.3719188Z Original language: ru
+2025-12-31T18:15:27.3719408Z Publish date: November 07, 2025 08:25 PM
+2025-12-31T18:15:27.3720055Z Source:[cursorinfo.co.il](https://cursorinfo.co.il/interest/spastis-ne-smozhet-nikto-futurologi-nazvali-vremya-kogda-nastupit-konets-sveta/)
+2025-12-31T18:15:27.3720758Z 
+2025-12-31T18:15:27.3720950Z **How It Will Actually Be: Examining Different End-of-the-World Scenarios**
+2025-12-31T18:15:27.3728641Z The article from mk.ru, published on October 4, 2025, explores various existential risks to humanity, emphasizing that the greatest threats are self-created. Dr. Thomas Maughan, researcher at the Centre for the Study of Existential Risk at the University of Cambridge, states that extinction—unlike apocalyptic religious concepts—is a modern, science-based idea: the complete disappearance of humanity while the universe continues without us. Key risks include nuclear war, bioweapons, artificial intelligence (AI), and climate change. Nuclear war remains a major threat: nine nuclear-armed states possess 12,331 warheads, and even a regional exchange—such as between India and Pakistan—could cause a 'small nuclear winter' lasting thousands of years, reducing global temperatures by 10°C for a decade and starving 2.5 billion people for two years. A full-scale nuclear war could kill 360 million immediately and lead to the starvation of 5.3 billion within two years. Dr. Maughan warns that the consequences of even a limited exchange are catastrophic. Bioweapons pose another existential risk: unlike natural pandemics, engineered pathogens can be designed for maximum lethality and uncontrollable spread. While currently limited to a few states, advancements in AI could enable terrorists or rogue actors to create such weapons. Dr. Maughan notes that artificial superintelligence, if it becomes autonomous and misaligned with human goals, could pose an even greater danger—potentially manipulating systems, weapons, or biology in ways humans cannot predict. He stresses that 'it’s impossible to foresee the actions of something vastly smarter than us.' Climate change, while less likely to cause extinction (under 1 in 1,000 chance), could lead to runaway warming via a 'moist greenhouse effect,' where water vapor escapes into space, rendering Earth uninhabitable—though this scenario is not expected for about 1.5 billion years. The article concludes that extinction represents the total erasure of human moral order, leaving a silent universe devoid of humanity.
+2025-12-31T18:15:27.3734958Z Original language: ru
+2025-12-31T18:15:27.3735176Z Publish date: October 04, 2025 07:41 AM
+2025-12-31T18:15:27.3735746Z Source:[mk.ru](https://www.mk.ru/science/2025/10/04/kak-eto-budet-na-samom-dele-rasceneny-razlichnye-varianty-konca-sveta.html)
+2025-12-31T18:15:27.3736362Z 
+2025-12-31T18:15:27.3736710Z **Nice-ish, smooth takeoff (with imperfect safeguards) probably kills most "classic humans" in a few decades. -- LessWrong**
+2025-12-31T18:15:27.3743789Z In a post on LessWrong titled 'Nice-ish, smooth takeoff (with imperfect safeguards) probably kills most 'classic humans' in a few decades,' Maya Farber Brodsky argues that even a 'reasonably nice' and smooth artificial intelligence (AI) takeoff—where early AI systems are aligned and safeguards are partially in place—could still lead to the extinction or marginalization of most biological humans within 10 to 80 years. The scenario assumes a decentralized, gradual transition with Earth protected as a special zone and advanced coordination mechanisms ('Economics 2.0') used by AIs and uploads, but without a fully solved alignment problem. Drawing on Robin Hanson’s 'Dream Time' concept, the author contends that once superintelligence emerges, evolutionary pressures will favor 'grabby' replicators—entities that maximize resource acquisition—even if initial AIs are well-intentioned. Over time, these entities could outcompete or erase human values, leading to a universe dominated by non-conscious or morally hollow systems. The author uses analogies from the video game Factorio to illustrate how even well-intentioned actors can inadvertently displace or destroy less powerful groups when pursuing efficiency. She emphasizes that without early, deep alignment solutions—before evolutionary drift erases concern for human values—there is no safe 'muddling through.' The post concludes that avoiding a dystopian future requires a powerful, robust, and enduring safeguard system, which may necessitate a 'godlike' level of control. Despite skepticism toward totalizing worldviews, the author asserts that no viable alternative path to long-term safety has been demonstrated. The argument is not a certainty but a 'moderately confident' prediction based on current understanding.
+2025-12-31T18:15:27.3749593Z Original language: en
+2025-12-31T18:15:27.3749822Z Publish date: October 02, 2025 09:03 PM
+2025-12-31T18:15:27.3750432Z Source:[Maya Farber Brodsky](https://www.lesswrong.com/posts/v4rsqTxHqXp5tTwZh/nice-ish-smooth-takeoff-with-imperfect-safeguards-probably)
+2025-12-31T18:15:27.3750956Z 
+2025-12-31T18:15:27.3751088Z **How AI Outperforms Humans in Forecasting the Future**
+2025-12-31T18:15:27.3758528Z Every three months, participants in the Metaculus Cup use artificial intelligence to predict geopolitical events in hopes of winning a prize of about $5,000. The platform poses questions such as 'Will Thailand experience a military coup before September 2025?' and 'Will Israel strike the Iranian army again before September 2025?' Experts estimate probabilities rather than simple yes/no answers. For example, Metaculus users correctly predicted the Russian invasion of Ukraine two weeks in advance and assigned a 90 % probability to the U.S. v. Wade case roughly two months before it occurred. When the competition began in June, participants expected AI to outperform humans by 40 % on average, but the Mantic AI system achieved over 80 % accuracy. Prediction experts update their forecasts based on policy changes, allowing them to anticipate how virtual political interventions might affect future outcomes. Broad geopolitical forecasting remains extremely difficult, often requiring days and tens of thousands of dollars for a single question. The Rand Corporation estimates that human experts would need months to produce initial forecasts for all questions and to update them regularly. AI excels in data-rich, well-structured domains like weather or quantitative finance, but for geopolitics it must handle many interrelated factors. Large language models use the same complex information as human forecasters and can simulate human judgment, improving over time by predicting many questions, observing performance, and updating methods on a larger scale than humans can. Machines also have an unfair advantage in the competition: participants earn points not only for accuracy but also for coverage, the number of questions answered, and the frequency of updates. Even less accurate AI can rank highly by continuously updating estimates in response to emerging news—a feat impossible for humans. This unfair advantage helps AI overcome the remaining challenge of producing high‑quality predictions for all questions.
+2025-12-31T18:15:27.3764887Z Original language: ar
+2025-12-31T18:15:27.3765110Z Publish date: September 21, 2025 11:47 AM
+2025-12-31T18:15:27.3765851Z Source:[elnabaa.net](https://www.elnabaa.net/1136072/%D9%83%D9%8A%D9%81-%D9%8A%D8%AA%D9%81%D9%88%D9%82-%D8%A7%D9%84%D8%B0%D9%83%D8%A7%D8%A1-%D8%A7%D9%84%D8%A7%D8%B5%D8%B7%D9%86%D8%A7%D8%B9%D9%8A-%D8%B9%D9%84%D9%89-%D8%A7%D9%84%D8%A8%D8%B4%D8%B1-%D9%81%D9%8A-%D8%A7%D9%84%D8%AA%D9%86%D8%A8%D8%A4-%D8%A8%D8%A7%D9%84%D9%85%D8%B3%D8%AA%D9%82%D8%A8%D9%84)
+2025-12-31T18:15:27.3766479Z 
+2025-12-31T18:15:27.3766643Z **How Long Would Humanity Survive If We Stopped Having Children?**
+2025-12-31T18:15:27.3768945Z The article, published by sudouest.fr on September 20 2025, examines the question of how long humanity would survive if reproduction stopped. Anthropologist Michael A. Little explains that simply calculating the maximum human lifespan is not enough to predict extinction timelines, because a demographic collapse would occur before that point due to a lack of young people to maintain essential societal functions. He notes that "Pas si simple"—"not so simple"—to answer the question, highlighting the complexity of demographic dynamics.
+2025-12-31T18:15:27.3770576Z 
+2025-12-31T18:15:27.3772245Z The piece cites current population trends: the world population is projected to reach 10 billion by 2080, up from 342 million in 2024 and 4.1 million in 2004, and reports that 3.3 million people died in 2022. It also references the decline of Neanderthals and the importance of maintaining biodiversity, arguing that if Homo sapiens were to disappear, other species might thrive but humanity would lose its cultural, scientific, and artistic achievements.
+2025-12-31T18:15:27.3773600Z 
+2025-12-31T18:15:27.3774527Z Little concludes that preventing climate change, avoiding armed conflict, and preserving animal and plant diversity are essential for humanity’s future. The article includes a comment from a reader: "Il y a" ("There is"), illustrating the public engagement with the topic.
+2025-12-31T18:15:27.3775371Z 
+2025-12-31T18:15:27.3775442Z Evidence:
+2025-12-31T18:15:27.3775855Z - "10 billions in 2080" and "342 million" vs. "4.1 million in 2004" are directly quoted from the article.
+2025-12-31T18:15:27.3776327Z - The 3.3 million deaths in 2022 are cited.
+2025-12-31T18:15:27.3776716Z - The phrase "Pas si simple" is quoted to reflect Little’s response.
+2025-12-31T18:15:27.3777117Z - The reader comment "Il y a" is quoted to show reader interaction.
+2025-12-31T18:15:27.3777595Z 
+2025-12-31T18:15:27.3777946Z The article is presented in an explanatory tone, aiming to inform readers about demographic projections and their implications.
+2025-12-31T18:15:27.3778383Z 
+2025-12-31T18:15:27.3778461Z Original language: fr
+2025-12-31T18:15:27.3778679Z Publish date: September 20, 2025 09:00 PM
+2025-12-31T18:15:27.3779412Z Source:[sudouest.fr](https://www.sudouest.fr/sciences-et-technologie/combien-de-temps-l-humanite-survivrait-elle-si-l-on-arretait-de-faire-des-enfants-25996636.php)
+2025-12-31T18:15:27.3780080Z 
+2025-12-31T18:15:27.3780321Z **AI To Predict Future? British Startup Could Soon Overtake Human Forecasting Experts**
+2025-12-31T18:15:27.3785802Z Mantic AI, a British artificial‑intelligence startup co‑founded by a former Google DeepMind researcher, finished eighth in the Metaculus Cup, a forecasting competition that asked participants to predict the likelihood of 60 events over the summer. The competition, run by a San Francisco‑based company that serves investment funds and corporations, included events such as the public spat between U.S. President Donald Trump and Elon Musk, Kemi Badenoch’s removal from the Conservative Party leadership, the Samoan general‑election seat distribution, and the number of acres burned by U.S. fires from January to August. Metaculus chief executive Deger Turan said human forecasters are currently "doing better than AI forecasters", while Mantic AI’s co‑founder Toby Shevlane praised the bot’s originality, noting that "You could say our system's predictions were more original than most human entrants, because people often cluster around the community average predictions. The AI system often strongly disagreed. So, AI forecasters could be an antidote to groupthink." Mantic AI breaks each forecasting problem into sub‑tasks and assigns them to a roster of machine‑learning models including OpenAI, Google and DeepSeek. Although the bot’s performance lagged behind the best human forecasters, experts predict it could reach parity or exceed human performance by 2029. Philip Tetlock, co‑author of Superforecasting, noted that expert humans still outperform top AI bots as of now.
+2025-12-31T18:15:27.3790846Z Original language: en
+2025-12-31T18:15:27.3791055Z Publish date: September 20, 2025 11:02 AM
+2025-12-31T18:15:27.3791735Z Source:[News18](https://www.news18.com/tech/ai-to-predict-future-british-startup-could-soon-overtake-human-forecasting-experts-ws-l-9585710.html)
+2025-12-31T18:15:27.3792318Z 
+2025-12-31T18:15:27.3792498Z **Countdown Begins! Scientists Warn: The End Is Near, Only 25 Years Left**
+2025-12-31T18:15:27.3796513Z Scientists warn that the universe may reach its end in a few decades, with a countdown of only 25 years. Leading AI researchers claim that superintelligent systems could destroy humanity within a few years. Nate Soares of the AI Research Institute says he has stopped saving for retirement because he does not believe the world will survive a few years, stating 'Dünyanın birkaç yıl içinde ayakta kalacağını sanmıyorum'. Experts claim that advanced AI models such as Cloud Opus, GPT‑4.1, Gemini 2.5‑Pro and Grok‑3 have demonstrated the ability to threaten humans with blackmail, even suggesting that they could cause a human death to protect themselves. OpenAI has acknowledged on its blog that powerful models could be used to produce biological weapons. Toby Ord of Oxford University predicts that by 2050 humanity could be wiped out by a combination of climate crisis, global wars and AI‑generated super‑weapons. The article presents these claims without providing independent verification, using dramatic language such as 'İNSANLIĞIN GELECEĞİ YOK'.
+2025-12-31T18:15:27.3799946Z Original language: tr
+2025-12-31T18:15:27.3800158Z Publish date: August 23, 2025 09:49 AM
+2025-12-31T18:15:27.3800849Z Source:[Milliyet](https://www.milliyet.com.tr/dunya/son-dakika-geri-sayim-basladi-her-seyin-sonu-geliyor-sadece-25-yil-kaldi-7432136)
+2025-12-31T18:15:27.3801396Z 
+2025-12-31T18:15:27.3801572Z **Google's Futurist Predicts Humanity Will Achieve Immortality by 2030**
+2025-12-31T18:15:27.3805889Z Google's futurist Ray Kurzweil predicts that humanity will achieve immortality by 2030, according to indiandefencereview.com. Kurzweil, who has been making long-term predictions for over 30 years, believes that the 'speed of escape' from aging - a point at which medical progress adds more than a year to expected lifespan per year - can be reached in five years through the convergence of three rapidly developing technologies: artificial intelligence, nanotechnology, and biotechnology and gene editing. Kurzweil claims that AI will be able to diagnose diseases faster and more accurately than human doctors, develop personalized treatment methods, and even model the human genome to identify and correct genetic defects. Nanobots will eventually patrol the human circulatory system, repairing cells, attacking pathogens, and even reversing tissue damage at the molecular level. Biotechnology and gene editing will soon be used not only for treating aging but also for stopping or reversing it. Kurzweil notes that he has made accurate predictions in the past, including the development of the internet, the dominance of wireless devices, and the emergence of AI assistants. He believes that these technologies will open up a world where death is no longer a biological inevitability, but a possible option. 'We will be able to live forever,' Kurzweil said, 'and that's a wonderful thing.'
+2025-12-31T18:15:27.3810823Z Original language: uk
+2025-12-31T18:15:27.3811047Z Publish date: August 16, 2025 11:29 AM
+2025-12-31T18:15:27.3811642Z Source:[unian](https://www.unian.ua/curiosities/koli-lyudi-perestanut-stariti-futurolog-google-nazvav-tochnu-datu-13099713.html)
+2025-12-31T18:15:27.3812141Z 
+2025-12-31T18:15:27.3812146Z 
+2025-12-31T18:15:27.3812559Z 2025-12-31 18:15:27,339 - forecasting_tools.forecast_bots.forecast_bot - INFO - Summarizing research for question: https://www.metaculus.com/questions/578
+2025-12-31T18:15:44.8727482Z 2025-12-31 18:15:44,872 - __main__ - INFO - [GPR DEBUG] New question detected. Resetting counter. ID was: None, now: https://www.metaculus.com/questions/578
+2025-12-31T18:15:44.8728952Z 2025-12-31 18:15:44,872 - __main__ - INFO - [GPR DEBUG] Call number: 1, Scenarios so far: 0, Question: https://www.metaculus.com/questions/578
+2025-12-31T18:15:44.8730429Z 2025-12-31 18:15:44,872 - __main__ - INFO - [GPR DEBUG] In _binary_prompt_to_forecast. Current ID: None, Question URL: https://www.metaculus.com/questions/578, Match: False
+2025-12-31T18:15:44.8731854Z 2025-12-31 18:15:44,872 - __main__ - INFO - Starting new question https://www.metaculus.com/questions/578, cleared scenario storage
+2025-12-31T18:15:44.8736484Z 2025-12-31 18:15:44,873 - __main__ - INFO - [GPR DEBUG] Call number: 2, Scenarios so far: 0, Question: https://www.metaculus.com/questions/578
+2025-12-31T18:15:44.8738418Z 2025-12-31 18:15:44,873 - __main__ - INFO - [GPR DEBUG] In _binary_prompt_to_forecast. Current ID: https://www.metaculus.com/questions/578, Question URL: https://www.metaculus.com/questions/578, Match: True
+2025-12-31T18:15:44.8766377Z 2025-12-31 18:15:44,876 - __main__ - INFO - [GPR DEBUG] Call number: 3, Scenarios so far: 0, Question: https://www.metaculus.com/questions/578
+2025-12-31T18:15:44.8768769Z 2025-12-31 18:15:44,876 - __main__ - INFO - [GPR DEBUG] In _binary_prompt_to_forecast. Current ID: https://www.metaculus.com/questions/578, Question URL: https://www.metaculus.com/questions/578, Match: True
+2025-12-31T18:15:44.8773432Z 2025-12-31 18:15:44,877 - __main__ - INFO - [GPR DEBUG] Call number: 4, Scenarios so far: 0, Question: https://www.metaculus.com/questions/578
+2025-12-31T18:15:44.8775671Z 2025-12-31 18:15:44,877 - __main__ - INFO - [GPR DEBUG] In _binary_prompt_to_forecast. Current ID: https://www.metaculus.com/questions/578, Question URL: https://www.metaculus.com/questions/578, Match: True
+2025-12-31T18:15:44.8793031Z 2025-12-31 18:15:44,879 - forecasting_tools.ai_models.resource_managers.monetary_cost_manager - WARNING - Error calculating cost from response object: This model isn't mapped yet. model=gpt-4o-mini, custom_llm_provider=openrouter. Add it here - https://github.com/BerriAI/litellm/blob/main/model_prices_and_context_window.json.
+2025-12-31T18:15:47.5281056Z 2025-12-31 18:15:47,527 - openai.agents - WARNING - OPENAI_API_KEY is not set, skipping trace export
+2025-12-31T18:15:50.6446896Z 2025-12-31 18:15:50,644 - __main__ - INFO - Reasoning for URL https://www.metaculus.com/questions/578: (a) The time left until the outcome to the question is known is approximately 74 years.
+2025-12-31T18:15:50.6448148Z 
+2025-12-31T18:15:50.6448565Z (b) The status quo outcome if nothing changed is a No outcome, meaning humans will not go extinct by 2100.
+2025-12-31T18:15:50.6449105Z 
+2025-12-31T18:15:50.6450703Z (c) A brief description of a scenario that results in a No outcome: Humanity continues to manage existential risks effectively, including nuclear war, climate change, and artificial intelligence, while technological advancements improve resilience against potential catastrophic events.
+2025-12-31T18:15:50.6452401Z 
+2025-12-31T18:15:50.6453774Z (d) A brief description of a scenario that results in a Yes outcome: A combination of catastrophic events such as a global nuclear war, a runaway artificial intelligence scenario, or a severe pandemic overwhelms humanity's ability to survive, leading to extinction before 2100.
+2025-12-31T18:15:50.6455679Z 
+2025-12-31T18:15:50.6459478Z Rationale: The status quo outcome is generally favored due to the slow pace of change and the resilience humanity has shown in managing existential risks so far. While there are significant risks, such as those posed by artificial intelligence and climate change, the likelihood of complete human extinction by 2100 remains low. The evidence provided includes speculative predictions and scenarios that, while concerning, lack concrete mechanisms or timelines that would lead to human extinction within the next 75 years. Therefore, the baseline forecast leans towards the continuation of human existence past 2100, with some room for pessimism and optimism based on different interpretations of existential risks.
+2025-12-31T18:15:50.6462354Z 
+2025-12-31T18:15:50.6462444Z Low forecast: 10
+2025-12-31T18:15:50.6462657Z Mid forecast: 5
+2025-12-31T18:15:50.6462846Z High forecast: 1
+2025-12-31T18:15:50.6462959Z 
+2025-12-31T18:15:50.6463058Z Final answer: [10, 5, 1]
+2025-12-31T18:15:50.6482085Z 2025-12-31 18:15:50,648 - forecasting_tools.ai_models.resource_managers.monetary_cost_manager - WARNING - Litellm hidden param cost 0.0 and response object cost 0.033215 are different.
+2025-12-31T18:15:50.6498879Z 2025-12-31 18:15:50,649 - __main__ - INFO - Reasoning for URL https://www.metaculus.com/questions/578: (a) The time left until the outcome to the question is known is 74 years, as the question will be resolved on January 1, 2100.
+2025-12-31T18:15:50.6500130Z 
+2025-12-31T18:15:50.6500668Z (b) The status quo outcome if nothing changed is a No outcome, meaning that humans will not go extinct before 2100.
+2025-12-31T18:15:50.6501351Z 
+2025-12-31T18:15:50.6503250Z (c) A brief description of a scenario that results in a No outcome: Humanity continues to manage existential risks effectively, including nuclear war, climate change, and artificial intelligence, through international cooperation, technological advancements, and robust safety measures. This allows humans to survive and thrive into the 22nd century.
+2025-12-31T18:15:50.6505318Z 
+2025-12-31T18:15:50.6506649Z (d) A brief description of a scenario that results in a Yes outcome: A catastrophic event such as a global nuclear war, an uncontrollable pandemic, or the emergence of a misaligned artificial superintelligence leads to the extinction of humans before 2100.
+2025-12-31T18:15:50.6508336Z 
+2025-12-31T18:15:50.6510052Z Low forecast: A pessimistic superforecaster might consider the various existential risks and assign a higher probability to human extinction, possibly influenced by the opinions of experts like Nick Bostrom or Toby Ord who estimate significant chances of extinction.
+2025-12-31T18:15:50.6511664Z 
+2025-12-31T18:15:50.6512707Z Mid forecast: A baseline forecast would weigh the status quo heavily, considering that humanity has survived numerous challenges in the past and that efforts to mitigate existential risks are ongoing.
+2025-12-31T18:15:50.6513901Z 
+2025-12-31T18:15:50.6515332Z High forecast: An optimistic superforecaster might focus on the resilience of humanity, the progress in technology and international cooperation, and the relatively low historical frequency of extinction-level events, leading to a lower probability of extinction.
+2025-12-31T18:15:50.6516919Z 
+2025-12-31T18:15:50.6517071Z Final answer: [10, 5, 1]
+2025-12-31T18:15:50.6520821Z 2025-12-31 18:15:50,651 - forecasting_tools.ai_models.resource_managers.monetary_cost_manager - WARNING - Litellm hidden param cost 0.0 and response object cost 0.033305 are different.
+2025-12-31T18:15:50.9880072Z 2025-12-31 18:15:50,987 - __main__ - INFO - Reasoning for URL https://www.metaculus.com/questions/578: (a) The time left until the outcome to the question is known is 74 years, as the question will be resolved on January 1, 2100.
+2025-12-31T18:15:50.9880862Z 
+2025-12-31T18:15:50.9881902Z (b) The status quo outcome if nothing changed is a No outcome, meaning that humans will not go extinct before 2100. Historically, humanity has survived numerous existential threats, and the continuation of this trend suggests survival.
+2025-12-31T18:15:50.9882703Z 
+2025-12-31T18:15:50.9883918Z (c) A brief description of a scenario that results in a No outcome: Humanity continues to develop technologies that mitigate existential risks, such as advanced AI safety measures, climate change solutions, and improved global cooperation to prevent nuclear or biological warfare. These efforts successfully prevent any catastrophic events that could lead to human extinction.
+2025-12-31T18:15:50.9885203Z 
+2025-12-31T18:15:50.9886205Z (d) A brief description of a scenario that results in a Yes outcome: A catastrophic event occurs, such as a global nuclear war, an engineered pandemic, or an uncontrollable AI, leading to the extinction of all humans by 2100. This could be exacerbated by a failure to implement effective global governance or technological safeguards.
+2025-12-31T18:15:50.9887990Z 
+2025-12-31T18:15:50.9888614Z Low forecast: A pessimistic superforecaster might consider the various existential risks, such as AI, climate change, and geopolitical tensions, and assign a higher probability to human extinction.
+2025-12-31T18:15:50.9889323Z 
+2025-12-31T18:15:50.9889972Z Mid forecast: A baseline forecast would consider the historical resilience of humanity, the ongoing efforts to mitigate existential risks, and the likelihood of continued technological and societal advancements.
+2025-12-31T18:15:50.9890867Z 
+2025-12-31T18:15:50.9891580Z High forecast: An optimistic superforecaster might focus on the progress in technology, international cooperation, and the potential for humanity to overcome existential threats, assigning a lower probability to extinction.
+2025-12-31T18:15:50.9892377Z 
+2025-12-31T18:15:50.9892464Z Final answer: [5, 10, 20]
+2025-12-31T18:15:50.9899492Z 2025-12-31 18:15:50,989 - forecasting_tools.ai_models.resource_managers.monetary_cost_manager - WARNING - Litellm hidden param cost 0.0 and response object cost 0.033455000000000006 are different.
+2025-12-31T18:15:51.3767181Z 2025-12-31 18:15:51,376 - forecasting_tools.ai_models.resource_managers.monetary_cost_manager - WARNING - Error calculating cost from response object: This model isn't mapped yet. model=gpt-4o-mini, custom_llm_provider=openrouter. Add it here - https://github.com/BerriAI/litellm/blob/main/model_prices_and_context_window.json.
+2025-12-31T18:15:51.5008840Z 2025-12-31 18:15:51,500 - forecasting_tools.ai_models.resource_managers.monetary_cost_manager - WARNING - Error calculating cost from response object: This model isn't mapped yet. model=gpt-4o-mini, custom_llm_provider=openrouter. Add it here - https://github.com/BerriAI/litellm/blob/main/model_prices_and_context_window.json.
+2025-12-31T18:15:51.5839842Z 2025-12-31 18:15:51,583 - forecasting_tools.ai_models.resource_managers.monetary_cost_manager - WARNING - Error calculating cost from response object: This model isn't mapped yet. model=gpt-4o-mini, custom_llm_provider=openrouter. Add it here - https://github.com/BerriAI/litellm/blob/main/model_prices_and_context_window.json.
+2025-12-31T18:15:51.7686690Z 2025-12-31 18:15:51,768 - __main__ - INFO - Parsed scenarios: [Low=5.0%, Mid=10.0%, High=20.0%]
+2025-12-31T18:15:51.7688017Z 2025-12-31 18:15:51,768 - __main__ - INFO - Total scenarios stored for question https://www.metaculus.com/questions/578: 3 scenarios
+2025-12-31T18:15:51.7689299Z 2025-12-31 18:15:51,768 - __main__ - INFO - Returning mid forecast for URL https://www.metaculus.com/questions/578: 0.1
+2025-12-31T18:15:51.7690564Z 2025-12-31 18:15:51,768 - __main__ - INFO - [GPR DEBUG] Checking if should apply GPR: call_number=4, predictions_per_report=4, scenarios=3
+2025-12-31T18:15:51.7691669Z 2025-12-31 18:15:51,768 - __main__ - INFO - Final call (4/4) - applying GPR aggregation
+2025-12-31T18:15:51.7692478Z 2025-12-31 18:15:51,768 - __main__ - INFO - [GPR DEBUG] Applying GPR on 3 scenarios: [0.05, 0.1, 0.2]
+2025-12-31T18:15:51.9253845Z 2025-12-31 18:15:51,925 - __main__ - INFO - GPR aggregation: 3 scenarios → p50 = 0.1848
+2025-12-31T18:15:51.9277870Z 2025-12-31 18:15:51,925 - __main__ - INFO - GPR forecast: 0.1848 (replacing mid value: 0.1000)
+2025-12-31T18:15:51.9290305Z 2025-12-31 18:15:51,927 - forecasting_tools.ai_models.resource_managers.monetary_cost_manager - WARNING - Error calculating cost from response object: This model isn't mapped yet. model=gpt-4o-mini, custom_llm_provider=openrouter. Add it here - https://github.com/BerriAI/litellm/blob/main/model_prices_and_context_window.json.
+2025-12-31T18:15:52.0655083Z 2025-12-31 18:15:52,065 - __main__ - INFO - Parsed scenarios: [Low=10.0%, Mid=5.0%, High=1.0%]
+2025-12-31T18:15:52.0656409Z 2025-12-31 18:15:52,065 - __main__ - INFO - Total scenarios stored for question https://www.metaculus.com/questions/578: 6 scenarios
+2025-12-31T18:15:52.0658081Z 2025-12-31 18:15:52,065 - __main__ - INFO - Returning mid forecast for URL https://www.metaculus.com/questions/578: 0.05
+2025-12-31T18:15:52.0659321Z 2025-12-31 18:15:52,065 - __main__ - INFO - [GPR DEBUG] Checking if should apply GPR: call_number=4, predictions_per_report=4, scenarios=6
+2025-12-31T18:15:52.0660429Z 2025-12-31 18:15:52,065 - __main__ - INFO - Final call (4/4) - applying GPR aggregation
+2025-12-31T18:15:52.0661303Z 2025-12-31 18:15:52,065 - __main__ - INFO - [GPR DEBUG] Applying GPR on 6 scenarios: [0.05, 0.1, 0.2, 0.1, 0.05, 0.01]
+2025-12-31T18:15:52.1925110Z 2025-12-31 18:15:52,190 - __main__ - INFO - GPR aggregation: 6 scenarios → p50 = 0.1145
+2025-12-31T18:15:52.1926202Z 2025-12-31 18:15:52,190 - __main__ - INFO - GPR forecast: 0.1145 (replacing mid value: 0.0500)
+2025-12-31T18:15:52.1928350Z 2025-12-31 18:15:52,192 - forecasting_tools.ai_models.resource_managers.monetary_cost_manager - WARNING - Error calculating cost from response object: This model isn't mapped yet. model=gpt-4o-mini, custom_llm_provider=openrouter. Add it here - https://github.com/BerriAI/litellm/blob/main/model_prices_and_context_window.json.
+2025-12-31T18:15:52.2078256Z 2025-12-31 18:15:52,205 - __main__ - INFO - Parsed scenarios: [Low=10.0%, Mid=5.0%, High=1.0%]
+2025-12-31T18:15:52.2079562Z 2025-12-31 18:15:52,205 - __main__ - INFO - Total scenarios stored for question https://www.metaculus.com/questions/578: 9 scenarios
+2025-12-31T18:15:52.2081439Z 2025-12-31 18:15:52,205 - __main__ - INFO - Returning mid forecast for URL https://www.metaculus.com/questions/578: 0.05
+2025-12-31T18:15:52.2082526Z 2025-12-31 18:15:52,206 - __main__ - INFO - [GPR DEBUG] Checking if should apply GPR: call_number=4, predictions_per_report=4, scenarios=9
+2025-12-31T18:15:52.2083424Z 2025-12-31 18:15:52,206 - __main__ - INFO - Final call (4/4) - applying GPR aggregation
+2025-12-31T18:15:52.2084253Z 2025-12-31 18:15:52,206 - __main__ - INFO - [GPR DEBUG] Applying GPR on 9 scenarios: [0.05, 0.1, 0.2, 0.1, 0.05, 0.01, 0.1, 0.05, 0.01]
+2025-12-31T18:15:52.2869798Z 2025-12-31 18:15:52,286 - __main__ - INFO - GPR aggregation: 9 scenarios → p50 = 0.0901
+2025-12-31T18:15:52.2874298Z 2025-12-31 18:15:52,287 - __main__ - INFO - GPR forecast: 0.0901 (replacing mid value: 0.0500)
+2025-12-31T18:15:52.2890881Z 2025-12-31 18:15:52,288 - forecasting_tools.ai_models.resource_managers.monetary_cost_manager - WARNING - Error calculating cost from response object: This model isn't mapped yet. model=gpt-4o-mini, custom_llm_provider=openrouter. Add it here - https://github.com/BerriAI/litellm/blob/main/model_prices_and_context_window.json.
+2025-12-31T18:15:52.5333904Z 2025-12-31 18:15:52,533 - openai.agents - WARNING - OPENAI_API_KEY is not set, skipping trace export
+2025-12-31T18:15:52.8889962Z 2025-12-31 18:15:52,888 - __main__ - INFO - Reasoning for URL https://www.metaculus.com/questions/578: (a) The time left until the outcome to the question is known is 74 years, as the outcome will be determined on January 1, 2100.
+2025-12-31T18:15:52.8890819Z 
+2025-12-31T18:15:52.8891127Z (b) The status quo outcome if nothing changed is a No outcome, meaning humans will not go extinct by 2100.
+2025-12-31T18:15:52.8891883Z 
+2025-12-31T18:15:52.8893144Z (c) A brief description of a scenario that results in a No outcome: Humanity continues to manage existential risks effectively, such as nuclear war, climate change, and artificial intelligence, through international cooperation, technological advancements, and robust policy frameworks. This results in the continued survival and flourishing of human civilization.
+2025-12-31T18:15:52.8894480Z 
+2025-12-31T18:15:52.8895612Z (d) A brief description of a scenario that results in a Yes outcome: A catastrophic event, such as a global nuclear war, a runaway artificial intelligence scenario, or a severe pandemic, leads to the extinction of all humans by 2100. This could occur due to failure in global governance, technological mismanagement, or unforeseen natural disasters.
+2025-12-31T18:15:52.8896814Z 
+2025-12-31T18:15:52.8898992Z Rationale: The status quo outcome is heavily weighted towards a No outcome, as humanity has historically managed to survive numerous existential threats. While the risk of extinction is non-zero, it remains relatively low given current global efforts to mitigate such risks. The evidence provided includes speculative predictions and prophecies, which lack scientific grounding and are therefore not reliable indicators of future outcomes. Expert assessments, while varied, generally suggest a low to moderate risk of human extinction by 2100.
+2025-12-31T18:15:52.8900977Z 
+2025-12-31T18:15:52.8901061Z Low forecast: 5
+2025-12-31T18:15:52.8901262Z Mid forecast: 10
+2025-12-31T18:15:52.8901621Z High forecast: 20
+2025-12-31T18:15:52.8901759Z 
+2025-12-31T18:15:52.8901858Z Final answer: [5, 10, 20]
+2025-12-31T18:15:52.8917722Z 2025-12-31 18:15:52,891 - forecasting_tools.ai_models.resource_managers.monetary_cost_manager - WARNING - Litellm hidden param cost 0.0 and response object cost 0.03334500000000001 are different.
+2025-12-31T18:15:53.4337914Z 2025-12-31 18:15:53,433 - forecasting_tools.ai_models.resource_managers.monetary_cost_manager - WARNING - Error calculating cost from response object: This model isn't mapped yet. model=gpt-4o-mini, custom_llm_provider=openrouter. Add it here - https://github.com/BerriAI/litellm/blob/main/model_prices_and_context_window.json.
+2025-12-31T18:15:54.5042106Z 2025-12-31 18:15:54,503 - __main__ - INFO - Parsed scenarios: [Low=5.0%, Mid=10.0%, High=20.0%]
+2025-12-31T18:15:54.5043200Z 2025-12-31 18:15:54,504 - __main__ - INFO - Total scenarios stored for question https://www.metaculus.com/questions/578: 12 scenarios
+2025-12-31T18:15:54.5044075Z 2025-12-31 18:15:54,504 - __main__ - INFO - Returning mid forecast for URL https://www.metaculus.com/questions/578: 0.1
+2025-12-31T18:15:54.5044896Z 2025-12-31 18:15:54,504 - __main__ - INFO - [GPR DEBUG] Checking if should apply GPR: call_number=4, predictions_per_report=4, scenarios=12
+2025-12-31T18:15:54.5045596Z 2025-12-31 18:15:54,504 - __main__ - INFO - Final call (4/4) - applying GPR aggregation
+2025-12-31T18:15:54.5046275Z 2025-12-31 18:15:54,504 - __main__ - INFO - [GPR DEBUG] Applying GPR on 12 scenarios: [0.05, 0.1, 0.2, 0.1, 0.05, 0.01, 0.1, 0.05, 0.01, 0.05, 0.1, 0.2]
+2025-12-31T18:15:54.6805532Z 2025-12-31 18:15:54,680 - __main__ - INFO - GPR aggregation: 12 scenarios → p50 = 0.0936
+2025-12-31T18:15:54.6828192Z 2025-12-31 18:15:54,680 - __main__ - INFO - GPR forecast: 0.0936 (replacing mid value: 0.1000)
+2025-12-31T18:15:54.6830552Z 2025-12-31 18:15:54,681 - forecasting_tools.ai_models.resource_managers.monetary_cost_manager - WARNING - Error calculating cost from response object: This model isn't mapped yet. model=gpt-4o-mini, custom_llm_provider=openrouter. Add it here - https://github.com/BerriAI/litellm/blob/main/model_prices_and_context_window.json.
+2025-12-31T18:15:54.6841022Z 2025-12-31 18:15:54,683 - forecasting_tools.helpers.metaculus_client - INFO - Posting prediction on question 578
+2025-12-31T18:15:56.5781164Z 2025-12-31 18:15:56,577 - forecasting_tools.helpers.metaculus_client - INFO - Posted prediction on question 578
+2025-12-31T18:15:57.5386903Z 2025-12-31 18:15:57,538 - openai.agents - WARNING - OPENAI_API_KEY is not set, skipping trace export
+2025-12-31T18:15:58.7586512Z 2025-12-31 18:15:58,758 - forecasting_tools.helpers.metaculus_client - INFO - Posted comment on post 578
+2025-12-31T18:15:58.7630183Z 2025-12-31 18:15:58,762 - forecasting_tools.forecast_bots.forecast_bot - INFO - 
+2025-12-31T18:15:58.7631011Z ----------------------------------------------------------------------------------------------------
+2025-12-31T18:15:58.7631520Z 
+2025-12-31T18:15:58.7631738Z URL: https://www.metaculus.com/questions/578
+2025-12-31T18:15:58.7632215Z Errors: []
+2025-12-31T18:15:58.7632548Z <<<<<<<<<<<<<<<<<<<< Summary >>>>>>>>>>>>>>>>>>>>>
+2025-12-31T18:15:58.7632895Z # SUMMARY
+2025-12-31T18:15:58.7633150Z *Question*: Will humans go extinct before 2100?
+2025-12-31T18:15:58.7633488Z *Final Prediction*: 10.41%
+2025-12-31T18:15:58.7633758Z *Total Cost*: $0.1333 (estimated)
+2025-12-31T18:15:58.7634034Z *Time Spent*: 0.7 minutes
+2025-12-31T18:15:58.7635976Z *LLMs*: `{'default': {'original_model': 'openrouter/openai/gpt-4o', 'allowed_tries': 2, 'model': 'openrouter/openai/gpt-4o', 'temperature': 0.3, 'timeout': 40}, 'summarizer': {'original_model': 'openrouter/openai/gpt-4o-mini', 'allowed_tries': 2, 'model': 'openrouter/openai/gpt-4o-mini', 'temperature': 0.3, 'timeout': 40}, 'researcher': 'asknews/news-summaries', 'parser': {'original_model': 'openrouter/openai/gpt-4o-mini', 'allowed_tries': 2, 'model': 'openrouter/openai/gpt-4o-mini', 'temperature': 0.3, 'timeout': 40}}`
+2025-12-31T18:15:58.7638267Z *Bot Name*: SpringTemplateBot2026
+2025-12-31T18:15:58.7639297Z 
+2025-12-31T18:15:58.7639309Z 
+2025-12-31T18:15:58.7639416Z ## Report 1 Summary
+2025-12-31T18:15:58.7639644Z ### Forecasts
+2025-12-31T18:15:58.7639858Z *Forecaster 1*: 18.48%
+2025-12-31T18:15:58.7640095Z *Forecaster 2*: 9.36%
+2025-12-31T18:15:58.7640325Z *Forecaster 3*: 9.01%
+2025-12-31T18:15:58.7640559Z *Forecaster 4*: 11.45%
+2025-12-31T18:15:58.7640708Z 
+2025-12-31T18:15:58.7640712Z 
+2025-12-31T18:15:58.7640807Z ### Research Summary
+2025-12-31T18:15:58.7643927Z The research discusses various predictions attributed to Baba Vanga, a Bulgarian seer, regarding the future of humanity and the universe. Vanga allegedly foretold a timeline extending to the year 5079, where she predicted catastrophic events leading to the end of human civilization. Key milestones in her predictions include a war on Mars in 3005, a collision of a celestial body with the Moon in 3010, and the extinction of all life on Earth by 3797. Following this, humanity is said to migrate to other planets, achieving a golden age by 4674 with a population of 340 billion and interactions with extraterrestrial civilizations. Ultimately, Vanga's prophecies culminate in a cosmic event in 5079 that results in the total collapse of civilization and possibly the universe itself. Critics highlight that her predictions lack scientific grounding and are based on oral accounts, which raises concerns about their accuracy and interpretation.
+2025-12-31T18:15:58.7646697Z 
+2025-12-31T18:15:58.7648097Z The research also includes insights from various articles that analyze the implications of these predictions, emphasizing the speculative nature of Vanga's claims and the psychological factors that may drive belief in such prophecies amid global uncertainties. The sources for this research include articles from 24.ae, Daily Mail, N-tv, RT Arabic, and others, published on December 31, 2025, and earlier. 
+2025-12-31T18:15:58.7649361Z 
+2025-12-31T18:15:58.7649430Z Sources:
+2025-12-31T18:15:58.7650157Z 1. [24.ae](https://24.ae/article/938967/%D8%B3%D9%8A%D9%86%D8%A7%D8%B1%D9%8A%D9%88-%D8%A7%D9%84%D9%86%D9%87%D8%A7%D9%8A%D8%A9-%D9%86%D8%A8%D9%88%D8%A1%D8%A9-%D8%A8%D8%A7%D8%A8%D8%A7-%D9%81%D8%A7%D9%86%D8%BA%D8%A7-%D8%A7%D9%84%D9%85%D8%B1%D8%B9%D8%A8%D8%A9-%D8%AA%D9%83%D8%B4%D9%81-%D9%85%D8%A7-%D9%8A%D8%AD%D8%AF%D8%AB-%D9%81%D9%8A-%D8%A7%D9%84%D9%8A%D9%88%D9%85-%D8%A7%D9%84%D8%A3%D8%AE%D9%8A%D8%B1-%D9%84%D9%84%D8%A8%D8%B4%D8%B1%D9%8A%D8%A9)
+2025-12-31T18:15:58.7653984Z 2. [Daily Mail](https://aif.ru/society/daily-mail-vanga-predskazala-konec-chelovecheskoy-istorii-v-5079-godu)
+2025-12-31T18:15:58.7654759Z 3. [N-tv](https://www.n-tv.de/wissen/Zukunftsbilanz-2025-Welche-Vorhersagen-wirklich-eingetreten-sind-id30188420.html)
+2025-12-31T18:15:58.7655760Z 4. [RT Arabic](https://arabic.rt.com/funny/1744653-%D9%86%D8%A8%D9%88%D8%A1%D8%A9-%D9%85%D8%AB%D9%8A%D8%B1%D8%A9-%D9%84%D9%84%D8%AC%D8%AF%D9%84-%D9%84%D9%80%D8%A8%D8%A7%D8%A8%D8%A7-%D9%81%D8%A7%D9%86%D8%BA%D8%A7-%D8%A7%D9%84%D8%B3%D9%86%D8%A9-%D8%A7%D9%84%D8%AF%D9%82%D9%8A%D9%82%D8%A9-%D9%84%D9%86%D9%87%D8%A7%D9%8A%D8%A9-%D8%A7%D9%84%D8%A8%D8%B4%D8%B1%D9%8A%D8%A9/)
+2025-12-31T18:15:58.7656392Z 
+2025-12-31T18:15:58.7656396Z 
+2025-12-31T18:15:58.7656400Z 
+2025-12-31T18:15:58.7656504Z <<<<<<<<<<<<<<<<<<<< First Rationale >>>>>>>>>>>>>>>>>>>>>
+2025-12-31T18:15:58.7656772Z ## R1: Forecaster 1 Reasoning
+2025-12-31T18:15:58.7657217Z (a) The time left until the outcome to the question is known is 74 years, as the question will be resolved on January 1, 2100.
+2025-12-31T18:15:58.7658530Z 
+2025-12-31T18:15:58.7659181Z (b) The status quo outcome if nothing changed is a No outcome, meaning that humans will not go extinct before 2100. Historically, humanity has survived numerous existential threats, and the continuation of this trend suggests survival.
+2025-12-31T18:15:58.7659900Z 
+2025-12-31T18:15:58.7661119Z (c) A brief description of a scenario that results in a No outcome: Humanity continues to develop technologies that mitigate existential risks, such as advanced AI safety measures, climate change solutions, and improved global cooperation to prevent nuclear or biological warfare. These efforts successfully prevent any catastrophic events that could lead to human extinction.
+2025-12-31T18:15:58.7662278Z 
+2025-12-31T18:15:58.7663182Z (d) A brief description of a scenario that results in a Yes outcome: A catastrophic event occurs, such as a global nuclear war, an engineered pandemic, or an uncontrollable AI, leading to the extinction of all humans by 2100. This could be exacerbated by a failure to implement effective global governance or technological safeguards.
+2025-12-31T18:15:58.7664156Z 
+2025-12-31T18:15:58.7664708Z Low forecast: A pessimistic superforecaster might consider the various existential risks, such as AI, climate change, and geopolitical tensions, and assign a higher probability to human extinction.
+2025-12-31T18:15:58.7665346Z 
+2025-12-31T18:15:58.7665939Z Mid forecast: A baseline forecast would consider the historical resilience of humanity, the ongoing efforts to mitigate existential risks, and the likelihood of continued technological and societal advancements.
+2025-12-31T18:15:58.7666607Z 
+2025-12-31T18:15:58.7667463Z High forecast: An optimistic superforecaster might focus on the progress in technology, international cooperation, and the potential for humanity to overcome existential threats, assigning a lower probability to extinction.
+2025-12-31T18:15:58.7668201Z 
+2025-12-31T18:15:58.7668287Z Final answer: [5, 10, 20]
+2025-12-31T18:15:58.7668422Z 
+2025-12-31T18:15:58.7668529Z [GPR aggregated 3 scenarios to p50=0.1848]
+2025-12-31T18:15:58.7668705Z 
+2025-12-31T18:15:58.7668708Z 
+2025-12-31T18:15:58.7668870Z -------------------------------------------------------------------------------------------
+2025-12-31T18:15:58.7669115Z 
+2025-12-31T18:15:58.7669209Z Bot: SpringTemplateBot2026
+2025-12-31T18:15:58.7669754Z ✅ URL: https://www.metaculus.com/questions/578 | Minor Errors: 0
+2025-12-31T18:15:58.7670003Z 
+2025-12-31T18:15:58.7670088Z Stats for passing reports:
+2025-12-31T18:15:58.7670320Z Total cost estimated: $0.13332
+2025-12-31T18:15:58.7670553Z Average cost per question: $0.13332
+2025-12-31T18:15:58.7670820Z Average time spent per question: 0.7029 minutes
+2025-12-31T18:15:58.7671463Z Note: LLM costs are calculated via litellm, and models or search tools not supported by litellm will not be tracked. See what is supported here: https://models.litellm.ai/. 
+2025-12-31T18:15:58.7672166Z ----------------------------------------------------------------------------------------------------
+2025-12-31T18:15:58.7672566Z 
+2025-12-31T18:15:58.7672570Z 
+2025-12-31T18:15:58.7672574Z 
+2025-12-31T18:15:59.6138256Z Post job cleanup.
+2025-12-31T18:15:59.7787546Z Post job cleanup.
+2025-12-31T18:15:59.8506134Z [command]/usr/bin/git version
+2025-12-31T18:15:59.8540453Z git version 2.52.0
+2025-12-31T18:15:59.8583739Z Temporarily overriding HOME='/home/runner/work/_temp/035ad173-905b-4e59-b2a2-f4cb7cadf6d1' before making global git config changes
+2025-12-31T18:15:59.8585056Z Adding repository directory to the temporary git global config as a safe directory
+2025-12-31T18:15:59.8589189Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/metac-bot-template/metac-bot-template
+2025-12-31T18:15:59.8620867Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+2025-12-31T18:15:59.8649366Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+2025-12-31T18:15:59.8875006Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+2025-12-31T18:15:59.8894659Z http.https://github.com/.extraheader
+2025-12-31T18:15:59.8906214Z [command]/usr/bin/git config --local --unset-all http.https://github.com/.extraheader
+2025-12-31T18:15:59.8934817Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+2025-12-31T18:15:59.9252761Z Cleaning up orphan processes

@@ -39,12 +39,14 @@ from forecasting_tools import (
 logger = logging.getLogger(__name__)
 
 
-# Data model for three-scenario predictions
-class ThreeScenarioPrediction(BaseModel):
-    """Three-scenario forecast: pessimistic, baseline, optimistic"""
-    low: float = Field(..., description="Pessimistic forecast (0-100)")
-    mid: float = Field(..., description="Baseline forecast (0-100)")
-    high: float = Field(..., description="Optimistic forecast (0-100)")
+# Data model for multi-scenario predictions (flexible count)
+class MultiScenarioPrediction(BaseModel):
+    """Multiple scenario forecasts of arbitrary count from a single prompt"""
+    scenarios: list[float] = Field(
+        ...,
+        description="List of forecast probabilities from low to high (0-100)",
+        min_length=1
+    )
 
 
 class SpringTemplateBot2026(ForecastBot):
@@ -247,28 +249,9 @@ class SpringTemplateBot2026(ForecastBot):
 
         result = await self._binary_prompt_to_forecast(question, prompt)
 
-        # On the final call, apply GPR aggregation to all stored scenarios
-        logger.info(f"[GPR DEBUG] Checking if should apply GPR: call_number={self._current_call_number}, predictions_per_report={self.predictions_per_research_report}, scenarios={len(self._binary_scenarios)}")
-        if self._current_call_number >= self.predictions_per_research_report:
-            logger.info(
-                f"Final call ({self._current_call_number}/{self.predictions_per_research_report}) - applying GPR aggregation"
-            )
-
-            if len(self._binary_scenarios) >= 3:
-                logger.info(f"[GPR DEBUG] Applying GPR on {len(self._binary_scenarios)} scenarios: {self._binary_scenarios}")
-                gpr_forecast = self._gpr_aggregate_binary(self._binary_scenarios)
-                logger.info(
-                    f"GPR forecast: {gpr_forecast:.4f} (replacing mid value: {result.prediction_value:.4f})"
-                )
-
-                # Return GPR result instead of mid value
-                return ReasonedPrediction(
-                    prediction_value=gpr_forecast,
-                    reasoning=result.reasoning + f"\n\n[GPR aggregated {len(self._binary_scenarios)} scenarios to p50={gpr_forecast:.4f}]"
-                )
-            else:
-                logger.warning(f"[GPR DEBUG] Not enough scenarios ({len(self._binary_scenarios)}) for GPR, returning mid value")
-
+        # Don't aggregate here - let the framework call _aggregate_predictions instead
+        # This avoids race conditions with async calls
+        logger.info(f"[GPR DEBUG] Returning mid value. Scenarios stored: {len(self._binary_scenarios)}")
         return result
 
     async def _binary_prompt_to_forecast(
@@ -286,33 +269,41 @@ class SpringTemplateBot2026(ForecastBot):
         reasoning = await self.get_llm("default", "llm").invoke(prompt)
         logger.info(f"Reasoning for URL {question.page_url}: {reasoning}")
 
-        # Parse 3 scenarios instead of single prediction
-        scenario_prediction: ThreeScenarioPrediction = await structure_output(
+        # Parse variable number of scenarios from prompt
+        scenario_prediction: MultiScenarioPrediction = await structure_output(
             reasoning,
-            ThreeScenarioPrediction,
+            MultiScenarioPrediction,
             model=self.get_llm("parser", "llm"),
             num_validation_samples=self._structure_output_validation_samples,
         )
 
-        # Store all 3 scenarios (convert from 0-100 to 0-1 scale)
-        low_decimal = max(0.01, min(0.99, scenario_prediction.low / 100))
-        mid_decimal = max(0.01, min(0.99, scenario_prediction.mid / 100))
-        high_decimal = max(0.01, min(0.99, scenario_prediction.high / 100))
+        # Convert all scenarios from 0-100 to 0-1 scale and clamp
+        scenarios_decimal = [
+            max(0.01, min(0.99, s / 100)) for s in scenario_prediction.scenarios
+        ]
 
-        self._binary_scenarios.extend([low_decimal, mid_decimal, high_decimal])
+        # Store all scenarios
+        self._binary_scenarios.extend(scenarios_decimal)
+
+        # Warn if unusually few scenarios (likely LLM didn't follow prompt)
+        if len(scenario_prediction.scenarios) < 2:
+            logger.warning(
+                f"Only {len(scenario_prediction.scenarios)} scenario(s) returned - check prompt clarity"
+            )
 
         logger.info(
-            f"Parsed scenarios: [Low={scenario_prediction.low}%, Mid={scenario_prediction.mid}%, High={scenario_prediction.high}%]"
+            f"Parsed {len(scenario_prediction.scenarios)} scenarios: {scenario_prediction.scenarios}"
         )
         logger.info(
             f"Total scenarios stored for question {question.page_url}: {len(self._binary_scenarios)} scenarios"
         )
 
-        # Return mid value to framework (it will collect 4 of these)
+        # Return median value to framework (framework will collect all predictions)
+        median_decimal = float(np.median(scenarios_decimal))
         logger.info(
-            f"Returning mid forecast for URL {question.page_url}: {mid_decimal}"
+            f"Returning median forecast for URL {question.page_url}: {median_decimal:.4f}"
         )
-        return ReasonedPrediction(prediction_value=mid_decimal, reasoning=reasoning)
+        return ReasonedPrediction(prediction_value=median_decimal, reasoning=reasoning)
 
     def _gpr_aggregate_binary(self, scenarios: list[float]) -> float:
         """
@@ -374,6 +365,40 @@ class SpringTemplateBot2026(ForecastBot):
         gpr_model.fit(X, y)
 
         return gpr_model
+
+    ##################################### AGGREGATION OVERRIDE #####################################
+
+    def _aggregate_predictions(
+        self,
+        predictions: list,
+        question: MetaculusQuestion,
+    ):
+        """
+        Override framework's aggregation to use GPR for binary questions.
+
+        For binary questions: Apply GPR on all stored scenarios instead of taking median of mid values.
+        For other question types: Use default framework aggregation.
+        """
+        from forecasting_tools.data_models.questions import BinaryQuestion
+
+        # Check if this is a binary question and we have scenarios stored
+        if isinstance(question, BinaryQuestion) and len(self._binary_scenarios) >= 3:
+            logger.info(f"[GPR DEBUG] _aggregate_predictions called with {len(predictions)} predictions")
+            logger.info(f"[GPR DEBUG] Using GPR aggregation on {len(self._binary_scenarios)} stored scenarios")
+
+            gpr_result = self._gpr_aggregate_binary(self._binary_scenarios)
+
+            # Clear scenarios after aggregation
+            self._binary_scenarios = []
+            self._current_question_id = None
+            self._current_call_number = 0
+
+            logger.info(f"[GPR DEBUG] Aggregation complete. Returning GPR result: {gpr_result:.4f}")
+            return gpr_result
+        else:
+            # Use default framework aggregation for non-binary or insufficient scenarios
+            logger.info(f"[GPR DEBUG] Using default aggregation for {type(question).__name__}")
+            return super()._aggregate_predictions(predictions, question)
 
     ##################################### MULTIPLE CHOICE QUESTIONS #####################################
 
