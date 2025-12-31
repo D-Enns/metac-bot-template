@@ -4,12 +4,6 @@ import logging
 from datetime import datetime, timezone
 from typing import Literal
 
-# GPR aggregation imports
-import numpy as np
-from sklearn.gaussian_process import GaussianProcessRegressor
-from sklearn.gaussian_process.kernels import RBF, WhiteKernel, ConstantKernel as C
-from pydantic import BaseModel, Field
-
 
 from forecasting_tools import (
     AskNewsSearcher,
@@ -37,14 +31,6 @@ from forecasting_tools import (
 )
 
 logger = logging.getLogger(__name__)
-
-
-# Data model for three-scenario predictions
-class ThreeScenarioPrediction(BaseModel):
-    """Three-scenario forecast: pessimistic, baseline, optimistic"""
-    low: float = Field(..., description="Pessimistic forecast (0-100)")
-    mid: float = Field(..., description="Baseline forecast (0-100)")
-    high: float = Field(..., description="Optimistic forecast (0-100)")
 
 
 class SpringTemplateBot2026(ForecastBot):
@@ -131,13 +117,6 @@ class SpringTemplateBot2026(ForecastBot):
     _concurrency_limiter = asyncio.Semaphore(_max_concurrent_questions)
     _structure_output_validation_samples = 2
 
-    def __init__(self, *args, **kwargs):
-        """Initialize bot with storage for multi-scenario predictions"""
-        super().__init__(*args, **kwargs)
-        self._binary_scenarios = []  # Storage for low/mid/high scenarios
-        self._current_question_id = None  # Track question to know when to clear storage
-        self._current_call_number = 0  # Track which LLM call we're on for current question
-
     ##################################### RESEARCH #####################################
 
     async def run_research(self, question: MetaculusQuestion) -> str:
@@ -195,11 +174,6 @@ class SpringTemplateBot2026(ForecastBot):
     async def _run_forecast_on_binary(
         self, question: BinaryQuestion, research: str
     ) -> ReasonedPrediction[float]:
-        # Track which call number this is for the current question
-        if self._current_question_id != question.id:
-            self._current_call_number = 0
-        self._current_call_number = getattr(self, '_current_call_number', 0) + 1
-
         prompt = clean_indents(
             f"""
             You are a professional forecaster interviewing for a job.
@@ -231,7 +205,7 @@ class SpringTemplateBot2026(ForecastBot):
             You write your rationale remembering that good forecasters put extra weight on the status quo outcome since the world changes slowly most of the time.
             {self._get_conditional_disclaimer_if_necessary(question)}
 
-            Now you step back to consider the evidence provided. You know that different superforecasters come up with different answers from the same evidence.
+            Now you step back to consider the evidence provided. You know that different superforecasters come up with different answers from the same evidence. 
             You make 3 independent forecasts of probability:
             - Low forecast: your forecast of what a typical pessimistic superforecaster might forecast.
             - Mid forecast: your baseline forecast.
@@ -241,130 +215,27 @@ class SpringTemplateBot2026(ForecastBot):
             """
         )
 
-        result = await self._binary_prompt_to_forecast(question, prompt)
-
-        # On the final call, apply GPR aggregation to all stored scenarios
-        if self._current_call_number >= self.predictions_per_research_report:
-            logger.info(
-                f"Final call ({self._current_call_number}/{self.predictions_per_research_report}) - applying GPR aggregation"
-            )
-
-            if len(self._binary_scenarios) >= 3:
-                gpr_forecast = self._gpr_aggregate_binary(self._binary_scenarios)
-                logger.info(
-                    f"GPR forecast: {gpr_forecast:.4f} (replacing mid value: {result.prediction_value:.4f})"
-                )
-
-                # Return GPR result instead of mid value
-                return ReasonedPrediction(
-                    prediction_value=gpr_forecast,
-                    reasoning=result.reasoning + f"\n\n[GPR aggregated {len(self._binary_scenarios)} scenarios to p50={gpr_forecast:.4f}]"
-                )
-
-        return result
+        return await self._binary_prompt_to_forecast(question, prompt)
 
     async def _binary_prompt_to_forecast(
         self,
         question: BinaryQuestion,
         prompt: str,
     ) -> ReasonedPrediction[float]:
-        # Clear storage if this is a new question
-        if self._current_question_id != question.id:
-            self._binary_scenarios = []
-            self._current_question_id = question.id
-            logger.info(f"Starting new question {question.id}, cleared scenario storage")
-
         reasoning = await self.get_llm("default", "llm").invoke(prompt)
         logger.info(f"Reasoning for URL {question.page_url}: {reasoning}")
-
-        # Parse 3 scenarios instead of single prediction
-        scenario_prediction: ThreeScenarioPrediction = await structure_output(
+        binary_prediction: BinaryPrediction = await structure_output(
             reasoning,
-            ThreeScenarioPrediction,
+            BinaryPrediction,
             model=self.get_llm("parser", "llm"),
             num_validation_samples=self._structure_output_validation_samples,
         )
-
-        # Store all 3 scenarios (convert from 0-100 to 0-1 scale)
-        low_decimal = max(0.01, min(0.99, scenario_prediction.low / 100))
-        mid_decimal = max(0.01, min(0.99, scenario_prediction.mid / 100))
-        high_decimal = max(0.01, min(0.99, scenario_prediction.high / 100))
-
-        self._binary_scenarios.extend([low_decimal, mid_decimal, high_decimal])
+        decimal_pred = max(0.01, min(0.99, binary_prediction.prediction_in_decimal))
 
         logger.info(
-            f"Parsed scenarios: [Low={scenario_prediction.low}%, Mid={scenario_prediction.mid}%, High={scenario_prediction.high}%]"
+            f"Forecasted URL {question.page_url} with prediction: {decimal_pred}."
         )
-        logger.info(
-            f"Total scenarios stored for question {question.id}: {len(self._binary_scenarios)} scenarios"
-        )
-
-        # Return mid value to framework (it will collect 4 of these)
-        logger.info(
-            f"Returning mid forecast for URL {question.page_url}: {mid_decimal}"
-        )
-        return ReasonedPrediction(prediction_value=mid_decimal, reasoning=reasoning)
-
-    def _gpr_aggregate_binary(self, scenarios: list[float]) -> float:
-        """
-        Aggregate multiple scenario forecasts using Gaussian Process Regression.
-
-        Args:
-            scenarios: List of forecast values in decimal (0-1 scale)
-
-        Returns:
-            Smoothed p50 forecast value (0-1 scale)
-        """
-        if len(scenarios) < 3:
-            logger.warning(f"Too few scenarios ({len(scenarios)}), using median fallback")
-            return float(np.median(scenarios))
-
-        # Convert to percentage scale for GPR (0-100)
-        scenarios_pct = [s * 100 for s in scenarios]
-
-        # Sort scenarios
-        sorted_data = sorted(scenarios_pct)
-
-        # Create empirical CDF percentiles
-        percentiles = self._make_percentiles(sorted_data)
-
-        # Fit GPR model
-        gpr_model = self._make_gpr_model(sorted_data, percentiles)
-
-        # Extract p50 from the smooth curve
-        p50_pct = gpr_model.predict(np.array([[50]]))[0]
-
-        # Convert back to decimal and clamp
-        p50_decimal = max(0.01, min(0.99, p50_pct / 100))
-
-        logger.info(f"GPR aggregation: {len(scenarios)} scenarios → p50 = {p50_decimal:.4f}")
-
-        return float(p50_decimal)
-
-    def _make_percentiles(self, sorted_data: list[float]) -> list[float]:
-        """Create empirical CDF percentiles for sorted data"""
-        percentiles = [100 * i / (1 + len(sorted_data)) for i in range(len(sorted_data))]
-        return percentiles
-
-    def _make_gpr_model(self, sorted_data: list[float], percentiles: list[float]):
-        """
-        Fit Gaussian Process Regression model to smooth through blocky forecast data.
-
-        Uses inverted CDF approach: percentile (X) → forecast value (y)
-        This allows direct querying of "what's the forecast at p50?"
-        """
-        X = np.array(percentiles).reshape(-1, 1)
-        y = np.array(sorted_data)
-
-        # Define kernel: smooth RBF + white noise for blockiness
-        smooth_kernel = C(1.0, (1e-3, 1e5)) * RBF(20.0, (1e-2, 1e2))
-        kernel = smooth_kernel + WhiteKernel(noise_level=1.0, noise_level_bounds=(1e-5, 1e2))
-
-        # Fit model with multiple restarts for better optimization
-        gpr_model = GaussianProcessRegressor(kernel=kernel, n_restarts_optimizer=10)
-        gpr_model.fit(X, y)
-
-        return gpr_model
+        return ReasonedPrediction(prediction_value=decimal_pred, reasoning=reasoning)
 
     ##################################### MULTIPLE CHOICE QUESTIONS #####################################
 
@@ -846,9 +717,9 @@ if __name__ == "__main__":
         # Example questions are a good way to test the bot's performance on a single question
         EXAMPLE_QUESTIONS = [
             "https://www.metaculus.com/questions/578/human-extinction-by-2100/",  # Human Extinction - Binary
-            # "https://www.metaculus.com/questions/14333/age-of-oldest-human-as-of-2100/",  # Age of Oldest Human - Numeric
-            # "https://www.metaculus.com/questions/22427/number-of-new-leading-ai-labs/",  # Number of New Leading AI Labs - Multiple Choice
-            # "https://www.metaculus.com/c/diffusion-community/38880/how-many-us-labor-strikes-due-to-ai-in-2029/",  # Number of US Labor Strikes Due to AI in 2029 - Discrete
+            "https://www.metaculus.com/questions/14333/age-of-oldest-human-as-of-2100/",  # Age of Oldest Human - Numeric
+            "https://www.metaculus.com/questions/22427/number-of-new-leading-ai-labs/",  # Number of New Leading AI Labs - Multiple Choice
+            "https://www.metaculus.com/c/diffusion-community/38880/how-many-us-labor-strikes-due-to-ai-in-2029/",  # Number of US Labor Strikes Due to AI in 2029 - Discrete
         ]
         template_bot.skip_previously_forecasted_questions = False
         questions = [
