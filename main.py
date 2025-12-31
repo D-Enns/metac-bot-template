@@ -198,7 +198,9 @@ class SpringTemplateBot2026(ForecastBot):
         # Track which call number this is for the current question
         if self._current_question_id != question.page_url:
             self._current_call_number = 0
+            logger.info(f"[GPR DEBUG] New question detected. Resetting counter. ID was: {self._current_question_id}, now: {question.page_url}")
         self._current_call_number = getattr(self, '_current_call_number', 0) + 1
+        logger.info(f"[GPR DEBUG] Call number: {self._current_call_number}, Scenarios so far: {len(self._binary_scenarios)}, Question: {question.page_url}")
 
         prompt = clean_indents(
             f"""
@@ -237,19 +239,23 @@ class SpringTemplateBot2026(ForecastBot):
             - Mid forecast: your baseline forecast.
             - High forecast: your forecast of what a typical optimistic superforecaster might forecast.
 
-            The last thing you write is your final answer in 3 probabilities [Low%, Mid%, High%]. Example: [40, 50, 65]
+            The last thing you write is your final answer as 3 numbers in this exact format: [Low, Mid, High]
+            Example: [40, 50, 65]
+            IMPORTANT: Write only the numbers without percent signs inside the brackets.
             """
         )
 
         result = await self._binary_prompt_to_forecast(question, prompt)
 
         # On the final call, apply GPR aggregation to all stored scenarios
+        logger.info(f"[GPR DEBUG] Checking if should apply GPR: call_number={self._current_call_number}, predictions_per_report={self.predictions_per_research_report}, scenarios={len(self._binary_scenarios)}")
         if self._current_call_number >= self.predictions_per_research_report:
             logger.info(
                 f"Final call ({self._current_call_number}/{self.predictions_per_research_report}) - applying GPR aggregation"
             )
 
             if len(self._binary_scenarios) >= 3:
+                logger.info(f"[GPR DEBUG] Applying GPR on {len(self._binary_scenarios)} scenarios: {self._binary_scenarios}")
                 gpr_forecast = self._gpr_aggregate_binary(self._binary_scenarios)
                 logger.info(
                     f"GPR forecast: {gpr_forecast:.4f} (replacing mid value: {result.prediction_value:.4f})"
@@ -260,6 +266,8 @@ class SpringTemplateBot2026(ForecastBot):
                     prediction_value=gpr_forecast,
                     reasoning=result.reasoning + f"\n\n[GPR aggregated {len(self._binary_scenarios)} scenarios to p50={gpr_forecast:.4f}]"
                 )
+            else:
+                logger.warning(f"[GPR DEBUG] Not enough scenarios ({len(self._binary_scenarios)}) for GPR, returning mid value")
 
         return result
 
@@ -269,6 +277,7 @@ class SpringTemplateBot2026(ForecastBot):
         prompt: str,
     ) -> ReasonedPrediction[float]:
         # Clear storage if this is a new question
+        logger.info(f"[GPR DEBUG] In _binary_prompt_to_forecast. Current ID: {self._current_question_id}, Question URL: {question.page_url}, Match: {self._current_question_id == question.page_url}")
         if self._current_question_id != question.page_url:
             self._binary_scenarios = []
             self._current_question_id = question.page_url

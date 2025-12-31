@@ -1,0 +1,5 @@
+# Overview
+1) Bot ran successfully but with technical problems
+2) Performed GSR aggregation at the wrong place, running GSR once per run on the three values from each run
+3) The final reported aggregation was the median of the 4 GSR results, it should have been GSR of all 12 results.
+4) In one of the 4 bot runs, the 3 values returned were [10%, 5%, 1%] which should have been reported as [10, 5, 1].
