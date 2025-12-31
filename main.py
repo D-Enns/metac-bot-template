@@ -368,7 +368,7 @@ class SpringTemplateBot2026(ForecastBot):
 
     ##################################### AGGREGATION OVERRIDE #####################################
 
-    def _aggregate_predictions(
+    async def _aggregate_predictions(
         self,
         predictions: list,
         question: MetaculusQuestion,
@@ -398,7 +398,7 @@ class SpringTemplateBot2026(ForecastBot):
         else:
             # Use default framework aggregation for non-binary or insufficient scenarios
             logger.info(f"[GPR DEBUG] Using default aggregation for {type(question).__name__}")
-            return super()._aggregate_predictions(predictions, question)
+            return await super()._aggregate_predictions(predictions, question)
 
     ##################################### MULTIPLE CHOICE QUESTIONS #####################################
 
