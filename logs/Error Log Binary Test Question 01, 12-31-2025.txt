@@ -1,0 +1,80 @@
+   
+  |   File "/home/runner/work/metac-bot-template/metac-bot-template/.venv/lib/python3.11/site-packages/forecasting_tools/forecast_bots/forecast_bot.py", line 746, in _reraise_exception_with_prepended_message
+  |     raise ExceptionGroup(
+  | ExceptionGroup: 1 sub-exceptions -> Error while processing question url: 'https://www.metaculus.com/questions/578': 1 sub-exceptions -> All 1 research reports/predictions failed: Errors: ['ExceptionGroup: 4 sub-exceptions -> Error while running research and predictions: Errors: ["AttributeError: \'BinaryQuestion\' object has no attribute \'id\'", "AttributeError: \'BinaryQuestion\' object has no attribute \'id\'", "AttributeError: \'BinaryQuestion\' object has no attribute \'id\'", "AttributeError: \'BinaryQuestion\' object has no attribute \'id\'"] (4 sub-exceptions)'] (1 sub-exception)
+  +-+---------------- 1 ----------------
+    | Exception Group Traceback (most recent call last):
+    |   File "/opt/hostedtoolcache/Python/3.11.14/x64/lib/python3.11/asyncio/tasks.py", line 277, in __step
+    |     result = coro.send(None)
+    |              ^^^^^^^^^^^^^^^
+    |   File "/home/runner/work/metac-bot-template/metac-bot-template/.venv/lib/python3.11/site-packages/forecasting_tools/forecast_bots/forecast_bot.py", line 484, in _research_and_make_predictions
+    |     self._reraise_exception_with_prepended_message(
+    |   File "/home/runner/work/metac-bot-template/metac-bot-template/.venv/lib/python3.11/site-packages/forecasting_tools/forecast_bots/forecast_bot.py", line 746, in _reraise_exception_with_prepended_message
+    |     raise ExceptionGroup(
+    | ExceptionGroup: 4 sub-exceptions -> Error while running research and predictions: Errors: ["AttributeError: 'BinaryQuestion' object has no attribute 'id'", "AttributeError: 'BinaryQuestion' object has no attribute 'id'", "AttributeError: 'BinaryQuestion' object has no attribute 'id'", "AttributeError: 'BinaryQuestion' object has no attribute 'id'"] (4 sub-exceptions)
+    +-+---------------- 1 ----------------
+      | Traceback (most recent call last):
+      |   File "/opt/hostedtoolcache/Python/3.11.14/x64/lib/python3.11/asyncio/tasks.py", line 277, in __step
+      |     result = coro.send(None)
+      |              ^^^^^^^^^^^^^^^
+      |   File "/home/runner/work/metac-bot-template/metac-bot-template/.venv/lib/python3.11/site-packages/forecasting_tools/forecast_bots/forecast_bot.py", line 514, in _make_prediction
+      |     prediction = await forecast_function(question, research)
+      |                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      |   File "/home/runner/work/metac-bot-template/metac-bot-template/main.py", line 199, in _run_forecast_on_binary
+      |     if self._current_question_id != question.id:
+      |                                     ^^^^^^^^^^^
+      |   File "/home/runner/work/metac-bot-template/metac-bot-template/.venv/lib/python3.11/site-packages/pydantic/main.py", line 1026, in __getattr__
+      |     raise AttributeError(f'{type(self).__name__!r} object has no attribute {item!r}')
+      | AttributeError: 'BinaryQuestion' object has no attribute 'id'
+      +---------------- 2 ----------------
+      | Traceback (most recent call last):
+      |   File "/opt/hostedtoolcache/Python/3.11.14/x64/lib/python3.11/asyncio/tasks.py", line 277, in __step
+      |     result = coro.send(None)
+      |              ^^^^^^^^^^^^^^^
+      |   File "/home/runner/work/metac-bot-template/metac-bot-template/.venv/lib/python3.11/site-packages/forecasting_tools/forecast_bots/forecast_bot.py", line 514, in _make_prediction
+      |     prediction = await forecast_function(question, research)
+      |                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      |   File "/home/runner/work/metac-bot-template/metac-bot-template/main.py", line 199, in _run_forecast_on_binary
+      |     if self._current_question_id != question.id:
+      |                                     ^^^^^^^^^^^
+      |   File "/home/runner/work/metac-bot-template/metac-bot-template/.venv/lib/python3.11/site-packages/pydantic/main.py", line 1026, in __getattr__
+      |     raise AttributeError(f'{type(self).__name__!r} object has no attribute {item!r}')
+      | AttributeError: 'BinaryQuestion' object has no attribute 'id'
+      +---------------- 3 ----------------
+      | Traceback (most recent call last):
+      |   File "/opt/hostedtoolcache/Python/3.11.14/x64/lib/python3.11/asyncio/tasks.py", line 277, in __step
+      |     result = coro.send(None)
+      |              ^^^^^^^^^^^^^^^
+      |   File "/home/runner/work/metac-bot-template/metac-bot-template/.venv/lib/python3.11/site-packages/forecasting_tools/forecast_bots/forecast_bot.py", line 514, in _make_prediction
+      |     prediction = await forecast_function(question, research)
+      |                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      |   File "/home/runner/work/metac-bot-template/metac-bot-template/main.py", line 199, in _run_forecast_on_binary
+      |     if self._current_question_id != question.id:
+      |                                     ^^^^^^^^^^^
+      |   File "/home/runner/work/metac-bot-template/metac-bot-template/.venv/lib/python3.11/site-packages/pydantic/main.py", line 1026, in __getattr__
+      |     raise AttributeError(f'{type(self).__name__!r} object has no attribute {item!r}')
+      | AttributeError: 'BinaryQuestion' object has no attribute 'id'
+      +---------------- 4 ----------------
+      | Traceback (most recent call last):
+      |   File "/opt/hostedtoolcache/Python/3.11.14/x64/lib/python3.11/asyncio/tasks.py", line 277, in __step
+      |     result = coro.send(None)
+      |              ^^^^^^^^^^^^^^^
+      |   File "/home/runner/work/metac-bot-template/metac-bot-template/.venv/lib/python3.11/site-packages/forecasting_tools/forecast_bots/forecast_bot.py", line 514, in _make_prediction
+      |     prediction = await forecast_function(question, research)
+      |                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      |   File "/home/runner/work/metac-bot-template/metac-bot-template/main.py", line 199, in _run_forecast_on_binary
+      |     if self._current_question_id != question.id:
+      |                                     ^^^^^^^^^^^
+      |   File "/home/runner/work/metac-bot-template/metac-bot-template/.venv/lib/python3.11/site-packages/pydantic/main.py", line 1026, in __getattr__
+      |     raise AttributeError(f'{type(self).__name__!r} object has no attribute {item!r}')
+      | AttributeError: 'BinaryQuestion' object has no attribute 'id'
+      +------------------------------------
+
+Traceback (most recent call last):
+  File "/home/runner/work/metac-bot-template/metac-bot-template/main.py", line 861, in <module>
+    template_bot.log_report_summary(forecast_reports)
+  File "/home/runner/work/metac-bot-template/metac-bot-template/.venv/lib/python3.11/site-packages/forecasting_tools/forecast_bots/forecast_bot.py", line 875, in log_report_summary
+    raise RuntimeError(
+RuntimeError: 1 errors occurred while forecasting: [ExceptionGroup('1 sub-exceptions -> Error while processing question url: \'https://www.metaculus.com/questions/578\': 1 sub-exceptions -> All 1 research reports/predictions failed: Errors: [\'ExceptionGroup: 4 sub-exceptions -> Error while running research and predictions: Errors: ["AttributeError: \\\'BinaryQuestion\\\' object has no attribute \\\'id\\\'", "AttributeError: \\\'BinaryQuestion\\\' object has no attribute \\\'id\\\'", "AttributeError: \\\'BinaryQuestion\\\' object has no attribute \\\'id\\\'", "AttributeError: \\\'BinaryQuestion\\\' object has no attribute \\\'id\\\'"] (4 sub-exceptions)\']', (ExceptionGroup('4 sub-exceptions -> Error while running research and predictions: Errors: ["AttributeError: \'BinaryQuestion\' object has no attribute \'id\'", "AttributeError: \'BinaryQuestion\' object has no attribute \'id\'", "AttributeError: \'BinaryQuestion\' object has no attribute \'id\'", "AttributeError: \'BinaryQuestion\' object has no attribute \'id\'"]', (AttributeError("'BinaryQuestion' object has no attribute 'id'"), AttributeError("'BinaryQuestion' object has no attribute 'id'"), AttributeError("'BinaryQuestion' object has no attribute 'id'"), AttributeError("'BinaryQuestion' object has no attribute 'id'"))),))]
+2025-12-31 17:04:19,172 - openai.agents - WARNING - OPENAI_API_KEY is not set, skipping trace export
+Error: Process completed with exit code 1.

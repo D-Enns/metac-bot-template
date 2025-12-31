@@ -196,7 +196,7 @@ class SpringTemplateBot2026(ForecastBot):
         self, question: BinaryQuestion, research: str
     ) -> ReasonedPrediction[float]:
         # Track which call number this is for the current question
-        if self._current_question_id != question.id:
+        if self._current_question_id != question.page_url:
             self._current_call_number = 0
         self._current_call_number = getattr(self, '_current_call_number', 0) + 1
 
@@ -269,10 +269,10 @@ class SpringTemplateBot2026(ForecastBot):
         prompt: str,
     ) -> ReasonedPrediction[float]:
         # Clear storage if this is a new question
-        if self._current_question_id != question.id:
+        if self._current_question_id != question.page_url:
             self._binary_scenarios = []
-            self._current_question_id = question.id
-            logger.info(f"Starting new question {question.id}, cleared scenario storage")
+            self._current_question_id = question.page_url
+            logger.info(f"Starting new question {question.page_url}, cleared scenario storage")
 
         reasoning = await self.get_llm("default", "llm").invoke(prompt)
         logger.info(f"Reasoning for URL {question.page_url}: {reasoning}")
@@ -296,7 +296,7 @@ class SpringTemplateBot2026(ForecastBot):
             f"Parsed scenarios: [Low={scenario_prediction.low}%, Mid={scenario_prediction.mid}%, High={scenario_prediction.high}%]"
         )
         logger.info(
-            f"Total scenarios stored for question {question.id}: {len(self._binary_scenarios)} scenarios"
+            f"Total scenarios stored for question {question.page_url}: {len(self._binary_scenarios)} scenarios"
         )
 
         # Return mid value to framework (it will collect 4 of these)
