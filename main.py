@@ -137,6 +137,7 @@ class SpringTemplateBot2026(ForecastBot):
         """Initialize bot with storage for multi-scenario predictions"""
         super().__init__(*args, **kwargs)
         self._binary_scenarios = []  # Storage for low/mid/high scenarios
+        self._numeric_scenarios = []  # Storage for numeric outcome scenarios
         self._current_question_id = None  # Track question to know when to clear storage
         self._current_call_number = 0  # Track which LLM call we're on for current question
 
@@ -374,14 +375,15 @@ class SpringTemplateBot2026(ForecastBot):
         question: MetaculusQuestion,
     ):
         """
-        Override framework's aggregation to use GPR for binary questions.
+        Override framework's aggregation to use GPR for binary and numeric questions.
 
-        For binary questions: Apply GPR on all stored scenarios instead of taking median of mid values.
+        For binary questions: Apply GPR on all stored scenarios to get p50.
+        For numeric questions: Apply GPR on all stored scenarios to get full distribution.
         For other question types: Use default framework aggregation.
         """
-        from forecasting_tools.data_models.questions import BinaryQuestion
+        from forecasting_tools.data_models.questions import BinaryQuestion, NumericQuestion
 
-        # Check if this is a binary question and we have scenarios stored
+        # Binary questions: GPR aggregation
         if isinstance(question, BinaryQuestion) and len(self._binary_scenarios) >= 3:
             logger.info(f"[GPR DEBUG] _aggregate_predictions called with {len(predictions)} predictions")
             logger.info(f"[GPR DEBUG] Using GPR aggregation on {len(self._binary_scenarios)} stored scenarios")
@@ -395,8 +397,24 @@ class SpringTemplateBot2026(ForecastBot):
 
             logger.info(f"[GPR DEBUG] Aggregation complete. Returning GPR result: {gpr_result:.4f}")
             return gpr_result
+
+        # Numeric questions: GPR aggregation for full distribution
+        elif isinstance(question, NumericQuestion) and len(self._numeric_scenarios) >= 9:
+            logger.info(f"[GPR DEBUG] _aggregate_predictions called for numeric question with {len(predictions)} predictions")
+            logger.info(f"[GPR DEBUG] Using GPR aggregation on {len(self._numeric_scenarios)} stored numeric scenarios")
+
+            gpr_distribution = self._gpr_aggregate_numeric(self._numeric_scenarios)
+
+            # Clear scenarios after aggregation
+            self._numeric_scenarios = []
+            self._current_question_id = None
+            self._current_call_number = 0
+
+            logger.info(f"[GPR DEBUG] Numeric aggregation complete. Returning distribution with {len(gpr_distribution.percentiles)} percentiles")
+            return gpr_distribution
+
         else:
-            # Use default framework aggregation for non-binary or insufficient scenarios
+            # Use default framework aggregation for other question types or insufficient scenarios
             logger.info(f"[GPR DEBUG] Using default aggregation for {type(question).__name__}")
             return await super()._aggregate_predictions(predictions, question)
 
@@ -481,94 +499,295 @@ class SpringTemplateBot2026(ForecastBot):
     async def _run_forecast_on_numeric(
         self, question: NumericQuestion, research: str
     ) -> ReasonedPrediction[NumericDistribution]:
+        # Track which call number this is for the current question
+        if self._current_question_id != question.page_url:
+            self._current_call_number = 0
+            logger.info(f"[GPR DEBUG] New numeric question detected. Resetting counter. ID was: {self._current_question_id}, now: {question.page_url}")
+        self._current_call_number = getattr(self, '_current_call_number', 0) + 1
+        logger.info(f"[GPR DEBUG] Numeric call number: {self._current_call_number}, Scenarios so far: {len(self._numeric_scenarios)}, Question: {question.page_url}")
+
         upper_bound_message, lower_bound_message = (
             self._create_upper_and_lower_bound_messages(question)
         )
         prompt = clean_indents(
             f"""
-            You are a professional forecaster interviewing for a job.
+            # Make a Professional Forecast
+            
+            ## You are a professional forecaster interviewing for a job.
 
-            Your interview question is:
+            ## Your interview question is:
             {question.question_text}
 
-            Background:
+            ## Question background:
             {question.background_info}
 
             {question.resolution_criteria}
 
             {question.fine_print}
-
-            Units for answer: {question.unit_of_measure if question.unit_of_measure else "Not stated (please infer this)"}
-
-            Your research assistant says:
-            {research}
-
-            Today is {datetime.now().strftime("%Y-%m-%d")}.
-
+    
             {lower_bound_message}
             {upper_bound_message}
 
-            Formatting Instructions:
-            - Please notice the units requested and give your answer in these units (e.g. whether you represent a number as 1,000,000 or 1 million).
+            ## Units for answer:
+            {question.unit_of_measure if question.unit_of_measure else "Not stated (please infer this)"}
+            - You are careful to make sure you forecast units are consistent with the upper and lower bound units
+            - You write Units for the answer are: (whatever units you determined)
+        
+            ## Your research assistant says:
+            {research}
+
+            ## Today is {datetime.now().strftime("%Y-%m-%d")}.
+            {lower_bound_message}
+            {upper_bound_message}
+            
+            ## Your workflow
+
+            ### Formatting Instructions:
+            - Please notice the units requested (e.g. whether you represent a number as 1,000,000 or 1 million).
             - Never use scientific notation.
-            - Always start with a smaller number (more negative if negative) and then increase from there. The value for percentile 10 should always be less than the value for percentile 20, and so on.
+            - Always start with a smaller number (more negative if negative) and then increase from there.
 
+            ### Review some potential outcomes
             Before answering you write:
-            (a) The time left until the outcome to the question is known.
-            (b) The outcome if nothing changed.
-            (c) The outcome if the current trend continued.
-            (d) The expectations of experts and markets.
-            (e) A brief description of an unexpected scenario that results in a low outcome.
-            (f) A brief description of an unexpected scenario that results in a high outcome.
+            1. The time left until the outcome to the question is known.
+            2. The outcome if nothing changed (the current value).
+            3. The outcome if the current trend continued.
+            4. The expectations of experts and markets.
+            5. The volatility history and expectations for the target measure.
 
-            {self._get_conditional_disclaimer_if_necessary(question)}
-            You remind yourself that good forecasters are humble and set wide 90/10 confidence intervals to account for unknown unknowns.
-
-            The last thing you write is your final answer as:
-            "
-            Percentile 10: XX (lowest number value)
-            Percentile 20: XX
-            Percentile 40: XX
-            Percentile 60: XX
-            Percentile 80: XX
-            Percentile 90: XX (highest number value)
-            "
+            ### Group the evidence
+            Review the evidence from your reseach assistant and group it into three buckets of approximately
+            the same size:
+            - Bucket 1. Evidence that would indicate a relatively low forecast
+            - Bucket 2. Evidence that would indicate a relatively high forecast
+            - Bucket 3. Evidence that would indicate a central forecast
+            
+            ### Multi-world considerations
+            For this section, you are careful to report values in the confirmed units for answer. You want to
+            explore ranges of reasonable possibilities. You consider possible worlds:
+            1. Low_World: review the bucket 1 evidence from your reseach assistant that the forecast could be low.
+            - What would be a low forecast estimate for this world?
+            - What would be a mid forecast estimate for this world?
+            - What would be a high forecast estimate for this world?
+            2. High_World: review the bucket 3 evidence from your reseach assistant that the forecast could be high.
+            - What would be a low forecast estimate for this world?
+            - What would be a mid forecast estimate for this world?
+            - What would be a high forecast estimate for this world?
+            3. Mid_World: review the bucket 2 evidence from your reseach assistant that the forecast could be around
+            the central views and trends.
+            - What would be a low forecast estimate be for this world?
+            - What would be a mid forecast estimate for this world?
+            - What would be a high forecast estimate be for this world?
+            
+            ### Verify units
+            With those values in mind, you are careful to use the units for answer that you determined earlier.
+        
+            # Final Answer
+            The last thing you write is your final answer as a list of values for the world scenarios. Written as a list: 
+            
+            [Low_World-Low, Low_World-Mid, Low_World-High, Mid_World-Low, Mid_World-Mid, Mid_World-High, High_World_Low,
+            High_World_Mid, High_World_High]
             """
         )
-        return await self._numeric_prompt_to_forecast(question, prompt)
+
+        result = await self._numeric_prompt_to_forecast(question, prompt)
+
+        logger.info(f"[GPR DEBUG] Returning temporary distribution. Numeric scenarios stored: {len(self._numeric_scenarios)}")
+        return result
 
     async def _numeric_prompt_to_forecast(
         self,
         question: NumericQuestion,
         prompt: str,
     ) -> ReasonedPrediction[NumericDistribution]:
+        # Clear storage if this is a new question
+        logger.info(f"[GPR DEBUG] In _numeric_prompt_to_forecast. Current ID: {self._current_question_id}, Question URL: {question.page_url}, Match: {self._current_question_id == question.page_url}")
+        if self._current_question_id != question.page_url:
+            self._numeric_scenarios = []
+            self._current_question_id = question.page_url
+            logger.info(f"Starting new numeric question {question.page_url}, cleared scenario storage")
+
         reasoning = await self.get_llm("default", "llm").invoke(prompt)
         logger.info(f"Reasoning for URL {question.page_url}: {reasoning}")
-        parsing_instructions = clean_indents(
-            f"""
-            The text given to you is trying to give a forecast distribution for a numeric question.
-            - This text is trying to answer the numeric question: "{question.question_text}".
-            - When parsing the text, please make sure to give the values (the ones assigned to percentiles) in terms of the correct units.
-            - The units for the forecast are: {question.unit_of_measure}
-            - Your work will be shown publicly with these units stated verbatim after the numbers your parse.
-            - As an example, someone else guessed that the answer will be between {question.lower_bound} {question.unit_of_measure} and {question.upper_bound} {question.unit_of_measure}, so the numbers parsed from an answer like this would be verbatim "{question.lower_bound}" and "{question.upper_bound}".
-            - If the answer doesn't give the answer in the correct units, you should parse it in the right units. For instance if the answer gives numbers as $500,000,000 and units are "B $" then you should parse the answer as 0.5 (since $500,000,000 is $0.5 billion).
-            - If percentiles are not explicitly given (e.g. only a single value is given) please don't return a parsed output, but rather indicate that the answer is not explicitly given in the text.
-            - Turn any values that are in scientific notation into regular numbers.
-            """
-        )
-        percentile_list: list[Percentile] = await structure_output(
+
+        # Parse 9 scenarios from prompt using MultiScenarioPrediction
+        scenario_prediction: MultiScenarioPrediction = await structure_output(
             reasoning,
-            list[Percentile],
+            MultiScenarioPrediction,
             model=self.get_llm("parser", "llm"),
-            additional_instructions=parsing_instructions,
             num_validation_samples=self._structure_output_validation_samples,
         )
-        prediction = NumericDistribution.from_question(percentile_list, question)
+
+        # Store all scenarios (no scaling needed - already in question units)
+        self._numeric_scenarios.extend(scenario_prediction.scenarios)
+
+        # Check for unit interpretation issues
+        if self._detect_unit_inconsistency(scenario_prediction.scenarios):
+            logger.warning(
+                f"Possible unit interpretation error detected in call {self._current_call_number}! "
+                f"Scenarios: {scenario_prediction.scenarios}"
+            )
+
+        # Warn if unusually few scenarios (likely LLM didn't follow prompt)
+        if len(scenario_prediction.scenarios) < 9:
+            logger.warning(
+                f"Expected 9 scenarios, got {len(scenario_prediction.scenarios)} - check prompt clarity"
+            )
+
         logger.info(
-            f"Forecasted URL {question.page_url} with prediction: {prediction.declared_percentiles}."
+            f"Parsed {len(scenario_prediction.scenarios)} numeric scenarios: {scenario_prediction.scenarios}"
         )
-        return ReasonedPrediction(prediction_value=prediction, reasoning=reasoning)
+        logger.info(
+            f"Total numeric scenarios stored for question {question.page_url}: {len(self._numeric_scenarios)} scenarios"
+        )
+
+        # Return temporary distribution based on median (framework will aggregate later)
+        # Create a simple distribution from the current scenarios for now
+        median_value = float(np.median(scenario_prediction.scenarios))
+        temp_percentiles = self._create_temp_distribution_from_scenarios(
+            scenario_prediction.scenarios, question
+        )
+
+        logger.info(
+            f"Returning temporary distribution for URL {question.page_url}, median: {median_value}"
+        )
+        return ReasonedPrediction(prediction_value=temp_percentiles, reasoning=reasoning)
+
+    def _create_temp_distribution_from_scenarios(
+        self, scenarios: list[float], question: NumericQuestion
+    ) -> NumericDistribution:
+        """Create a temporary distribution from scenarios (will be replaced by GPR aggregation)"""
+        sorted_scenarios = sorted(scenarios)
+        n = len(sorted_scenarios)
+
+        # Map sorted scenarios to approximate percentiles
+        # This is just a placeholder - GPR will create the final distribution
+        if n >= 6:
+            temp_percentiles = {
+                10: sorted_scenarios[0],
+                20: sorted_scenarios[1] if n > 1 else sorted_scenarios[0],
+                40: sorted_scenarios[int(n * 0.4)] if n > 2 else sorted_scenarios[0],
+                60: sorted_scenarios[int(n * 0.6)] if n > 3 else sorted_scenarios[-1],
+                80: sorted_scenarios[-2] if n > 4 else sorted_scenarios[-1],
+                90: sorted_scenarios[-1],
+            }
+        else:
+            # Fallback for too few scenarios
+            median = sorted_scenarios[n // 2]
+            temp_percentiles = {10: median, 20: median, 40: median, 60: median, 80: median, 90: median}
+
+        return NumericDistribution(percentiles=temp_percentiles)
+
+    def _detect_unit_inconsistency(self, scenarios: list[float]) -> bool:
+        """
+        Detect if scenarios suggest unit interpretation errors.
+
+        Returns True if scenarios span >2 orders of magnitude,
+        suggesting some forecaster interpreted units differently.
+        """
+        if len(scenarios) < 3:
+            return False
+
+        sorted_scenarios = sorted(scenarios)
+        min_val = sorted_scenarios[0]
+        max_val = sorted_scenarios[-1]
+
+        # Can't check ratio with negative/zero values
+        if min_val <= 0:
+            return False
+
+        ratio = max_val / min_val
+
+        # If max is >100× min, likely unit confusion
+        if ratio > 100:
+            logger.warning(
+                f"Scenarios span {ratio:.1f}× range: {min_val} to {max_val}. "
+                f"Possible unit interpretation error."
+            )
+            return True
+
+        return False
+
+    def _gpr_aggregate_numeric(self, scenarios: list[float]) -> NumericDistribution:
+        """
+        Aggregate numeric scenarios using GPR to create full CDF.
+
+        Args:
+            scenarios: List of numeric values from multiple world scenarios
+
+        Returns:
+            NumericDistribution with smoothed percentiles at 5% increments
+        """
+        if len(scenarios) < 9:
+            logger.warning(
+                f"⚠️  FALLBACK TO EMPIRICAL METHOD: Only {len(scenarios)} scenarios available. "
+                f"GPR requires at least 9 scenarios for reliable aggregation. "
+                f"Using empirical percentiles instead."
+            )
+            return self._empirical_distribution_fallback(scenarios)
+
+        # Sort scenarios to create empirical CDF
+        sorted_scenarios = sorted(scenarios)
+
+        # Create empirical CDF percentiles
+        n = len(sorted_scenarios)
+        empirical_percentiles = [100 * i / (n + 1) for i in range(1, n + 1)]
+
+        # Fit GPR model (same approach as binary)
+        X = np.array(empirical_percentiles).reshape(-1, 1)
+        y = np.array(sorted_scenarios)
+
+        # Define kernel: smooth RBF + white noise
+        smooth_kernel = C(1.0, (1e-3, 1e5)) * RBF(20.0, (1e-2, 1e2))
+        kernel = smooth_kernel + WhiteKernel(noise_level=1.0, noise_level_bounds=(1e-5, 1e2))
+
+        # Fit model with multiple restarts for better optimization
+        gpr_model = GaussianProcessRegressor(kernel=kernel, n_restarts_optimizer=10)
+        gpr_model.fit(X, y)
+
+        # Extract percentiles at 5% increments (19 percentiles: 5, 10, 15, ..., 90, 95)
+        target_percentiles = list(range(5, 100, 5))  # [5, 10, 15, ..., 90, 95]
+        percentile_values = {}
+
+        for p in target_percentiles:
+            value = gpr_model.predict(np.array([[p]]))[0]
+            percentile_values[p] = float(value)
+
+        logger.info(f"✅ GPR numeric aggregation: {len(scenarios)} scenarios → {len(target_percentiles)} percentiles")
+        logger.info(
+            f"Distribution: p5={percentile_values[5]:.2f}, "
+            f"p50={percentile_values[50]:.2f}, "
+            f"p95={percentile_values[95]:.2f}"
+        )
+
+        return NumericDistribution(percentiles=percentile_values)
+
+    def _empirical_distribution_fallback(self, scenarios: list[float]) -> NumericDistribution:
+        """
+        Fallback to empirical percentiles if too few scenarios for GPR.
+
+        WARNING: This method is only used when GPR cannot be applied due to insufficient data.
+        The resulting distribution will be less smooth than GPR.
+        """
+        sorted_scenarios = sorted(scenarios)
+        n = len(sorted_scenarios)
+
+        # Extract percentiles at 5% increments using empirical approach
+        target_percentiles = list(range(5, 100, 5))
+        percentile_values = {}
+
+        for p in target_percentiles:
+            index = int(n * p / 100)
+            index = min(max(0, index), n - 1)  # Clamp to valid range
+            percentile_values[p] = sorted_scenarios[index]
+
+        logger.warning(
+            f"📊 EMPIRICAL FALLBACK APPLIED: Used {n} scenarios to create distribution. "
+            f"Distribution may be less smooth than GPR. "
+            f"Range: [{percentile_values[5]:.2f}, {percentile_values[95]:.2f}]"
+        )
+
+        return NumericDistribution(percentiles=percentile_values)
 
     ##################################### DATE QUESTIONS #####################################
 
