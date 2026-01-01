@@ -1,0 +1,893 @@
+﻿2026-01-01T16:31:24.2259258Z ##[group]Run poetry run python main.py --mode test_questions
+2026-01-01T16:31:24.2260144Z [36;1mpoetry run python main.py --mode test_questions[0m
+2026-01-01T16:31:24.2294701Z shell: /usr/bin/bash -e {0}
+2026-01-01T16:31:24.2294994Z env:
+2026-01-01T16:31:24.2295311Z   pythonLocation: /opt/hostedtoolcache/Python/3.11.14/x64
+2026-01-01T16:31:24.2295836Z   PKG_CONFIG_PATH: /opt/hostedtoolcache/Python/3.11.14/x64/lib/pkgconfig
+2026-01-01T16:31:24.2296351Z   Python_ROOT_DIR: /opt/hostedtoolcache/Python/3.11.14/x64
+2026-01-01T16:31:24.2296812Z   Python2_ROOT_DIR: /opt/hostedtoolcache/Python/3.11.14/x64
+2026-01-01T16:31:24.2297275Z   Python3_ROOT_DIR: /opt/hostedtoolcache/Python/3.11.14/x64
+2026-01-01T16:31:24.2297739Z   LD_LIBRARY_PATH: /opt/hostedtoolcache/Python/3.11.14/x64/lib
+2026-01-01T16:31:24.2298173Z   VENV: .venv/bin/activate
+2026-01-01T16:31:24.2298689Z   METACULUS_TOKEN: ***
+2026-01-01T16:31:24.2298985Z   PERPLEXITY_API_KEY: 
+2026-01-01T16:31:24.2299264Z   EXA_API_KEY: 
+2026-01-01T16:31:24.2299523Z   OPENAI_API_KEY: 
+2026-01-01T16:31:24.2300410Z   OPENROUTER_API_KEY: ***
+2026-01-01T16:31:24.2300728Z   ANTHROPIC_API_KEY: 
+2026-01-01T16:31:24.2301090Z   ASKNEWS_CLIENT_ID: ***
+2026-01-01T16:31:24.2301435Z   ASKNEWS_SECRET: ***
+2026-01-01T16:31:24.2301706Z ##[endgroup]
+2026-01-01T16:31:33.7369303Z Warning: Model openrouter/perplexity/sonar does not support cost tracking.
+2026-01-01T16:31:34.8403792Z 2026-01-01 16:31:34.840 WARNING streamlit.runtime.caching.cache_data_api: No runtime found, using MemoryCacheStorageManager
+2026-01-01T16:31:34.8639196Z 2026-01-01 16:31:34,863 - forecasting_tools.ai_models.model_tracker - WARNING - Warning: Model openrouter/openai/gpt-4o-mini does not support cost tracking.
+2026-01-01T16:31:34.8653459Z 2026-01-01 16:31:34,865 - forecasting_tools.helpers.metaculus_client - INFO - Retrieving question details for question 14333
+2026-01-01T16:31:37.0071428Z 2026-01-01 16:31:37,006 - forecasting_tools.helpers.metaculus_client - INFO - Retrieved question details for question 14333
+2026-01-01T16:31:37.4105943Z 2026-01-01 16:31:37,410 - openai.agents - WARNING - OPENAI_API_KEY is not set, skipping trace export
+2026-01-01T16:31:50.9370919Z 2026-01-01 16:31:50,936 - __main__ - INFO - Found Research for URL https://www.metaculus.com/questions/14333:
+2026-01-01T16:31:50.9372137Z Here are the relevant news articles:
+2026-01-01T16:31:50.9372584Z 
+2026-01-01T16:31:50.9372921Z **DNA Study of 117-Year-Old Woman Sheds New Light on Long Life**
+2026-01-01T16:31:50.9384281Z Scientists studied the DNA and biological samples of Maria Branyas, who died at age 117 in 2024 and was the world’s oldest living person at the time of her death. Researchers at the Josep Carreras Leukaemia Research Institute in Barcelona analyzed her blood, saliva, urine, and stool samples using advanced genetic and biological methods. Despite her chronological age of 117, her cells exhibited characteristics typical of much younger individuals. Her genome included rare genetic variants linked to strong immune function, cardiovascular health, and brain resilience. Physiologically, she had very low inflammation, excellent heart health markers, a youthful gut microbiome, and favorable lipid profiles—low 'bad' cholesterol and triglycerides, and high 'good' cholesterol. A surprising finding was the extreme shortening of her telomeres, which usually correlate with higher disease risk, yet she remained free of major age-related illnesses throughout her life. Researchers speculate that such short telomeres may have suppressed cancer development. The study, published in Cell Reports Medicine, emphasizes that advanced age and poor health are not inherently linked, as Branyas’s biological profile defied typical ageing expectations. While lifestyle factors such as a Mediterranean diet, physical activity, and social engagement may have contributed, genetics likely played a major role. Researchers caution that findings from a single individual cannot be generalized without further study. Branyas’s biological legacy offers a unique opportunity to investigate healthy longevity in centenarians and supercentenarians.
+2026-01-01T16:31:50.9391884Z Original language: en
+2026-01-01T16:31:50.9392140Z Publish date: January 01, 2026 11:19 AM
+2026-01-01T16:31:50.9392726Z Source:[Republic World](https://www.republicworld.com/science/dna-study-of-117-year-old-woman-sheds-new-light-on-long-life)
+2026-01-01T16:31:50.9393208Z 
+2026-01-01T16:31:50.9393431Z **New Year Special – What Awaits the World in 2026?**
+2026-01-01T16:31:50.9395927Z In a New Year special titled 'New Year Special - December 31, 2025 (What Awaits the World in 2026?)', Kadir Kaymakçı posed forward-looking questions about the future, including whether the secret to immortality has been discovered, what changes will occur in 2026 and beyond, what medical breakthroughs will emerge, how healthcare will evolve, and whether human lifespan could reach 150 years. The program also examined how the world has changed from the 2000s to 2026. The panelists—journalist İpek Yezdani, Habertürk Technology Editor Cem Kadri Özenen, art critic Samet Karagöz, and Dr. Ayşegül Çoruhlu—provided answers to these speculative and futuristic inquiries.
+2026-01-01T16:31:50.9397997Z Original language: tr
+2026-01-01T16:31:50.9398227Z Publish date: January 01, 2026 10:15 AM
+2026-01-01T16:31:50.9398840Z Source:[HABERTURK.COM](https://www.haberturk.com/video/programlar/izle/yeni-yil-ozel-31-aralik-2025-2026da-dunyayi-neler-bekliyor/898938)
+2026-01-01T16:31:50.9399354Z 
+2026-01-01T16:31:50.9399542Z **1998 Americans' Predictions for 2025: Five Correct, Three Unfulfilled**
+2026-01-01T16:31:50.9403069Z In 1998, Gallup and USA Today conducted a phone survey of 1,055 U.S. adults asking them to predict life in 2025. The responses, archived at Cornell University's Roper Center, show that five predictions were accurate: a Black person would become U.S. president (achieved by Barack Obama), same-sex marriage would become legal and widespread (legalized in 2015), a deadly new disease would emerge (e.g., the COVID-19 pandemic), space travel would remain uncommon, and contact with extraterrestrial life would not occur. However, three predictions did not materialize: a female U.S. president had not been elected by 2025, cancer had not been cured, and the expectation that people would commonly live to 100 years old had not come true. In 1998, about 60% of Americans expressed satisfaction with the country’s direction; by December 2025, satisfaction had dropped to 24%.
+2026-01-01T16:31:50.9405639Z Original language: zh
+2026-01-01T16:31:50.9405866Z Publish date: December 31, 2025 10:07 AM
+2026-01-01T16:31:50.9406275Z Source:[星岛环球网](https://www.stnn.cc/c/2025-12-31/4027245.shtml)
+2026-01-01T16:31:50.9406505Z 
+2026-01-01T16:31:50.9406649Z **DNA Study of 117-Year-Old Woman Reveals Clues to Long Life**
+2026-01-01T16:31:50.9412894Z Maria Branyas, who lived to 117 years old and was the oldest living person in the world at her death in 2024, provided biological samples—including blood, saliva, urine, and stool—before her passing. A study led by scientists at the Josep Carreras Leukaemia Research Institute in Barcelona found that her genome exhibited signs of exceptional youthfulness, with cells behaving as though they were significantly younger than her chronological age. Despite a 'huge erosion' of telomeres—typically associated with aging—her immune system, gut microbiome, cardiovascular health, and lipid profile were remarkably favorable, showing low inflammation, low 'bad' cholesterol and triglycerides, and high 'good' cholesterol. Her health was marked by excellent cardiovascular function and mental, social, and physical activity throughout life. The researchers, including epigeneticists Eloy Santos-Pujol and Aleix Noguera-Castells, suggest that her extreme longevity may be due to a combination of rare genetic variants linked to longevity, immune function, and heart and brain health. Notably, the study challenges the conventional role of telomeres as aging biomarkers, proposing that short telomeres might have helped prevent cancer in her case. The findings, published in *Cell Reports Medicine*, offer new insights into healthy aging and potential strategies to extend life expectancy, though the team acknowledges the limitations of studying only one supercentenarian and calls for larger cohort studies. Branyas exceeded the average life expectancy for women in Catalonia by over 30 years, underscoring that advanced age and poor health are not inherently linked.
+2026-01-01T16:31:50.9418357Z Original language: en
+2026-01-01T16:31:50.9418591Z Publish date: December 30, 2025 10:44 PM
+2026-01-01T16:31:50.9419108Z Source:[ScienceAlert](https://www.sciencealert.com/dna-study-of-117-year-old-woman-reveals-clues-to-long-life)
+2026-01-01T16:31:50.9419544Z 
+2026-01-01T16:31:50.9419710Z **No solo 2026: Other Baba Vanga Predictions for the Next 100 Years**
+2026-01-01T16:31:50.9424954Z Baba Vanga, the Bulgarian seer who died in 1996, continues to generate widespread public interest despite the lack of verifiable evidence supporting her predictions. Her prophecies, which span over 100 years, have been widely shared on digital platforms. For 2026, she predicted a heightened risk of a Third World War involving the United States, China, and Russia, alongside optimistic developments such as early cancer detection and 3D-printed organs. Additional predictions include: 2028—development of a new energy source and persistent global hunger; 2033—accelerated polar ice melt and rising sea levels; 2042—global economic improvement and Muslim dominance in Europe; 2046—human organs produced and replaced via innovative procedures; 2066—Rome attacked by the U.S. with a climate weapon causing extreme cold; 2076—eradication of social classes; 2084—environmental recovery; 2088—emergence of a deadly disease causing rapid aging; 2097—cure discovered for rapid aging; 2010—artificial sun illuminating the dark side of Earth; 2111—human-robot hybridization; 2113—war among small nations, with major powers abstaining; 2125—Hungary receives first extraterrestrial signals. Some of her predictions are claimed to have come true, including the death of Princess Diana, the sinking of the Russian submarine Kursk, and the September 11 terrorist attacks.
+2026-01-01T16:31:50.9429231Z Original language: es
+2026-01-01T16:31:50.9429461Z Publish date: December 30, 2025 07:42 PM
+2026-01-01T16:31:50.9430539Z Source:[El Heraldo de M�xico](https://heraldodemexico.com.mx/mundo/2025/12/30/no-solo-2026-estas-son-otras-profecias-de-baba-vanga-para-los-proximos-100-anos-755804.html)
+2026-01-01T16:31:50.9431179Z 
+2026-01-01T16:31:50.9431370Z **Can Blood Predict A 100-Year Life? New Studies Say The Clues Are There**
+2026-01-01T16:31:50.9435972Z New research indicates that individuals who live beyond 100 years—centenarians and supercentenarians—possess unique blood profiles that may predict extreme longevity and healthier ageing. These biological signatures, detectable as early as age 65, include strong immune system markers and low levels of 'bad' cholesterol, as seen in Maria Branyas, a 117-year-old supercentenarian studied by Spanish scientists. Despite having short telomeres—a trait typically linked to ageing—Branyas’s cells functioned like those of much younger individuals, suggesting a possible cancer-protective mechanism. A separate Chinese study of 65 centenarians found lower levels of fatty acids and other metabolites compared to younger groups, pointing to metabolic patterns that could serve as 'longevity clocks.' While no single blood test can currently predict lifespan, researchers believe these markers, influenced by diet and lifestyle, may guide future longevity interventions. The Mediterranean diet, which Branyas followed, is highlighted as a potential contributor to extended, healthier life. Scientists remain optimistic that insights from these blood profiles could lead to treatments or strategies benefiting broader populations.
+2026-01-01T16:31:50.9440497Z Original language: en
+2026-01-01T16:31:50.9440734Z Publish date: December 30, 2025 03:16 PM
+2026-01-01T16:31:50.9441303Z Source:[NDTV](https://www.ndtv.com/science/can-blood-predict-a-100-year-life-new-studies-say-the-clues-are-there-10103885)
+2026-01-01T16:31:50.9441917Z 
+2026-01-01T16:31:50.9442074Z **DNA Study of 117-Year-Old Woman Sheds New Light on Long Life**
+2026-01-01T16:31:50.9448038Z Scientists studied the DNA and biological samples of Maria Branyas, who died at age 117 in 2024 and was the world’s oldest living person at the time of her death. Researchers at the Josep Carreras Leukaemia Research Institute in Barcelona analyzed her blood, saliva, urine, and stool samples using advanced genetic and biological methods. Despite her chronological age of 117, her cells exhibited characteristics typical of much younger individuals. Her genome included rare genetic variants linked to strong immune function, cardiovascular health, and brain resilience. Physiologically, she had very low inflammation, excellent heart health markers, a youthful gut microbiome, and favorable lipid profiles—low 'bad' cholesterol and triglycerides, and high 'good' cholesterol. A surprising finding was the extreme shortening of her telomeres, which usually correlate with higher disease risk, yet she remained free of major age-related illnesses throughout her life. Researchers speculate that such short telomeres may have suppressed cancer development. The study, published in Cell Reports Medicine, emphasizes that advanced age and poor health are not inherently linked, as Branyas’s biological profile defied typical ageing expectations. While lifestyle factors such as a Mediterranean diet, physical activity, and social engagement may have contributed, genetics likely played a major role. Researchers caution that findings from a single individual cannot be generalized without further study. Branyas’s biological legacy offers a unique opportunity to investigate healthy longevity in centenarians and supercentenarians.
+2026-01-01T16:31:50.9453302Z Original language: en
+2026-01-01T16:31:50.9453529Z Publish date: January 01, 2026 11:19 AM
+2026-01-01T16:31:50.9454081Z Source:[Republic World](https://www.republicworld.com/science/dna-study-of-117-year-old-woman-sheds-new-light-on-long-life)
+2026-01-01T16:31:50.9454548Z 
+2026-01-01T16:31:50.9454725Z **New Year Special – What Awaits the World in 2026?**
+2026-01-01T16:31:50.9457182Z In a New Year special titled 'New Year Special - December 31, 2025 (What Awaits the World in 2026?)', Kadir Kaymakçı posed forward-looking questions about the future, including whether the secret to immortality has been discovered, what changes will occur in 2026 and beyond, what medical breakthroughs will emerge, how healthcare will evolve, and whether human lifespan could reach 150 years. The program also examined how the world has changed from the 2000s to 2026. The panelists—journalist İpek Yezdani, Habertürk Technology Editor Cem Kadri Özenen, art critic Samet Karagöz, and Dr. Ayşegül Çoruhlu—provided answers to these speculative and futuristic inquiries.
+2026-01-01T16:31:50.9459226Z Original language: tr
+2026-01-01T16:31:50.9459452Z Publish date: January 01, 2026 10:15 AM
+2026-01-01T16:31:50.9460200Z Source:[HABERTURK.COM](https://www.haberturk.com/video/programlar/izle/yeni-yil-ozel-31-aralik-2025-2026da-dunyayi-neler-bekliyor/898938)
+2026-01-01T16:31:50.9460728Z 
+2026-01-01T16:31:50.9460895Z **Americans in 1998 tried to predict 2025. Here's what they got right**
+2026-01-01T16:31:50.9465792Z In 1998, Gallup and USA Today surveyed 1,055 Americans via landline phones to predict life in 2025. Most correctly anticipated that a Black president would be elected (Barack Obama served from 2009–2017), that gay marriage would become legal and common (legalized nationwide in 2015), and that a deadly new disease would emerge (referring to the COVID-19 pandemic). However, predictions that space travel would be common for ordinary Americans or that alien life would make contact were deemed incorrect. About two-thirds expected a female president by 2025, but no woman has yet been elected. Over half expected a cure for cancer, and 61% believed people would routinely live to 100 years old—neither of which has materialized. The poll also revealed widespread pessimism: 70% believed quality of life would improve for the rich, but most expected worsening conditions for the poor; nearly 80% anticipated less personal privacy, 57% expected less personal freedom, and a 71% majority thought raising good children would be harder. Despite these concerns, most believed race relations would improve and medical care would be more available, albeit less affordable. In 1998, 60% of Americans were satisfied with the country’s direction; by 2026, that number had dropped to 24%, according to Gallup. The original predictions are archived at the Roper Center at Cornell University.
+2026-01-01T16:31:50.9470355Z Original language: en
+2026-01-01T16:31:50.9470579Z Publish date: January 01, 2026 01:56 AM
+2026-01-01T16:31:50.9471051Z Source:[Pittsburgh's Action News 4](https://www.wtae.com/article/1998-predictions-2025-retrospective/69878133)
+2026-01-01T16:31:50.9471437Z 
+2026-01-01T16:31:50.9471809Z **Reflections at Year-End and Year-Beginning: What Can Taiwan’s Elderly Contribute to the Nation’s Future?**
+2026-01-01T16:31:50.9479707Z According to research by Sohail Inayatullah, a professor of futurology at UNESCO and a renowned futurist, futurology transforms uncertain futures into understandable and designable pathways, enabling foresight and informed decision-making in a changing world. This perspective allows for broader visions of Taiwan’s future over the next 25 years, spanning individuals, families, organizations, society, and the nation, urging action from the present. Regarding national security and population issues, global population is projected to reach 9.7 billion by 2050, while Taiwan’s population is expected to fall below 20 million—similar to its 1989 level—due to a rise in the proportion of people aged 65 and above to 35–40%, entering the peak of a 'super-aging society.' This will significantly increase the burden on the working-age population (15–64 years), projected to shrink to fewer than 5 million by 2050. The article urges current middle-aged and older adults to prepare now by rethinking financial planning, education, community building, workplace demands, societal values, national governance, and international cooperation. The author references a university that outsourced its security personnel to private firms due to budget cuts, eroding workplace trust and camaraderie. The article raises concerns about whether professions such as parents, teachers, government officials, doctors, lawyers, firefighters, and military personnel may also become outsourced in the future, especially with the rise of AI and efficiency-driven trends. This could erode Taiwan’s traditionally valued human connections and public-spirited culture. While older adults in Taiwan may not emulate the lifestyles of British author Iris Murdoch’s 'dressing up and sharing' ideal, American investor Charlie Munger’s financial foresight, or 104-year-old Lin You-mao, the world’s oldest certified badminton player at the 2025 Taipei-Keelung World Masters Games, they can still strive toward the psychologist’s concept of 'three autonomies for seniors': economic, emotional, and physical autonomy. This effort can serve as a model for future generations entering old age.
+2026-01-01T16:31:50.9486508Z Original language: zh
+2026-01-01T16:31:50.9486731Z Publish date: December 31, 2025 04:06 PM
+2026-01-01T16:31:50.9487028Z Source:[UDN](https://udn.com/news/story/7339/9238152)
+2026-01-01T16:31:50.9487238Z 
+2026-01-01T16:31:50.9487424Z **1998 Americans' Predictions for 2025: Five Correct, Three Unfulfilled**
+2026-01-01T16:31:50.9490743Z In 1998, Gallup and USA Today conducted a phone survey of 1,055 U.S. adults asking them to predict life in 2025. The responses, archived at Cornell University's Roper Center, show that five predictions were accurate: a Black person would become U.S. president (achieved by Barack Obama), same-sex marriage would become legal and widespread (legalized in 2015), a deadly new disease would emerge (e.g., the COVID-19 pandemic), space travel would remain uncommon, and contact with extraterrestrial life would not occur. However, three predictions did not materialize: a female U.S. president had not been elected by 2025, cancer had not been cured, and the expectation that people would commonly live to 100 years old had not come true. In 1998, about 60% of Americans expressed satisfaction with the country’s direction; by December 2025, satisfaction had dropped to 24%.
+2026-01-01T16:31:50.9493543Z Original language: zh
+2026-01-01T16:31:50.9493765Z Publish date: December 31, 2025 10:07 AM
+2026-01-01T16:31:50.9494164Z Source:[星岛环球网](https://www.stnn.cc/c/2025-12-31/4027245.shtml)
+2026-01-01T16:31:50.9494390Z 
+2026-01-01T16:31:50.9494532Z **DNA Study of 117-Year-Old Woman Reveals Clues to Long Life**
+2026-01-01T16:31:50.9500802Z Maria Branyas, who lived to 117 years old and was the oldest living person in the world at her death in 2024, provided biological samples—including blood, saliva, urine, and stool—before her passing. A study led by scientists at the Josep Carreras Leukaemia Research Institute in Barcelona found that her genome exhibited signs of exceptional youthfulness, with cells behaving as though they were significantly younger than her chronological age. Despite a 'huge erosion' of telomeres—typically associated with aging—her immune system, gut microbiome, cardiovascular health, and lipid profile were remarkably favorable, showing low inflammation, low 'bad' cholesterol and triglycerides, and high 'good' cholesterol. Her health was marked by excellent cardiovascular function and mental, social, and physical activity throughout life. The researchers, including epigeneticists Eloy Santos-Pujol and Aleix Noguera-Castells, suggest that her extreme longevity may be due to a combination of rare genetic variants linked to longevity, immune function, and heart and brain health. Notably, the study challenges the conventional role of telomeres as aging biomarkers, proposing that short telomeres might have helped prevent cancer in her case. The findings, published in *Cell Reports Medicine*, offer new insights into healthy aging and potential strategies to extend life expectancy, though the team acknowledges the limitations of studying only one supercentenarian and calls for larger cohort studies. Branyas exceeded the average life expectancy for women in Catalonia by over 30 years, underscoring that advanced age and poor health are not inherently linked.
+2026-01-01T16:31:50.9525656Z Original language: en
+2026-01-01T16:31:50.9525979Z Publish date: December 30, 2025 10:44 PM
+2026-01-01T16:31:50.9526519Z Source:[ScienceAlert](https://www.sciencealert.com/dna-study-of-117-year-old-woman-reveals-clues-to-long-life)
+2026-01-01T16:31:50.9526964Z 
+2026-01-01T16:31:50.9527139Z **No solo 2026: Other Baba Vanga Predictions for the Next 100 Years**
+2026-01-01T16:31:50.9532369Z Baba Vanga, the Bulgarian seer who died in 1996, continues to generate widespread public interest despite the lack of verifiable evidence supporting her predictions. Her prophecies, which span over 100 years, have been widely shared on digital platforms. For 2026, she predicted a heightened risk of a Third World War involving the United States, China, and Russia, alongside optimistic developments such as early cancer detection and 3D-printed organs. Additional predictions include: 2028—development of a new energy source and persistent global hunger; 2033—accelerated polar ice melt and rising sea levels; 2042—global economic improvement and Muslim dominance in Europe; 2046—human organs produced and replaced via innovative procedures; 2066—Rome attacked by the U.S. with a climate weapon causing extreme cold; 2076—eradication of social classes; 2084—environmental recovery; 2088—emergence of a deadly disease causing rapid aging; 2097—cure discovered for rapid aging; 2010—artificial sun illuminating the dark side of Earth; 2111—human-robot hybridization; 2113—war among small nations, with major powers abstaining; 2125—Hungary receives first extraterrestrial signals. Some of her predictions are claimed to have come true, including the death of Princess Diana, the sinking of the Russian submarine Kursk, and the September 11 terrorist attacks.
+2026-01-01T16:31:50.9537032Z Original language: es
+2026-01-01T16:31:50.9537268Z Publish date: December 30, 2025 07:42 PM
+2026-01-01T16:31:50.9538154Z Source:[El Heraldo de M�xico](https://heraldodemexico.com.mx/mundo/2025/12/30/no-solo-2026-estas-son-otras-profecias-de-baba-vanga-para-los-proximos-100-anos-755804.html)
+2026-01-01T16:31:50.9538804Z 
+2026-01-01T16:31:50.9538986Z **Can Blood Predict A 100-Year Life? New Studies Say The Clues Are There**
+2026-01-01T16:31:50.9543904Z New research indicates that individuals who live beyond 100 years—centenarians and supercentenarians—possess unique blood profiles that may predict extreme longevity and healthier ageing. These biological signatures, detectable as early as age 65, include strong immune system markers and low levels of 'bad' cholesterol, as seen in Maria Branyas, a 117-year-old supercentenarian studied by Spanish scientists. Despite having short telomeres—a trait typically linked to ageing—Branyas’s cells functioned like those of much younger individuals, suggesting a possible cancer-protective mechanism. A separate Chinese study of 65 centenarians found lower levels of fatty acids and other metabolites compared to younger groups, pointing to metabolic patterns that could serve as 'longevity clocks.' While no single blood test can currently predict lifespan, researchers believe these markers, influenced by diet and lifestyle, may guide future longevity interventions. The Mediterranean diet, which Branyas followed, is highlighted as a potential contributor to extended, healthier life. Scientists remain optimistic that insights from these blood profiles could lead to treatments or strategies benefiting broader populations.
+2026-01-01T16:31:50.9547907Z Original language: en
+2026-01-01T16:31:50.9548136Z Publish date: December 30, 2025 03:16 PM
+2026-01-01T16:31:50.9548705Z Source:[NDTV](https://www.ndtv.com/science/can-blood-predict-a-100-year-life-new-studies-say-the-clues-are-there-10103885)
+2026-01-01T16:31:50.9549188Z 
+2026-01-01T16:31:50.9549372Z **Blood of Exceptionally Long-Lived People Reveals Crucial Differences**
+2026-01-01T16:31:50.9554847Z Research into the blood of centenarians (those who live to 100) and supercentenarians (those who live to 110) reveals unique biomarkers linked to extreme longevity. A study on Maria Branyas, who lived to 117, found her blood had healthy immune markers and extremely low 'bad' cholesterol, with cells behaving younger than her chronological age. Surprisingly, she exhibited 'huge erosion' of telomeres—typically associated with aging and disease—but researchers suggest this may have protected her from cancer by limiting cell lifespan. Another study from China analyzed 65 centenarians and found they had lower levels of fatty acids, fatty alcohols, and other metabolites compared to younger groups, suggesting these could serve as 'longevity clocks' in future blood tests. A broader 2024 study of 5,000 individuals aged 18–110 identified a metabolic signature tied to extreme longevity, highlighting the critical role of essential fatty acids in connecting lipid metabolism to aging processes. These findings suggest that diet and metabolism may be key intervention points for healthier aging. Despite the complexity of blood and the influence of genetics, lifestyle, and randomness, scientists believe these blood profiles could eventually lead to drugs or lifestyle strategies that extend human healthspan. According to ScienceAlert, published on December 30, 2025, the blood of superagers holds potential as a 'fountain of youth' for longevity research.
+2026-01-01T16:31:50.9559372Z Original language: en
+2026-01-01T16:31:50.9559592Z Publish date: December 30, 2025 12:00 PM
+2026-01-01T16:31:50.9560412Z Source:[ScienceAlert](https://www.sciencealert.com/blood-of-exceptionally-long-lived-people-reveals-crucial-differences)
+2026-01-01T16:31:50.9560890Z 
+2026-01-01T16:31:50.9560997Z **Remembering: You Left Us in 2025 (Part 1)**
+2026-01-01T16:31:50.9563578Z The first death announcement of 2025 comes from late 2024: Tomiko Itooka, the world’s oldest woman, passed away at her care home in Ashiya, Japan. She survived two world wars, climbed Mount Ontake—3,067 meters—twice, and managed her late husband’s textile factory as a widow for decades. Her favorite food was Calpis, a yogurt drink. Itooka’s Japanese heritage is unsurprising, as Japan has an aging population: over 95,000 people are over 100 years old, with 88% being women. Despite holding the title of 'oldest living person in the world' until her death, she lost it posthumously to a Brazilian woman born 16 days after her, who was 117 years old at the time of the article’s publication.
+2026-01-01T16:31:50.9565608Z Original language: de
+2026-01-01T16:31:50.9565838Z Publish date: December 30, 2025 04:14 AM
+2026-01-01T16:31:50.9566428Z Source:[Bayerischer Rundfunk](https://www.br.de/nachrichten/deutschland-welt/erinnerung-sie-sind-2025-von-uns-gegangen-teil-1,V2EKv6W)
+2026-01-01T16:31:50.9566933Z 
+2026-01-01T16:31:50.9567071Z **How women could be the key to unlocking longer life**
+2026-01-01T16:31:50.9570021Z Women significantly outlive men, with a ratio of nine women to every man over the age of 110. This trend is exemplified by supercentenarians: Maria Branyas, the world’s oldest verified person who died at 117, attributed her longevity to eating plain yogurt, not high-tech interventions. Her successor, Ethel Catherman, is 116, and the record for human lifespan is held by Jean Calment, who lived to 122. Scientists have not yet fully explained why women live longer, but biological differences in aging between sexes are well-documented, with females generally outliving males across most mammalian species. Research into these sex-based differences may provide insights into the aging process and potentially lead to new strategies for slowing aging in both men and women.
+2026-01-01T16:31:50.9572376Z Original language: en
+2026-01-01T16:31:50.9572593Z Publish date: November 11, 2025 09:02 AM
+2026-01-01T16:31:50.9573112Z Source:[The Japan Times](https://www.japantimes.co.jp/commentary/2025/11/09/world/women-key-to-unlocking-longer-life/)
+2026-01-01T16:31:50.9573533Z 
+2026-01-01T16:31:50.9573701Z **The maximum age humans can live to has been revealed by scientists**
+2026-01-01T16:31:50.9578062Z Scientists have identified a theoretical upper limit to human lifespan, suggesting that the maximum age a human could live to is approximately 150 years, based on studies of human cell resilience, which is predicted to deteriorate beyond that point. William J. Kole, author of *The Big 100: The New World of Super-Aging*, forecasts that by 2050, there will be eight times more centenarians than today, with 'half of all five-year-olds alive now' potentially reaching age 100. Current global life expectancy is around 73 years, varying by country and socioeconomic factors. While medical advancements have extended lifespans, research indicates that most people will not approach the 150-year ceiling, with even optimistic projections suggesting only about 15% of women and 5% of men might live beyond 100. The verified oldest person, Jeanne Louise Calment of France, lived 122 years and 164 days, dying in 1997. The article also raises concerns about the societal challenges of caring for a growing elderly population, noting that many of the world’s oldest individuals are not highly active. The findings are based on scientific studies and expert analysis, with no claims made about indefinite human longevity.
+2026-01-01T16:31:50.9582072Z Original language: en
+2026-01-01T16:31:50.9582300Z Publish date: October 14, 2025 07:00 PM
+2026-01-01T16:31:50.9582794Z Source:[LADbible](https://www.ladbible.com/news/science/maximum-age-humans-live-revealed-374254-20251014)
+2026-01-01T16:31:50.9583374Z 
+2026-01-01T16:31:50.9583621Z **Who Are the World’s Oldest Living People Today? – Tunisie Numerique**
+2026-01-01T16:31:50.9588799Z According to the Global Register of Supercentenarians, Ethel Caterham, born on August 21, 1909, in the United Kingdom, is the world's oldest living person, having turned 116 years old on August 21, 2025, and currently residing in England. The world's oldest man is João Marinho Neto from Brazil, born on October 5, 1912, who turned 113 in 2025. These titles are based on rigorous documentary validation, including civil records, censuses, and administrative cross-references, conducted by longevity specialists. The lists are continuously updated as new verifications emerge. Neither Caterham nor Marinho Neto has publicly shared a detailed longevity recipe. Their families describe simple, consistent habits: moderate diet, regular sleep, limited stress, daily walking when possible, and balanced medical care. There is no extraordinary secret—just stable lifestyle habits and adaptability to aging. Longevity is also influenced by genetics and cumulative life conditions over decades. Historical records show that Jeanne Calment of France lived 122 years and 164 days (February 21, 1875 – August 4, 1997), the longest verified human lifespan. The longest documented male lifespan belongs to Jirōemon Kimura of Japan, who lived 116 years and 54 days (April 19, 1897 – June 12, 2013). These exceptional cases highlight that extreme longevity is rooted in ordinary lives lived with consistency, care, social connection, and often, significant luck.
+2026-01-01T16:31:50.9593472Z Original language: fr
+2026-01-01T16:31:50.9593695Z Publish date: October 05, 2025 08:48 AM
+2026-01-01T16:31:50.9594240Z Source:[Tunisie Numerique](https://www.tunisienumerique.com/humanite-qui-sont-aujourdhui-la-doyenne-et-le-doyen-vivants/)
+2026-01-01T16:31:50.9594708Z 
+2026-01-01T16:31:50.9595038Z **The 'fascinating duality' revealed by the study of the Spanish supercentenarian who broke the longevity record: 117 years**
+2026-01-01T16:31:50.9599454Z A study by the Josep Carreras Institute of Leukemia Research, published in *Cell Reports Medicine*, analyzed samples from Maria Branyas, the world’s oldest living person at 117 years old, who died in 2024. The researchers reported a "fascinante dualidad": simultaneous signs of extreme aging—short telomeres, a pro‑inflammatory immune system, and an aged B‑cell population—alongside markers of healthy longevity such as genetic neuro‑ and cardio‑protection, a microbiome dominated by beneficial bifidobacteria, and a biological age 17 years younger than her chronological age. Branyas had no major diseases, including cancer or dementia. The study suggests that extreme longevity may arise not from a global delay of aging but from a combination of protective genetic traits and a youthful microbiome, even while some aging markers are present. These findings could help develop strategies to mitigate age‑related diseases, including hematologic cancers. The authors note that lifestyle factors—healthy diet, diverse social network, and absence of toxic habits—may contribute, but they caution against premature conclusions linking habits to biology.
+2026-01-01T16:31:50.9603269Z Original language: es
+2026-01-01T16:31:50.9603495Z Publish date: September 24, 2025 04:29 PM
+2026-01-01T16:31:50.9604308Z Source:[HERALDO](https://www.heraldo.es/noticias/sociedad/2025/09/24/las-paradojas-que-revela-el-estudio-de-la-espanola-que-batio-el-record-de-longevidad-117-anos-1856545.html)
+2026-01-01T16:31:50.9605017Z 
+2026-01-01T16:31:50.9605157Z **The Oldest People on Earth Reveal Secrets of Longevity**
+2026-01-01T16:31:50.9609553Z Researchers report that the key to living to 100 is not exotic diets but moderation, love of simple home food, physical activity, and joy. Longevity is rare: only 0.07 % of the world population are super‑centenarians, and forecasts predict the number will quadruple by 2054. The article profiles several of the oldest people on Earth, all of whom share common habits: fresh whole foods, minimal meat, avoidance of fast food, home cooking, Mediterranean‑style meals, the 80/20 rule, moderate alcohol, regular exercise, a positive mindset, and small pleasures. 102‑year‑old Debora Sekey of Mexico’s Lower California ranch, 101‑year‑old William from Toronto, 101‑year‑old Jack Van Nordheim, 112‑year‑old Luisa Jin Xion in New York, 114‑year‑old Bonita Gibson of Idaho, 110‑year‑old Etel Katheram of England, 122‑year‑old Jeanne‑Louise Calment of France, and 123‑year‑old Maria Antonia Queiro of Colombia are highlighted.  Etel Katheram is quoted as saying, 'Не понимаю, из‑за чего весь сыр‑бор', and she adds, 'Я никогда ни с кем не спорю, я слушаю и делаю то, что мне нравится'.  The article emphasizes that these elders cook at home, consume fewer ultra‑processed foods, and maintain a balanced diet, which research links to lower rates of depression, type 2 diabetes, and cardiovascular disease.
+2026-01-01T16:31:50.9613892Z Original language: ru
+2026-01-01T16:31:50.9614117Z Publish date: September 23, 2025 11:41 AM
+2026-01-01T16:31:50.9614892Z Source:[Рамблер](https://news.rambler.ru/tech/55346098-ot-hara-hati-bu-do-shokoladki-stareyshie-lyudi-planety-raskryli-sekrety-dolgoletiya/)
+2026-01-01T16:31:50.9615440Z 
+2026-01-01T16:31:50.9615631Z **Predicting the future: The supergroup of AI, humans, hedgehogs and foxes**
+2026-01-01T16:31:50.9621985Z Philip Tetlock, a psychology professor and author of *Superforecasting*, explains how his research on expert prediction has evolved to include large language models (LLMs).  In the 1980s he launched a prediction tournament that showed most experts performed no better than random guessing, but a minority—"foxes" who used diverse information and Bayesian updating—outperformed the "hedgehogs" who stuck to a single thesis.  Tetlock’s later work, the Good‑Judgement Project (GJP), demonstrated that teams of superforecasters beat a control group by 60 % in year 1 and 78 % in year 2, and outperformed university teams by 30‑70 %.  He then tested LLM assistants: participants using a super‑forecasting‑trained LLM improved their accuracy by 28 % overall and 41 % when the outlier question was removed, compared with a control model.  A separate experiment found that the aggregate forecast of a diverse “silicon crowd” of LLMs was statistically indistinguishable from that of a human crowd, though still 30 % below the performance of super‑forecaster teams.  Tetlock concludes that LLMs can act as counterfactual generators, fermize problems, and provide a “wisdom of the silicon crowd,” potentially becoming super‑forecasters themselves within 2‑5 years.  He stresses that forecasting is a better test of AI intelligence than standard exams, and that LLMs’ lack of a fixed worldview may be advantageous for exploring unknown futures.  Key quotes include: 'It is absolutely crucial to integrate LLMs into almost all lines of inquiry,' says Tetlock, and 'Superforecasters could predict out 300 days with the same accuracy as ordinary predictors could predict 100 days.'
+2026-01-01T16:31:50.9627188Z Original language: en
+2026-01-01T16:31:50.9627425Z Publish date: September 22, 2025 02:10 PM
+2026-01-01T16:31:50.9627944Z Source:[Newsweek](https://www.newsweek.com/nw-ai/predicting-future-supergroup-ai-humans-hedgehogs-foxes-2132146)
+2026-01-01T16:31:50.9628381Z 
+2026-01-01T16:31:50.9628509Z **Xi Jinping and Putin Discuss Living to 150 Years**
+2026-01-01T16:31:50.9633828Z According to the article, Chinese President Xi Jinping and Russian President Vladimir Putin were overheard discussing the possibility of humans living to 150 years during a ceremony in Beijing marking the 80th anniversary of the end of World War II. The conversation, reported by international media such as CNN, Reuters and Sky News, included Putin saying that biotechnological advances could allow repeated organ transplants and even immortality. Xi replied that some predict humans could reach 150 years in this century. However, aging researcher Morten Scheibye‑Knudsen from the University of Copenhagen cautions that current science is not yet ready for such longevity, citing a biological upper limit of about 120 years. He says, 'Jeg tror, at de fleste aldringsforskere rundt omkring i verden faktisk er enige om, at aldring er en biologisk proces, som vi kan påvirke.' and notes that 'Der er en øvre barriere i vores biologi, som hedder omkring 120 år.' The article also mentions Putin’s long‑standing interest in life extension, his confidant Mikhail Kovalchuk’s research into organ printing, and his daughter Maria Vorontsova’s work on cell renewal. It notes that the oldest living person in Denmark is 111‑year‑old Kirsten Schwalbe. The ceremony also featured a massive military parade with 50,000 spectators and displays of military hardware, and Xi addressed the crowd, affirming China’s strength. The article is sourced from DR.
+2026-01-01T16:31:50.9638519Z Original language: da
+2026-01-01T16:31:50.9638745Z Publish date: September 04, 2025 12:56 PM
+2026-01-01T16:31:50.9639196Z Source:[DR](https://www.dr.dk/nyheder/udland/xi-jinping-og-putin-hyggesnakker-om-blive-150-aar)
+2026-01-01T16:31:50.9639572Z 
+2026-01-01T16:31:50.9639743Z **Xi Jinping and Putin Discuss Human Lifespan**
+2026-01-01T16:31:50.9644759Z The article reports that on 3 September 2025, Chinese President Xi Jinping and Russian President Vladimir Putin were walking on the red carpet in Beijing to watch the 80th‑anniversary parade of the Chinese victory in the anti‑Japanese war. While walking, Xi said, '과거엔 70까지 사는 것도 어려웠지만 지금 70은 어린아이 수준', meaning that in the past living to 70 was rare, but now 70 is considered child‑like. The article states that a translator later reported Putin’s reply in Chinese: '생명공학이 계속 발전함에 따라 몇십년 내에 인간의 장기 이식은 계속 증가할 것이고, 사람들은 더 젊어지고 어쩌면 불노불사를 이룰 수도 있을 것', which translates to ‘With ongoing advances in biotechnology, organ transplantation will increase in the coming decades, people will become younger, and immortality may be possible’. The article also notes that during the conversation, a voice heard from the crowd said, '150살까지 살 수도 있을 것', and another said, '100살까지 살 것으로 예측되고 있다', indicating predictions that humans could live to 150 or 100 years. The article cites that Kim Jong‑un, the North Korean leader, was present and smiled at the discussion. The article concludes that Putin later gave a press conference in which he echoed the idea that modern medical technology and organ replacement give hope for longer active lives, and that life expectancy is rising worldwide. All statements are directly quoted or paraphrased from the article, and the metrics mentioned are 70, 100, and 150 years.
+2026-01-01T16:31:50.9648895Z Original language: ko
+2026-01-01T16:31:50.9649113Z Publish date: September 04, 2025 11:06 AM
+2026-01-01T16:31:50.9649524Z Source:[뉴시스 (NEWSIS)](https://www.newsis.com/view/NISX20250904_0003316608)
+2026-01-01T16:31:50.9649795Z 
+2026-01-01T16:31:50.9650039Z **World's oldest person, Ethel Caterham, turns 116**
+2026-01-01T16:31:50.9655453Z British great‑grandmother Ethel Caterham celebrated her 116th birthday on August 21 and was officially named the world’s oldest living person earlier this year after the death of a Brazilian nun who had held the record.  The article discusses how many people who are reported to be 110 years or older—so‑called ‘supercentenarians’—may actually be younger because of poor record‑keeping.  Dr Saul Newman, a research fellow at the Oxford Institute of Population Ageing, examined the demographics of ‘Blue Zones’ such as Okinawa, Japan, and Sardinia, Italy, and found that these regions, which are often celebrated for longevity, actually have low life expectancies, high poverty, and poor health outcomes, yet are reported to contain many supercentenarians.  Newman attributes this to recording errors, misreported birthdates, and in some cases deliberate misrepresentation.  He also notes that in the United States the introduction of formal birth certificates in the early 20th century led to a 69‑82 % drop in the number of people reported to have reached age 110, suggesting that seven to eight out of every ten claimed supercentenarians may never have reached that age.  The article concludes that while Ethel Caterham was born in an era with better documentation and may indeed be 116, for many others the claim of reaching 110 may be more about missing birth certificates than a truly long, healthy life.  Key quotes include: ‘Blue Zones’ raise red flags and ‘supercentenarians’ may not be as old as they claim.
+2026-01-01T16:31:50.9660659Z Original language: en
+2026-01-01T16:31:50.9660891Z Publish date: August 21, 2025 07:32 PM
+2026-01-01T16:31:50.9661532Z Source:[Australian Broadcasting Corporation](https://www.abc.net.au/news/2025-08-22/whats-the-secret-to-living-to-110-poor-record-keeping-mostly/105681852)
+2026-01-01T16:31:50.9662096Z 
+2026-01-01T16:31:50.9662252Z **Scientists Predict Humans Will Live Up to 125 Years by 2070**
+2026-01-01T16:31:50.9663775Z Scientists from the Netherlands have predicted that the average lifespan will increase to 125 years by 2070. According to their research, published in the Nature journal, this growth is linked to advancements in medicine, the adoption of innovative technologies, and the promotion of a healthy lifestyle. The researchers estimate that women will have the longest lifespan. However, the scientific community has differing opinions on these predictions.
+2026-01-01T16:31:50.9665262Z Original language: ru
+2026-01-01T16:31:50.9665534Z Publish date: August 18, 2025 09:27 AM
+2026-01-01T16:31:50.9665807Z Source:[Life.ru](https://life.ru/p/1781032)
+2026-01-01T16:31:50.9666005Z 
+2026-01-01T16:31:50.9666009Z 
+2026-01-01T16:31:50.9666432Z 2026-01-01 16:31:50,936 - forecasting_tools.forecast_bots.forecast_bot - INFO - Summarizing research for question: https://www.metaculus.com/questions/14333
+2026-01-01T16:31:59.3451133Z 2026-01-01 16:31:59,344 - __main__ - INFO - [GPR DEBUG] New numeric question detected. Resetting counter. ID was: None, now: https://www.metaculus.com/questions/14333
+2026-01-01T16:31:59.3452969Z 2026-01-01 16:31:59,344 - __main__ - INFO - [GPR DEBUG] Numeric call number: 1, Scenarios so far: 0, Question: https://www.metaculus.com/questions/14333
+2026-01-01T16:31:59.3455018Z 2026-01-01 16:31:59,345 - __main__ - INFO - [GPR DEBUG] In _numeric_prompt_to_forecast. Current ID: None, Question URL: https://www.metaculus.com/questions/14333, Match: False
+2026-01-01T16:31:59.3456614Z 2026-01-01 16:31:59,345 - __main__ - INFO - Starting new numeric question https://www.metaculus.com/questions/14333, cleared scenario storage
+2026-01-01T16:31:59.3459317Z 2026-01-01 16:31:59,345 - __main__ - INFO - [GPR DEBUG] Numeric call number: 2, Scenarios so far: 0, Question: https://www.metaculus.com/questions/14333
+2026-01-01T16:31:59.3462027Z 2026-01-01 16:31:59,346 - __main__ - INFO - [GPR DEBUG] In _numeric_prompt_to_forecast. Current ID: https://www.metaculus.com/questions/14333, Question URL: https://www.metaculus.com/questions/14333, Match: True
+2026-01-01T16:31:59.3491676Z 2026-01-01 16:31:59,349 - __main__ - INFO - [GPR DEBUG] Numeric call number: 3, Scenarios so far: 0, Question: https://www.metaculus.com/questions/14333
+2026-01-01T16:31:59.3493843Z 2026-01-01 16:31:59,349 - __main__ - INFO - [GPR DEBUG] In _numeric_prompt_to_forecast. Current ID: https://www.metaculus.com/questions/14333, Question URL: https://www.metaculus.com/questions/14333, Match: True
+2026-01-01T16:31:59.3498094Z 2026-01-01 16:31:59,349 - __main__ - INFO - [GPR DEBUG] Numeric call number: 4, Scenarios so far: 0, Question: https://www.metaculus.com/questions/14333
+2026-01-01T16:31:59.3500524Z 2026-01-01 16:31:59,349 - __main__ - INFO - [GPR DEBUG] In _numeric_prompt_to_forecast. Current ID: https://www.metaculus.com/questions/14333, Question URL: https://www.metaculus.com/questions/14333, Match: True
+2026-01-01T16:31:59.3556289Z 2026-01-01 16:31:59,355 - forecasting_tools.ai_models.resource_managers.monetary_cost_manager - WARNING - Error calculating cost from response object: This model isn't mapped yet. model=gpt-4o-mini, custom_llm_provider=openrouter. Add it here - https://github.com/BerriAI/litellm/blob/main/model_prices_and_context_window.json.
+2026-01-01T16:32:02.4274844Z 2026-01-01 16:32:02,427 - openai.agents - WARNING - OPENAI_API_KEY is not set, skipping trace export
+2026-01-01T16:32:09.6927235Z 2026-01-01 16:32:09,692 - __main__ - INFO - Reasoning for URL https://www.metaculus.com/questions/14333: ### Review some potential outcomes
+2026-01-01T16:32:09.6928629Z 
+2026-01-01T16:32:09.6929012Z 1. **The time left until the outcome to the question is known:**  
+2026-01-01T16:32:09.6929701Z    - 74 years (from 2026 to 2100).
+2026-01-01T16:32:09.6930359Z 
+2026-01-01T16:32:09.6930685Z 2. **The outcome if nothing changed (the current value):**  
+2026-01-01T16:32:09.6931409Z    - As of early 2023, the oldest living person was 115 years old.
+2026-01-01T16:32:09.6931825Z 
+2026-01-01T16:32:09.6932075Z 3. **The outcome if the current trend continued:**  
+2026-01-01T16:32:09.6933161Z    - Given that life expectancy has been increasing, if the trend continues, the oldest living person could potentially reach around 130-140 years by 2100.
+2026-01-01T16:32:09.6934057Z 
+2026-01-01T16:32:09.6934273Z 4. **The expectations of experts and markets:**  
+2026-01-01T16:32:09.6935471Z    - Some experts suggest a theoretical maximum human lifespan of around 150 years, but this is debated. Predictions of average lifespans reaching 125 years by 2070 have been made.
+2026-01-01T16:32:09.6936492Z 
+2026-01-01T16:32:09.6936796Z 5. **The volatility history and expectations for the target measure:**  
+2026-01-01T16:32:09.6938276Z    - The maximum age has shown some variability but generally trends upward with occasional outliers like Jeanne Calment who lived to 122 years. Expectations are that this trend will continue with some fluctuations.
+2026-01-01T16:32:09.6939503Z 
+2026-01-01T16:32:09.6939675Z ### Group the evidence
+2026-01-01T16:32:09.6940087Z 
+2026-01-01T16:32:09.6940432Z - **Bucket 1: Evidence that would indicate a relatively low forecast**
+2026-01-01T16:32:09.6941236Z   - The historical maximum age of 122 years (Jeanne Calment) has not been surpassed since 1997.
+2026-01-01T16:32:09.6942108Z   - The article mentioning a biological upper limit of about 120 years.
+2026-01-01T16:32:09.6943014Z   - The skepticism around predictions of living to 150 years due to current scientific limitations.
+2026-01-01T16:32:09.6943623Z 
+2026-01-01T16:32:09.6943912Z - **Bucket 2: Evidence that would indicate a relatively high forecast**
+2026-01-01T16:32:09.6944746Z   - Predictions of humans potentially living to 150 years due to biotechnological advances.
+2026-01-01T16:32:09.6945798Z   - Discussions between world leaders (Xi Jinping and Putin) about the possibility of living to 150 years.
+2026-01-01T16:32:09.6946842Z   - Theoretical studies suggesting a maximum lifespan of 150 years based on cell resilience.
+2026-01-01T16:32:09.6947386Z 
+2026-01-01T16:32:09.6947648Z - **Bucket 3: Evidence that would indicate a central forecast**
+2026-01-01T16:32:09.6948361Z   - Predictions of average lifespan increasing to 125 years by 2070.
+2026-01-01T16:32:09.6949388Z   - The trend of increasing life expectancy and the potential for more centenarians and supercentenarians.
+2026-01-01T16:32:09.6951014Z   - Research into genetic and lifestyle factors contributing to longevity, suggesting gradual improvements.
+2026-01-01T16:32:09.6951717Z 
+2026-01-01T16:32:09.6951881Z ### Multi-world considerations
+2026-01-01T16:32:09.6952168Z 
+2026-01-01T16:32:09.6952307Z **1. Low_World:**
+2026-01-01T16:32:09.6952676Z    - **Low forecast estimate:** 120 years
+2026-01-01T16:32:09.6953152Z    - **Mid forecast estimate:** 125 years
+2026-01-01T16:32:09.6953633Z    - **High forecast estimate:** 130 years
+2026-01-01T16:32:09.6953957Z 
+2026-01-01T16:32:09.6954082Z **2. High_World:**
+2026-01-01T16:32:09.6954445Z    - **Low forecast estimate:** 135 years
+2026-01-01T16:32:09.6954945Z    - **Mid forecast estimate:** 140 years
+2026-01-01T16:32:09.6955381Z    - **High forecast estimate:** 150 years
+2026-01-01T16:32:09.6955696Z 
+2026-01-01T16:32:09.6955823Z **3. Mid_World:**
+2026-01-01T16:32:09.6956172Z    - **Low forecast estimate:** 130 years
+2026-01-01T16:32:09.6957004Z    - **Mid forecast estimate:** 135 years
+2026-01-01T16:32:09.6957509Z    - **High forecast estimate:** 140 years
+2026-01-01T16:32:09.6957828Z 
+2026-01-01T16:32:09.6957975Z ### Verify units
+2026-01-01T16:32:09.6958197Z - Units for the answer are: years old
+2026-01-01T16:32:09.6958540Z 
+2026-01-01T16:32:09.6958617Z ### Final Answer
+2026-01-01T16:32:09.6958825Z [120, 125, 130, 130, 135, 140, 135, 140, 150]
+2026-01-01T16:32:09.6959508Z 2026-01-01 16:32:09,695 - forecasting_tools.ai_models.resource_managers.monetary_cost_manager - WARNING - Litellm hidden param cost 0.0 and response object cost 0.030665 are different.
+2026-01-01T16:32:09.9871088Z 2026-01-01 16:32:09,986 - __main__ - INFO - Reasoning for URL https://www.metaculus.com/questions/14333: ## Review some potential outcomes
+2026-01-01T16:32:09.9871663Z 
+2026-01-01T16:32:09.9871852Z 1. **The time left until the outcome to the question is known:**  
+2026-01-01T16:32:09.9872214Z    74 years (from 2026 to 2100).
+2026-01-01T16:32:09.9872388Z 
+2026-01-01T16:32:09.9872559Z 2. **The outcome if nothing changed (the current value):**  
+2026-01-01T16:32:09.9873024Z    The current oldest living person is 116 years old (Ethel Caterham as of 2025).
+2026-01-01T16:32:09.9873345Z 
+2026-01-01T16:32:09.9873480Z 3. **The outcome if the current trend continued:**  
+2026-01-01T16:32:09.9874334Z    Given the gradual increase in maximum age over the past century, if the trend continues, we might expect the oldest person in 2100 to be slightly older than the current record of 122 years (Jeanne Calment).
+2026-01-01T16:32:09.9875044Z 
+2026-01-01T16:32:09.9875174Z 4. **The expectations of experts and markets:**  
+2026-01-01T16:32:09.9876100Z    Some experts suggest a theoretical maximum human lifespan of around 150 years, though this is speculative. Others believe that significant increases in lifespan will require breakthroughs in biotechnology and medicine.
+2026-01-01T16:32:09.9876908Z 
+2026-01-01T16:32:09.9877100Z 5. **The volatility history and expectations for the target measure:**  
+2026-01-01T16:32:09.9878105Z    The maximum age of the oldest living person has shown slow increases over the past century, with occasional outliers. Expectations for volatility are low unless there are major breakthroughs in anti-aging research.
+2026-01-01T16:32:09.9879150Z 
+2026-01-01T16:32:09.9879244Z ## Group the evidence
+2026-01-01T16:32:09.9879402Z 
+2026-01-01T16:32:09.9879668Z - **Bucket 1: Evidence that would indicate a relatively low forecast**
+2026-01-01T16:32:09.9880469Z   - Theoretical upper limit to human lifespan suggested to be around 120 years by some researchers.
+2026-01-01T16:32:09.9881185Z   - Historical data showing that many predictions of significant lifespan increases have not materialized.
+2026-01-01T16:32:09.9881896Z   - The fact that most people do not live beyond 100 years, and the number of supercentenarians is very low.
+2026-01-01T16:32:09.9882296Z 
+2026-01-01T16:32:09.9882494Z - **Bucket 2: Evidence that would indicate a relatively high forecast**
+2026-01-01T16:32:09.9883051Z   - Predictions of humans potentially living to 150 years due to biotechnological advances.
+2026-01-01T16:32:09.9883685Z   - Discussions by world leaders and researchers about extending human lifespan significantly.
+2026-01-01T16:32:09.9884313Z   - Optimistic forecasts about future medical breakthroughs and their impact on longevity.
+2026-01-01T16:32:09.9884686Z 
+2026-01-01T16:32:09.9884902Z - **Bucket 3: Evidence that would indicate a central forecast**
+2026-01-01T16:32:09.9885382Z   - Current trends showing gradual increases in maximum lifespan.
+2026-01-01T16:32:09.9885979Z   - Studies on centenarians and supercentenarians indicating potential for moderate increases in lifespan.
+2026-01-01T16:32:09.9886761Z   - The role of genetics, lifestyle, and medical care in extending lifespan, suggesting moderate improvements are possible.
+2026-01-01T16:32:09.9887247Z 
+2026-01-01T16:32:09.9887345Z ## Multi-world considerations
+2026-01-01T16:32:09.9887507Z 
+2026-01-01T16:32:09.9887578Z ### Low_World
+2026-01-01T16:32:09.9888140Z - **Low forecast estimate:** 120 years
+2026-01-01T16:32:09.9888399Z - **Mid forecast estimate:** 125 years
+2026-01-01T16:32:09.9888650Z - **High forecast estimate:** 130 years
+2026-01-01T16:32:09.9888819Z 
+2026-01-01T16:32:09.9888893Z ### High_World
+2026-01-01T16:32:09.9889216Z - **Low forecast estimate:** 135 years
+2026-01-01T16:32:09.9889467Z - **Mid forecast estimate:** 140 years
+2026-01-01T16:32:09.9889716Z - **High forecast estimate:** 150 years
+2026-01-01T16:32:09.9890000Z 
+2026-01-01T16:32:09.9890077Z ### Mid_World
+2026-01-01T16:32:09.9890270Z - **Low forecast estimate:** 130 years
+2026-01-01T16:32:09.9890638Z - **Mid forecast estimate:** 135 years
+2026-01-01T16:32:09.9891057Z - **High forecast estimate:** 140 years
+2026-01-01T16:32:09.9891349Z 
+2026-01-01T16:32:09.9891470Z ## Verify units
+2026-01-01T16:32:09.9891803Z Units for the answer are: years old
+2026-01-01T16:32:09.9892077Z 
+2026-01-01T16:32:09.9892197Z ## Final Answer
+2026-01-01T16:32:09.9892522Z [120, 125, 130, 130, 135, 140, 135, 140, 150]
+2026-01-01T16:32:09.9893738Z 2026-01-01 16:32:09,988 - forecasting_tools.ai_models.resource_managers.monetary_cost_manager - WARNING - Litellm hidden param cost 0.0 and response object cost 0.030515 are different.
+2026-01-01T16:32:10.2587450Z 2026-01-01 16:32:10,258 - __main__ - INFO - Reasoning for URL https://www.metaculus.com/questions/14333: ## Review some potential outcomes
+2026-01-01T16:32:10.2588211Z 
+2026-01-01T16:32:10.2588441Z 1. **The time left until the outcome to the question is known:**  
+2026-01-01T16:32:10.2589047Z    The outcome will be known on January 1, 2100, which is 74 years from today.
+2026-01-01T16:32:10.2589432Z 
+2026-01-01T16:32:10.2589624Z 2. **The outcome if nothing changed (the current value):**  
+2026-01-01T16:32:10.2590448Z    As of early 2023, the oldest living person was Maria Branyas at 115 years old.
+2026-01-01T16:32:10.2590839Z 
+2026-01-01T16:32:10.2591007Z 3. **The outcome if the current trend continued:**  
+2026-01-01T16:32:10.2592265Z    Life expectancy has been increasing, and the maximum age has also seen a gradual increase. If this trend continues, we might expect the oldest living person to be slightly older than the current record of 122 years (held by Jeanne Calment).
+2026-01-01T16:32:10.2593389Z 
+2026-01-01T16:32:10.2593555Z 4. **The expectations of experts and markets:**  
+2026-01-01T16:32:10.2594930Z    Experts have varying opinions, with some suggesting a theoretical maximum human lifespan of around 150 years, while others are more conservative, suggesting that significant increases in maximum age are unlikely without major breakthroughs.
+2026-01-01T16:32:10.2596402Z 
+2026-01-01T16:32:10.2596667Z 5. **The volatility history and expectations for the target measure:**  
+2026-01-01T16:32:10.2598010Z    The maximum age has shown slow and steady increases over the past century, with occasional outliers. Expectations are that any changes will continue to be gradual unless there are significant medical or technological breakthroughs.
+2026-01-01T16:32:10.2599102Z 
+2026-01-01T16:32:10.2599212Z ## Group the evidence
+2026-01-01T16:32:10.2599393Z 
+2026-01-01T16:32:10.2599629Z - **Bucket 1: Evidence that would indicate a relatively low forecast**
+2026-01-01T16:32:10.2600540Z   - The current oldest living person is 116 years old, indicating that reaching beyond this age is rare.
+2026-01-01T16:32:10.2601308Z   - Historical data shows that very few people have lived beyond 115 years.
+2026-01-01T16:32:10.2602184Z   - The theoretical upper limit of human lifespan is often cited as around 120 years by some researchers.
+2026-01-01T16:32:10.2602647Z 
+2026-01-01T16:32:10.2602821Z - **Bucket 2: Evidence that would indicate a relatively high forecast**
+2026-01-01T16:32:10.2603346Z   - Some scientists predict humans could live up to 150 years based on biotechnological advancements.
+2026-01-01T16:32:10.2603931Z   - Discussions among world leaders and researchers about potential longevity breakthroughs.
+2026-01-01T16:32:10.2604486Z   - Predictions of significant increases in average lifespan due to medical advancements.
+2026-01-01T16:32:10.2605171Z 
+2026-01-01T16:32:10.2605326Z - **Bucket 3: Evidence that would indicate a central forecast**
+2026-01-01T16:32:10.2605692Z   - The current record for human lifespan is 122 years.
+2026-01-01T16:32:10.2606335Z   - Studies on centenarians and supercentenarians show unique genetic and lifestyle factors contributing to longevity.
+2026-01-01T16:32:10.2606933Z   - The gradual increase in life expectancy and maximum age over the past century.
+2026-01-01T16:32:10.2607295Z 
+2026-01-01T16:32:10.2607430Z ## Multi-world considerations
+2026-01-01T16:32:10.2607644Z 
+2026-01-01T16:32:10.2607766Z ### Low_World
+2026-01-01T16:32:10.2608106Z - **Low forecast estimate:** 115 years
+2026-01-01T16:32:10.2608551Z - **Mid forecast estimate:** 120 years
+2026-01-01T16:32:10.2608987Z - **High forecast estimate:** 125 years
+2026-01-01T16:32:10.2609276Z 
+2026-01-01T16:32:10.2609396Z ### High_World
+2026-01-01T16:32:10.2609722Z - **Low forecast estimate:** 130 years
+2026-01-01T16:32:10.2610398Z - **Mid forecast estimate:** 140 years
+2026-01-01T16:32:10.2610863Z - **High forecast estimate:** 150 years
+2026-01-01T16:32:10.2611188Z 
+2026-01-01T16:32:10.2611322Z ### Mid_World
+2026-01-01T16:32:10.2611661Z - **Low forecast estimate:** 125 years
+2026-01-01T16:32:10.2612122Z - **Mid forecast estimate:** 130 years
+2026-01-01T16:32:10.2612565Z - **High forecast estimate:** 135 years
+2026-01-01T16:32:10.2612870Z 
+2026-01-01T16:32:10.2612989Z ## Verify units
+2026-01-01T16:32:10.2613330Z The units for the answer are: years old.
+2026-01-01T16:32:10.2613637Z 
+2026-01-01T16:32:10.2613766Z ## Final Answer
+2026-01-01T16:32:10.2614229Z The final answer, considering the different world scenarios, is:
+2026-01-01T16:32:10.2614672Z 
+2026-01-01T16:32:10.2614828Z [115, 120, 125, 125, 130, 135, 130, 140, 150]
+2026-01-01T16:32:10.2616030Z 2026-01-01 16:32:10,260 - forecasting_tools.ai_models.resource_managers.monetary_cost_manager - WARNING - Litellm hidden param cost 0.0 and response object cost 0.030755 are different.
+2026-01-01T16:32:10.7447418Z 2026-01-01 16:32:10,744 - forecasting_tools.ai_models.resource_managers.monetary_cost_manager - WARNING - Error calculating cost from response object: This model isn't mapped yet. model=gpt-4o-mini, custom_llm_provider=openrouter. Add it here - https://github.com/BerriAI/litellm/blob/main/model_prices_and_context_window.json.
+2026-01-01T16:32:10.9904374Z 2026-01-01 16:32:10,989 - forecasting_tools.ai_models.resource_managers.monetary_cost_manager - WARNING - Error calculating cost from response object: This model isn't mapped yet. model=gpt-4o-mini, custom_llm_provider=openrouter. Add it here - https://github.com/BerriAI/litellm/blob/main/model_prices_and_context_window.json.
+2026-01-01T16:32:11.1058552Z 2026-01-01 16:32:11,105 - forecasting_tools.ai_models.resource_managers.monetary_cost_manager - WARNING - Error calculating cost from response object: This model isn't mapped yet. model=gpt-4o-mini, custom_llm_provider=openrouter. Add it here - https://github.com/BerriAI/litellm/blob/main/model_prices_and_context_window.json.
+2026-01-01T16:32:11.3447479Z 2026-01-01 16:32:11,344 - __main__ - INFO - Reasoning for URL https://www.metaculus.com/questions/14333: ## Review some potential outcomes
+2026-01-01T16:32:11.3448081Z 
+2026-01-01T16:32:11.3448368Z 1. **The time left until the outcome to the question is known**: 74 years (from 2026 to 2100).
+2026-01-01T16:32:11.3449039Z 2. **The outcome if nothing changed (the current value)**: The oldest living person as of early 2023 is 115 years old.
+2026-01-01T16:32:11.3450357Z 3. **The outcome if the current trend continued**: If life expectancy continues to rise linearly, the age of the oldest living person could increase, but the maximum age might not follow the same trend.
+2026-01-01T16:32:11.3451680Z 4. **The expectations of experts and markets**: Some experts predict a theoretical upper limit of around 150 years, while others are more conservative, suggesting a maximum around 125 years by 2070.
+2026-01-01T16:32:11.3453292Z 5. **The volatility history and expectations for the target measure**: The maximum age has seen slow increases, with the record being 122 years. Predictions vary, with some expecting significant breakthroughs and others expecting gradual increases.
+2026-01-01T16:32:11.3455025Z 
+2026-01-01T16:32:11.3455134Z ## Group the evidence
+2026-01-01T16:32:11.3455290Z 
+2026-01-01T16:32:11.3455482Z ### Bucket 1: Evidence that would indicate a relatively low forecast
+2026-01-01T16:32:11.3456435Z - The article from LADbible suggests a theoretical upper limit of 150 years, but most people will not approach it, with only about 15% of women and 5% of men living beyond 100.
+2026-01-01T16:32:11.3457742Z - The article from the Australian Broadcasting Corporation highlights issues with record-keeping, suggesting that many reported supercentenarians may not be as old as claimed.
+2026-01-01T16:32:11.3458977Z - The article from DR mentions a biological upper limit of about 120 years, with current science not yet ready for significantly longer lifespans.
+2026-01-01T16:32:11.3459560Z 
+2026-01-01T16:32:11.3459750Z ### Bucket 2: Evidence that would indicate a relatively high forecast
+2026-01-01T16:32:11.3460611Z - The article from Life.ru predicts an average lifespan of 125 years by 2070, suggesting significant advancements in medicine and technology.
+2026-01-01T16:32:11.3462106Z - The discussion between Xi Jinping and Putin, as reported by 뉴시스 (NEWSIS), suggests optimism about biotechnology potentially allowing humans to live up to 150 years.
+2026-01-01T16:32:11.3463096Z - The article from Newsweek discusses the potential of AI and other advancements to improve forecasting and possibly extend lifespans.
+2026-01-01T16:32:11.3463537Z 
+2026-01-01T16:32:11.3463685Z ### Bucket 3: Evidence that would indicate a central forecast
+2026-01-01T16:32:11.3464381Z - The study of Maria Branyas, as reported by ScienceAlert, highlights the role of genetics and lifestyle in longevity, suggesting potential for gradual increases in maximum age.
+2026-01-01T16:32:11.3465348Z - The article from NDTV discusses unique blood profiles of centenarians, indicating potential for future interventions to extend life expectancy.
+2026-01-01T16:32:11.3466212Z - The article from The Japan Times emphasizes the role of women in longevity, with biological differences potentially leading to longer lifespans.
+2026-01-01T16:32:11.3466681Z 
+2026-01-01T16:32:11.3466773Z ## Multi-world considerations
+2026-01-01T16:32:11.3467034Z 
+2026-01-01T16:32:11.3467135Z ### Low_World
+2026-01-01T16:32:11.3467419Z - **Low forecast estimate**: 120 years
+2026-01-01T16:32:11.3467848Z - **Mid forecast estimate**: 125 years
+2026-01-01T16:32:11.3468257Z - **High forecast estimate**: 130 years
+2026-01-01T16:32:11.3468496Z 
+2026-01-01T16:32:11.3468570Z ### High_World
+2026-01-01T16:32:11.3468771Z - **Low forecast estimate**: 135 years
+2026-01-01T16:32:11.3469014Z - **Mid forecast estimate**: 140 years
+2026-01-01T16:32:11.3469260Z - **High forecast estimate**: 145 years
+2026-01-01T16:32:11.3469421Z 
+2026-01-01T16:32:11.3469501Z ### Mid_World
+2026-01-01T16:32:11.3469691Z - **Low forecast estimate**: 130 years
+2026-01-01T16:32:11.3470184Z - **Mid forecast estimate**: 135 years
+2026-01-01T16:32:11.3470437Z - **High forecast estimate**: 140 years
+2026-01-01T16:32:11.3470598Z 
+2026-01-01T16:32:11.3470682Z ## Verify units
+2026-01-01T16:32:11.3470878Z Units for the answer are: years old
+2026-01-01T16:32:11.3471044Z 
+2026-01-01T16:32:11.3471116Z # Final Answer
+2026-01-01T16:32:11.3471308Z [120, 125, 130, 130, 135, 140, 135, 140, 145]
+2026-01-01T16:32:11.3471976Z 2026-01-01 16:32:11,346 - forecasting_tools.ai_models.resource_managers.monetary_cost_manager - WARNING - Litellm hidden param cost 0.0 and response object cost 0.031315 are different.
+2026-01-01T16:32:11.8239622Z 2026-01-01 16:32:11,823 - __main__ - INFO - Parsed 9 numeric scenarios: [120.0, 125.0, 130.0, 130.0, 135.0, 140.0, 135.0, 140.0, 150.0]
+2026-01-01T16:32:11.8241271Z 2026-01-01 16:32:11,823 - __main__ - INFO - Total numeric scenarios stored for question https://www.metaculus.com/questions/14333: 9 scenarios
+2026-01-01T16:32:11.8253514Z 2026-01-01 16:32:11,825 - forecasting_tools.ai_models.resource_managers.monetary_cost_manager - WARNING - Error calculating cost from response object: This model isn't mapped yet. model=gpt-4o-mini, custom_llm_provider=openrouter. Add it here - https://github.com/BerriAI/litellm/blob/main/model_prices_and_context_window.json.
+2026-01-01T16:32:11.8999549Z 2026-01-01 16:32:11,899 - __main__ - INFO - Parsed 9 numeric scenarios: [115.0, 120.0, 125.0, 125.0, 130.0, 135.0, 130.0, 140.0, 150.0]
+2026-01-01T16:32:11.9001497Z 2026-01-01 16:32:11,899 - __main__ - INFO - Total numeric scenarios stored for question https://www.metaculus.com/questions/14333: 18 scenarios
+2026-01-01T16:32:11.9013131Z 2026-01-01 16:32:11,901 - forecasting_tools.ai_models.resource_managers.monetary_cost_manager - WARNING - Error calculating cost from response object: This model isn't mapped yet. model=gpt-4o-mini, custom_llm_provider=openrouter. Add it here - https://github.com/BerriAI/litellm/blob/main/model_prices_and_context_window.json.
+2026-01-01T16:32:12.4342565Z 2026-01-01 16:32:12,433 - openai.agents - WARNING - OPENAI_API_KEY is not set, skipping trace export
+2026-01-01T16:32:12.4944144Z 2026-01-01 16:32:12,494 - __main__ - INFO - Parsed 9 numeric scenarios: [120.0, 125.0, 130.0, 130.0, 135.0, 140.0, 135.0, 140.0, 150.0]
+2026-01-01T16:32:12.4945282Z 2026-01-01 16:32:12,494 - __main__ - INFO - Total numeric scenarios stored for question https://www.metaculus.com/questions/14333: 27 scenarios
+2026-01-01T16:32:12.4956608Z 2026-01-01 16:32:12,495 - forecasting_tools.ai_models.resource_managers.monetary_cost_manager - WARNING - Error calculating cost from response object: This model isn't mapped yet. model=gpt-4o-mini, custom_llm_provider=openrouter. Add it here - https://github.com/BerriAI/litellm/blob/main/model_prices_and_context_window.json.
+2026-01-01T16:32:12.5247158Z 2026-01-01 16:32:12,524 - forecasting_tools.ai_models.resource_managers.monetary_cost_manager - WARNING - Error calculating cost from response object: This model isn't mapped yet. model=gpt-4o-mini, custom_llm_provider=openrouter. Add it here - https://github.com/BerriAI/litellm/blob/main/model_prices_and_context_window.json.
+2026-01-01T16:32:13.3831245Z 2026-01-01 16:32:13,382 - __main__ - INFO - Parsed 9 numeric scenarios: [120.0, 125.0, 130.0, 130.0, 135.0, 140.0, 135.0, 140.0, 145.0]
+2026-01-01T16:32:13.3832708Z 2026-01-01 16:32:13,382 - __main__ - INFO - Total numeric scenarios stored for question https://www.metaculus.com/questions/14333: 36 scenarios
+2026-01-01T16:32:13.3844959Z 2026-01-01 16:32:13,384 - forecasting_tools.ai_models.resource_managers.monetary_cost_manager - WARNING - Error calculating cost from response object: This model isn't mapped yet. model=gpt-4o-mini, custom_llm_provider=openrouter. Add it here - https://github.com/BerriAI/litellm/blob/main/model_prices_and_context_window.json.
+2026-01-01T16:32:13.3870852Z 2026-01-01 16:32:13,384 - forecasting_tools.forecast_bots.forecast_bot - WARNING - Encountered errors while predicting: ["ValidationError: 6 validation errors for NumericDistribution\ndeclared_percentiles\n  Field required [type=missing, input_value={'percentiles': {10: 120...., 80: 140.0, 90: 150.0}}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.12/v/missing\nopen_upper_bound\n  Field required [type=missing, input_value={'percentiles': {10: 120...., 80: 140.0, 90: 150.0}}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.12/v/missing\nopen_lower_bound\n  Field required [type=missing, input_value={'percentiles': {10: 120...., 80: 140.0, 90: 150.0}}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.12/v/missing\nupper_bound\n  Field required [type=missing, input_value={'percentiles': {10: 120...., 80: 140.0, 90: 150.0}}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.12/v/missing\nlower_bound\n  Field required [type=missing, input_value={'percentiles': {10: 120...., 80: 140.0, 90: 150.0}}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.12/v/missing\nzero_point\n  Field required [type=missing, input_value={'percentiles': {10: 120...., 80: 140.0, 90: 150.0}}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.12/v/missing", "ValidationError: 6 validation errors for NumericDistribution\ndeclared_percentiles\n  Field required [type=missing, input_value={'percentiles': {10: 120...., 80: 140.0, 90: 145.0}}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.12/v/missing\nopen_upper_bound\n  Field required [type=missing, input_value={'percentiles': {10: 120...., 80: 140.0, 90: 145.0}}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.12/v/missing\nopen_lower_bound\n  Field required [type=missing, input_value={'percentiles': {10: 120...., 80: 140.0, 90: 145.0}}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.12/v/missing\nupper_bound\n  Field required [type=missing, input_value={'percentiles': {10: 120...., 80: 140.0, 90: 145.0}}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.12/v/missing\nlower_bound\n  Field required [type=missing, input_value={'percentiles': {10: 120...., 80: 140.0, 90: 145.0}}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.12/v/missing\nzero_point\n  Field required [type=missing, input_value={'percentiles': {10: 120...., 80: 140.0, 90: 145.0}}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.12/v/missing", "ValidationError: 6 validation errors for NumericDistribution\ndeclared_percentiles\n  Field required [type=missing, input_value={'percentiles': {10: 120...., 80: 140.0, 90: 150.0}}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.12/v/missing\nopen_upper_bound\n  Field required [type=missing, input_value={'percentiles': {10: 120...., 80: 140.0, 90: 150.0}}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.12/v/missing\nopen_lower_bound\n  Field required [type=missing, input_value={'percentiles': {10: 120...., 80: 140.0, 90: 150.0}}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.12/v/missing\nupper_bound\n  Field required [type=missing, input_value={'percentiles': {10: 120...., 80: 140.0, 90: 150.0}}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.12/v/missing\nlower_bound\n  Field required [type=missing, input_value={'percentiles': {10: 120...., 80: 140.0, 90: 150.0}}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.12/v/missing\nzero_point\n  Field required [type=missing, input_value={'percentiles': {10: 120...., 80: 140.0, 90: 150.0}}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.12/v/missing", "ValidationError: 6 validation errors for NumericDistribution\ndeclared_percentiles\n  Field required [type=missing, input_value={'percentiles': {10: 115...., 80: 140.0, 90: 150.0}}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.12/v/missing\nopen_upper_bound\n  Field required [type=missing, input_value={'percentiles': {10: 115...., 80: 140.0, 90: 150.0}}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.12/v/missing\nopen_lower_bound\n  Field required [type=missing, input_value={'percentiles': {10: 115...., 80: 140.0, 90: 150.0}}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.12/v/missing\nupper_bound\n  Field required [type=missing, input_value={'percentiles': {10: 115...., 80: 140.0, 90: 150.0}}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.12/v/missing\nlower_bound\n  Field required [type=missing, input_value={'percentiles': {10: 115...., 80: 140.0, 90: 150.0}}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.12/v/missing\nzero_point\n  Field required [type=missing, input_value={'percentiles': {10: 115...., 80: 140.0, 90: 150.0}}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.12/v/missing"]
+2026-01-01T16:32:13.3901594Z 2026-01-01 16:32:13,384 - forecasting_tools.forecast_bots.forecast_bot - WARNING - Encountered errors while researching: ['ExceptionGroup: 4 sub-exceptions -> Error while running research and predictions: Errors: ["ValidationError: 6 validation errors for NumericDistribution\\ndeclared_percentiles\\n  Field required [type=missing, input_value={\'percentiles\': {10: 120...., 80: 140.0, 90: 150.0}}, input_type=dict]\\n    For further information visit https://errors.pydantic.dev/2.12/v/missing\\nopen_upper_bound\\n  Field required [type=missing, input_value={\'percentiles\': {10: 120...., 80: 140.0, 90: 150.0}}, input_type=dict]\\n    For further information visit https://errors.pydantic.dev/2.12/v/missing\\nopen_lower_bound\\n  Field required [type=missing, input_value={\'percentiles\': {10: 120...., 80: 140.0, 90: 150.0}}, input_type=dict]\\n    For further information visit https://errors.pydantic.dev/2.12/v/missing\\nupper_bound\\n  Field required [type=missing, input_value={\'percentiles\': {10: 120...., 80: 140.0, 90: 150.0}}, input_type=dict]\\n    For further information visit https://errors.pydantic.dev/2.12/v/missing\\nlower_bound\\n  Field required [type=missing, input_value={\'percentiles\': {10: 120...., 80: 140.0, 90: 150.0}}, input_type=dict]\\n    For further information visit https://errors.pydantic.dev/2.12/v/missing\\nzero_point\\n  Field required [type=missing, input_value={\'percentiles\': {10: 120...., 80: 140.0, 90: 150.0}}, input_type=dict]\\n    For further information visit https://errors.pydantic.dev/2.12/v/missing", "ValidationError: 6 validation errors for NumericDistribution\\ndeclared_percentiles\\n  Field required [type=missing, input_value={\'percentiles\': {10: 120...., 80: 140.0, 90: 145.0}}, input_type=dict]\\n    For further information visit https://errors.pydantic.dev/2.12/v/missing\\nopen_upper_bound\\n  Field required [type=missing, input_value={\'percentiles\': {10: 120...., 80: 140.0, 90: 145.0}}, input_type=dict]\\n    For further information visit https://errors.pydantic.dev/2.12/v/missing\\nopen_lower_bound\\n  Field required [type=missing, input_value={\'percentiles\': {10: 120...., 80: 140.0, 90: 145.0}}, input_type=dict]\\n    For further information visit https://errors.pydantic.dev/2.12/v/missing\\nupper_bound\\n  Field required [type=missing, input_value={\'percentiles\': {10: 120...., 80: 140.0, 90: 145.0}}, input_type=dict]\\n    For further information visit https://errors.pydantic.dev/2.12/v/missing\\nlower_bound\\n  Field required [type=missing, input_value={\'percentiles\': {10: 120...., 80: 140.0, 90: 145.0}}, input_type=dict]\\n    For further information visit https://errors.pydantic.dev/2.12/v/missing\\nzero_point\\n  Field required [type=missing, input_value={\'percentiles\': {10: 120...., 80: 140.0, 90: 145.0}}, input_type=dict]\\n    For further information visit https://errors.pydantic.dev/2.12/v/missing", "ValidationError: 6 validation errors for NumericDistribution\\ndeclared_percentiles\\n  Field required [type=missing, input_value={\'percentiles\': {10: 120...., 80: 140.0, 90: 150.0}}, input_type=dict]\\n    For further information visit https://errors.pydantic.dev/2.12/v/missing\\nopen_upper_bound\\n  Field required [type=missing, input_value={\'percentiles\': {10: 120...., 80: 140.0, 90: 150.0}}, input_type=dict]\\n    For further information visit https://errors.pydantic.dev/2.12/v/missing\\nopen_lower_bound\\n  Field required [type=missing, input_value={\'percentiles\': {10: 120...., 80: 140.0, 90: 150.0}}, input_type=dict]\\n    For further information visit https://errors.pydantic.dev/2.12/v/missing\\nupper_bound\\n  Field required [type=missing, input_value={\'percentiles\': {10: 120...., 80: 140.0, 90: 150.0}}, input_type=dict]\\n    For further information visit https://errors.pydantic.dev/2.12/v/missing\\nlower_bound\\n  Field required [type=missing, input_value={\'percentiles\': {10: 120...., 80: 140.0, 90: 150.0}}, input_type=dict]\\n    For further information visit https://errors.pydantic.dev/2.12/v/missing\\nzero_point\\n  Field required [type=missing, input_value={\'percentiles\': {10: 120...., 80: 140.0, 90: 150.0}}, input_type=dict]\\n    For further information visit https://errors.pydantic.dev/2.12/v/missing", "ValidationError: 6 validation errors for NumericDistribution\\ndeclared_percentiles\\n  Field required [type=missing, input_value={\'percentiles\': {10: 115...., 80: 140.0, 90: 150.0}}, input_type=dict]\\n    For further information visit https://errors.pydantic.dev/2.12/v/missing\\nopen_upper_bound\\n  Field required [type=missing, input_value={\'percentiles\': {10: 115...., 80: 140.0, 90: 150.0}}, input_type=dict]\\n    For further information visit https://errors.pydantic.dev/2.12/v/missing\\nopen_lower_bound\\n  Field required [type=missing, input_value={\'percentiles\': {10: 115...., 80: 140.0, 90: 150.0}}, input_type=dict]\\n    For further information visit https://errors.pydantic.dev/2.12/v/missing\\nupper_bound\\n  Field required [type=missing, input_value={\'percentiles\': {10: 115...., 80: 140.0, 90: 150.0}}, input_type=dict]\\n    For further information visit https://errors.pydantic.dev/2.12/v/missing\\nlower_bound\\n  Field required [type=missing, input_value={\'percentiles\': {10: 115...., 80: 140.0, 90: 150.0}}, input_type=dict]\\n    For further information visit https://errors.pydantic.dev/2.12/v/missing\\nzero_point\\n  Field required [type=missing, input_value={\'percentiles\': {10: 115...., 80: 140.0, 90: 150.0}}, input_type=dict]\\n    For further information visit https://errors.pydantic.dev/2.12/v/missing"] (4 sub-exceptions)']
+2026-01-01T16:32:13.3931179Z 2026-01-01 16:32:13,384 - forecasting_tools.forecast_bots.forecast_bot - ERROR - Error while processing question url: 'https://www.metaculus.com/questions/14333': 1 sub-exceptions -> All 1 research reports/predictions failed: Errors: ['ExceptionGroup: 4 sub-exceptions -> Error while running research and predictions: Errors: ["ValidationError: 6 validation errors for NumericDistribution\\ndeclared_percentiles\\n  Field required [type=missing, input_value={\'percentiles\': {10: 120...., 80: 140.0, 90: 150.0}}, input_type=dict]\\n    For further information visit https://errors.pydantic.dev/2.12/v/missing\\nopen_upper_bound\\n  Field required [type=missing, input_value={\'percentiles\': {10: 120...., 80: 140.0, 90: 150.0}}, input_type=dict]\\n    For further information visit https://errors.pydantic.dev/2.12/v/missing\\nopen_lower_bound\\n  Field required [type=missing, input_value={\'percentiles\': {10: 120...., 80: 140.0, 90: 150.0}}, input_type=dict]\\n    For further information visit https://errors.pydantic.dev/2.12/v/missing\\nupper_bound\\n  Field required [type=missing, input_value={\'percentiles\': {10: 120...., 80: 140.0, 90: 150.0}}, input_type=dict]\\n    For further information visit https://errors.pydantic.dev/2.12/v/missing\\nlower_bound\\n  Field required [type=missing, input_value={\'percentiles\': {10: 120...., 80: 140.0, 90: 150.0}}, input_type=dict]\\n    For further information visit https://errors.pydantic.dev/2.12/v/missing\\nzero_point\\n  Field required [type=missing, input_value={\'percentiles\': {10: 120...., 80: 140.0, 90: 150.0}}, input_type=dict]\\n    For further information visit https://errors.pydantic.dev/2.12/v/missing", "ValidationError: 6 validation errors for NumericDistribution\\ndeclared_percentiles\\n  Field required [type=missing, input_value={\'percentiles\': {10: 120...., 80: 140.0, 90: 145.0}}, input_type=dict]\\n    For further information visit https://errors.pydantic.dev/2.12/v/missing\\nopen_upper_bound\\n  Field required [type=missing, input_value={\'percentiles\': {10: 120...., 80: 140.0, 90: 145.0}}, input_type=dict]\\n    For further information visit https://errors.pydantic.dev/2.12/v/missing\\nopen_lower_bound\\n  Field required [type=missing, input_value={\'percentiles\': {10: 120...., 80: 140.0, 90: 145.0}}, input_type=dict]\\n    For further information visit https://errors.pydantic.dev/2.12/v/missing\\nupper_bound\\n  Field required [type=missing, input_value={\'percentiles\': {10: 120...., 80: 140.0, 90: 145.0}}, input_type=dict]\\n    For further information visit https://errors.pydantic.dev/2.12/v/missing\\nlower_bound\\n  Field required [type=missing, input_value={\'percentiles\': {10: 120...., 80: 140.0, 90: 145.0}}, input_type=dict]\\n    For further information visit https://errors.pydantic.dev/2.12/v/missing\\nzero_point\\n  Field required [type=missing, input_value={\'percentiles\': {10: 120...., 80: 140.0, 90: 145.0}}, input_type=dict]\\n    For further information visit https://errors.pydantic.dev/2.12/v/missing", "ValidationError: 6 validation errors for NumericDistribution\\ndeclared_percentiles\\n  Field required [type=missing, input_value={\'percentiles\': {10: 120...., 80: 140.0, 90: 150.0}}, input_type=dict]\\n    For further information visit https://errors.pydantic.dev/2.12/v/missing\\nopen_upper_bound\\n  Field required [type=missing, input_value={\'percentiles\': {10: 120...., 80: 140.0, 90: 150.0}}, input_type=dict]\\n    For further information visit https://errors.pydantic.dev/2.12/v/missing\\nopen_lower_bound\\n  Field required [type=missing, input_value={\'percentiles\': {10: 120...., 80: 140.0, 90: 150.0}}, input_type=dict]\\n    For further information visit https://errors.pydantic.dev/2.12/v/missing\\nupper_bound\\n  Field required [type=missing, input_value={\'percentiles\': {10: 120...., 80: 140.0, 90: 150.0}}, input_type=dict]\\n    For further information visit https://errors.pydantic.dev/2.12/v/missing\\nlower_bound\\n  Field required [type=missing, input_value={\'percentiles\': {10: 120...., 80: 140.0, 90: 150.0}}, input_type=dict]\\n    For further information visit https://errors.pydantic.dev/2.12/v/missing\\nzero_point\\n  Field required [type=missing, input_value={\'percentiles\': {10: 120...., 80: 140.0, 90: 150.0}}, input_type=dict]\\n    For further information visit https://errors.pydantic.dev/2.12/v/missing", "ValidationError: 6 validation errors for NumericDistribution\\ndeclared_percentiles\\n  Field required [type=missing, input_value={\'percentiles\': {10: 115...., 80: 140.0, 90: 150.0}}, input_type=dict]\\n    For further information visit https://errors.pydantic.dev/2.12/v/missing\\nopen_upper_bound\\n  Field required [type=missing, input_value={\'percentiles\': {10: 115...., 80: 140.0, 90: 150.0}}, input_type=dict]\\n    For further information visit https://errors.pydantic.dev/2.12/v/missing\\nopen_lower_bound\\n  Field required [type=missing, input_value={\'percentiles\': {10: 115...., 80: 140.0, 90: 150.0}}, input_type=dict]\\n    For further information visit https://errors.pydantic.dev/2.12/v/missing\\nupper_bound\\n  Field required [type=missing, input_value={\'percentiles\': {10: 115...., 80: 140.0, 90: 150.0}}, input_type=dict]\\n    For further information visit https://errors.pydantic.dev/2.12/v/missing\\nlower_bound\\n  Field required [type=missing, input_value={\'percentiles\': {10: 115...., 80: 140.0, 90: 150.0}}, input_type=dict]\\n    For further information visit https://errors.pydantic.dev/2.12/v/missing\\nzero_point\\n  Field required [type=missing, input_value={\'percentiles\': {10: 115...., 80: 140.0, 90: 150.0}}, input_type=dict]\\n    For further information visit https://errors.pydantic.dev/2.12/v/missing"] (4 sub-exceptions)'] (1 sub-exception)
+2026-01-01T16:32:13.3946431Z 2026-01-01 16:32:13,384 - forecasting_tools.forecast_bots.forecast_bot - INFO - 
+2026-01-01T16:32:13.3946872Z ----------------------------------------------------------------------------------------------------
+2026-01-01T16:32:13.3947223Z Bot: SpringTemplateBot2026
+2026-01-01T16:32:13.3951080Z ❌ Exception: ExceptionGroup | Message: 1 sub-exceptions -> Error while processing question url: 'https://www.metaculus.com/questions/14333': 1 sub-exceptions -> All 1 research reports/predictions failed: Errors: ['ExceptionGroup: 4 sub-exceptions -> Error while running research and predictions: Errors: ["ValidationError: 6 validation errors for NumericDistribution\\ndeclared_percentiles\\n  Field required [type=missing, input_value={\'percentiles\': {10: 120...., 80: 140.0, 90: 150.0}}, input_type=dict]\\n    For further information ...//errors.pydantic.dev/2.12/v/missing\\nlower_bound\\n  Field required [type=missing, input_value={\'percentiles\': {10: 115...., 80: 140.0, 90: 150.0}}, input_type=dict]\\n    For further information visit https://errors.pydantic.dev/2.12/v/missing\\nzero_point\\n  Field required [type=missing, input_value={\'percentiles\': {10: 115...., 80: 140.0, 90: 150.0}}, input_type=dict]\\n    For further information visit https://errors.pydantic.dev/2.12/v/missing"] (4 sub-exceptions)'] (1 sub-exception)
+2026-01-01T16:32:13.3954361Z 
+2026-01-01T16:32:13.3954456Z Stats for passing reports:
+2026-01-01T16:32:13.3954691Z Total cost estimated: $0.00000
+2026-01-01T16:32:13.3954933Z Average cost per question: $0.00000
+2026-01-01T16:32:13.3955224Z Average time spent per question: 0.0000 minutes
+2026-01-01T16:32:13.3955879Z Note: LLM costs are calculated via litellm, and models or search tools not supported by litellm will not be tracked. See what is supported here: https://models.litellm.ai/. 
+2026-01-01T16:32:13.3956590Z ----------------------------------------------------------------------------------------------------
+2026-01-01T16:32:13.3956846Z 
+2026-01-01T16:32:13.3956851Z 
+2026-01-01T16:32:13.3956855Z 
+2026-01-01T16:32:13.4307493Z 2026-01-01 16:32:13,429 - forecasting_tools.forecast_bots.forecast_bot - ERROR - Exception occurred during forecasting:
+2026-01-01T16:32:13.4309639Z   + Exception Group Traceback (most recent call last):
+2026-01-01T16:32:13.4312582Z   |   File "/home/runner/work/metac-bot-template/metac-bot-template/.venv/lib/python3.11/site-packages/forecasting_tools/forecast_bots/forecast_bot.py", line 341, in _run_individual_question_with_error_propagation
+2026-01-01T16:32:13.4315522Z   |     return await self._run_individual_question(question)
+2026-01-01T16:32:13.4316444Z   |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-01-01T16:32:13.4318691Z   |   File "/home/runner/work/metac-bot-template/metac-bot-template/.venv/lib/python3.11/site-packages/forecasting_tools/forecast_bots/forecast_bot.py", line 384, in _run_individual_question
+2026-01-01T16:32:13.4321218Z   |     await self._handle_errors_in__run_individual_question(
+2026-01-01T16:32:13.4322509Z   |   File "/home/runner/work/metac-bot-template/metac-bot-template/.venv/lib/python3.11/site-packages/forecasting_tools/forecast_bots/forecast_bot.py", line 430, in _handle_errors_in__run_individual_question
+2026-01-01T16:32:13.4323596Z   |     self._reraise_exception_with_prepended_message(
+2026-01-01T16:32:13.4324678Z   |   File "/home/runner/work/metac-bot-template/metac-bot-template/.venv/lib/python3.11/site-packages/forecasting_tools/forecast_bots/forecast_bot.py", line 746, in _reraise_exception_with_prepended_message
+2026-01-01T16:32:13.4325806Z   |     raise ExceptionGroup(
+2026-01-01T16:32:13.4344429Z   | ExceptionGroup: 1 sub-exceptions -> All 1 research reports/predictions failed: Errors: ['ExceptionGroup: 4 sub-exceptions -> Error while running research and predictions: Errors: ["ValidationError: 6 validation errors for NumericDistribution\\ndeclared_percentiles\\n  Field required [type=missing, input_value={\'percentiles\': {10: 120...., 80: 140.0, 90: 150.0}}, input_type=dict]\\n    For further information visit https://errors.pydantic.dev/2.12/v/missing\\nopen_upper_bound\\n  Field required [type=missing, input_value={\'percentiles\': {10: 120...., 80: 140.0, 90: 150.0}}, input_type=dict]\\n    For further information visit https://errors.pydantic.dev/2.12/v/missing\\nopen_lower_bound\\n  Field required [type=missing, input_value={\'percentiles\': {10: 120...., 80: 140.0, 90: 150.0}}, input_type=dict]\\n    For further information visit https://errors.pydantic.dev/2.12/v/missing\\nupper_bound\\n  Field required [type=missing, input_value={\'percentiles\': {10: 120...., 80: 140.0, 90: 150.0}}, input_type=dict]\\n    For further information visit https://errors.pydantic.dev/2.12/v/missing\\nlower_bound\\n  Field required [type=missing, input_value={\'percentiles\': {10: 120...., 80: 140.0, 90: 150.0}}, input_type=dict]\\n    For further information visit https://errors.pydantic.dev/2.12/v/missing\\nzero_point\\n  Field required [type=missing, input_value={\'percentiles\': {10: 120...., 80: 140.0, 90: 150.0}}, input_type=dict]\\n    For further information visit https://errors.pydantic.dev/2.12/v/missing", "ValidationError: 6 validation errors for NumericDistribution\\ndeclared_percentiles\\n  Field required [type=missing, input_value={\'percentiles\': {10: 120...., 80: 140.0, 90: 145.0}}, input_type=dict]\\n    For further information visit https://errors.pydantic.dev/2.12/v/missing\\nopen_upper_bound\\n  Field required [type=missing, input_value={\'percentiles\': {10: 120...., 80: 140.0, 90: 145.0}}, input_type=dict]\\n    For further information visit https://errors.pydantic.dev/2.12/v/missing\\nopen_lower_bound\\n  Field required [type=missing, input_value={\'percentiles\': {10: 120...., 80: 140.0, 90: 145.0}}, input_type=dict]\\n    For further information visit https://errors.pydantic.dev/2.12/v/missing\\nupper_bound\\n  Field required [type=missing, input_value={\'percentiles\': {10: 120...., 80: 140.0, 90: 145.0}}, input_type=dict]\\n    For further information visit https://errors.pydantic.dev/2.12/v/missing\\nlower_bound\\n  Field required [type=missing, input_value={\'percentiles\': {10: 120...., 80: 140.0, 90: 145.0}}, input_type=dict]\\n    For further information visit https://errors.pydantic.dev/2.12/v/missing\\nzero_point\\n  Field required [type=missing, input_value={\'percentiles\': {10: 120...., 80: 140.0, 90: 145.0}}, input_type=dict]\\n    For further information visit https://errors.pydantic.dev/2.12/v/missing", "ValidationError: 6 validation errors for NumericDistribution\\ndeclared_percentiles\\n  Field required [type=missing, input_value={\'percentiles\': {10: 120...., 80: 140.0, 90: 150.0}}, input_type=dict]\\n    For further information visit https://errors.pydantic.dev/2.12/v/missing\\nopen_upper_bound\\n  Field required [type=missing, input_value={\'percentiles\': {10: 120...., 80: 140.0, 90: 150.0}}, input_type=dict]\\n    For further information visit https://errors.pydantic.dev/2.12/v/missing\\nopen_lower_bound\\n  Field required [type=missing, input_value={\'percentiles\': {10: 120...., 80: 140.0, 90: 150.0}}, input_type=dict]\\n    For further information visit https://errors.pydantic.dev/2.12/v/missing\\nupper_bound\\n  Field required [type=missing, input_value={\'percentiles\': {10: 120...., 80: 140.0, 90: 150.0}}, input_type=dict]\\n    For further information visit https://errors.pydantic.dev/2.12/v/missing\\nlower_bound\\n  Field required [type=missing, input_value={\'percentiles\': {10: 120...., 80: 140.0, 90: 150.0}}, input_type=dict]\\n    For further information visit https://errors.pydantic.dev/2.12/v/missing\\nzero_point\\n  Field required [type=missing, input_value={\'percentiles\': {10: 120...., 80: 140.0, 90: 150.0}}, input_type=dict]\\n    For further information visit https://errors.pydantic.dev/2.12/v/missing", "ValidationError: 6 validation errors for NumericDistribution\\ndeclared_percentiles\\n  Field required [type=missing, input_value={\'percentiles\': {10: 115...., 80: 140.0, 90: 150.0}}, input_type=dict]\\n    For further information visit https://errors.pydantic.dev/2.12/v/missing\\nopen_upper_bound\\n  Field required [type=missing, input_value={\'percentiles\': {10: 115...., 80: 140.0, 90: 150.0}}, input_type=dict]\\n    For further information visit https://errors.pydantic.dev/2.12/v/missing\\nopen_lower_bound\\n  Field required [type=missing, input_value={\'percentiles\': {10: 115...., 80: 140.0, 90: 150.0}}, input_type=dict]\\n    For further information visit https://errors.pydantic.dev/2.12/v/missing\\nupper_bound\\n  Field required [type=missing, input_value={\'percentiles\': {10: 115...., 80: 140.0, 90: 150.0}}, input_type=dict]\\n    For further information visit https://errors.pydantic.dev/2.12/v/missing\\nlower_bound\\n  Field required [type=missing, input_value={\'percentiles\': {10: 115...., 80: 140.0, 90: 150.0}}, input_type=dict]\\n    For further information visit https://errors.pydantic.dev/2.12/v/missing\\nzero_point\\n  Field required [type=missing, input_value={\'percentiles\': {10: 115...., 80: 140.0, 90: 150.0}}, input_type=dict]\\n    For further information visit https://errors.pydantic.dev/2.12/v/missing"] (4 sub-exceptions)'] (1 sub-exception)
+2026-01-01T16:32:13.4362430Z   +-+---------------- 1 ----------------
+2026-01-01T16:32:13.4362750Z     | Exception Group Traceback (most recent call last):
+2026-01-01T16:32:13.4363249Z     |   File "/opt/hostedtoolcache/Python/3.11.14/x64/lib/python3.11/asyncio/tasks.py", line 277, in __step
+2026-01-01T16:32:13.4363696Z     |     result = coro.send(None)
+2026-01-01T16:32:13.4363930Z     |              ^^^^^^^^^^^^^^^
+2026-01-01T16:32:13.4364689Z     |   File "/home/runner/work/metac-bot-template/metac-bot-template/.venv/lib/python3.11/site-packages/forecasting_tools/forecast_bots/forecast_bot.py", line 484, in _research_and_make_predictions
+2026-01-01T16:32:13.4365492Z     |     self._reraise_exception_with_prepended_message(
+2026-01-01T16:32:13.4366320Z     |   File "/home/runner/work/metac-bot-template/metac-bot-template/.venv/lib/python3.11/site-packages/forecasting_tools/forecast_bots/forecast_bot.py", line 746, in _reraise_exception_with_prepended_message
+2026-01-01T16:32:13.4367105Z     |     raise ExceptionGroup(
+2026-01-01T16:32:13.4381428Z     | ExceptionGroup: 4 sub-exceptions -> Error while running research and predictions: Errors: ["ValidationError: 6 validation errors for NumericDistribution\ndeclared_percentiles\n  Field required [type=missing, input_value={'percentiles': {10: 120...., 80: 140.0, 90: 150.0}}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.12/v/missing\nopen_upper_bound\n  Field required [type=missing, input_value={'percentiles': {10: 120...., 80: 140.0, 90: 150.0}}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.12/v/missing\nopen_lower_bound\n  Field required [type=missing, input_value={'percentiles': {10: 120...., 80: 140.0, 90: 150.0}}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.12/v/missing\nupper_bound\n  Field required [type=missing, input_value={'percentiles': {10: 120...., 80: 140.0, 90: 150.0}}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.12/v/missing\nlower_bound\n  Field required [type=missing, input_value={'percentiles': {10: 120...., 80: 140.0, 90: 150.0}}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.12/v/missing\nzero_point\n  Field required [type=missing, input_value={'percentiles': {10: 120...., 80: 140.0, 90: 150.0}}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.12/v/missing", "ValidationError: 6 validation errors for NumericDistribution\ndeclared_percentiles\n  Field required [type=missing, input_value={'percentiles': {10: 120...., 80: 140.0, 90: 145.0}}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.12/v/missing\nopen_upper_bound\n  Field required [type=missing, input_value={'percentiles': {10: 120...., 80: 140.0, 90: 145.0}}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.12/v/missing\nopen_lower_bound\n  Field required [type=missing, input_value={'percentiles': {10: 120...., 80: 140.0, 90: 145.0}}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.12/v/missing\nupper_bound\n  Field required [type=missing, input_value={'percentiles': {10: 120...., 80: 140.0, 90: 145.0}}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.12/v/missing\nlower_bound\n  Field required [type=missing, input_value={'percentiles': {10: 120...., 80: 140.0, 90: 145.0}}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.12/v/missing\nzero_point\n  Field required [type=missing, input_value={'percentiles': {10: 120...., 80: 140.0, 90: 145.0}}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.12/v/missing", "ValidationError: 6 validation errors for NumericDistribution\ndeclared_percentiles\n  Field required [type=missing, input_value={'percentiles': {10: 120...., 80: 140.0, 90: 150.0}}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.12/v/missing\nopen_upper_bound\n  Field required [type=missing, input_value={'percentiles': {10: 120...., 80: 140.0, 90: 150.0}}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.12/v/missing\nopen_lower_bound\n  Field required [type=missing, input_value={'percentiles': {10: 120...., 80: 140.0, 90: 150.0}}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.12/v/missing\nupper_bound\n  Field required [type=missing, input_value={'percentiles': {10: 120...., 80: 140.0, 90: 150.0}}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.12/v/missing\nlower_bound\n  Field required [type=missing, input_value={'percentiles': {10: 120...., 80: 140.0, 90: 150.0}}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.12/v/missing\nzero_point\n  Field required [type=missing, input_value={'percentiles': {10: 120...., 80: 140.0, 90: 150.0}}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.12/v/missing", "ValidationError: 6 validation errors for NumericDistribution\ndeclared_percentiles\n  Field required [type=missing, input_value={'percentiles': {10: 115...., 80: 140.0, 90: 150.0}}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.12/v/missing\nopen_upper_bound\n  Field required [type=missing, input_value={'percentiles': {10: 115...., 80: 140.0, 90: 150.0}}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.12/v/missing\nopen_lower_bound\n  Field required [type=missing, input_value={'percentiles': {10: 115...., 80: 140.0, 90: 150.0}}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.12/v/missing\nupper_bound\n  Field required [type=missing, input_value={'percentiles': {10: 115...., 80: 140.0, 90: 150.0}}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.12/v/missing\nlower_bound\n  Field required [type=missing, input_value={'percentiles': {10: 115...., 80: 140.0, 90: 150.0}}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.12/v/missing\nzero_point\n  Field required [type=missing, input_value={'percentiles': {10: 115...., 80: 140.0, 90: 150.0}}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.12/v/missing"] (4 sub-exceptions)
+2026-01-01T16:32:13.4395768Z     +-+---------------- 1 ----------------
+2026-01-01T16:32:13.4396038Z       | Traceback (most recent call last):
+2026-01-01T16:32:13.4396489Z       |   File "/opt/hostedtoolcache/Python/3.11.14/x64/lib/python3.11/asyncio/tasks.py", line 277, in __step
+2026-01-01T16:32:13.4396931Z       |     result = coro.send(None)
+2026-01-01T16:32:13.4397165Z       |              ^^^^^^^^^^^^^^^
+2026-01-01T16:32:13.4397852Z       |   File "/home/runner/work/metac-bot-template/metac-bot-template/.venv/lib/python3.11/site-packages/forecasting_tools/forecast_bots/forecast_bot.py", line 514, in _make_prediction
+2026-01-01T16:32:13.4398605Z       |     prediction = await forecast_function(question, research)
+2026-01-01T16:32:13.4398914Z       |                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-01-01T16:32:13.4399392Z       |   File "/home/runner/work/metac-bot-template/metac-bot-template/main.py", line 593, in _run_forecast_on_numeric
+2026-01-01T16:32:13.4400178Z       |     result = await self._numeric_prompt_to_forecast(question, prompt)
+2026-01-01T16:32:13.4400526Z       |              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-01-01T16:32:13.4401154Z       |   File "/home/runner/work/metac-bot-template/metac-bot-template/main.py", line 647, in _numeric_prompt_to_forecast
+2026-01-01T16:32:13.4401713Z       |     temp_percentiles = self._create_temp_distribution_from_scenarios(
+2026-01-01T16:32:13.4402152Z       |                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-01-01T16:32:13.4402676Z       |   File "/home/runner/work/metac-bot-template/metac-bot-template/main.py", line 679, in _create_temp_distribution_from_scenarios
+2026-01-01T16:32:13.4403252Z       |     return NumericDistribution(percentiles=temp_percentiles)
+2026-01-01T16:32:13.4403570Z       |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-01-01T16:32:13.4404137Z       |   File "/home/runner/work/metac-bot-template/metac-bot-template/.venv/lib/python3.11/site-packages/pydantic/main.py", line 250, in __init__
+2026-01-01T16:32:13.4404841Z       |     validated_self = self.__pydantic_validator__.validate_python(data, self_instance=self)
+2026-01-01T16:32:13.4405253Z       |                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-01-01T16:32:13.4405680Z       | pydantic_core._pydantic_core.ValidationError: 6 validation errors for NumericDistribution
+2026-01-01T16:32:13.4406100Z       | declared_percentiles
+2026-01-01T16:32:13.4406521Z       |   Field required [type=missing, input_value={'percentiles': {10: 120...., 80: 140.0, 90: 150.0}}, input_type=dict]
+2026-01-01T16:32:13.4407079Z       |     For further information visit https://errors.pydantic.dev/2.12/v/missing
+2026-01-01T16:32:13.4407437Z       | open_upper_bound
+2026-01-01T16:32:13.4407832Z       |   Field required [type=missing, input_value={'percentiles': {10: 120...., 80: 140.0, 90: 150.0}}, input_type=dict]
+2026-01-01T16:32:13.4408369Z       |     For further information visit https://errors.pydantic.dev/2.12/v/missing
+2026-01-01T16:32:13.4408719Z       | open_lower_bound
+2026-01-01T16:32:13.4409108Z       |   Field required [type=missing, input_value={'percentiles': {10: 120...., 80: 140.0, 90: 150.0}}, input_type=dict]
+2026-01-01T16:32:13.4409633Z       |     For further information visit https://errors.pydantic.dev/2.12/v/missing
+2026-01-01T16:32:13.4410224Z       | upper_bound
+2026-01-01T16:32:13.4410608Z       |   Field required [type=missing, input_value={'percentiles': {10: 120...., 80: 140.0, 90: 150.0}}, input_type=dict]
+2026-01-01T16:32:13.4411132Z       |     For further information visit https://errors.pydantic.dev/2.12/v/missing
+2026-01-01T16:32:13.4411476Z       | lower_bound
+2026-01-01T16:32:13.4411844Z       |   Field required [type=missing, input_value={'percentiles': {10: 120...., 80: 140.0, 90: 150.0}}, input_type=dict]
+2026-01-01T16:32:13.4412369Z       |     For further information visit https://errors.pydantic.dev/2.12/v/missing
+2026-01-01T16:32:13.4412700Z       | zero_point
+2026-01-01T16:32:13.4413069Z       |   Field required [type=missing, input_value={'percentiles': {10: 120...., 80: 140.0, 90: 150.0}}, input_type=dict]
+2026-01-01T16:32:13.4413595Z       |     For further information visit https://errors.pydantic.dev/2.12/v/missing
+2026-01-01T16:32:13.4413953Z       +---------------- 2 ----------------
+2026-01-01T16:32:13.4414219Z       | Traceback (most recent call last):
+2026-01-01T16:32:13.4414657Z       |   File "/opt/hostedtoolcache/Python/3.11.14/x64/lib/python3.11/asyncio/tasks.py", line 277, in __step
+2026-01-01T16:32:13.4415098Z       |     result = coro.send(None)
+2026-01-01T16:32:13.4415328Z       |              ^^^^^^^^^^^^^^^
+2026-01-01T16:32:13.4416013Z       |   File "/home/runner/work/metac-bot-template/metac-bot-template/.venv/lib/python3.11/site-packages/forecasting_tools/forecast_bots/forecast_bot.py", line 514, in _make_prediction
+2026-01-01T16:32:13.4416768Z       |     prediction = await forecast_function(question, research)
+2026-01-01T16:32:13.4417081Z       |                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-01-01T16:32:13.4417767Z       |   File "/home/runner/work/metac-bot-template/metac-bot-template/main.py", line 593, in _run_forecast_on_numeric
+2026-01-01T16:32:13.4418414Z       |     result = await self._numeric_prompt_to_forecast(question, prompt)
+2026-01-01T16:32:13.4418753Z       |              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-01-01T16:32:13.4419364Z       |   File "/home/runner/work/metac-bot-template/metac-bot-template/main.py", line 647, in _numeric_prompt_to_forecast
+2026-01-01T16:32:13.4420062Z       |     temp_percentiles = self._create_temp_distribution_from_scenarios(
+2026-01-01T16:32:13.4420399Z       |                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-01-01T16:32:13.4420922Z       |   File "/home/runner/work/metac-bot-template/metac-bot-template/main.py", line 679, in _create_temp_distribution_from_scenarios
+2026-01-01T16:32:13.4421537Z       |     return NumericDistribution(percentiles=temp_percentiles)
+2026-01-01T16:32:13.4422015Z       |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-01-01T16:32:13.4422690Z       |   File "/home/runner/work/metac-bot-template/metac-bot-template/.venv/lib/python3.11/site-packages/pydantic/main.py", line 250, in __init__
+2026-01-01T16:32:13.4423392Z       |     validated_self = self.__pydantic_validator__.validate_python(data, self_instance=self)
+2026-01-01T16:32:13.4423800Z       |                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-01-01T16:32:13.4424291Z       | pydantic_core._pydantic_core.ValidationError: 6 validation errors for NumericDistribution
+2026-01-01T16:32:13.4424703Z       | declared_percentiles
+2026-01-01T16:32:13.4425111Z       |   Field required [type=missing, input_value={'percentiles': {10: 120...., 80: 140.0, 90: 145.0}}, input_type=dict]
+2026-01-01T16:32:13.4425653Z       |     For further information visit https://errors.pydantic.dev/2.12/v/missing
+2026-01-01T16:32:13.4426008Z       | open_upper_bound
+2026-01-01T16:32:13.4426402Z       |   Field required [type=missing, input_value={'percentiles': {10: 120...., 80: 140.0, 90: 145.0}}, input_type=dict]
+2026-01-01T16:32:13.4426940Z       |     For further information visit https://errors.pydantic.dev/2.12/v/missing
+2026-01-01T16:32:13.4427289Z       | open_lower_bound
+2026-01-01T16:32:13.4427674Z       |   Field required [type=missing, input_value={'percentiles': {10: 120...., 80: 140.0, 90: 145.0}}, input_type=dict]
+2026-01-01T16:32:13.4428202Z       |     For further information visit https://errors.pydantic.dev/2.12/v/missing
+2026-01-01T16:32:13.4428551Z       | upper_bound
+2026-01-01T16:32:13.4428921Z       |   Field required [type=missing, input_value={'percentiles': {10: 120...., 80: 140.0, 90: 145.0}}, input_type=dict]
+2026-01-01T16:32:13.4429445Z       |     For further information visit https://errors.pydantic.dev/2.12/v/missing
+2026-01-01T16:32:13.4429784Z       | lower_bound
+2026-01-01T16:32:13.4430303Z       |   Field required [type=missing, input_value={'percentiles': {10: 120...., 80: 140.0, 90: 145.0}}, input_type=dict]
+2026-01-01T16:32:13.4430835Z       |     For further information visit https://errors.pydantic.dev/2.12/v/missing
+2026-01-01T16:32:13.4431176Z       | zero_point
+2026-01-01T16:32:13.4431552Z       |   Field required [type=missing, input_value={'percentiles': {10: 120...., 80: 140.0, 90: 145.0}}, input_type=dict]
+2026-01-01T16:32:13.4432083Z       |     For further information visit https://errors.pydantic.dev/2.12/v/missing
+2026-01-01T16:32:13.4432435Z       +---------------- 3 ----------------
+2026-01-01T16:32:13.4432696Z       | Traceback (most recent call last):
+2026-01-01T16:32:13.4433130Z       |   File "/opt/hostedtoolcache/Python/3.11.14/x64/lib/python3.11/asyncio/tasks.py", line 277, in __step
+2026-01-01T16:32:13.4433561Z       |     result = coro.send(None)
+2026-01-01T16:32:13.4433791Z       |              ^^^^^^^^^^^^^^^
+2026-01-01T16:32:13.4434472Z       |   File "/home/runner/work/metac-bot-template/metac-bot-template/.venv/lib/python3.11/site-packages/forecasting_tools/forecast_bots/forecast_bot.py", line 514, in _make_prediction
+2026-01-01T16:32:13.4435392Z       |     prediction = await forecast_function(question, research)
+2026-01-01T16:32:13.4435702Z       |                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-01-01T16:32:13.4436282Z       |   File "/home/runner/work/metac-bot-template/metac-bot-template/main.py", line 593, in _run_forecast_on_numeric
+2026-01-01T16:32:13.4436843Z       |     result = await self._numeric_prompt_to_forecast(question, prompt)
+2026-01-01T16:32:13.4437178Z       |              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-01-01T16:32:13.4437676Z       |   File "/home/runner/work/metac-bot-template/metac-bot-template/main.py", line 647, in _numeric_prompt_to_forecast
+2026-01-01T16:32:13.4438235Z       |     temp_percentiles = self._create_temp_distribution_from_scenarios(
+2026-01-01T16:32:13.4438567Z       |                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-01-01T16:32:13.4439096Z       |   File "/home/runner/work/metac-bot-template/metac-bot-template/main.py", line 679, in _create_temp_distribution_from_scenarios
+2026-01-01T16:32:13.4439673Z       |     return NumericDistribution(percentiles=temp_percentiles)
+2026-01-01T16:32:13.4440247Z       |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-01-01T16:32:13.4440838Z       |   File "/home/runner/work/metac-bot-template/metac-bot-template/.venv/lib/python3.11/site-packages/pydantic/main.py", line 250, in __init__
+2026-01-01T16:32:13.4441539Z       |     validated_self = self.__pydantic_validator__.validate_python(data, self_instance=self)
+2026-01-01T16:32:13.4441942Z       |                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-01-01T16:32:13.4442370Z       | pydantic_core._pydantic_core.ValidationError: 6 validation errors for NumericDistribution
+2026-01-01T16:32:13.4442778Z       | declared_percentiles
+2026-01-01T16:32:13.4443188Z       |   Field required [type=missing, input_value={'percentiles': {10: 120...., 80: 140.0, 90: 150.0}}, input_type=dict]
+2026-01-01T16:32:13.4443734Z       |     For further information visit https://errors.pydantic.dev/2.12/v/missing
+2026-01-01T16:32:13.4444093Z       | open_upper_bound
+2026-01-01T16:32:13.4444483Z       |   Field required [type=missing, input_value={'percentiles': {10: 120...., 80: 140.0, 90: 150.0}}, input_type=dict]
+2026-01-01T16:32:13.4445014Z       |     For further information visit https://errors.pydantic.dev/2.12/v/missing
+2026-01-01T16:32:13.4445364Z       | open_lower_bound
+2026-01-01T16:32:13.4445750Z       |   Field required [type=missing, input_value={'percentiles': {10: 120...., 80: 140.0, 90: 150.0}}, input_type=dict]
+2026-01-01T16:32:13.4446285Z       |     For further information visit https://errors.pydantic.dev/2.12/v/missing
+2026-01-01T16:32:13.4446627Z       | upper_bound
+2026-01-01T16:32:13.4446993Z       |   Field required [type=missing, input_value={'percentiles': {10: 120...., 80: 140.0, 90: 150.0}}, input_type=dict]
+2026-01-01T16:32:13.4447522Z       |     For further information visit https://errors.pydantic.dev/2.12/v/missing
+2026-01-01T16:32:13.4447865Z       | lower_bound
+2026-01-01T16:32:13.4448227Z       |   Field required [type=missing, input_value={'percentiles': {10: 120...., 80: 140.0, 90: 150.0}}, input_type=dict]
+2026-01-01T16:32:13.4448759Z       |     For further information visit https://errors.pydantic.dev/2.12/v/missing
+2026-01-01T16:32:13.4449097Z       | zero_point
+2026-01-01T16:32:13.4449459Z       |   Field required [type=missing, input_value={'percentiles': {10: 120...., 80: 140.0, 90: 150.0}}, input_type=dict]
+2026-01-01T16:32:13.4450118Z       |     For further information visit https://errors.pydantic.dev/2.12/v/missing
+2026-01-01T16:32:13.4450477Z       +---------------- 4 ----------------
+2026-01-01T16:32:13.4450733Z       | Traceback (most recent call last):
+2026-01-01T16:32:13.4451169Z       |   File "/opt/hostedtoolcache/Python/3.11.14/x64/lib/python3.11/asyncio/tasks.py", line 277, in __step
+2026-01-01T16:32:13.4451764Z       |     result = coro.send(None)
+2026-01-01T16:32:13.4451994Z       |              ^^^^^^^^^^^^^^^
+2026-01-01T16:32:13.4452678Z       |   File "/home/runner/work/metac-bot-template/metac-bot-template/.venv/lib/python3.11/site-packages/forecasting_tools/forecast_bots/forecast_bot.py", line 514, in _make_prediction
+2026-01-01T16:32:13.4453528Z       |     prediction = await forecast_function(question, research)
+2026-01-01T16:32:13.4453839Z       |                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-01-01T16:32:13.4454313Z       |   File "/home/runner/work/metac-bot-template/metac-bot-template/main.py", line 593, in _run_forecast_on_numeric
+2026-01-01T16:32:13.4454859Z       |     result = await self._numeric_prompt_to_forecast(question, prompt)
+2026-01-01T16:32:13.4455189Z       |              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-01-01T16:32:13.4455677Z       |   File "/home/runner/work/metac-bot-template/metac-bot-template/main.py", line 647, in _numeric_prompt_to_forecast
+2026-01-01T16:32:13.4456241Z       |     temp_percentiles = self._create_temp_distribution_from_scenarios(
+2026-01-01T16:32:13.4456574Z       |                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-01-01T16:32:13.4457107Z       |   File "/home/runner/work/metac-bot-template/metac-bot-template/main.py", line 679, in _create_temp_distribution_from_scenarios
+2026-01-01T16:32:13.4457682Z       |     return NumericDistribution(percentiles=temp_percentiles)
+2026-01-01T16:32:13.4457998Z       |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-01-01T16:32:13.4458559Z       |   File "/home/runner/work/metac-bot-template/metac-bot-template/.venv/lib/python3.11/site-packages/pydantic/main.py", line 250, in __init__
+2026-01-01T16:32:13.4459263Z       |     validated_self = self.__pydantic_validator__.validate_python(data, self_instance=self)
+2026-01-01T16:32:13.4459669Z       |                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-01-01T16:32:13.4460228Z       | pydantic_core._pydantic_core.ValidationError: 6 validation errors for NumericDistribution
+2026-01-01T16:32:13.4460642Z       | declared_percentiles
+2026-01-01T16:32:13.4461050Z       |   Field required [type=missing, input_value={'percentiles': {10: 115...., 80: 140.0, 90: 150.0}}, input_type=dict]
+2026-01-01T16:32:13.4461591Z       |     For further information visit https://errors.pydantic.dev/2.12/v/missing
+2026-01-01T16:32:13.4461946Z       | open_upper_bound
+2026-01-01T16:32:13.4462336Z       |   Field required [type=missing, input_value={'percentiles': {10: 115...., 80: 140.0, 90: 150.0}}, input_type=dict]
+2026-01-01T16:32:13.4462865Z       |     For further information visit https://errors.pydantic.dev/2.12/v/missing
+2026-01-01T16:32:13.4463218Z       | open_lower_bound
+2026-01-01T16:32:13.4463604Z       |   Field required [type=missing, input_value={'percentiles': {10: 115...., 80: 140.0, 90: 150.0}}, input_type=dict]
+2026-01-01T16:32:13.4464132Z       |     For further information visit https://errors.pydantic.dev/2.12/v/missing
+2026-01-01T16:32:13.4464474Z       | upper_bound
+2026-01-01T16:32:13.4464846Z       |   Field required [type=missing, input_value={'percentiles': {10: 115...., 80: 140.0, 90: 150.0}}, input_type=dict]
+2026-01-01T16:32:13.4465374Z       |     For further information visit https://errors.pydantic.dev/2.12/v/missing
+2026-01-01T16:32:13.4465721Z       | lower_bound
+2026-01-01T16:32:13.4466089Z       |   Field required [type=missing, input_value={'percentiles': {10: 115...., 80: 140.0, 90: 150.0}}, input_type=dict]
+2026-01-01T16:32:13.4466610Z       |     For further information visit https://errors.pydantic.dev/2.12/v/missing
+2026-01-01T16:32:13.4466952Z       | zero_point
+2026-01-01T16:32:13.4467320Z       |   Field required [type=missing, input_value={'percentiles': {10: 115...., 80: 140.0, 90: 150.0}}, input_type=dict]
+2026-01-01T16:32:13.4467848Z       |     For further information visit https://errors.pydantic.dev/2.12/v/missing
+2026-01-01T16:32:13.4468360Z       +------------------------------------
+2026-01-01T16:32:13.4468523Z 
+2026-01-01T16:32:13.4468708Z During handling of the above exception, another exception occurred:
+2026-01-01T16:32:13.4468961Z 
+2026-01-01T16:32:13.4469197Z   + Exception Group Traceback (most recent call last):
+2026-01-01T16:32:13.4469674Z   |   File "/opt/hostedtoolcache/Python/3.11.14/x64/lib/python3.11/asyncio/tasks.py", line 277, in __step
+2026-01-01T16:32:13.4470259Z   |     result = coro.send(None)
+2026-01-01T16:32:13.4470486Z   |              ^^^^^^^^^^^^^^^
+2026-01-01T16:32:13.4471256Z   |   File "/home/runner/work/metac-bot-template/metac-bot-template/.venv/lib/python3.11/site-packages/forecasting_tools/forecast_bots/forecast_bot.py", line 347, in _run_individual_question_with_error_propagation
+2026-01-01T16:32:13.4472114Z   |     self._reraise_exception_with_prepended_message(e, error_message)
+2026-01-01T16:32:13.4472963Z   |   File "/home/runner/work/metac-bot-template/metac-bot-template/.venv/lib/python3.11/site-packages/forecasting_tools/forecast_bots/forecast_bot.py", line 746, in _reraise_exception_with_prepended_message
+2026-01-01T16:32:13.4473731Z   |     raise ExceptionGroup(
+2026-01-01T16:32:13.4488581Z   | ExceptionGroup: 1 sub-exceptions -> Error while processing question url: 'https://www.metaculus.com/questions/14333': 1 sub-exceptions -> All 1 research reports/predictions failed: Errors: ['ExceptionGroup: 4 sub-exceptions -> Error while running research and predictions: Errors: ["ValidationError: 6 validation errors for NumericDistribution\\ndeclared_percentiles\\n  Field required [type=missing, input_value={\'percentiles\': {10: 120...., 80: 140.0, 90: 150.0}}, input_type=dict]\\n    For further information visit https://errors.pydantic.dev/2.12/v/missing\\nopen_upper_bound\\n  Field required [type=missing, input_value={\'percentiles\': {10: 120...., 80: 140.0, 90: 150.0}}, input_type=dict]\\n    For further information visit https://errors.pydantic.dev/2.12/v/missing\\nopen_lower_bound\\n  Field required [type=missing, input_value={\'percentiles\': {10: 120...., 80: 140.0, 90: 150.0}}, input_type=dict]\\n    For further information visit https://errors.pydantic.dev/2.12/v/missing\\nupper_bound\\n  Field required [type=missing, input_value={\'percentiles\': {10: 120...., 80: 140.0, 90: 150.0}}, input_type=dict]\\n    For further information visit https://errors.pydantic.dev/2.12/v/missing\\nlower_bound\\n  Field required [type=missing, input_value={\'percentiles\': {10: 120...., 80: 140.0, 90: 150.0}}, input_type=dict]\\n    For further information visit https://errors.pydantic.dev/2.12/v/missing\\nzero_point\\n  Field required [type=missing, input_value={\'percentiles\': {10: 120...., 80: 140.0, 90: 150.0}}, input_type=dict]\\n    For further information visit https://errors.pydantic.dev/2.12/v/missing", "ValidationError: 6 validation errors for NumericDistribution\\ndeclared_percentiles\\n  Field required [type=missing, input_value={\'percentiles\': {10: 120...., 80: 140.0, 90: 145.0}}, input_type=dict]\\n    For further information visit https://errors.pydantic.dev/2.12/v/missing\\nopen_upper_bound\\n  Field required [type=missing, input_value={\'percentiles\': {10: 120...., 80: 140.0, 90: 145.0}}, input_type=dict]\\n    For further information visit https://errors.pydantic.dev/2.12/v/missing\\nopen_lower_bound\\n  Field required [type=missing, input_value={\'percentiles\': {10: 120...., 80: 140.0, 90: 145.0}}, input_type=dict]\\n    For further information visit https://errors.pydantic.dev/2.12/v/missing\\nupper_bound\\n  Field required [type=missing, input_value={\'percentiles\': {10: 120...., 80: 140.0, 90: 145.0}}, input_type=dict]\\n    For further information visit https://errors.pydantic.dev/2.12/v/missing\\nlower_bound\\n  Field required [type=missing, input_value={\'percentiles\': {10: 120...., 80: 140.0, 90: 145.0}}, input_type=dict]\\n    For further information visit https://errors.pydantic.dev/2.12/v/missing\\nzero_point\\n  Field required [type=missing, input_value={\'percentiles\': {10: 120...., 80: 140.0, 90: 145.0}}, input_type=dict]\\n    For further information visit https://errors.pydantic.dev/2.12/v/missing", "ValidationError: 6 validation errors for NumericDistribution\\ndeclared_percentiles\\n  Field required [type=missing, input_value={\'percentiles\': {10: 120...., 80: 140.0, 90: 150.0}}, input_type=dict]\\n    For further information visit https://errors.pydantic.dev/2.12/v/missing\\nopen_upper_bound\\n  Field required [type=missing, input_value={\'percentiles\': {10: 120...., 80: 140.0, 90: 150.0}}, input_type=dict]\\n    For further information visit https://errors.pydantic.dev/2.12/v/missing\\nopen_lower_bound\\n  Field required [type=missing, input_value={\'percentiles\': {10: 120...., 80: 140.0, 90: 150.0}}, input_type=dict]\\n    For further information visit https://errors.pydantic.dev/2.12/v/missing\\nupper_bound\\n  Field required [type=missing, input_value={\'percentiles\': {10: 120...., 80: 140.0, 90: 150.0}}, input_type=dict]\\n    For further information visit https://errors.pydantic.dev/2.12/v/missing\\nlower_bound\\n  Field required [type=missing, input_value={\'percentiles\': {10: 120...., 80: 140.0, 90: 150.0}}, input_type=dict]\\n    For further information visit https://errors.pydantic.dev/2.12/v/missing\\nzero_point\\n  Field required [type=missing, input_value={\'percentiles\': {10: 120...., 80: 140.0, 90: 150.0}}, input_type=dict]\\n    For further information visit https://errors.pydantic.dev/2.12/v/missing", "ValidationError: 6 validation errors for NumericDistribution\\ndeclared_percentiles\\n  Field required [type=missing, input_value={\'percentiles\': {10: 115...., 80: 140.0, 90: 150.0}}, input_type=dict]\\n    For further information visit https://errors.pydantic.dev/2.12/v/missing\\nopen_upper_bound\\n  Field required [type=missing, input_value={\'percentiles\': {10: 115...., 80: 140.0, 90: 150.0}}, input_type=dict]\\n    For further information visit https://errors.pydantic.dev/2.12/v/missing\\nopen_lower_bound\\n  Field required [type=missing, input_value={\'percentiles\': {10: 115...., 80: 140.0, 90: 150.0}}, input_type=dict]\\n    For further information visit https://errors.pydantic.dev/2.12/v/missing\\nupper_bound\\n  Field required [type=missing, input_value={\'percentiles\': {10: 115...., 80: 140.0, 90: 150.0}}, input_type=dict]\\n    For further information visit https://errors.pydantic.dev/2.12/v/missing\\nlower_bound\\n  Field required [type=missing, input_value={\'percentiles\': {10: 115...., 80: 140.0, 90: 150.0}}, input_type=dict]\\n    For further information visit https://errors.pydantic.dev/2.12/v/missing\\nzero_point\\n  Field required [type=missing, input_value={\'percentiles\': {10: 115...., 80: 140.0, 90: 150.0}}, input_type=dict]\\n    For further information visit https://errors.pydantic.dev/2.12/v/missing"] (4 sub-exceptions)'] (1 sub-exception)
+2026-01-01T16:32:13.4508340Z   +-+---------------- 1 ----------------
+2026-01-01T16:32:13.4508670Z     | Exception Group Traceback (most recent call last):
+2026-01-01T16:32:13.4509184Z     |   File "/opt/hostedtoolcache/Python/3.11.14/x64/lib/python3.11/asyncio/tasks.py", line 277, in __step
+2026-01-01T16:32:13.4509646Z     |     result = coro.send(None)
+2026-01-01T16:32:13.4510003Z     |              ^^^^^^^^^^^^^^^
+2026-01-01T16:32:13.4510747Z     |   File "/home/runner/work/metac-bot-template/metac-bot-template/.venv/lib/python3.11/site-packages/forecasting_tools/forecast_bots/forecast_bot.py", line 484, in _research_and_make_predictions
+2026-01-01T16:32:13.4511530Z     |     self._reraise_exception_with_prepended_message(
+2026-01-01T16:32:13.4512333Z     |   File "/home/runner/work/metac-bot-template/metac-bot-template/.venv/lib/python3.11/site-packages/forecasting_tools/forecast_bots/forecast_bot.py", line 746, in _reraise_exception_with_prepended_message
+2026-01-01T16:32:13.4513109Z     |     raise ExceptionGroup(
+2026-01-01T16:32:13.4527114Z     | ExceptionGroup: 4 sub-exceptions -> Error while running research and predictions: Errors: ["ValidationError: 6 validation errors for NumericDistribution\ndeclared_percentiles\n  Field required [type=missing, input_value={'percentiles': {10: 120...., 80: 140.0, 90: 150.0}}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.12/v/missing\nopen_upper_bound\n  Field required [type=missing, input_value={'percentiles': {10: 120...., 80: 140.0, 90: 150.0}}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.12/v/missing\nopen_lower_bound\n  Field required [type=missing, input_value={'percentiles': {10: 120...., 80: 140.0, 90: 150.0}}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.12/v/missing\nupper_bound\n  Field required [type=missing, input_value={'percentiles': {10: 120...., 80: 140.0, 90: 150.0}}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.12/v/missing\nlower_bound\n  Field required [type=missing, input_value={'percentiles': {10: 120...., 80: 140.0, 90: 150.0}}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.12/v/missing\nzero_point\n  Field required [type=missing, input_value={'percentiles': {10: 120...., 80: 140.0, 90: 150.0}}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.12/v/missing", "ValidationError: 6 validation errors for NumericDistribution\ndeclared_percentiles\n  Field required [type=missing, input_value={'percentiles': {10: 120...., 80: 140.0, 90: 145.0}}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.12/v/missing\nopen_upper_bound\n  Field required [type=missing, input_value={'percentiles': {10: 120...., 80: 140.0, 90: 145.0}}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.12/v/missing\nopen_lower_bound\n  Field required [type=missing, input_value={'percentiles': {10: 120...., 80: 140.0, 90: 145.0}}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.12/v/missing\nupper_bound\n  Field required [type=missing, input_value={'percentiles': {10: 120...., 80: 140.0, 90: 145.0}}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.12/v/missing\nlower_bound\n  Field required [type=missing, input_value={'percentiles': {10: 120...., 80: 140.0, 90: 145.0}}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.12/v/missing\nzero_point\n  Field required [type=missing, input_value={'percentiles': {10: 120...., 80: 140.0, 90: 145.0}}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.12/v/missing", "ValidationError: 6 validation errors for NumericDistribution\ndeclared_percentiles\n  Field required [type=missing, input_value={'percentiles': {10: 120...., 80: 140.0, 90: 150.0}}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.12/v/missing\nopen_upper_bound\n  Field required [type=missing, input_value={'percentiles': {10: 120...., 80: 140.0, 90: 150.0}}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.12/v/missing\nopen_lower_bound\n  Field required [type=missing, input_value={'percentiles': {10: 120...., 80: 140.0, 90: 150.0}}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.12/v/missing\nupper_bound\n  Field required [type=missing, input_value={'percentiles': {10: 120...., 80: 140.0, 90: 150.0}}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.12/v/missing\nlower_bound\n  Field required [type=missing, input_value={'percentiles': {10: 120...., 80: 140.0, 90: 150.0}}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.12/v/missing\nzero_point\n  Field required [type=missing, input_value={'percentiles': {10: 120...., 80: 140.0, 90: 150.0}}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.12/v/missing", "ValidationError: 6 validation errors for NumericDistribution\ndeclared_percentiles\n  Field required [type=missing, input_value={'percentiles': {10: 115...., 80: 140.0, 90: 150.0}}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.12/v/missing\nopen_upper_bound\n  Field required [type=missing, input_value={'percentiles': {10: 115...., 80: 140.0, 90: 150.0}}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.12/v/missing\nopen_lower_bound\n  Field required [type=missing, input_value={'percentiles': {10: 115...., 80: 140.0, 90: 150.0}}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.12/v/missing\nupper_bound\n  Field required [type=missing, input_value={'percentiles': {10: 115...., 80: 140.0, 90: 150.0}}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.12/v/missing\nlower_bound\n  Field required [type=missing, input_value={'percentiles': {10: 115...., 80: 140.0, 90: 150.0}}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.12/v/missing\nzero_point\n  Field required [type=missing, input_value={'percentiles': {10: 115...., 80: 140.0, 90: 150.0}}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.12/v/missing"] (4 sub-exceptions)
+2026-01-01T16:32:13.4541653Z     +-+---------------- 1 ----------------
+2026-01-01T16:32:13.4541923Z       | Traceback (most recent call last):
+2026-01-01T16:32:13.4542383Z       |   File "/opt/hostedtoolcache/Python/3.11.14/x64/lib/python3.11/asyncio/tasks.py", line 277, in __step
+2026-01-01T16:32:13.4542826Z       |     result = coro.send(None)
+2026-01-01T16:32:13.4543064Z       |              ^^^^^^^^^^^^^^^
+2026-01-01T16:32:13.4543748Z       |   File "/home/runner/work/metac-bot-template/metac-bot-template/.venv/lib/python3.11/site-packages/forecasting_tools/forecast_bots/forecast_bot.py", line 514, in _make_prediction
+2026-01-01T16:32:13.4544522Z       |     prediction = await forecast_function(question, research)
+2026-01-01T16:32:13.4544837Z       |                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-01-01T16:32:13.4545326Z       |   File "/home/runner/work/metac-bot-template/metac-bot-template/main.py", line 593, in _run_forecast_on_numeric
+2026-01-01T16:32:13.4545883Z       |     result = await self._numeric_prompt_to_forecast(question, prompt)
+2026-01-01T16:32:13.4546224Z       |              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-01-01T16:32:13.4546724Z       |   File "/home/runner/work/metac-bot-template/metac-bot-template/main.py", line 647, in _numeric_prompt_to_forecast
+2026-01-01T16:32:13.4547281Z       |     temp_percentiles = self._create_temp_distribution_from_scenarios(
+2026-01-01T16:32:13.4547620Z       |                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-01-01T16:32:13.4548150Z       |   File "/home/runner/work/metac-bot-template/metac-bot-template/main.py", line 679, in _create_temp_distribution_from_scenarios
+2026-01-01T16:32:13.4548729Z       |     return NumericDistribution(percentiles=temp_percentiles)
+2026-01-01T16:32:13.4549053Z       |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-01-01T16:32:13.4549636Z       |   File "/home/runner/work/metac-bot-template/metac-bot-template/.venv/lib/python3.11/site-packages/pydantic/main.py", line 250, in __init__
+2026-01-01T16:32:13.4550433Z       |     validated_self = self.__pydantic_validator__.validate_python(data, self_instance=self)
+2026-01-01T16:32:13.4550845Z       |                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-01-01T16:32:13.4551272Z       | pydantic_core._pydantic_core.ValidationError: 6 validation errors for NumericDistribution
+2026-01-01T16:32:13.4551684Z       | declared_percentiles
+2026-01-01T16:32:13.4552104Z       |   Field required [type=missing, input_value={'percentiles': {10: 120...., 80: 140.0, 90: 150.0}}, input_type=dict]
+2026-01-01T16:32:13.4552652Z       |     For further information visit https://errors.pydantic.dev/2.12/v/missing
+2026-01-01T16:32:13.4553015Z       | open_upper_bound
+2026-01-01T16:32:13.4553409Z       |   Field required [type=missing, input_value={'percentiles': {10: 120...., 80: 140.0, 90: 150.0}}, input_type=dict]
+2026-01-01T16:32:13.4554076Z       |     For further information visit https://errors.pydantic.dev/2.12/v/missing
+2026-01-01T16:32:13.4554427Z       | open_lower_bound
+2026-01-01T16:32:13.4554915Z       |   Field required [type=missing, input_value={'percentiles': {10: 120...., 80: 140.0, 90: 150.0}}, input_type=dict]
+2026-01-01T16:32:13.4555454Z       |     For further information visit https://errors.pydantic.dev/2.12/v/missing
+2026-01-01T16:32:13.4555801Z       | upper_bound
+2026-01-01T16:32:13.4556176Z       |   Field required [type=missing, input_value={'percentiles': {10: 120...., 80: 140.0, 90: 150.0}}, input_type=dict]
+2026-01-01T16:32:13.4556702Z       |     For further information visit https://errors.pydantic.dev/2.12/v/missing
+2026-01-01T16:32:13.4557043Z       | lower_bound
+2026-01-01T16:32:13.4557414Z       |   Field required [type=missing, input_value={'percentiles': {10: 120...., 80: 140.0, 90: 150.0}}, input_type=dict]
+2026-01-01T16:32:13.4557946Z       |     For further information visit https://errors.pydantic.dev/2.12/v/missing
+2026-01-01T16:32:13.4558289Z       | zero_point
+2026-01-01T16:32:13.4558656Z       |   Field required [type=missing, input_value={'percentiles': {10: 120...., 80: 140.0, 90: 150.0}}, input_type=dict]
+2026-01-01T16:32:13.4559190Z       |     For further information visit https://errors.pydantic.dev/2.12/v/missing
+2026-01-01T16:32:13.4559550Z       +---------------- 2 ----------------
+2026-01-01T16:32:13.4559810Z       | Traceback (most recent call last):
+2026-01-01T16:32:13.4560484Z       |   File "/opt/hostedtoolcache/Python/3.11.14/x64/lib/python3.11/asyncio/tasks.py", line 277, in __step
+2026-01-01T16:32:13.4560975Z       |     result = coro.send(None)
+2026-01-01T16:32:13.4561211Z       |              ^^^^^^^^^^^^^^^
+2026-01-01T16:32:13.4561908Z       |   File "/home/runner/work/metac-bot-template/metac-bot-template/.venv/lib/python3.11/site-packages/forecasting_tools/forecast_bots/forecast_bot.py", line 514, in _make_prediction
+2026-01-01T16:32:13.4562667Z       |     prediction = await forecast_function(question, research)
+2026-01-01T16:32:13.4562976Z       |                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-01-01T16:32:13.4563459Z       |   File "/home/runner/work/metac-bot-template/metac-bot-template/main.py", line 593, in _run_forecast_on_numeric
+2026-01-01T16:32:13.4564008Z       |     result = await self._numeric_prompt_to_forecast(question, prompt)
+2026-01-01T16:32:13.4564339Z       |              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-01-01T16:32:13.4564831Z       |   File "/home/runner/work/metac-bot-template/metac-bot-template/main.py", line 647, in _numeric_prompt_to_forecast
+2026-01-01T16:32:13.4565393Z       |     temp_percentiles = self._create_temp_distribution_from_scenarios(
+2026-01-01T16:32:13.4565729Z       |                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-01-01T16:32:13.4566733Z       |   File "/home/runner/work/metac-bot-template/metac-bot-template/main.py", line 679, in _create_temp_distribution_from_scenarios
+2026-01-01T16:32:13.4567766Z       |     return NumericDistribution(percentiles=temp_percentiles)
+2026-01-01T16:32:13.4568317Z       |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-01-01T16:32:13.4569052Z       |   File "/home/runner/work/metac-bot-template/metac-bot-template/.venv/lib/python3.11/site-packages/pydantic/main.py", line 250, in __init__
+2026-01-01T16:32:13.4569766Z       |     validated_self = self.__pydantic_validator__.validate_python(data, self_instance=self)
+2026-01-01T16:32:13.4570310Z       |                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-01-01T16:32:13.4570749Z       | pydantic_core._pydantic_core.ValidationError: 6 validation errors for NumericDistribution
+2026-01-01T16:32:13.4571163Z       | declared_percentiles
+2026-01-01T16:32:13.4571581Z       |   Field required [type=missing, input_value={'percentiles': {10: 120...., 80: 140.0, 90: 145.0}}, input_type=dict]
+2026-01-01T16:32:13.4572336Z       |     For further information visit https://errors.pydantic.dev/2.12/v/missing
+2026-01-01T16:32:13.4572705Z       | open_upper_bound
+2026-01-01T16:32:13.4573113Z       |   Field required [type=missing, input_value={'percentiles': {10: 120...., 80: 140.0, 90: 145.0}}, input_type=dict]
+2026-01-01T16:32:13.4573760Z       |     For further information visit https://errors.pydantic.dev/2.12/v/missing
+2026-01-01T16:32:13.4574116Z       | open_lower_bound
+2026-01-01T16:32:13.4574494Z       |   Field required [type=missing, input_value={'percentiles': {10: 120...., 80: 140.0, 90: 145.0}}, input_type=dict]
+2026-01-01T16:32:13.4575027Z       |     For further information visit https://errors.pydantic.dev/2.12/v/missing
+2026-01-01T16:32:13.4575382Z       | upper_bound
+2026-01-01T16:32:13.4575754Z       |   Field required [type=missing, input_value={'percentiles': {10: 120...., 80: 140.0, 90: 145.0}}, input_type=dict]
+2026-01-01T16:32:13.4576289Z       |     For further information visit https://errors.pydantic.dev/2.12/v/missing
+2026-01-01T16:32:13.4576633Z       | lower_bound
+2026-01-01T16:32:13.4576998Z       |   Field required [type=missing, input_value={'percentiles': {10: 120...., 80: 140.0, 90: 145.0}}, input_type=dict]
+2026-01-01T16:32:13.4577535Z       |     For further information visit https://errors.pydantic.dev/2.12/v/missing
+2026-01-01T16:32:13.4577921Z       | zero_point
+2026-01-01T16:32:13.4578296Z       |   Field required [type=missing, input_value={'percentiles': {10: 120...., 80: 140.0, 90: 145.0}}, input_type=dict]
+2026-01-01T16:32:13.4578827Z       |     For further information visit https://errors.pydantic.dev/2.12/v/missing
+2026-01-01T16:32:13.4579193Z       +---------------- 3 ----------------
+2026-01-01T16:32:13.4579455Z       | Traceback (most recent call last):
+2026-01-01T16:32:13.4580008Z       |   File "/opt/hostedtoolcache/Python/3.11.14/x64/lib/python3.11/asyncio/tasks.py", line 277, in __step
+2026-01-01T16:32:13.4580460Z       |     result = coro.send(None)
+2026-01-01T16:32:13.4580694Z       |              ^^^^^^^^^^^^^^^
+2026-01-01T16:32:13.4581391Z       |   File "/home/runner/work/metac-bot-template/metac-bot-template/.venv/lib/python3.11/site-packages/forecasting_tools/forecast_bots/forecast_bot.py", line 514, in _make_prediction
+2026-01-01T16:32:13.4582156Z       |     prediction = await forecast_function(question, research)
+2026-01-01T16:32:13.4582466Z       |                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-01-01T16:32:13.4582957Z       |   File "/home/runner/work/metac-bot-template/metac-bot-template/main.py", line 593, in _run_forecast_on_numeric
+2026-01-01T16:32:13.4583515Z       |     result = await self._numeric_prompt_to_forecast(question, prompt)
+2026-01-01T16:32:13.4583853Z       |              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-01-01T16:32:13.4584349Z       |   File "/home/runner/work/metac-bot-template/metac-bot-template/main.py", line 647, in _numeric_prompt_to_forecast
+2026-01-01T16:32:13.4584912Z       |     temp_percentiles = self._create_temp_distribution_from_scenarios(
+2026-01-01T16:32:13.4585251Z       |                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-01-01T16:32:13.4585782Z       |   File "/home/runner/work/metac-bot-template/metac-bot-template/main.py", line 679, in _create_temp_distribution_from_scenarios
+2026-01-01T16:32:13.4586362Z       |     return NumericDistribution(percentiles=temp_percentiles)
+2026-01-01T16:32:13.4586682Z       |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-01-01T16:32:13.4587263Z       |   File "/home/runner/work/metac-bot-template/metac-bot-template/.venv/lib/python3.11/site-packages/pydantic/main.py", line 250, in __init__
+2026-01-01T16:32:13.4587973Z       |     validated_self = self.__pydantic_validator__.validate_python(data, self_instance=self)
+2026-01-01T16:32:13.4588378Z       |                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-01-01T16:32:13.4588929Z       | pydantic_core._pydantic_core.ValidationError: 6 validation errors for NumericDistribution
+2026-01-01T16:32:13.4589339Z       | declared_percentiles
+2026-01-01T16:32:13.4589753Z       |   Field required [type=missing, input_value={'percentiles': {10: 120...., 80: 140.0, 90: 150.0}}, input_type=dict]
+2026-01-01T16:32:13.4590517Z       |     For further information visit https://errors.pydantic.dev/2.12/v/missing
+2026-01-01T16:32:13.4590876Z       | open_upper_bound
+2026-01-01T16:32:13.4591291Z       |   Field required [type=missing, input_value={'percentiles': {10: 120...., 80: 140.0, 90: 150.0}}, input_type=dict]
+2026-01-01T16:32:13.4591839Z       |     For further information visit https://errors.pydantic.dev/2.12/v/missing
+2026-01-01T16:32:13.4592201Z       | open_lower_bound
+2026-01-01T16:32:13.4592596Z       |   Field required [type=missing, input_value={'percentiles': {10: 120...., 80: 140.0, 90: 150.0}}, input_type=dict]
+2026-01-01T16:32:13.4593135Z       |     For further information visit https://errors.pydantic.dev/2.12/v/missing
+2026-01-01T16:32:13.4593483Z       | upper_bound
+2026-01-01T16:32:13.4593863Z       |   Field required [type=missing, input_value={'percentiles': {10: 120...., 80: 140.0, 90: 150.0}}, input_type=dict]
+2026-01-01T16:32:13.4594404Z       |     For further information visit https://errors.pydantic.dev/2.12/v/missing
+2026-01-01T16:32:13.4594748Z       | lower_bound
+2026-01-01T16:32:13.4595122Z       |   Field required [type=missing, input_value={'percentiles': {10: 120...., 80: 140.0, 90: 150.0}}, input_type=dict]
+2026-01-01T16:32:13.4595660Z       |     For further information visit https://errors.pydantic.dev/2.12/v/missing
+2026-01-01T16:32:13.4596009Z       | zero_point
+2026-01-01T16:32:13.4596387Z       |   Field required [type=missing, input_value={'percentiles': {10: 120...., 80: 140.0, 90: 150.0}}, input_type=dict]
+2026-01-01T16:32:13.4596913Z       |     For further information visit https://errors.pydantic.dev/2.12/v/missing
+2026-01-01T16:32:13.4597283Z       +---------------- 4 ----------------
+2026-01-01T16:32:13.4597544Z       | Traceback (most recent call last):
+2026-01-01T16:32:13.4597995Z       |   File "/opt/hostedtoolcache/Python/3.11.14/x64/lib/python3.11/asyncio/tasks.py", line 277, in __step
+2026-01-01T16:32:13.4598438Z       |     result = coro.send(None)
+2026-01-01T16:32:13.4598675Z       |              ^^^^^^^^^^^^^^^
+2026-01-01T16:32:13.4599359Z       |   File "/home/runner/work/metac-bot-template/metac-bot-template/.venv/lib/python3.11/site-packages/forecasting_tools/forecast_bots/forecast_bot.py", line 514, in _make_prediction
+2026-01-01T16:32:13.4600384Z       |     prediction = await forecast_function(question, research)
+2026-01-01T16:32:13.4600702Z       |                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-01-01T16:32:13.4601190Z       |   File "/home/runner/work/metac-bot-template/metac-bot-template/main.py", line 593, in _run_forecast_on_numeric
+2026-01-01T16:32:13.4601744Z       |     result = await self._numeric_prompt_to_forecast(question, prompt)
+2026-01-01T16:32:13.4602087Z       |              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-01-01T16:32:13.4602576Z       |   File "/home/runner/work/metac-bot-template/metac-bot-template/main.py", line 647, in _numeric_prompt_to_forecast
+2026-01-01T16:32:13.4603144Z       |     temp_percentiles = self._create_temp_distribution_from_scenarios(
+2026-01-01T16:32:13.4603479Z       |                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-01-01T16:32:13.4604007Z       |   File "/home/runner/work/metac-bot-template/metac-bot-template/main.py", line 679, in _create_temp_distribution_from_scenarios
+2026-01-01T16:32:13.4604595Z       |     return NumericDistribution(percentiles=temp_percentiles)
+2026-01-01T16:32:13.4604914Z       |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-01-01T16:32:13.4605490Z       |   File "/home/runner/work/metac-bot-template/metac-bot-template/.venv/lib/python3.11/site-packages/pydantic/main.py", line 250, in __init__
+2026-01-01T16:32:13.4606337Z       |     validated_self = self.__pydantic_validator__.validate_python(data, self_instance=self)
+2026-01-01T16:32:13.4606745Z       |                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-01-01T16:32:13.4607287Z       | pydantic_core._pydantic_core.ValidationError: 6 validation errors for NumericDistribution
+2026-01-01T16:32:13.4607700Z       | declared_percentiles
+2026-01-01T16:32:13.4608116Z       |   Field required [type=missing, input_value={'percentiles': {10: 115...., 80: 140.0, 90: 150.0}}, input_type=dict]
+2026-01-01T16:32:13.4608663Z       |     For further information visit https://errors.pydantic.dev/2.12/v/missing
+2026-01-01T16:32:13.4609018Z       | open_upper_bound
+2026-01-01T16:32:13.4609413Z       |   Field required [type=missing, input_value={'percentiles': {10: 115...., 80: 140.0, 90: 150.0}}, input_type=dict]
+2026-01-01T16:32:13.4610075Z       |     For further information visit https://errors.pydantic.dev/2.12/v/missing
+2026-01-01T16:32:13.4610440Z       | open_lower_bound
+2026-01-01T16:32:13.4610829Z       |   Field required [type=missing, input_value={'percentiles': {10: 115...., 80: 140.0, 90: 150.0}}, input_type=dict]
+2026-01-01T16:32:13.4611368Z       |     For further information visit https://errors.pydantic.dev/2.12/v/missing
+2026-01-01T16:32:13.4611712Z       | upper_bound
+2026-01-01T16:32:13.4612088Z       |   Field required [type=missing, input_value={'percentiles': {10: 115...., 80: 140.0, 90: 150.0}}, input_type=dict]
+2026-01-01T16:32:13.4612626Z       |     For further information visit https://errors.pydantic.dev/2.12/v/missing
+2026-01-01T16:32:13.4612971Z       | lower_bound
+2026-01-01T16:32:13.4613341Z       |   Field required [type=missing, input_value={'percentiles': {10: 115...., 80: 140.0, 90: 150.0}}, input_type=dict]
+2026-01-01T16:32:13.4613879Z       |     For further information visit https://errors.pydantic.dev/2.12/v/missing
+2026-01-01T16:32:13.4614230Z       | zero_point
+2026-01-01T16:32:13.4614607Z       |   Field required [type=missing, input_value={'percentiles': {10: 115...., 80: 140.0, 90: 150.0}}, input_type=dict]
+2026-01-01T16:32:13.4615142Z       |     For further information visit https://errors.pydantic.dev/2.12/v/missing
+2026-01-01T16:32:13.4615508Z       +------------------------------------
+2026-01-01T16:32:13.4615678Z 
+2026-01-01T16:32:13.4615781Z Traceback (most recent call last):
+2026-01-01T16:32:13.4621780Z   File "/home/runner/work/metac-bot-template/metac-bot-template/main.py", line 1114, in <module>
+2026-01-01T16:32:13.4622364Z     template_bot.log_report_summary(forecast_reports)
+2026-01-01T16:32:13.4623222Z   File "/home/runner/work/metac-bot-template/metac-bot-template/.venv/lib/python3.11/site-packages/forecasting_tools/forecast_bots/forecast_bot.py", line 875, in log_report_summary
+2026-01-01T16:32:13.4623956Z     raise RuntimeError(
+2026-01-01T16:32:13.4653348Z RuntimeError: 1 errors occurred while forecasting: [ExceptionGroup('1 sub-exceptions -> Error while processing question url: \'https://www.metaculus.com/questions/14333\': 1 sub-exceptions -> All 1 research reports/predictions failed: Errors: [\'ExceptionGroup: 4 sub-exceptions -> Error while running research and predictions: Errors: ["ValidationError: 6 validation errors for NumericDistribution\\\\ndeclared_percentiles\\\\n  Field required [type=missing, input_value={\\\'percentiles\\\': {10: 120...., 80: 140.0, 90: 150.0}}, input_type=dict]\\\\n    For further information visit https://errors.pydantic.dev/2.12/v/missing\\\\nopen_upper_bound\\\\n  Field required [type=missing, input_value={\\\'percentiles\\\': {10: 120...., 80: 140.0, 90: 150.0}}, input_type=dict]\\\\n    For further information visit https://errors.pydantic.dev/2.12/v/missing\\\\nopen_lower_bound\\\\n  Field required [type=missing, input_value={\\\'percentiles\\\': {10: 120...., 80: 140.0, 90: 150.0}}, input_type=dict]\\\\n    For further information visit https://errors.pydantic.dev/2.12/v/missing\\\\nupper_bound\\\\n  Field required [type=missing, input_value={\\\'percentiles\\\': {10: 120...., 80: 140.0, 90: 150.0}}, input_type=dict]\\\\n    For further information visit https://errors.pydantic.dev/2.12/v/missing\\\\nlower_bound\\\\n  Field required [type=missing, input_value={\\\'percentiles\\\': {10: 120...., 80: 140.0, 90: 150.0}}, input_type=dict]\\\\n    For further information visit https://errors.pydantic.dev/2.12/v/missing\\\\nzero_point\\\\n  Field required [type=missing, input_value={\\\'percentiles\\\': {10: 120...., 80: 140.0, 90: 150.0}}, input_type=dict]\\\\n    For further information visit https://errors.pydantic.dev/2.12/v/missing", "ValidationError: 6 validation errors for NumericDistribution\\\\ndeclared_percentiles\\\\n  Field required [type=missing, input_value={\\\'percentiles\\\': {10: 120...., 80: 140.0, 90: 145.0}}, input_type=dict]\\\\n    For further information visit https://errors.pydantic.dev/2.12/v/missing\\\\nopen_upper_bound\\\\n  Field required [type=missing, input_value={\\\'percentiles\\\': {10: 120...., 80: 140.0, 90: 145.0}}, input_type=dict]\\\\n    For further information visit https://errors.pydantic.dev/2.12/v/missing\\\\nopen_lower_bound\\\\n  Field required [type=missing, input_value={\\\'percentiles\\\': {10: 120...., 80: 140.0, 90: 145.0}}, input_type=dict]\\\\n    For further information visit https://errors.pydantic.dev/2.12/v/missing\\\\nupper_bound\\\\n  Field required [type=missing, input_value={\\\'percentiles\\\': {10: 120...., 80: 140.0, 90: 145.0}}, input_type=dict]\\\\n    For further information visit https://errors.pydantic.dev/2.12/v/missing\\\\nlower_bound\\\\n  Field required [type=missing, input_value={\\\'percentiles\\\': {10: 120...., 80: 140.0, 90: 145.0}}, input_type=dict]\\\\n    For further information visit https://errors.pydantic.dev/2.12/v/missing\\\\nzero_point\\\\n  Field required [type=missing, input_value={\\\'percentiles\\\': {10: 120...., 80: 140.0, 90: 145.0}}, input_type=dict]\\\\n    For further information visit https://errors.pydantic.dev/2.12/v/missing", "ValidationError: 6 validation errors for NumericDistribution\\\\ndeclared_percentiles\\\\n  Field required [type=missing, input_value={\\\'percentiles\\\': {10: 120...., 80: 140.0, 90: 150.0}}, input_type=dict]\\\\n    For further information visit https://errors.pydantic.dev/2.12/v/missing\\\\nopen_upper_bound\\\\n  Field required [type=missing, input_value={\\\'percentiles\\\': {10: 120...., 80: 140.0, 90: 150.0}}, input_type=dict]\\\\n    For further information visit https://errors.pydantic.dev/2.12/v/missing\\\\nopen_lower_bound\\\\n  Field required [type=missing, input_value={\\\'percentiles\\\': {10: 120...., 80: 140.0, 90: 150.0}}, input_type=dict]\\\\n    For further information visit https://errors.pydantic.dev/2.12/v/missing\\\\nupper_bound\\\\n  Field required [type=missing, input_value={\\\'percentiles\\\': {10: 120...., 80: 140.0, 90: 150.0}}, input_type=dict]\\\\n    For further information visit https://errors.pydantic.dev/2.12/v/missing\\\\nlower_bound\\\\n  Field required [type=missing, input_value={\\\'percentiles\\\': {10: 120...., 80: 140.0, 90: 150.0}}, input_type=dict]\\\\n    For further information visit https://errors.pydantic.dev/2.12/v/missing\\\\nzero_point\\\\n  Field required [type=missing, input_value={\\\'percentiles\\\': {10: 120...., 80: 140.0, 90: 150.0}}, input_type=dict]\\\\n    For further information visit https://errors.pydantic.dev/2.12/v/missing", "ValidationError: 6 validation errors for NumericDistribution\\\\ndeclared_percentiles\\\\n  Field required [type=missing, input_value={\\\'percentiles\\\': {10: 115...., 80: 140.0, 90: 150.0}}, input_type=dict]\\\\n    For further information visit https://errors.pydantic.dev/2.12/v/missing\\\\nopen_upper_bound\\\\n  Field required [type=missing, input_value={\\\'percentiles\\\': {10: 115...., 80: 140.0, 90: 150.0}}, input_type=dict]\\\\n    For further information visit https://errors.pydantic.dev/2.12/v/missing\\\\nopen_lower_bound\\\\n  Field required [type=missing, input_value={\\\'percentiles\\\': {10: 115...., 80: 140.0, 90: 150.0}}, input_type=dict]\\\\n    For further information visit https://errors.pydantic.dev/2.12/v/missing\\\\nupper_bound\\\\n  Field required [type=missing, input_value={\\\'percentiles\\\': {10: 115...., 80: 140.0, 90: 150.0}}, input_type=dict]\\\\n    For further information visit https://errors.pydantic.dev/2.12/v/missing\\\\nlower_bound\\\\n  Field required [type=missing, input_value={\\\'percentiles\\\': {10: 115...., 80: 140.0, 90: 150.0}}, input_type=dict]\\\\n    For further information visit https://errors.pydantic.dev/2.12/v/missing\\\\nzero_point\\\\n  Field required [type=missing, input_value={\\\'percentiles\\\': {10: 115...., 80: 140.0, 90: 150.0}}, input_type=dict]\\\\n    For further information visit https://errors.pydantic.dev/2.12/v/missing"] (4 sub-exceptions)\']', (ExceptionGroup('4 sub-exceptions -> Error while running research and predictions: Errors: ["ValidationError: 6 validation errors for NumericDistribution\\ndeclared_percentiles\\n  Field required [type=missing, input_value={\'percentiles\': {10: 120...., 80: 140.0, 90: 150.0}}, input_type=dict]\\n    For further information visit https://errors.pydantic.dev/2.12/v/missing\\nopen_upper_bound\\n  Field required [type=missing, input_value={\'percentiles\': {10: 120...., 80: 140.0, 90: 150.0}}, input_type=dict]\\n    For further information visit https://errors.pydantic.dev/2.12/v/missing\\nopen_lower_bound\\n  Field required [type=missing, input_value={\'percentiles\': {10: 120...., 80: 140.0, 90: 150.0}}, input_type=dict]\\n    For further information visit https://errors.pydantic.dev/2.12/v/missing\\nupper_bound\\n  Field required [type=missing, input_value={\'percentiles\': {10: 120...., 80: 140.0, 90: 150.0}}, input_type=dict]\\n    For further information visit https://errors.pydantic.dev/2.12/v/missing\\nlower_bound\\n  Field required [type=missing, input_value={\'percentiles\': {10: 120...., 80: 140.0, 90: 150.0}}, input_type=dict]\\n    For further information visit https://errors.pydantic.dev/2.12/v/missing\\nzero_point\\n  Field required [type=missing, input_value={\'percentiles\': {10: 120...., 80: 140.0, 90: 150.0}}, input_type=dict]\\n    For further information visit https://errors.pydantic.dev/2.12/v/missing", "ValidationError: 6 validation errors for NumericDistribution\\ndeclared_percentiles\\n  Field required [type=missing, input_value={\'percentiles\': {10: 120...., 80: 140.0, 90: 145.0}}, input_type=dict]\\n    For further information visit https://errors.pydantic.dev/2.12/v/missing\\nopen_upper_bound\\n  Field required [type=missing, input_value={\'percentiles\': {10: 120...., 80: 140.0, 90: 145.0}}, input_type=dict]\\n    For further information visit https://errors.pydantic.dev/2.12/v/missing\\nopen_lower_bound\\n  Field required [type=missing, input_value={\'percentiles\': {10: 120...., 80: 140.0, 90: 145.0}}, input_type=dict]\\n    For further information visit https://errors.pydantic.dev/2.12/v/missing\\nupper_bound\\n  Field required [type=missing, input_value={\'percentiles\': {10: 120...., 80: 140.0, 90: 145.0}}, input_type=dict]\\n    For further information visit https://errors.pydantic.dev/2.12/v/missing\\nlower_bound\\n  Field required [type=missing, input_value={\'percentiles\': {10: 120...., 80: 140.0, 90: 145.0}}, input_type=dict]\\n    For further information visit https://errors.pydantic.dev/2.12/v/missing\\nzero_point\\n  Field required [type=missing, input_value={\'percentiles\': {10: 120...., 80: 140.0, 90: 145.0}}, input_type=dict]\\n    For further information visit https://errors.pydantic.dev/2.12/v/missing", "ValidationError: 6 validation errors for NumericDistribution\\ndeclared_percentiles\\n  Field required [type=missing, input_value={\'percentiles\': {10: 120...., 80: 140.0, 90: 150.0}}, input_type=dict]\\n    For further information visit https://errors.pydantic.dev/2.12/v/missing\\nopen_upper_bound\\n  Field required [type=missing, input_value={\'percentiles\': {10: 120...., 80: 140.0, 90: 150.0}}, input_type=dict]\\n    For further information visit https://errors.pydantic.dev/2.12/v/missing\\nopen_lower_bound\\n  Field required [type=missing, input_value={\'percentiles\': {10: 120...., 80: 140.0, 90: 150.0}}, input_type=dict]\\n    For further information visit https://errors.pydantic.dev/2.12/v/missing\\nupper_bound\\n  Field required [type=missing, input_value={\'percentiles\': {10: 120...., 80: 140.0, 90: 150.0}}, input_type=dict]\\n    For further information visit https://errors.pydantic.dev/2.12/v/missing\\nlower_bound\\n  Field required [type=missing, input_value={\'percentiles\': {10: 120...., 80: 140.0, 90: 150.0}}, input_type=dict]\\n    For further information visit https://errors.pydantic.dev/2.12/v/missing\\nzero_point\\n  Field required [type=missing, input_value={\'percentiles\': {10: 120...., 80: 140.0, 90: 150.0}}, input_type=dict]\\n    For further information visit https://errors.pydantic.dev/2.12/v/missing", "ValidationError: 6 validation errors for NumericDistribution\\ndeclared_percentiles\\n  Field required [type=missing, input_value={\'percentiles\': {10: 115...., 80: 140.0, 90: 150.0}}, input_type=dict]\\n    For further information visit https://errors.pydantic.dev/2.12/v/missing\\nopen_upper_bound\\n  Field required [type=missing, input_value={\'percentiles\': {10: 115...., 80: 140.0, 90: 150.0}}, input_type=dict]\\n    For further information visit https://errors.pydantic.dev/2.12/v/missing\\nopen_lower_bound\\n  Field required [type=missing, input_value={\'percentiles\': {10: 115...., 80: 140.0, 90: 150.0}}, input_type=dict]\\n    For further information visit https://errors.pydantic.dev/2.12/v/missing\\nupper_bound\\n  Field required [type=missing, input_value={\'percentiles\': {10: 115...., 80: 140.0, 90: 150.0}}, input_type=dict]\\n    For further information visit https://errors.pydantic.dev/2.12/v/missing\\nlower_bound\\n  Field required [type=missing, input_value={\'percentiles\': {10: 115...., 80: 140.0, 90: 150.0}}, input_type=dict]\\n    For further information visit https://errors.pydantic.dev/2.12/v/missing\\nzero_point\\n  Field required [type=missing, input_value={\'percentiles\': {10: 115...., 80: 140.0, 90: 150.0}}, input_type=dict]\\n    For further information visit https://errors.pydantic.dev/2.12/v/missing"]', (6 validation errors for NumericDistribution
+2026-01-01T16:32:13.4692970Z declared_percentiles
+2026-01-01T16:32:13.4693418Z   Field required [type=missing, input_value={'percentiles': {10: 120...., 80: 140.0, 90: 150.0}}, input_type=dict]
+2026-01-01T16:32:13.4693989Z     For further information visit https://errors.pydantic.dev/2.12/v/missing
+2026-01-01T16:32:13.4694360Z open_upper_bound
+2026-01-01T16:32:13.4694752Z   Field required [type=missing, input_value={'percentiles': {10: 120...., 80: 140.0, 90: 150.0}}, input_type=dict]
+2026-01-01T16:32:13.4695299Z     For further information visit https://errors.pydantic.dev/2.12/v/missing
+2026-01-01T16:32:13.4695646Z open_lower_bound
+2026-01-01T16:32:13.4696020Z   Field required [type=missing, input_value={'percentiles': {10: 120...., 80: 140.0, 90: 150.0}}, input_type=dict]
+2026-01-01T16:32:13.4696571Z     For further information visit https://errors.pydantic.dev/2.12/v/missing
+2026-01-01T16:32:13.4696917Z upper_bound
+2026-01-01T16:32:13.4697277Z   Field required [type=missing, input_value={'percentiles': {10: 120...., 80: 140.0, 90: 150.0}}, input_type=dict]
+2026-01-01T16:32:13.4697814Z     For further information visit https://errors.pydantic.dev/2.12/v/missing
+2026-01-01T16:32:13.4698158Z lower_bound
+2026-01-01T16:32:13.4698519Z   Field required [type=missing, input_value={'percentiles': {10: 120...., 80: 140.0, 90: 150.0}}, input_type=dict]
+2026-01-01T16:32:13.4699054Z     For further information visit https://errors.pydantic.dev/2.12/v/missing
+2026-01-01T16:32:13.4699393Z zero_point
+2026-01-01T16:32:13.4699753Z   Field required [type=missing, input_value={'percentiles': {10: 120...., 80: 140.0, 90: 150.0}}, input_type=dict]
+2026-01-01T16:32:13.4700576Z     For further information visit https://errors.pydantic.dev/2.12/v/missing, 6 validation errors for NumericDistribution
+2026-01-01T16:32:13.4701332Z declared_percentiles
+2026-01-01T16:32:13.4701727Z   Field required [type=missing, input_value={'percentiles': {10: 120...., 80: 140.0, 90: 145.0}}, input_type=dict]
+2026-01-01T16:32:13.4702267Z     For further information visit https://errors.pydantic.dev/2.12/v/missing
+2026-01-01T16:32:13.4702731Z open_upper_bound
+2026-01-01T16:32:13.4703106Z   Field required [type=missing, input_value={'percentiles': {10: 120...., 80: 140.0, 90: 145.0}}, input_type=dict]
+2026-01-01T16:32:13.4703637Z     For further information visit https://errors.pydantic.dev/2.12/v/missing
+2026-01-01T16:32:13.4703987Z open_lower_bound
+2026-01-01T16:32:13.4704358Z   Field required [type=missing, input_value={'percentiles': {10: 120...., 80: 140.0, 90: 145.0}}, input_type=dict]
+2026-01-01T16:32:13.4704885Z     For further information visit https://errors.pydantic.dev/2.12/v/missing
+2026-01-01T16:32:13.4705224Z upper_bound
+2026-01-01T16:32:13.4705582Z   Field required [type=missing, input_value={'percentiles': {10: 120...., 80: 140.0, 90: 145.0}}, input_type=dict]
+2026-01-01T16:32:13.4706119Z     For further information visit https://errors.pydantic.dev/2.12/v/missing
+2026-01-01T16:32:13.4706467Z lower_bound
+2026-01-01T16:32:13.4706823Z   Field required [type=missing, input_value={'percentiles': {10: 120...., 80: 140.0, 90: 145.0}}, input_type=dict]
+2026-01-01T16:32:13.4707359Z     For further information visit https://errors.pydantic.dev/2.12/v/missing
+2026-01-01T16:32:13.4707692Z zero_point
+2026-01-01T16:32:13.4708051Z   Field required [type=missing, input_value={'percentiles': {10: 120...., 80: 140.0, 90: 145.0}}, input_type=dict]
+2026-01-01T16:32:13.4708718Z     For further information visit https://errors.pydantic.dev/2.12/v/missing, 6 validation errors for NumericDistribution
+2026-01-01T16:32:13.4709202Z declared_percentiles
+2026-01-01T16:32:13.4709584Z   Field required [type=missing, input_value={'percentiles': {10: 120...., 80: 140.0, 90: 150.0}}, input_type=dict]
+2026-01-01T16:32:13.4710261Z     For further information visit https://errors.pydantic.dev/2.12/v/missing
+2026-01-01T16:32:13.4710608Z open_upper_bound
+2026-01-01T16:32:13.4710982Z   Field required [type=missing, input_value={'percentiles': {10: 120...., 80: 140.0, 90: 150.0}}, input_type=dict]
+2026-01-01T16:32:13.4711513Z     For further information visit https://errors.pydantic.dev/2.12/v/missing
+2026-01-01T16:32:13.4711858Z open_lower_bound
+2026-01-01T16:32:13.4712228Z   Field required [type=missing, input_value={'percentiles': {10: 120...., 80: 140.0, 90: 150.0}}, input_type=dict]
+2026-01-01T16:32:13.4712752Z     For further information visit https://errors.pydantic.dev/2.12/v/missing
+2026-01-01T16:32:13.4713097Z upper_bound
+2026-01-01T16:32:13.4713455Z   Field required [type=missing, input_value={'percentiles': {10: 120...., 80: 140.0, 90: 150.0}}, input_type=dict]
+2026-01-01T16:32:13.4713983Z     For further information visit https://errors.pydantic.dev/2.12/v/missing
+2026-01-01T16:32:13.4714323Z lower_bound
+2026-01-01T16:32:13.4714685Z   Field required [type=missing, input_value={'percentiles': {10: 120...., 80: 140.0, 90: 150.0}}, input_type=dict]
+2026-01-01T16:32:13.4715216Z     For further information visit https://errors.pydantic.dev/2.12/v/missing
+2026-01-01T16:32:13.4715573Z zero_point
+2026-01-01T16:32:13.4715946Z   Field required [type=missing, input_value={'percentiles': {10: 120...., 80: 140.0, 90: 150.0}}, input_type=dict]
+2026-01-01T16:32:13.4716626Z     For further information visit https://errors.pydantic.dev/2.12/v/missing, 6 validation errors for NumericDistribution
+2026-01-01T16:32:13.4717113Z declared_percentiles
+2026-01-01T16:32:13.4717500Z   Field required [type=missing, input_value={'percentiles': {10: 115...., 80: 140.0, 90: 150.0}}, input_type=dict]
+2026-01-01T16:32:13.4718030Z     For further information visit https://errors.pydantic.dev/2.12/v/missing
+2026-01-01T16:32:13.4718376Z open_upper_bound
+2026-01-01T16:32:13.4718750Z   Field required [type=missing, input_value={'percentiles': {10: 115...., 80: 140.0, 90: 150.0}}, input_type=dict]
+2026-01-01T16:32:13.4719409Z     For further information visit https://errors.pydantic.dev/2.12/v/missing
+2026-01-01T16:32:13.4719755Z open_lower_bound
+2026-01-01T16:32:13.4720353Z   Field required [type=missing, input_value={'percentiles': {10: 115...., 80: 140.0, 90: 150.0}}, input_type=dict]
+2026-01-01T16:32:13.4721004Z     For further information visit https://errors.pydantic.dev/2.12/v/missing
+2026-01-01T16:32:13.4721349Z upper_bound
+2026-01-01T16:32:13.4721711Z   Field required [type=missing, input_value={'percentiles': {10: 115...., 80: 140.0, 90: 150.0}}, input_type=dict]
+2026-01-01T16:32:13.4722247Z     For further information visit https://errors.pydantic.dev/2.12/v/missing
+2026-01-01T16:32:13.4722588Z lower_bound
+2026-01-01T16:32:13.4722939Z   Field required [type=missing, input_value={'percentiles': {10: 115...., 80: 140.0, 90: 150.0}}, input_type=dict]
+2026-01-01T16:32:13.4723469Z     For further information visit https://errors.pydantic.dev/2.12/v/missing
+2026-01-01T16:32:13.4723819Z zero_point
+2026-01-01T16:32:13.4724172Z   Field required [type=missing, input_value={'percentiles': {10: 115...., 80: 140.0, 90: 150.0}}, input_type=dict]
+2026-01-01T16:32:13.4724724Z     For further information visit https://errors.pydantic.dev/2.12/v/missing)),))]
+2026-01-01T16:32:13.4725292Z 2026-01-01 16:32:13,434 - openai.agents - WARNING - OPENAI_API_KEY is not set, skipping trace export
+2026-01-01T16:32:14.2083314Z ##[error]Process completed with exit code 1.

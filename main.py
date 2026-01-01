@@ -403,14 +403,14 @@ class SpringTemplateBot2026(ForecastBot):
             logger.info(f"[GPR DEBUG] _aggregate_predictions called for numeric question with {len(predictions)} predictions")
             logger.info(f"[GPR DEBUG] Using GPR aggregation on {len(self._numeric_scenarios)} stored numeric scenarios")
 
-            gpr_distribution = self._gpr_aggregate_numeric(self._numeric_scenarios)
+            gpr_distribution = self._gpr_aggregate_numeric(self._numeric_scenarios, question)
 
             # Clear scenarios after aggregation
             self._numeric_scenarios = []
             self._current_question_id = None
             self._current_call_number = 0
 
-            logger.info(f"[GPR DEBUG] Numeric aggregation complete. Returning distribution with {len(gpr_distribution.percentiles)} percentiles")
+            logger.info(f"[GPR DEBUG] Numeric aggregation complete. Returning distribution with {len(gpr_distribution.declared_percentiles)} percentiles")
             return gpr_distribution
 
         else:
@@ -676,7 +676,9 @@ class SpringTemplateBot2026(ForecastBot):
             median = sorted_scenarios[n // 2]
             temp_percentiles = {10: median, 20: median, 40: median, 60: median, 80: median, 90: median}
 
-        return NumericDistribution(percentiles=temp_percentiles)
+        # Convert dict to list of Percentile objects
+        percentile_list = [Percentile(percentile=p, value=v) for p, v in sorted(temp_percentiles.items())]
+        return NumericDistribution.from_question(percentile_list, question)
 
     def _detect_unit_inconsistency(self, scenarios: list[float]) -> bool:
         """
@@ -708,12 +710,13 @@ class SpringTemplateBot2026(ForecastBot):
 
         return False
 
-    def _gpr_aggregate_numeric(self, scenarios: list[float]) -> NumericDistribution:
+    def _gpr_aggregate_numeric(self, scenarios: list[float], question: NumericQuestion) -> NumericDistribution:
         """
         Aggregate numeric scenarios using GPR to create full CDF.
 
         Args:
             scenarios: List of numeric values from multiple world scenarios
+            question: The NumericQuestion being forecasted
 
         Returns:
             NumericDistribution with smoothed percentiles at 5% increments
@@ -724,7 +727,7 @@ class SpringTemplateBot2026(ForecastBot):
                 f"GPR requires at least 9 scenarios for reliable aggregation. "
                 f"Using empirical percentiles instead."
             )
-            return self._empirical_distribution_fallback(scenarios)
+            return self._empirical_distribution_fallback(scenarios, question)
 
         # Sort scenarios to create empirical CDF
         sorted_scenarios = sorted(scenarios)
@@ -747,22 +750,22 @@ class SpringTemplateBot2026(ForecastBot):
 
         # Extract percentiles at 5% increments (19 percentiles: 5, 10, 15, ..., 90, 95)
         target_percentiles = list(range(5, 100, 5))  # [5, 10, 15, ..., 90, 95]
-        percentile_values = {}
+        percentile_list = []
 
         for p in target_percentiles:
             value = gpr_model.predict(np.array([[p]]))[0]
-            percentile_values[p] = float(value)
+            percentile_list.append(Percentile(percentile=p, value=float(value)))
 
         logger.info(f"✅ GPR numeric aggregation: {len(scenarios)} scenarios → {len(target_percentiles)} percentiles")
         logger.info(
-            f"Distribution: p5={percentile_values[5]:.2f}, "
-            f"p50={percentile_values[50]:.2f}, "
-            f"p95={percentile_values[95]:.2f}"
+            f"Distribution: p5={percentile_list[0].value:.2f}, "
+            f"p50={percentile_list[9].value:.2f}, "
+            f"p95={percentile_list[-1].value:.2f}"
         )
 
-        return NumericDistribution(percentiles=percentile_values)
+        return NumericDistribution.from_question(percentile_list, question)
 
-    def _empirical_distribution_fallback(self, scenarios: list[float]) -> NumericDistribution:
+    def _empirical_distribution_fallback(self, scenarios: list[float], question: NumericQuestion) -> NumericDistribution:
         """
         Fallback to empirical percentiles if too few scenarios for GPR.
 
@@ -774,20 +777,20 @@ class SpringTemplateBot2026(ForecastBot):
 
         # Extract percentiles at 5% increments using empirical approach
         target_percentiles = list(range(5, 100, 5))
-        percentile_values = {}
+        percentile_list = []
 
         for p in target_percentiles:
             index = int(n * p / 100)
             index = min(max(0, index), n - 1)  # Clamp to valid range
-            percentile_values[p] = sorted_scenarios[index]
+            percentile_list.append(Percentile(percentile=p, value=sorted_scenarios[index]))
 
         logger.warning(
             f"📊 EMPIRICAL FALLBACK APPLIED: Used {n} scenarios to create distribution. "
             f"Distribution may be less smooth than GPR. "
-            f"Range: [{percentile_values[5]:.2f}, {percentile_values[95]:.2f}]"
+            f"Range: [{percentile_list[0].value:.2f}, {percentile_list[-1].value:.2f}]"
         )
 
-        return NumericDistribution(percentiles=percentile_values)
+        return NumericDistribution.from_question(percentile_list, question)
 
     ##################################### DATE QUESTIONS #####################################
 
