@@ -267,9 +267,9 @@ class SpringTemplateBot2026(ForecastBot):
 
             2. Mid_World: review the bucket 2 evidence from your research assistant that the forecast could be around 
                the central views and trends, summarize.
-            - What would be a low forecast estimate be for this world?
+            - What would be a low forecast estimate for this world?
             - What would be a mid forecast estimate for this world?
-            - What would be a high forecast estimate be for this world?
+            - What would be a high forecast estimate for this world?
             
             3. High_World: review the bucket 3 evidence from your research assistant that the forecast could be high, summarize.
             - What would be a low forecast estimate for this world?
