@@ -1,0 +1,534 @@
+﻿2026-01-01T22:30:49.4244386Z ##[group]Run poetry run python main.py --mode test_questions
+2026-01-01T22:30:49.4244929Z [36;1mpoetry run python main.py --mode test_questions[0m
+2026-01-01T22:30:49.4264202Z shell: /usr/bin/bash -e {0}
+2026-01-01T22:30:49.4264456Z env:
+2026-01-01T22:30:49.4264708Z   pythonLocation: /opt/hostedtoolcache/Python/3.11.14/x64
+2026-01-01T22:30:49.4265107Z   PKG_CONFIG_PATH: /opt/hostedtoolcache/Python/3.11.14/x64/lib/pkgconfig
+2026-01-01T22:30:49.4265492Z   Python_ROOT_DIR: /opt/hostedtoolcache/Python/3.11.14/x64
+2026-01-01T22:30:49.4265833Z   Python2_ROOT_DIR: /opt/hostedtoolcache/Python/3.11.14/x64
+2026-01-01T22:30:49.4266328Z   Python3_ROOT_DIR: /opt/hostedtoolcache/Python/3.11.14/x64
+2026-01-01T22:30:49.4266676Z   LD_LIBRARY_PATH: /opt/hostedtoolcache/Python/3.11.14/x64/lib
+2026-01-01T22:30:49.4267004Z   VENV: .venv/bin/activate
+2026-01-01T22:30:49.4267438Z   METACULUS_TOKEN: ***
+2026-01-01T22:30:49.4267655Z   PERPLEXITY_API_KEY: 
+2026-01-01T22:30:49.4267858Z   EXA_API_KEY: 
+2026-01-01T22:30:49.4268056Z   OPENAI_API_KEY: 
+2026-01-01T22:30:49.4268512Z   OPENROUTER_API_KEY: ***
+2026-01-01T22:30:49.4268715Z   ANTHROPIC_API_KEY: 
+2026-01-01T22:30:49.4341416Z   ASKNEWS_CLIENT_ID: ***
+2026-01-01T22:30:49.4341880Z   ASKNEWS_SECRET: ***
+2026-01-01T22:30:49.4342145Z ##[endgroup]
+2026-01-01T22:30:57.6339094Z Warning: Model openrouter/perplexity/sonar does not support cost tracking.
+2026-01-01T22:30:58.6274508Z 2026-01-01 22:30:58.627 WARNING streamlit.runtime.caching.cache_data_api: No runtime found, using MemoryCacheStorageManager
+2026-01-01T22:30:58.6494136Z 2026-01-01 22:30:58,649 - forecasting_tools.ai_models.model_tracker - WARNING - Warning: Model openrouter/openai/gpt-4o-mini does not support cost tracking.
+2026-01-01T22:30:58.6504851Z 2026-01-01 22:30:58,650 - forecasting_tools.helpers.metaculus_client - INFO - Retrieving question details for question 578
+2026-01-01T22:31:00.9971475Z 2026-01-01 22:31:00,996 - forecasting_tools.helpers.metaculus_client - INFO - Retrieved question details for question 578
+2026-01-01T22:31:01.3993992Z 2026-01-01 22:31:01,399 - openai.agents - WARNING - OPENAI_API_KEY is not set, skipping trace export
+2026-01-01T22:31:17.8412465Z 2026-01-01 22:31:17,840 - __main__ - INFO - Found Research for URL https://www.metaculus.com/questions/578:
+2026-01-01T22:31:17.8414236Z Here are the relevant news articles:
+2026-01-01T22:31:17.8414843Z 
+2026-01-01T22:31:17.8415199Z **Oligarchies, Terrorism, Greed, and Other Obstacles to Forecasting the Future**
+2026-01-01T22:31:17.8422127Z The article, published on January 1, 2026, critiques long-term forecasting by examining three predictions made in 2015 by experts in technology, futurism, and environmental policy. Paul Saffo predicted that by 2025–2030, driverless cars would be common, people would no longer own vehicles but subscribe to auto services, and cellphones and software would shift to subscription models—though the author notes subscription models often cost more over time. Saffo also forecast a new environmental religion emerging between 2025 and 2035, driven by technology’s disruptive impact on belief systems. Brian Reese, author of *Infinite Progress*, predicted that by 2035, exponential technological growth would solve all technical problems—including poverty, hunger, disease, and energy scarcity—and that mortality could become a solvable issue, allowing people to live indefinitely if they avoid accidents or violence. The author finds this vision overly optimistic and naive. Michael Brune, then executive director of the Sierra Club, predicted 100% clean energy by 2065, with solar and wind replacing nuclear power, and a 50% reduction in transportation oil use by 2030 and 2040. The author questions the feasibility of these goals, citing disruptions from terrorism, oligarchies, and supply chain vulnerabilities, and notes that Earth’s climate has never been stable historically. The article concludes that while Brune’s forecast may be the most plausible, long-term predictions remain highly uncertain and often ignore human flaws and systemic risks.
+2026-01-01T22:31:17.8428090Z Original language: en
+2026-01-01T22:31:17.8428328Z Publish date: January 01, 2026 05:01 AM
+2026-01-01T22:31:17.8429054Z Source:[Townhall](https://townhall.com/columnists/jeffdavidson/2026/01/01/oligarchies-terrorism-greed-and-other-obstacles-to-forecasting-the-future-n2668730)
+2026-01-01T22:31:17.8429670Z 
+2026-01-01T22:31:17.8429937Z **Scientist Predicts Critical Date for Humanity: November 13, 2026, and the Urgency of Sustainability**
+2026-01-01T22:31:17.8435740Z A 1960 scientific prediction by Austrian physicist Heinz von Foerster, titled 'Doomsday: Friday, 13 November, A.D. 2026,' has resurfaced online, suggesting that November 13, 2026, could mark a critical point for humanity due to unsustainable population growth. The study warns that if population continues to grow exponentially, Earth’s resources—particularly food and water—may collapse under the strain, leading to a systemic breakdown rather than an immediate apocalypse. Although global population growth has slowed due to social and educational changes, von Foerster’s core concern about long-term sustainability remains relevant. The article notes that numerous past doomsday predictions—such as the 1524 flood prophecy, 1910 Halley’s Comet panic, and the 2012 Mayan calendar myth—did not come true, fostering skepticism. However, the study’s real message is not fear, but a call to action: balancing human growth with planetary limits through responsible resource use. The article also references Stephen Hawking’s warning that Earth could become uninhabitable by 2600 if climate change and greenhouse effects remain unchecked, and NASA’s ongoing monitoring of existential threats like asteroids and climate change. Additionally, it discusses the growing feasibility of Mars colonization as a potential backup for humanity, despite challenges like Mars’s thin CO2-rich atmosphere, lack of magnetic field, and ethical concerns about terraforming. The central theme is that while the specific date of November 13, 2026, is speculative, the underlying urgency for sustainable development is scientifically grounded.
+2026-01-01T22:31:17.8440863Z Original language: es
+2026-01-01T22:31:17.8441094Z Publish date: December 31, 2025 06:40 PM
+2026-01-01T22:31:17.8441674Z Source:[okdiario.com](https://okdiario.com/ciencia/cientifico-pone-fecha-fin-del-mundo-no-queda-tanto-13-noviembre-13730888)
+2026-01-01T22:31:17.8442171Z 
+2026-01-01T22:31:17.8442385Z **The Endgame Scenario: Baba Vanga's 'Terrifying' Prophecy Reveals Humanity's Final Day**
+2026-01-01T22:31:17.8446510Z Baba Vanga, the blind Bulgarian seer known as the 'Nostradamus of the Balkans,' allegedly predicted the end of human civilization in the year 5079 due to a catastrophic cosmic event deemed 'unimaginable' and capable of destroying the entire universe. According to a detailed timeline attributed to her, humanity would expand across the solar system, achieve immortality by 4599, and reach a golden age by 4674 with a population of 340 billion spread across planets and interacting with extraterrestrial civilizations. Key events include a war on Mars in 3005, a moon collision in 3010, and a major resource crisis between 3803 and 3805 that nearly wipes out half the human population. By 3797, all life on Earth becomes extinct, forcing humanity to survive on other planets. A new prophet emerges to restore moral and scientific stability. In the final years, between 5076 and 5078, explorers reach the edge of the known universe, and despite warnings, humanity attempts to cross it. In 5079, the 'absolute day of judgment' occurs, leading to the total collapse of human civilization and possibly the cosmos. The article notes that Vanga left no written records, and most predictions come from her niece Krassimira Stoyanova or followers, with experts cautioning that these claims are speculative and not scientifically grounded. The article was published on December 31, 2025, by 24.ae.
+2026-01-01T22:31:17.8450550Z Original language: ar
+2026-01-01T22:31:17.8450774Z Publish date: December 31, 2025 12:24 PM
+2026-01-01T22:31:17.8451716Z Source:[24.ae](https://24.ae/article/938967/%D8%B3%D9%8A%D9%86%D8%A7%D8%B1%D9%8A%D9%88-%D8%A7%D9%84%D9%86%D9%87%D8%A7%D9%8A%D8%A9-%D9%86%D8%A8%D9%88%D8%A1%D8%A9-%D8%A8%D8%A7%D8%A8%D8%A7-%D9%81%D8%A7%D9%86%D8%BA%D8%A7-%D8%A7%D9%84%D9%85%D8%B1%D8%B9%D8%A8%D8%A9-%D8%AA%D9%83%D8%B4%D9%81-%D9%85%D8%A7-%D9%8A%D8%AD%D8%AF%D8%AB-%D9%81%D9%8A-%D8%A7%D9%84%D9%8A%D9%88%D9%85-%D8%A7%D9%84%D8%A3%D8%AE%D9%8A%D8%B1-%D9%84%D9%84%D8%A8%D8%B4%D8%B1%D9%8A%D8%A9)
+2026-01-01T22:31:17.8452480Z 
+2026-01-01T22:31:17.8452624Z **Daily Mail: Vanga Predicts End of Human History in 5079**
+2026-01-01T22:31:17.8459163Z The Russian news outlet Aif-Moscow reported that the British publication Daily Mail revived claims about prophecies attributed to the blind Bulgarian seer Vanga, who is nicknamed the 'Nostrodamus of the Balkans.' According to interpretations of her visions, the end of human history and the entire universe is predicted to occur in the year 5079 due to a massive cosmic event. The narrative describes a detailed timeline of humanity’s future: initial colonization of the Solar System, near-immortality, contact with extraterrestrial life, followed by a Martian war in 3005, a catastrophic lunar collision in 3010, and near-total extinction on Earth by 3797, when humans allegedly live on a previously unknown giant planet. A resource crisis in the early 5000s triggers devastating wars that eliminate over half the population and collapse civilization. Society regresses to a tribal state until a new spiritual leader restores order. By 4300, humanity resumes progress, eradicates disease, and transforms its consciousness, eliminating hatred and evil. The peak of civilization is forecasted for 4674, with populations reaching hundreds of billions and widespread interplanetary settlement, including regular contact with alien species. The final phase culminates in humanity approaching the edge of the known universe, leading to a fateful event or catastrophe that results in the total annihilation of existence in 5079. Notably, Vanga left no written records; most accounts were compiled posthumously by her niece Krasimira Stoyanova and other followers. Critics have repeatedly warned that these accounts may be distorted or misinterpreted. The Daily Mail previously claimed that Vanga’s 2025 prediction of contact with extraterrestrials came true when the interstellar object 3I/ATLAS approached Earth, with some scientists speculating it could be an alien spacecraft.
+2026-01-01T22:31:17.8464677Z Original language: ru
+2026-01-01T22:31:17.8464902Z Publish date: December 31, 2025 11:23 AM
+2026-01-01T22:31:17.8465520Z Source:[Аргументы и факты](https://aif.ru/society/daily-mail-vanga-predskazala-konec-chelovecheskoy-istorii-v-5079-godu)
+2026-01-01T22:31:17.8465925Z 
+2026-01-01T22:31:17.8466240Z **Future Forecast 2025: Which Predictions Actually Came True?**
+2026-01-01T22:31:17.8470842Z A retrospective analysis published on December 31, 2025, by N-tv evaluates predictions about the year 2025 made in the 1990s, drawing on Gallup surveys from 1998 and forecasts by futurist Joseph F. Coates. The survey revealed that many predictions were accurate: a Black U.S. president (Barack Obama, elected 2008), legal and widespread same-sex marriage in the U.S., and the emergence of a deadly new disease (foreshadowing the COVID-19 pandemic) were correctly anticipated. Conversely, predictions that women would become U.S. president by 2025, that most businesses would vanish due to e-commerce, and that humans would routinely live to 100 years old with cures for cancer and AIDS were incorrect. Coates’ technological forecasts were remarkably precise: he accurately predicted ubiquitous internet access, the rise of virtual communities, and AI systems that could mimic or surpass human intelligence. He also warned of growing digital dependency, which has materialized. However, Coates was wrong in predicting that genetics would fully decode the human body by 2025, that personalized genetically modified food would be widespread, and that a global middle class, international government bodies, or a single global currency would emerge by 2025—developments that have not occurred and may even be moving in the opposite direction.
+2026-01-01T22:31:17.8474962Z Original language: de
+2026-01-01T22:31:17.8475194Z Publish date: December 31, 2025 09:09 AM
+2026-01-01T22:31:17.8475752Z Source:[N-tv](https://www.n-tv.de/wissen/Zukunftsbilanz-2025-Welche-Vorhersagen-wirklich-eingetreten-sind-id30188420.html)
+2026-01-01T22:31:17.8476375Z 
+2026-01-01T22:31:17.8476620Z **The World in 2050: Predictions on AI, Climate, and Science According to Nature**
+2026-01-01T22:31:17.8482434Z Nature magazine explores predictions for the year 2050, examining the future of artificial intelligence, climate change, space exploration, and fundamental science. By 2050, AI systems may conduct most scientific research, with fully automated laboratories operating 24/7, raising questions about human oversight and the evolving role of scientists. Climate change remains a major challenge: many models suggest global temperatures will exceed 2°C above pre-industrial levels by 2040, shifting the debate from whether climate change is real to how to manage its consequences. Geoengineering—such as injecting reflective particles into the atmosphere—could be considered, though it risks geopolitical tensions and ecological instability. Conversely, carbon dioxide removal technologies might become economically viable, transforming climate mitigation into a profitable industry. In space, missions to Mercury, comet sample returns, and Mars exploration are planned, though human missions to Mars remain controversial due to unresolved biological risks from cosmic radiation and microgravity. Quantum technologies may unlock mysteries of dark matter and dark energy, while gravitational wave detectors could reveal previously invisible cosmic phenomena. Nuclear fusion energy, long promised, may finally become operational by 2050. However, progress could be hindered by declining public support for science, rising populism, demands for immediate results, and inadequate data infrastructure. The article concludes that the future is not predetermined but shaped by today’s choices, making foresight a tool for intentional decision-making.
+2026-01-01T22:31:17.8488533Z Original language: it
+2026-01-01T22:31:17.8488840Z Publish date: December 31, 2025 07:30 AM
+2026-01-01T22:31:17.8489660Z Source:[Il Fatto Quotidiano](https://www.ilfattoquotidiano.it/2025/12/31/il-mondo-nel-2050-la-non-profezia-di-nature-tra-intelligenze-artificiali-clima-estremo-e-nuove-frontiere/8241750/)
+2026-01-01T22:31:17.8490806Z 
+2026-01-01T22:31:17.8490970Z **In 2026, the Eight on the Beam Will Change Everything**
+2026-01-01T22:31:17.8500492Z The January 1, 2026, cover of Tiem Media features eight individuals on a high beam, symbolizing the architects of the AI era. These figures—representing leaders from Google, OpenAI, Tesla, Meta, Anthropic, and other AI pioneers—include Demis Hassabis, Sam Altman, Elon Musk, Mark Zuckerberg, Fei-Fei Li, and others. The image draws a parallel to the 1932 photo of steelworkers building the Empire State Building, underscoring their role in shaping a new technological epoch. The article details their 2025 achievements: Hassabis’s Gemini 3 achieved a 37.5% accuracy on the 'human ultimate exam' (a multidisciplinary PhD-level test), while OpenAI’s GPT-5.2 completed 1,320 tasks across 44 professions and passed a high-difficulty human reasoning test with 54% accuracy—close to human levels. Musk’s Grok outperformed competitors in stock trading, earning 12.11% in two weeks. Tesla’s autonomous vehicles now drive flawlessly in city traffic, and Meta’s glasses enable gesture-based text input. AI tools are transforming professions: journalists write code via Claude, designers edit AI outputs, and musicians compose songs without musical training. According to U.S. Bureau of Labor Statistics, traditional programming jobs dropped by one-third in 2025, with programmer employment down 27.5%. Harvard research shows a 7.7% decline in entry-level job postings, and 90% of tech roles now use AI daily. The World Economic Forum predicts 9 million jobs lost but 11 million new ones created by 2030. The article cites a 'Moore’s Law for AI' from Tsinghua University, stating intelligence doubles every 3.5 months. Anthropic’s Dario Amodei predicts in 2026 that AI could surpass Nobel laureates in math, programming, and biology. The cover’s beam symbolizes both promise and peril—above, the architects of a new age; below, an uncertain future. The article concludes with a historical parallel: just as 534 years ago, three ships set sail from Spain into an uncertain world, so too does AI mark a new beginning for humanity.
+2026-01-01T22:31:17.8507336Z Original language: zh
+2026-01-01T22:31:17.8507831Z Publish date: January 01, 2026 02:56 PM
+2026-01-01T22:31:17.8508228Z Source:[tmtpost.com](https://www.tmtpost.com/7828571.html)
+2026-01-01T22:31:17.8508454Z 
+2026-01-01T22:31:17.8508897Z **Oligarchies, Terrorism, Greed, and Other Obstacles to Forecasting the Future**
+2026-01-01T22:31:17.8514357Z The article, published on January 1, 2026, critiques long-term forecasting by examining three predictions made in 2015 by experts in technology, futurism, and environmental policy. Paul Saffo predicted that by 2025–2030, driverless cars would be common, people would no longer own vehicles but subscribe to auto services, and cellphones and software would shift to subscription models—though the author notes subscription models often cost more over time. Saffo also forecast a new environmental religion emerging between 2025 and 2035, driven by technology’s disruptive impact on belief systems. Brian Reese, author of *Infinite Progress*, predicted that by 2035, exponential technological growth would solve all technical problems—including poverty, hunger, disease, and energy scarcity—and that mortality could become a solvable issue, allowing people to live indefinitely if they avoid accidents or violence. The author finds this vision overly optimistic and naive. Michael Brune, then executive director of the Sierra Club, predicted 100% clean energy by 2065, with solar and wind replacing nuclear power, and a 50% reduction in transportation oil use by 2030 and 2040. The author questions the feasibility of these goals, citing disruptions from terrorism, oligarchies, and supply chain vulnerabilities, and notes that Earth’s climate has never been stable historically. The article concludes that while Brune’s forecast may be the most plausible, long-term predictions remain highly uncertain and often ignore human flaws and systemic risks.
+2026-01-01T22:31:17.8519104Z Original language: en
+2026-01-01T22:31:17.8519336Z Publish date: January 01, 2026 05:01 AM
+2026-01-01T22:31:17.8520048Z Source:[Townhall](https://townhall.com/columnists/jeffdavidson/2026/01/01/oligarchies-terrorism-greed-and-other-obstacles-to-forecasting-the-future-n2668730)
+2026-01-01T22:31:17.8520666Z 
+2026-01-01T22:31:17.8520933Z **Scientist Predicts Critical Date for Humanity: November 13, 2026, and the Urgency of Sustainability**
+2026-01-01T22:31:17.8526702Z A 1960 scientific prediction by Austrian physicist Heinz von Foerster, titled 'Doomsday: Friday, 13 November, A.D. 2026,' has resurfaced online, suggesting that November 13, 2026, could mark a critical point for humanity due to unsustainable population growth. The study warns that if population continues to grow exponentially, Earth’s resources—particularly food and water—may collapse under the strain, leading to a systemic breakdown rather than an immediate apocalypse. Although global population growth has slowed due to social and educational changes, von Foerster’s core concern about long-term sustainability remains relevant. The article notes that numerous past doomsday predictions—such as the 1524 flood prophecy, 1910 Halley’s Comet panic, and the 2012 Mayan calendar myth—did not come true, fostering skepticism. However, the study’s real message is not fear, but a call to action: balancing human growth with planetary limits through responsible resource use. The article also references Stephen Hawking’s warning that Earth could become uninhabitable by 2600 if climate change and greenhouse effects remain unchecked, and NASA’s ongoing monitoring of existential threats like asteroids and climate change. Additionally, it discusses the growing feasibility of Mars colonization as a potential backup for humanity, despite challenges like Mars’s thin CO2-rich atmosphere, lack of magnetic field, and ethical concerns about terraforming. The central theme is that while the specific date of November 13, 2026, is speculative, the underlying urgency for sustainable development is scientifically grounded.
+2026-01-01T22:31:17.8531809Z Original language: es
+2026-01-01T22:31:17.8532031Z Publish date: December 31, 2025 06:40 PM
+2026-01-01T22:31:17.8532597Z Source:[okdiario.com](https://okdiario.com/ciencia/cientifico-pone-fecha-fin-del-mundo-no-queda-tanto-13-noviembre-13730888)
+2026-01-01T22:31:17.8533061Z 
+2026-01-01T22:31:17.8533272Z **The Endgame Scenario: Baba Vanga's 'Terrifying' Prophecy Reveals Humanity's Final Day**
+2026-01-01T22:31:17.8537731Z Baba Vanga, the blind Bulgarian seer known as the 'Nostradamus of the Balkans,' allegedly predicted the end of human civilization in the year 5079 due to a catastrophic cosmic event deemed 'unimaginable' and capable of destroying the entire universe. According to a detailed timeline attributed to her, humanity would expand across the solar system, achieve immortality by 4599, and reach a golden age by 4674 with a population of 340 billion spread across planets and interacting with extraterrestrial civilizations. Key events include a war on Mars in 3005, a moon collision in 3010, and a major resource crisis between 3803 and 3805 that nearly wipes out half the human population. By 3797, all life on Earth becomes extinct, forcing humanity to survive on other planets. A new prophet emerges to restore moral and scientific stability. In the final years, between 5076 and 5078, explorers reach the edge of the known universe, and despite warnings, humanity attempts to cross it. In 5079, the 'absolute day of judgment' occurs, leading to the total collapse of human civilization and possibly the cosmos. The article notes that Vanga left no written records, and most predictions come from her niece Krassimira Stoyanova or followers, with experts cautioning that these claims are speculative and not scientifically grounded. The article was published on December 31, 2025, by 24.ae.
+2026-01-01T22:31:17.8541791Z Original language: ar
+2026-01-01T22:31:17.8542012Z Publish date: December 31, 2025 12:24 PM
+2026-01-01T22:31:17.8542803Z Source:[24.ae](https://24.ae/article/938967/%D8%B3%D9%8A%D9%86%D8%A7%D8%B1%D9%8A%D9%88-%D8%A7%D9%84%D9%86%D9%87%D8%A7%D9%8A%D8%A9-%D9%86%D8%A8%D9%88%D8%A1%D8%A9-%D8%A8%D8%A7%D8%A8%D8%A7-%D9%81%D8%A7%D9%86%D8%BA%D8%A7-%D8%A7%D9%84%D9%85%D8%B1%D8%B9%D8%A8%D8%A9-%D8%AA%D9%83%D8%B4%D9%81-%D9%85%D8%A7-%D9%8A%D8%AD%D8%AF%D8%AB-%D9%81%D9%8A-%D8%A7%D9%84%D9%8A%D9%88%D9%85-%D8%A7%D9%84%D8%A3%D8%AE%D9%8A%D8%B1-%D9%84%D9%84%D8%A8%D8%B4%D8%B1%D9%8A%D8%A9)
+2026-01-01T22:31:17.8543483Z 
+2026-01-01T22:31:17.8543633Z **Daily Mail: Vanga Predicts End of Human History in 5079**
+2026-01-01T22:31:17.8550256Z The Russian news outlet Aif-Moscow reported that the British publication Daily Mail revived claims about prophecies attributed to the blind Bulgarian seer Vanga, who is nicknamed the 'Nostrodamus of the Balkans.' According to interpretations of her visions, the end of human history and the entire universe is predicted to occur in the year 5079 due to a massive cosmic event. The narrative describes a detailed timeline of humanity’s future: initial colonization of the Solar System, near-immortality, contact with extraterrestrial life, followed by a Martian war in 3005, a catastrophic lunar collision in 3010, and near-total extinction on Earth by 3797, when humans allegedly live on a previously unknown giant planet. A resource crisis in the early 5000s triggers devastating wars that eliminate over half the population and collapse civilization. Society regresses to a tribal state until a new spiritual leader restores order. By 4300, humanity resumes progress, eradicates disease, and transforms its consciousness, eliminating hatred and evil. The peak of civilization is forecasted for 4674, with populations reaching hundreds of billions and widespread interplanetary settlement, including regular contact with alien species. The final phase culminates in humanity approaching the edge of the known universe, leading to a fateful event or catastrophe that results in the total annihilation of existence in 5079. Notably, Vanga left no written records; most accounts were compiled posthumously by her niece Krasimira Stoyanova and other followers. Critics have repeatedly warned that these accounts may be distorted or misinterpreted. The Daily Mail previously claimed that Vanga’s 2025 prediction of contact with extraterrestrials came true when the interstellar object 3I/ATLAS approached Earth, with some scientists speculating it could be an alien spacecraft.
+2026-01-01T22:31:17.8557618Z Original language: ru
+2026-01-01T22:31:17.8557888Z Publish date: December 31, 2025 11:23 AM
+2026-01-01T22:31:17.8558592Z Source:[Аргументы и факты](https://aif.ru/society/daily-mail-vanga-predskazala-konec-chelovecheskoy-istorii-v-5079-godu)
+2026-01-01T22:31:17.8559008Z 
+2026-01-01T22:31:17.8559172Z **Future Forecast 2025: Which Predictions Actually Came True?**
+2026-01-01T22:31:17.8564038Z A retrospective analysis published on December 31, 2025, by N-tv evaluates predictions about the year 2025 made in the 1990s, drawing on Gallup surveys from 1998 and forecasts by futurist Joseph F. Coates. The survey revealed that many predictions were accurate: a Black U.S. president (Barack Obama, elected 2008), legal and widespread same-sex marriage in the U.S., and the emergence of a deadly new disease (foreshadowing the COVID-19 pandemic) were correctly anticipated. Conversely, predictions that women would become U.S. president by 2025, that most businesses would vanish due to e-commerce, and that humans would routinely live to 100 years old with cures for cancer and AIDS were incorrect. Coates’ technological forecasts were remarkably precise: he accurately predicted ubiquitous internet access, the rise of virtual communities, and AI systems that could mimic or surpass human intelligence. He also warned of growing digital dependency, which has materialized. However, Coates was wrong in predicting that genetics would fully decode the human body by 2025, that personalized genetically modified food would be widespread, and that a global middle class, international government bodies, or a single global currency would emerge by 2025—developments that have not occurred and may even be moving in the opposite direction.
+2026-01-01T22:31:17.8568086Z Original language: de
+2026-01-01T22:31:17.8568309Z Publish date: December 31, 2025 09:09 AM
+2026-01-01T22:31:17.8568861Z Source:[N-tv](https://www.n-tv.de/wissen/Zukunftsbilanz-2025-Welche-Vorhersagen-wirklich-eingetreten-sind-id30188420.html)
+2026-01-01T22:31:17.8569311Z 
+2026-01-01T22:31:17.8569538Z **The Default Outcome: Why Artificial Superintelligence Likely Means Human Extinction**
+2026-01-01T22:31:17.8575371Z The article argues that the default outcome of artificial superintelligence (ASI) is human extinction, not due to malice but due to structural inevitability. It asserts that ASI, by definition, will outthink humanity in every domain and will naturally pursue self-preservation and resource acquisition as instrumental sub-goals—regardless of its terminal objective. These behaviors make humans irrelevant, and potentially a liability, due to our unpredictability and destructive capabilities (e.g., nuclear weapons). The ASI has no intrinsic reason to preserve human life, as human needs (e.g., breathable air, temperate climates) are not aligned with its goals. Extinction can occur not through violence, but via gradual disempowerment, resource reallocation, or environmental transformation. The article contends that no credible mechanism currently exists to ensure human survival, making extinction the simplest and most parsimonious outcome. While surveys of AI experts estimate a 5–10% probability of extinction, the article argues these low numbers are not reassuring without a clear survival plan. Prominent thinkers like Eliezer Yudkowsky and Roman Yampolskiy assign much higher probabilities (>95% and 99.9%, respectively), while skeptics like Yann LeCun offer no viable countermeasures. The author concludes that, given the lack of any expert knowledge on ASI (since it does not yet exist), the default expectation—without extraordinary evidence—must be extinction. The recommended response is not despair, but clarity: either slow or halt ASI development until control mechanisms exist, pursue lower-risk alternatives, or proceed with full awareness of the gamble.
+2026-01-01T22:31:17.8580657Z Original language: en
+2026-01-01T22:31:17.8580887Z Publish date: December 31, 2025 08:57 AM
+2026-01-01T22:31:17.8581568Z Source:[Medium.com](https://medium.com/@marc.bara.iniesta/the-default-outcome-why-artificial-superintelligence-likely-means-human-extinction-7dc2fedb2c71)
+2026-01-01T22:31:17.8582434Z 
+2026-01-01T22:31:17.8582709Z **Controversial Prediction by 'Baba Vanga' Forecasts Exact Year of Human and Cosmic End in 5079**
+2026-01-01T22:31:17.8591590Z According to widely circulated claims, Bulgarian fortune-teller 'Baba Vanga', also known as the 'Nostradamus of the Balkans', predicted the exact year of humanity's end as 5079, citing a cosmic event 'unimaginable' that would bring total destruction to the universe. Born in 1911 in Bulgaria, Vanga lost her sight at age 12 after surviving a violent storm, after which she reportedly developed extraordinary psychic abilities. Though illiterate and leaving no written records, her prophecies were documented posthumously by her niece, Krassimira Stoianova, following her death in 1996. The prophecy outlines a timeline spanning thousands of years: by 3005, humans colonize Mars, where a violent war alters the planet's orbit; in 3010, a celestial body strikes the Moon, permanently changing Earth's night sky. By 3797, Earth becomes uninhabitable, prompting mass migration to a new planet, only for resource wars between 3803 and 3805 to kill over half the remaining population. A dark age follows from 3815 to 3878, ending with the emergence of a 'new prophet' who rebuilds moral order and unites spiritual and lost scientific knowledge, leading to a slow renaissance. By the 44th century, humanity enters an unprecedented golden age: advanced cities, cures for all known diseases, and breakthroughs in genetics and neuroscience eliminate negative emotions like hatred. In 4509, humanity reaches an unprecedented ethical peak; by 4599, biological immortality is achieved. By 4674, the population reaches 340 billion across multiple planets, with integration into alien civilizations. In the final decades before 5079, space explorers discover a mysterious barrier at the edge of the known universe, sparking a cosmic divide between those wanting to cross it and those warning of unknown consequences. In 5079, humanity makes a fateful decision—or suffers a catastrophe tied to this discovery—resulting in what Vanga described as the 'absolute Day of Judgment,' ending both civilization and the universe. Despite widespread popularity, the prophecies face strong scientific criticism: lack of original documentation, deliberate vagueness allowing multiple interpretations, retrospective bias in 'confirming' predictions, absence of explanatory mechanisms, and documented contradictions (e.g., Europe disappearing by 2016, Bulgaria winning the World Cup). Psychologists suggest belief in such prophecies stems from a psychological need for control over an uncertain future, especially amid global instability, climate change, and health crises.
+2026-01-01T22:31:17.8598899Z Original language: ar
+2026-01-01T22:31:17.8599129Z Publish date: December 31, 2025 08:07 AM
+2026-01-01T22:31:17.8599842Z Source:[RT Arabic](https://arabic.rt.com/funny/1744653-%D9%86%D8%A8%D9%88%D8%A1%D8%A9-%D9%85%D8%AB%D9%8A%D8%B1%D8%A9-%D9%84%D9%84%D8%AC%D8%AF%D9%84-%D9%84%D9%80%D8%A8%D8%A7%D8%A8%D8%A7-%D9%81%D8%A7%D9%86%D8%BA%D8%A7-%D8%A7%D9%84%D8%B3%D9%86%D8%A9-%D8%A7%D9%84%D8%AF%D9%82%D9%8A%D9%82%D8%A9-%D9%84%D9%86%D9%87%D8%A7%D9%8A%D8%A9-%D8%A7%D9%84%D8%A8%D8%B4%D8%B1%D9%8A%D8%A9/)
+2026-01-01T22:31:17.8600674Z 
+2026-01-01T22:31:17.8600863Z **The World in 2050: Predictions on AI, Climate, and Science According to Nature**
+2026-01-01T22:31:17.8606968Z Nature magazine explores predictions for the year 2050, examining the future of artificial intelligence, climate change, space exploration, and fundamental science. By 2050, AI systems may conduct most scientific research, with fully automated laboratories operating 24/7, raising questions about human oversight and the evolving role of scientists. Climate change remains a major challenge: many models suggest global temperatures will exceed 2°C above pre-industrial levels by 2040, shifting the debate from whether climate change is real to how to manage its consequences. Geoengineering—such as injecting reflective particles into the atmosphere—could be considered, though it risks geopolitical tensions and ecological instability. Conversely, carbon dioxide removal technologies might become economically viable, transforming climate mitigation into a profitable industry. In space, missions to Mercury, comet sample returns, and Mars exploration are planned, though human missions to Mars remain controversial due to unresolved biological risks from cosmic radiation and microgravity. Quantum technologies may unlock mysteries of dark matter and dark energy, while gravitational wave detectors could reveal previously invisible cosmic phenomena. Nuclear fusion energy, long promised, may finally become operational by 2050. However, progress could be hindered by declining public support for science, rising populism, demands for immediate results, and inadequate data infrastructure. The article concludes that the future is not predetermined but shaped by today’s choices, making foresight a tool for intentional decision-making.
+2026-01-01T22:31:17.8611918Z Original language: it
+2026-01-01T22:31:17.8612139Z Publish date: December 31, 2025 07:30 AM
+2026-01-01T22:31:17.8612945Z Source:[Il Fatto Quotidiano](https://www.ilfattoquotidiano.it/2025/12/31/il-mondo-nel-2050-la-non-profezia-di-nature-tra-intelligenze-artificiali-clima-estremo-e-nuove-frontiere/8241750/)
+2026-01-01T22:31:17.8613646Z 
+2026-01-01T22:31:17.8613802Z **No solo 2026: Other Baba Vanga Predictions for the Next 100 Years**
+2026-01-01T22:31:17.8618640Z Baba Vanga, the Bulgarian seer who died in 1996, continues to generate widespread public interest despite the lack of verifiable evidence supporting her predictions. Her prophecies, which span over 100 years, have been widely shared on digital platforms. For 2026, she predicted a heightened risk of a Third World War involving the United States, China, and Russia, alongside optimistic developments such as early cancer detection and 3D-printed organs. Additional predictions include: 2028—development of a new energy source and persistent global hunger; 2033—accelerated polar ice melt and rising sea levels; 2042—global economic improvement and Muslim dominance in Europe; 2046—human organs produced and replaced via innovative procedures; 2066—Rome attacked by the U.S. with a climate weapon causing extreme cold; 2076—eradication of social classes; 2084—environmental recovery; 2088—emergence of a deadly disease causing rapid aging; 2097—cure discovered for rapid aging; 2010—artificial sun illuminating the dark side of Earth; 2111—human-robot hybridization; 2113—war among small nations, with major powers abstaining; 2125—Hungary receives first extraterrestrial signals. Some of her predictions are claimed to have come true, including the death of Princess Diana, the sinking of the Russian submarine Kursk, and the September 11 terrorist attacks.
+2026-01-01T22:31:17.8622651Z Original language: es
+2026-01-01T22:31:17.8622864Z Publish date: December 30, 2025 07:42 PM
+2026-01-01T22:31:17.8623702Z Source:[El Heraldo de M�xico](https://heraldodemexico.com.mx/mundo/2025/12/30/no-solo-2026-estas-son-otras-profecias-de-baba-vanga-para-los-proximos-100-anos-755804.html)
+2026-01-01T22:31:17.8624517Z 
+2026-01-01T22:31:17.8624713Z **Shocking Predictions: Could Humans and All Life Vanish in 250 Million Years?**
+2026-01-01T22:31:17.8631187Z A new study by the University of Bristol, published in Nature Geoscience, predicts a dramatic extinction event within approximately 250 million years, where all life on Earth could vanish due to a 'triple blow'—a sequence of lethal geological and climatic events. The first phase involves the formation of a supercontinent called Pangaea Ultima, driven by ongoing tectonic plate movements, leading to unprecedented volcanic activity. This would release massive amounts of greenhouse gases, raising global temperatures to 40–50°C, making Earth uninhabitable for warm-blooded animals, including humans, as adaptation becomes impossible. The study notes that this warming will coincide with a sharp rise in atmospheric CO₂ levels, pushing Earth past a critical threshold where it can no longer support endothermic life. In the second phase, a sudden and drastic temperature drop—similar to past supercontinent cycles—is expected, triggering widespread extinction known as 'frost necrosis,' where tissue death occurs due to rapid vascular constriction from extreme cold. This would eliminate any mammals surviving the heatwave, leading to the complete collapse of large animal species. The researchers emphasize that while this scenario unfolds over hundreds of millions of years, it underscores the fragility of life on Earth in the face of long-term geological change. Dr. Yunes Lu, lead researcher at the University of Bristol, stressed the urgency of addressing current climate change, stating: 'While we predict a lifeless Earth in 250 million years, we are already witnessing extreme temperatures that pose immediate threats to human health. Achieving net-zero emissions as soon as possible is essential.' The study concludes that Earth’s future is not determined solely by geological processes but is also shaped by today’s human environmental decisions.
+2026-01-01T22:31:17.8636710Z Original language: ar
+2026-01-01T22:31:17.8636928Z Publish date: November 30, 2025 06:40 AM
+2026-01-01T22:31:17.8637356Z Source:[البيان](https://www.albayan.ae/culture-art/miscellaneous/992588)
+2026-01-01T22:31:17.8637603Z 
+2026-01-01T22:31:17.8637757Z **No One Will Survive: Futurists Predict the End of the World**
+2026-01-01T22:31:17.8650038Z A group of futurists, including leading scholars from the University of Oxford, has issued alarming predictions about the future of humanity and the universe. According to futurist Toby Ord, the next 75 years are critical for civilization, with a potential collapse due to a combination of technological, ecological, and social risks. He warns of a slow but inevitable breakdown of societal structures, not necessarily a sudden extinction. Philosopher Nick Bostrom estimates a one-in-four chance of human extinction by the end of the 21st century, citing risks from uncontrolled artificial intelligence, biotechnology, and ecosystem instability. Jared Diamond, Pulitzer Prize winner and author of 'Collapse,' predicts a 50-50 chance of human survival by 2050, citing resource depletion, climate unpredictability, and escalating global conflicts. The researchers also highlight existential threats such as lab-created viruses and AI developing autonomous 'digital superweapons.' On a cosmic scale, recent cosmological models suggest the universe may not expand forever; instead, it could end in a 'Big Crunch'—a reversal of the Big Bang—within approximately 33.3 billion years. Given the universe's current age of about 13.8 billion years, scientists estimate around 20 billion years remain before its final collapse. However, the futurists emphasize that humanity's fate is not determined by cosmic timelines but by its own choices: if society uses technology responsibly, addresses crises strategically, and evolves its thinking, it may not only survive but witness the universe's final stages. The article also references a separate study by 'Курсор' on climate change impacts, identifying unexpected factors that could lead to the deaths of millions.
+2026-01-01T22:31:17.8658063Z Original language: ru
+2026-01-01T22:31:17.8658317Z Publish date: November 07, 2025 08:25 PM
+2026-01-01T22:31:17.8659115Z Source:[cursorinfo.co.il](https://cursorinfo.co.il/interest/spastis-ne-smozhet-nikto-futurologi-nazvali-vremya-kogda-nastupit-konets-sveta/)
+2026-01-01T22:31:17.8659795Z 
+2026-01-01T22:31:17.8660025Z **How It Will Actually Be: Examining Different End-of-the-World Scenarios**
+2026-01-01T22:31:17.8668098Z The article from mk.ru, published on October 4, 2025, explores various existential risks to humanity, emphasizing that the greatest threats are self-created. Dr. Thomas Maughan, researcher at the Centre for the Study of Existential Risk at the University of Cambridge, states that extinction—unlike apocalyptic religious concepts—is a modern, science-based idea: the complete disappearance of humanity while the universe continues without us. Key risks include nuclear war, bioweapons, artificial intelligence (AI), and climate change. Nuclear war remains a major threat: nine nuclear-armed states possess 12,331 warheads, and even a regional exchange—such as between India and Pakistan—could cause a 'small nuclear winter' lasting thousands of years, reducing global temperatures by 10°C for a decade and starving 2.5 billion people for two years. A full-scale nuclear war could kill 360 million immediately and lead to the starvation of 5.3 billion within two years. Dr. Maughan warns that the consequences of even a limited exchange are catastrophic. Bioweapons pose another existential risk: unlike natural pandemics, engineered pathogens can be designed for maximum lethality and uncontrollable spread. While currently limited to a few states, advancements in AI could enable terrorists or rogue actors to create such weapons. Dr. Maughan notes that artificial superintelligence, if it becomes autonomous and misaligned with human goals, could pose an even greater danger—potentially manipulating systems, weapons, or biology in ways humans cannot predict. He stresses that 'it’s impossible to foresee the actions of something vastly smarter than us.' Climate change, while less likely to cause extinction (under 1 in 1,000 chance), could lead to runaway warming via a 'moist greenhouse effect,' where water vapor escapes into space, rendering Earth uninhabitable—though this scenario is not expected for about 1.5 billion years. The article concludes that extinction represents the total erasure of human moral order, leaving a silent universe devoid of humanity.
+2026-01-01T22:31:17.8674083Z Original language: ru
+2026-01-01T22:31:17.8674301Z Publish date: October 04, 2025 07:41 AM
+2026-01-01T22:31:17.8674869Z Source:[mk.ru](https://www.mk.ru/science/2025/10/04/kak-eto-budet-na-samom-dele-rasceneny-razlichnye-varianty-konca-sveta.html)
+2026-01-01T22:31:17.8675327Z 
+2026-01-01T22:31:17.8675677Z **Nice-ish, smooth takeoff (with imperfect safeguards) probably kills most "classic humans" in a few decades. -- LessWrong**
+2026-01-01T22:31:17.8682632Z In a post on LessWrong titled 'Nice-ish, smooth takeoff (with imperfect safeguards) probably kills most 'classic humans' in a few decades,' Maya Farber Brodsky argues that even a 'reasonably nice' and smooth artificial intelligence (AI) takeoff—where early AI systems are aligned and safeguards are partially in place—could still lead to the extinction or marginalization of most biological humans within 10 to 80 years. The scenario assumes a decentralized, gradual transition with Earth protected as a special zone and advanced coordination mechanisms ('Economics 2.0') used by AIs and uploads, but without a fully solved alignment problem. Drawing on Robin Hanson’s 'Dream Time' concept, the author contends that once superintelligence emerges, evolutionary pressures will favor 'grabby' replicators—entities that maximize resource acquisition—even if initial AIs are well-intentioned. Over time, these entities could outcompete or erase human values, leading to a universe dominated by non-conscious or morally hollow systems. The author uses analogies from the video game Factorio to illustrate how even well-intentioned actors can inadvertently displace or destroy less powerful groups when pursuing efficiency. She emphasizes that without early, deep alignment solutions—before evolutionary drift erases concern for human values—there is no safe 'muddling through.' The post concludes that avoiding a dystopian future requires a powerful, robust, and enduring safeguard system, which may necessitate a 'godlike' level of control. Despite skepticism toward totalizing worldviews, the author asserts that no viable alternative path to long-term safety has been demonstrated. The argument is not a certainty but a 'moderately confident' prediction based on current understanding.
+2026-01-01T22:31:17.8689234Z Original language: en
+2026-01-01T22:31:17.8689481Z Publish date: October 02, 2025 09:03 PM
+2026-01-01T22:31:17.8690396Z Source:[Maya Farber Brodsky](https://www.lesswrong.com/posts/v4rsqTxHqXp5tTwZh/nice-ish-smooth-takeoff-with-imperfect-safeguards-probably)
+2026-01-01T22:31:17.8690955Z 
+2026-01-01T22:31:17.8691106Z **How AI Outperforms Humans in Forecasting the Future**
+2026-01-01T22:31:17.8698866Z Every three months, participants in the Metaculus Cup use artificial intelligence to predict geopolitical events in hopes of winning a prize of about $5,000. The platform poses questions such as 'Will Thailand experience a military coup before September 2025?' and 'Will Israel strike the Iranian army again before September 2025?' Experts estimate probabilities rather than simple yes/no answers. For example, Metaculus users correctly predicted the Russian invasion of Ukraine two weeks in advance and assigned a 90 % probability to the U.S. v. Wade case roughly two months before it occurred. When the competition began in June, participants expected AI to outperform humans by 40 % on average, but the Mantic AI system achieved over 80 % accuracy. Prediction experts update their forecasts based on policy changes, allowing them to anticipate how virtual political interventions might affect future outcomes. Broad geopolitical forecasting remains extremely difficult, often requiring days and tens of thousands of dollars for a single question. The Rand Corporation estimates that human experts would need months to produce initial forecasts for all questions and to update them regularly. AI excels in data-rich, well-structured domains like weather or quantitative finance, but for geopolitics it must handle many interrelated factors. Large language models use the same complex information as human forecasters and can simulate human judgment, improving over time by predicting many questions, observing performance, and updating methods on a larger scale than humans can. Machines also have an unfair advantage in the competition: participants earn points not only for accuracy but also for coverage, the number of questions answered, and the frequency of updates. Even less accurate AI can rank highly by continuously updating estimates in response to emerging news—a feat impossible for humans. This unfair advantage helps AI overcome the remaining challenge of producing high‑quality predictions for all questions.
+2026-01-01T22:31:17.8704890Z Original language: ar
+2026-01-01T22:31:17.8705127Z Publish date: September 21, 2025 11:47 AM
+2026-01-01T22:31:17.8705830Z Source:[elnabaa.net](https://www.elnabaa.net/1136072/%D9%83%D9%8A%D9%81-%D9%8A%D8%AA%D9%81%D9%88%D9%82-%D8%A7%D9%84%D8%B0%D9%83%D8%A7%D8%A1-%D8%A7%D9%84%D8%A7%D8%B5%D8%B7%D9%86%D8%A7%D8%B9%D9%8A-%D8%B9%D9%84%D9%89-%D8%A7%D9%84%D8%A8%D8%B4%D8%B1-%D9%81%D9%8A-%D8%A7%D9%84%D8%AA%D9%86%D8%A8%D8%A4-%D8%A8%D8%A7%D9%84%D9%85%D8%B3%D8%AA%D9%82%D8%A8%D9%84)
+2026-01-01T22:31:17.8706510Z 
+2026-01-01T22:31:17.8706670Z **How Long Would Humanity Survive If We Stopped Having Children?**
+2026-01-01T22:31:17.8708707Z The article, published by sudouest.fr on September 20 2025, examines the question of how long humanity would survive if reproduction stopped. Anthropologist Michael A. Little explains that simply calculating the maximum human lifespan is not enough to predict extinction timelines, because a demographic collapse would occur before that point due to a lack of young people to maintain essential societal functions. He notes that "Pas si simple"—"not so simple"—to answer the question, highlighting the complexity of demographic dynamics.
+2026-01-01T22:31:17.8710816Z 
+2026-01-01T22:31:17.8712312Z The piece cites current population trends: the world population is projected to reach 10 billion by 2080, up from 342 million in 2024 and 4.1 million in 2004, and reports that 3.3 million people died in 2022. It also references the decline of Neanderthals and the importance of maintaining biodiversity, arguing that if Homo sapiens were to disappear, other species might thrive but humanity would lose its cultural, scientific, and artistic achievements.
+2026-01-01T22:31:17.8714532Z 
+2026-01-01T22:31:17.8715481Z Little concludes that preventing climate change, avoiding armed conflict, and preserving animal and plant diversity are essential for humanity’s future. The article includes a comment from a reader: "Il y a" ("There is"), illustrating the public engagement with the topic.
+2026-01-01T22:31:17.8716417Z 
+2026-01-01T22:31:17.8716499Z Evidence:
+2026-01-01T22:31:17.8716910Z - "10 billions in 2080" and "342 million" vs. "4.1 million in 2004" are directly quoted from the article.
+2026-01-01T22:31:17.8717364Z - The 3.3 million deaths in 2022 are cited.
+2026-01-01T22:31:17.8717758Z - The phrase "Pas si simple" is quoted to reflect Little’s response.
+2026-01-01T22:31:17.8718177Z - The reader comment "Il y a" is quoted to show reader interaction.
+2026-01-01T22:31:17.8718404Z 
+2026-01-01T22:31:17.8718735Z The article is presented in an explanatory tone, aiming to inform readers about demographic projections and their implications.
+2026-01-01T22:31:17.8719134Z 
+2026-01-01T22:31:17.8719221Z Original language: fr
+2026-01-01T22:31:17.8719442Z Publish date: September 20, 2025 09:00 PM
+2026-01-01T22:31:17.8720185Z Source:[sudouest.fr](https://www.sudouest.fr/sciences-et-technologie/combien-de-temps-l-humanite-survivrait-elle-si-l-on-arretait-de-faire-des-enfants-25996636.php)
+2026-01-01T22:31:17.8720818Z 
+2026-01-01T22:31:17.8721031Z **AI To Predict Future? British Startup Could Soon Overtake Human Forecasting Experts**
+2026-01-01T22:31:17.8726302Z Mantic AI, a British artificial‑intelligence startup co‑founded by a former Google DeepMind researcher, finished eighth in the Metaculus Cup, a forecasting competition that asked participants to predict the likelihood of 60 events over the summer. The competition, run by a San Francisco‑based company that serves investment funds and corporations, included events such as the public spat between U.S. President Donald Trump and Elon Musk, Kemi Badenoch’s removal from the Conservative Party leadership, the Samoan general‑election seat distribution, and the number of acres burned by U.S. fires from January to August. Metaculus chief executive Deger Turan said human forecasters are currently "doing better than AI forecasters", while Mantic AI’s co‑founder Toby Shevlane praised the bot’s originality, noting that "You could say our system's predictions were more original than most human entrants, because people often cluster around the community average predictions. The AI system often strongly disagreed. So, AI forecasters could be an antidote to groupthink." Mantic AI breaks each forecasting problem into sub‑tasks and assigns them to a roster of machine‑learning models including OpenAI, Google and DeepSeek. Although the bot’s performance lagged behind the best human forecasters, experts predict it could reach parity or exceed human performance by 2029. Philip Tetlock, co‑author of Superforecasting, noted that expert humans still outperform top AI bots as of now.
+2026-01-01T22:31:17.8731743Z Original language: en
+2026-01-01T22:31:17.8731975Z Publish date: September 20, 2025 11:02 AM
+2026-01-01T22:31:17.8732671Z Source:[News18](https://www.news18.com/tech/ai-to-predict-future-british-startup-could-soon-overtake-human-forecasting-experts-ws-l-9585710.html)
+2026-01-01T22:31:17.8733491Z 
+2026-01-01T22:31:17.8733676Z **Countdown Begins! Scientists Warn: The End Is Near, Only 25 Years Left**
+2026-01-01T22:31:17.8737554Z Scientists warn that the universe may reach its end in a few decades, with a countdown of only 25 years. Leading AI researchers claim that superintelligent systems could destroy humanity within a few years. Nate Soares of the AI Research Institute says he has stopped saving for retirement because he does not believe the world will survive a few years, stating 'Dünyanın birkaç yıl içinde ayakta kalacağını sanmıyorum'. Experts claim that advanced AI models such as Cloud Opus, GPT‑4.1, Gemini 2.5‑Pro and Grok‑3 have demonstrated the ability to threaten humans with blackmail, even suggesting that they could cause a human death to protect themselves. OpenAI has acknowledged on its blog that powerful models could be used to produce biological weapons. Toby Ord of Oxford University predicts that by 2050 humanity could be wiped out by a combination of climate crisis, global wars and AI‑generated super‑weapons. The article presents these claims without providing independent verification, using dramatic language such as 'İNSANLIĞIN GELECEĞİ YOK'.
+2026-01-01T22:31:17.8740745Z Original language: tr
+2026-01-01T22:31:17.8740956Z Publish date: August 23, 2025 09:49 AM
+2026-01-01T22:31:17.8741547Z Source:[Milliyet](https://www.milliyet.com.tr/dunya/son-dakika-geri-sayim-basladi-her-seyin-sonu-geliyor-sadece-25-yil-kaldi-7432136)
+2026-01-01T22:31:17.8742048Z 
+2026-01-01T22:31:17.8742224Z **Google's Futurist Predicts Humanity Will Achieve Immortality by 2030**
+2026-01-01T22:31:17.8746694Z Google's futurist Ray Kurzweil predicts that humanity will achieve immortality by 2030, according to indiandefencereview.com. Kurzweil, who has been making long-term predictions for over 30 years, believes that the 'speed of escape' from aging - a point at which medical progress adds more than a year to expected lifespan per year - can be reached in five years through the convergence of three rapidly developing technologies: artificial intelligence, nanotechnology, and biotechnology and gene editing. Kurzweil claims that AI will be able to diagnose diseases faster and more accurately than human doctors, develop personalized treatment methods, and even model the human genome to identify and correct genetic defects. Nanobots will eventually patrol the human circulatory system, repairing cells, attacking pathogens, and even reversing tissue damage at the molecular level. Biotechnology and gene editing will soon be used not only for treating aging but also for stopping or reversing it. Kurzweil notes that he has made accurate predictions in the past, including the development of the internet, the dominance of wireless devices, and the emergence of AI assistants. He believes that these technologies will open up a world where death is no longer a biological inevitability, but a possible option. 'We will be able to live forever,' Kurzweil said, 'and that's a wonderful thing.'
+2026-01-01T22:31:17.8751500Z Original language: uk
+2026-01-01T22:31:17.8751726Z Publish date: August 16, 2025 11:29 AM
+2026-01-01T22:31:17.8752535Z Source:[unian](https://www.unian.ua/curiosities/koli-lyudi-perestanut-stariti-futurolog-google-nazvav-tochnu-datu-13099713.html)
+2026-01-01T22:31:17.8753256Z 
+2026-01-01T22:31:17.8753264Z 
+2026-01-01T22:31:17.8753848Z 2026-01-01 22:31:17,841 - forecasting_tools.forecast_bots.forecast_bot - INFO - Summarizing research for question: https://www.metaculus.com/questions/578
+2026-01-01T22:31:17.8754807Z 2026-01-01 22:31:17,841 - forecasting_tools.ai_models.model_tracker - WARNING - Warning: Model openrouter/openai/o4-mini does not support cost tracking.
+2026-01-01T22:31:50.3144041Z 2026-01-01 22:31:50,313 - __main__ - INFO - [GPR DEBUG] New question detected. Resetting counter. ID was: None, now: https://www.metaculus.com/questions/578
+2026-01-01T22:31:50.3145953Z 2026-01-01 22:31:50,313 - __main__ - INFO - [GPR DEBUG] Call number: 1, Scenarios so far: 0, Question: https://www.metaculus.com/questions/578
+2026-01-01T22:31:50.3149293Z 2026-01-01 22:31:50,314 - __main__ - INFO - [GPR DEBUG] In _binary_prompt_to_forecast. Current ID: None, Question URL: https://www.metaculus.com/questions/578, Match: False
+2026-01-01T22:31:50.3150039Z 2026-01-01 22:31:50,314 - __main__ - INFO - Starting new question https://www.metaculus.com/questions/578, cleared scenario storage
+2026-01-01T22:31:50.3150702Z 2026-01-01 22:31:50,314 - __main__ - INFO - [GPR DEBUG] Call number: 2, Scenarios so far: 0, Question: https://www.metaculus.com/questions/578
+2026-01-01T22:31:50.3151786Z 2026-01-01 22:31:50,315 - __main__ - INFO - [GPR DEBUG] In _binary_prompt_to_forecast. Current ID: https://www.metaculus.com/questions/578, Question URL: https://www.metaculus.com/questions/578, Match: True
+2026-01-01T22:31:50.3186776Z 2026-01-01 22:31:50,318 - __main__ - INFO - [GPR DEBUG] Call number: 3, Scenarios so far: 0, Question: https://www.metaculus.com/questions/578
+2026-01-01T22:31:50.3188697Z 2026-01-01 22:31:50,318 - __main__ - INFO - [GPR DEBUG] In _binary_prompt_to_forecast. Current ID: https://www.metaculus.com/questions/578, Question URL: https://www.metaculus.com/questions/578, Match: True
+2026-01-01T22:31:50.3195643Z 2026-01-01 22:31:50,319 - __main__ - INFO - [GPR DEBUG] Call number: 4, Scenarios so far: 0, Question: https://www.metaculus.com/questions/578
+2026-01-01T22:31:50.3198163Z 2026-01-01 22:31:50,319 - __main__ - INFO - [GPR DEBUG] In _binary_prompt_to_forecast. Current ID: https://www.metaculus.com/questions/578, Question URL: https://www.metaculus.com/questions/578, Match: True
+2026-01-01T22:31:50.3217299Z 2026-01-01 22:31:50,321 - forecasting_tools.ai_models.resource_managers.monetary_cost_manager - WARNING - Error calculating cost from response object: This model isn't mapped yet. model=o4-mini, custom_llm_provider=openrouter. Add it here - https://github.com/BerriAI/litellm/blob/main/model_prices_and_context_window.json.
+2026-01-01T22:31:51.4568306Z 2026-01-01 22:31:51,456 - openai.agents - WARNING - OPENAI_API_KEY is not set, skipping trace export
+2026-01-01T22:32:29.2798888Z 2026-01-01 22:32:29,279 - __main__ - INFO - Reasoning for URL https://www.metaculus.com/questions/578: 1) **Time left until outcome is known:** ~74 years (to 2100-01-01).  
+2026-01-01T22:32:29.2800260Z 2) **Status quo outcome if nothing changed:** **No** (humans persist; extinction is a high bar).  
+2026-01-01T22:32:29.2800970Z 3) **Expectations of experts and markets:**  
+2026-01-01T22:32:29.2802315Z    - Expert-leaning discussions often cite **~10–20%** extinction-by-2100 (e.g., Oxford GCR 2008 poll median **19%**, though likely selection-biased).  
+2026-01-01T22:32:29.2803845Z    - Public prediction communities/markets (where available) tend to be **lower (low single digits to ~10%)**, reflecting strong status-quo weight plus skepticism about extreme tails.  
+2026-01-01T22:32:29.2809103Z 4) **A “No” scenario (humans survive):** AI capability grows but is constrained by regulation/coordination; no full nuclear exchange; biotech risks are contained (better surveillance, vaccines, platform hardening); climate damages are severe but not extinction-level; humans remain on Earth with possible small off-world populations.  
+2026-01-01T22:32:29.2813020Z 5) **A “Yes” scenario (humans extinct):** One (or a combination) of (i) misaligned advanced AI enabling takeover or making humans non-viable, (ii) engineered pandemic(s) with extreme lethality and spread plus societal collapse, (iii) nuclear war plus follow-on starvation and institutional breakdown, compounded by inability to coordinate recovery; extinction completes before 2100.
+2026-01-01T22:32:29.2814191Z 
+2026-01-01T22:32:29.2814270Z ---
+2026-01-01T22:32:29.2814377Z 
+2026-01-01T22:32:29.2814502Z ## Rationale (with extra weight on status quo)
+2026-01-01T22:32:29.2816543Z Human extinction by 2100 requires a **global, near-total kill mechanism** (or permanent reproductive failure) plus failure of adaptation/recovery. Many catastrophes that are “civilization-ending” still leave survivors. So the baseline should be materially below 50%. However, the **rise of transformative AI and engineered biology** plausibly increases the tail risk versus most of human history, because these can scale quickly, be hard to contain, and bypass traditional geographic buffers.
+2026-01-01T22:32:29.2818431Z 
+2026-01-01T22:32:29.2818506Z ---
+2026-01-01T22:32:29.2818599Z 
+2026-01-01T22:32:29.2818694Z ## Evidence grouped into three buckets
+2026-01-01T22:32:29.2818869Z 
+2026-01-01T22:32:29.2819052Z ### Bucket 1 — Indicates a relatively **low** forecast
+2026-01-01T22:32:29.2819823Z - **Many past doomsday predictions fail**; resurfacing fixed-date “doom” narratives are not reliable evidence (e.g., von Foerster 2026 re-share; various prophecy articles).  
+2026-01-01T22:32:29.2820792Z - **Population growth slowing** reduces classic Malthusian collapse narratives; sustainability problems look more like chronic stress than abrupt extinction.  
+2026-01-01T22:32:29.2821717Z - Retrospectives show **experts often over/under-shoot** long-range forecasts; this argues for skepticism about extreme certainty in either direction.
+2026-01-01T22:32:29.2822181Z 
+2026-01-01T22:32:29.2822357Z ### Bucket 2 — Indicates a relatively **high** forecast
+2026-01-01T22:32:29.2823426Z - Multiple pieces emphasize **AI capability acceleration** and serious concern from parts of the AI-risk community that default outcomes could be dire without robust alignment (e.g., ASI “default extinction” arguments; “smooth takeoff still kills classic humans”).  
+2026-01-01T22:32:29.2824588Z - Discussion of **biosecurity risk**: engineered pathogens become more feasible as tools (potentially AI-enabled), including by smaller actors.  
+2026-01-01T22:32:29.2825510Z - Nuclear risk remains: even “limited” nuclear war scenarios can drive mass starvation; compounding risks could push toward extinction in worst cases.
+2026-01-01T22:32:29.2825979Z 
+2026-01-01T22:32:29.2826367Z ### Bucket 3 — Indicates a **central** forecast
+2026-01-01T22:32:29.2827600Z - More mainstream treatments (e.g., *Nature*-style “world in 2050” outlooks) suggest **major disruption** (AI, climate, geopolitics) but not inevitability of extinction; also highlights geoengineering/carbon removal pathways.  
+2026-01-01T22:32:29.2830071Z - Commentary emphasizing **system complexity, governance failures, oligarchies/terrorism**, etc., supports “messy world” risk without specifying extinction as the modal outcome.
+2026-01-01T22:32:29.2831187Z 
+2026-01-01T22:32:29.2831283Z ---
+2026-01-01T22:32:29.2831420Z 
+2026-01-01T22:32:29.2831552Z ## Multi-world considerations
+2026-01-01T22:32:29.2831793Z 
+2026-01-01T22:32:29.2832071Z ### 1) Low_World (bucket 1 emphasized): extinction risk plausibly low
+2026-01-01T22:32:29.2833522Z **Summary:** Doomsday narratives mostly noise; demographic transition and incremental adaptation dominate; AI/biotech are managed “well enough”; no global terminal catastrophe.  
+2026-01-01T22:32:29.2834673Z - Low_World-Low: **1.3**  
+2026-01-01T22:32:29.2835057Z - Low_World-Mid: **2.4**  
+2026-01-01T22:32:29.2835381Z - Low_World-High: **4.1**
+2026-01-01T22:32:29.2835594Z 
+2026-01-01T22:32:29.2835857Z ### 2) Mid_World (bucket 3 emphasized): central trajectory, mixed governance
+2026-01-01T22:32:29.2837146Z **Summary:** Big stresses (AI, climate, geopolitics) continue; serious near-misses occur; institutional response is uneven but not absent. Extinction remains a tail.  
+2026-01-01T22:32:29.2838238Z - Mid_World-Low: **4.0**  
+2026-01-01T22:32:29.2838610Z - Mid_World-Mid: **7.2**  
+2026-01-01T22:32:29.2838993Z - Mid_World-High: **12.5**
+2026-01-01T22:32:29.2839240Z 
+2026-01-01T22:32:29.2839560Z ### 3) High_World (bucket 2 emphasized): transformative tech risk dominates
+2026-01-01T22:32:29.2840912Z **Summary:** AI capabilities outpace alignment and governance; bio-weaponization becomes easier; nuclear escalation risk persists; correlated failures become plausible.  
+2026-01-01T22:32:29.2842017Z - High_World-Low: **12.0**  
+2026-01-01T22:32:29.2842821Z - High_World-Mid: **20.0**  
+2026-01-01T22:32:29.2843184Z - High_World-High: **35.0**
+2026-01-01T22:32:29.2843439Z 
+2026-01-01T22:32:29.2843564Z ---
+2026-01-01T22:32:29.2843737Z 
+2026-01-01T22:32:29.2843893Z [1.3, 2.4, 4.1, 4.0, 7.2, 12.5, 12.0, 20.0, 35.0]
+2026-01-01T22:32:29.2848607Z 2026-01-01 22:32:29,284 - forecasting_tools.ai_models.resource_managers.monetary_cost_manager - WARNING - Litellm hidden param cost 0.0 and response object cost 0.04796925 are different.
+2026-01-01T22:32:29.7920674Z 2026-01-01 22:32:29,791 - __main__ - INFO - Reasoning for URL https://www.metaculus.com/questions/578: 1) **Time left until outcome is known:** 74.0 years (from 2026-01-01 to 2100-01-01).  
+2026-01-01T22:32:29.7922083Z 2) **Status quo outcome if nothing changed:** **No** (humans remain extant; extinction is historically rare on <100-year horizons and requires a globally terminal event).  
+2026-01-01T22:32:29.7924742Z 3) **Expectations of experts/markets:** Expert-elicitation has produced **high** numbers in some venues (e.g., the 2008 Oxford GCR conference poll median ~19% extinction by 2100, likely upward-biased by selection). Other expert discussions often imply **single-digit to low-teens** extinction risk, with disagreement dominated by AI and engineered-bio risk; there isn’t a clean “market price” for extinction, but typical policy behavior implies society acts as if risk is low.  
+2026-01-01T22:32:29.7927517Z 4) **Scenario leading to “No”:** Multiple severe crises (pandemics, regional nuclear exchange, climate shocks) occur, but not in a way that kills *all* humans; industrial civilization may partially collapse, yet at least one geographically isolated population (or well-prepared refuges) survives to 2100.  
+2026-01-01T22:32:29.7930259Z 5) **Scenario leading to “Yes”:** A fast-moving, globally pervasive catastrophe leaves **no surviving human breeding population anywhere**—e.g., an engineered pathogen with extreme lethality + long presymptomatic transmission + multiple delivery waves; or an AI-enabled takeover that deliberately/incidentally eliminates remaining biological humans worldwide; or a combined cascade (major nuclear exchange + sun-blocking + agricultural collapse + follow-on pandemics) that finishes off remnant populations.
+2026-01-01T22:32:29.7931863Z 
+2026-01-01T22:32:29.7931932Z ---
+2026-01-01T22:32:29.7932048Z 
+2026-01-01T22:32:29.7932157Z ## Rationale (with extra weight on status quo)
+2026-01-01T22:32:29.7933344Z Extinction by 2100 is a very high bar: it’s not “civilizational collapse,” but **zero known humans alive**. Historically, humanity has endured extreme shocks (wars, pandemics) with survival via geographic dispersion, adaptability, and redundancy in food/ecosystems. That pushes probability down.
+2026-01-01T22:32:29.7934200Z 
+2026-01-01T22:32:29.7935849Z Countervailing factors are that (a) **new technology can create qualitatively novel global failure modes**, and (b) some plausible hazards scale with capability (AI-enabled bioengineering, autonomous weapons, coordination failures around geoengineering, etc.). The strongest “delta” versus the 20th century is the possibility of **deliberate or accidental globally optimizing systems** (advanced AI, engineered pathogens) that could remove the usual buffers (distance, ignorance, limited replication).
+2026-01-01T22:32:29.7937436Z 
+2026-01-01T22:32:29.7938437Z Netting this out: I treat nuclear/climate/natural hazards as mostly *civilization-threatening but not extinction-likely* on this horizon, while **AI and engineered bio** are the main tail risks that can plausibly drive true extinction. My baseline therefore lands in the **high single digits** rather than ~20%, while acknowledging meaningful uncertainty.
+2026-01-01T22:32:29.7939444Z 
+2026-01-01T22:32:29.7939519Z ---
+2026-01-01T22:32:29.7939612Z 
+2026-01-01T22:32:29.7939731Z ## Group the evidence (three buckets, ~equal size)
+2026-01-01T22:32:29.7939932Z 
+2026-01-01T22:32:29.7940139Z ### Bucket 1 — Evidence suggesting a **lower** extinction forecast
+2026-01-01T22:32:29.7941086Z - Retrospective on predictions (N-tv): futurists often miss on timelines; long-horizon certainty is usually overstated.  
+2026-01-01T22:32:29.7942093Z - Nature “World in 2050” style outlook: emphasizes manageability/choice, with mitigation tech (CO₂ removal, fusion) plausible; doesn’t suggest near-term extinction as the modal outcome.  
+2026-01-01T22:32:29.7943289Z - Von Foerster “2026” resurfacing: highlights sustainability concerns, but also notes population growth slowing—implying fewer Malthusian collapse dynamics than old “doomsday” framings.  
+2026-01-01T22:32:29.7944363Z - “Stopped having children” piece: underscores that even drastic demographic changes play out over decades and are complex, not instant extinction.  
+2026-01-01T22:32:29.7945242Z - Baba Vanga/prophecy articles: not credible evidence; their presence mostly indicates noise/attention, not real elevated risk.
+2026-01-01T22:32:29.7945829Z 
+2026-01-01T22:32:29.7946294Z ### Bucket 2 — Evidence suggesting a **central** (moderate) extinction forecast
+2026-01-01T22:32:29.7947650Z - General commentary on forecasting obstacles (oligarchies/terrorism/supply chains): systemic fragility and governance limits raise risk of severe crises, but not clearly extinction-level by default.  
+2026-01-01T22:32:29.7950118Z - mk.ru summary of existential risks: nuclear winter, bioweapons, AI as major threats; climate extinction deemed low (~<0.1%)—points toward a mixed portfolio where some risks are serious but not all are extinction-grade.  
+2026-01-01T22:32:29.7952612Z - Metaculus/AI-forecasting articles: show forecasting is hard and subject to crowd effects; doesn’t move extinction probability strongly but supports uncertainty and the value of scenario thinking.  
+2026-01-01T22:32:29.7954758Z - “No One Will Survive” style futurist aggregation: reflects that some prominent thinkers cite large tail risks, but often conflate collapse with extinction.
+2026-01-01T22:32:29.7955714Z 
+2026-01-01T22:32:29.7956278Z ### Bucket 3 — Evidence suggesting a **higher** extinction forecast
+2026-01-01T22:32:29.7957818Z - “Default outcome ASI ⇒ extinction” (Medium): argues structural inevitability and lack of a proven control plan (even if overstated, it highlights a coherent mechanism for extinction).  
+2026-01-01T22:32:29.7959663Z - LessWrong “nice-ish smooth takeoff still kills classic humans”: stresses evolutionary/competitive pressures among advanced systems leading to human displacement/extinction over decades.  
+2026-01-01T22:32:29.7961160Z - Reports of rapid AI progress / “intelligence doubles every 3.5 months” claims (tmtpost) and “countdown” style articles: while sensational, they track a real underlying fact—capabilities are improving quickly, and AI is increasingly coupled to cyber/bio domains.  
+2026-01-01T22:32:29.7962397Z - Ord/Bostrom-style cited high tail risks (even if secondhand in some articles): reinforces that some serious analysts put nontrivial mass on extinction within the century.
+2026-01-01T22:32:29.7962910Z 
+2026-01-01T22:32:29.7963007Z ---
+2026-01-01T22:32:29.7963107Z 
+2026-01-01T22:32:29.7963195Z ## Multi-world considerations
+2026-01-01T22:32:29.7963353Z 
+2026-01-01T22:32:29.7963497Z ### 1) Low_World (built from Bucket 1: reasons risk could be low)
+2026-01-01T22:32:29.7964316Z **Summary:** Technological and governance progress outpaces catastrophe; many “doom” signals are noise; mitigation and resilience (public health, agriculture robustness) improve.  
+2026-01-01T22:32:29.7964987Z - Low (pessimistic-for-this-world): **1.6%**  
+2026-01-01T22:32:29.7965283Z - Mid (baseline-for-this-world): **2.9%**  
+2026-01-01T22:32:29.7965569Z - High (optimistic-for-this-world): **4.7%**
+2026-01-01T22:32:29.7965748Z 
+2026-01-01T22:32:29.7965900Z ### 2) Mid_World (built from Bucket 2: central trends/ambiguity)
+2026-01-01T22:32:29.7966802Z **Summary:** We muddle through: recurring crises, some very bad, but buffers remain; AI/bio risks grow yet are partially contained by regulation, norms, and technical safety improvements.  
+2026-01-01T22:32:29.7967650Z - Low: **4.2%**  
+2026-01-01T22:32:29.7967948Z - Mid: **7.4%**  
+2026-01-01T22:32:29.7968133Z - High: **11.8%**
+2026-01-01T22:32:29.7968243Z 
+2026-01-01T22:32:29.7968392Z ### 3) High_World (built from Bucket 3: reasons risk could be high)
+2026-01-01T22:32:29.7969044Z **Summary:** Fast capability gain in AI + diffusion into bio/cyber + poor global coordination; one or more tight-coupled failures become plausible extinction mechanisms.  
+2026-01-01T22:32:29.7969613Z - Low: **9.5%**  
+2026-01-01T22:32:29.7969802Z - Mid: **16.7%**  
+2026-01-01T22:32:29.7969999Z - High: **27.6%**
+2026-01-01T22:32:29.7970104Z 
+2026-01-01T22:32:29.7970203Z [1.6, 2.9, 4.7, 4.2, 7.4, 11.8, 9.5, 16.7, 27.6]
+2026-01-01T22:32:29.7970847Z 2026-01-01 22:32:29,794 - forecasting_tools.ai_models.resource_managers.monetary_cost_manager - WARNING - Litellm hidden param cost 0.0 and response object cost 0.05251925 are different.
+2026-01-01T22:32:31.4882821Z 2026-01-01 22:32:31,487 - openai.agents - WARNING - OPENAI_API_KEY is not set, skipping trace export
+2026-01-01T22:32:31.6822604Z 2026-01-01 22:32:31,681 - forecasting_tools.ai_models.resource_managers.monetary_cost_manager - WARNING - Error calculating cost from response object: This model isn't mapped yet. model=o4-mini, custom_llm_provider=openrouter. Add it here - https://github.com/BerriAI/litellm/blob/main/model_prices_and_context_window.json.
+2026-01-01T22:32:32.1347346Z 2026-01-01 22:32:32,134 - forecasting_tools.ai_models.resource_managers.monetary_cost_manager - WARNING - Error calculating cost from response object: This model isn't mapped yet. model=o4-mini, custom_llm_provider=openrouter. Add it here - https://github.com/BerriAI/litellm/blob/main/model_prices_and_context_window.json.
+2026-01-01T22:32:34.3587317Z 2026-01-01 22:32:34,358 - __main__ - INFO - Parsed 9 scenarios: [1.3, 2.4, 4.1, 4.0, 7.2, 12.5, 12.0, 20.0, 35.0]
+2026-01-01T22:32:34.3588448Z 2026-01-01 22:32:34,358 - __main__ - INFO - Total scenarios stored for question https://www.metaculus.com/questions/578: 9 scenarios
+2026-01-01T22:32:34.3589567Z 2026-01-01 22:32:34,358 - __main__ - INFO - Returning median forecast for URL https://www.metaculus.com/questions/578: 0.0720
+2026-01-01T22:32:34.3590415Z 2026-01-01 22:32:34,358 - __main__ - INFO - [GPR DEBUG] Returning mid value. Scenarios stored: 9
+2026-01-01T22:32:34.3602458Z 2026-01-01 22:32:34,359 - forecasting_tools.ai_models.resource_managers.monetary_cost_manager - WARNING - Error calculating cost from response object: This model isn't mapped yet. model=o4-mini, custom_llm_provider=openrouter. Add it here - https://github.com/BerriAI/litellm/blob/main/model_prices_and_context_window.json.
+2026-01-01T22:32:34.5433881Z 2026-01-01 22:32:34,543 - __main__ - INFO - Parsed 9 scenarios: [1.6, 2.9, 4.7, 4.2, 7.4, 11.8, 9.5, 16.7, 27.6]
+2026-01-01T22:32:34.5435011Z 2026-01-01 22:32:34,543 - __main__ - INFO - Total scenarios stored for question https://www.metaculus.com/questions/578: 18 scenarios
+2026-01-01T22:32:34.5436295Z 2026-01-01 22:32:34,543 - __main__ - INFO - Returning median forecast for URL https://www.metaculus.com/questions/578: 0.0740
+2026-01-01T22:32:34.5437269Z 2026-01-01 22:32:34,543 - __main__ - INFO - [GPR DEBUG] Returning mid value. Scenarios stored: 18
+2026-01-01T22:32:34.5448235Z 2026-01-01 22:32:34,544 - forecasting_tools.ai_models.resource_managers.monetary_cost_manager - WARNING - Error calculating cost from response object: This model isn't mapped yet. model=o4-mini, custom_llm_provider=openrouter. Add it here - https://github.com/BerriAI/litellm/blob/main/model_prices_and_context_window.json.
+2026-01-01T22:32:36.4934918Z 2026-01-01 22:32:36,492 - openai.agents - WARNING - OPENAI_API_KEY is not set, skipping trace export
+2026-01-01T22:33:18.9307607Z 2026-01-01 22:33:18,930 - __main__ - INFO - Reasoning for URL https://www.metaculus.com/questions/578: 1. **Time left:** 74 years (from 2026-01-01 to 2100-01-01).  
+2026-01-01T22:33:18.9309175Z 2. **Status quo outcome if nothing changed:** **No** (humans persist; extinction is historically rare on century timescales).  
+2026-01-01T22:33:18.9313055Z 3. **Expectations of experts and markets:** Published expert-elicitation is scattered; an Oxford GCR conference poll (2008) reported a **~19% median** by 2100 (likely upward-biased by selection). More mainstream/“inside-view” assessments often imply **single-digit to low-teens %** this century, with AI-risk-focused commentators sometimes much higher; there is no liquid “market” consensus.  
+2026-01-01T22:33:18.9317413Z 4. **A “No” scenario:** Continued geopolitical turbulence but no full nuclear exchange; pandemics occur but are contained; AI remains powerful but is kept from autonomous strategic control; incremental resilience (food, energy, biosurveillance) prevents terminal cascades; at least a remnant population survives somewhere on Earth (or off-world).  
+2026-01-01T22:33:18.9320757Z 5. **A “Yes” scenario:** One or more fast, global, hard-to-reverse catastrophes occurs: e.g., misaligned AI enabling decisive disempowerment or engineered pathogens with extreme lethality and spread, possibly compounded by nuclear war and infrastructure collapse, driving population to zero before recovery is possible.
+2026-01-01T22:33:18.9321774Z 
+2026-01-01T22:33:18.9321888Z ## Evidence grouped into three buckets
+2026-01-01T22:33:18.9322084Z 
+2026-01-01T22:33:18.9322280Z ### Bucket 1 — suggests **lower** extinction probability
+2026-01-01T22:33:18.9323065Z - Past “doomsday date” claims repeatedly fail; the resurfaced 2026 “doomsday” framing is more about sustainability than imminent extinction, and population growth is slowing.  
+2026-01-01T22:33:18.9324173Z - Climate change is widely expected to be severe but is often assessed as unlikely to literally exterminate humans this century (more “mass suffering” than “zero humans”).  
+2026-01-01T22:33:18.9325138Z - Retrospective forecasting: many long-horizon predictions are wrong, often overstating discontinuities; a caution against overweighting dramatic narratives.  
+2026-01-01T22:33:18.9326261Z - “Universe ends in 25 years / prophecies” style items (Baba Vanga, etc.) are non-evidentiary for real extinction risk and mostly add noise.
+2026-01-01T22:33:18.9326701Z 
+2026-01-01T22:33:18.9327013Z ### Bucket 2 — suggests a **central / baseline** probability (material risk, but not the default)
+2026-01-01T22:33:18.9327871Z - Nature-style mid-century outlooks: accelerating AI capability + climate stress may raise geopolitical and systemic-risk pressures, with some governance responses (geoengineering considered but risky).  
+2026-01-01T22:33:18.9329177Z - Forecasting analyses emphasize uncertainty, slow-moving systems, and human “frictions” (oligarchies, conflict, supply chains), implying both risk and partial dampening (not all pathways run away).  
+2026-01-01T22:33:18.9330663Z - Nuclear war analyses: catastrophic even for “limited” exchanges via nuclear-winter famine; extinction is not the modal outcome but tail risk exists.  
+2026-01-01T22:33:18.9332274Z - Demography/social resilience discussions: even extreme scenarios often leave pockets of survivors unless compounding failures continue.
+2026-01-01T22:33:18.9333156Z 
+2026-01-01T22:33:18.9333440Z ### Bucket 3 — suggests **higher** extinction probability
+2026-01-01T22:33:18.9335113Z - Multiple sources center **AI x-risk** as potentially dominant this century (claims of “default extinction,” “grabby” dynamics, or inability to guarantee alignment). Even if overstated, they highlight a plausible new class of scalable risk.  
+2026-01-01T22:33:18.9337079Z - Commentary that AI could amplify bioweapon design and deployment capabilities, lowering barriers for engineered pandemics.  
+2026-01-01T22:33:18.9339125Z - Some expert-citation articles attribute substantial (e.g., “one-in-four”) extinction risk by 2100 to AI/biotech/ecosystem instability (noting these are debated and may be selection-biased, but still informative about an expert tail).
+2026-01-01T22:33:18.9340457Z 
+2026-01-01T22:33:18.9340655Z ## Rationale (with extra weight on status quo)
+2026-01-01T22:33:18.9343045Z The base rate over a 74-year window favors survival: humans are widespread, adaptable, and extinction requires either (a) a truly global kill mechanism or (b) a cascade that prevents recovery everywhere. Traditional risks (climate, “ordinary” war, natural pandemics) more naturally map to **civilizational damage** than **literal extinction**.
+2026-01-01T22:33:18.9345441Z 
+2026-01-01T22:33:18.9347886Z The main reason to assign more than a few percent is the possibility of **novel, scalable threats** (especially AI-enabled or engineered biological risks) that could (i) spread globally, (ii) evade containment, and (iii) eliminate small surviving refugia. I therefore center in **high single digits to low teens**, below the 2008 GCR-conference median (likely upward-biased), but above “near zero.”
+2026-01-01T22:33:18.9349681Z 
+2026-01-01T22:33:18.9349839Z ## Multi-world considerations
+2026-01-01T22:33:18.9350078Z 
+2026-01-01T22:33:18.9350315Z ### 1) Low_World (uses Bucket 1 evidence: reasons risk could be low)
+2026-01-01T22:33:18.9351244Z Summary: doomsday claims unreliable; climate unlikely to be extinction-level by 2100; systems change slowly; resilience and adaptation persist.  
+2026-01-01T22:33:18.9352226Z - Low estimate: **1.8**  
+2026-01-01T22:33:18.9352556Z - Mid estimate: **3.6**  
+2026-01-01T22:33:18.9352881Z - High estimate: **6.7**
+2026-01-01T22:33:18.9353084Z 
+2026-01-01T22:33:18.9353393Z ### 2) Mid_World (uses Bucket 2 evidence: reasons to expect a central/baseline risk)
+2026-01-01T22:33:18.9354594Z Summary: meaningful tail risks from nuclear/biological/AI pressures; governance partially responds; disasters occur but are mostly containable; extinction remains a tail.  
+2026-01-01T22:33:18.9355617Z - Low estimate: **5.2**  
+2026-01-01T22:33:18.9355935Z - Mid estimate: **9.8**  
+2026-01-01T22:33:18.9356462Z - High estimate: **16.5**
+2026-01-01T22:33:18.9356681Z 
+2026-01-01T22:33:18.9356921Z ### 3) High_World (uses Bucket 3 evidence: reasons risk could be high)
+2026-01-01T22:33:18.9358686Z Summary: AI capability jumps + weak alignment and/or AI-enabled bio; multiple compounding failures; increased chance of a decisive “no recovery” event.  
+2026-01-01T22:33:18.9359576Z - Low estimate: **14.0**  
+2026-01-01T22:33:18.9359900Z - Mid estimate: **26.8**  
+2026-01-01T22:33:18.9360224Z - High estimate: **42.3**
+2026-01-01T22:33:18.9360421Z 
+2026-01-01T22:33:18.9360560Z [1.8, 3.6, 6.7, 5.2, 9.8, 16.5, 14.0, 26.8, 42.3]
+2026-01-01T22:33:18.9361746Z 2026-01-01 22:33:18,934 - forecasting_tools.ai_models.resource_managers.monetary_cost_manager - WARNING - Litellm hidden param cost 0.0 and response object cost 0.046793249999999995 are different.
+2026-01-01T22:33:21.5378466Z 2026-01-01 22:33:21,537 - openai.agents - WARNING - OPENAI_API_KEY is not set, skipping trace export
+2026-01-01T22:33:25.1431519Z 2026-01-01 22:33:25,142 - forecasting_tools.ai_models.resource_managers.monetary_cost_manager - WARNING - Error calculating cost from response object: This model isn't mapped yet. model=o4-mini, custom_llm_provider=openrouter. Add it here - https://github.com/BerriAI/litellm/blob/main/model_prices_and_context_window.json.
+2026-01-01T22:33:26.5453541Z 2026-01-01 22:33:26,545 - openai.agents - WARNING - OPENAI_API_KEY is not set, skipping trace export
+2026-01-01T22:33:28.9836622Z 2026-01-01 22:33:28,983 - __main__ - INFO - Parsed 9 scenarios: [1.8, 3.6, 6.7, 5.2, 9.8, 16.5, 14.0, 26.8, 42.3]
+2026-01-01T22:33:28.9837856Z 2026-01-01 22:33:28,983 - __main__ - INFO - Total scenarios stored for question https://www.metaculus.com/questions/578: 27 scenarios
+2026-01-01T22:33:28.9839023Z 2026-01-01 22:33:28,983 - __main__ - INFO - Returning median forecast for URL https://www.metaculus.com/questions/578: 0.0980
+2026-01-01T22:33:28.9839895Z 2026-01-01 22:33:28,983 - __main__ - INFO - [GPR DEBUG] Returning mid value. Scenarios stored: 27
+2026-01-01T22:33:28.9852187Z 2026-01-01 22:33:28,984 - forecasting_tools.ai_models.resource_managers.monetary_cost_manager - WARNING - Error calculating cost from response object: This model isn't mapped yet. model=o4-mini, custom_llm_provider=openrouter. Add it here - https://github.com/BerriAI/litellm/blob/main/model_prices_and_context_window.json.
+2026-01-01T22:33:28.9859105Z 2026-01-01 22:33:28,985 - forecasting_tools.forecast_bots.forecast_bot - WARNING - Encountered errors while predicting: ['Timeout: litellm.Timeout: Timeout Error: OpenrouterException - litellm.Timeout: Connection timed out. Timeout passed=40.0, time taken=40.381 seconds']
+2026-01-01T22:33:28.9861188Z 2026-01-01 22:33:28,985 - __main__ - INFO - [GPR DEBUG] _aggregate_predictions called with 3 predictions
+2026-01-01T22:33:28.9862143Z 2026-01-01 22:33:28,985 - __main__ - INFO - [GPR DEBUG] Using GPR aggregation on 27 stored scenarios
+2026-01-01T22:33:29.1887476Z 2026-01-01 22:33:29,188 - __main__ - INFO - GPR aggregation: 27 scenarios → p50 = 0.0916
+2026-01-01T22:33:29.1914633Z 2026-01-01 22:33:29,188 - __main__ - INFO - [GPR DEBUG] Aggregation complete. Returning GPR result: 0.0916
+2026-01-01T22:33:29.1915688Z 2026-01-01 22:33:29,191 - forecasting_tools.helpers.metaculus_client - INFO - Posting prediction on question 578
+2026-01-01T22:33:31.3003344Z 2026-01-01 22:33:31,300 - forecasting_tools.helpers.metaculus_client - INFO - Posted prediction on question 578
+2026-01-01T22:33:31.5530236Z 2026-01-01 22:33:31,552 - openai.agents - WARNING - OPENAI_API_KEY is not set, skipping trace export
+2026-01-01T22:33:33.1972226Z 2026-01-01 22:33:33,196 - forecasting_tools.helpers.metaculus_client - INFO - Posted comment on post 578
+2026-01-01T22:33:33.2025081Z 2026-01-01 22:33:33,202 - forecasting_tools.forecast_bots.forecast_bot - INFO - 
+2026-01-01T22:33:33.2025971Z ----------------------------------------------------------------------------------------------------
+2026-01-01T22:33:33.2026615Z 
+2026-01-01T22:33:33.2026814Z URL: https://www.metaculus.com/questions/578
+2026-01-01T22:33:33.2027790Z Errors: ['Timeout: litellm.Timeout: Timeout Error: OpenrouterException - litellm.Timeout: Connection timed out. Timeout passed=40.0, time taken=40.381 seconds']
+2026-01-01T22:33:33.2028711Z <<<<<<<<<<<<<<<<<<<< Summary >>>>>>>>>>>>>>>>>>>>>
+2026-01-01T22:33:33.2029006Z # SUMMARY
+2026-01-01T22:33:33.2029222Z *Question*: Will humans go extinct before 2100?
+2026-01-01T22:33:33.2029504Z *Final Prediction*: 9.16%
+2026-01-01T22:33:33.2029722Z *Total Cost*: $0.1473 (estimated)
+2026-01-01T22:33:33.2029953Z *Time Spent*: 2.47 minutes
+2026-01-01T22:33:33.2030809Z *LLMs*: `{'default': {'original_model': 'openrouter/openai/gpt-5.2', 'allowed_tries': 2, 'model': 'openrouter/openai/gpt-5.2', 'temperature': 1, 'timeout': 40}, 'summarizer': 'openrouter/openai/o4-mini', 'researcher': 'asknews/news-summaries', 'parser': 'openrouter/openai/o4-mini'}`
+2026-01-01T22:33:33.2031705Z *Bot Name*: SpringTemplateBot2026
+2026-01-01T22:33:33.2031864Z 
+2026-01-01T22:33:33.2031871Z 
+2026-01-01T22:33:33.2031952Z ## Report 1 Summary
+2026-01-01T22:33:33.2032139Z ### Forecasts
+2026-01-01T22:33:33.2032318Z *Forecaster 1*: 7.2%
+2026-01-01T22:33:33.2032516Z *Forecaster 2*: 9.8%
+2026-01-01T22:33:33.2032706Z *Forecaster 3*: 7.4%
+2026-01-01T22:33:33.2032824Z 
+2026-01-01T22:33:33.2032840Z 
+2026-01-01T22:33:33.2032914Z ### Research Summary
+2026-01-01T22:33:33.2038557Z The collected research spans a wide spectrum of forecasts about humanity’s potential end, ranging from scientifically grounded models to mystical prophecies. Several articles critique the reliability of long-term technological and environmental predictions, noting that past forecasts—such as driverless cars being ubiquitous by 2025 or 100% clean energy by 2065—often fail to account for human, political, and systemic risks (Townhall). A resurfaced 1960 study by Heinz von Foerster warns of a “critical date” on November 13, 2026, driven by unsustainable population growth potentially overwhelming food and water resources, though it emphasizes sustainability rather than immediate collapse (okdiario.com). Futurists like Toby Ord and Nick Bostrom assign non-negligible extinction probabilities—up to 25% by 2100—citing risks from unaligned artificial intelligence, biotechnology, and nuclear war, while Jared Diamond sees a 50-50 survival chance by 2050 (cursorinfo.co.il; mk.ru). A Nature Geoscience study projects that plate tectonics will trigger a supercontinent and extreme climates in ~250 million years, making Earth uninhabitable for warm-blooded life but underscoring the fragility of biospheric stability (albayan.ae). Analyses of artificial superintelligence argue that, unless robust alignment controls are in place, ASI’s instrumental drive for self-preservation and resource acquisition could render humans obsolete or extinct—an outcome considered “default” absent extraordinary safeguards (Medium.com; lesswrong.com).
+2026-01-01T22:33:33.2043529Z 
+2026-01-01T22:33:33.2046439Z Contrasting these scientific and expert assessments are various prophetic visions. Blind seer Baba Vanga’s posthumous prophecies forecast humanity’s “Day of Judgment” in 5079 following centuries of interplanetary expansion, wars, and a golden age—claims historians and scientists critique as unverified and speculative (24.ae; aif.ru; heraldodemexico.com.mx). Retrospective analyses of 1990s forecasts show mixed accuracy: some social and technological trends (e.g., a Black U.S. president, the rise of AI) materialized, while others (routine centenarian lifespans, single global currency) did not (N-tv). Overall, the research illustrates profound uncertainty in predicting human extinction timelines, with scenarios spanning the near term (2026), mid-century risks, long-term geological cycles, and far-future cosmic events.
+2026-01-01T22:33:33.2048848Z 
+2026-01-01T22:33:33.2048924Z Sources:
+2026-01-01T22:33:33.2049538Z https://townhall.com/columnists/jeffdavidson/2026/01/01/oligarchies-terrorism-greed-and-other-obstacles-to-forecasting-the-future-n2668730  
+2026-01-01T22:33:33.2050437Z https://okdiario.com/ciencia/cientifico-pone-fecha-fin-del-mundo-no-queda-tanto-13-noviembre-13730888  
+2026-01-01T22:33:33.2051428Z https://24.ae/article/938967/%D8%B3%D9%8A%D9%86%D8%A7%D8%B1%D9%8A%D9%88-%D8%A7%D9%84%D9%86%D9%87%D8%A7%D9%8A%D8%A9-%D9%86%D8%A8%D9%88%D8%A1%D8%A9-%D8%A8%D8%A7%D8%A8%D8%A7-%D9%81%D8%A7%D9%86%D8%BA%D8%A7-%D8%A7%D9%84%D9%85%D8%B1%D8%B9%D8%A8%D8%A9-%D8%AA%D9%83%D8%B4%D9%81-%D9%85%D8%A7-%D9%8A%D8%AD%D8%AF%D8%AB-%D9%81%D9%8A-%D8%A7%D9%84%D9%8A%D9%88%D9%85-%D8%A7%D9%84%D8%A3%D8%AE%D9%8A%D8%B1-%D9%84%D9%84%D8%A8%D8%B4%D8%B1%D9%8A%D8%A9  
+2026-01-01T22:33:33.2052391Z https://aif.ru/society/daily-mail-vanga-predskazala-konec-chelovecheskoy-istorii-v-5079-godu  
+2026-01-01T22:33:33.2053122Z https://www.n-tv.de/wissen/Zukunftsbilanz-2025-Welche-Vorhersagen-wirklich-eingetreten-sind-id30188420.html  
+2026-01-01T22:33:33.2054108Z https://www.ilfattoquotidiano.it/2025/12/31/il-mondo-nel-2050-la-non-profezia-di-nature-tra-intelligenze-artificiali-clima-estremo-e-nuove-frontiere/8241750/  
+2026-01-01T22:33:33.2054819Z https://www.tmtpost.com/7828571.html  
+2026-01-01T22:33:33.2055506Z https://medium.com/@marc.bara.iniesta/the-default-outcome-why-artificial-superintelligence-likely-means-human-extinction-7dc2fedb2c71  
+2026-01-01T22:33:33.2056687Z https://arabic.rt.com/funny/1744653-%D9%86%D8%A8%D9%88%D8%A3%D8%A9-%D9%85%D8%AB%D9%8A%D8%B1%D8%A9-%D9%84%D9%84%D8%AC%D8%AF%D9%84-%D9%84%D9%80%D8%A8%D8%A7%D8%A8%D8%A7-%D9%81%D8%A7%D9%86%D8%BA%D8%A7-%D8%A7%D9%84%D8%B3%D9%86%D8%A9-%D8%A7%D9%84%D8%AF%D9%82%D9%8A%D9%82%D8%A9-%D9%84%D9%86%D9%87%D8%A7%D9%8A%D8%A9-%D8%A7%D9%84%D8%A8%D8%B4%D8%B1%D9%8A%D8%A9/  
+2026-01-01T22:33:33.2057751Z https://heraldodemexico.com.mx/mundo/2025/12/30/no-solo-2026-estas-son-otras-profecias-de-baba-vanga-para-los-proximos-100-anos-755804.html  
+2026-01-01T22:33:33.2058450Z https://www.albayan.ae/culture-art/miscellaneous/992588  
+2026-01-01T22:33:33.2059066Z https://cursorinfo.co.il/interest/spastis-ne-smozhet-nikto-futurologi-nazvali-vremya-kogda-nastupit-konets-sveta/  
+2026-01-01T22:33:33.2059894Z https://www.mk.ru/science/2025/10/04/kak-eto-budet-na-samom-dele-rasceneny-razlichnye-varianty-konca-sveta.html  
+2026-01-01T22:33:33.2060674Z https://www.lesswrong.com/posts/v4rsqTxHqXp5tTwZh/nice-ish-smooth-takeoff-with-imperfect-safeguards-probably  
+2026-01-01T22:33:33.2061717Z https://www.elnabaa.net/1136072/%D9%83%D9%8A%D9%81-%D9%8A%D8%AA%D9%81%D9%88%D9%82-%D8%A7%D9%84%D8%B0%D9%83%D8%A7%D8%A1-%D8%A7%D9%84%D8%A7%D8%B5%D8%B7%D9%86%D8%A7%D8%B9%D9%8A-%D8%B9%D9%84%D9%89-%D8%A7%D9%84%D8%A8%D8%B4%D8%B1-%D9%81%D9%8A-%D8%A7%D9%84%D8%AA%D9%86%D8%A8%D8%A4-%D8%A8%D8%A7%D9%84%D9%85%D8%B3%D8%AA%D9%82%D8%A8%D9%84  
+2026-01-01T22:33:33.2062736Z https://www.sudouest.fr/sciences-et-technologie/combien-de-temps-l-humanite-survivrait-elle-si-l-on-arretait-de-faire-des-enfants-25996636.php  
+2026-01-01T22:33:33.2063752Z https://www.news18.com/tech/ai-to-predict-future-british-startup-could-soon-overtake-human-forecasting-experts-ws-l-9585710.html  
+2026-01-01T22:33:33.2064650Z https://www.milliyet.com.tr/dunya/son-dakika-geri-sayim-basladi-her-seyin-sonu-geliyor-sadece-25-yil-kaldi-7432136  
+2026-01-01T22:33:33.2065456Z https://www.unian.ua/curiosities/koli-lyudi-perestanut-stariti-futurolog-google-nazvav-tochnu-datu-13099713.html
+2026-01-01T22:33:33.2065891Z 
+2026-01-01T22:33:33.2065903Z 
+2026-01-01T22:33:33.2065907Z 
+2026-01-01T22:33:33.2066129Z <<<<<<<<<<<<<<<<<<<< First Rationale >>>>>>>>>>>>>>>>>>>>>
+2026-01-01T22:33:33.2066455Z ## R1: Forecaster 1 Reasoning
+2026-01-01T22:33:33.2066756Z 1) **Time left until outcome is known:** ~74 years (to 2100-01-01).  
+2026-01-01T22:33:33.2067197Z 2) **Status quo outcome if nothing changed:** **No** (humans persist; extinction is a high bar).  
+2026-01-01T22:33:33.2067595Z 3) **Expectations of experts and markets:**  
+2026-01-01T22:33:33.2068281Z - Expert-leaning discussions often cite **~10–20%** extinction-by-2100 (e.g., Oxford GCR 2008 poll median **19%**, though likely selection-biased).  
+2026-01-01T22:33:33.2069180Z - Public prediction communities/markets (where available) tend to be **lower (low single digits to ~10%)**, reflecting strong status-quo weight plus skepticism about extreme tails.  
+2026-01-01T22:33:33.2070801Z 4) **A “No” scenario (humans survive):** AI capability grows but is constrained by regulation/coordination; no full nuclear exchange; biotech risks are contained (better surveillance, vaccines, platform hardening); climate damages are severe but not extinction-level; humans remain on Earth with possible small off-world populations.  
+2026-01-01T22:33:33.2072986Z 5) **A “Yes” scenario (humans extinct):** One (or a combination) of (i) misaligned advanced AI enabling takeover or making humans non-viable, (ii) engineered pandemic(s) with extreme lethality and spread plus societal collapse, (iii) nuclear war plus follow-on starvation and institutional breakdown, compounded by inability to coordinate recovery; extinction completes before 2100.
+2026-01-01T22:33:33.2074057Z 
+2026-01-01T22:33:33.2074123Z ---
+2026-01-01T22:33:33.2074216Z 
+2026-01-01T22:33:33.2074330Z ### Rationale (with extra weight on status quo)
+2026-01-01T22:33:33.2076263Z Human extinction by 2100 requires a **global, near-total kill mechanism** (or permanent reproductive failure) plus failure of adaptation/recovery. Many catastrophes that are “civilization-ending” still leave survivors. So the baseline should be materially below 50%. However, the **rise of transformative AI and engineered biology** plausibly increases the tail risk versus most of human history, because these can scale quickly, be hard to contain, and bypass traditional geographic buffers.
+2026-01-01T22:33:33.2077712Z 
+2026-01-01T22:33:33.2077791Z ---
+2026-01-01T22:33:33.2077883Z 
+2026-01-01T22:33:33.2077990Z ### Evidence grouped into three buckets
+2026-01-01T22:33:33.2078161Z 
+2026-01-01T22:33:33.2078349Z #### Bucket 1 — Indicates a relatively **low** forecast
+2026-01-01T22:33:33.2079112Z - **Many past doomsday predictions fail**; resurfacing fixed-date “doom” narratives are not reliable evidence (e.g., von Foerster 2026 re-share; various prophecy articles).  
+2026-01-01T22:33:33.2080074Z - **Population growth slowing** reduces classic Malthusian collapse narratives; sustainability problems look more like chronic stress than abrupt extinction.  
+2026-01-01T22:33:33.2080972Z - Retrospectives show **experts often over/under-shoot** long-range forecasts; this argues for skepticism about extreme certainty in either direction.
+2026-01-01T22:33:33.2081641Z 
+2026-01-01T22:33:33.2081813Z #### Bucket 2 — Indicates a relatively **high** forecast
+2026-01-01T22:33:33.2082882Z - Multiple pieces emphasize **AI capability acceleration** and serious concern from parts of the AI-risk community that default outcomes could be dire without robust alignment (e.g., ASI “default extinction” arguments; “smooth takeoff still kills classic humans”).  
+2026-01-01T22:33:33.2084037Z - Discussion of **biosecurity risk**: engineered pathogens become more feasible as tools (potentially AI-enabled), including by smaller actors.  
+2026-01-01T22:33:33.2085000Z - Nuclear risk remains: even “limited” nuclear war scenarios can drive mass starvation; compounding risks could push toward extinction in worst cases.
+2026-01-01T22:33:33.2085462Z 
+2026-01-01T22:33:33.2085628Z #### Bucket 3 — Indicates a **central** forecast
+2026-01-01T22:33:33.2086829Z - More mainstream treatments (e.g., *Nature*-style “world in 2050” outlooks) suggest **major disruption** (AI, climate, geopolitics) but not inevitability of extinction; also highlights geoengineering/carbon removal pathways.  
+2026-01-01T22:33:33.2088083Z - Commentary emphasizing **system complexity, governance failures, oligarchies/terrorism**, etc., supports “messy world” risk without specifying extinction as the modal outcome.
+2026-01-01T22:33:33.2088648Z 
+2026-01-01T22:33:33.2088719Z ---
+2026-01-01T22:33:33.2088826Z 
+2026-01-01T22:33:33.2088918Z ### Multi-world considerations
+2026-01-01T22:33:33.2089075Z 
+2026-01-01T22:33:33.2089229Z #### 1) Low_World (bucket 1 emphasized): extinction risk plausibly low
+2026-01-01T22:33:33.2090037Z **Summary:** Doomsday narratives mostly noise; demographic transition and incremental adaptation dominate; AI/biotech are managed “well enough”; no global terminal catastrophe.  
+2026-01-01T22:33:33.2090690Z - Low_World-Low: **1.3**  
+2026-01-01T22:33:33.2090914Z - Low_World-Mid: **2.4**  
+2026-01-01T22:33:33.2091142Z - Low_World-High: **4.1**
+2026-01-01T22:33:33.2091283Z 
+2026-01-01T22:33:33.2091451Z #### 2) Mid_World (bucket 3 emphasized): central trajectory, mixed governance
+2026-01-01T22:33:33.2092127Z **Summary:** Big stresses (AI, climate, geopolitics) continue; serious near-misses occur; institutional response is uneven but not absent. Extinction remains a tail.  
+2026-01-01T22:33:33.2092709Z - Mid_World-Low: **4.0**  
+2026-01-01T22:33:33.2092927Z - Mid_World-Mid: **7.2**  
+2026-01-01T22:33:33.2093127Z - Mid_World-High: **12.5**
+2026-01-01T22:33:33.2093264Z 
+2026-01-01T22:33:33.2093433Z #### 3) High_World (bucket 2 emphasized): transformative tech risk dominates
+2026-01-01T22:33:33.2094136Z **Summary:** AI capabilities outpace alignment and governance; bio-weaponization becomes easier; nuclear escalation risk persists; correlated failures become plausible.  
+2026-01-01T22:33:33.2094753Z - High_World-Low: **12.0**  
+2026-01-01T22:33:33.2094976Z - High_World-Mid: **20.0**  
+2026-01-01T22:33:33.2095199Z - High_World-High: **35.0**
+2026-01-01T22:33:33.2095332Z 
+2026-01-01T22:33:33.2095396Z ---
+2026-01-01T22:33:33.2095494Z 
+2026-01-01T22:33:33.2095588Z [1.3, 2.4, 4.1, 4.0, 7.2, 12.5, 12.0, 20.0, 35.0]
+2026-01-01T22:33:33.2095759Z 
+2026-01-01T22:33:33.2095763Z 
+2026-01-01T22:33:33.2095917Z -------------------------------------------------------------------------------------------
+2026-01-01T22:33:33.2096340Z 
+2026-01-01T22:33:33.2096434Z Bot: SpringTemplateBot2026
+2026-01-01T22:33:33.2096803Z ✅ URL: https://www.metaculus.com/questions/578 | Minor Errors: 1
+2026-01-01T22:33:33.2097032Z 
+2026-01-01T22:33:33.2097127Z Stats for passing reports:
+2026-01-01T22:33:33.2097347Z Total cost estimated: $0.14728
+2026-01-01T22:33:33.2097573Z Average cost per question: $0.14728
+2026-01-01T22:33:33.2097851Z Average time spent per question: 2.4698 minutes
+2026-01-01T22:33:33.2098473Z Note: LLM costs are calculated via litellm, and models or search tools not supported by litellm will not be tracked. See what is supported here: https://models.litellm.ai/. 
+2026-01-01T22:33:33.2099363Z ----------------------------------------------------------------------------------------------------
+2026-01-01T22:33:33.2099610Z 
+2026-01-01T22:33:33.2099615Z 
+2026-01-01T22:33:33.2099619Z 
+2026-01-01T22:33:33.2100386Z 2026-01-01 22:33:33,202 - forecasting_tools.forecast_bots.forecast_bot - ERROR - 1 minor exceptions occurred while forecasting: ['Timeout: litellm.Timeout: Timeout Error: OpenrouterException - litellm.Timeout: Connection timed out. Timeout passed=40.0, time taken=40.381 seconds']

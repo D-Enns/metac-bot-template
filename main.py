@@ -1104,7 +1104,7 @@ if __name__ == "__main__":
             "default": GeneralLlm(
                 model= "openrouter/openai/gpt-5.2",  # "openrouter/openai/o3", # "anthropic/claude-sonnet-4-20250514", etc (see docs for litellm)
                 temperature=1,
-                timeout=40,
+                timeout=80,  # Updated from 40 to 80. In test, one run failed due to exceeding 40.
                 allowed_tries=2,
             ),
             "summarizer": "openrouter/openai/o4-mini",  # "summarizer": "metaculus/openai/o4-mini",
