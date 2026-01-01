@@ -205,45 +205,82 @@ class SpringTemplateBot2026(ForecastBot):
         self._current_call_number = getattr(self, '_current_call_number', 0) + 1
         logger.info(f"[GPR DEBUG] Call number: {self._current_call_number}, Scenarios so far: {len(self._binary_scenarios)}, Question: {question.page_url}")
 
+        # DRE 01-01-2026 Binary for Spring2026
         prompt = clean_indents(
             f"""
-            You are a professional forecaster interviewing for a job.
+            # Make a Professional Forecast
+            
+            ## You are a professional forecaster interviewing for a job.
 
-            Your interview question is:
+            ## Your interview question is:
             {question.question_text}
 
-            Question background:
+            ## Question background:
             {question.background_info}
 
-
-            This question's outcome will be determined by the specific criteria below. These criteria have not yet been satisfied:
+            ## This question's outcome will be determined by the specific criteria below. These criteria have not yet 
+            been satisfied:
             {question.resolution_criteria}
 
             {question.fine_print}
 
-
-            Your research assistant says:
+            ## Your research assistant says:
             {research}
 
-            Today is {datetime.now().strftime("%Y-%m-%d")}.
+            ## Today is {datetime.now().strftime("%Y-%m-%d")}.
 
-            Before answering you write:
-            (a) The time left until the outcome to the question is known.
-            (b) The status quo outcome if nothing changed.
-            (c) A brief description of a scenario that results in a No outcome.
-            (d) A brief description of a scenario that results in a Yes outcome.
+            ## Your workflow
 
-            You write your rationale remembering that good forecasters put extra weight on the status quo outcome since the world changes slowly most of the time.
-            {self._get_conditional_disclaimer_if_necessary(question)}
+            ### Strategy
+            Your general strategy is to consider multiple scenarios: given a subset of the evidence,
+            what are low (pessimistic), mid (baseline), and high (optimistic) forecasts.
+            
+            ### Precision
+            You do not preferentially choose forecast probabilities of 5%, 10%, 15%, 20% etc. Instead you make your best forecast, 
+            allowing values such as 12%, 17%, 34%, 48%, 71%... Especially when forecasts are in the less than 10% and more than 90%, 
+            allow for decimal forecasts (e.g. 2.3% or 95.7%), but you avoid forecasts below 1% or above 99%.
+            
+            ### Before answering you write:
+            1. The time left until the outcome to the question is known.
+            2. The status quo outcome if nothing changed.
+            3. The expectations of experts and markets.
+            4. A brief description of a scenario that results in a No outcome.
+            5. A brief description of a scenario that results in a Yes outcome.
+            
+            ### You write your rationale remembering that good forecasters put extra weight on the status quo outcome 
+            since the world changes slowly most of the time.
 
-            Now you step back to consider the evidence provided. You know that different superforecasters come up with different answers from the same evidence.
-            You make 3 independent forecasts of probability:
-            - Low forecast: your forecast of what a typical pessimistic superforecaster might forecast.
-            - Mid forecast: your baseline forecast.
-            - High forecast: your forecast of what a typical optimistic superforecaster might forecast.
+            ### Group the evidence
+            Review the evidence from your reseach assistant and group it into three buckets of approximately the same size:
+            - Bucket 1. Evidence that would indicate a relatively low forecast
+            - Bucket 2. Evidence that would indicate a relatively high forecast
+            - Bucket 3. Evidence that would indicate a central forecast
+            
+            #### Multi-world considerations
+            You explore ranges of reasonable, possible forecasts.
+            You consider three worlds:
+            1. Low_World: review the bucket 1 evidence from your reseach assistant that the forecast could be low, summarize.
+            - What would be a low (pessimistic) forecast estimate for this world?
+            - What would be a mid (your baseline) forecast estimate for this world?
+            - What would be a high (optimistic) forecast estimate for this world?
 
-            The last thing you write is your final answer as 3 numbers in this exact format: [Low, Mid, High]
-            Example: [40, 50, 65]
+            2. Mid_World: review the bucket 2 evidence from your reseach assistant that the forecast could be around 
+               the central views and trends, summarize.
+            - What would be a low (pessimistic) forecast estimate be for this world?
+            - What would be a mid (your baseline) forecast estimate for this world?
+            - What would be a high (optimistic) forecast estimate be for this world?
+            
+            3. High_World: review the bucket 3 evidence from your reseach assistant that the forecast could be high, summarize.
+            - What would be a low (pessimistic) forecast estimate for this world?
+            - What would be a mid (your baseline) forecast estimate for this world?
+            - What would be a high (optimistic) forecast estimate for this world?
+
+            # Final Answer
+            The last thing you write is your final answer as a list of values for the world scenarios. Written as a list: 
+            
+            [Low_World-Low, Low_World-Mid, Low_World-High, Mid_World-Low, Mid_World-Mid, Mid_World-High, High_World_Low,
+            High_World_Mid, High_World_High]
+            
             IMPORTANT: Write only the numbers without percent signs inside the brackets.
             """
         )
@@ -509,6 +546,7 @@ class SpringTemplateBot2026(ForecastBot):
         upper_bound_message, lower_bound_message = (
             self._create_upper_and_lower_bound_messages(question)
         )
+        # DRE 01-01-2025 Numeric for Spring 2026
         prompt = clean_indents(
             f"""
             # Make a Professional Forecast
@@ -1101,8 +1139,8 @@ if __name__ == "__main__":
     elif run_mode == "test_questions":
         # Example questions are a good way to test the bot's performance on a single question
         EXAMPLE_QUESTIONS = [
-            # "https://www.metaculus.com/questions/578/human-extinction-by-2100/",  # Human Extinction - Binary
-            "https://www.metaculus.com/questions/14333/age-of-oldest-human-as-of-2100/",  # Age of Oldest Human - Numeric
+            "https://www.metaculus.com/questions/578/human-extinction-by-2100/",  # Human Extinction - Binary
+            # "https://www.metaculus.com/questions/14333/age-of-oldest-human-as-of-2100/",  # Age of Oldest Human - Numeric
             # "https://www.metaculus.com/questions/22427/number-of-new-leading-ai-labs/",  # Number of New Leading AI Labs - Multiple Choice
             # "https://www.metaculus.com/c/diffusion-community/38880/how-many-us-labor-strikes-due-to-ai-in-2029/",  # Number of US Labor Strikes Due to AI in 2029 - Discrete
         ]

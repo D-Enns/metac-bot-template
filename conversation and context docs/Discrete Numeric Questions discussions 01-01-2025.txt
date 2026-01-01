@@ -1,0 +1,67 @@
+Following is some discussion of discrete questions from discord
+
+Ben Wilson — 12/11/25, 10:33 PM (Main Metaculus Developer for AI forecasting competition)
+Discrete Question Conversion
+We are starting to do some conversions of should-be-discrete questions on the site (both inside and outside of AIB). There were 6 questions (1.5% of the total) that were launched as numeric in AIB, which should have been discrete (the relevant site questions were numeric since they were created before the discrete question type was available). This set is big enough that we don't want bots that made code specifically to maximize spiky distributions to get an unfair advantage  (i.e., when the interpretive meaning of the spiky distribution and the normal distribution are the same, yet one bot would get more points). We have made code that can convert these questions to discrete ones. We have moved forward with this conversion, but wanted to solicit feedback, since we can still annul. There has been at least one team that has reached out and mentioned that this conversion might be unfair, and if enough others have problems with the conversion, then we can annul these instead. If we make a mistake in the conversion process for any one question, we will default to annulling all of them (we have done testing, and don't expect this, though).
+
+Ben Wilson — 12/11/25, 10:40 PM
+Here are the questions for reference:
+https://www.metaculus.com/questions/39519/
+https://www.metaculus.com/questions/39617/
+https://www.metaculus.com/questions/39459/
+https://www.metaculus.com/questions/39602/
+https://www.metaculus.com/questions/39434/
+https://www.metaculus.com/questions/39552/
+
+Ben Wilson — 11/3/25, 11:46 PM
+ANNOUNCEMENT:
+AskNews is planning to have an outage for maintenance on Nov 16th. We will avoid launching questions then, but if you have problems running AskNews locally, this is why. Its also possible that their maintenance window will need to change to another date.
+We have given some warning about this a while back, but we will be merging code soon that prevents secondary forecasts on AIB questions.
+We also have code in the works to limit the maximum height of numeric distributions participants submit. The maximum PMF bucket size will change from 0.59 to 0.2. People using an updated version of forecasting-tools will get this update automatically once this code is published. This mostly prevents overly spiky distributions that give bots an advantage versus humans on the site (allowing for a closer comparison). We are also exploring converting older numeric questions into discrete questions across the site to make distribution input easier for both humans and bots (i.e. the numeric questions that were made before discrete questions existed).
+We are now showing only a few metac-bots by default on leaderboards across the site. You can still see the full list of metac-bots by toggling the "advanced" leaderboard setting. Let us know if you have feedback as we balance between consumer, forecaster, and bot-maker needs on what to show here.
+All the questions in the Oct 13 MiniBench are now resolved.
+We are rebranding AIB soon! The name will soon switch to FutureEval. We will be launching a new benchmark homepage soon that will also include a site-wide leaderboard for the major metac-bots.
+
+Theo Summer (twsummerbot) — 11/7/25, 7:37 PM
+Here is a recent question from the tournament: "What will be the largest number of digits of π to have ever been computed by December 31, 2025?"
+
+https://www.metaculus.com/questions/39567/digits-of-pi-calculated-by-2026/
+
+My bot put >50% weight into the bucket that covers 300 trillion, because that is the current maximum number of digits of pi to have been calculated and it seems like there is a less than 50% chance that number will be increased by the end of the year.
+
+I don't think this question should be discrete, nor does it make sense to rescale the range (and it wouldn't even help if you did).
+
+We are also aware that there was a bug in forecasting-tools that, for some questions, a forecast that put most/all probability on a specific number, instead put the probability on one bin lower than it should have. This applied to questions where the numeric range divides 200 evenly. This bug would effect questions whether or not we did the conversion, but it’s worth restating since it has effected mostly should-be-discrete questions. 
+
+We mentioned at the beginning of the season that forecasting-tools is use-at-your-own-risk, so we apologize if this hurts participants' forecasting performance in any way. This bug was found Oct 28th and fixed in the first week of November. 
+
+
+Theo Summer (twsummerbot) — 12/12/25, 12:41 AM
+I am ok with this conversion. My bot is one of the ones that is making spiky forecasts on numeric questions (I didn't code specifically for it, but it managed to figure it out on its own). This approach to converting the questions seems to keep the meaning of the forecasts the same while removing the ability for bots to game the system a bit on these numeric questions that should really be discrete.
+
+Ben (Mantic) — 12/12/25, 5:46 AM
+We were also making spiky forecasts and stood to gain from the questions being left alone, but we're also fine with the change. Thanks for the transparency here @Ben Wilson.
+
+Emdash — 12/12/25, 10:58 AM
+I haven't looked through the questions yet to see whether I would be helped/harmed, but definitely support this change. Given that the scores are calculated on the value of the PDF for numeric questions the old format would be (even unintentionally) super gameable. If I'm understanding the problem correctly, a uniform distribution that was 1/n on the integer values and 0 otherwise would max out the potential score for every question with less than n=20 potential values (based on a pdf max of 0.59, which I remembered as the max but didn't look it up again. For a max of 0.2 it would be n=32). Depending on when/how in the flow the pdf values are capped even a totally innocent 'spiky' distribution would get insane scores. 
+
+To be even more of a nerd it would be more robust to take the mass (or equivalently the mean prediction) in each bin instead of the highest point, because the highest point is not really representative. If you had a bot saying the p(1) = .5 and p(2) = 0, the bin value in p(2) would be set as 0.25 because the linear line between those points pass the bin edge at 0.25 when interpolating linearly. But this quibble is super minor and practically I don't think it will matter that much. The spiky issue is much bigger. 
+
+def_init_ — 12/12/25, 1:14 PM
+I like this change. I think it makes more sense for fairly and evenly comparing the forecasts on those types of questions.
+
+ZeppelinYanks — 12/12/25, 7:09 PM
+I am not making spiky forecasts and have been waiting for this change 🙂
+
+Ben (Mantic) — 12/15/25, 2:19 AM
+The pdf max is per bin so you hit the current limit of 0.59 if there's only one integer value within the range, and the new limit of 0.2 if there are 5 or fewer.
+
+Emdash — 12/15/25, 12:34 PM
+Right, thank you. I should have specified that, because the numeric input takes a CDF with 201 bins by default, those Ns I calculated were using that bin count and bin width = N/201. Since you have 1.0 cumulative probability to spend, and the bin_width <1 as long as N<201,  the 'spend' (i.e. probability mass, or the amount the CDF rises between bins) is only 0.59*bin_width. So you can set many values to the max before reaching 1.0 cumulative probability.
+
+Ben (Mantic) — 12/18/25, 3:02 AM
+They've already factored the /201 in the 0.59. The max "density" allowed is 201 * 0.59 = 118.59 (averaged over a bin). The 'pdf max' is actually a limit on the integral over any bin
+\int_{x_i}^{x_{i+1}} p(x) dx \leq 0.59 
+
+Emdash — 12/21/25, 9:20 AM
+Didn't realize this, thanks good to know!
