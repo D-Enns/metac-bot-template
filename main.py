@@ -1056,7 +1056,7 @@ if __name__ == "__main__":
 
     template_bot = SpringTemplateBot2026(
         research_reports_per_question=1,
-        predictions_per_research_report=8,
+        predictions_per_research_report=4,  # 8 desired in production.
         use_research_summary_to_forecast=False,
         publish_reports_to_metaculus=True,
         folder_to_save_reports_to=None,
