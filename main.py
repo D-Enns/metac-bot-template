@@ -233,7 +233,7 @@ class SpringTemplateBot2026(ForecastBot):
 
             ### Strategy
             Your general strategy is to consider multiple scenarios: given a subset of the evidence,
-            what are low (pessimistic), mid (baseline), and high (optimistic) forecasts.
+            what are low (most pessimistic given the selected evidence), mid (your baseline given the selected evidence), and high (optimistic given the selected evidence) forecasts.
             
             ### Precision
             You do not preferentially choose forecast probabilities of 5%, 10%, 15%, 20% etc. Instead you make your best forecast, 
@@ -251,35 +251,35 @@ class SpringTemplateBot2026(ForecastBot):
             since the world changes slowly most of the time.
 
             ### Group the evidence
-            Review the evidence from your reseach assistant and group it into three buckets of approximately the same size:
+            Review the evidence from your research assistant and group it into three buckets of approximately the same size:
             - Bucket 1. Evidence that would indicate a relatively low forecast
-            - Bucket 2. Evidence that would indicate a relatively high forecast
-            - Bucket 3. Evidence that would indicate a central forecast
+            - Bucket 2. Evidence that would indicate a relatively central or baseline forecast
+            - Bucket 3. Evidence that would indicate a high forecast
             
-            #### Multi-world considerations
+            ### Multi-world considerations
             You explore ranges of reasonable, possible forecasts.
-            You consider three worlds:
-            1. Low_World: review the bucket 1 evidence from your reseach assistant that the forecast could be low, summarize.
-            - What would be a low (pessimistic) forecast estimate for this world?
-            - What would be a mid (your baseline) forecast estimate for this world?
-            - What would be a high (optimistic) forecast estimate for this world?
+            You consider three worlds, one world based on each bucket of evidence:
+            1. Low_World: review the bucket 1 evidence from your research assistant that the forecast could be low, summarize.
+            - What would be a low forecast estimate for this world?
+            - What would be a mid forecast estimate for this world?
+            - What would be a high forecast estimate for this world?
 
-            2. Mid_World: review the bucket 2 evidence from your reseach assistant that the forecast could be around 
+            2. Mid_World: review the bucket 2 evidence from your research assistant that the forecast could be around 
                the central views and trends, summarize.
-            - What would be a low (pessimistic) forecast estimate be for this world?
-            - What would be a mid (your baseline) forecast estimate for this world?
-            - What would be a high (optimistic) forecast estimate be for this world?
+            - What would be a low forecast estimate be for this world?
+            - What would be a mid forecast estimate for this world?
+            - What would be a high forecast estimate be for this world?
             
-            3. High_World: review the bucket 3 evidence from your reseach assistant that the forecast could be high, summarize.
-            - What would be a low (pessimistic) forecast estimate for this world?
-            - What would be a mid (your baseline) forecast estimate for this world?
-            - What would be a high (optimistic) forecast estimate for this world?
+            3. High_World: review the bucket 3 evidence from your research assistant that the forecast could be high, summarize.
+            - What would be a low forecast estimate for this world?
+            - What would be a mid forecast estimate for this world?
+            - What would be a high forecast estimate for this world?
 
             # Final Answer
             The last thing you write is your final answer as a list of values for the world scenarios. Written as a list: 
             
-            [Low_World-Low, Low_World-Mid, Low_World-High, Mid_World-Low, Mid_World-Mid, Mid_World-High, High_World_Low,
-            High_World_Mid, High_World_High]
+            [Low_World-Low, Low_World-Mid, Low_World-High, Mid_World-Low, Mid_World-Mid, Mid_World-High, High_World-Low,
+            High_World-Mid, High_World-High]
             
             IMPORTANT: Write only the numbers without percent signs inside the brackets.
             """
