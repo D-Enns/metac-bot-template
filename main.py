@@ -233,7 +233,8 @@ class SpringTemplateBot2026(ForecastBot):
 
             ### Strategy
             Your general strategy is to consider multiple scenarios: given a subset of the evidence,
-            what are low (most pessimistic given the selected evidence), mid (your baseline given the selected evidence), and high (optimistic given the selected evidence) forecasts.
+            what are low (most pessimistic given the selected evidence), mid (your baseline given the selected evidence), 
+            and high (optimistic given the selected evidence) forecasts.
             
             ### Precision
             You do not preferentially choose forecast probabilities of 5%, 10%, 15%, 20% etc. Instead you make your best forecast, 
