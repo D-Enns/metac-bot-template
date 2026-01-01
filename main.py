@@ -1064,7 +1064,7 @@ if __name__ == "__main__":
         extra_metadata_in_explanation=True,
         llms={  # choose your model names or GeneralLlm llms here, otherwise defaults will be chosen for you
             "default": GeneralLlm(
-                model="metaculus/openai/o4-mini", # "anthropic/claude-sonnet-4-20250514", etc (see docs for litellm)
+                model="metaculus/openai/o3", # "anthropic/claude-sonnet-4-20250514", etc (see docs for litellm)
                 temperature=1,
                 timeout=40,
                 allowed_tries=2,
