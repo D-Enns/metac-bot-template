@@ -676,8 +676,8 @@ class SpringTemplateBot2026(ForecastBot):
             median = sorted_scenarios[n // 2]
             temp_percentiles = {10: median, 20: median, 40: median, 60: median, 80: median, 90: median}
 
-        # Convert dict to list of Percentile objects
-        percentile_list = [Percentile(percentile=p, value=v) for p, v in sorted(temp_percentiles.items())]
+        # Convert dict to list of Percentile objects (percentiles must be 0-1 scale)
+        percentile_list = [Percentile(percentile=p/100, value=v) for p, v in sorted(temp_percentiles.items())]
         return NumericDistribution.from_question(percentile_list, question)
 
     def _detect_unit_inconsistency(self, scenarios: list[float]) -> bool:
@@ -754,7 +754,7 @@ class SpringTemplateBot2026(ForecastBot):
 
         for p in target_percentiles:
             value = gpr_model.predict(np.array([[p]]))[0]
-            percentile_list.append(Percentile(percentile=p, value=float(value)))
+            percentile_list.append(Percentile(percentile=p/100, value=float(value)))
 
         logger.info(f"✅ GPR numeric aggregation: {len(scenarios)} scenarios → {len(target_percentiles)} percentiles")
         logger.info(
@@ -782,7 +782,7 @@ class SpringTemplateBot2026(ForecastBot):
         for p in target_percentiles:
             index = int(n * p / 100)
             index = min(max(0, index), n - 1)  # Clamp to valid range
-            percentile_list.append(Percentile(percentile=p, value=sorted_scenarios[index]))
+            percentile_list.append(Percentile(percentile=p/100, value=sorted_scenarios[index]))
 
         logger.warning(
             f"📊 EMPIRICAL FALLBACK APPLIED: Used {n} scenarios to create distribution. "

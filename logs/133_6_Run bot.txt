@@ -1,0 +1,743 @@
+﻿2026-01-01T17:01:59.3679981Z ##[group]Run poetry run python main.py --mode test_questions
+2026-01-01T17:01:59.3680455Z [36;1mpoetry run python main.py --mode test_questions[0m
+2026-01-01T17:01:59.3713478Z shell: /usr/bin/bash -e {0}
+2026-01-01T17:01:59.3713717Z env:
+2026-01-01T17:01:59.3713971Z   pythonLocation: /opt/hostedtoolcache/Python/3.11.14/x64
+2026-01-01T17:01:59.3714400Z   PKG_CONFIG_PATH: /opt/hostedtoolcache/Python/3.11.14/x64/lib/pkgconfig
+2026-01-01T17:01:59.3714806Z   Python_ROOT_DIR: /opt/hostedtoolcache/Python/3.11.14/x64
+2026-01-01T17:01:59.3715275Z   Python2_ROOT_DIR: /opt/hostedtoolcache/Python/3.11.14/x64
+2026-01-01T17:01:59.3715652Z   Python3_ROOT_DIR: /opt/hostedtoolcache/Python/3.11.14/x64
+2026-01-01T17:01:59.3716009Z   LD_LIBRARY_PATH: /opt/hostedtoolcache/Python/3.11.14/x64/lib
+2026-01-01T17:01:59.3716308Z   VENV: .venv/bin/activate
+2026-01-01T17:01:59.3716700Z   METACULUS_TOKEN: ***
+2026-01-01T17:01:59.3716915Z   PERPLEXITY_API_KEY: 
+2026-01-01T17:01:59.3717108Z   EXA_API_KEY: 
+2026-01-01T17:01:59.3717288Z   OPENAI_API_KEY: 
+2026-01-01T17:01:59.3717712Z   OPENROUTER_API_KEY: ***
+2026-01-01T17:01:59.3717915Z   ANTHROPIC_API_KEY: 
+2026-01-01T17:01:59.3718174Z   ASKNEWS_CLIENT_ID: ***
+2026-01-01T17:01:59.3718414Z   ASKNEWS_SECRET: ***
+2026-01-01T17:01:59.3718599Z ##[endgroup]
+2026-01-01T17:02:09.1698147Z Warning: Model openrouter/perplexity/sonar does not support cost tracking.
+2026-01-01T17:02:10.2265944Z 2026-01-01 17:02:10.226 WARNING streamlit.runtime.caching.cache_data_api: No runtime found, using MemoryCacheStorageManager
+2026-01-01T17:02:10.2489549Z 2026-01-01 17:02:10,248 - forecasting_tools.ai_models.model_tracker - WARNING - Warning: Model openrouter/openai/gpt-4o-mini does not support cost tracking.
+2026-01-01T17:02:10.2504245Z 2026-01-01 17:02:10,250 - forecasting_tools.helpers.metaculus_client - INFO - Retrieving question details for question 14333
+2026-01-01T17:02:12.7240682Z 2026-01-01 17:02:12,723 - forecasting_tools.helpers.metaculus_client - INFO - Retrieved question details for question 14333
+2026-01-01T17:02:12.9262011Z 2026-01-01 17:02:12,925 - openai.agents - WARNING - OPENAI_API_KEY is not set, skipping trace export
+2026-01-01T17:02:26.4995125Z 2026-01-01 17:02:26,499 - __main__ - INFO - Found Research for URL https://www.metaculus.com/questions/14333:
+2026-01-01T17:02:26.4996986Z Here are the relevant news articles:
+2026-01-01T17:02:26.5009470Z 
+2026-01-01T17:02:26.5010164Z **DNA Study of 117-Year-Old Woman Sheds New Light on Long Life**
+2026-01-01T17:02:26.5018774Z Scientists studied the DNA and biological samples of Maria Branyas, who died at age 117 in 2024 and was the world’s oldest living person at the time of her death. Researchers at the Josep Carreras Leukaemia Research Institute in Barcelona analyzed her blood, saliva, urine, and stool samples using advanced genetic and biological methods. Despite her chronological age of 117, her cells exhibited characteristics typical of much younger individuals. Her genome included rare genetic variants linked to strong immune function, cardiovascular health, and brain resilience. Physiologically, she had very low inflammation, excellent heart health markers, a youthful gut microbiome, and favorable lipid profiles—low 'bad' cholesterol and triglycerides, and high 'good' cholesterol. A surprising finding was the extreme shortening of her telomeres, which usually correlate with higher disease risk, yet she remained free of major age-related illnesses throughout her life. Researchers speculate that such short telomeres may have suppressed cancer development. The study, published in Cell Reports Medicine, emphasizes that advanced age and poor health are not inherently linked, as Branyas’s biological profile defied typical ageing expectations. While lifestyle factors such as a Mediterranean diet, physical activity, and social engagement may have contributed, genetics likely played a major role. Researchers caution that findings from a single individual cannot be generalized without further study. Branyas’s biological legacy offers a unique opportunity to investigate healthy longevity in centenarians and supercentenarians.
+2026-01-01T17:02:26.5025447Z Original language: en
+2026-01-01T17:02:26.5025696Z Publish date: January 01, 2026 11:19 AM
+2026-01-01T17:02:26.5026342Z Source:[Republic World](https://www.republicworld.com/science/dna-study-of-117-year-old-woman-sheds-new-light-on-long-life)
+2026-01-01T17:02:26.5026891Z 
+2026-01-01T17:02:26.5027111Z **New Year Special – What Awaits the World in 2026?**
+2026-01-01T17:02:26.5031572Z In a New Year special titled 'New Year Special - December 31, 2025 (What Awaits the World in 2026?)', Kadir Kaymakçı posed forward-looking questions about the future, including whether the secret to immortality has been discovered, what changes will occur in 2026 and beyond, what medical breakthroughs will emerge, how healthcare will evolve, and whether human lifespan could reach 150 years. The program also examined how the world has changed from the 2000s to 2026. The panelists—journalist İpek Yezdani, Habertürk Technology Editor Cem Kadri Özenen, art critic Samet Karagöz, and Dr. Ayşegül Çoruhlu—provided answers to these speculative and futuristic inquiries.
+2026-01-01T17:02:26.5035742Z Original language: tr
+2026-01-01T17:02:26.5036149Z Publish date: January 01, 2026 10:15 AM
+2026-01-01T17:02:26.5037277Z Source:[HABERTURK.COM](https://www.haberturk.com/video/programlar/izle/yeni-yil-ozel-31-aralik-2025-2026da-dunyayi-neler-bekliyor/898938)
+2026-01-01T17:02:26.5038260Z 
+2026-01-01T17:02:26.5038591Z **Americans in 1998 tried to predict 2025. Here's what they got right**
+2026-01-01T17:02:26.5048493Z In 1998, Gallup and USA Today surveyed 1,055 Americans via landline phones to predict life in 2025. Most correctly anticipated that a Black president would be elected (Barack Obama served from 2009–2017), that gay marriage would become legal and common (legalized nationwide in 2015), and that a deadly new disease would emerge (referring to the COVID-19 pandemic). However, predictions that space travel would be common for ordinary Americans or that alien life would make contact were deemed incorrect. About two-thirds expected a female president by 2025, but no woman has yet been elected. Over half expected a cure for cancer, and 61% believed people would routinely live to 100 years old—neither of which has materialized. The poll also revealed widespread pessimism: 70% believed quality of life would improve for the rich, but most expected worsening conditions for the poor; nearly 80% anticipated less personal privacy, 57% expected less personal freedom, and a 71% majority thought raising good children would be harder. Despite these concerns, most believed race relations would improve and medical care would be more available, albeit less affordable. In 1998, 60% of Americans were satisfied with the country’s direction; by 2026, that number had dropped to 24%, according to Gallup. The original predictions are archived at the Roper Center at Cornell University.
+2026-01-01T17:02:26.5056948Z Original language: en
+2026-01-01T17:02:26.5057365Z Publish date: January 01, 2026 01:56 AM
+2026-01-01T17:02:26.5058282Z Source:[Pittsburgh's Action News 4](https://www.wtae.com/article/1998-predictions-2025-retrospective/69878133)
+2026-01-01T17:02:26.5059031Z 
+2026-01-01T17:02:26.5059385Z **1998 Americans' Predictions for 2025: Five Correct, Three Unfulfilled**
+2026-01-01T17:02:26.5065880Z In 1998, Gallup and USA Today conducted a phone survey of 1,055 U.S. adults asking them to predict life in 2025. The responses, archived at Cornell University's Roper Center, show that five predictions were accurate: a Black person would become U.S. president (achieved by Barack Obama), same-sex marriage would become legal and widespread (legalized in 2015), a deadly new disease would emerge (e.g., the COVID-19 pandemic), space travel would remain uncommon, and contact with extraterrestrial life would not occur. However, three predictions did not materialize: a female U.S. president had not been elected by 2025, cancer had not been cured, and the expectation that people would commonly live to 100 years old had not come true. In 1998, about 60% of Americans expressed satisfaction with the country’s direction; by December 2025, satisfaction had dropped to 24%.
+2026-01-01T17:02:26.5071303Z Original language: zh
+2026-01-01T17:02:26.5071738Z Publish date: December 31, 2025 10:07 AM
+2026-01-01T17:02:26.5072509Z Source:[星岛环球网](https://www.stnn.cc/c/2025-12-31/4027245.shtml)
+2026-01-01T17:02:26.5072942Z 
+2026-01-01T17:02:26.5073201Z **DNA Study of 117-Year-Old Woman Reveals Clues to Long Life**
+2026-01-01T17:02:26.5085376Z Maria Branyas, who lived to 117 years old and was the oldest living person in the world at her death in 2024, provided biological samples—including blood, saliva, urine, and stool—before her passing. A study led by scientists at the Josep Carreras Leukaemia Research Institute in Barcelona found that her genome exhibited signs of exceptional youthfulness, with cells behaving as though they were significantly younger than her chronological age. Despite a 'huge erosion' of telomeres—typically associated with aging—her immune system, gut microbiome, cardiovascular health, and lipid profile were remarkably favorable, showing low inflammation, low 'bad' cholesterol and triglycerides, and high 'good' cholesterol. Her health was marked by excellent cardiovascular function and mental, social, and physical activity throughout life. The researchers, including epigeneticists Eloy Santos-Pujol and Aleix Noguera-Castells, suggest that her extreme longevity may be due to a combination of rare genetic variants linked to longevity, immune function, and heart and brain health. Notably, the study challenges the conventional role of telomeres as aging biomarkers, proposing that short telomeres might have helped prevent cancer in her case. The findings, published in *Cell Reports Medicine*, offer new insights into healthy aging and potential strategies to extend life expectancy, though the team acknowledges the limitations of studying only one supercentenarian and calls for larger cohort studies. Branyas exceeded the average life expectancy for women in Catalonia by over 30 years, underscoring that advanced age and poor health are not inherently linked.
+2026-01-01T17:02:26.5095791Z Original language: en
+2026-01-01T17:02:26.5096218Z Publish date: December 30, 2025 10:44 PM
+2026-01-01T17:02:26.5097194Z Source:[ScienceAlert](https://www.sciencealert.com/dna-study-of-117-year-old-woman-reveals-clues-to-long-life)
+2026-01-01T17:02:26.5098003Z 
+2026-01-01T17:02:26.5098313Z **No solo 2026: Other Baba Vanga Predictions for the Next 100 Years**
+2026-01-01T17:02:26.5108317Z Baba Vanga, the Bulgarian seer who died in 1996, continues to generate widespread public interest despite the lack of verifiable evidence supporting her predictions. Her prophecies, which span over 100 years, have been widely shared on digital platforms. For 2026, she predicted a heightened risk of a Third World War involving the United States, China, and Russia, alongside optimistic developments such as early cancer detection and 3D-printed organs. Additional predictions include: 2028—development of a new energy source and persistent global hunger; 2033—accelerated polar ice melt and rising sea levels; 2042—global economic improvement and Muslim dominance in Europe; 2046—human organs produced and replaced via innovative procedures; 2066—Rome attacked by the U.S. with a climate weapon causing extreme cold; 2076—eradication of social classes; 2084—environmental recovery; 2088—emergence of a deadly disease causing rapid aging; 2097—cure discovered for rapid aging; 2010—artificial sun illuminating the dark side of Earth; 2111—human-robot hybridization; 2113—war among small nations, with major powers abstaining; 2125—Hungary receives first extraterrestrial signals. Some of her predictions are claimed to have come true, including the death of Princess Diana, the sinking of the Russian submarine Kursk, and the September 11 terrorist attacks.
+2026-01-01T17:02:26.5117142Z Original language: es
+2026-01-01T17:02:26.5117564Z Publish date: December 30, 2025 07:42 PM
+2026-01-01T17:02:26.5119522Z Source:[El Heraldo de M�xico](https://heraldodemexico.com.mx/mundo/2025/12/30/no-solo-2026-estas-son-otras-profecias-de-baba-vanga-para-los-proximos-100-anos-755804.html)
+2026-01-01T17:02:26.5120795Z 
+2026-01-01T17:02:26.5121094Z **DNA Study of 117-Year-Old Woman Sheds New Light on Long Life**
+2026-01-01T17:02:26.5132985Z Scientists studied the DNA and biological samples of Maria Branyas, who died at age 117 in 2024 and was the world’s oldest living person at the time of her death. Researchers at the Josep Carreras Leukaemia Research Institute in Barcelona analyzed her blood, saliva, urine, and stool samples using advanced genetic and biological methods. Despite her chronological age of 117, her cells exhibited characteristics typical of much younger individuals. Her genome included rare genetic variants linked to strong immune function, cardiovascular health, and brain resilience. Physiologically, she had very low inflammation, excellent heart health markers, a youthful gut microbiome, and favorable lipid profiles—low 'bad' cholesterol and triglycerides, and high 'good' cholesterol. A surprising finding was the extreme shortening of her telomeres, which usually correlate with higher disease risk, yet she remained free of major age-related illnesses throughout her life. Researchers speculate that such short telomeres may have suppressed cancer development. The study, published in Cell Reports Medicine, emphasizes that advanced age and poor health are not inherently linked, as Branyas’s biological profile defied typical ageing expectations. While lifestyle factors such as a Mediterranean diet, physical activity, and social engagement may have contributed, genetics likely played a major role. Researchers caution that findings from a single individual cannot be generalized without further study. Branyas’s biological legacy offers a unique opportunity to investigate healthy longevity in centenarians and supercentenarians.
+2026-01-01T17:02:26.5143158Z Original language: en
+2026-01-01T17:02:26.5143577Z Publish date: January 01, 2026 11:19 AM
+2026-01-01T17:02:26.5144604Z Source:[Republic World](https://www.republicworld.com/science/dna-study-of-117-year-old-woman-sheds-new-light-on-long-life)
+2026-01-01T17:02:26.5145525Z 
+2026-01-01T17:02:26.5145889Z **New Year Special – What Awaits the World in 2026?**
+2026-01-01T17:02:26.5150681Z In a New Year special titled 'New Year Special - December 31, 2025 (What Awaits the World in 2026?)', Kadir Kaymakçı posed forward-looking questions about the future, including whether the secret to immortality has been discovered, what changes will occur in 2026 and beyond, what medical breakthroughs will emerge, how healthcare will evolve, and whether human lifespan could reach 150 years. The program also examined how the world has changed from the 2000s to 2026. The panelists—journalist İpek Yezdani, Habertürk Technology Editor Cem Kadri Özenen, art critic Samet Karagöz, and Dr. Ayşegül Çoruhlu—provided answers to these speculative and futuristic inquiries.
+2026-01-01T17:02:26.5154596Z Original language: tr
+2026-01-01T17:02:26.5155218Z Publish date: January 01, 2026 10:15 AM
+2026-01-01T17:02:26.5156008Z Source:[HABERTURK.COM](https://www.haberturk.com/video/programlar/izle/yeni-yil-ozel-31-aralik-2025-2026da-dunyayi-neler-bekliyor/898938)
+2026-01-01T17:02:26.5156528Z 
+2026-01-01T17:02:26.5156696Z **Americans in 1998 tried to predict 2025. Here's what they got right**
+2026-01-01T17:02:26.5161736Z In 1998, Gallup and USA Today surveyed 1,055 Americans via landline phones to predict life in 2025. Most correctly anticipated that a Black president would be elected (Barack Obama served from 2009–2017), that gay marriage would become legal and common (legalized nationwide in 2015), and that a deadly new disease would emerge (referring to the COVID-19 pandemic). However, predictions that space travel would be common for ordinary Americans or that alien life would make contact were deemed incorrect. About two-thirds expected a female president by 2025, but no woman has yet been elected. Over half expected a cure for cancer, and 61% believed people would routinely live to 100 years old—neither of which has materialized. The poll also revealed widespread pessimism: 70% believed quality of life would improve for the rich, but most expected worsening conditions for the poor; nearly 80% anticipated less personal privacy, 57% expected less personal freedom, and a 71% majority thought raising good children would be harder. Despite these concerns, most believed race relations would improve and medical care would be more available, albeit less affordable. In 1998, 60% of Americans were satisfied with the country’s direction; by 2026, that number had dropped to 24%, according to Gallup. The original predictions are archived at the Roper Center at Cornell University.
+2026-01-01T17:02:26.5166541Z Original language: en
+2026-01-01T17:02:26.5166766Z Publish date: January 01, 2026 01:56 AM
+2026-01-01T17:02:26.5167247Z Source:[Pittsburgh's Action News 4](https://www.wtae.com/article/1998-predictions-2025-retrospective/69878133)
+2026-01-01T17:02:26.5167645Z 
+2026-01-01T17:02:26.5168030Z **Reflections at Year-End and Year-Beginning: What Can Taiwan’s Elderly Contribute to the Nation’s Future?**
+2026-01-01T17:02:26.5176203Z According to research by Sohail Inayatullah, a professor of futurology at UNESCO and a renowned futurist, futurology transforms uncertain futures into understandable and designable pathways, enabling foresight and informed decision-making in a changing world. This perspective allows for broader visions of Taiwan’s future over the next 25 years, spanning individuals, families, organizations, society, and the nation, urging action from the present. Regarding national security and population issues, global population is projected to reach 9.7 billion by 2050, while Taiwan’s population is expected to fall below 20 million—similar to its 1989 level—due to a rise in the proportion of people aged 65 and above to 35–40%, entering the peak of a 'super-aging society.' This will significantly increase the burden on the working-age population (15–64 years), projected to shrink to fewer than 5 million by 2050. The article urges current middle-aged and older adults to prepare now by rethinking financial planning, education, community building, workplace demands, societal values, national governance, and international cooperation. The author references a university that outsourced its security personnel to private firms due to budget cuts, eroding workplace trust and camaraderie. The article raises concerns about whether professions such as parents, teachers, government officials, doctors, lawyers, firefighters, and military personnel may also become outsourced in the future, especially with the rise of AI and efficiency-driven trends. This could erode Taiwan’s traditionally valued human connections and public-spirited culture. While older adults in Taiwan may not emulate the lifestyles of British author Iris Murdoch’s 'dressing up and sharing' ideal, American investor Charlie Munger’s financial foresight, or 104-year-old Lin You-mao, the world’s oldest certified badminton player at the 2025 Taipei-Keelung World Masters Games, they can still strive toward the psychologist’s concept of 'three autonomies for seniors': economic, emotional, and physical autonomy. This effort can serve as a model for future generations entering old age.
+2026-01-01T17:02:26.5184311Z Original language: zh
+2026-01-01T17:02:26.5184547Z Publish date: December 31, 2025 04:06 PM
+2026-01-01T17:02:26.5184857Z Source:[UDN](https://udn.com/news/story/7339/9238152)
+2026-01-01T17:02:26.5185300Z 
+2026-01-01T17:02:26.5185483Z **1998 Americans' Predictions for 2025: Five Correct, Three Unfulfilled**
+2026-01-01T17:02:26.5189038Z In 1998, Gallup and USA Today conducted a phone survey of 1,055 U.S. adults asking them to predict life in 2025. The responses, archived at Cornell University's Roper Center, show that five predictions were accurate: a Black person would become U.S. president (achieved by Barack Obama), same-sex marriage would become legal and widespread (legalized in 2015), a deadly new disease would emerge (e.g., the COVID-19 pandemic), space travel would remain uncommon, and contact with extraterrestrial life would not occur. However, three predictions did not materialize: a female U.S. president had not been elected by 2025, cancer had not been cured, and the expectation that people would commonly live to 100 years old had not come true. In 1998, about 60% of Americans expressed satisfaction with the country’s direction; by December 2025, satisfaction had dropped to 24%.
+2026-01-01T17:02:26.5191753Z Original language: zh
+2026-01-01T17:02:26.5191978Z Publish date: December 31, 2025 10:07 AM
+2026-01-01T17:02:26.5209198Z Source:[星岛环球网](https://www.stnn.cc/c/2025-12-31/4027245.shtml)
+2026-01-01T17:02:26.5209468Z 
+2026-01-01T17:02:26.5209633Z **DNA Study of 117-Year-Old Woman Reveals Clues to Long Life**
+2026-01-01T17:02:26.5215881Z Maria Branyas, who lived to 117 years old and was the oldest living person in the world at her death in 2024, provided biological samples—including blood, saliva, urine, and stool—before her passing. A study led by scientists at the Josep Carreras Leukaemia Research Institute in Barcelona found that her genome exhibited signs of exceptional youthfulness, with cells behaving as though they were significantly younger than her chronological age. Despite a 'huge erosion' of telomeres—typically associated with aging—her immune system, gut microbiome, cardiovascular health, and lipid profile were remarkably favorable, showing low inflammation, low 'bad' cholesterol and triglycerides, and high 'good' cholesterol. Her health was marked by excellent cardiovascular function and mental, social, and physical activity throughout life. The researchers, including epigeneticists Eloy Santos-Pujol and Aleix Noguera-Castells, suggest that her extreme longevity may be due to a combination of rare genetic variants linked to longevity, immune function, and heart and brain health. Notably, the study challenges the conventional role of telomeres as aging biomarkers, proposing that short telomeres might have helped prevent cancer in her case. The findings, published in *Cell Reports Medicine*, offer new insights into healthy aging and potential strategies to extend life expectancy, though the team acknowledges the limitations of studying only one supercentenarian and calls for larger cohort studies. Branyas exceeded the average life expectancy for women in Catalonia by over 30 years, underscoring that advanced age and poor health are not inherently linked.
+2026-01-01T17:02:26.5221168Z Original language: en
+2026-01-01T17:02:26.5221400Z Publish date: December 30, 2025 10:44 PM
+2026-01-01T17:02:26.5221935Z Source:[ScienceAlert](https://www.sciencealert.com/dna-study-of-117-year-old-woman-reveals-clues-to-long-life)
+2026-01-01T17:02:26.5222362Z 
+2026-01-01T17:02:26.5222529Z **No solo 2026: Other Baba Vanga Predictions for the Next 100 Years**
+2026-01-01T17:02:26.5227657Z Baba Vanga, the Bulgarian seer who died in 1996, continues to generate widespread public interest despite the lack of verifiable evidence supporting her predictions. Her prophecies, which span over 100 years, have been widely shared on digital platforms. For 2026, she predicted a heightened risk of a Third World War involving the United States, China, and Russia, alongside optimistic developments such as early cancer detection and 3D-printed organs. Additional predictions include: 2028—development of a new energy source and persistent global hunger; 2033—accelerated polar ice melt and rising sea levels; 2042—global economic improvement and Muslim dominance in Europe; 2046—human organs produced and replaced via innovative procedures; 2066—Rome attacked by the U.S. with a climate weapon causing extreme cold; 2076—eradication of social classes; 2084—environmental recovery; 2088—emergence of a deadly disease causing rapid aging; 2097—cure discovered for rapid aging; 2010—artificial sun illuminating the dark side of Earth; 2111—human-robot hybridization; 2113—war among small nations, with major powers abstaining; 2125—Hungary receives first extraterrestrial signals. Some of her predictions are claimed to have come true, including the death of Princess Diana, the sinking of the Russian submarine Kursk, and the September 11 terrorist attacks.
+2026-01-01T17:02:26.5232321Z Original language: es
+2026-01-01T17:02:26.5232551Z Publish date: December 30, 2025 07:42 PM
+2026-01-01T17:02:26.5233424Z Source:[El Heraldo de M�xico](https://heraldodemexico.com.mx/mundo/2025/12/30/no-solo-2026-estas-son-otras-profecias-de-baba-vanga-para-los-proximos-100-anos-755804.html)
+2026-01-01T17:02:26.5234079Z 
+2026-01-01T17:02:26.5234264Z **Can Blood Predict A 100-Year Life? New Studies Say The Clues Are There**
+2026-01-01T17:02:26.5239086Z New research indicates that individuals who live beyond 100 years—centenarians and supercentenarians—possess unique blood profiles that may predict extreme longevity and healthier ageing. These biological signatures, detectable as early as age 65, include strong immune system markers and low levels of 'bad' cholesterol, as seen in Maria Branyas, a 117-year-old supercentenarian studied by Spanish scientists. Despite having short telomeres—a trait typically linked to ageing—Branyas’s cells functioned like those of much younger individuals, suggesting a possible cancer-protective mechanism. A separate Chinese study of 65 centenarians found lower levels of fatty acids and other metabolites compared to younger groups, pointing to metabolic patterns that could serve as 'longevity clocks.' While no single blood test can currently predict lifespan, researchers believe these markers, influenced by diet and lifestyle, may guide future longevity interventions. The Mediterranean diet, which Branyas followed, is highlighted as a potential contributor to extended, healthier life. Scientists remain optimistic that insights from these blood profiles could lead to treatments or strategies benefiting broader populations.
+2026-01-01T17:02:26.5243686Z Original language: en
+2026-01-01T17:02:26.5243948Z Publish date: December 30, 2025 03:16 PM
+2026-01-01T17:02:26.5244621Z Source:[NDTV](https://www.ndtv.com/science/can-blood-predict-a-100-year-life-new-studies-say-the-clues-are-there-10103885)
+2026-01-01T17:02:26.5245321Z 
+2026-01-01T17:02:26.5245521Z **Blood of Exceptionally Long-Lived People Reveals Crucial Differences**
+2026-01-01T17:02:26.5251772Z Research into the blood of centenarians (those who live to 100) and supercentenarians (those who live to 110) reveals unique biomarkers linked to extreme longevity. A study on Maria Branyas, who lived to 117, found her blood had healthy immune markers and extremely low 'bad' cholesterol, with cells behaving younger than her chronological age. Surprisingly, she exhibited 'huge erosion' of telomeres—typically associated with aging and disease—but researchers suggest this may have protected her from cancer by limiting cell lifespan. Another study from China analyzed 65 centenarians and found they had lower levels of fatty acids, fatty alcohols, and other metabolites compared to younger groups, suggesting these could serve as 'longevity clocks' in future blood tests. A broader 2024 study of 5,000 individuals aged 18–110 identified a metabolic signature tied to extreme longevity, highlighting the critical role of essential fatty acids in connecting lipid metabolism to aging processes. These findings suggest that diet and metabolism may be key intervention points for healthier aging. Despite the complexity of blood and the influence of genetics, lifestyle, and randomness, scientists believe these blood profiles could eventually lead to drugs or lifestyle strategies that extend human healthspan. According to ScienceAlert, published on December 30, 2025, the blood of superagers holds potential as a 'fountain of youth' for longevity research.
+2026-01-01T17:02:26.5257035Z Original language: en
+2026-01-01T17:02:26.5257270Z Publish date: December 30, 2025 12:00 PM
+2026-01-01T17:02:26.5257851Z Source:[ScienceAlert](https://www.sciencealert.com/blood-of-exceptionally-long-lived-people-reveals-crucial-differences)
+2026-01-01T17:02:26.5258472Z 
+2026-01-01T17:02:26.5258587Z **Remembering: You Left Us in 2025 (Part 1)**
+2026-01-01T17:02:26.5261118Z The first death announcement of 2025 comes from late 2024: Tomiko Itooka, the world’s oldest woman, passed away at her care home in Ashiya, Japan. She survived two world wars, climbed Mount Ontake—3,067 meters—twice, and managed her late husband’s textile factory as a widow for decades. Her favorite food was Calpis, a yogurt drink. Itooka’s Japanese heritage is unsurprising, as Japan has an aging population: over 95,000 people are over 100 years old, with 88% being women. Despite holding the title of 'oldest living person in the world' until her death, she lost it posthumously to a Brazilian woman born 16 days after her, who was 117 years old at the time of the article’s publication.
+2026-01-01T17:02:26.5263208Z Original language: de
+2026-01-01T17:02:26.5263425Z Publish date: December 30, 2025 04:14 AM
+2026-01-01T17:02:26.5264015Z Source:[Bayerischer Rundfunk](https://www.br.de/nachrichten/deutschland-welt/erinnerung-sie-sind-2025-von-uns-gegangen-teil-1,V2EKv6W)
+2026-01-01T17:02:26.5264529Z 
+2026-01-01T17:02:26.5264655Z **How women could be the key to unlocking longer life**
+2026-01-01T17:02:26.5267694Z Women significantly outlive men, with a ratio of nine women to every man over the age of 110. This trend is exemplified by supercentenarians: Maria Branyas, the world’s oldest verified person who died at 117, attributed her longevity to eating plain yogurt, not high-tech interventions. Her successor, Ethel Catherman, is 116, and the record for human lifespan is held by Jean Calment, who lived to 122. Scientists have not yet fully explained why women live longer, but biological differences in aging between sexes are well-documented, with females generally outliving males across most mammalian species. Research into these sex-based differences may provide insights into the aging process and potentially lead to new strategies for slowing aging in both men and women.
+2026-01-01T17:02:26.5270098Z Original language: en
+2026-01-01T17:02:26.5270312Z Publish date: November 11, 2025 09:02 AM
+2026-01-01T17:02:26.5270832Z Source:[The Japan Times](https://www.japantimes.co.jp/commentary/2025/11/09/world/women-key-to-unlocking-longer-life/)
+2026-01-01T17:02:26.5271262Z 
+2026-01-01T17:02:26.5271427Z **The maximum age humans can live to has been revealed by scientists**
+2026-01-01T17:02:26.5275961Z Scientists have identified a theoretical upper limit to human lifespan, suggesting that the maximum age a human could live to is approximately 150 years, based on studies of human cell resilience, which is predicted to deteriorate beyond that point. William J. Kole, author of *The Big 100: The New World of Super-Aging*, forecasts that by 2050, there will be eight times more centenarians than today, with 'half of all five-year-olds alive now' potentially reaching age 100. Current global life expectancy is around 73 years, varying by country and socioeconomic factors. While medical advancements have extended lifespans, research indicates that most people will not approach the 150-year ceiling, with even optimistic projections suggesting only about 15% of women and 5% of men might live beyond 100. The verified oldest person, Jeanne Louise Calment of France, lived 122 years and 164 days, dying in 1997. The article also raises concerns about the societal challenges of caring for a growing elderly population, noting that many of the world’s oldest individuals are not highly active. The findings are based on scientific studies and expert analysis, with no claims made about indefinite human longevity.
+2026-01-01T17:02:26.5279902Z Original language: en
+2026-01-01T17:02:26.5280118Z Publish date: October 14, 2025 07:00 PM
+2026-01-01T17:02:26.5280612Z Source:[LADbible](https://www.ladbible.com/news/science/maximum-age-humans-live-revealed-374254-20251014)
+2026-01-01T17:02:26.5281006Z 
+2026-01-01T17:02:26.5281239Z **Who Are the World’s Oldest Living People Today? – Tunisie Numerique**
+2026-01-01T17:02:26.5286764Z According to the Global Register of Supercentenarians, Ethel Caterham, born on August 21, 1909, in the United Kingdom, is the world's oldest living person, having turned 116 years old on August 21, 2025, and currently residing in England. The world's oldest man is João Marinho Neto from Brazil, born on October 5, 1912, who turned 113 in 2025. These titles are based on rigorous documentary validation, including civil records, censuses, and administrative cross-references, conducted by longevity specialists. The lists are continuously updated as new verifications emerge. Neither Caterham nor Marinho Neto has publicly shared a detailed longevity recipe. Their families describe simple, consistent habits: moderate diet, regular sleep, limited stress, daily walking when possible, and balanced medical care. There is no extraordinary secret—just stable lifestyle habits and adaptability to aging. Longevity is also influenced by genetics and cumulative life conditions over decades. Historical records show that Jeanne Calment of France lived 122 years and 164 days (February 21, 1875 – August 4, 1997), the longest verified human lifespan. The longest documented male lifespan belongs to Jirōemon Kimura of Japan, who lived 116 years and 54 days (April 19, 1897 – June 12, 2013). These exceptional cases highlight that extreme longevity is rooted in ordinary lives lived with consistency, care, social connection, and often, significant luck.
+2026-01-01T17:02:26.5291255Z Original language: fr
+2026-01-01T17:02:26.5291471Z Publish date: October 05, 2025 08:48 AM
+2026-01-01T17:02:26.5292028Z Source:[Tunisie Numerique](https://www.tunisienumerique.com/humanite-qui-sont-aujourdhui-la-doyenne-et-le-doyen-vivants/)
+2026-01-01T17:02:26.5292513Z 
+2026-01-01T17:02:26.5292844Z **The 'fascinating duality' revealed by the study of the Spanish supercentenarian who broke the longevity record: 117 years**
+2026-01-01T17:02:26.5297439Z A study by the Josep Carreras Institute of Leukemia Research, published in *Cell Reports Medicine*, analyzed samples from Maria Branyas, the world’s oldest living person at 117 years old, who died in 2024. The researchers reported a "fascinante dualidad": simultaneous signs of extreme aging—short telomeres, a pro‑inflammatory immune system, and an aged B‑cell population—alongside markers of healthy longevity such as genetic neuro‑ and cardio‑protection, a microbiome dominated by beneficial bifidobacteria, and a biological age 17 years younger than her chronological age. Branyas had no major diseases, including cancer or dementia. The study suggests that extreme longevity may arise not from a global delay of aging but from a combination of protective genetic traits and a youthful microbiome, even while some aging markers are present. These findings could help develop strategies to mitigate age‑related diseases, including hematologic cancers. The authors note that lifestyle factors—healthy diet, diverse social network, and absence of toxic habits—may contribute, but they caution against premature conclusions linking habits to biology.
+2026-01-01T17:02:26.5301776Z Original language: es
+2026-01-01T17:02:26.5302009Z Publish date: September 24, 2025 04:29 PM
+2026-01-01T17:02:26.5302833Z Source:[HERALDO](https://www.heraldo.es/noticias/sociedad/2025/09/24/las-paradojas-que-revela-el-estudio-de-la-espanola-que-batio-el-record-de-longevidad-117-anos-1856545.html)
+2026-01-01T17:02:26.5303542Z 
+2026-01-01T17:02:26.5303690Z **The Oldest People on Earth Reveal Secrets of Longevity**
+2026-01-01T17:02:26.5308271Z Researchers report that the key to living to 100 is not exotic diets but moderation, love of simple home food, physical activity, and joy. Longevity is rare: only 0.07 % of the world population are super‑centenarians, and forecasts predict the number will quadruple by 2054. The article profiles several of the oldest people on Earth, all of whom share common habits: fresh whole foods, minimal meat, avoidance of fast food, home cooking, Mediterranean‑style meals, the 80/20 rule, moderate alcohol, regular exercise, a positive mindset, and small pleasures. 102‑year‑old Debora Sekey of Mexico’s Lower California ranch, 101‑year‑old William from Toronto, 101‑year‑old Jack Van Nordheim, 112‑year‑old Luisa Jin Xion in New York, 114‑year‑old Bonita Gibson of Idaho, 110‑year‑old Etel Katheram of England, 122‑year‑old Jeanne‑Louise Calment of France, and 123‑year‑old Maria Antonia Queiro of Colombia are highlighted.  Etel Katheram is quoted as saying, 'Не понимаю, из‑за чего весь сыр‑бор', and she adds, 'Я никогда ни с кем не спорю, я слушаю и делаю то, что мне нравится'.  The article emphasizes that these elders cook at home, consume fewer ultra‑processed foods, and maintain a balanced diet, which research links to lower rates of depression, type 2 diabetes, and cardiovascular disease.
+2026-01-01T17:02:26.5312953Z Original language: ru
+2026-01-01T17:02:26.5313190Z Publish date: September 23, 2025 11:41 AM
+2026-01-01T17:02:26.5314023Z Source:[Рамблер](https://news.rambler.ru/tech/55346098-ot-hara-hati-bu-do-shokoladki-stareyshie-lyudi-planety-raskryli-sekrety-dolgoletiya/)
+2026-01-01T17:02:26.5314593Z 
+2026-01-01T17:02:26.5314791Z **Predicting the future: The supergroup of AI, humans, hedgehogs and foxes**
+2026-01-01T17:02:26.5321088Z Philip Tetlock, a psychology professor and author of *Superforecasting*, explains how his research on expert prediction has evolved to include large language models (LLMs).  In the 1980s he launched a prediction tournament that showed most experts performed no better than random guessing, but a minority—"foxes" who used diverse information and Bayesian updating—outperformed the "hedgehogs" who stuck to a single thesis.  Tetlock’s later work, the Good‑Judgement Project (GJP), demonstrated that teams of superforecasters beat a control group by 60 % in year 1 and 78 % in year 2, and outperformed university teams by 30‑70 %.  He then tested LLM assistants: participants using a super‑forecasting‑trained LLM improved their accuracy by 28 % overall and 41 % when the outlier question was removed, compared with a control model.  A separate experiment found that the aggregate forecast of a diverse “silicon crowd” of LLMs was statistically indistinguishable from that of a human crowd, though still 30 % below the performance of super‑forecaster teams.  Tetlock concludes that LLMs can act as counterfactual generators, fermize problems, and provide a “wisdom of the silicon crowd,” potentially becoming super‑forecasters themselves within 2‑5 years.  He stresses that forecasting is a better test of AI intelligence than standard exams, and that LLMs’ lack of a fixed worldview may be advantageous for exploring unknown futures.  Key quotes include: 'It is absolutely crucial to integrate LLMs into almost all lines of inquiry,' says Tetlock, and 'Superforecasters could predict out 300 days with the same accuracy as ordinary predictors could predict 100 days.'
+2026-01-01T17:02:26.5326459Z Original language: en
+2026-01-01T17:02:26.5326674Z Publish date: September 22, 2025 02:10 PM
+2026-01-01T17:02:26.5327207Z Source:[Newsweek](https://www.newsweek.com/nw-ai/predicting-future-supergroup-ai-humans-hedgehogs-foxes-2132146)
+2026-01-01T17:02:26.5327659Z 
+2026-01-01T17:02:26.5327778Z **Xi Jinping and Putin Discuss Living to 150 Years**
+2026-01-01T17:02:26.5333037Z According to the article, Chinese President Xi Jinping and Russian President Vladimir Putin were overheard discussing the possibility of humans living to 150 years during a ceremony in Beijing marking the 80th anniversary of the end of World War II. The conversation, reported by international media such as CNN, Reuters and Sky News, included Putin saying that biotechnological advances could allow repeated organ transplants and even immortality. Xi replied that some predict humans could reach 150 years in this century. However, aging researcher Morten Scheibye‑Knudsen from the University of Copenhagen cautions that current science is not yet ready for such longevity, citing a biological upper limit of about 120 years. He says, 'Jeg tror, at de fleste aldringsforskere rundt omkring i verden faktisk er enige om, at aldring er en biologisk proces, som vi kan påvirke.' and notes that 'Der er en øvre barriere i vores biologi, som hedder omkring 120 år.' The article also mentions Putin’s long‑standing interest in life extension, his confidant Mikhail Kovalchuk’s research into organ printing, and his daughter Maria Vorontsova’s work on cell renewal. It notes that the oldest living person in Denmark is 111‑year‑old Kirsten Schwalbe. The ceremony also featured a massive military parade with 50,000 spectators and displays of military hardware, and Xi addressed the crowd, affirming China’s strength. The article is sourced from DR.
+2026-01-01T17:02:26.5337928Z Original language: da
+2026-01-01T17:02:26.5338144Z Publish date: September 04, 2025 12:56 PM
+2026-01-01T17:02:26.5338596Z Source:[DR](https://www.dr.dk/nyheder/udland/xi-jinping-og-putin-hyggesnakker-om-blive-150-aar)
+2026-01-01T17:02:26.5338961Z 
+2026-01-01T17:02:26.5339120Z **Xi Jinping and Putin Discuss Human Lifespan**
+2026-01-01T17:02:26.5344210Z The article reports that on 3 September 2025, Chinese President Xi Jinping and Russian President Vladimir Putin were walking on the red carpet in Beijing to watch the 80th‑anniversary parade of the Chinese victory in the anti‑Japanese war. While walking, Xi said, '과거엔 70까지 사는 것도 어려웠지만 지금 70은 어린아이 수준', meaning that in the past living to 70 was rare, but now 70 is considered child‑like. The article states that a translator later reported Putin’s reply in Chinese: '생명공학이 계속 발전함에 따라 몇십년 내에 인간의 장기 이식은 계속 증가할 것이고, 사람들은 더 젊어지고 어쩌면 불노불사를 이룰 수도 있을 것', which translates to ‘With ongoing advances in biotechnology, organ transplantation will increase in the coming decades, people will become younger, and immortality may be possible’. The article also notes that during the conversation, a voice heard from the crowd said, '150살까지 살 수도 있을 것', and another said, '100살까지 살 것으로 예측되고 있다', indicating predictions that humans could live to 150 or 100 years. The article cites that Kim Jong‑un, the North Korean leader, was present and smiled at the discussion. The article concludes that Putin later gave a press conference in which he echoed the idea that modern medical technology and organ replacement give hope for longer active lives, and that life expectancy is rising worldwide. All statements are directly quoted or paraphrased from the article, and the metrics mentioned are 70, 100, and 150 years.
+2026-01-01T17:02:26.5348537Z Original language: ko
+2026-01-01T17:02:26.5348762Z Publish date: September 04, 2025 11:06 AM
+2026-01-01T17:02:26.5349177Z Source:[뉴시스 (NEWSIS)](https://www.newsis.com/view/NISX20250904_0003316608)
+2026-01-01T17:02:26.5349458Z 
+2026-01-01T17:02:26.5349578Z **World's oldest person, Ethel Caterham, turns 116**
+2026-01-01T17:02:26.5355171Z British great‑grandmother Ethel Caterham celebrated her 116th birthday on August 21 and was officially named the world’s oldest living person earlier this year after the death of a Brazilian nun who had held the record.  The article discusses how many people who are reported to be 110 years or older—so‑called ‘supercentenarians’—may actually be younger because of poor record‑keeping.  Dr Saul Newman, a research fellow at the Oxford Institute of Population Ageing, examined the demographics of ‘Blue Zones’ such as Okinawa, Japan, and Sardinia, Italy, and found that these regions, which are often celebrated for longevity, actually have low life expectancies, high poverty, and poor health outcomes, yet are reported to contain many supercentenarians.  Newman attributes this to recording errors, misreported birthdates, and in some cases deliberate misrepresentation.  He also notes that in the United States the introduction of formal birth certificates in the early 20th century led to a 69‑82 % drop in the number of people reported to have reached age 110, suggesting that seven to eight out of every ten claimed supercentenarians may never have reached that age.  The article concludes that while Ethel Caterham was born in an era with better documentation and may indeed be 116, for many others the claim of reaching 110 may be more about missing birth certificates than a truly long, healthy life.  Key quotes include: ‘Blue Zones’ raise red flags and ‘supercentenarians’ may not be as old as they claim.
+2026-01-01T17:02:26.5360227Z Original language: en
+2026-01-01T17:02:26.5360448Z Publish date: August 21, 2025 07:32 PM
+2026-01-01T17:02:26.5361272Z Source:[Australian Broadcasting Corporation](https://www.abc.net.au/news/2025-08-22/whats-the-secret-to-living-to-110-poor-record-keeping-mostly/105681852)
+2026-01-01T17:02:26.5362242Z 
+2026-01-01T17:02:26.5362415Z **Scientists Predict Humans Will Live Up to 125 Years by 2070**
+2026-01-01T17:02:26.5364092Z Scientists from the Netherlands have predicted that the average lifespan will increase to 125 years by 2070. According to their research, published in the Nature journal, this growth is linked to advancements in medicine, the adoption of innovative technologies, and the promotion of a healthy lifestyle. The researchers estimate that women will have the longest lifespan. However, the scientific community has differing opinions on these predictions.
+2026-01-01T17:02:26.5365759Z Original language: ru
+2026-01-01T17:02:26.5366015Z Publish date: August 18, 2025 09:27 AM
+2026-01-01T17:02:26.5366300Z Source:[Life.ru](https://life.ru/p/1781032)
+2026-01-01T17:02:26.5366491Z 
+2026-01-01T17:02:26.5366496Z 
+2026-01-01T17:02:26.5366925Z 2026-01-01 17:02:26,499 - forecasting_tools.forecast_bots.forecast_bot - INFO - Summarizing research for question: https://www.metaculus.com/questions/14333
+2026-01-01T17:02:33.7154445Z 2026-01-01 17:02:33,715 - __main__ - INFO - [GPR DEBUG] New numeric question detected. Resetting counter. ID was: None, now: https://www.metaculus.com/questions/14333
+2026-01-01T17:02:33.7156356Z 2026-01-01 17:02:33,715 - __main__ - INFO - [GPR DEBUG] Numeric call number: 1, Scenarios so far: 0, Question: https://www.metaculus.com/questions/14333
+2026-01-01T17:02:33.7157450Z 2026-01-01 17:02:33,715 - __main__ - INFO - [GPR DEBUG] In _numeric_prompt_to_forecast. Current ID: None, Question URL: https://www.metaculus.com/questions/14333, Match: False
+2026-01-01T17:02:33.7158431Z 2026-01-01 17:02:33,715 - __main__ - INFO - Starting new numeric question https://www.metaculus.com/questions/14333, cleared scenario storage
+2026-01-01T17:02:33.7163176Z 2026-01-01 17:02:33,716 - __main__ - INFO - [GPR DEBUG] Numeric call number: 2, Scenarios so far: 0, Question: https://www.metaculus.com/questions/14333
+2026-01-01T17:02:33.7165143Z 2026-01-01 17:02:33,716 - __main__ - INFO - [GPR DEBUG] In _numeric_prompt_to_forecast. Current ID: https://www.metaculus.com/questions/14333, Question URL: https://www.metaculus.com/questions/14333, Match: True
+2026-01-01T17:02:33.7191390Z 2026-01-01 17:02:33,718 - __main__ - INFO - [GPR DEBUG] Numeric call number: 3, Scenarios so far: 0, Question: https://www.metaculus.com/questions/14333
+2026-01-01T17:02:33.7193197Z 2026-01-01 17:02:33,719 - __main__ - INFO - [GPR DEBUG] In _numeric_prompt_to_forecast. Current ID: https://www.metaculus.com/questions/14333, Question URL: https://www.metaculus.com/questions/14333, Match: True
+2026-01-01T17:02:33.7197386Z 2026-01-01 17:02:33,719 - __main__ - INFO - [GPR DEBUG] Numeric call number: 4, Scenarios so far: 0, Question: https://www.metaculus.com/questions/14333
+2026-01-01T17:02:33.7209751Z 2026-01-01 17:02:33,720 - __main__ - INFO - [GPR DEBUG] In _numeric_prompt_to_forecast. Current ID: https://www.metaculus.com/questions/14333, Question URL: https://www.metaculus.com/questions/14333, Match: True
+2026-01-01T17:02:33.7252172Z 2026-01-01 17:02:33,724 - forecasting_tools.ai_models.resource_managers.monetary_cost_manager - WARNING - Error calculating cost from response object: This model isn't mapped yet. model=gpt-4o-mini, custom_llm_provider=openrouter. Add it here - https://github.com/BerriAI/litellm/blob/main/model_prices_and_context_window.json.
+2026-01-01T17:02:37.9402857Z 2026-01-01 17:02:37,940 - openai.agents - WARNING - OPENAI_API_KEY is not set, skipping trace export
+2026-01-01T17:02:43.2404096Z 2026-01-01 17:02:43,240 - __main__ - INFO - Reasoning for URL https://www.metaculus.com/questions/14333: ### Review some potential outcomes
+2026-01-01T17:02:43.2405133Z 
+2026-01-01T17:02:43.2405405Z 1. **The time left until the outcome to the question is known:**  
+2026-01-01T17:02:43.2406097Z    Approximately 74 years, as the question pertains to the year 2100.
+2026-01-01T17:02:43.2406551Z 
+2026-01-01T17:02:43.2406730Z 2. **The outcome if nothing changed (the current value):**  
+2026-01-01T17:02:43.2407131Z    The current oldest living person is 116 years old, as of 2025.
+2026-01-01T17:02:43.2407409Z 
+2026-01-01T17:02:43.2407534Z 3. **The outcome if the current trend continued:**  
+2026-01-01T17:02:43.2408233Z    Assuming a linear increase in the maximum age similar to the increase in average life expectancy, the oldest living person could be around 130-140 years old by 2100.
+2026-01-01T17:02:43.2408813Z 
+2026-01-01T17:02:43.2408929Z 4. **The expectations of experts and markets:**  
+2026-01-01T17:02:43.2410071Z    Experts suggest a theoretical upper limit of around 150 years, although most people are not expected to reach this age. Some predictions indicate that advancements in medicine and biotechnology could extend life expectancy, but there is skepticism about reaching 150 years within this century.
+2026-01-01T17:02:43.2411106Z 
+2026-01-01T17:02:43.2411301Z 5. **The volatility history and expectations for the target measure:**  
+2026-01-01T17:02:43.2412265Z    The maximum age of the oldest living person has shown some volatility, with rare cases of individuals living beyond 115 years. However, the record has not significantly exceeded 122 years (Jeanne Calment) in recent history.
+2026-01-01T17:02:43.2413034Z 
+2026-01-01T17:02:43.2413123Z ### Group the evidence
+2026-01-01T17:02:43.2413259Z 
+2026-01-01T17:02:43.2413414Z - **Bucket 1: Evidence indicating a relatively low forecast**
+2026-01-01T17:02:43.2413880Z   - Theoretical upper limit of human lifespan suggested to be around 120-125 years.
+2026-01-01T17:02:43.2414382Z   - Historical data showing the longest verified lifespan is 122 years.
+2026-01-01T17:02:43.2414797Z   - Skepticism about reaching 150 years within this century.
+2026-01-01T17:02:43.2415253Z 
+2026-01-01T17:02:43.2415406Z - **Bucket 2: Evidence indicating a relatively high forecast**
+2026-01-01T17:02:43.2415860Z   - Predictions of humans living up to 150 years due to biotechnological advances.
+2026-01-01T17:02:43.2416428Z   - Discussions among global leaders about the potential for significant lifespan extensions.
+2026-01-01T17:02:43.2417090Z   - Research indicating potential for longer active lives through organ replacement and medical technology.
+2026-01-01T17:02:43.2417500Z 
+2026-01-01T17:02:43.2417624Z - **Bucket 3: Evidence indicating a central forecast**
+2026-01-01T17:02:43.2418021Z   - Current trends and studies suggesting moderate increases in lifespan.
+2026-01-01T17:02:43.2418625Z   - Advances in medicine and lifestyle improvements contributing to gradual increases in life expectancy.
+2026-01-01T17:02:43.2419198Z   - Predictions of average lifespan increasing to 125 years by 2070.
+2026-01-01T17:02:43.2419467Z 
+2026-01-01T17:02:43.2419564Z ### Multi-world considerations
+2026-01-01T17:02:43.2419719Z 
+2026-01-01T17:02:43.2419799Z 1. **Low_World:**
+2026-01-01T17:02:43.2420007Z    - **Low forecast estimate:** 120 years
+2026-01-01T17:02:43.2420280Z    - **Mid forecast estimate:** 125 years
+2026-01-01T17:02:43.2420550Z    - **High forecast estimate:** 130 years
+2026-01-01T17:02:43.2420734Z 
+2026-01-01T17:02:43.2420807Z 2. **High_World:**
+2026-01-01T17:02:43.2421012Z    - **Low forecast estimate:** 140 years
+2026-01-01T17:02:43.2421650Z    - **Mid forecast estimate:** 145 years
+2026-01-01T17:02:43.2421914Z    - **High forecast estimate:** 150 years
+2026-01-01T17:02:43.2422096Z 
+2026-01-01T17:02:43.2422167Z 3. **Mid_World:**
+2026-01-01T17:02:43.2422370Z    - **Low forecast estimate:** 130 years
+2026-01-01T17:02:43.2422633Z    - **Mid forecast estimate:** 135 years
+2026-01-01T17:02:43.2422897Z    - **High forecast estimate:** 140 years
+2026-01-01T17:02:43.2423204Z 
+2026-01-01T17:02:43.2423278Z ### Verify units
+2026-01-01T17:02:43.2423396Z 
+2026-01-01T17:02:43.2423495Z The units for the answer are in years old.
+2026-01-01T17:02:43.2423682Z 
+2026-01-01T17:02:43.2423756Z ### Final Answer
+2026-01-01T17:02:43.2423873Z 
+2026-01-01T17:02:43.2423963Z [120, 125, 130, 130, 135, 140, 140, 145, 150]
+2026-01-01T17:02:43.2427472Z 2026-01-01 17:02:43,242 - forecasting_tools.ai_models.resource_managers.monetary_cost_manager - WARNING - Litellm hidden param cost 0.0 and response object cost 0.030687500000000003 are different.
+2026-01-01T17:02:43.2692846Z 2026-01-01 17:02:43,269 - __main__ - INFO - Reasoning for URL https://www.metaculus.com/questions/14333: ### Review some potential outcomes
+2026-01-01T17:02:43.2693391Z 
+2026-01-01T17:02:43.2693574Z 1. **The time left until the outcome to the question is known:**  
+2026-01-01T17:02:43.2693936Z    74 years (from 2026 to 2100).
+2026-01-01T17:02:43.2694104Z 
+2026-01-01T17:02:43.2694268Z 2. **The outcome if nothing changed (the current value):**  
+2026-01-01T17:02:43.2694703Z    The current oldest living person is 116 years old (Ethel Caterham).
+2026-01-01T17:02:43.2695232Z 
+2026-01-01T17:02:43.2695371Z 3. **The outcome if the current trend continued:**  
+2026-01-01T17:02:43.2696120Z    Life expectancy and maximum age have been increasing, but not at an exponential rate. If trends continue, the oldest person might reach around 130-140 years by 2100.
+2026-01-01T17:02:43.2696733Z 
+2026-01-01T17:02:43.2696858Z 4. **The expectations of experts and markets:**  
+2026-01-01T17:02:43.2697700Z    Experts suggest a theoretical maximum human lifespan of around 150 years, but most agree that reaching 130-140 years could be more realistic by 2100 due to medical and technological advancements.
+2026-01-01T17:02:43.2698415Z 
+2026-01-01T17:02:43.2698618Z 5. **The volatility history and expectations for the target measure:**  
+2026-01-01T17:02:43.2699451Z    The maximum age has seen slow, steady increases with occasional outliers. The expectation is for gradual increases with potential breakthroughs in longevity research.
+2026-01-01T17:02:43.2700082Z 
+2026-01-01T17:02:43.2700171Z ### Group the evidence
+2026-01-01T17:02:43.2700310Z 
+2026-01-01T17:02:43.2700493Z - **Bucket 1: Evidence that would indicate a relatively low forecast**
+2026-01-01T17:02:43.2701115Z   - The theoretical upper limit of human lifespan is around 150 years, with most people unlikely to reach this age.
+2026-01-01T17:02:43.2701870Z   - Despite advances, significant breakthroughs in extending maximum lifespan have not yet materialized.
+2026-01-01T17:02:43.2702602Z   - Historical record-keeping errors suggest that some claims of extreme longevity may be exaggerated.
+2026-01-01T17:02:43.2703011Z 
+2026-01-01T17:02:43.2703201Z - **Bucket 2: Evidence that would indicate a relatively high forecast**
+2026-01-01T17:02:43.2703775Z   - Advances in biotechnology and medicine could potentially extend human lifespan significantly.
+2026-01-01T17:02:43.2704468Z   - Research into genetic factors and biomarkers of longevity suggests potential for increased lifespan.
+2026-01-01T17:02:43.2705251Z   - Predictions of living to 150 years or more have been discussed by world leaders and researchers.
+2026-01-01T17:02:43.2705640Z 
+2026-01-01T17:02:43.2705801Z - **Bucket 3: Evidence that would indicate a central forecast**
+2026-01-01T17:02:43.2706411Z   - Current trends suggest a gradual increase in maximum lifespan, with potential for reaching 130-140 years by 2100.
+2026-01-01T17:02:43.2707238Z   - Studies on centenarians and supercentenarians show unique biological markers that could inform longevity strategies.
+2026-01-01T17:02:43.2708196Z   - The average lifespan is expected to increase, but the maximum age will likely see slower growth.
+2026-01-01T17:02:43.2708578Z 
+2026-01-01T17:02:43.2708682Z ### Multi-world considerations
+2026-01-01T17:02:43.2708847Z 
+2026-01-01T17:02:43.2708929Z 1. **Low_World:**
+2026-01-01T17:02:43.2709247Z    - Low forecast estimate: 120 years
+2026-01-01T17:02:43.2709898Z    - Mid forecast estimate: 125 years
+2026-01-01T17:02:43.2710371Z    - High forecast estimate: 130 years
+2026-01-01T17:02:43.2710712Z 
+2026-01-01T17:02:43.2710852Z 2. **High_World:**
+2026-01-01T17:02:43.2711252Z    - Low forecast estimate: 135 years
+2026-01-01T17:02:43.2711735Z    - Mid forecast estimate: 140 years
+2026-01-01T17:02:43.2712243Z    - High forecast estimate: 145 years
+2026-01-01T17:02:43.2712586Z 
+2026-01-01T17:02:43.2712744Z 3. **Mid_World:**
+2026-01-01T17:02:43.2713182Z    - Low forecast estimate: 130 years
+2026-01-01T17:02:43.2713711Z    - Mid forecast estimate: 135 years
+2026-01-01T17:02:43.2714232Z    - High forecast estimate: 140 years
+2026-01-01T17:02:43.2714620Z 
+2026-01-01T17:02:43.2714771Z ### Verify units
+2026-01-01T17:02:43.2715212Z 
+2026-01-01T17:02:43.2715417Z The units for the answer are: years old.
+2026-01-01T17:02:43.2715771Z 
+2026-01-01T17:02:43.2715911Z ### Final Answer
+2026-01-01T17:02:43.2716119Z 
+2026-01-01T17:02:43.2716282Z [120, 125, 130, 130, 135, 140, 135, 140, 145]
+2026-01-01T17:02:43.2717553Z 2026-01-01 17:02:43,270 - forecasting_tools.ai_models.resource_managers.monetary_cost_manager - WARNING - Litellm hidden param cost 0.0 and response object cost 0.030707500000000006 are different.
+2026-01-01T17:02:43.5056290Z 2026-01-01 17:02:43,505 - __main__ - INFO - Reasoning for URL https://www.metaculus.com/questions/14333: ### Review some potential outcomes
+2026-01-01T17:02:43.5056973Z 
+2026-01-01T17:02:43.5057186Z 1. **The time left until the outcome to the question is known:**  
+2026-01-01T17:02:43.5057713Z    The outcome will be known on January 1, 2100, which is 74 years from now.
+2026-01-01T17:02:43.5058076Z 
+2026-01-01T17:02:43.5058246Z 2. **The outcome if nothing changed (the current value):**  
+2026-01-01T17:02:43.5059025Z    As of early 2023, the oldest living person was 115 years old. If nothing changed, we might expect the oldest living person in 2100 to be around the same age.
+2026-01-01T17:02:43.5059661Z 
+2026-01-01T17:02:43.5059842Z 3. **The outcome if the current trend continued:**  
+2026-01-01T17:02:43.5060842Z    Life expectancy has been increasing, and if the trend continues, we might expect the oldest living person to be older than 115 years. However, the maximum age may not increase as rapidly as average life expectancy.
+2026-01-01T17:02:43.5061666Z 
+2026-01-01T17:02:43.5061800Z 4. **The expectations of experts and markets:**  
+2026-01-01T17:02:43.5062833Z    Experts have varying opinions, with some suggesting a theoretical upper limit of around 150 years, while others are more conservative, expecting a maximum age closer to 125 years by 2070.
+2026-01-01T17:02:43.5063702Z 
+2026-01-01T17:02:43.5063960Z 5. **The volatility history and expectations for the target measure:**  
+2026-01-01T17:02:43.5065235Z    The maximum age of the oldest living person has not shown significant volatility historically, but advances in medicine and genetics could introduce more variability in the future.
+2026-01-01T17:02:43.5065984Z 
+2026-01-01T17:02:43.5066084Z ### Group the evidence
+2026-01-01T17:02:43.5066240Z 
+2026-01-01T17:02:43.5066442Z - **Bucket 1: Evidence that would indicate a relatively low forecast**
+2026-01-01T17:02:43.5067004Z   - The article from LADbible suggests a biological upper limit of about 120 years.
+2026-01-01T17:02:43.5067673Z   - The historical record of Jeanne Calment, who lived to 122 years, has not been surpassed since 1997.
+2026-01-01T17:02:43.5068570Z   - The skepticism around supercentenarian ages due to poor record-keeping, as discussed in the Australian Broadcasting Corporation article.
+2026-01-01T17:02:43.5069512Z 
+2026-01-01T17:02:43.5069753Z - **Bucket 2: Evidence that would indicate a relatively high forecast**
+2026-01-01T17:02:43.5070437Z   - The prediction from the Netherlands that average lifespan could reach 125 years by 2070.
+2026-01-01T17:02:43.5071065Z   - The discussion between Xi Jinping and Putin about humans potentially living to 150 years.
+2026-01-01T17:02:43.5071743Z   - The potential for biotechnological advances to significantly extend lifespan, as mentioned in the conversation between Xi and Putin.
+2026-01-01T17:02:43.5072370Z 
+2026-01-01T17:02:43.5072518Z - **Bucket 3: Evidence that would indicate a central forecast**
+2026-01-01T17:02:43.5073038Z   - The study of Maria Branyas, who lived to 117, showing that genetics and lifestyle can lead to extreme longevity.
+2026-01-01T17:02:43.5073685Z   - The general trend of increasing life expectancy and the potential for medical advancements to extend life.
+2026-01-01T17:02:43.5074281Z   - The prediction that centenarians will become more common, as noted in the LADbible article.
+2026-01-01T17:02:43.5074612Z 
+2026-01-01T17:02:43.5074704Z ### Multi-world considerations
+2026-01-01T17:02:43.5074854Z 
+2026-01-01T17:02:43.5075045Z 1. **Low_World:**
+2026-01-01T17:02:43.5075254Z    - Low forecast estimate: 115 years
+2026-01-01T17:02:43.5075629Z    - Mid forecast estimate: 120 years
+2026-01-01T17:02:43.5076042Z    - High forecast estimate: 125 years
+2026-01-01T17:02:43.5076330Z 
+2026-01-01T17:02:43.5076450Z 2. **High_World:**
+2026-01-01T17:02:43.5076758Z    - Low forecast estimate: 130 years
+2026-01-01T17:02:43.5076991Z    - Mid forecast estimate: 135 years
+2026-01-01T17:02:43.5077228Z    - High forecast estimate: 140 years
+2026-01-01T17:02:43.5077386Z 
+2026-01-01T17:02:43.5077456Z 3. **Mid_World:**
+2026-01-01T17:02:43.5077713Z    - Low forecast estimate: 125 years
+2026-01-01T17:02:43.5078108Z    - Mid forecast estimate: 130 years
+2026-01-01T17:02:43.5078512Z    - High forecast estimate: 135 years
+2026-01-01T17:02:43.5078794Z 
+2026-01-01T17:02:43.5078923Z ### Verify units
+2026-01-01T17:02:43.5079067Z 
+2026-01-01T17:02:43.5079169Z The units for the answer are in years old.
+2026-01-01T17:02:43.5079352Z 
+2026-01-01T17:02:43.5079419Z ### Final Answer
+2026-01-01T17:02:43.5079528Z 
+2026-01-01T17:02:43.5079613Z [115, 120, 125, 125, 130, 135, 130, 135, 140]
+2026-01-01T17:02:43.5080304Z 2026-01-01 17:02:43,507 - forecasting_tools.ai_models.resource_managers.monetary_cost_manager - WARNING - Litellm hidden param cost 0.0 and response object cost 0.0313475 are different.
+2026-01-01T17:02:43.5081144Z 2026-01-01 17:02:43,507 - __main__ - INFO - Reasoning for URL https://www.metaculus.com/questions/14333: ## Workflow
+2026-01-01T17:02:43.5081483Z 
+2026-01-01T17:02:43.5081570Z ### Review some potential outcomes
+2026-01-01T17:02:43.5081726Z 
+2026-01-01T17:02:43.5081871Z 1. **The time left until the outcome to the question is known:**  
+2026-01-01T17:02:43.5082391Z    The outcome will be known on January 1, 2100, which is 74 years from now.
+2026-01-01T17:02:43.5082647Z 
+2026-01-01T17:02:43.5082779Z 2. **The outcome if nothing changed (the current value):**  
+2026-01-01T17:02:43.5083167Z    As of early 2023, the oldest living person was Maria Branyas at 115 years old.
+2026-01-01T17:02:43.5083434Z 
+2026-01-01T17:02:43.5083543Z 3. **The outcome if the current trend continued:**  
+2026-01-01T17:02:43.5084139Z    Given that life expectancy has been increasing, if the trend continues, we might expect the oldest living person to be older than 115 years by 2100.
+2026-01-01T17:02:43.5084809Z 
+2026-01-01T17:02:43.5085107Z 4. **The expectations of experts and markets:**  
+2026-01-01T17:02:43.5086000Z    Some experts predict that advancements in medicine and technology could allow humans to live up to 150 years, though this is speculative. The theoretical upper limit is suggested to be around 150 years.
+2026-01-01T17:02:43.5086646Z 
+2026-01-01T17:02:43.5086820Z 5. **The volatility history and expectations for the target measure:**  
+2026-01-01T17:02:43.5087684Z    The age of the oldest living person has shown variability, with the current record being 122 years (Jeanne Calment). Expectations for future volatility are high due to potential medical breakthroughs and lifestyle changes.
+2026-01-01T17:02:43.5088576Z 
+2026-01-01T17:02:43.5088658Z ### Group the evidence
+2026-01-01T17:02:43.5088782Z 
+2026-01-01T17:02:43.5088944Z - **Bucket 1: Evidence that would indicate a relatively low forecast**
+2026-01-01T17:02:43.5089621Z   - The maximum age humans can live to is suggested to be around 150 years, but most people will not approach this ceiling.
+2026-01-01T17:02:43.5090506Z   - Historical records show that many reported supercentenarians may not have been as old as claimed due to poor record-keeping.
+2026-01-01T17:02:43.5091192Z   - The expectation that people would commonly live to 100 years old by 2025 has not materialized.
+2026-01-01T17:02:43.5091526Z 
+2026-01-01T17:02:43.5091703Z - **Bucket 2: Evidence that would indicate a relatively high forecast**
+2026-01-01T17:02:43.5092187Z   - Scientists predict humans could live up to 125 years by 2070 due to medical advancements.
+2026-01-01T17:02:43.5092848Z   - Discussions among world leaders about living to 150 years, though speculative, indicate interest in extending human lifespan.
+2026-01-01T17:02:43.5093481Z   - Theoretical upper limits to human lifespan are suggested to be around 150 years.
+2026-01-01T17:02:43.5093775Z 
+2026-01-01T17:02:43.5093919Z - **Bucket 3: Evidence that would indicate a central forecast**
+2026-01-01T17:02:43.5094323Z   - The current record for human lifespan is 122 years (Jeanne Calment).
+2026-01-01T17:02:43.5095368Z   - Studies of supercentenarians show unique biological markers that could guide future longevity interventions.
+2026-01-01T17:02:43.5096189Z   - The number of centenarians is expected to increase significantly by 2050.
+2026-01-01T17:02:43.5096458Z 
+2026-01-01T17:02:43.5096549Z ### Multi-world considerations
+2026-01-01T17:02:43.5096695Z 
+2026-01-01T17:02:43.5096761Z 1. **Low_World:**
+2026-01-01T17:02:43.5096981Z    - Low estimate: 115 years (current oldest age)
+2026-01-01T17:02:43.5097245Z    - Mid estimate: 120 years
+2026-01-01T17:02:43.5097463Z    - High estimate: 125 years
+2026-01-01T17:02:43.5097603Z 
+2026-01-01T17:02:43.5097675Z 2. **High_World:**
+2026-01-01T17:02:43.5097854Z    - Low estimate: 130 years
+2026-01-01T17:02:43.5098059Z    - Mid estimate: 140 years
+2026-01-01T17:02:43.5098268Z    - High estimate: 150 years
+2026-01-01T17:02:43.5098411Z 
+2026-01-01T17:02:43.5098476Z 3. **Mid_World:**
+2026-01-01T17:02:43.5098686Z    - Low estimate: 125 years
+2026-01-01T17:02:43.5098894Z    - Mid estimate: 130 years
+2026-01-01T17:02:43.5099091Z    - High estimate: 135 years
+2026-01-01T17:02:43.5099229Z 
+2026-01-01T17:02:43.5099298Z ### Verify units
+2026-01-01T17:02:43.5099408Z 
+2026-01-01T17:02:43.5099504Z The units for the answer are in years old.
+2026-01-01T17:02:43.5099678Z 
+2026-01-01T17:02:43.5099750Z # Final Answer
+2026-01-01T17:02:43.5099851Z 
+2026-01-01T17:02:43.5100002Z The final answer as a list of values for the world scenarios is:
+2026-01-01T17:02:43.5100241Z 
+2026-01-01T17:02:43.5100329Z [115, 120, 125, 125, 130, 135, 130, 140, 150]
+2026-01-01T17:02:43.5101010Z 2026-01-01 17:02:43,509 - forecasting_tools.ai_models.resource_managers.monetary_cost_manager - WARNING - Litellm hidden param cost 0.0 and response object cost 0.031237500000000005 are different.
+2026-01-01T17:02:44.0003119Z 2026-01-01 17:02:44,000 - forecasting_tools.ai_models.resource_managers.monetary_cost_manager - WARNING - Error calculating cost from response object: This model isn't mapped yet. model=gpt-4o-mini, custom_llm_provider=openrouter. Add it here - https://github.com/BerriAI/litellm/blob/main/model_prices_and_context_window.json.
+2026-01-01T17:02:44.1266490Z 2026-01-01 17:02:44,126 - forecasting_tools.ai_models.resource_managers.monetary_cost_manager - WARNING - Error calculating cost from response object: This model isn't mapped yet. model=gpt-4o-mini, custom_llm_provider=openrouter. Add it here - https://github.com/BerriAI/litellm/blob/main/model_prices_and_context_window.json.
+2026-01-01T17:02:44.2852609Z 2026-01-01 17:02:44,284 - forecasting_tools.ai_models.resource_managers.monetary_cost_manager - WARNING - Error calculating cost from response object: This model isn't mapped yet. model=gpt-4o-mini, custom_llm_provider=openrouter. Add it here - https://github.com/BerriAI/litellm/blob/main/model_prices_and_context_window.json.
+2026-01-01T17:02:44.8485162Z 2026-01-01 17:02:44,848 - __main__ - INFO - Parsed 9 numeric scenarios: [120.0, 125.0, 130.0, 130.0, 135.0, 140.0, 140.0, 145.0, 150.0]
+2026-01-01T17:02:44.8486573Z 2026-01-01 17:02:44,848 - __main__ - INFO - Total numeric scenarios stored for question https://www.metaculus.com/questions/14333: 9 scenarios
+2026-01-01T17:02:44.8498290Z 2026-01-01 17:02:44,849 - forecasting_tools.ai_models.resource_managers.monetary_cost_manager - WARNING - Error calculating cost from response object: This model isn't mapped yet. model=gpt-4o-mini, custom_llm_provider=openrouter. Add it here - https://github.com/BerriAI/litellm/blob/main/model_prices_and_context_window.json.
+2026-01-01T17:02:44.9777538Z 2026-01-01 17:02:44,977 - forecasting_tools.ai_models.resource_managers.monetary_cost_manager - WARNING - Error calculating cost from response object: This model isn't mapped yet. model=gpt-4o-mini, custom_llm_provider=openrouter. Add it here - https://github.com/BerriAI/litellm/blob/main/model_prices_and_context_window.json.
+2026-01-01T17:02:45.1896286Z 2026-01-01 17:02:45,189 - __main__ - INFO - Parsed 9 numeric scenarios: [115.0, 120.0, 125.0, 125.0, 130.0, 135.0, 130.0, 135.0, 140.0]
+2026-01-01T17:02:45.1897736Z 2026-01-01 17:02:45,189 - __main__ - INFO - Total numeric scenarios stored for question https://www.metaculus.com/questions/14333: 18 scenarios
+2026-01-01T17:02:45.1909318Z 2026-01-01 17:02:45,190 - forecasting_tools.ai_models.resource_managers.monetary_cost_manager - WARNING - Error calculating cost from response object: This model isn't mapped yet. model=gpt-4o-mini, custom_llm_provider=openrouter. Add it here - https://github.com/BerriAI/litellm/blob/main/model_prices_and_context_window.json.
+2026-01-01T17:02:45.5457732Z 2026-01-01 17:02:45,545 - __main__ - INFO - Parsed 9 numeric scenarios: [120.0, 125.0, 130.0, 130.0, 135.0, 140.0, 135.0, 140.0, 145.0]
+2026-01-01T17:02:45.5459134Z 2026-01-01 17:02:45,545 - __main__ - INFO - Total numeric scenarios stored for question https://www.metaculus.com/questions/14333: 27 scenarios
+2026-01-01T17:02:45.5470470Z 2026-01-01 17:02:45,546 - forecasting_tools.ai_models.resource_managers.monetary_cost_manager - WARNING - Error calculating cost from response object: This model isn't mapped yet. model=gpt-4o-mini, custom_llm_provider=openrouter. Add it here - https://github.com/BerriAI/litellm/blob/main/model_prices_and_context_window.json.
+2026-01-01T17:02:46.1026010Z 2026-01-01 17:02:46,102 - __main__ - INFO - Parsed 9 numeric scenarios: [115.0, 120.0, 125.0, 125.0, 130.0, 135.0, 130.0, 140.0, 150.0]
+2026-01-01T17:02:46.1038452Z 2026-01-01 17:02:46,102 - __main__ - INFO - Total numeric scenarios stored for question https://www.metaculus.com/questions/14333: 36 scenarios
+2026-01-01T17:02:46.1041033Z 2026-01-01 17:02:46,103 - forecasting_tools.ai_models.resource_managers.monetary_cost_manager - WARNING - Error calculating cost from response object: This model isn't mapped yet. model=gpt-4o-mini, custom_llm_provider=openrouter. Add it here - https://github.com/BerriAI/litellm/blob/main/model_prices_and_context_window.json.
+2026-01-01T17:02:46.1047183Z 2026-01-01 17:02:46,103 - forecasting_tools.forecast_bots.forecast_bot - WARNING - Encountered errors while predicting: ["ValidationError: 1 validation error for Percentile\n  Value error, Percentile must be between 0 and 1, but was 10.0 [type=value_error, input_value={'percentile': 10, 'value': 115.0}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.12/v/value_error", "ValidationError: 1 validation error for Percentile\n  Value error, Percentile must be between 0 and 1, but was 10.0 [type=value_error, input_value={'percentile': 10, 'value': 120.0}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.12/v/value_error", "ValidationError: 1 validation error for Percentile\n  Value error, Percentile must be between 0 and 1, but was 10.0 [type=value_error, input_value={'percentile': 10, 'value': 115.0}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.12/v/value_error", "ValidationError: 1 validation error for Percentile\n  Value error, Percentile must be between 0 and 1, but was 10.0 [type=value_error, input_value={'percentile': 10, 'value': 120.0}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.12/v/value_error"]
+2026-01-01T17:02:46.1055296Z 2026-01-01 17:02:46,103 - forecasting_tools.forecast_bots.forecast_bot - WARNING - Encountered errors while researching: ['ExceptionGroup: 4 sub-exceptions -> Error while running research and predictions: Errors: ["ValidationError: 1 validation error for Percentile\\n  Value error, Percentile must be between 0 and 1, but was 10.0 [type=value_error, input_value={\'percentile\': 10, \'value\': 115.0}, input_type=dict]\\n    For further information visit https://errors.pydantic.dev/2.12/v/value_error", "ValidationError: 1 validation error for Percentile\\n  Value error, Percentile must be between 0 and 1, but was 10.0 [type=value_error, input_value={\'percentile\': 10, \'value\': 120.0}, input_type=dict]\\n    For further information visit https://errors.pydantic.dev/2.12/v/value_error", "ValidationError: 1 validation error for Percentile\\n  Value error, Percentile must be between 0 and 1, but was 10.0 [type=value_error, input_value={\'percentile\': 10, \'value\': 115.0}, input_type=dict]\\n    For further information visit https://errors.pydantic.dev/2.12/v/value_error", "ValidationError: 1 validation error for Percentile\\n  Value error, Percentile must be between 0 and 1, but was 10.0 [type=value_error, input_value={\'percentile\': 10, \'value\': 120.0}, input_type=dict]\\n    For further information visit https://errors.pydantic.dev/2.12/v/value_error"] (4 sub-exceptions)']
+2026-01-01T17:02:46.1063448Z 2026-01-01 17:02:46,104 - forecasting_tools.forecast_bots.forecast_bot - ERROR - Error while processing question url: 'https://www.metaculus.com/questions/14333': 1 sub-exceptions -> All 1 research reports/predictions failed: Errors: ['ExceptionGroup: 4 sub-exceptions -> Error while running research and predictions: Errors: ["ValidationError: 1 validation error for Percentile\\n  Value error, Percentile must be between 0 and 1, but was 10.0 [type=value_error, input_value={\'percentile\': 10, \'value\': 115.0}, input_type=dict]\\n    For further information visit https://errors.pydantic.dev/2.12/v/value_error", "ValidationError: 1 validation error for Percentile\\n  Value error, Percentile must be between 0 and 1, but was 10.0 [type=value_error, input_value={\'percentile\': 10, \'value\': 120.0}, input_type=dict]\\n    For further information visit https://errors.pydantic.dev/2.12/v/value_error", "ValidationError: 1 validation error for Percentile\\n  Value error, Percentile must be between 0 and 1, but was 10.0 [type=value_error, input_value={\'percentile\': 10, \'value\': 115.0}, input_type=dict]\\n    For further information visit https://errors.pydantic.dev/2.12/v/value_error", "ValidationError: 1 validation error for Percentile\\n  Value error, Percentile must be between 0 and 1, but was 10.0 [type=value_error, input_value={\'percentile\': 10, \'value\': 120.0}, input_type=dict]\\n    For further information visit https://errors.pydantic.dev/2.12/v/value_error"] (4 sub-exceptions)'] (1 sub-exception)
+2026-01-01T17:02:46.1068075Z 2026-01-01 17:02:46,104 - forecasting_tools.forecast_bots.forecast_bot - INFO - 
+2026-01-01T17:02:46.1068508Z ----------------------------------------------------------------------------------------------------
+2026-01-01T17:02:46.1068858Z Bot: SpringTemplateBot2026
+2026-01-01T17:02:46.1072641Z ❌ Exception: ExceptionGroup | Message: 1 sub-exceptions -> Error while processing question url: 'https://www.metaculus.com/questions/14333': 1 sub-exceptions -> All 1 research reports/predictions failed: Errors: ['ExceptionGroup: 4 sub-exceptions -> Error while running research and predictions: Errors: ["ValidationError: 1 validation error for Percentile\\n  Value error, Percentile must be between 0 and 1, but was 10.0 [type=value_error, input_value={\'percentile\': 10, \'value\': 115.0}, input_type=dict]\\n    For further informatio...ype=value_error, input_value={\'percentile\': 10, \'value\': 115.0}, input_type=dict]\\n    For further information visit https://errors.pydantic.dev/2.12/v/value_error", "ValidationError: 1 validation error for Percentile\\n  Value error, Percentile must be between 0 and 1, but was 10.0 [type=value_error, input_value={\'percentile\': 10, \'value\': 120.0}, input_type=dict]\\n    For further information visit https://errors.pydantic.dev/2.12/v/value_error"] (4 sub-exceptions)'] (1 sub-exception)
+2026-01-01T17:02:46.1076278Z 
+2026-01-01T17:02:46.1076374Z Stats for passing reports:
+2026-01-01T17:02:46.1076604Z Total cost estimated: $0.00000
+2026-01-01T17:02:46.1076839Z Average cost per question: $0.00000
+2026-01-01T17:02:46.1077111Z Average time spent per question: 0.0000 minutes
+2026-01-01T17:02:46.1077769Z Note: LLM costs are calculated via litellm, and models or search tools not supported by litellm will not be tracked. See what is supported here: https://models.litellm.ai/. 
+2026-01-01T17:02:46.1078476Z ----------------------------------------------------------------------------------------------------
+2026-01-01T17:02:46.1078736Z 
+2026-01-01T17:02:46.1078741Z 
+2026-01-01T17:02:46.1078745Z 
+2026-01-01T17:02:46.1304066Z 2026-01-01 17:02:46,130 - forecasting_tools.forecast_bots.forecast_bot - ERROR - Exception occurred during forecasting:
+2026-01-01T17:02:46.1305230Z   + Exception Group Traceback (most recent call last):
+2026-01-01T17:02:46.1306870Z   |   File "/home/runner/work/metac-bot-template/metac-bot-template/.venv/lib/python3.11/site-packages/forecasting_tools/forecast_bots/forecast_bot.py", line 341, in _run_individual_question_with_error_propagation
+2026-01-01T17:02:46.1308444Z   |     return await self._run_individual_question(question)
+2026-01-01T17:02:46.1309022Z   |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-01-01T17:02:46.1310421Z   |   File "/home/runner/work/metac-bot-template/metac-bot-template/.venv/lib/python3.11/site-packages/forecasting_tools/forecast_bots/forecast_bot.py", line 384, in _run_individual_question
+2026-01-01T17:02:46.1311859Z   |     await self._handle_errors_in__run_individual_question(
+2026-01-01T17:02:46.1313207Z   |   File "/home/runner/work/metac-bot-template/metac-bot-template/.venv/lib/python3.11/site-packages/forecasting_tools/forecast_bots/forecast_bot.py", line 430, in _handle_errors_in__run_individual_question
+2026-01-01T17:02:46.1314153Z   |     self._reraise_exception_with_prepended_message(
+2026-01-01T17:02:46.1315185Z   |   File "/home/runner/work/metac-bot-template/metac-bot-template/.venv/lib/python3.11/site-packages/forecasting_tools/forecast_bots/forecast_bot.py", line 746, in _reraise_exception_with_prepended_message
+2026-01-01T17:02:46.1316004Z   |     raise ExceptionGroup(
+2026-01-01T17:02:46.1319895Z   | ExceptionGroup: 1 sub-exceptions -> All 1 research reports/predictions failed: Errors: ['ExceptionGroup: 4 sub-exceptions -> Error while running research and predictions: Errors: ["ValidationError: 1 validation error for Percentile\\n  Value error, Percentile must be between 0 and 1, but was 10.0 [type=value_error, input_value={\'percentile\': 10, \'value\': 115.0}, input_type=dict]\\n    For further information visit https://errors.pydantic.dev/2.12/v/value_error", "ValidationError: 1 validation error for Percentile\\n  Value error, Percentile must be between 0 and 1, but was 10.0 [type=value_error, input_value={\'percentile\': 10, \'value\': 120.0}, input_type=dict]\\n    For further information visit https://errors.pydantic.dev/2.12/v/value_error", "ValidationError: 1 validation error for Percentile\\n  Value error, Percentile must be between 0 and 1, but was 10.0 [type=value_error, input_value={\'percentile\': 10, \'value\': 115.0}, input_type=dict]\\n    For further information visit https://errors.pydantic.dev/2.12/v/value_error", "ValidationError: 1 validation error for Percentile\\n  Value error, Percentile must be between 0 and 1, but was 10.0 [type=value_error, input_value={\'percentile\': 10, \'value\': 120.0}, input_type=dict]\\n    For further information visit https://errors.pydantic.dev/2.12/v/value_error"] (4 sub-exceptions)'] (1 sub-exception)
+2026-01-01T17:02:46.1324291Z   +-+---------------- 1 ----------------
+2026-01-01T17:02:46.1324585Z     | Exception Group Traceback (most recent call last):
+2026-01-01T17:02:46.1325249Z     |   File "/opt/hostedtoolcache/Python/3.11.14/x64/lib/python3.11/asyncio/tasks.py", line 277, in __step
+2026-01-01T17:02:46.1325703Z     |     result = coro.send(None)
+2026-01-01T17:02:46.1325935Z     |              ^^^^^^^^^^^^^^^
+2026-01-01T17:02:46.1326680Z     |   File "/home/runner/work/metac-bot-template/metac-bot-template/.venv/lib/python3.11/site-packages/forecasting_tools/forecast_bots/forecast_bot.py", line 484, in _research_and_make_predictions
+2026-01-01T17:02:46.1327469Z     |     self._reraise_exception_with_prepended_message(
+2026-01-01T17:02:46.1328285Z     |   File "/home/runner/work/metac-bot-template/metac-bot-template/.venv/lib/python3.11/site-packages/forecasting_tools/forecast_bots/forecast_bot.py", line 746, in _reraise_exception_with_prepended_message
+2026-01-01T17:02:46.1329074Z     |     raise ExceptionGroup(
+2026-01-01T17:02:46.1332653Z     | ExceptionGroup: 4 sub-exceptions -> Error while running research and predictions: Errors: ["ValidationError: 1 validation error for Percentile\n  Value error, Percentile must be between 0 and 1, but was 10.0 [type=value_error, input_value={'percentile': 10, 'value': 115.0}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.12/v/value_error", "ValidationError: 1 validation error for Percentile\n  Value error, Percentile must be between 0 and 1, but was 10.0 [type=value_error, input_value={'percentile': 10, 'value': 120.0}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.12/v/value_error", "ValidationError: 1 validation error for Percentile\n  Value error, Percentile must be between 0 and 1, but was 10.0 [type=value_error, input_value={'percentile': 10, 'value': 115.0}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.12/v/value_error", "ValidationError: 1 validation error for Percentile\n  Value error, Percentile must be between 0 and 1, but was 10.0 [type=value_error, input_value={'percentile': 10, 'value': 120.0}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.12/v/value_error"] (4 sub-exceptions)
+2026-01-01T17:02:46.1336546Z     +-+---------------- 1 ----------------
+2026-01-01T17:02:46.1336798Z       | Traceback (most recent call last):
+2026-01-01T17:02:46.1337246Z       |   File "/opt/hostedtoolcache/Python/3.11.14/x64/lib/python3.11/asyncio/tasks.py", line 277, in __step
+2026-01-01T17:02:46.1337685Z       |     result = coro.send(None)
+2026-01-01T17:02:46.1337913Z       |              ^^^^^^^^^^^^^^^
+2026-01-01T17:02:46.1338606Z       |   File "/home/runner/work/metac-bot-template/metac-bot-template/.venv/lib/python3.11/site-packages/forecasting_tools/forecast_bots/forecast_bot.py", line 514, in _make_prediction
+2026-01-01T17:02:46.1339373Z       |     prediction = await forecast_function(question, research)
+2026-01-01T17:02:46.1339677Z       |                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-01-01T17:02:46.1340166Z       |   File "/home/runner/work/metac-bot-template/metac-bot-template/main.py", line 593, in _run_forecast_on_numeric
+2026-01-01T17:02:46.1340721Z       |     result = await self._numeric_prompt_to_forecast(question, prompt)
+2026-01-01T17:02:46.1341056Z       |              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-01-01T17:02:46.1341709Z       |   File "/home/runner/work/metac-bot-template/metac-bot-template/main.py", line 647, in _numeric_prompt_to_forecast
+2026-01-01T17:02:46.1342282Z       |     temp_percentiles = self._create_temp_distribution_from_scenarios(
+2026-01-01T17:02:46.1342615Z       |                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-01-01T17:02:46.1343160Z       |   File "/home/runner/work/metac-bot-template/metac-bot-template/main.py", line 680, in _create_temp_distribution_from_scenarios
+2026-01-01T17:02:46.1343994Z       |     percentile_list = [Percentile(percentile=p, value=v) for p, v in sorted(temp_percentiles.items())]
+2026-01-01T17:02:46.1344442Z       |                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-01-01T17:02:46.1345044Z       |   File "/home/runner/work/metac-bot-template/metac-bot-template/main.py", line 680, in <listcomp>
+2026-01-01T17:02:46.1345690Z       |     percentile_list = [Percentile(percentile=p, value=v) for p, v in sorted(temp_percentiles.items())]
+2026-01-01T17:02:46.1346136Z       |                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-01-01T17:02:46.1346744Z       |   File "/home/runner/work/metac-bot-template/metac-bot-template/.venv/lib/python3.11/site-packages/pydantic/main.py", line 250, in __init__
+2026-01-01T17:02:46.1347468Z       |     validated_self = self.__pydantic_validator__.validate_python(data, self_instance=self)
+2026-01-01T17:02:46.1347879Z       |                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-01-01T17:02:46.1348281Z       | pydantic_core._pydantic_core.ValidationError: 1 validation error for Percentile
+2026-01-01T17:02:46.1348946Z       |   Value error, Percentile must be between 0 and 1, but was 10.0 [type=value_error, input_value={'percentile': 10, 'value': 115.0}, input_type=dict]
+2026-01-01T17:02:46.1349594Z       |     For further information visit https://errors.pydantic.dev/2.12/v/value_error
+2026-01-01T17:02:46.1349974Z       +---------------- 2 ----------------
+2026-01-01T17:02:46.1350230Z       | Traceback (most recent call last):
+2026-01-01T17:02:46.1350675Z       |   File "/opt/hostedtoolcache/Python/3.11.14/x64/lib/python3.11/asyncio/tasks.py", line 277, in __step
+2026-01-01T17:02:46.1351114Z       |     result = coro.send(None)
+2026-01-01T17:02:46.1351343Z       |              ^^^^^^^^^^^^^^^
+2026-01-01T17:02:46.1352039Z       |   File "/home/runner/work/metac-bot-template/metac-bot-template/.venv/lib/python3.11/site-packages/forecasting_tools/forecast_bots/forecast_bot.py", line 514, in _make_prediction
+2026-01-01T17:02:46.1352807Z       |     prediction = await forecast_function(question, research)
+2026-01-01T17:02:46.1353112Z       |                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-01-01T17:02:46.1353598Z       |   File "/home/runner/work/metac-bot-template/metac-bot-template/main.py", line 593, in _run_forecast_on_numeric
+2026-01-01T17:02:46.1354154Z       |     result = await self._numeric_prompt_to_forecast(question, prompt)
+2026-01-01T17:02:46.1354493Z       |              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-01-01T17:02:46.1355149Z       |   File "/home/runner/work/metac-bot-template/metac-bot-template/main.py", line 647, in _numeric_prompt_to_forecast
+2026-01-01T17:02:46.1355745Z       |     temp_percentiles = self._create_temp_distribution_from_scenarios(
+2026-01-01T17:02:46.1356080Z       |                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-01-01T17:02:46.1356614Z       |   File "/home/runner/work/metac-bot-template/metac-bot-template/main.py", line 680, in _create_temp_distribution_from_scenarios
+2026-01-01T17:02:46.1357316Z       |     percentile_list = [Percentile(percentile=p, value=v) for p, v in sorted(temp_percentiles.items())]
+2026-01-01T17:02:46.1357759Z       |                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-01-01T17:02:46.1358213Z       |   File "/home/runner/work/metac-bot-template/metac-bot-template/main.py", line 680, in <listcomp>
+2026-01-01T17:02:46.1358936Z       |     percentile_list = [Percentile(percentile=p, value=v) for p, v in sorted(temp_percentiles.items())]
+2026-01-01T17:02:46.1359361Z       |                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-01-01T17:02:46.1359940Z       |   File "/home/runner/work/metac-bot-template/metac-bot-template/.venv/lib/python3.11/site-packages/pydantic/main.py", line 250, in __init__
+2026-01-01T17:02:46.1360829Z       |     validated_self = self.__pydantic_validator__.validate_python(data, self_instance=self)
+2026-01-01T17:02:46.1361232Z       |                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-01-01T17:02:46.1361627Z       | pydantic_core._pydantic_core.ValidationError: 1 validation error for Percentile
+2026-01-01T17:02:46.1362285Z       |   Value error, Percentile must be between 0 and 1, but was 10.0 [type=value_error, input_value={'percentile': 10, 'value': 120.0}, input_type=dict]
+2026-01-01T17:02:46.1362935Z       |     For further information visit https://errors.pydantic.dev/2.12/v/value_error
+2026-01-01T17:02:46.1363307Z       +---------------- 3 ----------------
+2026-01-01T17:02:46.1363555Z       | Traceback (most recent call last):
+2026-01-01T17:02:46.1363988Z       |   File "/opt/hostedtoolcache/Python/3.11.14/x64/lib/python3.11/asyncio/tasks.py", line 277, in __step
+2026-01-01T17:02:46.1364430Z       |     result = coro.send(None)
+2026-01-01T17:02:46.1364661Z       |              ^^^^^^^^^^^^^^^
+2026-01-01T17:02:46.1365516Z       |   File "/home/runner/work/metac-bot-template/metac-bot-template/.venv/lib/python3.11/site-packages/forecasting_tools/forecast_bots/forecast_bot.py", line 514, in _make_prediction
+2026-01-01T17:02:46.1366284Z       |     prediction = await forecast_function(question, research)
+2026-01-01T17:02:46.1366588Z       |                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-01-01T17:02:46.1367063Z       |   File "/home/runner/work/metac-bot-template/metac-bot-template/main.py", line 593, in _run_forecast_on_numeric
+2026-01-01T17:02:46.1367620Z       |     result = await self._numeric_prompt_to_forecast(question, prompt)
+2026-01-01T17:02:46.1367952Z       |              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-01-01T17:02:46.1368448Z       |   File "/home/runner/work/metac-bot-template/metac-bot-template/main.py", line 647, in _numeric_prompt_to_forecast
+2026-01-01T17:02:46.1369017Z       |     temp_percentiles = self._create_temp_distribution_from_scenarios(
+2026-01-01T17:02:46.1369344Z       |                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-01-01T17:02:46.1369867Z       |   File "/home/runner/work/metac-bot-template/metac-bot-template/main.py", line 680, in _create_temp_distribution_from_scenarios
+2026-01-01T17:02:46.1370555Z       |     percentile_list = [Percentile(percentile=p, value=v) for p, v in sorted(temp_percentiles.items())]
+2026-01-01T17:02:46.1370998Z       |                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-01-01T17:02:46.1371445Z       |   File "/home/runner/work/metac-bot-template/metac-bot-template/main.py", line 680, in <listcomp>
+2026-01-01T17:02:46.1372040Z       |     percentile_list = [Percentile(percentile=p, value=v) for p, v in sorted(temp_percentiles.items())]
+2026-01-01T17:02:46.1372463Z       |                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-01-01T17:02:46.1373043Z       |   File "/home/runner/work/metac-bot-template/metac-bot-template/.venv/lib/python3.11/site-packages/pydantic/main.py", line 250, in __init__
+2026-01-01T17:02:46.1373751Z       |     validated_self = self.__pydantic_validator__.validate_python(data, self_instance=self)
+2026-01-01T17:02:46.1374145Z       |                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-01-01T17:02:46.1374535Z       | pydantic_core._pydantic_core.ValidationError: 1 validation error for Percentile
+2026-01-01T17:02:46.1375477Z       |   Value error, Percentile must be between 0 and 1, but was 10.0 [type=value_error, input_value={'percentile': 10, 'value': 115.0}, input_type=dict]
+2026-01-01T17:02:46.1376121Z       |     For further information visit https://errors.pydantic.dev/2.12/v/value_error
+2026-01-01T17:02:46.1376496Z       +---------------- 4 ----------------
+2026-01-01T17:02:46.1376748Z       | Traceback (most recent call last):
+2026-01-01T17:02:46.1377301Z       |   File "/opt/hostedtoolcache/Python/3.11.14/x64/lib/python3.11/asyncio/tasks.py", line 277, in __step
+2026-01-01T17:02:46.1377737Z       |     result = coro.send(None)
+2026-01-01T17:02:46.1377965Z       |              ^^^^^^^^^^^^^^^
+2026-01-01T17:02:46.1378650Z       |   File "/home/runner/work/metac-bot-template/metac-bot-template/.venv/lib/python3.11/site-packages/forecasting_tools/forecast_bots/forecast_bot.py", line 514, in _make_prediction
+2026-01-01T17:02:46.1379412Z       |     prediction = await forecast_function(question, research)
+2026-01-01T17:02:46.1379721Z       |                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-01-01T17:02:46.1380199Z       |   File "/home/runner/work/metac-bot-template/metac-bot-template/main.py", line 593, in _run_forecast_on_numeric
+2026-01-01T17:02:46.1380749Z       |     result = await self._numeric_prompt_to_forecast(question, prompt)
+2026-01-01T17:02:46.1381082Z       |              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-01-01T17:02:46.1381580Z       |   File "/home/runner/work/metac-bot-template/metac-bot-template/main.py", line 647, in _numeric_prompt_to_forecast
+2026-01-01T17:02:46.1382142Z       |     temp_percentiles = self._create_temp_distribution_from_scenarios(
+2026-01-01T17:02:46.1382470Z       |                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-01-01T17:02:46.1382994Z       |   File "/home/runner/work/metac-bot-template/metac-bot-template/main.py", line 680, in _create_temp_distribution_from_scenarios
+2026-01-01T17:02:46.1383687Z       |     percentile_list = [Percentile(percentile=p, value=v) for p, v in sorted(temp_percentiles.items())]
+2026-01-01T17:02:46.1384121Z       |                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-01-01T17:02:46.1384566Z       |   File "/home/runner/work/metac-bot-template/metac-bot-template/main.py", line 680, in <listcomp>
+2026-01-01T17:02:46.1385319Z       |     percentile_list = [Percentile(percentile=p, value=v) for p, v in sorted(temp_percentiles.items())]
+2026-01-01T17:02:46.1385745Z       |                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-01-01T17:02:46.1386322Z       |   File "/home/runner/work/metac-bot-template/metac-bot-template/.venv/lib/python3.11/site-packages/pydantic/main.py", line 250, in __init__
+2026-01-01T17:02:46.1387029Z       |     validated_self = self.__pydantic_validator__.validate_python(data, self_instance=self)
+2026-01-01T17:02:46.1387427Z       |                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-01-01T17:02:46.1387827Z       | pydantic_core._pydantic_core.ValidationError: 1 validation error for Percentile
+2026-01-01T17:02:46.1388481Z       |   Value error, Percentile must be between 0 and 1, but was 10.0 [type=value_error, input_value={'percentile': 10, 'value': 120.0}, input_type=dict]
+2026-01-01T17:02:46.1389122Z       |     For further information visit https://errors.pydantic.dev/2.12/v/value_error
+2026-01-01T17:02:46.1389494Z       +------------------------------------
+2026-01-01T17:02:46.1389662Z 
+2026-01-01T17:02:46.1389831Z During handling of the above exception, another exception occurred:
+2026-01-01T17:02:46.1390089Z 
+2026-01-01T17:02:46.1390214Z   + Exception Group Traceback (most recent call last):
+2026-01-01T17:02:46.1390688Z   |   File "/opt/hostedtoolcache/Python/3.11.14/x64/lib/python3.11/asyncio/tasks.py", line 277, in __step
+2026-01-01T17:02:46.1391124Z   |     result = coro.send(None)
+2026-01-01T17:02:46.1391348Z   |              ^^^^^^^^^^^^^^^
+2026-01-01T17:02:46.1392229Z   |   File "/home/runner/work/metac-bot-template/metac-bot-template/.venv/lib/python3.11/site-packages/forecasting_tools/forecast_bots/forecast_bot.py", line 347, in _run_individual_question_with_error_propagation
+2026-01-01T17:02:46.1393104Z   |     self._reraise_exception_with_prepended_message(e, error_message)
+2026-01-01T17:02:46.1393960Z   |   File "/home/runner/work/metac-bot-template/metac-bot-template/.venv/lib/python3.11/site-packages/forecasting_tools/forecast_bots/forecast_bot.py", line 746, in _reraise_exception_with_prepended_message
+2026-01-01T17:02:46.1394844Z   |     raise ExceptionGroup(
+2026-01-01T17:02:46.1399291Z   | ExceptionGroup: 1 sub-exceptions -> Error while processing question url: 'https://www.metaculus.com/questions/14333': 1 sub-exceptions -> All 1 research reports/predictions failed: Errors: ['ExceptionGroup: 4 sub-exceptions -> Error while running research and predictions: Errors: ["ValidationError: 1 validation error for Percentile\\n  Value error, Percentile must be between 0 and 1, but was 10.0 [type=value_error, input_value={\'percentile\': 10, \'value\': 115.0}, input_type=dict]\\n    For further information visit https://errors.pydantic.dev/2.12/v/value_error", "ValidationError: 1 validation error for Percentile\\n  Value error, Percentile must be between 0 and 1, but was 10.0 [type=value_error, input_value={\'percentile\': 10, \'value\': 120.0}, input_type=dict]\\n    For further information visit https://errors.pydantic.dev/2.12/v/value_error", "ValidationError: 1 validation error for Percentile\\n  Value error, Percentile must be between 0 and 1, but was 10.0 [type=value_error, input_value={\'percentile\': 10, \'value\': 115.0}, input_type=dict]\\n    For further information visit https://errors.pydantic.dev/2.12/v/value_error", "ValidationError: 1 validation error for Percentile\\n  Value error, Percentile must be between 0 and 1, but was 10.0 [type=value_error, input_value={\'percentile\': 10, \'value\': 120.0}, input_type=dict]\\n    For further information visit https://errors.pydantic.dev/2.12/v/value_error"] (4 sub-exceptions)'] (1 sub-exception)
+2026-01-01T17:02:46.1403682Z   +-+---------------- 1 ----------------
+2026-01-01T17:02:46.1403965Z     | Exception Group Traceback (most recent call last):
+2026-01-01T17:02:46.1404435Z     |   File "/opt/hostedtoolcache/Python/3.11.14/x64/lib/python3.11/asyncio/tasks.py", line 277, in __step
+2026-01-01T17:02:46.1404875Z     |     result = coro.send(None)
+2026-01-01T17:02:46.1405299Z     |              ^^^^^^^^^^^^^^^
+2026-01-01T17:02:46.1406064Z     |   File "/home/runner/work/metac-bot-template/metac-bot-template/.venv/lib/python3.11/site-packages/forecasting_tools/forecast_bots/forecast_bot.py", line 484, in _research_and_make_predictions
+2026-01-01T17:02:46.1406853Z     |     self._reraise_exception_with_prepended_message(
+2026-01-01T17:02:46.1407660Z     |   File "/home/runner/work/metac-bot-template/metac-bot-template/.venv/lib/python3.11/site-packages/forecasting_tools/forecast_bots/forecast_bot.py", line 746, in _reraise_exception_with_prepended_message
+2026-01-01T17:02:46.1408434Z     |     raise ExceptionGroup(
+2026-01-01T17:02:46.1412031Z     | ExceptionGroup: 4 sub-exceptions -> Error while running research and predictions: Errors: ["ValidationError: 1 validation error for Percentile\n  Value error, Percentile must be between 0 and 1, but was 10.0 [type=value_error, input_value={'percentile': 10, 'value': 115.0}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.12/v/value_error", "ValidationError: 1 validation error for Percentile\n  Value error, Percentile must be between 0 and 1, but was 10.0 [type=value_error, input_value={'percentile': 10, 'value': 120.0}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.12/v/value_error", "ValidationError: 1 validation error for Percentile\n  Value error, Percentile must be between 0 and 1, but was 10.0 [type=value_error, input_value={'percentile': 10, 'value': 115.0}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.12/v/value_error", "ValidationError: 1 validation error for Percentile\n  Value error, Percentile must be between 0 and 1, but was 10.0 [type=value_error, input_value={'percentile': 10, 'value': 120.0}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.12/v/value_error"] (4 sub-exceptions)
+2026-01-01T17:02:46.1416017Z     +-+---------------- 1 ----------------
+2026-01-01T17:02:46.1416433Z       | Traceback (most recent call last):
+2026-01-01T17:02:46.1416875Z       |   File "/opt/hostedtoolcache/Python/3.11.14/x64/lib/python3.11/asyncio/tasks.py", line 277, in __step
+2026-01-01T17:02:46.1417318Z       |     result = coro.send(None)
+2026-01-01T17:02:46.1417551Z       |              ^^^^^^^^^^^^^^^
+2026-01-01T17:02:46.1418245Z       |   File "/home/runner/work/metac-bot-template/metac-bot-template/.venv/lib/python3.11/site-packages/forecasting_tools/forecast_bots/forecast_bot.py", line 514, in _make_prediction
+2026-01-01T17:02:46.1419011Z       |     prediction = await forecast_function(question, research)
+2026-01-01T17:02:46.1419320Z       |                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-01-01T17:02:46.1419800Z       |   File "/home/runner/work/metac-bot-template/metac-bot-template/main.py", line 593, in _run_forecast_on_numeric
+2026-01-01T17:02:46.1420359Z       |     result = await self._numeric_prompt_to_forecast(question, prompt)
+2026-01-01T17:02:46.1420700Z       |              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-01-01T17:02:46.1421196Z       |   File "/home/runner/work/metac-bot-template/metac-bot-template/main.py", line 647, in _numeric_prompt_to_forecast
+2026-01-01T17:02:46.1421768Z       |     temp_percentiles = self._create_temp_distribution_from_scenarios(
+2026-01-01T17:02:46.1422102Z       |                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-01-01T17:02:46.1422630Z       |   File "/home/runner/work/metac-bot-template/metac-bot-template/main.py", line 680, in _create_temp_distribution_from_scenarios
+2026-01-01T17:02:46.1423333Z       |     percentile_list = [Percentile(percentile=p, value=v) for p, v in sorted(temp_percentiles.items())]
+2026-01-01T17:02:46.1423776Z       |                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-01-01T17:02:46.1424223Z       |   File "/home/runner/work/metac-bot-template/metac-bot-template/main.py", line 680, in <listcomp>
+2026-01-01T17:02:46.1424822Z       |     percentile_list = [Percentile(percentile=p, value=v) for p, v in sorted(temp_percentiles.items())]
+2026-01-01T17:02:46.1425346Z       |                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-01-01T17:02:46.1425931Z       |   File "/home/runner/work/metac-bot-template/metac-bot-template/.venv/lib/python3.11/site-packages/pydantic/main.py", line 250, in __init__
+2026-01-01T17:02:46.1426646Z       |     validated_self = self.__pydantic_validator__.validate_python(data, self_instance=self)
+2026-01-01T17:02:46.1427045Z       |                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-01-01T17:02:46.1427442Z       | pydantic_core._pydantic_core.ValidationError: 1 validation error for Percentile
+2026-01-01T17:02:46.1428102Z       |   Value error, Percentile must be between 0 and 1, but was 10.0 [type=value_error, input_value={'percentile': 10, 'value': 115.0}, input_type=dict]
+2026-01-01T17:02:46.1428753Z       |     For further information visit https://errors.pydantic.dev/2.12/v/value_error
+2026-01-01T17:02:46.1429127Z       +---------------- 2 ----------------
+2026-01-01T17:02:46.1429379Z       | Traceback (most recent call last):
+2026-01-01T17:02:46.1429811Z       |   File "/opt/hostedtoolcache/Python/3.11.14/x64/lib/python3.11/asyncio/tasks.py", line 277, in __step
+2026-01-01T17:02:46.1430243Z       |     result = coro.send(None)
+2026-01-01T17:02:46.1430489Z       |              ^^^^^^^^^^^^^^^
+2026-01-01T17:02:46.1431175Z       |   File "/home/runner/work/metac-bot-template/metac-bot-template/.venv/lib/python3.11/site-packages/forecasting_tools/forecast_bots/forecast_bot.py", line 514, in _make_prediction
+2026-01-01T17:02:46.1432052Z       |     prediction = await forecast_function(question, research)
+2026-01-01T17:02:46.1432358Z       |                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-01-01T17:02:46.1432831Z       |   File "/home/runner/work/metac-bot-template/metac-bot-template/main.py", line 593, in _run_forecast_on_numeric
+2026-01-01T17:02:46.1433483Z       |     result = await self._numeric_prompt_to_forecast(question, prompt)
+2026-01-01T17:02:46.1433817Z       |              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-01-01T17:02:46.1434312Z       |   File "/home/runner/work/metac-bot-template/metac-bot-template/main.py", line 647, in _numeric_prompt_to_forecast
+2026-01-01T17:02:46.1434882Z       |     temp_percentiles = self._create_temp_distribution_from_scenarios(
+2026-01-01T17:02:46.1435318Z       |                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-01-01T17:02:46.1435847Z       |   File "/home/runner/work/metac-bot-template/metac-bot-template/main.py", line 680, in _create_temp_distribution_from_scenarios
+2026-01-01T17:02:46.1436543Z       |     percentile_list = [Percentile(percentile=p, value=v) for p, v in sorted(temp_percentiles.items())]
+2026-01-01T17:02:46.1436988Z       |                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-01-01T17:02:46.1437448Z       |   File "/home/runner/work/metac-bot-template/metac-bot-template/main.py", line 680, in <listcomp>
+2026-01-01T17:02:46.1438048Z       |     percentile_list = [Percentile(percentile=p, value=v) for p, v in sorted(temp_percentiles.items())]
+2026-01-01T17:02:46.1438477Z       |                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-01-01T17:02:46.1439060Z       |   File "/home/runner/work/metac-bot-template/metac-bot-template/.venv/lib/python3.11/site-packages/pydantic/main.py", line 250, in __init__
+2026-01-01T17:02:46.1439772Z       |     validated_self = self.__pydantic_validator__.validate_python(data, self_instance=self)
+2026-01-01T17:02:46.1440170Z       |                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-01-01T17:02:46.1440563Z       | pydantic_core._pydantic_core.ValidationError: 1 validation error for Percentile
+2026-01-01T17:02:46.1441224Z       |   Value error, Percentile must be between 0 and 1, but was 10.0 [type=value_error, input_value={'percentile': 10, 'value': 120.0}, input_type=dict]
+2026-01-01T17:02:46.1441873Z       |     For further information visit https://errors.pydantic.dev/2.12/v/value_error
+2026-01-01T17:02:46.1442247Z       +---------------- 3 ----------------
+2026-01-01T17:02:46.1442505Z       | Traceback (most recent call last):
+2026-01-01T17:02:46.1442936Z       |   File "/opt/hostedtoolcache/Python/3.11.14/x64/lib/python3.11/asyncio/tasks.py", line 277, in __step
+2026-01-01T17:02:46.1443368Z       |     result = coro.send(None)
+2026-01-01T17:02:46.1443602Z       |              ^^^^^^^^^^^^^^^
+2026-01-01T17:02:46.1444289Z       |   File "/home/runner/work/metac-bot-template/metac-bot-template/.venv/lib/python3.11/site-packages/forecasting_tools/forecast_bots/forecast_bot.py", line 514, in _make_prediction
+2026-01-01T17:02:46.1445153Z       |     prediction = await forecast_function(question, research)
+2026-01-01T17:02:46.1445463Z       |                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-01-01T17:02:46.1445935Z       |   File "/home/runner/work/metac-bot-template/metac-bot-template/main.py", line 593, in _run_forecast_on_numeric
+2026-01-01T17:02:46.1446884Z       |     result = await self._numeric_prompt_to_forecast(question, prompt)
+2026-01-01T17:02:46.1447470Z       |              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-01-01T17:02:46.1448347Z       |   File "/home/runner/work/metac-bot-template/metac-bot-template/main.py", line 647, in _numeric_prompt_to_forecast
+2026-01-01T17:02:46.1449534Z       |     temp_percentiles = self._create_temp_distribution_from_scenarios(
+2026-01-01T17:02:46.1449972Z       |                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-01-01T17:02:46.1450500Z       |   File "/home/runner/work/metac-bot-template/metac-bot-template/main.py", line 680, in _create_temp_distribution_from_scenarios
+2026-01-01T17:02:46.1451202Z       |     percentile_list = [Percentile(percentile=p, value=v) for p, v in sorted(temp_percentiles.items())]
+2026-01-01T17:02:46.1451770Z       |                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-01-01T17:02:46.1452226Z       |   File "/home/runner/work/metac-bot-template/metac-bot-template/main.py", line 680, in <listcomp>
+2026-01-01T17:02:46.1452898Z       |     percentile_list = [Percentile(percentile=p, value=v) for p, v in sorted(temp_percentiles.items())]
+2026-01-01T17:02:46.1453412Z       |                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-01-01T17:02:46.1454078Z       |   File "/home/runner/work/metac-bot-template/metac-bot-template/.venv/lib/python3.11/site-packages/pydantic/main.py", line 250, in __init__
+2026-01-01T17:02:46.1454789Z       |     validated_self = self.__pydantic_validator__.validate_python(data, self_instance=self)
+2026-01-01T17:02:46.1455378Z       |                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-01-01T17:02:46.1455781Z       | pydantic_core._pydantic_core.ValidationError: 1 validation error for Percentile
+2026-01-01T17:02:46.1456441Z       |   Value error, Percentile must be between 0 and 1, but was 10.0 [type=value_error, input_value={'percentile': 10, 'value': 115.0}, input_type=dict]
+2026-01-01T17:02:46.1457088Z       |     For further information visit https://errors.pydantic.dev/2.12/v/value_error
+2026-01-01T17:02:46.1457463Z       +---------------- 4 ----------------
+2026-01-01T17:02:46.1457723Z       | Traceback (most recent call last):
+2026-01-01T17:02:46.1458161Z       |   File "/opt/hostedtoolcache/Python/3.11.14/x64/lib/python3.11/asyncio/tasks.py", line 277, in __step
+2026-01-01T17:02:46.1458603Z       |     result = coro.send(None)
+2026-01-01T17:02:46.1458828Z       |              ^^^^^^^^^^^^^^^
+2026-01-01T17:02:46.1459524Z       |   File "/home/runner/work/metac-bot-template/metac-bot-template/.venv/lib/python3.11/site-packages/forecasting_tools/forecast_bots/forecast_bot.py", line 514, in _make_prediction
+2026-01-01T17:02:46.1460292Z       |     prediction = await forecast_function(question, research)
+2026-01-01T17:02:46.1460599Z       |                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-01-01T17:02:46.1461074Z       |   File "/home/runner/work/metac-bot-template/metac-bot-template/main.py", line 593, in _run_forecast_on_numeric
+2026-01-01T17:02:46.1461628Z       |     result = await self._numeric_prompt_to_forecast(question, prompt)
+2026-01-01T17:02:46.1461962Z       |              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-01-01T17:02:46.1462462Z       |   File "/home/runner/work/metac-bot-template/metac-bot-template/main.py", line 647, in _numeric_prompt_to_forecast
+2026-01-01T17:02:46.1463028Z       |     temp_percentiles = self._create_temp_distribution_from_scenarios(
+2026-01-01T17:02:46.1463363Z       |                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-01-01T17:02:46.1463897Z       |   File "/home/runner/work/metac-bot-template/metac-bot-template/main.py", line 680, in _create_temp_distribution_from_scenarios
+2026-01-01T17:02:46.1464602Z       |     percentile_list = [Percentile(percentile=p, value=v) for p, v in sorted(temp_percentiles.items())]
+2026-01-01T17:02:46.1465167Z       |                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-01-01T17:02:46.1465621Z       |   File "/home/runner/work/metac-bot-template/metac-bot-template/main.py", line 680, in <listcomp>
+2026-01-01T17:02:46.1466220Z       |     percentile_list = [Percentile(percentile=p, value=v) for p, v in sorted(temp_percentiles.items())]
+2026-01-01T17:02:46.1466778Z       |                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-01-01T17:02:46.1467364Z       |   File "/home/runner/work/metac-bot-template/metac-bot-template/.venv/lib/python3.11/site-packages/pydantic/main.py", line 250, in __init__
+2026-01-01T17:02:46.1468068Z       |     validated_self = self.__pydantic_validator__.validate_python(data, self_instance=self)
+2026-01-01T17:02:46.1468567Z       |                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-01-01T17:02:46.1468965Z       | pydantic_core._pydantic_core.ValidationError: 1 validation error for Percentile
+2026-01-01T17:02:46.1469626Z       |   Value error, Percentile must be between 0 and 1, but was 10.0 [type=value_error, input_value={'percentile': 10, 'value': 120.0}, input_type=dict]
+2026-01-01T17:02:46.1470269Z       |     For further information visit https://errors.pydantic.dev/2.12/v/value_error
+2026-01-01T17:02:46.1470649Z       +------------------------------------
+2026-01-01T17:02:46.1470814Z 
+2026-01-01T17:02:46.1470908Z Traceback (most recent call last):
+2026-01-01T17:02:46.1476247Z   File "/home/runner/work/metac-bot-template/metac-bot-template/main.py", line 1117, in <module>
+2026-01-01T17:02:46.1476841Z     template_bot.log_report_summary(forecast_reports)
+2026-01-01T17:02:46.1477695Z   File "/home/runner/work/metac-bot-template/metac-bot-template/.venv/lib/python3.11/site-packages/forecasting_tools/forecast_bots/forecast_bot.py", line 875, in log_report_summary
+2026-01-01T17:02:46.1478441Z     raise RuntimeError(
+2026-01-01T17:02:46.1486578Z RuntimeError: 1 errors occurred while forecasting: [ExceptionGroup('1 sub-exceptions -> Error while processing question url: \'https://www.metaculus.com/questions/14333\': 1 sub-exceptions -> All 1 research reports/predictions failed: Errors: [\'ExceptionGroup: 4 sub-exceptions -> Error while running research and predictions: Errors: ["ValidationError: 1 validation error for Percentile\\\\n  Value error, Percentile must be between 0 and 1, but was 10.0 [type=value_error, input_value={\\\'percentile\\\': 10, \\\'value\\\': 115.0}, input_type=dict]\\\\n    For further information visit https://errors.pydantic.dev/2.12/v/value_error", "ValidationError: 1 validation error for Percentile\\\\n  Value error, Percentile must be between 0 and 1, but was 10.0 [type=value_error, input_value={\\\'percentile\\\': 10, \\\'value\\\': 120.0}, input_type=dict]\\\\n    For further information visit https://errors.pydantic.dev/2.12/v/value_error", "ValidationError: 1 validation error for Percentile\\\\n  Value error, Percentile must be between 0 and 1, but was 10.0 [type=value_error, input_value={\\\'percentile\\\': 10, \\\'value\\\': 115.0}, input_type=dict]\\\\n    For further information visit https://errors.pydantic.dev/2.12/v/value_error", "ValidationError: 1 validation error for Percentile\\\\n  Value error, Percentile must be between 0 and 1, but was 10.0 [type=value_error, input_value={\\\'percentile\\\': 10, \\\'value\\\': 120.0}, input_type=dict]\\\\n    For further information visit https://errors.pydantic.dev/2.12/v/value_error"] (4 sub-exceptions)\']', (ExceptionGroup('4 sub-exceptions -> Error while running research and predictions: Errors: ["ValidationError: 1 validation error for Percentile\\n  Value error, Percentile must be between 0 and 1, but was 10.0 [type=value_error, input_value={\'percentile\': 10, \'value\': 115.0}, input_type=dict]\\n    For further information visit https://errors.pydantic.dev/2.12/v/value_error", "ValidationError: 1 validation error for Percentile\\n  Value error, Percentile must be between 0 and 1, but was 10.0 [type=value_error, input_value={\'percentile\': 10, \'value\': 120.0}, input_type=dict]\\n    For further information visit https://errors.pydantic.dev/2.12/v/value_error", "ValidationError: 1 validation error for Percentile\\n  Value error, Percentile must be between 0 and 1, but was 10.0 [type=value_error, input_value={\'percentile\': 10, \'value\': 115.0}, input_type=dict]\\n    For further information visit https://errors.pydantic.dev/2.12/v/value_error", "ValidationError: 1 validation error for Percentile\\n  Value error, Percentile must be between 0 and 1, but was 10.0 [type=value_error, input_value={\'percentile\': 10, \'value\': 120.0}, input_type=dict]\\n    For further information visit https://errors.pydantic.dev/2.12/v/value_error"]', (1 validation error for Percentile
+2026-01-01T17:02:46.1495279Z   Value error, Percentile must be between 0 and 1, but was 10.0 [type=value_error, input_value={'percentile': 10, 'value': 115.0}, input_type=dict]
+2026-01-01T17:02:46.1496042Z     For further information visit https://errors.pydantic.dev/2.12/v/value_error, 1 validation error for Percentile
+2026-01-01T17:02:46.1496788Z   Value error, Percentile must be between 0 and 1, but was 10.0 [type=value_error, input_value={'percentile': 10, 'value': 120.0}, input_type=dict]
+2026-01-01T17:02:46.1497561Z     For further information visit https://errors.pydantic.dev/2.12/v/value_error, 1 validation error for Percentile
+2026-01-01T17:02:46.1498311Z   Value error, Percentile must be between 0 and 1, but was 10.0 [type=value_error, input_value={'percentile': 10, 'value': 115.0}, input_type=dict]
+2026-01-01T17:02:46.1499051Z     For further information visit https://errors.pydantic.dev/2.12/v/value_error, 1 validation error for Percentile
+2026-01-01T17:02:46.1499781Z   Value error, Percentile must be between 0 and 1, but was 10.0 [type=value_error, input_value={'percentile': 10, 'value': 120.0}, input_type=dict]
+2026-01-01T17:02:46.1500436Z     For further information visit https://errors.pydantic.dev/2.12/v/value_error)),))]
+2026-01-01T17:02:46.1500973Z 2026-01-01 17:02:46,144 - openai.agents - WARNING - OPENAI_API_KEY is not set, skipping trace export
+2026-01-01T17:02:46.8225642Z ##[error]Process completed with exit code 1.
