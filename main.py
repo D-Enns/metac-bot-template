@@ -1069,9 +1069,9 @@ if __name__ == "__main__":
                 timeout=40,
                 allowed_tries=2,
             ),
-            "summarizer": "metaculus/openai/o4-mini",
+            "summarizer": "openrouter/openai/o4-mini",  # "summarizer": "metaculus/openai/o4-mini",
             "researcher": "asknews/news-summaries",
-            "parser": "metaculus/openai/o4-mini",
+            "parser": "openrouter/openai/o4-mini",  # "metaculus/openai/o4-mini",
         },
     )
 
