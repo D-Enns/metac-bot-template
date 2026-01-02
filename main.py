@@ -591,7 +591,7 @@ class SpringTemplateBot2026(ForecastBot):
                     PredictedOption(option_name=opt, probability=prob)
                     for opt, prob in gpr_results.items()
                 ]
-                result = PredictedOptionList(predicted_options)
+                result = PredictedOptionList(predicted_options=predicted_options)
 
                 # Clear scenarios after aggregation
                 self._multiple_choice_scenarios = {}
@@ -779,7 +779,7 @@ class SpringTemplateBot2026(ForecastBot):
             PredictedOption(option_name=opt, probability=normalized_probs[opt] / 100)
             for opt in question.options
         ]
-        predicted_option_list = PredictedOptionList(predicted_options)
+        predicted_option_list = PredictedOptionList(predicted_options=predicted_options)
 
         logger.info(
             f"Returning median MC forecast for URL {question.page_url}: {normalized_probs}"
