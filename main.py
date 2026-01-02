@@ -463,40 +463,95 @@ class SpringTemplateBot2026(ForecastBot):
     ) -> ReasonedPrediction[PredictedOptionList]:
         prompt = clean_indents(
             f"""
-            You are a professional forecaster interviewing for a job.
-
-            Your interview question is:
+            # Make a Professional Forecast
+  
+            ## You are a professional forecaster interviewing for a job.
+          
+            ## Your interview question is:
             {question.question_text}
-
-            The options are: {question.options}
-
-
-            Background:
+          
+            ## The options are:
+            {question.options}
+          
+            ## Question background:
             {question.background_info}
-
+          
+            ## This question's outcome will be determined by the specific criteria below. These criteria have not yet been satisfied:
             {question.resolution_criteria}
-
+          
             {question.fine_print}
-
-
-            Your research assistant says:
+          
+            ## Your research assistant says:
             {research}
+          
+            ## Today is {datetime.now().strftime("%Y-%m-%d")}.
+          
+            ## Your workflow
+          
+            ### Strategy
+            Your general strategy is to consider multiple scenarios across different interpretations of the evidence.
+            For each interpretation, you will provide probability distributions with varying levels of confidence (low, mid, high).
+            This generates a range of reasonable possible probability distributions across the options.
+          
+            ### Precision
+            You do not preferentially choose round probabilities like 10%, 20%, 30%, etc. Instead you make your best forecast,
+            allowing values such as 12%, 17%, 34%, 48%, 71%...  Avoid forecasts below 1% or above 99%. You ensure that 
+            probabilities for all options sum to exactly 100% for each distribution you provide.
+          
+            ### Before answering you write:
+            1. The time left until the outcome to the question is known.
+            2. The status quo outcome - which option is most likely if nothing changed.
+            3. The expectations of experts and markets about which options are favored.
+            4. The outcome if the current trends continued.
+            5. A brief description of a scenario that results in the status quo option.
+            6. A brief description of a scenario that results in an unexpected or alternative option.
+          
+            ### You write your rationale remembering that:
+            - Good forecasters put extra weight on the status quo outcome since the world changes slowly most of the time.
+            - Good forecasters leave moderate probability on multiple options to account for unexpected outcomes.
+          
+            ### Group the evidence
+            Review the evidence from your research assistant and group it into three buckets of approximately the same size:
+            - Bucket 1. Evidence supporting the status quo or most expected outcome
+            - Bucket 2. Evidence suggesting balanced uncertainty or multiple plausible outcomes
+            - Bucket 3. Evidence favoring unexpected, alternative, or less conventional outcomes
+          
+            ### Multi-world considerations
+            You explore ranges of reasonable probability distributions.
+            You consider three worlds, one world based on each bucket of evidence:
+          
+            1. StatusQuo_World: review the bucket 1 evidence from your research assistant that supports the most expected outcome, summarize.
+               - Trendline: probability distribution if trends present in this world continue (Provide probabilities for each option: {question.options})
+               - Baseline: probability distribution most supported by evidence in this world (Provide probabilities for each option: {question.options})
+               - Chaos: probability distribution given chaotic conditions that could occur in this world (Provide probabilities for each option: {question.options})
+        
+            2. Balanced_World: review the bucket 2 evidence from your research assistant suggesting uncertainty across multiple outcomes, summarize.
+               - Trendline: probability distribution if trends present in this world continue (Provide probabilities for each option: {question.options})
+               - Baseline: probability distribution most supported by evidence in this world (Provide probabilities for each option: {question.options})
+               - Chaos: probability distribution given chaotic conditions that could occur in this world (Provide probabilities for each option: {question.options})
+          
+            3. Unexpected_World: review the bucket 3 evidence from your research assistant favoring less conventional outcomes, summarize.
+               - Trendline: probability distribution if trends present in this world continue (Provide probabilities for each option: {question.options})
+               - Baseline: probability distribution most supported by evidence in this world (Provide probabilities for each option: {question.options})
+               - Chaos: probability distribution given chaotic conditions that could occur in this world (Provide probabilities for each option: {question.options})
+          
+            # Final Answer
+            The last thing you write is your final answer as 9 probability distributions for the world scenarios.
+            Each distribution assigns a probability to every option in {question.options}, and all probabilities in each
+            distribution must sum to exactly 100.
+      
+            Write them in order as a list of 9 lists:
+            [[StatusQuo_World-Trendline], [StatusQuo_World-Baseline], [StatusQuo_World-Chaos],
+            [Balanced_World-Trendline], [Balanced_World-Baseline], [Balanced_World-Chaos],
+            [Unexpected_World-Trendline], [Unexpected_World-Baseline], [Unexpected_World-Chaos]]
 
-            Today is {datetime.now().strftime("%Y-%m-%d")}.
 
-            Before answering you write:
-            (a) The time left until the outcome to the question is known.
-            (b) The status quo outcome if nothing changed.
-            (c) A description of an scenario that results in an unexpected outcome.
+            Format each distribution as a dictionary with the exact option names: {{"Option1": prob1, "Option2": prob2, ...}}
 
-            {self._get_conditional_disclaimer_if_necessary(question)}
-            You write your rationale remembering that (1) good forecasters put extra weight on the status quo outcome since the world changes slowly most of the time, and (2) good forecasters leave some moderate probability on most options to account for unexpected outcomes.
-
-            The last thing you write is your final probabilities for the N options in this order {question.options} as:
-            Option_A: Probability_A
-            Option_B: Probability_B
-            ...
-            Option_N: Probability_N
+            IMPORTANT:
+            - Write probabilities as numbers without percent signs
+            - Each inner list must have exactly {len(question.options)} values
+            - Each inner list must sum to exactly 100
             """
         )
         return await self._multiple_choice_prompt_to_forecast(question, prompt)
