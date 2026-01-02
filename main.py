@@ -49,6 +49,18 @@ class MultiScenarioPrediction(BaseModel):
     )
 
 
+# Data model for multiple choice scenario predictions (3x3 matrix = 9 distributions)
+class MultipleChoiceScenarios(BaseModel):
+    """Nine probability distributions from 3x3 world matrix approach.
+    Each distribution is a list of probabilities (one per option) that sum to 100."""
+    scenarios: list[list[float]] = Field(
+        ...,
+        description="List of 9 probability distributions. Each inner list contains probabilities (0-100) for all options in order. Each distribution must sum to 100.",
+        min_length=9,
+        max_length=9
+    )
+
+
 class SpringTemplateBot2026(ForecastBot):
     """
     This is the template bot for Spring 2026 Metaculus AI Tournament.
@@ -138,6 +150,7 @@ class SpringTemplateBot2026(ForecastBot):
         super().__init__(*args, **kwargs)
         self._binary_scenarios = []  # Storage for low/mid/high scenarios
         self._numeric_scenarios = []  # Storage for numeric outcome scenarios
+        self._multiple_choice_scenarios = {}  # Storage for MC scenarios, dict of lists keyed by option name
         self._current_question_id = None  # Track question to know when to clear storage
         self._current_call_number = 0  # Track which LLM call we're on for current question
 
@@ -380,6 +393,74 @@ class SpringTemplateBot2026(ForecastBot):
 
         return float(p50_decimal)
 
+    def _gpr_aggregate_multiple_choice(
+        self,
+        scenarios_by_option: dict[str, list[float]]
+    ) -> dict[str, float]:
+        """
+        Aggregate multiple choice scenarios using GPR per option, then normalize.
+
+        Args:
+            scenarios_by_option: Dict mapping option names to lists of probabilities (0-100 scale)
+
+        Returns:
+            Dict mapping option names to aggregated probabilities (0-1 scale, summing to 1.0)
+
+        Example:
+            Input:  {"A": [60, 65, 55, ...], "B": [30, 25, 28, ...], "C": [10, 10, 17, ...]}
+            Output: {"A": 0.58, "B": 0.27, "C": 0.15}  # Sums to 1.0
+        """
+        if not scenarios_by_option:
+            logger.warning("No scenarios provided for MC GPR aggregation")
+            return {}
+
+        # Get number of scenarios (assume all options have same count)
+        first_option = list(scenarios_by_option.keys())[0]
+        num_scenarios = len(scenarios_by_option[first_option])
+
+        logger.info(
+            f"[GPR DEBUG] MC GPR aggregation: {len(scenarios_by_option)} options × "
+            f"{num_scenarios} scenarios each"
+        )
+
+        # Run GPR independently for each option
+        gpr_results = {}
+        for option_name, option_scenarios in scenarios_by_option.items():
+            if len(option_scenarios) >= 9:
+                # Convert to 0-1 scale for GPR
+                scenarios_decimal = [s / 100 for s in option_scenarios]
+
+                # Reuse binary GPR logic
+                gpr_p50 = self._gpr_aggregate_binary(scenarios_decimal)
+
+                # Convert back to 0-100 for normalization
+                gpr_results[option_name] = gpr_p50 * 100
+
+                logger.info(f"[GPR DEBUG] Option '{option_name}': GPR p50 = {gpr_p50*100:.2f}%")
+            else:
+                # Fallback to median for insufficient scenarios
+                median_val = float(np.median(option_scenarios))
+                gpr_results[option_name] = median_val
+                logger.warning(
+                    f"Option '{option_name}' has only {len(option_scenarios)} scenarios "
+                    f"(need >=9 for GPR), using median: {median_val:.2f}%"
+                )
+
+        # Normalize to sum to 100
+        total = sum(gpr_results.values())
+        if total > 0:
+            normalized = {opt: (val / total) for opt, val in gpr_results.items()}
+        else:
+            # Equal probability fallback
+            normalized = {opt: 1.0 / len(gpr_results) for opt in gpr_results.keys()}
+
+        logger.info(
+            f"[GPR DEBUG] MC GPR final (normalized): "
+            f"{', '.join(f'{opt}={prob*100:.1f}%' for opt, prob in normalized.items())}"
+        )
+
+        return normalized  # Returns 0-1 scale, summing to 1.0
+
     def _make_percentiles(self, sorted_data: list[float]) -> list[float]:
         """Create empirical CDF percentiles for sorted data"""
         percentiles = [100 * i / (1 + len(sorted_data)) for i in range(len(sorted_data))]
@@ -405,6 +486,45 @@ class SpringTemplateBot2026(ForecastBot):
 
         return gpr_model
 
+    def _transpose_mc_scenarios(
+        self,
+        scenarios: list[list[float]],
+        option_names: list[str]
+    ) -> dict[str, list[float]]:
+        """
+        Convert list of distributions to per-option lists for aggregation.
+
+        Args:
+            scenarios: List of 9 distributions, each a list of probabilities (0-100)
+            option_names: List of option names in order
+
+        Returns:
+            Dict mapping option names to lists of probabilities
+
+        Example:
+            Input:  [[60, 30, 10], [65, 25, 10], ...]
+            Output: {"Opt A": [60, 65, ...], "Opt B": [30, 25, ...], "Opt C": [10, 10, ...]}
+        """
+        by_option = {name: [] for name in option_names}
+
+        for i, distribution in enumerate(scenarios):
+            if len(distribution) != len(option_names):
+                logger.warning(
+                    f"Scenario {i+1} has {len(distribution)} values but expected {len(option_names)} "
+                    f"(options: {option_names}). Skipping this scenario."
+                )
+                continue
+
+            for j, option_name in enumerate(option_names):
+                by_option[option_name].append(distribution[j])
+
+        logger.info(
+            f"Transposed {len(scenarios)} distributions into per-option lists. "
+            f"Each option now has {len(by_option[option_names[0]])} scenarios."
+        )
+
+        return by_option
+
     ##################################### AGGREGATION OVERRIDE #####################################
 
     async def _aggregate_predictions(
@@ -413,13 +533,15 @@ class SpringTemplateBot2026(ForecastBot):
         question: MetaculusQuestion,
     ):
         """
-        Override framework's aggregation to use GPR for binary and numeric questions.
+        Override framework's aggregation to use GPR for binary, numeric, and multiple choice questions.
 
         For binary questions: Apply GPR on all stored scenarios to get p50.
         For numeric questions: Apply GPR on all stored scenarios to get full distribution.
+        For multiple choice questions: Apply GPR per option, then normalize.
         For other question types: Use default framework aggregation.
         """
-        from forecasting_tools.data_models.questions import BinaryQuestion, NumericQuestion
+        from forecasting_tools.data_models.questions import BinaryQuestion, NumericQuestion, MultipleChoiceQuestion
+        from forecasting_tools.data_models.predictions import PredictedOption
 
         # Binary questions: GPR aggregation
         if isinstance(question, BinaryQuestion) and len(self._binary_scenarios) >= 3:
@@ -451,10 +573,42 @@ class SpringTemplateBot2026(ForecastBot):
             logger.info(f"[GPR DEBUG] Numeric aggregation complete. Returning distribution with {len(gpr_distribution.declared_percentiles)} percentiles")
             return gpr_distribution
 
-        else:
-            # Use default framework aggregation for other question types or insufficient scenarios
-            logger.info(f"[GPR DEBUG] Using default aggregation for {type(question).__name__}")
-            return await super()._aggregate_predictions(predictions, question)
+        # Multiple choice questions: GPR aggregation per option
+        elif isinstance(question, MultipleChoiceQuestion) and self._multiple_choice_scenarios:
+            # Check if we have enough scenarios (at least 9 per option)
+            first_option = list(self._multiple_choice_scenarios.keys())[0]
+            num_scenarios = len(self._multiple_choice_scenarios[first_option])
+
+            logger.info(f"[GPR DEBUG] _aggregate_predictions called for MC question with {len(predictions)} predictions")
+            logger.info(f"[GPR DEBUG] Using GPR aggregation on {num_scenarios} scenarios per option")
+
+            if num_scenarios >= 9:
+                # Run GPR aggregation
+                gpr_results = self._gpr_aggregate_multiple_choice(self._multiple_choice_scenarios)
+
+                # Convert to PredictedOptionList
+                predicted_options = [
+                    PredictedOption(name=opt, probability=prob)
+                    for opt, prob in gpr_results.items()
+                ]
+                result = PredictedOptionList(predicted_options)
+
+                # Clear scenarios after aggregation
+                self._multiple_choice_scenarios = {}
+                self._current_question_id = None
+                self._current_call_number = 0
+
+                logger.info(f"[GPR DEBUG] MC aggregation complete. Returning GPR result")
+                return result
+            else:
+                logger.warning(
+                    f"MC question has only {num_scenarios} scenarios per option (need >=9), "
+                    f"using default framework aggregation"
+                )
+
+        # Fallback: Use default framework aggregation for other question types or insufficient scenarios
+        logger.info(f"[GPR DEBUG] Using default aggregation for {type(question).__name__}")
+        return await super()._aggregate_predictions(predictions, question)
 
     ##################################### MULTIPLE CHOICE QUESTIONS #####################################
 
@@ -490,8 +644,8 @@ class SpringTemplateBot2026(ForecastBot):
           
             ### Strategy
             Your general strategy is to consider multiple scenarios across different interpretations of the evidence.
-            For each interpretation, you will provide probability distributions with varying levels of confidence (low, mid, high).
-            This generates a range of reasonable possible probability distributions across the options.
+            For each interpretation, you will provide probability distributions under different
+            conditions (trendline, baseline, chaos).
           
             ### Precision
             You do not preferentially choose round probabilities like 10%, 20%, 30%, etc. Instead you make your best forecast,
@@ -520,33 +674,35 @@ class SpringTemplateBot2026(ForecastBot):
             You explore ranges of reasonable probability distributions.
             You consider three worlds, one world based on each bucket of evidence:
           
-            1. StatusQuo_World: review the bucket 1 evidence from your research assistant that supports the most expected outcome, summarize.
-               - Trendline: probability distribution if trends present in this world continue (Provide probabilities for each option: {question.options})
-               - Baseline: probability distribution most supported by evidence in this world (Provide probabilities for each option: {question.options})
-               - Chaos: probability distribution given chaotic conditions that could occur in this world (Provide probabilities for each option: {question.options})
-        
-            2. Balanced_World: review the bucket 2 evidence from your research assistant suggesting uncertainty across multiple outcomes, summarize.
-               - Trendline: probability distribution if trends present in this world continue (Provide probabilities for each option: {question.options})
-               - Baseline: probability distribution most supported by evidence in this world (Provide probabilities for each option: {question.options})
-               - Chaos: probability distribution given chaotic conditions that could occur in this world (Provide probabilities for each option: {question.options})
-          
-            3. Unexpected_World: review the bucket 3 evidence from your research assistant favoring less conventional outcomes, summarize.
-               - Trendline: probability distribution if trends present in this world continue (Provide probabilities for each option: {question.options})
-               - Baseline: probability distribution most supported by evidence in this world (Provide probabilities for each option: {question.options})
-               - Chaos: probability distribution given chaotic conditions that could occur in this world (Provide probabilities for each option: {question.options})
+            1. StatusQuo_World: review the bucket 1 evidence from your research assistant that
+               supports the most expected outcome, summarize.
+               - Trendline: probability distribution if trends present in this world continue
+               - Baseline: probability distribution most supported by evidence in this world
+               - Chaos: probability distribution given chaotic conditions that could occur in this world
+
+            2. Balanced_World: review the bucket 2 evidence from your research assistant suggesting
+               uncertainty across multiple outcomes, summarize.
+               - Trendline: probability distribution if trends present in this world continue
+               - Baseline: probability distribution most supported by evidence in this world
+               - Chaos: probability distribution given chaotic conditions that could occur in this world
+
+            3. Unexpected_World: review the bucket 3 evidence from your research assistant favoring
+                less conventional outcomes, summarize.
+               - Trendline: probability distribution if trends present in this world continue
+               - Baseline: probability distribution most supported by evidence in this world
+               - Chaos: probability distribution given chaotic conditions that could occur in this world
           
             # Final Answer
             The last thing you write is your final answer as 9 probability distributions for the world scenarios.
             Each distribution assigns a probability to every option in {question.options}, and all probabilities in each
             distribution must sum to exactly 100.
-      
+
             Write them in order as a list of 9 lists:
             [[StatusQuo_World-Trendline], [StatusQuo_World-Baseline], [StatusQuo_World-Chaos],
             [Balanced_World-Trendline], [Balanced_World-Baseline], [Balanced_World-Chaos],
             [Unexpected_World-Trendline], [Unexpected_World-Baseline], [Unexpected_World-Chaos]]
 
-
-            Format each distribution as a dictionary with the exact option names: {{"Option1": prob1, "Option2": prob2, ...}}
+            Each inner list contains probabilities for the options in this exact order: {question.options}
 
             IMPORTANT:
             - Write probabilities as numbers without percent signs
@@ -561,27 +717,72 @@ class SpringTemplateBot2026(ForecastBot):
         question: MultipleChoiceQuestion,
         prompt: str,
     ) -> ReasonedPrediction[PredictedOptionList]:
-        parsing_instructions = clean_indents(
-            f"""
-            Make sure that all option names are one of the following:
-            {question.options}
+        # Clear storage if this is a new question
+        logger.info(f"[GPR DEBUG] In _multiple_choice_prompt_to_forecast. Current ID: {self._current_question_id}, Question URL: {question.page_url}, Match: {self._current_question_id == question.page_url}")
+        if self._current_question_id != question.page_url:
+            self._multiple_choice_scenarios = {}
+            self._current_question_id = question.page_url
+            logger.info(f"Starting new MC question {question.page_url}, cleared scenario storage")
 
-            The text you are parsing may prepend these options with some variation of "Option" which you should remove if not part of the option names I just gave you.
-            Additionally, you may sometimes need to parse a 0% probability. Please do not skip options with 0% but rather make it an entry in your final list with 0% probability.
-            """
-        )
         reasoning = await self.get_llm("default", "llm").invoke(prompt)
         logger.info(f"Reasoning for URL {question.page_url}: {reasoning}")
-        predicted_option_list: PredictedOptionList = await structure_output(
-            text_to_structure=reasoning,
-            output_type=PredictedOptionList,
+
+        # Parse 9 probability distributions from prompt
+        mc_scenario_prediction: MultipleChoiceScenarios = await structure_output(
+            reasoning,
+            MultipleChoiceScenarios,
             model=self.get_llm("parser", "llm"),
             num_validation_samples=self._structure_output_validation_samples,
-            additional_instructions=parsing_instructions,
         )
 
         logger.info(
-            f"Forecasted URL {question.page_url} with prediction: {predicted_option_list}."
+            f"Parsed {len(mc_scenario_prediction.scenarios)} distributions for MC question"
+        )
+
+        # Convert list of distributions to per-option lists
+        scenarios_by_option = self._transpose_mc_scenarios(
+            mc_scenario_prediction.scenarios,
+            question.options
+        )
+
+        # Store scenarios (extend existing lists or create new ones)
+        for option_name, probabilities in scenarios_by_option.items():
+            if option_name not in self._multiple_choice_scenarios:
+                self._multiple_choice_scenarios[option_name] = []
+            self._multiple_choice_scenarios[option_name].extend(probabilities)
+
+        logger.info(
+            f"Total scenarios stored for MC question {question.page_url}: "
+            f"{len(self._multiple_choice_scenarios.get(question.options[0], []))} scenarios per option"
+        )
+
+        # Return median value to framework (framework will collect all predictions)
+        # Calculate median per option, then normalize
+        median_probs = {}
+        for option_name in question.options:
+            if option_name in self._multiple_choice_scenarios:
+                median_probs[option_name] = float(np.median(self._multiple_choice_scenarios[option_name]))
+            else:
+                median_probs[option_name] = 0.0
+
+        # Normalize to sum to 100
+        total = sum(median_probs.values())
+        if total > 0:
+            normalized_probs = {opt: (prob / total) * 100 for opt, prob in median_probs.items()}
+        else:
+            # Equal probability fallback
+            normalized_probs = {opt: 100.0 / len(question.options) for opt in question.options}
+
+        # Convert to 0-1 scale for PredictedOptionList
+        from forecasting_tools.data_models.predictions import PredictedOption
+        predicted_options = [
+            PredictedOption(name=opt, probability=normalized_probs[opt] / 100)
+            for opt in question.options
+        ]
+        predicted_option_list = PredictedOptionList(predicted_options)
+
+        logger.info(
+            f"Returning median MC forecast for URL {question.page_url}: {normalized_probs}"
         )
         return ReasonedPrediction(
             prediction_value=predicted_option_list, reasoning=reasoning
@@ -1195,9 +1396,9 @@ if __name__ == "__main__":
     elif run_mode == "test_questions":
         # Example questions are a good way to test the bot's performance on a single question
         EXAMPLE_QUESTIONS = [
-            "https://www.metaculus.com/questions/578/human-extinction-by-2100/",  # Human Extinction - Binary
+            # "https://www.metaculus.com/questions/578/human-extinction-by-2100/",  # Human Extinction - Binary
             # "https://www.metaculus.com/questions/14333/age-of-oldest-human-as-of-2100/",  # Age of Oldest Human - Numeric
-            # "https://www.metaculus.com/questions/22427/number-of-new-leading-ai-labs/",  # Number of New Leading AI Labs - Multiple Choice
+            "https://www.metaculus.com/questions/22427/number-of-new-leading-ai-labs/",  # Number of New Leading AI Labs - Multiple Choice
             # "https://www.metaculus.com/c/diffusion-community/38880/how-many-us-labor-strikes-due-to-ai-in-2029/",  # Number of US Labor Strikes Due to AI in 2029 - Discrete
         ]
         template_bot.skip_previously_forecasted_questions = False
