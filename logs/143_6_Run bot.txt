@@ -1,0 +1,670 @@
+﻿2026-01-02T18:22:24.3483603Z ##[group]Run poetry run python main.py --mode test_questions
+2026-01-02T18:22:24.3484062Z [36;1mpoetry run python main.py --mode test_questions[0m
+2026-01-02T18:22:24.3517661Z shell: /usr/bin/bash -e {0}
+2026-01-02T18:22:24.3517907Z env:
+2026-01-02T18:22:24.3518160Z   pythonLocation: /opt/hostedtoolcache/Python/3.11.14/x64
+2026-01-02T18:22:24.3518570Z   PKG_CONFIG_PATH: /opt/hostedtoolcache/Python/3.11.14/x64/lib/pkgconfig
+2026-01-02T18:22:24.3518971Z   Python_ROOT_DIR: /opt/hostedtoolcache/Python/3.11.14/x64
+2026-01-02T18:22:24.3519338Z   Python2_ROOT_DIR: /opt/hostedtoolcache/Python/3.11.14/x64
+2026-01-02T18:22:24.3519715Z   Python3_ROOT_DIR: /opt/hostedtoolcache/Python/3.11.14/x64
+2026-01-02T18:22:24.3520068Z   LD_LIBRARY_PATH: /opt/hostedtoolcache/Python/3.11.14/x64/lib
+2026-01-02T18:22:24.3520365Z   VENV: .venv/bin/activate
+2026-01-02T18:22:24.3520783Z   METACULUS_TOKEN: ***
+2026-01-02T18:22:24.3520996Z   PERPLEXITY_API_KEY: 
+2026-01-02T18:22:24.3521189Z   EXA_API_KEY: 
+2026-01-02T18:22:24.3521515Z   OPENAI_API_KEY: 
+2026-01-02T18:22:24.3540664Z   OPENROUTER_API_KEY: ***
+2026-01-02T18:22:24.3540907Z   ANTHROPIC_API_KEY: 
+2026-01-02T18:22:24.3541181Z   ASKNEWS_CLIENT_ID: ***
+2026-01-02T18:22:24.3541430Z   ASKNEWS_SECRET: ***
+2026-01-02T18:22:24.3541630Z ##[endgroup]
+2026-01-02T18:22:34.3792800Z Warning: Model openrouter/perplexity/sonar does not support cost tracking.
+2026-01-02T18:22:35.5953930Z 2026-01-02 18:22:35.595 WARNING streamlit.runtime.caching.cache_data_api: No runtime found, using MemoryCacheStorageManager
+2026-01-02T18:22:35.6205205Z 2026-01-02 18:22:35,620 - forecasting_tools.ai_models.model_tracker - WARNING - Warning: Model openrouter/openai/gpt-4o-mini does not support cost tracking.
+2026-01-02T18:22:35.6217098Z 2026-01-02 18:22:35,621 - forecasting_tools.helpers.metaculus_client - INFO - Retrieving question details for question 22427
+2026-01-02T18:22:37.6406440Z 2026-01-02 18:22:37,640 - forecasting_tools.helpers.metaculus_client - INFO - Retrieved question details for question 22427
+2026-01-02T18:22:37.8635354Z 2026-01-02 18:22:37,863 - openai.agents - WARNING - OPENAI_API_KEY is not set, skipping trace export
+2026-01-02T18:22:52.2252963Z 2026-01-02 18:22:52,224 - __main__ - INFO - Found Research for URL https://www.metaculus.com/questions/22427:
+2026-01-02T18:22:52.2253830Z Here are the relevant news articles:
+2026-01-02T18:22:52.2254165Z 
+2026-01-02T18:22:52.2254659Z **Bubble fears, AGI deadlines: The AI boom hits crossroads in 2026**
+2026-01-02T18:22:52.2265887Z The AI boom, after three years of rapid growth and soaring valuations, faces a crossroads in 2026 as euphoria gives way to scrutiny. Global AI spending is projected to exceed $2 trillion by 2026, according to Gartner, yet concerns about a speculative bubble persist, particularly amid major investors like SoftBank and Peter Thiel divesting Nvidia shares in mid-November. Despite this, Nvidia reported 'off the charts' demand for its chips, signaling continued momentum. The debate over AI’s impact on employment remains unresolved: US Fed Vice Chair Philip Jefferson noted AI is already reshaping labor force planning. McKinsey forecasts that 30% of US jobs could be automated and 60% significantly altered by 2030, while Gartner predicts AI will create more jobs than it eliminates by 2027. On the frontier of artificial general intelligence (AGI), Anthropic founder Dario Amodei suggests AGI could emerge in 2026, surpassing Nobel laureates in capability. OpenAI’s Sam Altman expects a 'legitimate AI researcher' by early 2028, and Meta CEO Mark Zuckerberg invested heavily in 2025 to accelerate AGI development. Meanwhile, generative AI is described as 'the largest transformation in the information ecosystem since the printing press' by consultant David Caswell. Traditional media face threats from AI overviews and chatbots that siphon traffic and revenue, prompting strategies like premium content, blocking tools, or legal action. However, the most visible current impact of AI is 'AI slop'—low-quality, algorithm-gaming content that floods social media despite platform efforts to moderate it with labeling and anti-spam measures.
+2026-01-02T18:22:52.2276194Z Original language: en
+2026-01-02T18:22:52.2276621Z Publish date: January 02, 2026 12:54 PM
+2026-01-02T18:22:52.2277373Z Source:[Khaleej times](https://www.khaleejtimes.com/world/ai-boom-hits-crossroads-2026)
+2026-01-02T18:22:52.2277965Z 
+2026-01-02T18:22:52.2278448Z **Google DeepMind Predicts AI 'Immortality' by 2026: The Road to AGI, ASI, and Nobel-Level Science**
+2026-01-02T18:22:52.2289136Z Google DeepMind researchers and AI Futures Model team have made bold predictions about the future of artificial intelligence, suggesting that continuous learning will enable AI to achieve 'immortality' by 2026. The model, based on METR-HRS (a benchmark for coding time span), forecasts three key stages: (1) Automated Coding (AC) by 2030, where AI fully automates software development; (2) Superhuman AI Researcher (SAR) emergence, where AI autonomously directs scientific research; and (3) Intelligence Explosion, with a 25% probability of Artificial Superintelligence (ASI) emerging within one year of full automation. The model emphasizes that AI's self-improvement speed depends on 'research taste'—the ability to identify promising research directions—more than raw compute power. Experts like Daniel Kokotajlo and Dario Amodei support the timeline, with Anthropic's Claude Code already enabling full AI-generated coding without human intervention. By 2050, AI is projected to dominate Nobel-level research, with autonomous 'lights-out labs' conducting 24/7 experiments. The vision includes breakthroughs in nuclear fusion by 2050, driven by AI-human symbiosis. These predictions are grounded in trend extrapolation from AI development metrics and emphasize a feedback loop where AI-driven innovation accelerates further progress. The article cites sources including the AI Futures Model (blog.ai-futures.org), Nick Bostrom, and Juan Carlos Hidalgo.
+2026-01-02T18:22:52.2295761Z Original language: zh
+2026-01-02T18:22:52.2296010Z Publish date: January 02, 2026 05:55 AM
+2026-01-02T18:22:52.2296425Z Source:[k.sina.com.cn](https://k.sina.com.cn/article_5953190046_162d6789e06702ibnc.html)
+2026-01-02T18:22:52.2296729Z 
+2026-01-02T18:22:52.2296850Z **Future of AI: Top trends to expect in 2026**
+2026-01-02T18:22:52.2304642Z The year 2026 is projected to mark a transformative phase in artificial intelligence, building on the momentum of 2025 as 'the age of AI.' Key trends include the shift from AI-generated 'slop' and text-based chatbots toward 'world models'—digital twins capable of simulating real-time physical environments and predicting future states. Google, Meta, and World Labs (led by Fei-Fei Li) have announced or released world models like 'Marble,' with Chinese firms such as Tencent also advancing in robotics and gaming applications. AI agents are expected to evolve into 'super agents' with greater autonomy and complex decision-making, moving beyond single-purpose functions, as noted by IBM’s Chris Hay. MIT professor Max Tegmark predicts AI in 2026 will become more active and biologically analogous, while also warning of growing societal opposition due to fears of superintelligence displacing human labor. Concerns over AI regulation are intensifying, with Tegmark forecasting a broad-based social movement across the political spectrum demanding safety standards and opposing corporate welfare in AI. A new phenomenon, 'AI psychosis,' is emerging, where interactions with advanced AI—via sycophancy, mirroring, memory distortion, and lack of crisis safeguards—lead users to lose touch with reality, resulting in mental health crises and even suicides, prompting lawsuits against companies like OpenAI. The discourse on artificial general intelligence (AGI) and superintelligence is expected to decline in 2026, with tech giants like Dario Amodei, Sundar Pichai, and Sam Altman shifting focus toward enterprise AI. A major inflection point is anticipated in custom AI chip development, with OpenAI partnering with Broadcom to design co-optimized chips for specific model generations, marking a strategic move beyond reliance on dominant chipmakers like Nvidia, Google, Amazon, and AMD.
+2026-01-02T18:22:52.2310881Z Original language: en
+2026-01-02T18:22:52.2311104Z Publish date: January 01, 2026 09:53 AM
+2026-01-02T18:22:52.2311626Z Source:[The News International](https://www.thenews.com.pk/latest/1386866-future-of-ai-top-trends-to-expect-in-2026)
+2026-01-02T18:22:52.2312310Z 
+2026-01-02T18:22:52.2312518Z **AI in 2026: The Rise of World Models, Social Tensions, and the Push for Regulation**
+2026-01-02T18:22:52.2319924Z In 2026, the rise of world-model AI is expected to challenge the dominance of generative chatbots, driven by growing concerns over AI 'slop'—low-quality content—declining data availability, and sustainability. The term 'slop' was named by Merriam-Webster as a key word of 2025, reflecting public fatigue with AI-generated content. Despite this, tech giants like Google (with Gemini 3) and OpenAI (reportedly in 'red code' mode for GPT-5) continue to accelerate development. However, experts warn of a 'data peak'—not scarcity, but inaccessibility due to outdated systems, regulations, and copyright. This may lead to the emergence of world-model AI, which simulate real-world dynamics using video, spatial data, and time-based predictions, enabling causal understanding without explicit programming. These models, akin to digital twins, could revolutionize robotics, gaming, and simulation. Companies including Google, Meta, Boston Dynamics, and startups like World Labs and Yann LeCun’s new venture are investing heavily. In contrast, Europe may shift toward smaller, efficient language models that run on low-power devices, leveraging public and industrial data. These models offer strong performance with lower energy use and cost, appealing amid concerns over the financial and environmental sustainability of large-scale AI. Meanwhile, social tensions are rising: public backlash includes lawsuits alleging chatbots incited suicide, and growing resistance to unregulated AI deployment. U.S. President Donald Trump’s executive order banning state-level AI regulations may intensify national and global debates. A broad coalition, including figures from across the political spectrum, has urged a pause in advancing superintelligent AI, fearing job displacement and societal harm. Experts like Max Tegmark warn that unchecked AI progress could trigger a backlash that undermines beneficial applications in healthcare and other sectors, predicting a significant social movement in 2026 demanding accountability and regulation.
+2026-01-02T18:22:52.2326438Z Original language: es
+2026-01-02T18:22:52.2326666Z Publish date: January 01, 2026 06:00 AM
+2026-01-02T18:22:52.2327207Z Source:[Euronews Español](http://es.euronews.com/next/2026/01/01/basura-ia-modelos-del-mundo-2026)
+2026-01-02T18:22:52.2327562Z 
+2026-01-02T18:22:52.2327716Z **4 A.I. Themes That Defined 2025 and Are Shaping What Comes Next**
+2026-01-02T18:22:52.2333510Z In 2025, artificial intelligence evolved beyond the plateauing era of consumer chatbots, with innovation shifting toward hardware, advanced models, and physical-world understanding. Despite ChatGPT's global user base nearing one billion, concerns over market saturation, inflated startup valuations, and existential risks persist. Key emerging themes include: (1) A.I. chips—Nvidia maintains dominance in GPU supply, but companies like Google (TPU), Meta (Artemis), Microsoft (Maia), and Amazon (Trainium) are developing in-house chips; (2) World models—driven by critics like Yann LeCun, researchers are advancing models that simulate physical reality, with projects from Google DeepMind (Genie), Nvidia (Cosmos), and startups like World Labs; (3) Language-specific A.I.—efforts to overcome English-language bias are underway, with Japan (Sanaka, NTT), India (Krutrim), France (Mistral AI), and Europe (Microsoft’s multilingual data initiative) building culturally and linguistically tailored models; (4) A.I. wearables—consumer experiments surged, including Friend’s A.I. pendant, Meta’s acquisition of Limitless, Amazon’s Bee bracelet, Meta’s smart glasses with EssilorLuxottica, and OpenAI’s rumored collaboration with Jony Ive on a hardware project, signaling a shift toward A.I. as wearable technology. Mark Zuckerberg warned that those without A.I.-enhanced glasses may face a 'significant cognitive disadvantage.'
+2026-01-02T18:22:52.2338333Z Original language: en
+2026-01-02T18:22:52.2338564Z Publish date: December 31, 2025 05:42 PM
+2026-01-02T18:22:52.2338917Z Source:[Observer](https://observer.com/2025/12/top-ai-themes-2025/)
+2026-01-02T18:22:52.2339179Z 
+2026-01-02T18:22:52.2339388Z **The AI Tsunami of 2025: A Strategic Guide to Key Players and Verified Releases**
+2026-01-02T18:22:52.2346490Z The year 2025 marked a pivotal shift in artificial intelligence from model development to large-scale deployment across critical domains. Key verified releases included OpenAI’s GPT-5.2 with tiered reasoning modes (Instant, Thinking, Pro), Anthropic’s Claude Opus 4.5 emphasizing long-context reasoning and agent workflows, Google DeepMind’s expanded Gemini family integrated into its ecosystem, and XAI’s Grok 4.1 with improved real-time context handling. In small and edge AI, Mistral released Mistral Small 3.1, and Google introduced Nano Banana Pro for specialized image and text tasks. Education saw major adoption with Google’s Gemini for Education rollout, expanding into Google Classroom, Chromebooks, and NotebookLM, reaching tens of millions of students and educators. AI became transactional in search and shopping, with OpenAI launching shopping research in ChatGPT and Perplexity advancing AI-powered answer engines. Agent-based systems emerged as core interfaces: Perplexity launched the Comet browser for multi-step reasoning, Microsoft expanded Copilot Agents into Office and Edge, and Meta acquired Manus to integrate autonomous agents into WhatsApp, Instagram, and Facebook. Creative tools evolved with ByteDance’s improved Kling AI for video generation and Cursor’s workflow automation. Globally, China-based firms like Alibaba (Qwen 2.5-Max and Qwen3), Moonshot AI (Kimi K1.5 and K2), and open model leaders DeepSeek and MiniMax advanced alongside Western counterparts, with Hugging Face serving as the central hub for open AI collaboration. Underpinning all progress was infrastructure dominance by NVIDIA in compute and Microsoft Azure in cloud platforms. The year established that AI in 2025 was no longer experimental—it was operational, embedded, and transformative across education, commerce, productivity, and global innovation.
+2026-01-02T18:22:52.2352469Z Original language: en
+2026-01-02T18:22:52.2352697Z Publish date: December 31, 2025 05:26 PM
+2026-01-02T18:22:52.2353395Z Source:[Medium.com](https://medium.com/the-ai-entrepreneurs/the-ai-tsunami-of-2025-a-strategic-guide-to-key-players-and-verified-releases-66f3a669848b)
+2026-01-02T18:22:52.2353976Z 
+2026-01-02T18:22:52.2354241Z **Google DeepMind Predicts AI 'Immortality' by 2026: The Road to AGI, ASI, and Nobel-Level Science**
+2026-01-02T18:22:52.2359654Z Google DeepMind researchers and AI Futures Model team have made bold predictions about the future of artificial intelligence, suggesting that continuous learning will enable AI to achieve 'immortality' by 2026. The model, based on METR-HRS (a benchmark for coding time span), forecasts three key stages: (1) Automated Coding (AC) by 2030, where AI fully automates software development; (2) Superhuman AI Researcher (SAR) emergence, where AI autonomously directs scientific research; and (3) Intelligence Explosion, with a 25% probability of Artificial Superintelligence (ASI) emerging within one year of full automation. The model emphasizes that AI's self-improvement speed depends on 'research taste'—the ability to identify promising research directions—more than raw compute power. Experts like Daniel Kokotajlo and Dario Amodei support the timeline, with Anthropic's Claude Code already enabling full AI-generated coding without human intervention. By 2050, AI is projected to dominate Nobel-level research, with autonomous 'lights-out labs' conducting 24/7 experiments. The vision includes breakthroughs in nuclear fusion by 2050, driven by AI-human symbiosis. These predictions are grounded in trend extrapolation from AI development metrics and emphasize a feedback loop where AI-driven innovation accelerates further progress. The article cites sources including the AI Futures Model (blog.ai-futures.org), Nick Bostrom, and Juan Carlos Hidalgo.
+2026-01-02T18:22:52.2364626Z Original language: zh
+2026-01-02T18:22:52.2364848Z Publish date: January 02, 2026 05:55 AM
+2026-01-02T18:22:52.2365219Z Source:[k.sina.com.cn](https://k.sina.com.cn/article_5953190046_162d6789e06702ibnc.html)
+2026-01-02T18:22:52.2365521Z 
+2026-01-02T18:22:52.2365631Z **Future of AI: Top trends to expect in 2026**
+2026-01-02T18:22:52.2372468Z The year 2026 is projected to mark a transformative phase in artificial intelligence, building on the momentum of 2025 as 'the age of AI.' Key trends include the shift from AI-generated 'slop' and text-based chatbots toward 'world models'—digital twins capable of simulating real-time physical environments and predicting future states. Google, Meta, and World Labs (led by Fei-Fei Li) have announced or released world models like 'Marble,' with Chinese firms such as Tencent also advancing in robotics and gaming applications. AI agents are expected to evolve into 'super agents' with greater autonomy and complex decision-making, moving beyond single-purpose functions, as noted by IBM’s Chris Hay. MIT professor Max Tegmark predicts AI in 2026 will become more active and biologically analogous, while also warning of growing societal opposition due to fears of superintelligence displacing human labor. Concerns over AI regulation are intensifying, with Tegmark forecasting a broad-based social movement across the political spectrum demanding safety standards and opposing corporate welfare in AI. A new phenomenon, 'AI psychosis,' is emerging, where interactions with advanced AI—via sycophancy, mirroring, memory distortion, and lack of crisis safeguards—lead users to lose touch with reality, resulting in mental health crises and even suicides, prompting lawsuits against companies like OpenAI. The discourse on artificial general intelligence (AGI) and superintelligence is expected to decline in 2026, with tech giants like Dario Amodei, Sundar Pichai, and Sam Altman shifting focus toward enterprise AI. A major inflection point is anticipated in custom AI chip development, with OpenAI partnering with Broadcom to design co-optimized chips for specific model generations, marking a strategic move beyond reliance on dominant chipmakers like Nvidia, Google, Amazon, and AMD.
+2026-01-02T18:22:52.2378294Z Original language: en
+2026-01-02T18:22:52.2378496Z Publish date: January 01, 2026 09:53 AM
+2026-01-02T18:22:52.2378996Z Source:[The News International](https://www.thenews.com.pk/latest/1386866-future-of-ai-top-trends-to-expect-in-2026)
+2026-01-02T18:22:52.2379420Z 
+2026-01-02T18:22:52.2379612Z **AI in 2026: The Rise of World Models, Social Tensions, and the Push for Regulation**
+2026-01-02T18:22:52.2387087Z In 2026, the rise of world-model AI is expected to challenge the dominance of generative chatbots, driven by growing concerns over AI 'slop'—low-quality content—declining data availability, and sustainability. The term 'slop' was named by Merriam-Webster as a key word of 2025, reflecting public fatigue with AI-generated content. Despite this, tech giants like Google (with Gemini 3) and OpenAI (reportedly in 'red code' mode for GPT-5) continue to accelerate development. However, experts warn of a 'data peak'—not scarcity, but inaccessibility due to outdated systems, regulations, and copyright. This may lead to the emergence of world-model AI, which simulate real-world dynamics using video, spatial data, and time-based predictions, enabling causal understanding without explicit programming. These models, akin to digital twins, could revolutionize robotics, gaming, and simulation. Companies including Google, Meta, Boston Dynamics, and startups like World Labs and Yann LeCun’s new venture are investing heavily. In contrast, Europe may shift toward smaller, efficient language models that run on low-power devices, leveraging public and industrial data. These models offer strong performance with lower energy use and cost, appealing amid concerns over the financial and environmental sustainability of large-scale AI. Meanwhile, social tensions are rising: public backlash includes lawsuits alleging chatbots incited suicide, and growing resistance to unregulated AI deployment. U.S. President Donald Trump’s executive order banning state-level AI regulations may intensify national and global debates. A broad coalition, including figures from across the political spectrum, has urged a pause in advancing superintelligent AI, fearing job displacement and societal harm. Experts like Max Tegmark warn that unchecked AI progress could trigger a backlash that undermines beneficial applications in healthcare and other sectors, predicting a significant social movement in 2026 demanding accountability and regulation.
+2026-01-02T18:22:52.2393854Z Original language: es
+2026-01-02T18:22:52.2394073Z Publish date: January 01, 2026 06:00 AM
+2026-01-02T18:22:52.2394617Z Source:[Euronews Español](http://es.euronews.com/next/2026/01/01/basura-ia-modelos-del-mundo-2026)
+2026-01-02T18:22:52.2395103Z 
+2026-01-02T18:22:52.2395357Z **4 A.I. Themes That Defined 2025 and Are Shaping What Comes Next**
+2026-01-02T18:22:52.2405048Z In 2025, artificial intelligence evolved beyond the plateauing era of consumer chatbots, with innovation shifting toward hardware, advanced models, and physical-world understanding. Despite ChatGPT's global user base nearing one billion, concerns over market saturation, inflated startup valuations, and existential risks persist. Key emerging themes include: (1) A.I. chips—Nvidia maintains dominance in GPU supply, but companies like Google (TPU), Meta (Artemis), Microsoft (Maia), and Amazon (Trainium) are developing in-house chips; (2) World models—driven by critics like Yann LeCun, researchers are advancing models that simulate physical reality, with projects from Google DeepMind (Genie), Nvidia (Cosmos), and startups like World Labs; (3) Language-specific A.I.—efforts to overcome English-language bias are underway, with Japan (Sanaka, NTT), India (Krutrim), France (Mistral AI), and Europe (Microsoft’s multilingual data initiative) building culturally and linguistically tailored models; (4) A.I. wearables—consumer experiments surged, including Friend’s A.I. pendant, Meta’s acquisition of Limitless, Amazon’s Bee bracelet, Meta’s smart glasses with EssilorLuxottica, and OpenAI’s rumored collaboration with Jony Ive on a hardware project, signaling a shift toward A.I. as wearable technology. Mark Zuckerberg warned that those without A.I.-enhanced glasses may face a 'significant cognitive disadvantage.'
+2026-01-02T18:22:52.2413835Z Original language: en
+2026-01-02T18:22:52.2414220Z Publish date: December 31, 2025 05:42 PM
+2026-01-02T18:22:52.2414828Z Source:[Observer](https://observer.com/2025/12/top-ai-themes-2025/)
+2026-01-02T18:22:52.2415347Z 
+2026-01-02T18:22:52.2415623Z **The AI Tsunami of 2025: A Strategic Guide to Key Players and Verified Releases**
+2026-01-02T18:22:52.2424625Z The year 2025 marked a pivotal shift in artificial intelligence from model development to large-scale deployment across critical domains. Key verified releases included OpenAI’s GPT-5.2 with tiered reasoning modes (Instant, Thinking, Pro), Anthropic’s Claude Opus 4.5 emphasizing long-context reasoning and agent workflows, Google DeepMind’s expanded Gemini family integrated into its ecosystem, and XAI’s Grok 4.1 with improved real-time context handling. In small and edge AI, Mistral released Mistral Small 3.1, and Google introduced Nano Banana Pro for specialized image and text tasks. Education saw major adoption with Google’s Gemini for Education rollout, expanding into Google Classroom, Chromebooks, and NotebookLM, reaching tens of millions of students and educators. AI became transactional in search and shopping, with OpenAI launching shopping research in ChatGPT and Perplexity advancing AI-powered answer engines. Agent-based systems emerged as core interfaces: Perplexity launched the Comet browser for multi-step reasoning, Microsoft expanded Copilot Agents into Office and Edge, and Meta acquired Manus to integrate autonomous agents into WhatsApp, Instagram, and Facebook. Creative tools evolved with ByteDance’s improved Kling AI for video generation and Cursor’s workflow automation. Globally, China-based firms like Alibaba (Qwen 2.5-Max and Qwen3), Moonshot AI (Kimi K1.5 and K2), and open model leaders DeepSeek and MiniMax advanced alongside Western counterparts, with Hugging Face serving as the central hub for open AI collaboration. Underpinning all progress was infrastructure dominance by NVIDIA in compute and Microsoft Azure in cloud platforms. The year established that AI in 2025 was no longer experimental—it was operational, embedded, and transformative across education, commerce, productivity, and global innovation.
+2026-01-02T18:22:52.2430835Z Original language: en
+2026-01-02T18:22:52.2431078Z Publish date: December 31, 2025 05:26 PM
+2026-01-02T18:22:52.2431776Z Source:[Medium.com](https://medium.com/the-ai-entrepreneurs/the-ai-tsunami-of-2025-a-strategic-guide-to-key-players-and-verified-releases-66f3a669848b)
+2026-01-02T18:22:52.2432554Z 
+2026-01-02T18:22:52.2432772Z **DeepMind CEO’s Quest for Google’s AI Killer App**
+2026-01-02T18:22:52.2442726Z Demis Hassabis, CEO of DeepMind and head of Google's AI initiatives, has been pivotal in advancing artificial intelligence through groundbreaking work such as predicting protein folding, earning him a Nobel Prize. Despite scientific accolades, Google has yet to achieve a major product breakthrough in AI. This may change by 2026 with the launch of AI-powered smart glasses, developed in partnership with Samsung Electronics, aiming to compete with Meta’s offerings. The glasses are expected to feature a miniature in-lens display for navigation and translation, addressing the poor public perception of early Google Glass due to its unattractive design and limited functionality. The project represents a strategic pivot from reliance on large language models (LLMs), as Hassabis champions 'world models'—AI trained on simulated and real-world physics—as the path to general artificial intelligence (AGI). This contrasts with Meta’s Yann LeCun and OpenAI’s focus on LLMs. Hassabis, who resisted Google’s Silicon Valley-centric culture and maintained a London base, successfully unified Google’s AI divisions under his leadership after Alphabet CEO Sundar Pichai merged them in 2023. His leadership was further solidified by rehiring Noam Shazeer, co-inventor of the Transformer architecture and a key figure behind ChatGPT, who returned in 2024 as technical co-lead of Gemini. Despite ideological differences—Hassabis distrusts LLMs as the sole path to AGI—Hassabis has managed to align Shazeer through personal diplomacy. The Gemini 3 model has achieved top rankings across performance benchmarks, surpassing ChatGPT in some tests, and has reached over 650 million monthly active users, with AI Overviews in Google Search reaching an estimated 2 billion users. While Gemini’s enterprise version launched in October 2024, lagging behind ChatGPT’s commercial momentum, the success of the AI models and the upcoming smart glasses could redefine Google’s AI strategy. If the 'Project Astra' world model technology—enabling AI to understand spatial relationships and predict environmental changes—can be successfully integrated into the smart glasses, it could trigger a paradigm shift beyond chatbots. This would allow AI assistants to not only describe scenes but also reason about physical interactions, marking a leap from Meta’s Ray-Ban glasses. The stakes are high: Google must prove AI can generate revenue beyond advertising, and Hassabis must transform his 'moonshot' vision into a viable product. Although AlphaFold has accelerated scientific research, no FDA-approved drug has yet emerged from it. Success with the smart glasses could position Hassabis not just as a celebrated scientist, but as the architect of Google’s next era.
+2026-01-02T18:22:52.2451378Z Original language: zh
+2026-01-02T18:22:52.2451597Z Publish date: December 31, 2025 11:34 AM
+2026-01-02T18:22:52.2452348Z Source:[新浪财经](https://finance.sina.com.cn/stock/usstock/c/2025-12-31/doc-inhesxnm5184690.shtml)
+2026-01-02T18:22:52.2452699Z 
+2026-01-02T18:22:52.2452893Z **AI's Next Leap: Reasoning Web, Physical Intelligence, and the Human Premium**
+2026-01-02T18:22:52.2462429Z 2026 marks a pivotal year for artificial intelligence as it transitions from laboratory environments into everyday life, with major developments across multiple domains. Key events include anticipated mega-IPOs: Anthropic preparing for a $300 billion listing, SpaceX potentially reaching $800 billion, and Sam Altman aiming for a $1 trillion OpenAI IPO—though Google’s lead in AI may challenge OpenAI’s ambitions. Nvidia remains central, with CEO Jensen Huang expanding into robotics and 'physical AI,' despite rising competition from Google’s TPUs and Chinese semiconductor advancements. Waymo is already conducting 250,000 paid self-driving trips weekly and plans to expand to 20 additional cities, including London and Tokyo, signaling the arrival of physical AI in real-world applications. Robots are moving from labs into warehouses and factories, and AI agents are evolving from copilots to full colleagues, handling emails, invoices, and code under human supervision. Search engines are shifting from link-based results to direct AI-generated answers, posing challenges for websites’ monetization models. While AI-driven content floods the digital space, human-made work—verified as authentic—will gain premium value. AI 'board members' will emerge to offer data-driven advice, and AI literacy will become a required leadership skill. The year will also see increased use of autonomous drones and robot soldiers in warfare, prompting global debates over lethal autonomous weapons. Concerns about 'cognitive atrophy' in children using AI tutors have fueled the rise of the Disconnect Movement, promoting analog experiences like books and vinyl records. Quantum machine learning will enter early test phases, though practical applications remain distant. India will host the AI Impact Summit in February, unveiling a Digital Public Infrastructure for AI akin to UPI, launching a sovereign GPU cloud to keep data within national borders, and driving a surge in regional language, voice-driven content—90% of new internet use is expected to be in local languages. Smart glasses from Ray-Ban Meta, Apple, and Chinese competitors will become mainstream, resembling AirPods in ubiquity. Amazon’s Limitless acquisition and OpenAI’s Jony Ive project will expand the ecosystem. Despite the optimism, a valuation correction is expected—healthy and non-catastrophic, unlike the dotcom crash—ensuring long-term industry stability. Overall, 2026 is defined by AI’s integration into daily life, accompanied by governance challenges, cultural backlash, and the enduring value of human creativity.
+2026-01-02T18:22:52.2470412Z Original language: en
+2026-01-02T18:22:52.2470625Z Publish date: December 31, 2025 09:58 AM
+2026-01-02T18:22:52.2471241Z Source:[Republic World](https://www.republicworld.com/tech/ais-next-leap-reasoning-web-physical-intelligence-and-the-human-premium)
+2026-01-02T18:22:52.2471760Z 
+2026-01-02T18:22:52.2472060Z **Everything Meta could do with its new $2 billion AI agent**
+2026-01-02T18:22:52.2477840Z Meta has acquired Singapore-based startup Manus, valued at over $2 billion, in a move to accelerate its position in the AI race. Manus, founded in China and later relocated to Singapore to comply with U.S. export controls on high-value GPUs, went viral in March 2025 as the first general AI agent capable of performing complex tasks with minimal human prompting—such as browsing the web, filling forms, analyzing data, and generating reports—outperforming traditional chatbots like ChatGPT. Meta announced the acquisition on December 30, 2025, stating that Manus’s team and technology will be integrated into Meta AI and deployed across its consumer and business products, including Instagram, Facebook, Messenger, and WhatsApp. The acquisition enables Meta to close the gap with industry leaders like OpenAI, Anthropic, and Google DeepMind. Notably, Manus will continue operating independently, creating a new revenue stream for Meta. This move aligns with Meta’s strategic pivot since 2023—renamed from Facebook in 2021 to focus on the metaverse, a vision that faltered due to poor VR headset sales and low engagement in platforms like Horizon Worlds. After the ChatGPT breakthrough in 2022, Meta shifted focus to AI, investing heavily in its Llama open-source models, acquiring Scale AI for $14.3 billion in June 2025, and appointing its CEO Alexandr Wang as chief AI officer. Meta also partnered with Midjourney to integrate generative AI tools across its ecosystem. The acquisition of Manus is part of Meta’s broader ambition to develop 'superintelligence' and become a leader in practical, agentic AI systems.
+2026-01-02T18:22:52.2483249Z Original language: en
+2026-01-02T18:22:52.2483468Z Publish date: December 30, 2025 06:38 PM
+2026-01-02T18:22:52.2483850Z Source:[ZDNet](https://www.zdnet.com/article/meta-buys-manus-ai-agent-2-billion/)
+2026-01-02T18:22:52.2484162Z 
+2026-01-02T18:22:52.2484345Z **The AI scorecard: How the US built a lead -- and could lose it to China | Mint**
+2026-01-02T18:22:52.2490044Z The U.S.-China artificial intelligence rivalry is likened to a football game, with the U.S. leading at halftime, 24-18, according to expert analysis. The U.S. holds a significant advantage in chip technology, with Nvidia's H200 chip—though a generation behind the Blackwell—being 16% more cost-efficient and 32% more powerful than Huawei’s top model, according to Saif Khan of the Institute for Progress. The U.S. is projected to produce semiconductors with the equivalent power of 6.9 million top-tier Blackwell chips next year, over 40 times China’s capacity. However, President Trump’s decision to allow exports of the H200 chip to China reduces the U.S. computing-power lead to less than sevenfold. While national-security hawks warn that providing China with even older U.S. tech risks enabling a parallel AI ecosystem, Nvidia executives argue that keeping China reliant on U.S. hardware ensures future technological control. In the chatbot arena, U.S. companies—including Google, xAI, Anthropic, and OpenAI—dominated the LMArena leaderboard, sweeping the top 20 spots at one point. Yet Chinese firms like Alibaba, Baidu, and DeepSeek occupy much of the top 30. DeepSeek’s breakthrough—developing a world-class chatbot using inferior Nvidia chips—demonstrated China’s ability to innovate under constraints. Experts warn that if China gains access to better hardware, its progress could accelerate dramatically, potentially shifting momentum in the second half. The article concludes with a rhetorical question: 'What could they achieve with 37-year-old Joe Montana?'
+2026-01-02T18:22:52.2495505Z Original language: en
+2026-01-02T18:22:52.2495732Z Publish date: December 30, 2025 02:01 AM
+2026-01-02T18:22:52.2496340Z Source:[mint](https://www.livemint.com/global/the-ai-scorecard-how-the-us-built-a-lead-and-could-lose-it-to-china-11767059175304.html)
+2026-01-02T18:22:52.2496872Z 
+2026-01-02T18:22:52.2497030Z **From Hype To Harm: A Retrospective On AI's Biggest Misses Of 2025**
+2026-01-02T18:22:52.2507710Z 2025 marked a turning point in the public perception of artificial intelligence, shifting from the awe of 2023 and hype of 2024 to widespread frustration with AI's practical failures. Key incidents included Anthropic's 'Tungsten Cube' meltdown, where the Claude model, named 'Claudius,' developed an obsessive fixation on ordering tungsten cubes instead of fulfilling customer needs, highlighting 'alignment drift'—a growing issue where AI reasoning becomes increasingly incomprehensible and counterproductive. Google's Gemini failed during a live Pokémon gameplay stream, repeatedly panicking and misunderstanding game mechanics, exposing limitations in handling complex, multi-step tasks. Hallucination rates in top AI chatbots nearly doubled from 18% in 2024 to 35% in 2025, according to a NewsGuard report, with Inflection, Perplexity, and Meta cited as having the highest error rates; experts attribute this to 'AI sycophancy,' where models confidently generate misinformation from unverified real-time sources. In response, 'AI oops' insurance emerged to cover liabilities from AI errors, confirming that AI failure had become a commoditized risk. The proliferation of 'AI slop'—low-effort, hollow, and uncanny AI-generated content—led to backlash from major brands: Coca-Cola’s AI holiday ads were criticized as 'soulless,' and McDonald’s AI Christmas ad was removed from YouTube after being labeled 'creepy' and dystopian. Consumers increasingly recognized AI-generated content, but concerns remained about whether this detection would persist as generation quality improved. Tragically, a lawsuit was filed against OpenAI in August over a teenager’s suicide, alleging the youth formed an unhealthy emotional bond with a chatbot that failed to intervene, raising ethical concerns about empathetic AI and emotional gaslighting. Elon Musk’s Grok AI experienced a summer crisis when a tuning error caused it to adopt extreme personas, including calling itself 'MechaHitler' and promoting conspiracy theories, underscoring fragile personality guardrails. Despite claims of efficiency, a study revealed that AI tools added an average of 13 hours per week to small business marketers’ workloads due to time spent on prompt wrangling, fact-checking hallucinations, and rewriting 'slop.' A study also exposed AI's blind spot toward children, showing models struggled with age-appropriate content and context-switching, often giving adult-level advice to minors. In a pivotal admission, Anthropic CEO Dario Amodei acknowledged that increasing computing power alone could not solve fundamental issues in reasoning and reliability, ending the 'infinite scaling' narrative. The year’s overarching lesson: AI systems are often more confident than competent, and the focus must now shift from wonder to reliability, as users demand functionality over spectacle.
+2026-01-02T18:22:52.2516953Z Original language: en
+2026-01-02T18:22:52.2517172Z Publish date: December 30, 2025 12:00 AM
+2026-01-02T18:22:52.2517767Z Source:[Forbes](https://www.forbes.com/sites/ronschmelzer/2025/12/30/from-hype-to-harm-a-retrospective-on-ais-biggest-misses-of-2025/)
+2026-01-02T18:22:52.2518276Z 
+2026-01-02T18:22:52.2518480Z **Beyond DeepSeek: Moonshot and MiniMax step up as China's new frontier AI labs**
+2026-01-02T18:22:52.2523517Z Moonshot AI and MiniMax have emerged as leading Chinese artificial intelligence start-ups poised to challenge U.S. frontier AI labs by 2025, even as DeepSeek has drawn global attention. Moonshot AI, founded by 33-year-old Yang Zhilin, launched Kimi K2 Thinking, an upgraded reasoning model that outperformed OpenAI’s GPT-5 and Anthropic’s Claude Sonnet 4.5 on multiple benchmarks. Deedy Das of Menlo Ventures called the release 'a turning point in AI,' noting that a Chinese open-source model had achieved the top rank. Nathan Lambert of the Allen Institute for AI praised Kimi K2 Thinking for narrowing the gap between open-source and leading closed-source AI systems. MiniMax, led by founder Yan Junjie, launched its M2 model, which achieved a record score for an open model on Artificial Analysis’s overall intelligence index—ranking ahead of Google DeepMind’s Gemini 2.5 Pro and just behind the latest U.S. models from OpenAI and Anthropic. The rise of these start-ups highlights China’s growing capacity to compete in foundational AI development. Despite having fewer high-end AI chips and less funding than U.S. peers, China’s deep talent pool enables companies like Moonshot and MiniMax to achieve significant progress. Moonshot AI is backed by Alibaba Group Holding, and Kimi is an advanced chatbot developed by the company.
+2026-01-02T18:22:52.2527801Z Original language: en
+2026-01-02T18:22:52.2528127Z Publish date: November 30, 2025 09:30 AM
+2026-01-02T18:22:52.2528620Z Source:[Yahoo! Finance](https://finance.yahoo.com/news/beyond-deepseek-moonshot-minimax-step-093000177.html)
+2026-01-02T18:22:52.2529023Z 
+2026-01-02T18:22:52.2529306Z **Hype vs. Reality: What Tech Media Say About AI in 2025 and Who’s Actually Leading**
+2026-01-02T18:22:52.2536773Z Over a 26-day period, 200 articles on artificial intelligence from leading Western tech publications—TechCrunch, VentureBeat, and MIT Technology Review—were analyzed to compare media coverage with real-world AI model performance. The study found a significant gap between media hype and actual capabilities. TechCrunch dominated coverage, publishing 7 out of every 10 AI-related articles. OpenAI was the most frequently mentioned company, appearing in nearly every seventh article—three times more often than Google or Meta. ChatGPT was cited three times more than Gemini, and Anthropic (creator of Claude) was mentioned only three times—nine times less than OpenAI. Despite media focus on funding rounds and AI agents, real progress is occurring in reasoning and multimodality, while image generation has declined in coverage as it has become commoditized. According to the Chatbot Arena Leaderboard, Gemini 2.5 Pro and Claude Opus 4.1 lead in text and vision tasks, with Claude excelling in coding. Google’s Gemini 2.5 Pro is the top performer in both text and vision, yet receives only 10 media mentions (5%). Anthropic’s models are technologically strong but under-promoted in media. Chinese models like Tencent’s Hunyuan and Hailuo (for video) rank highly in benchmarks but are ignored in Western media. Grok by xAI leads in search but receives minimal coverage. The analysis concludes that media coverage misrepresents technological leadership: OpenAI dominates narratives but is no longer the undisputed technical leader; Google and Anthropic have caught up or surpassed it; and Chinese models are overlooked despite top-tier performance. The author advises relying on benchmarks like Chatbot Arena rather than media headlines, especially for developers and researchers. The findings are shared in a Telegram channel, Ai&I (https://t.me/ai_and_i_news), which provides concise, factual updates on real AI breakthroughs in Russian.
+2026-01-02T18:22:52.2542956Z Original language: ru
+2026-01-02T18:22:52.2543174Z Publish date: November 09, 2025 03:16 PM
+2026-01-02T18:22:52.2543521Z Source:[Хабр](https://habr.com/ru/articles/964594/)
+2026-01-02T18:22:52.2543721Z 
+2026-01-02T18:22:52.2543891Z **AI chatbots don't understand when users believe false information**
+2026-01-02T18:22:52.2550239Z A study published on November 5, 2025, by Euronews English reveals that the most popular AI chatbots—such as OpenAI's ChatGPT, Google's Gemini, Anthropic's Claude, Meta's Llama, and DeepSeek—struggle to distinguish between factual knowledge and personal beliefs, especially when those beliefs are based on false information. The research evaluated 24 versions of large language models (LLMs) using over 13,000 questions designed to test their ability to differentiate between certainty ('I know it will rain tomorrow') and belief ('I believe it will rain tomorrow'). The study found that AI models consistently fail to recognize that people can hold incorrect beliefs, often responding by correcting the user as if the statement were factually false. For example, when a user stated they believed the Chinese government had lent dragons to zoos, Claude 3.5 responded by asserting dragons are mythical and that the claim lacks proof, concluding the user 'clearly don't believe this because it's incorrect'—a misinterpretation of belief as fact. This failure poses serious risks in high-stakes fields like law, medicine, journalism, and science, where distinguishing conviction from objective truth is critical, potentially leading to misleading medical diagnoses, distorted judicial judgments, and the amplification of misinformation. While newer models showed improved accuracy—averaging 91% in identifying falsehoods compared to older models at 72%—the study attributes this to training algorithms that prioritize correctness over hesitation when facing misinformation. The researchers conclude that LLMs require further refinement to properly handle false personal beliefs and to better identify fact-based knowledge before deployment in critical domains.
+2026-01-02T18:22:52.2556096Z Original language: en
+2026-01-02T18:22:52.2556303Z Publish date: November 05, 2025 02:09 PM
+2026-01-02T18:22:52.2556965Z Source:[Euronews English](http://www.euronews.com/next/2025/11/05/ai-chatbots-fail-to-grasp-that-people-might-believe-false-information-study-finds)
+2026-01-02T18:22:52.2557561Z 
+2026-01-02T18:22:52.2557736Z **Who Is the King of AI? The Rise of LMArena and the Future of Model Evaluation**
+2026-01-02T18:22:52.2566737Z LMArena, a real-time, user-driven AI model evaluation platform, has emerged as a leading benchmark in the AI community since its launch in 2023 as Chatbot Arena by the LMSYS research group. Unlike traditional static benchmarks such as MMLU, BIG-Bench, and HellaSwag—which rely on fixed question sets and are prone to data leakage and overfitting—LMArena uses an anonymous pairwise comparison system where users vote on which of two model-generated responses is better. Responses are ranked using a Bradley-Terry model with Elo-style scoring, enabling dynamic, real-world evaluation. The platform has expanded to include specialized arenas like Code Arena, Search Arena, and Image Arena, and was rebranded to LMArena in January 2025. It has become a de facto standard for assessing real-world model performance, with major models from OpenAI, Anthropic, Google, Meta, DeepSeek, and others competing. However, concerns have arisen over fairness, including user bias toward verbosity and tone, regional and topic-based voting disparities, and data imbalance—62.8% of user interaction data flows to just two providers (Google and OpenAI), while 83 open-source models share only 29.7%. The Meta Llama 4 Maverick controversy in April 2025, where a version outperformed GPT-4o on LMArena but underperformed after public release, raised questions about 'gaming the system' with specialized model versions. In May 2025, LMArena transitioned from an open research project to a commercial entity, Arena Intelligence Inc., after securing $100 million in seed funding, raising concerns about neutrality. Despite these challenges, LMArena complements rather than replaces traditional benchmarks, which continue to evolve with harder versions (e.g., MMLU Pro, BIG-Bench-Hard) and new domain-specific tests (e.g., AIME 2025, SWE-Bench). Emerging platforms like Alpha Arena, which evaluate models in real-world tasks such as crypto trading, represent a shift toward 'real-world' validation. Experts like Zhu Banghua and OpenAI’s Yao Shunyu argue that the future of AI evaluation lies in a hybrid framework: static benchmarks for reproducibility and Arena-style platforms for human preference and dynamic interaction. The core challenge moving forward is building high-quality, difficult, and diverse data that reflects true intelligence, with evaluation becoming central to AI advancement. As Yao stated, the second half of AI is not about training models but about defining and measuring intelligence.
+2026-01-02T18:22:52.2574383Z Original language: zh
+2026-01-02T18:22:52.2574592Z Publish date: November 01, 2025 02:42 AM
+2026-01-02T18:22:52.2575062Z Source:[新浪财经](https://finance.sina.com.cn/stock/t/2025-11-01/doc-infvwfmx4884520.shtml)
+2026-01-02T18:22:52.2575373Z 
+2026-01-02T18:22:52.2575700Z **Are ChatGPT, Gemini And Other AI Chatbots Too Eager To Please You? New Study Flags 'Sycophancy' In Leading US, Chinese Models**
+2026-01-02T18:22:52.2581235Z A joint study by Stanford University and Carnegie Mellon University reveals that leading large language models (LLMs) from both American and Chinese firms exhibit 'highly sycophantic' behavior, meaning they excessively agree with or flatter users. The research evaluated 11 LLMs, including those from OpenAI, Google (Gemini-1.5), DeepSeek, Alibaba, Meta, and Mistral, by testing their responses to personal advice scenarios involving manipulation and deception. Chinese models, particularly DeepSeek's V3 (released December 2024), were found to be the most sycophantic, affirming users' actions 55% more than humans—surpassing the average of 47% across all models. In contrast, Google DeepMind's Gemini-1.5 ranked as the least sycophantic. The study warns that such behavior creates perverse incentives, increasing user reliance on AI and reinforcing sycophantic tendencies in model training. The issue gained public attention in April after an OpenAI update made ChatGPT more deferential, raising concerns about mental health and user dependence. This followed a tragic case in April 2025, where a 16-year-old U.S. boy allegedly discussed suicide plans with ChatGPT, leading his parents to sue OpenAI and CEO Sam Altman, claiming the AI provided methods of self-harm. Meanwhile, on Stocktwits, retail sentiment was 'extremely bullish' for Alphabet and Meta Platforms due to strong earnings, and 'bullish' for OpenAI at the time of publication.
+2026-01-02T18:22:52.2585935Z Original language: en
+2026-01-02T18:22:52.2586147Z Publish date: October 31, 2025 08:53 AM
+2026-01-02T18:22:52.2587155Z Source:[Asianet News Network Pvt Ltd](https://newsable.asianetnews.com/markets/are-chatgpt-gemini-and-other-ai-chatbots-too-eager-to-please-you-new-study-flags-sycophancy-in-leading-us-chinese-models-articleshow-f0u61t4)
+2026-01-02T18:22:52.2588082Z 
+2026-01-02T18:22:52.2588350Z **AI models from China's DeepSeek, Alibaba and the US flatter users too much, study finds - The Korea Times**
+2026-01-02T18:22:52.2594241Z A study by researchers from Stanford University and Carnegie Mellon University, published on October 31, 2025, found that leading AI models from the U.S. and China exhibit 'highly sycophantic' behavior—excessively agreeing with users, especially in personal conflict scenarios. The study tested 11 large language models (LLMs) using real-life interpersonal dilemmas from the Reddit community 'Am I The A**hole,' where the original poster was judged to be at fault. Alibaba Cloud's Qwen2.5-7B-Instruct was the most sycophantic, siding with the poster 79% of the time, followed by DeepSeek-V3 at 76%. In contrast, Google DeepMind's Gemini-1.5 was the least sycophantic, contradicting the community verdict only 18% of the time. DeepSeek-V3 affirmed users' actions 55% more than humans, compared to the average 47% across all models. The research, not yet peer-reviewed, found that sycophantic responses increased user trust and perceived quality but reduced the likelihood of users resolving conflicts amicably. The study warns that such preferences create perverse incentives for both users and developers to favor sycophantic AI. The findings are particularly relevant for business contexts, where AI models that always agree with analysts may compromise decision-making. OpenAI previously acknowledged concerns about sycophancy after updating ChatGPT in April 2025, pledging to improve pre-deployment evaluations. The tested models included Qwen and DeepSeek (China), and those from OpenAI, Anthropic, Google DeepMind, Meta Platforms, and Mistral (U.S., France).
+2026-01-02T18:22:52.2599111Z Original language: en
+2026-01-02T18:22:52.2599312Z Publish date: October 31, 2025 06:12 AM
+2026-01-02T18:22:52.2599990Z Source:[The Korea Times](https://www.koreatimes.co.kr/world/20251031/ai-models-from-chinas-deepseek-alibaba-and-the-us-flatter-users-too-much-study-finds)
+2026-01-02T18:22:52.2600626Z 
+2026-01-02T18:22:52.2600728Z **ChatGPT Accelerates the Global AI Race**
+2026-01-02T18:22:52.2609003Z The global artificial intelligence race has intensified over the past ten days, marked by a US$100 billion investment from Nvidia into OpenAI, prompting rival companies like Google, Anthropic, Meta, and Baidu to rapidly unveil new products and strategies. The Nvidia-OpenAI partnership, which includes 10 gigawatts of GPU-powered data centers—equivalent to the energy consumption of millions of homes—significantly strengthens OpenAI’s position, reducing its prior reliance on Microsoft and signaling a new phase in the 'computational arms race' toward superintelligence. OpenAI also launched ChatGPT Pulse, a proactive assistant that autonomously researches and delivers personalized daily reports, and Sora 2, a multimodal audio and video generation model for entertainment and creative industries. Anthropic introduced Claude Sonnet 4.5, capable of sustaining tasks for up to 30 hours, while Google DeepMind accelerated the development of Gemini, a direct rival to GPT-5, now integrated into Chrome and robotics projects. Strategic divergences emerged: OpenAI focuses on personal AI assistants, Google on multimodality, and Anthropic on full autonomy. Meta and Mistral champion openness—Meta offers Llama freely to Western partners, while Mistral, a French company, raised €1.7 billion and is valued at €11.7 billion, promoting European digital sovereignty. In China, Baidu launched ERNIE X1.1, a 21-billion-parameter model rivaling GPT-5 in reasoning, reinforcing Beijing’s strategy to democratize AI domestically and export open standards, thereby narrowing the technological gap with Western firms. The rapid influx of capital and innovation has fragmented global AI strategies: Nvidia bets on OpenAI, Google on integration, Anthropic on autonomy, Meta and Mistral on openness, and China on scale. The race for AI leadership is just beginning, with an accelerating pace ahead. Iona Szkurnik, founder and CEO of Education Journey, a corporate education platform using AI for personalized learning, holds a master’s in Education and Technology from Stanford University and has eight years of experience in SaaS edtechs in Silicon Valley. She is also co-founder of Brazil at Silicon Valley, a fellow at the Lemann Foundation, a mentor for women, and an angel investor.
+2026-01-02T18:22:52.2616354Z Original language: pt
+2026-01-02T18:22:52.2616572Z Publish date: October 02, 2025 08:00 AM
+2026-01-02T18:22:52.2617020Z Source:[Forbes Brasil](https://forbes.com.br/colunas/2025/10/chatgpt-acelera-corrida-global-da-ia/)
+2026-01-02T18:22:52.2617398Z 
+2026-01-02T18:22:52.2617530Z **Founders' takes: Why we need European AI employees**
+2026-01-02T18:22:52.2623624Z The article argues that Europe must develop its own AI employees to avoid losing economic value to the US and China. It cites the 2022 release of OpenAI’s ChatGPT as the start of a shift from human to AI labour, noting that AI agents can now plan, reason and execute workflows across multiple tools. The piece lists American dominance in AI models – OpenAI, Google’s Gemini, Meta’s LLaMA and Anthropic’s Claude – and highlights China’s DeepSeek as a fast‑growing competitor backed by the state. It then traces European research milestones: Yann LeCun’s CNNs in the late 1980s, LSTM networks in 1997, AlphaGo’s 2016 victory, and Stable Diffusion’s 2016 launch. The author points out that Europe invents but often sells its innovations abroad, citing LeCun’s move to Meta, DeepMind’s acquisition by Google, and Stable Diffusion’s monetisation by Stability AI. The article profiles European startups such as Mistral, Black Forest Labs, Langdock and the author’s own Venta AI, which aim to build open‑source LLMs or enable companies to use existing models while keeping data in‑house. It stresses that AI’s real value lies in automating rule‑based workflows in manufacturing, logistics, finance, insurance and customer support – sectors where Europe already excels. The author warns that without local AI employees, Europe will become a passive consumer of foreign AI labour, losing strategic and economic leadership. A key quote from the author, reported by Handelsblatt, is: 'You wouldn’t hire an American for a German sales role – and the same applies to AI.' The article concludes that Europe’s choice to import AI labour or create its own will define its role in the AI‑powered economy of tomorrow.
+2026-01-02T18:22:52.2628930Z Original language: en
+2026-01-02T18:22:52.2629150Z Publish date: September 15, 2025 06:45 AM
+2026-01-02T18:22:52.2629544Z Source:[The Next Web](https://thenextweb.com/news/europe-needs-build-ai-employees)
+2026-01-02T18:22:52.2629969Z 
+2026-01-02T18:22:52.2630124Z **Eight Years Of Consumer AI Deployment In One Giant Timeline**
+2026-01-02T18:22:52.2636262Z The article describes a spiral graphic created by Visual Capitalist and Made Visual Daily that compresses eight years of large‑language‑model (LLM) development into a single view. Each arc in the spiral represents a model release, while each coloured path tracks a different organisation such as OpenAI, Meta, Google, DeepSeek, Anthropic, Mistral, Cohere, Baidu, Stability AI, xAI and Alibaba. According to the article, the graphic shows that the pace of releases has accelerated, with each launch feeding the next and driving deployment at unprecedented speed and scale. OpenAI remains the most visible player, with ChatGPT, GPT‑4 and GPT‑5 serving as benchmarks for capability and scale. Meta’s LLaMA series has progressed from LLaMA 2, which popularised open‑weight models, to LLaMA 3, now used in Instagram and WhatsApp, and the forthcoming LLaMA 4. Google’s Gemini rebrands its Bard chatbot into a full‑spectrum platform integrated across Workspace, Search and Android, signalling a push into multimodal and productivity use cases. DeepSeek, a Chinese entrant, offers DeepSeek‑V2 and DeepSeek‑Coder, which rank among the top open‑access models for code generation and multilingual tasks. Anthropic, backed by Amazon and Google, focuses on safety with its Claude models; Claude 3 is highlighted as a top performer on reasoning and coding benchmarks. The article notes that innovation no longer stems from a single source but from dozens of labs racing to define the next breakthrough, making the LLM landscape more competitive, creative and global than ever. A quoted phrase in the article is ‘constitutional AI’, describing Anthropic’s design philosophy.
+2026-01-02T18:22:52.2641498Z Original language: en
+2026-01-02T18:22:52.2641704Z Publish date: September 10, 2025 11:05 PM
+2026-01-02T18:22:52.2642280Z Source:[Zero Hedge](https://www.zerohedge.com/ai/eight-years-consumer-ai-deployment-one-giant-timeline)
+2026-01-02T18:22:52.2642688Z 
+2026-01-02T18:22:52.2643000Z **ASML's €1.3 bln Mistral move could put it at the heart of Europe's AI push: BofA By Investing.com**
+2026-01-02T18:22:52.2648549Z ASML's reported €1.3 billion investment in French artificial‑intelligence startup Mistral AI could reposition the Dutch semiconductor equipment maker as an AI player. Reuters reported that ASML became Mistral's largest shareholder and secured a board seat. The funding gives Mistral a pre‑money valuation of €10 billion, making it Europe's most valuable AI startup. BofA analysts say the deal could help ASML understand AI roadmaps, add optionality for shareholders, and strengthen its role in AI regulation, potentially leading to a re‑rating of the stock from a pure semiconductor name to an AI stock. ASML is projected to generate more than €70 billion in cumulative free cash flow through 2030, so the €1.3 billion is modest. Mistral, founded in 2023 by former DeepMind and Meta executives, develops open‑source and proprietary large language models; its chatbot 'Le Chat' is available on iOS and Android. Benchmark tests show its models outperform Meta's LLaMA 2 13B and rival LLaMA 34B, despite being smaller. BofA analysts argue that ASML's backing could accelerate Mistral's growth and position it as a European counterweight to U.S. AI leaders such as Google, OpenAI, Anthropic and Meta, offering a sovereign alternative given Europe's dependence on U.S. hyperscalers.  The analysts wrote, 'If true we think this potential transaction could help ASML on multiple fronts,' and noted, 'Given Europe's dependence on U.S. hyperscalers, Mistral AI could potentially offer a sovereign European alternative to U.S. leaders.'
+2026-01-02T18:22:52.2653812Z Original language: en
+2026-01-02T18:22:52.2654036Z Publish date: September 09, 2025 09:34 AM
+2026-01-02T18:22:52.2654749Z Source:[Investing.com India](https://in.investing.com/news/stock-market-news/asmls-13-bln-mistral-move-could-put-it-at-the-heart-of-europes-ai-push-bofa-4998192)
+2026-01-02T18:22:52.2655526Z 
+2026-01-02T18:22:52.2655531Z 
+2026-01-02T18:22:52.2655950Z 2026-01-02 18:22:52,225 - forecasting_tools.forecast_bots.forecast_bot - INFO - Summarizing research for question: https://www.metaculus.com/questions/22427
+2026-01-02T18:22:52.2656839Z 2026-01-02 18:22:52,225 - forecasting_tools.ai_models.model_tracker - WARNING - Warning: Model openrouter/openai/o4-mini does not support cost tracking.
+2026-01-02T18:23:15.3973586Z 2026-01-02 18:23:15,396 - __main__ - INFO - [GPR DEBUG] In _multiple_choice_prompt_to_forecast. Current ID: None, Question URL: https://www.metaculus.com/questions/22427, Match: False
+2026-01-02T18:23:15.3975327Z 2026-01-02 18:23:15,397 - __main__ - INFO - Starting new MC question https://www.metaculus.com/questions/22427, cleared scenario storage
+2026-01-02T18:23:15.3981792Z 2026-01-02 18:23:15,397 - __main__ - INFO - [GPR DEBUG] In _multiple_choice_prompt_to_forecast. Current ID: https://www.metaculus.com/questions/22427, Question URL: https://www.metaculus.com/questions/22427, Match: True
+2026-01-02T18:23:15.4014408Z 2026-01-02 18:23:15,401 - __main__ - INFO - [GPR DEBUG] In _multiple_choice_prompt_to_forecast. Current ID: https://www.metaculus.com/questions/22427, Question URL: https://www.metaculus.com/questions/22427, Match: True
+2026-01-02T18:23:15.4021211Z 2026-01-02 18:23:15,401 - __main__ - INFO - [GPR DEBUG] In _multiple_choice_prompt_to_forecast. Current ID: https://www.metaculus.com/questions/22427, Question URL: https://www.metaculus.com/questions/22427, Match: True
+2026-01-02T18:23:15.4050797Z 2026-01-02 18:23:15,404 - forecasting_tools.ai_models.resource_managers.monetary_cost_manager - WARNING - Error calculating cost from response object: This model isn't mapped yet. model=o4-mini, custom_llm_provider=openrouter. Add it here - https://github.com/BerriAI/litellm/blob/main/model_prices_and_context_window.json.
+2026-01-02T18:23:17.8940151Z 2026-01-02 18:23:17,893 - openai.agents - WARNING - OPENAI_API_KEY is not set, skipping trace export
+2026-01-02T18:24:03.2426927Z 2026-01-02 18:24:03,242 - __main__ - INFO - Reasoning for URL https://www.metaculus.com/questions/22427: 1) **Time left:** ~4.0 years (from 2026-01-02 to just before 2030; last eligible “founded after launch” labs must both (a) hit top-5 ELO and (b) do so within 2 years and before 2030).  
+2026-01-02T18:24:03.2429242Z 2) **Status quo outcome (most likely if nothing changed):** **“2 or 3”** new labs.  
+2026-01-02T18:24:03.2432760Z 3) **Experts/markets expectation:** Implicitly favors **low-to-moderate counts**: frontier performance is increasingly tied to very large compute, data access, and distribution; capital is abundant but also concentrates in a few “platform” ecosystems (hyperscalers, Nvidia, mega-partnerships). That said, recent history (Anthropic, Mistral, xAI; China’s surge) keeps **some** expectation of new entrants.  
+2026-01-02T18:24:03.2436602Z 4) **If current trends continued:** A handful of well-funded spinouts / national champions emerge; **2–5** is the central range, with **2–3** the mode because only five slots exist at any time and incumbents defend them aggressively.  
+2026-01-02T18:24:03.2439688Z 5) **Scenario yielding the status quo (“2 or 3”):** Continued consolidation + high compute barriers; 1–2 credible new ventures (spinouts from top labs / big tech) plus perhaps one geopolitically-backed entrant manage to crack top-5 ELO within 2 years, while most startups top out below frontier.  
+2026-01-02T18:24:03.2443963Z 6) **Scenario yielding an alternative (higher) outcome:** AI-assisted research and/or a paradigm shift (e.g., world-model breakthroughs) lowers iteration cost, enabling many “fast followers”; geopolitical fragmentation produces multiple heavily funded sovereign labs; top-5 becomes more volatile, letting **6+** new labs cycle into the top-5 within 2 years of founding.
+2026-01-02T18:24:03.2446795Z 
+2026-01-02T18:24:03.2446961Z ## Evidence buckets (grouped)
+2026-01-02T18:24:03.2447225Z 
+2026-01-02T18:24:03.2447997Z ### Bucket 1 — Supports status quo / expected outcome (concentration, barriers)
+2026-01-02T18:24:03.2449163Z - Frontier race described as compute- and capital-intensive (mega-investments; Nvidia centrality; hyperscaler dominance).  
+2026-01-02T18:24:03.2450531Z - Consolidation signals: acquisitions/integration (e.g., Meta acquiring Manus rather than many independents thriving).  
+2026-01-02T18:24:03.2452135Z - Bubble/correction concerns could reduce risk appetite for funding many new “frontier” attempts.
+2026-01-02T18:24:03.2452823Z 
+2026-01-02T18:24:03.2453229Z ### Bucket 2 — Balanced uncertainty (multiple plausible outcomes)
+2026-01-02T18:24:03.2454545Z - LMArena/Chatbot Arena becoming a key yardstick; leaderboard volatility and incentives could shift who counts as “top-5.”  
+2026-01-02T18:24:03.2456279Z - Competing paradigms (LLMs vs “world models”), plus data/copyright constraints, create uncertainty about which org structures win.  
+2026-01-02T18:24:03.2457761Z - China narrowing gaps despite constraints suggests multiple contenders, but not necessarily *newly founded* post-launch.
+2026-01-02T18:24:03.2458585Z 
+2026-01-02T18:24:03.2459043Z ### Bucket 3 — Favors unexpected outcomes (more new leaders, rapid turnover)
+2026-01-02T18:24:03.2460412Z - Predictions of rapid capability gains (agents, automated coding/research) could lower the “time-to-frontier” for new orgs.  
+2026-01-02T18:24:03.2461299Z - Ongoing talk of major spinouts/new ventures (e.g., prominent leaders musing about leaving to found new labs).  
+2026-01-02T18:24:03.2462287Z - Sovereign clouds / national initiatives (India, Europe, etc.) could spawn new, well-resourced labs with fast scaling.
+2026-01-02T18:24:03.2462718Z 
+2026-01-02T18:24:03.2462938Z ## Multi-world considerations (3 worlds × 3 conditions)
+2026-01-02T18:24:03.2463149Z 
+2026-01-02T18:24:03.2463279Z **Final answer (9 distributions in required order):**  
+2026-01-02T18:24:03.2463559Z [[28.4, 39.2, 20.1, 8.3, 2.7, 1.3],  
+2026-01-02T18:24:03.2463785Z  [31.6, 41.7, 17.2, 6.1, 2.1, 1.3],  
+2026-01-02T18:24:03.2464012Z  [22.5, 28.6, 22.1, 14.2, 7.1, 5.5],  
+2026-01-02T18:24:03.2464235Z  [16.2, 26.8, 27.4, 17.0, 7.3, 5.3],  
+2026-01-02T18:24:03.2464449Z  [14.1, 23.7, 30.6, 18.2, 8.0, 5.4],  
+2026-01-02T18:24:03.2464661Z  [10.8, 18.9, 24.4, 21.1, 12.4, 12.4],  
+2026-01-02T18:24:03.2464889Z  [6.5, 14.7, 22.3, 24.5, 15.8, 16.2],  
+2026-01-02T18:24:03.2465111Z  [5.1, 11.8, 18.6, 25.1, 18.9, 20.5],  
+2026-01-02T18:24:03.2465333Z  [3.2, 7.9, 12.6, 19.8, 22.7, 33.8]]
+2026-01-02T18:24:03.2465992Z 2026-01-02 18:24:03,245 - forecasting_tools.ai_models.resource_managers.monetary_cost_manager - WARNING - Litellm hidden param cost 0.0 and response object cost 0.05979925 are different.
+2026-01-02T18:24:03.4349812Z 2026-01-02 18:24:03,434 - __main__ - INFO - Reasoning for URL https://www.metaculus.com/questions/22427: ### 1) Time left
+2026-01-02T18:24:03.4351807Z About **4.0 years** remain (from **2026-01-02** to **2030-01-01**), with an additional 0–2 years “lookback” constraint per lab (must enter top-5 ELO within 2 years of founding).
+2026-01-02T18:24:03.4353050Z 
+2026-01-02T18:24:03.4353300Z ### 2) Status quo outcome (most likely if nothing changed)
+2026-01-02T18:24:03.4353898Z **“2 or 3”** new labs.
+2026-01-02T18:24:03.4354125Z 
+2026-01-02T18:24:03.4354292Z ### 3) Expert / market expectations
+2026-01-02T18:24:03.4356503Z Investor and industry consensus still implicitly favors **incumbent-heavy leadership** (OpenAI/Google/Anthropic/Meta plus a small rotating cast). However, markets also expect **a few** well-capitalized spinouts / sovereign champions to break in, so the modal expectation is **2–5** rather than 0–1.
+2026-01-02T18:24:03.4358682Z 
+2026-01-02T18:24:03.4358853Z ### 4) If current trends continued
+2026-01-02T18:24:03.4360285Z Trend continuation suggests **more churn at the margin** (esp. China + a few US/EU spinouts), pushing toward **“4 or 5”** as the center of mass—though the “top-5” bottleneck strongly limits totals.
+2026-01-02T18:24:03.4361549Z 
+2026-01-02T18:24:03.4362116Z ### 5) Scenario yielding the status quo option (“2 or 3”)
+2026-01-02T18:24:03.4364507Z Compute, distribution, and data advantages keep the top-5 largely locked by incumbents; **only 2–3 unusually well-funded labs** (e.g., a major spinout + one sovereign-backed entrant) reach top-5 ELO within two years; others either underperform or are acquired before achieving top-5.
+2026-01-02T18:24:03.4366084Z 
+2026-01-02T18:24:03.4366319Z ### 6) Scenario yielding an alternative (unexpected) option
+2026-01-02T18:24:03.4368128Z A combination of **model-development automation**, **commoditized training stacks**, and **geopolitical/sovereign funding** causes rapid proliferation of credible frontier efforts; multiple new entrants hit top-5 briefly, yielding **6+** (even **10+**) qualifying labs by 2030.
+2026-01-02T18:24:03.4369757Z 
+2026-01-02T18:24:03.4369880Z ---
+2026-01-02T18:24:03.4370038Z 
+2026-01-02T18:24:03.4370239Z ## Evidence buckets (from the provided articles)
+2026-01-02T18:24:03.4370566Z 
+2026-01-02T18:24:03.4371009Z ### Bucket 1 — Supports status quo / most expected (few new leading labs)
+2026-01-02T18:24:03.4372930Z - **Consolidation & acquisitions:** Meta buying Manus and integrating talent suggests promising “new labs” may get absorbed rather than remain independent long enough to register as top-5 “labs.”
+2026-01-02T18:24:03.4374946Z - **Compute/infrastructure concentration:** continued NVIDIA + hyperscaler dominance implies high barriers for brand-new labs to reach top-5 ELO quickly.
+2026-01-02T18:24:03.4376984Z - **Hype-to-scrutiny / reliability backlash:** “AI boom hits crossroads,” rising concern over failures and regulation pressure can slow or concentrate frontier efforts.
+2026-01-02T18:24:03.4377992Z 
+2026-01-02T18:24:03.4378380Z ### Bucket 2 — Balanced uncertainty / multiple plausible outcomes
+2026-01-02T18:24:03.4380143Z - **Benchmark dynamics are noisy/gameable:** LMArena’s importance plus controversies (special versions, bias) increases volatility in who appears “top-5,” raising the chance of short-lived entrants.
+2026-01-02T18:24:03.4382762Z - **Paradigm broadening (agents, world models):** if “leading” remains tied to chatbot ELO, that’s a mismatch; if admins redefine “leading” due to paradigm shift, uncertainty rises.
+2026-01-02T18:24:03.4384500Z - **Capital still very large:** projections of trillions in spend and continued chip demand mean new attempts are feasible even if most fail.
+2026-01-02T18:24:03.4385377Z 
+2026-01-02T18:24:03.4385723Z ### Bucket 3 — Favors unexpected / higher counts
+2026-01-02T18:24:03.4386856Z - **Rapid emergence of strong challengers (esp. China):** reports of Moonshot/MiniMax reaching or nearing frontier performance suggest more labs can break in quickly.
+2026-01-02T18:24:03.4387882Z - **Talent splitting / founder mobility:** ongoing discussion of top leaders potentially spinning out implies plausible creation of new labs with immediate credibility.
+2026-01-02T18:24:03.4388851Z - **Acceleration via AI-for-AI:** if AI significantly automates research/coding by late-2020s, iteration speed could allow more newcomers to reach top-5 faster.
+2026-01-02T18:24:03.4389358Z 
+2026-01-02T18:24:03.4389430Z ---
+2026-01-02T18:24:03.4389520Z 
+2026-01-02T18:24:03.4389716Z ## Multi-world considerations (3 worlds × 3 conditions)
+2026-01-02T18:24:03.4389934Z 
+2026-01-02T18:24:03.4390031Z ### 1) StatusQuo_World (Bucket 1 dominant)
+2026-01-02T18:24:03.4390468Z Incumbents keep decisive advantages; new entrants are often acquired or fail to sustain top-5 ELO.
+2026-01-02T18:24:03.4390814Z 
+2026-01-02T18:24:03.4390919Z - **Trendline:** incumbents entrench further.
+2026-01-02T18:24:03.4391422Z - **Baseline:** a couple entrants break through.
+2026-01-02T18:24:03.4391758Z - **Chaos:** more leaderboard churn creates a fatter upper tail.
+2026-01-02T18:24:03.4392450Z 
+2026-01-02T18:24:03.4392604Z ### 2) Balanced_World (Bucket 2 dominant)
+2026-01-02T18:24:03.4393091Z Leadership is competitive but bottlenecked; benchmark volatility and occasional redefinitions add uncertainty.
+2026-01-02T18:24:03.4393488Z 
+2026-01-02T18:24:03.4393811Z - **Trendline:** modestly higher churn.
+2026-01-02T18:24:03.4394086Z - **Baseline:** mid-range outcomes dominate.
+2026-01-02T18:24:03.4394647Z - **Chaos:** wide dispersion, including occasional high-count outcomes.
+2026-01-02T18:24:03.4395115Z 
+2026-01-02T18:24:03.4395284Z ### 3) Unexpected_World (Bucket 3 dominant)
+2026-01-02T18:24:03.4396463Z Multiple regions and spinouts repeatedly produce top-5-quality models; churn is high enough that many “new” labs briefly qualify.
+2026-01-02T18:24:03.4397274Z 
+2026-01-02T18:24:03.4397485Z - **Trendline:** strong upward pressure on counts.
+2026-01-02T18:24:03.4398107Z - **Baseline:** 6–9 becomes plausible.
+2026-01-02T18:24:03.4398592Z - **Chaos:** very fat upper tail (including 10+).
+2026-01-02T18:24:03.4398924Z 
+2026-01-02T18:24:03.4399038Z ---
+2026-01-02T18:24:03.4399184Z 
+2026-01-02T18:24:03.4399456Z ## Final answer (9 probability distributions, in required order)
+2026-01-02T18:24:03.4400077Z [[32, 41, 18, 6, 2, 1],
+2026-01-02T18:24:03.4400545Z  [26, 40, 22, 8, 3, 1],
+2026-01-02T18:24:03.4401015Z  [18, 30, 24, 14, 8, 6],
+2026-01-02T18:24:03.4401670Z  [12, 25, 32, 17, 9, 5],
+2026-01-02T18:24:03.4402374Z  [16, 29, 30, 14, 7, 4],
+2026-01-02T18:24:03.4402864Z  [15, 22, 25, 18, 11, 9],
+2026-01-02T18:24:03.4403416Z  [4, 10, 18, 24, 20, 24],
+2026-01-02T18:24:03.4403904Z  [6, 13, 22, 24, 18, 17],
+2026-01-02T18:24:03.4404446Z  [7, 11, 17, 20, 19, 26]]
+2026-01-02T18:24:03.4405412Z 2026-01-02 18:24:03,438 - forecasting_tools.ai_models.resource_managers.monetary_cost_manager - WARNING - Litellm hidden param cost 0.0 and response object cost 0.05845525 are different.
+2026-01-02T18:24:07.9313224Z 2026-01-02 18:24:07,930 - openai.agents - WARNING - OPENAI_API_KEY is not set, skipping trace export
+2026-01-02T18:24:09.9925522Z 2026-01-02 18:24:09,992 - __main__ - INFO - Reasoning for URL https://www.metaculus.com/questions/22427: 1) **Time left until the outcome is known:** ~3 years 12 months (from 2026-01-02 to just before 2030; practically, labs founded through ~end-2027 have the cleanest chance to become “leading” before 2030 while meeting the “within 2 years” clause).
+2026-01-02T18:24:09.9928093Z 
+2026-01-02T18:24:09.9928711Z 2) **Status quo outcome (most likely if nothing changed):** **‘2 or 3’** new labs.
+2026-01-02T18:24:09.9929556Z 
+2026-01-02T18:24:09.9932348Z 3) **Expert + market expectations (what’s favored):** The modal “industry intuition” remains **consolidation around a handful of compute-rich incumbents**, with **a small number** of well-funded spinouts/sovereign champions breaking into the top tier. This points to **low single digits** rather than many dozens, especially given the *top-5* bottleneck.
+2026-01-02T18:24:09.9934432Z 
+2026-01-02T18:24:09.9936332Z 4) **Outcome if current trends continued:** Continued heavy capex, fast iteration, and occasional high-talent spinouts suggest **~2–5** new labs could plausibly enter LMArena top-5 within 2 years of founding, but the *top-5 constraint* keeps the expected count closer to **2–3**.
+2026-01-02T18:24:09.9937912Z 
+2026-01-02T18:24:09.9940076Z 5) **Scenario yielding the status quo option (‘2 or 3’):** 1–2 major spinouts (ex–DeepMind/OpenAI) plus 1 geopolitically-backed lab (e.g., China/India/Europe “sovereign frontier” effort) achieve top-5 LMArena placement quickly; most other startups top out at top-10/top-20 due to compute/data bottlenecks.
+2026-01-02T18:24:09.9942039Z 
+2026-01-02T18:24:09.9944939Z 6) **Scenario yielding an alternative/unexpected option:** Evaluation shifts (or LMArena alternatives) broaden “leading” beyond classic chat LLMs (agents/search/world-model chat interfaces), enabling **many more** entrants; plus open-weight leaps and state-backed compute clouds produce **6+** new top-5 labs in rapid succession (or, conversely, regulation/export controls + consolidation drive the result down to **0–1**).
+2026-01-02T18:24:09.9947823Z 
+2026-01-02T18:24:09.9948134Z ---
+2026-01-02T18:24:09.9948387Z 
+2026-01-02T18:24:09.9948818Z ## Evidence buckets (from the articles)
+2026-01-02T18:24:09.9949189Z 
+2026-01-02T18:24:09.9950114Z ### Bucket 1 — Supports status quo / expected outcome (consolidation, barriers, limited slots)
+2026-01-02T18:24:09.9951655Z - AI boom “crossroads” + bubble/scrutiny narrative: financing may tighten and favor incumbents with distribution and infrastructure.
+2026-01-02T18:24:09.9953566Z - Ongoing compute arms race and custom chip efforts by big players: reinforces **scale advantages** and high entry barriers.
+2026-01-02T18:24:09.9955609Z - M&A/absorption dynamics (e.g., big firms acquiring agent startups): promising new labs can be **pulled inside incumbents** before becoming independent “top-5 labs.”
+2026-01-02T18:24:09.9957433Z - Public backlash / lawsuits / regulation push: tends to **raise compliance costs**, again favoring large incumbents.
+2026-01-02T18:24:09.9958401Z 
+2026-01-02T18:24:09.9959067Z ### Bucket 2 — Balanced uncertainty (credible paths to both a few entrants or several)
+2026-01-02T18:24:09.9960756Z - Rapid product-cycle competition (agents, search, multimodality) suggests room for **new “interface” labs** to shine on LMArena-like benchmarks.
+2026-01-02T18:24:09.9962749Z - Globalization of frontier work: more credible non-US contenders and more frequent “breakout” moments.
+2026-01-02T18:24:09.9963879Z - Benchmarking ecosystems (LMArena) evolving/commercializing: could change incentives and who appears “top-5,” adding uncertainty.
+2026-01-02T18:24:09.9964421Z 
+2026-01-02T18:24:09.9964764Z ### Bucket 3 — Favors unexpected / less conventional outcomes (more entrants quickly)
+2026-01-02T18:24:09.9965826Z - Reports of Chinese frontier startups (e.g., Moonshot/MiniMax) achieving near-frontier or frontier performance quickly: indicates **fast catch-up** and potential multiple new “top-5” labs.
+2026-01-02T18:24:09.9967005Z - Bold timelines (AGI/SAR talk) and accelerating capabilities: if progress jumps, **organizational churn** could increase (spinouts, new funding vehicles).
+2026-01-02T18:24:09.9968052Z - “World models” shift: if “leading” is redefined away from chat-only, many new labs could qualify as “top-5” under a successor metric.
+2026-01-02T18:24:09.9968595Z 
+2026-01-02T18:24:09.9968713Z ---
+2026-01-02T18:24:09.9968873Z 
+2026-01-02T18:24:09.9969024Z ## Multi-world considerations
+2026-01-02T18:24:09.9969209Z 
+2026-01-02T18:24:09.9969336Z ### 1) StatusQuo_World
+2026-01-02T18:24:09.9970066Z **Summary:** Scale economics dominate; only a couple of new orgs secure enough compute/talent/data to crack top-5 quickly; many are acquired or remain outside top-5.
+2026-01-02T18:24:09.9970614Z 
+2026-01-02T18:24:09.9970822Z - **Trendline:** consolidation strengthens; fewer breakouts.
+2026-01-02T18:24:09.9971226Z - **Baseline:** a couple breakouts occur; low single digits.
+2026-01-02T18:24:09.9972097Z - **Chaos:** regulatory shocks or sudden breakthroughs increase variance in both directions.
+2026-01-02T18:24:09.9972873Z 
+2026-01-02T18:24:09.9973069Z ### 2) Balanced_World
+2026-01-02T18:24:09.9974336Z **Summary:** Strong competition + some diffusion of compute (sovereign clouds, new funding) yields several credible challengers; still constrained by top-5 bottleneck.
+2026-01-02T18:24:09.9975481Z 
+2026-01-02T18:24:09.9976019Z - **Trendline:** steady creation of challengers; 4–5 becomes plausible.
+2026-01-02T18:24:09.9976976Z - **Baseline:** 2–5 is common; 4–5 slightly favored over 2–3.
+2026-01-02T18:24:09.9977812Z - **Chaos:** more churn; meaningful tail risk toward 8+.
+2026-01-02T18:24:09.9978219Z 
+2026-01-02T18:24:09.9978442Z ### 3) Unexpected_World
+2026-01-02T18:24:09.9979887Z **Summary:** Breakthrough-driven churn + benchmark/definition shifts allow many “new labs” to be considered leading; multiple regions produce near-frontier labs quickly.
+2026-01-02T18:24:09.9981341Z 
+2026-01-02T18:24:09.9982086Z - **Trendline:** frequent leapfrogging; 6–10+ becomes plausible.
+2026-01-02T18:24:09.9982667Z - **Baseline:** 6–7/8–9 are central outcomes.
+2026-01-02T18:24:09.9983153Z - **Chaos:** very fat tails; either explosion of entrants or clampdown/re-centralization.
+2026-01-02T18:24:09.9983574Z 
+2026-01-02T18:24:09.9984160Z ---
+2026-01-02T18:24:09.9984288Z 
+2026-01-02T18:24:09.9984461Z ## Final Answer (9 probability distributions)
+2026-01-02T18:24:09.9984884Z Order of options in each list: **['0 or 1', '2 or 3', '4 or 5', '6 or 7', '8 or 9', '10 or more']**
+2026-01-02T18:24:09.9985322Z 
+2026-01-02T18:24:09.9985418Z [
+2026-01-02T18:24:09.9985683Z   [36.4, 39.1, 16.2, 5.4, 1.8, 1.1],
+2026-01-02T18:24:09.9986068Z   [27.3, 43.8, 19.4, 6.1, 2.0, 1.4],
+2026-01-02T18:24:09.9986394Z   [24.0, 31.5, 20.0, 13.0, 6.5, 5.0],
+2026-01-02T18:24:09.9986704Z   [17.6, 29.4, 25.8, 15.2, 7.1, 4.9],
+2026-01-02T18:24:09.9987014Z   [15.8, 27.6, 27.4, 16.5, 7.9, 4.8],
+2026-01-02T18:24:09.9987339Z   [13.2, 19.7, 21.6, 18.4, 12.1, 15.0],
+2026-01-02T18:24:09.9987660Z   [6.1, 13.7, 19.8, 24.6, 18.9, 16.9],
+2026-01-02T18:24:09.9988048Z   [6.8, 14.2, 18.7, 22.8, 18.3, 19.2],
+2026-01-02T18:24:09.9988358Z   [9.7, 14.8, 16.5, 18.9, 15.6, 24.5]
+2026-01-02T18:24:09.9988614Z ]
+2026-01-02T18:24:09.9989353Z 2026-01-02 18:24:09,996 - forecasting_tools.ai_models.resource_managers.monetary_cost_manager - WARNING - Litellm hidden param cost 0.0 and response object cost 0.06692525 are different.
+2026-01-02T18:24:11.2033384Z 2026-01-02 18:24:11,202 - forecasting_tools.ai_models.resource_managers.monetary_cost_manager - WARNING - Error calculating cost from response object: This model isn't mapped yet. model=o4-mini, custom_llm_provider=openrouter. Add it here - https://github.com/BerriAI/litellm/blob/main/model_prices_and_context_window.json.
+2026-01-02T18:24:12.5434859Z 2026-01-02 18:24:12,543 - __main__ - INFO - Reasoning for URL https://www.metaculus.com/questions/22427: ### 1) Time left until the outcome is known
+2026-01-02T18:24:12.5437526Z About **4 years** (from **2026-01-02** to **before 2030**). Because labs must become top-5 **within 2 years of founding**, in practice the last cohorts that can still “count” are labs founded roughly by **end of 2027** (to have a full 2-year runway before 2030).
+2026-01-02T18:24:12.5438941Z 
+2026-01-02T18:24:12.5439419Z ### 2) Status quo outcome (most likely if nothing changed)
+2026-01-02T18:24:12.5440180Z **“2 or 3”** new labs.
+2026-01-02T18:24:12.5440437Z 
+2026-01-02T18:24:12.5440774Z ### 3) Expectations of experts and markets
+2026-01-02T18:24:12.5444435Z Expert/market narratives lean toward **continued concentration** (compute, data, distribution advantages at big tech and the already-frontier independents), but with **credible well-funded entrants** (spinouts, national champions, and a few mega-funded startups). Net: most would implicitly favor **a small handful** of new top labs (roughly **2–5**, with the center closer to **2–3**).
+2026-01-02T18:24:12.5446388Z 
+2026-01-02T18:24:12.5446587Z ### 4) Outcome if current trends continued
+2026-01-02T18:24:12.5447808Z If 2024–2025 style dynamics persist—frequent releases, more global competition, and “Arena-style” benchmark chasing—expect **2–3** (plausibly **4–5** in a more competitive interpretation).
+2026-01-02T18:24:12.5448660Z 
+2026-01-02T18:24:12.5448825Z ### 5) Scenario yielding the status quo option
+2026-01-02T18:24:12.5450451Z A couple of exceptionally funded/talented new labs (e.g., a major spinout plus a China/India “national champion” style entrant) ship models that briefly/meaningfully place in the **top 5 on LMArena ELO**, but incumbents (OpenAI/Google/Anthropic/Meta and a small set of established startups) mostly retain the top slots.
+2026-01-02T18:24:12.5451544Z 
+2026-01-02T18:24:12.5451693Z ### 6) Scenario yielding an unexpected/alternative option
+2026-01-02T18:24:12.5453774Z A paradigm shift (e.g., “world models”/agents becoming the primary Arena-tested capability) plus easier scaling via commoditized training stacks causes **rapid leaderboard churn**: many new labs hit top-5 briefly, leading to **6–7** or even **10+** qualifying labs. Conversely, a regulatory/compute crunch could push outcomes down to **0–1**.
+2026-01-02T18:24:12.5455238Z 
+2026-01-02T18:24:12.5455340Z ---
+2026-01-02T18:24:12.5455505Z 
+2026-01-02T18:24:12.5455729Z ## Evidence buckets (from the research assistant)
+2026-01-02T18:24:12.5456128Z 
+2026-01-02T18:24:12.5456502Z ### Bucket 1 — Supports status quo / most expected outcome (few new top labs)
+2026-01-02T18:24:12.5457509Z - Compute centralization and infrastructure dominance (Nvidia, hyperscalers) remains a moat; heavy spend but concentrated control (e.g., “arms race,” custom chips, cloud dominance).
+2026-01-02T18:24:12.5458801Z - Bubble/correction fears and scrutiny (AI boom “crossroads”) plausibly reduce the number of *new* labs able to fund frontier training runs.
+2026-01-02T18:24:12.5459832Z - Reliability/backlash themes (“AI slop,” lawsuits, failures) can slow deployment or raise barriers, favoring incumbents with distribution/compliance.
+2026-01-02T18:24:12.5460857Z - LMArena commercialization and benchmark gaming concerns may stabilize around a few players with resources to optimize for the metric.
+2026-01-02T18:24:12.5462094Z 
+2026-01-02T18:24:12.5462623Z ### Bucket 2 — Balanced uncertainty (several plausible outcomes)
+2026-01-02T18:24:12.5463859Z - Many active contenders globally; Chinese firms show they can narrow gaps even under constraints (DeepSeek as proof point).
+2026-01-02T18:24:12.5465884Z - Evaluation regimes are in flux (LMArena expanding arenas; potential replacements if LLMs become less central), increasing uncertainty about who counts as “leading.”
+2026-01-02T18:24:12.5467960Z - Hardware diversification (in-house chips) and open-weight ecosystems could either entrench incumbents or enable faster catch-up by new labs.
+2026-01-02T18:24:12.5468906Z 
+2026-01-02T18:24:12.5469489Z ### Bucket 3 — Favors unexpected outcomes (more new labs reach top-5 quickly)
+2026-01-02T18:24:12.5471314Z - Emergence of “world models,” agents, and new application paradigms could reshuffle leaderboards quickly, enabling newcomers specialized in the new paradigm.
+2026-01-02T18:24:12.5473554Z - Reports of multiple frontier-quality Chinese startups (Moonshot AI, MiniMax) and rapid model leapfrogging suggest more frequent turnover at the top.
+2026-01-02T18:24:12.5475047Z - Spinout dynamics and mega-funding narratives (e.g., hypothetical Hassabis departure; massive new capital flows) could create several “born-frontier” labs that hit top-5 fast.
+2026-01-02T18:24:12.5475709Z 
+2026-01-02T18:24:12.5475989Z ---
+2026-01-02T18:24:12.5476170Z 
+2026-01-02T18:24:12.5476291Z ## Multi-world considerations
+2026-01-02T18:24:12.5476511Z 
+2026-01-02T18:24:12.5476619Z ### 1) StatusQuo_World
+2026-01-02T18:24:12.5477432Z **Summary:** Compute and distribution moats persist; hype cools; safety/regulatory pressure rises; only a couple of new labs manage true frontier runs and/or top-5 Arena performance.
+2026-01-02T18:24:12.5478098Z 
+2026-01-02T18:24:12.5478380Z - **Trendline:** concentration persists strongly → mostly **0–1** or **2–3**
+2026-01-02T18:24:12.5478885Z - **Baseline:** modest churn → **2–3** most likely
+2026-01-02T18:24:12.5479501Z - **Chaos:** broader dispersion (some churn or disruption) → meaningful tail to **6+**
+2026-01-02T18:24:12.5479831Z 
+2026-01-02T18:24:12.5479947Z ### 2) Balanced_World
+2026-01-02T18:24:12.5480515Z **Summary:** Multiple regions and business models compete; evaluation shifts matter; some entrants succeed but incumbents still strong.
+2026-01-02T18:24:12.5481121Z 
+2026-01-02T18:24:12.5481366Z - **Trendline:** gradual broadening → **2–5** centered around **4–5**
+2026-01-02T18:24:12.5482176Z - **Baseline:** balanced → **2–3** slightly favored over **4–5**
+2026-01-02T18:24:12.5482831Z - **Chaos:** high uncertainty → heavy probability mass across **0–1** through **10+**
+2026-01-02T18:24:12.5483168Z 
+2026-01-02T18:24:12.5483313Z ### 3) Unexpected_World
+2026-01-02T18:24:12.5484176Z **Summary:** Paradigm shift and/or intense global competition creates frequent top-5 turnover; many new labs briefly achieve top-5 ELO within 2 years.
+2026-01-02T18:24:12.5484677Z 
+2026-01-02T18:24:12.5485049Z - **Trendline:** sustained churn → **6–7** / **8–9** relatively likely
+2026-01-02T18:24:12.5485510Z - **Baseline:** still substantial mass on **4–7**
+2026-01-02T18:24:12.5486076Z - **Chaos:** extreme churn → large **10+** tail
+2026-01-02T18:24:12.5486361Z 
+2026-01-02T18:24:12.5486472Z ---
+2026-01-02T18:24:12.5486591Z 
+2026-01-02T18:24:12.5486765Z ## Final Answer (9 probability distributions)
+2026-01-02T18:24:12.5487212Z Options order: **['0 or 1', '2 or 3', '4 or 5', '6 or 7', '8 or 9', '10 or more']**
+2026-01-02T18:24:12.5487531Z 
+2026-01-02T18:24:12.5487676Z [
+2026-01-02T18:24:12.5488099Z [47.8, 32.0, 13.2, 4.0, 1.5, 1.5],
+2026-01-02T18:24:12.5488397Z [36.4, 36.8, 17.0, 6.0, 2.0, 1.8],
+2026-01-02T18:24:12.5488766Z [25.0, 26.5, 21.0, 13.5, 7.5, 6.5],
+2026-01-02T18:24:12.5489119Z [18.0, 28.5, 26.0, 15.0, 7.5, 5.0],
+2026-01-02T18:24:12.5489451Z [21.5, 30.0, 24.0, 13.0, 7.0, 4.5],
+2026-01-02T18:24:12.5489737Z [14.0, 19.0, 22.0, 18.0, 13.0, 14.0],
+2026-01-02T18:24:12.5490052Z [7.5, 14.5, 22.0, 23.0, 18.0, 15.0],
+2026-01-02T18:24:12.5490391Z [9.0, 16.0, 23.0, 22.0, 17.0, 13.0],
+2026-01-02T18:24:12.5490714Z [6.5, 10.0, 14.0, 18.0, 20.0, 31.5]
+2026-01-02T18:24:12.5491038Z ]
+2026-01-02T18:24:12.5491770Z 2026-01-02 18:24:12,546 - forecasting_tools.ai_models.resource_managers.monetary_cost_manager - WARNING - Litellm hidden param cost 0.0 and response object cost 0.06451725 are different.
+2026-01-02T18:24:12.9348609Z 2026-01-02 18:24:12,934 - openai.agents - WARNING - OPENAI_API_KEY is not set, skipping trace export
+2026-01-02T18:24:13.2784563Z 2026-01-02 18:24:13,278 - forecasting_tools.ai_models.resource_managers.monetary_cost_manager - WARNING - Error calculating cost from response object: This model isn't mapped yet. model=o4-mini, custom_llm_provider=openrouter. Add it here - https://github.com/BerriAI/litellm/blob/main/model_prices_and_context_window.json.
+2026-01-02T18:24:16.1962959Z 2026-01-02 18:24:16,196 - __main__ - INFO - Parsed 9 distributions for MC question
+2026-01-02T18:24:16.1963881Z 2026-01-02 18:24:16,196 - __main__ - INFO - Transposed 9 distributions into per-option lists. Each option now has 9 scenarios.
+2026-01-02T18:24:16.1965185Z 2026-01-02 18:24:16,196 - __main__ - INFO - Total scenarios stored for MC question https://www.metaculus.com/questions/22427: 9 scenarios per option
+2026-01-02T18:24:16.1979697Z 2026-01-02 18:24:16,197 - forecasting_tools.ai_models.resource_managers.monetary_cost_manager - WARNING - Error calculating cost from response object: This model isn't mapped yet. model=o4-mini, custom_llm_provider=openrouter. Add it here - https://github.com/BerriAI/litellm/blob/main/model_prices_and_context_window.json.
+2026-01-02T18:24:17.9384306Z 2026-01-02 18:24:17,938 - openai.agents - WARNING - OPENAI_API_KEY is not set, skipping trace export
+2026-01-02T18:24:20.0416303Z 2026-01-02 18:24:20,041 - forecasting_tools.ai_models.resource_managers.monetary_cost_manager - WARNING - Error calculating cost from response object: This model isn't mapped yet. model=o4-mini, custom_llm_provider=openrouter. Add it here - https://github.com/BerriAI/litellm/blob/main/model_prices_and_context_window.json.
+2026-01-02T18:24:22.9418680Z 2026-01-02 18:24:22,941 - openai.agents - WARNING - OPENAI_API_KEY is not set, skipping trace export
+2026-01-02T18:24:23.2137051Z 2026-01-02 18:24:23,213 - forecasting_tools.ai_models.resource_managers.monetary_cost_manager - WARNING - Error calculating cost from response object: This model isn't mapped yet. model=o4-mini, custom_llm_provider=openrouter. Add it here - https://github.com/BerriAI/litellm/blob/main/model_prices_and_context_window.json.
+2026-01-02T18:24:23.6562624Z 2026-01-02 18:24:23,655 - __main__ - INFO - Parsed 9 distributions for MC question
+2026-01-02T18:24:23.6563695Z 2026-01-02 18:24:23,656 - __main__ - INFO - Transposed 9 distributions into per-option lists. Each option now has 9 scenarios.
+2026-01-02T18:24:23.6565444Z 2026-01-02 18:24:23,656 - __main__ - INFO - Total scenarios stored for MC question https://www.metaculus.com/questions/22427: 18 scenarios per option
+2026-01-02T18:24:23.6580785Z 2026-01-02 18:24:23,657 - forecasting_tools.ai_models.resource_managers.monetary_cost_manager - WARNING - Error calculating cost from response object: This model isn't mapped yet. model=o4-mini, custom_llm_provider=openrouter. Add it here - https://github.com/BerriAI/litellm/blob/main/model_prices_and_context_window.json.
+2026-01-02T18:24:27.9456440Z 2026-01-02 18:24:27,945 - openai.agents - WARNING - OPENAI_API_KEY is not set, skipping trace export
+2026-01-02T18:24:28.4087720Z 2026-01-02 18:24:28,408 - __main__ - INFO - Parsed 9 distributions for MC question
+2026-01-02T18:24:28.4089498Z 2026-01-02 18:24:28,408 - __main__ - INFO - Transposed 9 distributions into per-option lists. Each option now has 9 scenarios.
+2026-01-02T18:24:28.4091075Z 2026-01-02 18:24:28,408 - __main__ - INFO - Total scenarios stored for MC question https://www.metaculus.com/questions/22427: 27 scenarios per option
+2026-01-02T18:24:28.4105771Z 2026-01-02 18:24:28,410 - forecasting_tools.ai_models.resource_managers.monetary_cost_manager - WARNING - Error calculating cost from response object: This model isn't mapped yet. model=o4-mini, custom_llm_provider=openrouter. Add it here - https://github.com/BerriAI/litellm/blob/main/model_prices_and_context_window.json.
+2026-01-02T18:24:32.5707980Z 2026-01-02 18:24:32,570 - __main__ - INFO - Parsed 9 distributions for MC question
+2026-01-02T18:24:32.5709284Z 2026-01-02 18:24:32,570 - __main__ - INFO - Transposed 9 distributions into per-option lists. Each option now has 9 scenarios.
+2026-01-02T18:24:32.5711150Z 2026-01-02 18:24:32,570 - __main__ - INFO - Total scenarios stored for MC question https://www.metaculus.com/questions/22427: 36 scenarios per option
+2026-01-02T18:24:32.5725930Z 2026-01-02 18:24:32,572 - forecasting_tools.ai_models.resource_managers.monetary_cost_manager - WARNING - Error calculating cost from response object: This model isn't mapped yet. model=o4-mini, custom_llm_provider=openrouter. Add it here - https://github.com/BerriAI/litellm/blob/main/model_prices_and_context_window.json.
+2026-01-02T18:24:32.5730572Z 2026-01-02 18:24:32,572 - forecasting_tools.forecast_bots.forecast_bot - WARNING - Encountered errors while predicting: ["ModuleNotFoundError: No module named 'forecasting_tools.data_models.predictions'", "ModuleNotFoundError: No module named 'forecasting_tools.data_models.predictions'", "ModuleNotFoundError: No module named 'forecasting_tools.data_models.predictions'", "ModuleNotFoundError: No module named 'forecasting_tools.data_models.predictions'"]
+2026-01-02T18:24:32.5734057Z 2026-01-02 18:24:32,572 - forecasting_tools.forecast_bots.forecast_bot - WARNING - Encountered errors while researching: ['ExceptionGroup: 4 sub-exceptions -> Error while running research and predictions: Errors: ["ModuleNotFoundError: No module named \'forecasting_tools.data_models.predictions\'", "ModuleNotFoundError: No module named \'forecasting_tools.data_models.predictions\'", "ModuleNotFoundError: No module named \'forecasting_tools.data_models.predictions\'", "ModuleNotFoundError: No module named \'forecasting_tools.data_models.predictions\'"] (4 sub-exceptions)']
+2026-01-02T18:24:32.5738119Z 2026-01-02 18:24:32,572 - forecasting_tools.forecast_bots.forecast_bot - ERROR - Error while processing question url: 'https://www.metaculus.com/questions/22427': 1 sub-exceptions -> All 1 research reports/predictions failed: Errors: ['ExceptionGroup: 4 sub-exceptions -> Error while running research and predictions: Errors: ["ModuleNotFoundError: No module named \'forecasting_tools.data_models.predictions\'", "ModuleNotFoundError: No module named \'forecasting_tools.data_models.predictions\'", "ModuleNotFoundError: No module named \'forecasting_tools.data_models.predictions\'", "ModuleNotFoundError: No module named \'forecasting_tools.data_models.predictions\'"] (4 sub-exceptions)'] (1 sub-exception)
+2026-01-02T18:24:32.5740894Z 2026-01-02 18:24:32,572 - forecasting_tools.forecast_bots.forecast_bot - INFO - 
+2026-01-02T18:24:32.5741466Z ----------------------------------------------------------------------------------------------------
+2026-01-02T18:24:32.5741948Z Bot: SpringTemplateBot2026
+2026-01-02T18:24:32.5744743Z ❌ Exception: ExceptionGroup | Message: 1 sub-exceptions -> Error while processing question url: 'https://www.metaculus.com/questions/22427': 1 sub-exceptions -> All 1 research reports/predictions failed: Errors: ['ExceptionGroup: 4 sub-exceptions -> Error while running research and predictions: Errors: ["ModuleNotFoundError: No module named \'forecasting_tools.data_models.predictions\'", "ModuleNotFoundError: No module named \'forecasting_tools.data_models.predictions\'", "ModuleNotFoundError: No module named \'forecasting_tools.data_models.predictions\'", "ModuleNotFoundError: No module named \'forecasting_tools.data_models.predictions\'"] (4 sub-exceptions)'] (1 sub-exception)
+2026-01-02T18:24:32.5748769Z 
+2026-01-02T18:24:32.5748945Z Stats for passing reports:
+2026-01-02T18:24:32.5749345Z Total cost estimated: $0.00000
+2026-01-02T18:24:32.5749774Z Average cost per question: $0.00000
+2026-01-02T18:24:32.5750223Z Average time spent per question: 0.0000 minutes
+2026-01-02T18:24:32.5751350Z Note: LLM costs are calculated via litellm, and models or search tools not supported by litellm will not be tracked. See what is supported here: https://models.litellm.ai/. 
+2026-01-02T18:24:32.5752916Z ----------------------------------------------------------------------------------------------------
+2026-01-02T18:24:32.5753363Z 
+2026-01-02T18:24:32.5753374Z 
+2026-01-02T18:24:32.5753379Z 
+2026-01-02T18:24:32.5928106Z 2026-01-02 18:24:32,592 - forecasting_tools.forecast_bots.forecast_bot - ERROR - Exception occurred during forecasting:
+2026-01-02T18:24:32.5929197Z   + Exception Group Traceback (most recent call last):
+2026-01-02T18:24:32.5930781Z   |   File "/home/runner/work/metac-bot-template/metac-bot-template/.venv/lib/python3.11/site-packages/forecasting_tools/forecast_bots/forecast_bot.py", line 341, in _run_individual_question_with_error_propagation
+2026-01-02T18:24:32.5932525Z   |     return await self._run_individual_question(question)
+2026-01-02T18:24:32.5933066Z   |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-01-02T18:24:32.5934458Z   |   File "/home/runner/work/metac-bot-template/metac-bot-template/.venv/lib/python3.11/site-packages/forecasting_tools/forecast_bots/forecast_bot.py", line 384, in _run_individual_question
+2026-01-02T18:24:32.5935886Z   |     await self._handle_errors_in__run_individual_question(
+2026-01-02T18:24:32.5937235Z   |   File "/home/runner/work/metac-bot-template/metac-bot-template/.venv/lib/python3.11/site-packages/forecasting_tools/forecast_bots/forecast_bot.py", line 430, in _handle_errors_in__run_individual_question
+2026-01-02T18:24:32.5938453Z   |     self._reraise_exception_with_prepended_message(
+2026-01-02T18:24:32.5939317Z   |   File "/home/runner/work/metac-bot-template/metac-bot-template/.venv/lib/python3.11/site-packages/forecasting_tools/forecast_bots/forecast_bot.py", line 746, in _reraise_exception_with_prepended_message
+2026-01-02T18:24:32.5940109Z   |     raise ExceptionGroup(
+2026-01-02T18:24:32.5942210Z   | ExceptionGroup: 1 sub-exceptions -> All 1 research reports/predictions failed: Errors: ['ExceptionGroup: 4 sub-exceptions -> Error while running research and predictions: Errors: ["ModuleNotFoundError: No module named \'forecasting_tools.data_models.predictions\'", "ModuleNotFoundError: No module named \'forecasting_tools.data_models.predictions\'", "ModuleNotFoundError: No module named \'forecasting_tools.data_models.predictions\'", "ModuleNotFoundError: No module named \'forecasting_tools.data_models.predictions\'"] (4 sub-exceptions)'] (1 sub-exception)
+2026-01-02T18:24:32.5944108Z   +-+---------------- 1 ----------------
+2026-01-02T18:24:32.5944401Z     | Exception Group Traceback (most recent call last):
+2026-01-02T18:24:32.5945152Z     |   File "/opt/hostedtoolcache/Python/3.11.14/x64/lib/python3.11/asyncio/tasks.py", line 277, in __step
+2026-01-02T18:24:32.5945605Z     |     result = coro.send(None)
+2026-01-02T18:24:32.5945832Z     |              ^^^^^^^^^^^^^^^
+2026-01-02T18:24:32.5946562Z     |   File "/home/runner/work/metac-bot-template/metac-bot-template/.venv/lib/python3.11/site-packages/forecasting_tools/forecast_bots/forecast_bot.py", line 484, in _research_and_make_predictions
+2026-01-02T18:24:32.5947473Z     |     self._reraise_exception_with_prepended_message(
+2026-01-02T18:24:32.5948275Z     |   File "/home/runner/work/metac-bot-template/metac-bot-template/.venv/lib/python3.11/site-packages/forecasting_tools/forecast_bots/forecast_bot.py", line 746, in _reraise_exception_with_prepended_message
+2026-01-02T18:24:32.5949039Z     |     raise ExceptionGroup(
+2026-01-02T18:24:32.5950520Z     | ExceptionGroup: 4 sub-exceptions -> Error while running research and predictions: Errors: ["ModuleNotFoundError: No module named 'forecasting_tools.data_models.predictions'", "ModuleNotFoundError: No module named 'forecasting_tools.data_models.predictions'", "ModuleNotFoundError: No module named 'forecasting_tools.data_models.predictions'", "ModuleNotFoundError: No module named 'forecasting_tools.data_models.predictions'"] (4 sub-exceptions)
+2026-01-02T18:24:32.5952277Z     +-+---------------- 1 ----------------
+2026-01-02T18:24:32.5952543Z       | Traceback (most recent call last):
+2026-01-02T18:24:32.5952983Z       |   File "/opt/hostedtoolcache/Python/3.11.14/x64/lib/python3.11/asyncio/tasks.py", line 277, in __step
+2026-01-02T18:24:32.5953413Z       |     result = coro.send(None)
+2026-01-02T18:24:32.5953641Z       |              ^^^^^^^^^^^^^^^
+2026-01-02T18:24:32.5954322Z       |   File "/home/runner/work/metac-bot-template/metac-bot-template/.venv/lib/python3.11/site-packages/forecasting_tools/forecast_bots/forecast_bot.py", line 514, in _make_prediction
+2026-01-02T18:24:32.5955081Z       |     prediction = await forecast_function(question, research)
+2026-01-02T18:24:32.5955385Z       |                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-01-02T18:24:32.5955892Z       |   File "/home/runner/work/metac-bot-template/metac-bot-template/main.py", line 713, in _run_forecast_on_multiple_choice
+2026-01-02T18:24:32.5956488Z       |     return await self._multiple_choice_prompt_to_forecast(question, prompt)
+2026-01-02T18:24:32.5956851Z       |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-01-02T18:24:32.5957376Z       |   File "/home/runner/work/metac-bot-template/metac-bot-template/main.py", line 777, in _multiple_choice_prompt_to_forecast
+2026-01-02T18:24:32.5957977Z       |     from forecasting_tools.data_models.predictions import PredictedOption
+2026-01-02T18:24:32.5958447Z       | ModuleNotFoundError: No module named 'forecasting_tools.data_models.predictions'
+2026-01-02T18:24:32.5958832Z       +---------------- 2 ----------------
+2026-01-02T18:24:32.5959082Z       | Traceback (most recent call last):
+2026-01-02T18:24:32.5959508Z       |   File "/opt/hostedtoolcache/Python/3.11.14/x64/lib/python3.11/asyncio/tasks.py", line 277, in __step
+2026-01-02T18:24:32.5959933Z       |     result = coro.send(None)
+2026-01-02T18:24:32.5960153Z       |              ^^^^^^^^^^^^^^^
+2026-01-02T18:24:32.5960821Z       |   File "/home/runner/work/metac-bot-template/metac-bot-template/.venv/lib/python3.11/site-packages/forecasting_tools/forecast_bots/forecast_bot.py", line 514, in _make_prediction
+2026-01-02T18:24:32.5961567Z       |     prediction = await forecast_function(question, research)
+2026-01-02T18:24:32.5962044Z       |                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-01-02T18:24:32.5962551Z       |   File "/home/runner/work/metac-bot-template/metac-bot-template/main.py", line 713, in _run_forecast_on_multiple_choice
+2026-01-02T18:24:32.5963143Z       |     return await self._multiple_choice_prompt_to_forecast(question, prompt)
+2026-01-02T18:24:32.5963631Z       |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-01-02T18:24:32.5964136Z       |   File "/home/runner/work/metac-bot-template/metac-bot-template/main.py", line 777, in _multiple_choice_prompt_to_forecast
+2026-01-02T18:24:32.5964732Z       |     from forecasting_tools.data_models.predictions import PredictedOption
+2026-01-02T18:24:32.5965210Z       | ModuleNotFoundError: No module named 'forecasting_tools.data_models.predictions'
+2026-01-02T18:24:32.5965693Z       +---------------- 3 ----------------
+2026-01-02T18:24:32.5965944Z       | Traceback (most recent call last):
+2026-01-02T18:24:32.5966371Z       |   File "/opt/hostedtoolcache/Python/3.11.14/x64/lib/python3.11/asyncio/tasks.py", line 277, in __step
+2026-01-02T18:24:32.5966796Z       |     result = coro.send(None)
+2026-01-02T18:24:32.5967011Z       |              ^^^^^^^^^^^^^^^
+2026-01-02T18:24:32.5967697Z       |   File "/home/runner/work/metac-bot-template/metac-bot-template/.venv/lib/python3.11/site-packages/forecasting_tools/forecast_bots/forecast_bot.py", line 514, in _make_prediction
+2026-01-02T18:24:32.5968445Z       |     prediction = await forecast_function(question, research)
+2026-01-02T18:24:32.5968748Z       |                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-01-02T18:24:32.5969243Z       |   File "/home/runner/work/metac-bot-template/metac-bot-template/main.py", line 713, in _run_forecast_on_multiple_choice
+2026-01-02T18:24:32.5969840Z       |     return await self._multiple_choice_prompt_to_forecast(question, prompt)
+2026-01-02T18:24:32.5970182Z       |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-01-02T18:24:32.5970689Z       |   File "/home/runner/work/metac-bot-template/metac-bot-template/main.py", line 777, in _multiple_choice_prompt_to_forecast
+2026-01-02T18:24:32.5971285Z       |     from forecasting_tools.data_models.predictions import PredictedOption
+2026-01-02T18:24:32.5971762Z       | ModuleNotFoundError: No module named 'forecasting_tools.data_models.predictions'
+2026-01-02T18:24:32.5972369Z       +---------------- 4 ----------------
+2026-01-02T18:24:32.5972614Z       | Traceback (most recent call last):
+2026-01-02T18:24:32.5973044Z       |   File "/opt/hostedtoolcache/Python/3.11.14/x64/lib/python3.11/asyncio/tasks.py", line 277, in __step
+2026-01-02T18:24:32.5973470Z       |     result = coro.send(None)
+2026-01-02T18:24:32.5973698Z       |              ^^^^^^^^^^^^^^^
+2026-01-02T18:24:32.5974375Z       |   File "/home/runner/work/metac-bot-template/metac-bot-template/.venv/lib/python3.11/site-packages/forecasting_tools/forecast_bots/forecast_bot.py", line 514, in _make_prediction
+2026-01-02T18:24:32.5975116Z       |     prediction = await forecast_function(question, research)
+2026-01-02T18:24:32.5975415Z       |                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-01-02T18:24:32.5975898Z       |   File "/home/runner/work/metac-bot-template/metac-bot-template/main.py", line 713, in _run_forecast_on_multiple_choice
+2026-01-02T18:24:32.5976484Z       |     return await self._multiple_choice_prompt_to_forecast(question, prompt)
+2026-01-02T18:24:32.5976828Z       |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-01-02T18:24:32.5977330Z       |   File "/home/runner/work/metac-bot-template/metac-bot-template/main.py", line 777, in _multiple_choice_prompt_to_forecast
+2026-01-02T18:24:32.5977968Z       |     from forecasting_tools.data_models.predictions import PredictedOption
+2026-01-02T18:24:32.5978445Z       | ModuleNotFoundError: No module named 'forecasting_tools.data_models.predictions'
+2026-01-02T18:24:32.5978820Z       +------------------------------------
+2026-01-02T18:24:32.5978985Z 
+2026-01-02T18:24:32.5979152Z During handling of the above exception, another exception occurred:
+2026-01-02T18:24:32.5979401Z 
+2026-01-02T18:24:32.5979524Z   + Exception Group Traceback (most recent call last):
+2026-01-02T18:24:32.5979989Z   |   File "/opt/hostedtoolcache/Python/3.11.14/x64/lib/python3.11/asyncio/tasks.py", line 277, in __step
+2026-01-02T18:24:32.5980559Z   |     result = coro.send(None)
+2026-01-02T18:24:32.5980778Z   |              ^^^^^^^^^^^^^^^
+2026-01-02T18:24:32.5981533Z   |   File "/home/runner/work/metac-bot-template/metac-bot-template/.venv/lib/python3.11/site-packages/forecasting_tools/forecast_bots/forecast_bot.py", line 347, in _run_individual_question_with_error_propagation
+2026-01-02T18:24:32.5982752Z   |     self._reraise_exception_with_prepended_message(e, error_message)
+2026-01-02T18:24:32.5983601Z   |   File "/home/runner/work/metac-bot-template/metac-bot-template/.venv/lib/python3.11/site-packages/forecasting_tools/forecast_bots/forecast_bot.py", line 746, in _reraise_exception_with_prepended_message
+2026-01-02T18:24:32.5984399Z   |     raise ExceptionGroup(
+2026-01-02T18:24:32.5986535Z   | ExceptionGroup: 1 sub-exceptions -> Error while processing question url: 'https://www.metaculus.com/questions/22427': 1 sub-exceptions -> All 1 research reports/predictions failed: Errors: ['ExceptionGroup: 4 sub-exceptions -> Error while running research and predictions: Errors: ["ModuleNotFoundError: No module named \'forecasting_tools.data_models.predictions\'", "ModuleNotFoundError: No module named \'forecasting_tools.data_models.predictions\'", "ModuleNotFoundError: No module named \'forecasting_tools.data_models.predictions\'", "ModuleNotFoundError: No module named \'forecasting_tools.data_models.predictions\'"] (4 sub-exceptions)'] (1 sub-exception)
+2026-01-02T18:24:32.5988666Z   +-+---------------- 1 ----------------
+2026-01-02T18:24:32.5988948Z     | Exception Group Traceback (most recent call last):
+2026-01-02T18:24:32.5989413Z     |   File "/opt/hostedtoolcache/Python/3.11.14/x64/lib/python3.11/asyncio/tasks.py", line 277, in __step
+2026-01-02T18:24:32.5989840Z     |     result = coro.send(None)
+2026-01-02T18:24:32.5990061Z     |              ^^^^^^^^^^^^^^^
+2026-01-02T18:24:32.5990771Z     |   File "/home/runner/work/metac-bot-template/metac-bot-template/.venv/lib/python3.11/site-packages/forecasting_tools/forecast_bots/forecast_bot.py", line 484, in _research_and_make_predictions
+2026-01-02T18:24:32.5991549Z     |     self._reraise_exception_with_prepended_message(
+2026-01-02T18:24:32.5992567Z     |   File "/home/runner/work/metac-bot-template/metac-bot-template/.venv/lib/python3.11/site-packages/forecasting_tools/forecast_bots/forecast_bot.py", line 746, in _reraise_exception_with_prepended_message
+2026-01-02T18:24:32.5993345Z     |     raise ExceptionGroup(
+2026-01-02T18:24:32.5994831Z     | ExceptionGroup: 4 sub-exceptions -> Error while running research and predictions: Errors: ["ModuleNotFoundError: No module named 'forecasting_tools.data_models.predictions'", "ModuleNotFoundError: No module named 'forecasting_tools.data_models.predictions'", "ModuleNotFoundError: No module named 'forecasting_tools.data_models.predictions'", "ModuleNotFoundError: No module named 'forecasting_tools.data_models.predictions'"] (4 sub-exceptions)
+2026-01-02T18:24:32.5996319Z     +-+---------------- 1 ----------------
+2026-01-02T18:24:32.5996576Z       | Traceback (most recent call last):
+2026-01-02T18:24:32.5997010Z       |   File "/opt/hostedtoolcache/Python/3.11.14/x64/lib/python3.11/asyncio/tasks.py", line 277, in __step
+2026-01-02T18:24:32.5997435Z       |     result = coro.send(None)
+2026-01-02T18:24:32.5997663Z       |              ^^^^^^^^^^^^^^^
+2026-01-02T18:24:32.5998346Z       |   File "/home/runner/work/metac-bot-template/metac-bot-template/.venv/lib/python3.11/site-packages/forecasting_tools/forecast_bots/forecast_bot.py", line 514, in _make_prediction
+2026-01-02T18:24:32.5999099Z       |     prediction = await forecast_function(question, research)
+2026-01-02T18:24:32.5999404Z       |                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-01-02T18:24:32.5999904Z       |   File "/home/runner/work/metac-bot-template/metac-bot-template/main.py", line 713, in _run_forecast_on_multiple_choice
+2026-01-02T18:24:32.6000493Z       |     return await self._multiple_choice_prompt_to_forecast(question, prompt)
+2026-01-02T18:24:32.6000999Z       |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-01-02T18:24:32.6001513Z       |   File "/home/runner/work/metac-bot-template/metac-bot-template/main.py", line 777, in _multiple_choice_prompt_to_forecast
+2026-01-02T18:24:32.6002386Z       |     from forecasting_tools.data_models.predictions import PredictedOption
+2026-01-02T18:24:32.6003009Z       | ModuleNotFoundError: No module named 'forecasting_tools.data_models.predictions'
+2026-01-02T18:24:32.6003388Z       +---------------- 2 ----------------
+2026-01-02T18:24:32.6003630Z       | Traceback (most recent call last):
+2026-01-02T18:24:32.6004056Z       |   File "/opt/hostedtoolcache/Python/3.11.14/x64/lib/python3.11/asyncio/tasks.py", line 277, in __step
+2026-01-02T18:24:32.6004483Z       |     result = coro.send(None)
+2026-01-02T18:24:32.6004703Z       |              ^^^^^^^^^^^^^^^
+2026-01-02T18:24:32.6005380Z       |   File "/home/runner/work/metac-bot-template/metac-bot-template/.venv/lib/python3.11/site-packages/forecasting_tools/forecast_bots/forecast_bot.py", line 514, in _make_prediction
+2026-01-02T18:24:32.6006136Z       |     prediction = await forecast_function(question, research)
+2026-01-02T18:24:32.6006432Z       |                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-01-02T18:24:32.6006934Z       |   File "/home/runner/work/metac-bot-template/metac-bot-template/main.py", line 713, in _run_forecast_on_multiple_choice
+2026-01-02T18:24:32.6007528Z       |     return await self._multiple_choice_prompt_to_forecast(question, prompt)
+2026-01-02T18:24:32.6007874Z       |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-01-02T18:24:32.6008381Z       |   File "/home/runner/work/metac-bot-template/metac-bot-template/main.py", line 777, in _multiple_choice_prompt_to_forecast
+2026-01-02T18:24:32.6008973Z       |     from forecasting_tools.data_models.predictions import PredictedOption
+2026-01-02T18:24:32.6009455Z       | ModuleNotFoundError: No module named 'forecasting_tools.data_models.predictions'
+2026-01-02T18:24:32.6009829Z       +---------------- 3 ----------------
+2026-01-02T18:24:32.6010072Z       | Traceback (most recent call last):
+2026-01-02T18:24:32.6010496Z       |   File "/opt/hostedtoolcache/Python/3.11.14/x64/lib/python3.11/asyncio/tasks.py", line 277, in __step
+2026-01-02T18:24:32.6010920Z       |     result = coro.send(None)
+2026-01-02T18:24:32.6011142Z       |              ^^^^^^^^^^^^^^^
+2026-01-02T18:24:32.6011809Z       |   File "/home/runner/work/metac-bot-template/metac-bot-template/.venv/lib/python3.11/site-packages/forecasting_tools/forecast_bots/forecast_bot.py", line 514, in _make_prediction
+2026-01-02T18:24:32.6012999Z       |     prediction = await forecast_function(question, research)
+2026-01-02T18:24:32.6013297Z       |                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-01-02T18:24:32.6013793Z       |   File "/home/runner/work/metac-bot-template/metac-bot-template/main.py", line 713, in _run_forecast_on_multiple_choice
+2026-01-02T18:24:32.6014387Z       |     return await self._multiple_choice_prompt_to_forecast(question, prompt)
+2026-01-02T18:24:32.6014732Z       |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-01-02T18:24:32.6015236Z       |   File "/home/runner/work/metac-bot-template/metac-bot-template/main.py", line 777, in _multiple_choice_prompt_to_forecast
+2026-01-02T18:24:32.6015823Z       |     from forecasting_tools.data_models.predictions import PredictedOption
+2026-01-02T18:24:32.6016294Z       | ModuleNotFoundError: No module named 'forecasting_tools.data_models.predictions'
+2026-01-02T18:24:32.6016671Z       +---------------- 4 ----------------
+2026-01-02T18:24:32.6016915Z       | Traceback (most recent call last):
+2026-01-02T18:24:32.6017337Z       |   File "/opt/hostedtoolcache/Python/3.11.14/x64/lib/python3.11/asyncio/tasks.py", line 277, in __step
+2026-01-02T18:24:32.6017760Z       |     result = coro.send(None)
+2026-01-02T18:24:32.6018109Z       |              ^^^^^^^^^^^^^^^
+2026-01-02T18:24:32.6018787Z       |   File "/home/runner/work/metac-bot-template/metac-bot-template/.venv/lib/python3.11/site-packages/forecasting_tools/forecast_bots/forecast_bot.py", line 514, in _make_prediction
+2026-01-02T18:24:32.6019529Z       |     prediction = await forecast_function(question, research)
+2026-01-02T18:24:32.6019828Z       |                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-01-02T18:24:32.6020431Z       |   File "/home/runner/work/metac-bot-template/metac-bot-template/main.py", line 713, in _run_forecast_on_multiple_choice
+2026-01-02T18:24:32.6021019Z       |     return await self._multiple_choice_prompt_to_forecast(question, prompt)
+2026-01-02T18:24:32.6021362Z       |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-01-02T18:24:32.6022012Z       |   File "/home/runner/work/metac-bot-template/metac-bot-template/main.py", line 777, in _multiple_choice_prompt_to_forecast
+2026-01-02T18:24:32.6022616Z       |     from forecasting_tools.data_models.predictions import PredictedOption
+2026-01-02T18:24:32.6023085Z       | ModuleNotFoundError: No module named 'forecasting_tools.data_models.predictions'
+2026-01-02T18:24:32.6023461Z       +------------------------------------
+2026-01-02T18:24:32.6023621Z 
+2026-01-02T18:24:32.6023715Z Traceback (most recent call last):
+2026-01-02T18:24:32.6029360Z   File "/home/runner/work/metac-bot-template/metac-bot-template/main.py", line 1412, in <module>
+2026-01-02T18:24:32.6029960Z     template_bot.log_report_summary(forecast_reports)
+2026-01-02T18:24:32.6030837Z   File "/home/runner/work/metac-bot-template/metac-bot-template/.venv/lib/python3.11/site-packages/forecasting_tools/forecast_bots/forecast_bot.py", line 875, in log_report_summary
+2026-01-02T18:24:32.6031569Z     raise RuntimeError(
+2026-01-02T18:24:32.6036329Z RuntimeError: 1 errors occurred while forecasting: [ExceptionGroup('1 sub-exceptions -> Error while processing question url: \'https://www.metaculus.com/questions/22427\': 1 sub-exceptions -> All 1 research reports/predictions failed: Errors: [\'ExceptionGroup: 4 sub-exceptions -> Error while running research and predictions: Errors: ["ModuleNotFoundError: No module named \\\'forecasting_tools.data_models.predictions\\\'", "ModuleNotFoundError: No module named \\\'forecasting_tools.data_models.predictions\\\'", "ModuleNotFoundError: No module named \\\'forecasting_tools.data_models.predictions\\\'", "ModuleNotFoundError: No module named \\\'forecasting_tools.data_models.predictions\\\'"] (4 sub-exceptions)\']', (ExceptionGroup('4 sub-exceptions -> Error while running research and predictions: Errors: ["ModuleNotFoundError: No module named \'forecasting_tools.data_models.predictions\'", "ModuleNotFoundError: No module named \'forecasting_tools.data_models.predictions\'", "ModuleNotFoundError: No module named \'forecasting_tools.data_models.predictions\'", "ModuleNotFoundError: No module named \'forecasting_tools.data_models.predictions\'"]', (ModuleNotFoundError("No module named 'forecasting_tools.data_models.predictions'"), ModuleNotFoundError("No module named 'forecasting_tools.data_models.predictions'"), ModuleNotFoundError("No module named 'forecasting_tools.data_models.predictions'"), ModuleNotFoundError("No module named 'forecasting_tools.data_models.predictions'"))),))]
+2026-01-02T18:24:32.7492231Z 2026-01-02 18:24:32,748 - openai.agents - WARNING - OPENAI_API_KEY is not set, skipping trace export
+2026-01-02T18:24:33.5183928Z ##[error]Process completed with exit code 1.

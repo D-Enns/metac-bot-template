@@ -541,7 +541,7 @@ class SpringTemplateBot2026(ForecastBot):
         For other question types: Use default framework aggregation.
         """
         from forecasting_tools.data_models.questions import BinaryQuestion, NumericQuestion, MultipleChoiceQuestion
-        from forecasting_tools.data_models.predictions import PredictedOption
+        from forecasting_tools.data_models.multiple_choice_report import PredictedOption
 
         # Binary questions: GPR aggregation
         if isinstance(question, BinaryQuestion) and len(self._binary_scenarios) >= 3:
@@ -588,7 +588,7 @@ class SpringTemplateBot2026(ForecastBot):
 
                 # Convert to PredictedOptionList
                 predicted_options = [
-                    PredictedOption(name=opt, probability=prob)
+                    PredictedOption(option_name=opt, probability=prob)
                     for opt, prob in gpr_results.items()
                 ]
                 result = PredictedOptionList(predicted_options)
@@ -774,9 +774,9 @@ class SpringTemplateBot2026(ForecastBot):
             normalized_probs = {opt: 100.0 / len(question.options) for opt in question.options}
 
         # Convert to 0-1 scale for PredictedOptionList
-        from forecasting_tools.data_models.predictions import PredictedOption
+        from forecasting_tools.data_models.multiple_choice_report import PredictedOption
         predicted_options = [
-            PredictedOption(name=opt, probability=normalized_probs[opt] / 100)
+            PredictedOption(option_name=opt, probability=normalized_probs[opt] / 100)
             for opt in question.options
         ]
         predicted_option_list = PredictedOptionList(predicted_options)
