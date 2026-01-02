@@ -329,6 +329,15 @@ class SpringTemplateBot2026(ForecastBot):
             num_validation_samples=self._structure_output_validation_samples,
         )
 
+        # Auto-correct decimal/percentage confusion: if all values < 1.0, LLM likely returned decimals
+        if scenario_prediction.scenarios and max(scenario_prediction.scenarios) < 1.0:
+            logger.warning(
+                f"[DECIMAL DETECTED] Binary scenarios all < 1.0: {scenario_prediction.scenarios}. "
+                f"LLM likely returned decimals (0-1) instead of percentages (0-100). Auto-correcting by ×100."
+            )
+            scenario_prediction.scenarios = [s * 100 for s in scenario_prediction.scenarios]
+            logger.info(f"[RESCALED] Binary scenarios after correction: {scenario_prediction.scenarios}")
+
         # Convert all scenarios from 0-100 to 0-1 scale and clamp
         scenarios_decimal = [
             max(0.01, min(0.99, s / 100)) for s in scenario_prediction.scenarios
@@ -735,6 +744,21 @@ class SpringTemplateBot2026(ForecastBot):
             num_validation_samples=self._structure_output_validation_samples,
         )
 
+        # Auto-correct decimal/percentage confusion: if all values in all distributions < 1.0
+        all_values = [val for dist in mc_scenario_prediction.scenarios for val in dist]
+        if all_values and max(all_values) < 1.0:
+            logger.warning(
+                f"[DECIMAL DETECTED] MC distributions all have values < 1.0. "
+                f"LLM likely returned decimals (0-1) instead of percentages (0-100). Auto-correcting by ×100."
+            )
+            mc_scenario_prediction.scenarios = [
+                [val * 100 for val in dist] for dist in mc_scenario_prediction.scenarios
+            ]
+            logger.info(
+                f"[RESCALED] MC distributions after correction. "
+                f"Example first distribution: {mc_scenario_prediction.scenarios[0]}"
+            )
+
         logger.info(
             f"Parsed {len(mc_scenario_prediction.scenarios)} distributions for MC question"
         )
@@ -916,13 +940,6 @@ class SpringTemplateBot2026(ForecastBot):
         # Store all scenarios (no scaling needed - already in question units)
         self._numeric_scenarios.extend(scenario_prediction.scenarios)
 
-        # Check for unit interpretation issues
-        if self._detect_unit_inconsistency(scenario_prediction.scenarios):
-            logger.warning(
-                f"Possible unit interpretation error detected in call {self._current_call_number}! "
-                f"Scenarios: {scenario_prediction.scenarios}"
-            )
-
         # Warn if unusually few scenarios (likely LLM didn't follow prompt)
         if len(scenario_prediction.scenarios) < 9:
             logger.warning(
@@ -975,35 +992,74 @@ class SpringTemplateBot2026(ForecastBot):
         percentile_list = [Percentile(percentile=p/100, value=v) for p, v in sorted(temp_percentiles.items())]
         return NumericDistribution.from_question(percentile_list, question)
 
-    def _detect_unit_inconsistency(self, scenarios: list[float]) -> bool:
+    def _validate_numeric_scenarios_majority_vote(self, scenarios: list[float]) -> list[float]:
         """
-        Detect if scenarios suggest unit interpretation errors.
+        Keep only scenarios from calls in the majority cluster. Bail if <3 calls agree.
 
-        Returns True if scenarios span >2 orders of magnitude,
-        suggesting some forecaster interpreted units differently.
+        Detects unit interpretation errors by clustering call medians.
+        Calls within 3× of each other are considered "agreeing".
+        Returns scenarios from largest cluster, or raises ValueError if <3 calls agree.
+
+        Args:
+            scenarios: All scenarios from all LLM calls (typically 4 calls × 9 scenarios = 36)
+
+        Returns:
+            Validated scenarios from majority cluster
+
+        Raises:
+            ValueError: If <3 calls agree (insufficient consensus for reliable forecast)
+
+        Example:
+            Call medians: [1.0, 1.2, 120, 0.9]
+            → Calls 0,1,3 agree (within 3×), Call 2 is 100× outlier
+            → Returns 27 scenarios from calls 0,1,3
         """
-        if len(scenarios) < 3:
-            return False
+        # Group by call (9 scenarios per call)
+        num_calls = len(scenarios) // 9
+        calls = [scenarios[i*9:(i+1)*9] for i in range(num_calls)]
+        medians = [float(np.median(c)) for c in calls]
 
-        sorted_scenarios = sorted(scenarios)
-        min_val = sorted_scenarios[0]
-        max_val = sorted_scenarios[-1]
+        # Find largest cluster of calls that agree (within 3× of each other)
+        best_cluster = []
+        for ref_idx in range(num_calls):
+            cluster = [ref_idx]
+            for other_idx in range(num_calls):
+                if other_idx != ref_idx and medians[ref_idx] != 0:
+                    ratio = medians[other_idx] / medians[ref_idx]
+                    if 0.33 < ratio < 3.0:  # Within 3×
+                        cluster.append(other_idx)
+            if len(cluster) > len(best_cluster):
+                best_cluster = cluster
 
-        # Can't check ratio with negative/zero values
-        if min_val <= 0:
-            return False
-
-        ratio = max_val / min_val
-
-        # If max is >100× min, likely unit confusion
-        if ratio > 100:
-            logger.warning(
-                f"Scenarios span {ratio:.1f}× range: {min_val} to {max_val}. "
-                f"Possible unit interpretation error."
+        # Bail out if <3 calls agree
+        if len(best_cluster) < 3:
+            logger.error(
+                f"❌ [BAIL OUT] Only {len(best_cluster)}/{num_calls} calls agree. "
+                f"Call medians: {[f'{m:.2e}' for m in medians]}"
             )
-            return True
+            raise ValueError(
+                f"Insufficient agreement: only {len(best_cluster)}/{num_calls} calls consistent. "
+                f"Refusing to submit unreliable forecast."
+            )
 
-        return False
+        # Keep scenarios from majority cluster
+        valid_scenarios = []
+        for idx in best_cluster:
+            valid_scenarios.extend(calls[idx])
+
+        excluded = num_calls - len(best_cluster)
+        if excluded > 0:
+            logger.warning(
+                f"⚠️  [MAJORITY VOTE] Excluded {excluded} call(s). "
+                f"Using {len(best_cluster)}/{num_calls} calls = {len(valid_scenarios)} scenarios."
+            )
+        else:
+            logger.info(
+                f"✅ [MAJORITY VOTE] All {num_calls} calls agree. "
+                f"Using all {len(valid_scenarios)} scenarios."
+            )
+
+        return valid_scenarios
 
     def _gpr_aggregate_numeric(self, scenarios: list[float], question: NumericQuestion) -> NumericDistribution:
         """
@@ -1015,17 +1071,24 @@ class SpringTemplateBot2026(ForecastBot):
 
         Returns:
             NumericDistribution with smoothed percentiles at 5% increments
+
+        Raises:
+            ValueError: If majority vote validation fails (<3 calls agree)
         """
-        if len(scenarios) < 9:
+        # Validate scenarios for unit interpretation consistency
+        # Keeps only scenarios from majority cluster, raises ValueError if <3 calls agree
+        validated_scenarios = self._validate_numeric_scenarios_majority_vote(scenarios)
+
+        if len(validated_scenarios) < 9:
             logger.warning(
-                f"⚠️  FALLBACK TO EMPIRICAL METHOD: Only {len(scenarios)} scenarios available. "
+                f"⚠️  FALLBACK TO EMPIRICAL METHOD: Only {len(validated_scenarios)} scenarios available. "
                 f"GPR requires at least 9 scenarios for reliable aggregation. "
                 f"Using empirical percentiles instead."
             )
-            return self._empirical_distribution_fallback(scenarios, question)
+            return self._empirical_distribution_fallback(validated_scenarios, question)
 
         # Sort scenarios to create empirical CDF
-        sorted_scenarios = sorted(scenarios)
+        sorted_scenarios = sorted(validated_scenarios)
 
         # Create empirical CDF percentiles
         n = len(sorted_scenarios)
@@ -1051,7 +1114,7 @@ class SpringTemplateBot2026(ForecastBot):
             value = gpr_model.predict(np.array([[p]]))[0]
             percentile_list.append(Percentile(percentile=p/100, value=float(value)))
 
-        logger.info(f"✅ GPR numeric aggregation: {len(scenarios)} scenarios → {len(target_percentiles)} percentiles")
+        logger.info(f"✅ GPR numeric aggregation: {len(validated_scenarios)} scenarios → {len(target_percentiles)} percentiles")
         logger.info(
             f"Distribution: p5={percentile_list[0].value:.2f}, "
             f"p50={percentile_list[9].value:.2f}, "
@@ -1396,9 +1459,9 @@ if __name__ == "__main__":
     elif run_mode == "test_questions":
         # Example questions are a good way to test the bot's performance on a single question
         EXAMPLE_QUESTIONS = [
-            # "https://www.metaculus.com/questions/578/human-extinction-by-2100/",  # Human Extinction - Binary
+            "https://www.metaculus.com/questions/578/human-extinction-by-2100/",  # Human Extinction - Binary
             # "https://www.metaculus.com/questions/14333/age-of-oldest-human-as-of-2100/",  # Age of Oldest Human - Numeric
-            "https://www.metaculus.com/questions/22427/number-of-new-leading-ai-labs/",  # Number of New Leading AI Labs - Multiple Choice
+            # "https://www.metaculus.com/questions/22427/number-of-new-leading-ai-labs/",  # Number of New Leading AI Labs - Multiple Choice
             # "https://www.metaculus.com/c/diffusion-community/38880/how-many-us-labor-strikes-due-to-ai-in-2029/",  # Number of US Labor Strikes Due to AI in 2029 - Discrete
         ]
         template_bot.skip_previously_forecasted_questions = False
