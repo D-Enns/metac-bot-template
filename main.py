@@ -1,8 +1,10 @@
 import argparse
 import asyncio
+import json
 import logging
 from datetime import datetime, timezone
-from typing import Literal
+from pathlib import Path
+from typing import Literal, Any
 
 # GPR aggregation imports
 import numpy as np
@@ -31,6 +33,7 @@ from forecasting_tools import (
     BinaryPrediction,
     PredictedOptionList,
     ReasonedPrediction,
+    ResearchWithPredictions,
     SmartSearcher,
     clean_indents,
     structure_output,
@@ -1382,6 +1385,72 @@ class SpringTemplateBot2026(ForecastBot):
             """
         )
 
+    ##################################### FORECAST SUMMARY SAVING #####################################
+
+    def _save_full_forecast_copy(
+        self,
+        full_explanation: str,
+        question: MetaculusQuestion,
+    ) -> None:
+        """Save complete forecast explanation to local file with counter-based naming"""
+        # Create directory if it doesn't exist
+        reports_dir = Path("forecast_summaries")
+        reports_dir.mkdir(parents=True, exist_ok=True)
+
+        # Extract question ID from URL (e.g., "https://www.metaculus.com/questions/12345/" -> "12345")
+        question_id = question.page_url.rstrip('/').split('/')[-1]
+
+        # Get tournament name - use tournament_slugs if available, otherwise use "unknown"
+        tournament_name = "unknown"
+        if hasattr(question, 'tournament_slugs') and question.tournament_slugs:
+            tournament_name = question.tournament_slugs[0].replace('-', '_')
+        elif hasattr(question, 'post') and hasattr(question.post, 'projects'):
+            # Alternative: try to get from projects
+            if question.post.projects:
+                tournament_name = str(question.post.projects[0]).replace('-', '_')
+
+        # Find next available counter
+        counter = 1
+        while True:
+            filename = f"{question_id}_{tournament_name}_full_{counter}.md"
+            filepath = reports_dir / filename
+            if not filepath.exists():
+                break
+            counter += 1
+
+        # Save the file
+        with open(filepath, 'w', encoding='utf-8') as f:
+            f.write(full_explanation)
+
+        logger.info(f"Saved full forecast to {filepath}")
+
+    def _create_comment(
+        self,
+        question: MetaculusQuestion,
+        research_prediction_collections: list[ResearchWithPredictions],
+        aggregated_prediction: PredictionTypes,
+        final_cost: float,
+        time_spent_in_minutes: float,
+    ) -> str:
+        """
+        Override to save full forecast locally before posting to Metaculus.
+        The posted forecast remains unchanged.
+        """
+        # Get standard explanation from parent class
+        full_explanation = super()._create_comment(
+            question,
+            research_prediction_collections,
+            aggregated_prediction,
+            final_cost,
+            time_spent_in_minutes
+        )
+
+        # Save it locally
+        self._save_full_forecast_copy(full_explanation, question)
+
+        # Return unchanged for Metaculus API submission
+        return full_explanation
+
 
 if __name__ == "__main__":
     logging.basicConfig(
@@ -1460,8 +1529,8 @@ if __name__ == "__main__":
         # Example questions are a good way to test the bot's performance on a single question
         EXAMPLE_QUESTIONS = [
             # "https://www.metaculus.com/questions/578/human-extinction-by-2100/",  # Human Extinction - Binary
-            # "https://www.metaculus.com/questions/14333/age-of-oldest-human-as-of-2100/",  # Age of Oldest Human - Numeric
-            "https://www.metaculus.com/questions/22427/number-of-new-leading-ai-labs/",  # Number of New Leading AI Labs - Multiple Choice
+            "https://www.metaculus.com/questions/14333/age-of-oldest-human-as-of-2100/",  # Age of Oldest Human - Numeric
+            # "https://www.metaculus.com/questions/22427/number-of-new-leading-ai-labs/",  # Number of New Leading AI Labs - Multiple Choice
             # "https://www.metaculus.com/c/diffusion-community/38880/how-many-us-labor-strikes-due-to-ai-in-2029/",  # Number of US Labor Strikes Due to AI in 2029 - Discrete
         ]
         template_bot.skip_previously_forecasted_questions = False
