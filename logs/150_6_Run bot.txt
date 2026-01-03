@@ -1,0 +1,27 @@
+﻿2026-01-03T13:51:35.6228764Z ##[group]Run poetry run python main.py --mode test_questions
+2026-01-03T13:51:35.6229257Z [36;1mpoetry run python main.py --mode test_questions[0m
+2026-01-03T13:51:35.6262776Z shell: /usr/bin/bash -e {0}
+2026-01-03T13:51:35.6263013Z env:
+2026-01-03T13:51:35.6263266Z   pythonLocation: /opt/hostedtoolcache/Python/3.11.14/x64
+2026-01-03T13:51:35.6263678Z   PKG_CONFIG_PATH: /opt/hostedtoolcache/Python/3.11.14/x64/lib/pkgconfig
+2026-01-03T13:51:35.6264073Z   Python_ROOT_DIR: /opt/hostedtoolcache/Python/3.11.14/x64
+2026-01-03T13:51:35.6264450Z   Python2_ROOT_DIR: /opt/hostedtoolcache/Python/3.11.14/x64
+2026-01-03T13:51:35.6284676Z   Python3_ROOT_DIR: /opt/hostedtoolcache/Python/3.11.14/x64
+2026-01-03T13:51:35.6285445Z   LD_LIBRARY_PATH: /opt/hostedtoolcache/Python/3.11.14/x64/lib
+2026-01-03T13:51:35.6285956Z   VENV: .venv/bin/activate
+2026-01-03T13:51:35.6286595Z   METACULUS_TOKEN: ***
+2026-01-03T13:51:35.6286977Z   PERPLEXITY_API_KEY: 
+2026-01-03T13:51:35.6287321Z   EXA_API_KEY: 
+2026-01-03T13:51:35.6287636Z   OPENAI_API_KEY: 
+2026-01-03T13:51:35.6288408Z   OPENROUTER_API_KEY: ***
+2026-01-03T13:51:35.6288791Z   ANTHROPIC_API_KEY: 
+2026-01-03T13:51:35.6289284Z   ASKNEWS_CLIENT_ID: ***
+2026-01-03T13:51:35.6289725Z   ASKNEWS_SECRET: ***
+2026-01-03T13:51:35.6290060Z ##[endgroup]
+2026-01-03T13:51:44.9333021Z Warning: Model openrouter/perplexity/sonar does not support cost tracking.
+2026-01-03T13:51:45.9825500Z 2026-01-03 13:51:45.982 WARNING streamlit.runtime.caching.cache_data_api: No runtime found, using MemoryCacheStorageManager
+2026-01-03T13:51:46.0032641Z Traceback (most recent call last):
+2026-01-03T13:51:46.0042500Z   File "/home/runner/work/metac-bot-template/metac-bot-template/main.py", line 16, in <module>
+2026-01-03T13:51:46.0043314Z     from forecasting_tools import (
+2026-01-03T13:51:46.0044585Z ImportError: cannot import name 'ResearchWithPredictions' from 'forecasting_tools' (/home/runner/work/metac-bot-template/metac-bot-template/.venv/lib/python3.11/site-packages/forecasting_tools/__init__.py)
+2026-01-03T13:51:46.6438256Z ##[error]Process completed with exit code 1.

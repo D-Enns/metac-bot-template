@@ -33,11 +33,11 @@ from forecasting_tools import (
     BinaryPrediction,
     PredictedOptionList,
     ReasonedPrediction,
-    ResearchWithPredictions,
     SmartSearcher,
     clean_indents,
     structure_output,
 )
+from forecasting_tools.data_models.forecast_report import ResearchWithPredictions
 
 logger = logging.getLogger(__name__)
 
