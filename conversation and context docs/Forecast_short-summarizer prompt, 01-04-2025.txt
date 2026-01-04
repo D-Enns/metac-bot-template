@@ -1,0 +1,57 @@
+# FORECAST METADATA
+**Forecast ID**: q14333
+**Question URL**: https://www.metaculus.com/questions/14333
+**Tournament**: Unknown
+**Forecast Date**: 2026-01-04 17:24:51 UTC
+**Bot Version**: SpringTemplateBotExtended
+...add Units for the question if available
+
+
+# SUMMARY FORCAST VALUES
+*Question*: How old will the oldest living person be in 2100?
+*Final Prediction*: Probability distribution:
+- 5.00% chance of value below 116.674101
+- 25.00% chance of value below 123.802255
+- 50.00% chance of value below 133.864748
+- 75.00% chance of value below 150.215526
+- 95.00% chance of value below 185.4168
+
+*Total Cost*: $0.1963 (estimated)
+*Time Spent*: 1.8 minutes
+*LLMs*: `{'default': {'original_model': 'openrouter/openai/gpt-5.2', 'allowed_tries': 2, 'model': 'openrouter/openai/gpt-5.2', 'temperature': 1, 'timeout': 80}, 'summarizer': 'openrouter/openai/o4-mini', 'researcher': 'asknews/news-summaries', 'parser': 'openrouter/openai/o4-mini'}`
+*Bot Name*: SpringTemplateBotExtended
+
+### Research Summary (as in long version): Compress the Research Summary to about three headings with a couple of bullet points each. It's OK to look at the full Research section if necessary for clarification. Include the website links.
+
+
+# Forecaster Reasoning Part 1: concisely summarize response from all forecasters for
+
+1) **Time left until resolution:** What is consensus, and are there any disagreements
+
+2) **Outcome if nothing changed (current value):** Consensus and outliers.
+
+3) **Outcome if the current trend continued:** Consensus and outliers.
+
+4) **Expectations of experts and markets:** Consensus and outliers.
+
+5) **Volatility history and expectations:** Consensus and outliers.
+
+
+# Forecaster Reasoning Part 2:
+
+## Scenario Group 1: Summary characteristics of Bucket 1 from all forecasters (approximately 3 lines)
+
+## Scenario Group 2: Summary characteristics of Bucket 2 from all forecasters (approximately 3 lines)
+
+## Scenario Group 3: Summary characteristics of Bucket 3 from all forecasters (approximately 3 lines)
+
+
+# Forecaster Reasoning Part 3.
+
+# Concisely summarize key points in from all forecasters in making their final forecast
+
+
+
+
+
+

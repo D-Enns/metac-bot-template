@@ -1354,7 +1354,7 @@ if __name__ == "__main__":
                 timeout=80,  # Updated from 40 to 80. In test, one run failed due to exceeding 40.
                 allowed_tries=2,
             ),
-            "summarizer": "openrouter/openai/o4-mini",  # "summarizer": "metaculus/openai/o4-mini",
+            "summarizer": "openrouter/openai/gpt-oss-120b:exacto",  # For condensed forecast summaries (cost-efficient)
             "researcher": "asknews/news-summaries",
             "parser": "openrouter/openai/o4-mini",  # "metaculus/openai/o4-mini",
         },
