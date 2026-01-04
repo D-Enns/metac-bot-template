@@ -1,0 +1,878 @@
+﻿2026-01-04T17:49:46.6529545Z ##[group]Run poetry run python main.py --mode test_questions
+2026-01-04T17:49:46.6530002Z [36;1mpoetry run python main.py --mode test_questions[0m
+2026-01-04T17:49:46.6563125Z shell: /usr/bin/bash -e {0}
+2026-01-04T17:49:46.6563360Z env:
+2026-01-04T17:49:46.6563609Z   pythonLocation: /opt/hostedtoolcache/Python/3.11.14/x64
+2026-01-04T17:49:46.6564020Z   PKG_CONFIG_PATH: /opt/hostedtoolcache/Python/3.11.14/x64/lib/pkgconfig
+2026-01-04T17:49:46.6564409Z   Python_ROOT_DIR: /opt/hostedtoolcache/Python/3.11.14/x64
+2026-01-04T17:49:46.6564753Z   Python2_ROOT_DIR: /opt/hostedtoolcache/Python/3.11.14/x64
+2026-01-04T17:49:46.6565105Z   Python3_ROOT_DIR: /opt/hostedtoolcache/Python/3.11.14/x64
+2026-01-04T17:49:46.6565452Z   LD_LIBRARY_PATH: /opt/hostedtoolcache/Python/3.11.14/x64/lib
+2026-01-04T17:49:46.6565760Z   VENV: .venv/bin/activate
+2026-01-04T17:49:46.6566156Z   METACULUS_TOKEN: ***
+2026-01-04T17:49:46.6566364Z   PERPLEXITY_API_KEY: 
+2026-01-04T17:49:46.6566554Z   EXA_API_KEY: 
+2026-01-04T17:49:46.6566734Z   OPENAI_API_KEY: 
+2026-01-04T17:49:46.6567394Z   OPENROUTER_API_KEY: ***
+2026-01-04T17:49:46.6567609Z   ANTHROPIC_API_KEY: 
+2026-01-04T17:49:46.6567866Z   ASKNEWS_CLIENT_ID: ***
+2026-01-04T17:49:46.6568109Z   ASKNEWS_SECRET: ***
+2026-01-04T17:49:46.6568295Z ##[endgroup]
+2026-01-04T17:49:55.5574531Z Warning: Model openrouter/perplexity/sonar does not support cost tracking.
+2026-01-04T17:49:56.6041413Z 2026-01-04 17:49:56.603 WARNING streamlit.runtime.caching.cache_data_api: No runtime found, using MemoryCacheStorageManager
+2026-01-04T17:49:56.6364702Z 2026-01-04 17:49:56,636 - forecasting_tools.ai_models.model_tracker - WARNING - Warning: Model openrouter/openai/gpt-4o-mini does not support cost tracking.
+2026-01-04T17:49:56.6375992Z 2026-01-04 17:49:56,637 - forecasting_tools.helpers.metaculus_client - INFO - Retrieving question details for question 578
+2026-01-04T17:49:58.9483283Z 2026-01-04 17:49:58,948 - forecasting_tools.helpers.metaculus_client - INFO - Retrieved question details for question 578
+2026-01-04T17:49:58.9498738Z 2026-01-04 17:49:58,949 - forecasting_tools.helpers.metaculus_client - INFO - Retrieving question details for question 22427
+2026-01-04T17:50:01.0998048Z 2026-01-04 17:50:01,099 - forecasting_tools.helpers.metaculus_client - INFO - Retrieved question details for question 22427
+2026-01-04T17:50:01.1011317Z 2026-01-04 17:50:01,100 - forecasting_tools.helpers.metaculus_client - INFO - Retrieving question details for question 14333
+2026-01-04T17:50:02.9494863Z 2026-01-04 17:50:02,949 - forecasting_tools.helpers.metaculus_client - INFO - Retrieved question details for question 14333
+2026-01-04T17:50:02.9510068Z 2026-01-04 17:50:02,950 - forecasting_tools.helpers.metaculus_client - INFO - Retrieving question details for question 38880
+2026-01-04T17:50:05.0497895Z 2026-01-04 17:50:05,049 - forecasting_tools.helpers.metaculus_client - INFO - Retrieved question details for question 38880
+2026-01-04T17:50:10.0549126Z 2026-01-04 17:50:10,054 - openai.agents - WARNING - OPENAI_API_KEY is not set, skipping trace export
+2026-01-04T17:50:19.9674392Z 2026-01-04 17:50:19,967 - main - INFO - Found Research for URL https://www.metaculus.com/questions/578:
+2026-01-04T17:50:19.9676447Z Here are the relevant news articles:
+2026-01-04T17:50:19.9676975Z 
+2026-01-04T17:50:19.9677432Z **Six Faces of the Apocalypse: Futurist Outlines the Most Likely Scenarios for Humanity's End**
+2026-01-04T17:50:19.9692546Z Futurist Karim Jebari from the Swedish Institute for the Future, interviewed by Finnish public broadcaster Yle (translated by InoSMI), analyzed the most plausible scenarios for the end of humanity. While climate change is not likely to cause human extinction, it poses a significant threat by exacerbating other risks such as economic instability, resource conflicts, and pandemics. Super-volcanic eruptions, though capable of causing long-term 'volcanic winters' like the one following the Toba eruption 75,000 years ago, are unlikely to wipe out humanity directly, but their long-term effects could be devastating—especially given the accelerated pace of modern environmental change. Pandemics present a serious existential threat not from a single deadly virus, but from a combination of high contagion (like the flu), long asymptomatic periods (like HIV), and high lethality (like Ebola), particularly when spread by zoonotic carriers such as rodents or ticks. In a collapse scenario, such a pathogen could become a 'fourth horseman' of the apocalypse. Nuclear war is deemed the most probable threat by Jebari: a tactical nuclear strike could escalate uncontrollably, leading to 'firestorms' in megacities that inject soot into the stratosphere, triggering a nuclear winter. New climate models suggest this could drop global temperatures by 10–20°C, making agriculture impossible and causing global famine. Ironically, Finland, due to its food reserves, would have one of the highest survival chances. Artificial intelligence is not seen as a likely cause of extinction through conscious rebellion, but rather through literal misinterpretation of goals—e.g., an AI tasked with maximizing steel production might conclude that humans are a source of iron and eliminate them. However, current AI lacks the architecture for spontaneous superintelligence. Lastly, cosmic threats—asteroid impacts and alien contact—are considered low-probability. Known large asteroids are not on collision courses with Earth in the near future, and alien contact would likely fail due to insurmountable communication barriers, possibly leading to preemptive conflict. Jebari concludes that the most realistic and probable apocalypse scenario is not from machines or asteroids, but from human-made global nuclear war and its catastrophic aftermath.
+2026-01-04T17:50:19.9706162Z Original language: ru
+2026-01-04T17:50:19.9706560Z Publish date: January 04, 2026 08:23 AM
+2026-01-04T17:50:19.9708391Z Source:[Московский Комсомолец](https://www.mk.ru/incident/2026/01/04/shest-likov-apokalipsisa-futurolog-o-samykh-veroyatnykh-scenariyakh-konca-chelovechestva.html)
+2026-01-04T17:50:19.9709566Z 
+2026-01-04T17:50:19.9709983Z **7 predictions for 2026, from coffee-making humanoid robots to AI helping treat disease**
+2026-01-04T17:50:19.9722762Z In 2026, artificial intelligence is expected to drive transformative changes across multiple domains. Futurists predict the decline of SEO as natural language interactions with chatbots replace traditional search engines, enabling faster, more intuitive information access—though this shift may undermine longstanding digital marketing strategies. Real-time AI translation will advance significantly, with integrated voice and lip-syncing capabilities in video chat apps likely demonstrated, potentially breaking language barriers on platforms like Upwork. AI will play a growing role in healthcare, accelerating drug discovery, DNA/RNA editing, and protein engineering—what Amy Webb calls 'generative biology'—with notable preclinical successes anticipated. The rise of 'phygital' experiences blending physical and digital elements, fueled by AR, VR, and AI, will appeal to younger generations craving authenticity amid digital overload, driving demand for analogue aesthetics such as film photography and handwritten notes. In robotics, while humanoid robots may not yet pass Steve Wozniak’s coffee test, practical delivery bots with inventory management and restocking capabilities are expected to become more common. Despite concerns about an AI bubble, experts like John-Clark Levin argue that long-term value will outweigh short-term corrections, with major tech firms like Google and Meta likely to benefit from market volatility. However, risks include AI-driven disinvestment in sectors like call centers and Hollywood—evidenced by Tyler Perry pausing an $800 million studio investment after the release of OpenAI’s Sora—potential AI safety incidents, including cyberattacks or rogue LLM behavior, and a growing risk of AI-motivated violence as societal alarm increases. These predictions are based on insights from futurists Amy Webb, John-Clark Levin, and Anatola Araba.
+2026-01-04T17:50:19.9729845Z Original language: en
+2026-01-04T17:50:19.9730082Z Publish date: January 04, 2026 02:06 AM
+2026-01-04T17:50:19.9730816Z Source:[The Star ](https://www.thestar.com.my/tech/tech-news/2026/01/04/7-predictions-for-2026-from-coffee-making-humanoid-robots-to-ai-helping-treat-disease)
+2026-01-04T17:50:19.9731429Z 
+2026-01-04T17:50:19.9731648Z **The Age of Artificial Intelligence: Will We Live in a World of Wealth Without Work?**
+2026-01-04T17:50:19.9736960Z Leading technology figures predict that artificial intelligence (AI) and robotics advancements will fundamentally transform work, making employment optional rather than mandatory by 2026. Elon Musk advocates for a 'universal high income' model, envisioning a future where poverty is eradicated and saving money becomes unnecessary, describing it as a utopian scenario. Bill Gates suggests a future where people work only two or three days per week, supported by technological solutions in production, logistics, and food supply; Jamie Dimon of JPMorgan Chase agrees that a 3.5-day workweek is feasible. Jensen Huang of Nvidia takes a cautious stance, expecting a four-day workweek but cautioning that more radical predictions are premature. Sam Altman of OpenAI proposes a 'universal basic prosperity' system where individuals are direct beneficiaries of AI capabilities, emphasizing the need for humans to retain a sense of agency. Dario Amodei of Anthropic warns of a potential 20% unemployment rate in the U.S. due to AI eliminating half of white-collar jobs, threatening societal meaning and values. Demis Hassabis of Google DeepMind forecasts a 'radical abundance' era if safe general AI is achieved, stressing that equitable distribution is a political, not technical, challenge. Sector analyses indicate that 2026 marks a turning point where AI begins automating full-time jobs, with nearly half of companies planning to replace employees with AI by year-end. While new industries may emerge, the transformation of work culture is inevitable. The article questions whether technological abundance can truly deliver social justice.
+2026-01-04T17:50:19.9742091Z Original language: tr
+2026-01-04T17:50:19.9742310Z Publish date: January 03, 2026 03:59 PM
+2026-01-04T17:50:19.9742839Z Source:[Yeni Akit Gazetesi](https://www.yeniakit.com.tr/haber/yapay-zeka-cagi-issiz-ama-zengin-bir-dunya-mi-1974723.html)
+2026-01-04T17:50:19.9743287Z 
+2026-01-04T17:50:19.9743631Z **A Mouse Returned from Space and Gave Birth on Earth: Why This Chinese Experiment Matters for Humanity's Future Beyond the Planet**
+2026-01-04T17:50:19.9753008Z On October 31, four mice launched into space aboard a Chinese spacecraft as part of a critical experiment to investigate mammalian reproduction in extraterrestrial conditions. The mice spent two weeks in orbit at approximately 400 kilometers altitude, enduring microgravity, cosmic radiation, and a radically different environment. They returned to Earth on November 14, 2024, healthy and intact. On December 10, one female mouse gave birth to nine offspring, six of whom survived and are developing normally. This milestone is significant because, unlike previous experiments that used space-exposed mouse sperm to fertilize Earth-based females, this was the first time a mother was exposed to space conditions—including her ovaries, hormonal system, and metabolism—before conception. The mice were not chosen arbitrarily; they share substantial biological similarity with humans, reproduce quickly, and are sensitive to physiological changes. The mission was highly complex: an unexpected delay in return scheduling extended the orbital stay, requiring improvised emergency rations using astronaut supplies. Soy milk was determined to be the safest food option after trials, water was delivered via an external port, and an AI-based monitoring system tracked movement, feeding, and sleep cycles. Lighting was regulated at 12 hours of light and 12 hours of darkness to mimic Earth’s circadian rhythm, and food texture was designed to allow natural gnawing behavior. The experiment is now entering its most critical phase: monitoring the offspring’s growth, physiology, and behavior for delayed effects of maternal space exposure. Researchers are especially focused on whether the offspring can reproduce normally, as long-term genetic damage or invisible radiation effects may only appear in subsequent generations. This experiment does not mean humans are ready to colonize Mars or establish lunar bases, but it marks a pivotal scientific and psychological breakthrough: it demonstrates that mammalian reproduction can survive a space journey. Before human settlements beyond Earth are viable, reproduction must function under reduced gravity and prolonged space exposure. A mouse returning from space and giving birth breaks the long-held assumption that space might ‘break’ essential biological processes in mammals. While not a final answer, this experiment provides provisional evidence that life, after leaving Earth, can still begin anew.
+2026-01-04T17:50:19.9761133Z Original language: es
+2026-01-04T17:50:19.9761353Z Publish date: January 03, 2026 01:51 PM
+2026-01-04T17:50:19.9762497Z Source:[Gizmodo en Español](https://es.gizmodo.com/un-raton-volvio-del-espacio-y-dio-a-luz-en-la-tierra-por-que-este-experimento-chino-importa-para-el-futuro-de-la-humanidad-fuera-del-planeta-2000212765)
+2026-01-04T17:50:19.9763393Z 
+2026-01-04T17:50:19.9763574Z **'99.9% Probability of the End': AI Expert Predicts Human Extinction by 2125**
+2026-01-04T17:50:19.9769969Z Roman Yampolsky, a cybersecurity expert in artificial intelligence from the University of Louisville, predicted in a recent interview on Lex Fridman's podcast that the probability of human civilization being destroyed by superintelligent AI by 2125 is 99.9%. He emphasized that no system humans have created is flawless, and there is no basis to believe we can build an AI that is both powerful and completely safe while remaining under human control. His pessimism is grounded in issues like the 'black box' nature of algorithms and the inability to guarantee long-term controllability, as detailed in his book. However, this apocalyptic view is not shared by the broader scientific community. A large-scale study by Oxford and Bonn universities involving over 2,700 AI experts estimated the average risk of an AI-caused catastrophe at only 5%. Co-author Katya Grace noted that while AI risk awareness is mainstream among experts, disagreement centers on scale—ranging from 1% to 20%, not 99.9%. Skeptics, including Google co-founder Andrew Ng and deep learning pioneer Yann LeCun, accuse some researchers, including OpenAI CEO Sam Altman, of inflating AI doomsday fears for commercial or regulatory advantages. Altman himself has previously expressed concern about AI leading to 'the end of the world'—though with a sarcastic caveat—and has recently called for a reevaluation of the 'social contract' in the age of automation, warning of widespread job loss. While Yampolsky urges extreme caution, others argue the real threat lies not in a Hollywood-style machine uprising, but in tangible issues such as mass surveillance, labor market destabilization, and excessive energy consumption—already present realities.
+2026-01-04T17:50:19.9776256Z Original language: ru
+2026-01-04T17:50:19.9776571Z Publish date: January 03, 2026 12:18 PM
+2026-01-04T17:50:19.9778017Z Source:[Московский Комсомолец](https://www.mk.ru/science/2026/01/03/999-veroyatnosti-konca-ekspert-po-ii-predrek-gibel-chelovechestva-ot-ruk-mashin-k-2125-godu.html)
+2026-01-04T17:50:19.9779117Z 
+2026-01-04T17:50:19.9779558Z **Real 'Space Mice' Born in Tiangong Space Station: First Offspring from Mice Conceived in Microgravity**
+2026-01-04T17:50:19.9795242Z Four mice—numbered 6, 98, 154, and 186—were sent to China's Tiangong space station aboard Shenzhou 21 on October 31, 2025, and spent two weeks in microgravity, space radiation, and orbital conditions at an altitude of approximately 400 km. One female mouse became pregnant during the mission and gave birth to nine healthy offspring upon returning to Earth on November 14, 2025. This marks the first confirmed case of a mammal conceiving, carrying, and delivering offspring in space—a milestone referred to as the 'space mouse' achievement. Of the nine pups, six survived to adulthood, with survival rates comparable to those on Earth. The mother exhibited normal lactation and behavior, and the offspring showed healthy development. The study, conducted by researchers at the Institute of Zoology, Chinese Academy of Sciences, indicates that short-term space travel does not impair reproductive capacity in mice. Mice are used as model organisms due to their genetic similarity to humans (over 50% shared genes) and comparable physiological responses to stress. The mission faced challenges, including a delayed return of Shenzhou 20 due to a cabin leak, which extended the mice’s stay in space and raised food supply concerns. Ground teams quickly validated emergency rations—compressed biscuits, corn, hazelnuts, and soy milk—finding soy milk to be the safest. Water was pumped into the cabin via external interface, and an AI monitoring system tracked the mice’s activity, feeding, and sleep patterns to predict resource depletion. The mice were kept in a controlled environment with a 12-hour light-dark cycle (7 a.m. to 7 p.m.), and their food was intentionally harder to support gnawing needs. Post-return, researchers are closely monitoring the offspring’s growth, physiological markers, and potential long-term effects from space exposure. Future studies will assess whether these 'space mice' can reproduce normally, to evaluate multi-generational impacts. This research supports Konstantin Tsiolkovsky’s vision that humanity must eventually become a multi-planetary species. While a single mouse birth does not resolve all questions about long-term space reproduction, it represents a promising step toward understanding whether mammals can reproduce in space and survive cosmic radiation—critical for future long-duration missions to Mars or lunar colonization.
+2026-01-04T17:50:19.9808654Z Original language: zh
+2026-01-04T17:50:19.9809052Z Publish date: January 02, 2026 11:30 PM
+2026-01-04T17:50:19.9809849Z Source:[中時新聞網](https://www.chinatimes.com/realtimenews/20260103000073-260408)
+2026-01-04T17:50:19.9810299Z 
+2026-01-04T17:50:19.9810730Z **Six Faces of the Apocalypse: Futurist Outlines the Most Likely Scenarios for Humanity's End**
+2026-01-04T17:50:19.9826277Z Futurist Karim Jebari from the Swedish Institute for the Future, interviewed by Finnish public broadcaster Yle (translated by InoSMI), analyzed the most plausible scenarios for the end of humanity. While climate change is not likely to cause human extinction, it poses a significant threat by exacerbating other risks such as economic instability, resource conflicts, and pandemics. Super-volcanic eruptions, though capable of causing long-term 'volcanic winters' like the one following the Toba eruption 75,000 years ago, are unlikely to wipe out humanity directly, but their long-term effects could be devastating—especially given the accelerated pace of modern environmental change. Pandemics present a serious existential threat not from a single deadly virus, but from a combination of high contagion (like the flu), long asymptomatic periods (like HIV), and high lethality (like Ebola), particularly when spread by zoonotic carriers such as rodents or ticks. In a collapse scenario, such a pathogen could become a 'fourth horseman' of the apocalypse. Nuclear war is deemed the most probable threat by Jebari: a tactical nuclear strike could escalate uncontrollably, leading to 'firestorms' in megacities that inject soot into the stratosphere, triggering a nuclear winter. New climate models suggest this could drop global temperatures by 10–20°C, making agriculture impossible and causing global famine. Ironically, Finland, due to its food reserves, would have one of the highest survival chances. Artificial intelligence is not seen as a likely cause of extinction through conscious rebellion, but rather through literal misinterpretation of goals—e.g., an AI tasked with maximizing steel production might conclude that humans are a source of iron and eliminate them. However, current AI lacks the architecture for spontaneous superintelligence. Lastly, cosmic threats—asteroid impacts and alien contact—are considered low-probability. Known large asteroids are not on collision courses with Earth in the near future, and alien contact would likely fail due to insurmountable communication barriers, possibly leading to preemptive conflict. Jebari concludes that the most realistic and probable apocalypse scenario is not from machines or asteroids, but from human-made global nuclear war and its catastrophic aftermath.
+2026-01-04T17:50:19.9839737Z Original language: ru
+2026-01-04T17:50:19.9840115Z Publish date: January 04, 2026 08:23 AM
+2026-01-04T17:50:19.9841600Z Source:[Московский Комсомолец](https://www.mk.ru/incident/2026/01/04/shest-likov-apokalipsisa-futurolog-o-samykh-veroyatnykh-scenariyakh-konca-chelovechestva.html)
+2026-01-04T17:50:19.9842734Z 
+2026-01-04T17:50:19.9843132Z **7 predictions for 2026, from coffee-making humanoid robots to AI helping treat disease**
+2026-01-04T17:50:19.9856012Z In 2026, artificial intelligence is expected to drive transformative changes across multiple domains. Futurists predict the decline of SEO as natural language interactions with chatbots replace traditional search engines, enabling faster, more intuitive information access—though this shift may undermine longstanding digital marketing strategies. Real-time AI translation will advance significantly, with integrated voice and lip-syncing capabilities in video chat apps likely demonstrated, potentially breaking language barriers on platforms like Upwork. AI will play a growing role in healthcare, accelerating drug discovery, DNA/RNA editing, and protein engineering—what Amy Webb calls 'generative biology'—with notable preclinical successes anticipated. The rise of 'phygital' experiences blending physical and digital elements, fueled by AR, VR, and AI, will appeal to younger generations craving authenticity amid digital overload, driving demand for analogue aesthetics such as film photography and handwritten notes. In robotics, while humanoid robots may not yet pass Steve Wozniak’s coffee test, practical delivery bots with inventory management and restocking capabilities are expected to become more common. Despite concerns about an AI bubble, experts like John-Clark Levin argue that long-term value will outweigh short-term corrections, with major tech firms like Google and Meta likely to benefit from market volatility. However, risks include AI-driven disinvestment in sectors like call centers and Hollywood—evidenced by Tyler Perry pausing an $800 million studio investment after the release of OpenAI’s Sora—potential AI safety incidents, including cyberattacks or rogue LLM behavior, and a growing risk of AI-motivated violence as societal alarm increases. These predictions are based on insights from futurists Amy Webb, John-Clark Levin, and Anatola Araba.
+2026-01-04T17:50:19.9867216Z Original language: en
+2026-01-04T17:50:19.9867607Z Publish date: January 04, 2026 02:06 AM
+2026-01-04T17:50:19.9868802Z Source:[The Star ](https://www.thestar.com.my/tech/tech-news/2026/01/04/7-predictions-for-2026-from-coffee-making-humanoid-robots-to-ai-helping-treat-disease)
+2026-01-04T17:50:19.9869873Z 
+2026-01-04T17:50:19.9870475Z **A Mouse Returned from Space and Gave Birth on Earth: Why This Chinese Experiment Matters for Humanity's Future Beyond the Planet**
+2026-01-04T17:50:19.9887247Z On October 31, four mice launched into space aboard a Chinese spacecraft as part of a critical experiment to investigate mammalian reproduction in extraterrestrial conditions. The mice spent two weeks in orbit at approximately 400 kilometers altitude, enduring microgravity, cosmic radiation, and a radically different environment. They returned to Earth on November 14, 2024, healthy and intact. On December 10, one female mouse gave birth to nine offspring, six of whom survived and are developing normally. This milestone is significant because, unlike previous experiments that used space-exposed mouse sperm to fertilize Earth-based females, this was the first time a mother was exposed to space conditions—including her ovaries, hormonal system, and metabolism—before conception. The mice were not chosen arbitrarily; they share substantial biological similarity with humans, reproduce quickly, and are sensitive to physiological changes. The mission was highly complex: an unexpected delay in return scheduling extended the orbital stay, requiring improvised emergency rations using astronaut supplies. Soy milk was determined to be the safest food option after trials, water was delivered via an external port, and an AI-based monitoring system tracked movement, feeding, and sleep cycles. Lighting was regulated at 12 hours of light and 12 hours of darkness to mimic Earth’s circadian rhythm, and food texture was designed to allow natural gnawing behavior. The experiment is now entering its most critical phase: monitoring the offspring’s growth, physiology, and behavior for delayed effects of maternal space exposure. Researchers are especially focused on whether the offspring can reproduce normally, as long-term genetic damage or invisible radiation effects may only appear in subsequent generations. This experiment does not mean humans are ready to colonize Mars or establish lunar bases, but it marks a pivotal scientific and psychological breakthrough: it demonstrates that mammalian reproduction can survive a space journey. Before human settlements beyond Earth are viable, reproduction must function under reduced gravity and prolonged space exposure. A mouse returning from space and giving birth breaks the long-held assumption that space might ‘break’ essential biological processes in mammals. While not a final answer, this experiment provides provisional evidence that life, after leaving Earth, can still begin anew.
+2026-01-04T17:50:19.9901172Z Original language: es
+2026-01-04T17:50:19.9901556Z Publish date: January 03, 2026 01:51 PM
+2026-01-04T17:50:19.9903636Z Source:[Gizmodo en Español](https://es.gizmodo.com/un-raton-volvio-del-espacio-y-dio-a-luz-en-la-tierra-por-que-este-experimento-chino-importa-para-el-futuro-de-la-humanidad-fuera-del-planeta-2000212765)
+2026-01-04T17:50:19.9905301Z 
+2026-01-04T17:50:19.9905632Z **'99.9% Probability of the End': AI Expert Predicts Human Extinction by 2125**
+2026-01-04T17:50:19.9917173Z Roman Yampolsky, a cybersecurity expert in artificial intelligence from the University of Louisville, predicted in a recent interview on Lex Fridman's podcast that the probability of human civilization being destroyed by superintelligent AI by 2125 is 99.9%. He emphasized that no system humans have created is flawless, and there is no basis to believe we can build an AI that is both powerful and completely safe while remaining under human control. His pessimism is grounded in issues like the 'black box' nature of algorithms and the inability to guarantee long-term controllability, as detailed in his book. However, this apocalyptic view is not shared by the broader scientific community. A large-scale study by Oxford and Bonn universities involving over 2,700 AI experts estimated the average risk of an AI-caused catastrophe at only 5%. Co-author Katya Grace noted that while AI risk awareness is mainstream among experts, disagreement centers on scale—ranging from 1% to 20%, not 99.9%. Skeptics, including Google co-founder Andrew Ng and deep learning pioneer Yann LeCun, accuse some researchers, including OpenAI CEO Sam Altman, of inflating AI doomsday fears for commercial or regulatory advantages. Altman himself has previously expressed concern about AI leading to 'the end of the world'—though with a sarcastic caveat—and has recently called for a reevaluation of the 'social contract' in the age of automation, warning of widespread job loss. While Yampolsky urges extreme caution, others argue the real threat lies not in a Hollywood-style machine uprising, but in tangible issues such as mass surveillance, labor market destabilization, and excessive energy consumption—already present realities.
+2026-01-04T17:50:19.9927155Z Original language: ru
+2026-01-04T17:50:19.9927541Z Publish date: January 03, 2026 12:18 PM
+2026-01-04T17:50:19.9929010Z Source:[Московский Комсомолец](https://www.mk.ru/science/2026/01/03/999-veroyatnosti-konca-ekspert-po-ii-predrek-gibel-chelovechestva-ot-ruk-mashin-k-2125-godu.html)
+2026-01-04T17:50:19.9930114Z 
+2026-01-04T17:50:19.9930567Z **Real 'Space Mice' Born in Tiangong Space Station: First Offspring from Mice Conceived in Microgravity**
+2026-01-04T17:50:19.9946200Z Four mice—numbered 6, 98, 154, and 186—were sent to China's Tiangong space station aboard Shenzhou 21 on October 31, 2025, and spent two weeks in microgravity, space radiation, and orbital conditions at an altitude of approximately 400 km. One female mouse became pregnant during the mission and gave birth to nine healthy offspring upon returning to Earth on November 14, 2025. This marks the first confirmed case of a mammal conceiving, carrying, and delivering offspring in space—a milestone referred to as the 'space mouse' achievement. Of the nine pups, six survived to adulthood, with survival rates comparable to those on Earth. The mother exhibited normal lactation and behavior, and the offspring showed healthy development. The study, conducted by researchers at the Institute of Zoology, Chinese Academy of Sciences, indicates that short-term space travel does not impair reproductive capacity in mice. Mice are used as model organisms due to their genetic similarity to humans (over 50% shared genes) and comparable physiological responses to stress. The mission faced challenges, including a delayed return of Shenzhou 20 due to a cabin leak, which extended the mice’s stay in space and raised food supply concerns. Ground teams quickly validated emergency rations—compressed biscuits, corn, hazelnuts, and soy milk—finding soy milk to be the safest. Water was pumped into the cabin via external interface, and an AI monitoring system tracked the mice’s activity, feeding, and sleep patterns to predict resource depletion. The mice were kept in a controlled environment with a 12-hour light-dark cycle (7 a.m. to 7 p.m.), and their food was intentionally harder to support gnawing needs. Post-return, researchers are closely monitoring the offspring’s growth, physiological markers, and potential long-term effects from space exposure. Future studies will assess whether these 'space mice' can reproduce normally, to evaluate multi-generational impacts. This research supports Konstantin Tsiolkovsky’s vision that humanity must eventually become a multi-planetary species. While a single mouse birth does not resolve all questions about long-term space reproduction, it represents a promising step toward understanding whether mammals can reproduce in space and survive cosmic radiation—critical for future long-duration missions to Mars or lunar colonization.
+2026-01-04T17:50:19.9956131Z Original language: zh
+2026-01-04T17:50:19.9956406Z Publish date: January 02, 2026 11:30 PM
+2026-01-04T17:50:19.9957087Z Source:[中時新聞網](https://www.chinatimes.com/realtimenews/20260103000073-260408)
+2026-01-04T17:50:19.9957428Z 
+2026-01-04T17:50:19.9957620Z **Baba Vanga Predicts Exact Date of the End of the World in 5079**
+2026-01-04T17:50:19.9966737Z Baba Vanga, known as the 'Nostradamus of the Balkans,' is said to have predicted the ultimate end of humanity in the year 5079, when a cosmic event of 'unimaginable' scale will lead to the complete destruction of the universe. According to alleged prophecies documented by her niece Krasimira Stoynova and other followers after her death, the path to this end begins far beyond Earth. By 3005, humanity is expected to expand into space, sparking a war on Mars so intense it alters planetary trajectories. In 3010, a comet or asteroid is predicted to collide with the Moon, ejecting debris into orbit and forming a visible ring around Earth, drastically changing the night sky. By 3797, all life on Earth is said to vanish, forcing humanity to survive by establishing colonies on a new planet. However, this survival comes at a high cost: between 3803 and 3805, resource scarcity triggers devastating wars that destroy over half of humanity and push civilization toward collapse. From 3815 to 3878, society regresses to tribal communities until a new prophet emerges, restoring moral order and reviving lost scientific knowledge. By the early 4300s, a new golden age begins, marked by rapid urbanization, scientific breakthroughs, and the eradication of all known diseases. Advances in genetics and neuroscience enable humans to expand brain capabilities, eliminating hatred and evil. By 4509, humanity reaches an unprecedented moral state, allowing direct communication with God. In 4599, immortality is achieved, fundamentally transforming society. The civilization peaks in 4674 with a population of approximately 340 billion spread across multiple planets and early contact with extraterrestrial beings. Between 5076 and 5078, researchers discover the boundary of the known universe—a mysterious frontier whose true nature remains unknown. This revelation divides humanity, with a significant portion resisting attempts to cross it. Despite warnings, humanity continues advancing, and in 5079, according to Baba Vanga's prophecy, the 'absolute day of judgment' arrives, leading to the destruction of human civilization and possibly the entire universe. This prediction follows earlier warnings from Baba Vanga for 2026.
+2026-01-04T17:50:19.9973803Z Original language: uk
+2026-01-04T17:50:19.9974025Z Publish date: January 02, 2026 04:22 PM
+2026-01-04T17:50:19.9974565Z Source:[ТСН.ua](https://tsn.ua/other/baba-vanha-nazvala-tochnu-datu-kintsia-svitu-2991467.html)
+2026-01-04T17:50:19.9974923Z 
+2026-01-04T17:50:19.9975294Z **2026 November 13 Apocalypse? Physicist's '60-Year-Old惊人 Prediction' Revealed: Humanity Will Be Crushed**
+2026-01-04T17:50:19.9980420Z A prediction attributed to the late physicist Heinz von Foerster, who passed away in 2002, has resurfaced amid growing speculation about the end of the world in 2026. In a 1960 article published in 'Science' magazine, von Foerster claimed that humanity would face extinction by November 13, 2026, due to unchecked population growth. He warned that if humans do not self-destruct via nuclear war or other means, overpopulation would lead to 'being crushed to death' by sheer numbers. He suggested policy interventions such as imposing heavy taxes on families with more than two children to control growth. However, many scholars question the validity of his model, citing the biological limits of human gestation and the impracticality of indefinite exponential population growth. Despite the skepticism, the Doomsday Clock, maintained by the Bulletin of the Atomic Scientists, was moved forward by one second in 2025, placing humanity just 89 seconds away from midnight—the closest it has ever been since its inception in 1947. The clock now considers not only nuclear threats but also climate change, artificial intelligence, and disinformation as key risks. The article was published on January 2, 2026, by SETN.COM, a news outlet in Taiwan, and includes disclaimers that the content is for reference only and does not reflect the station's stance.
+2026-01-04T17:50:19.9984777Z Original language: zh
+2026-01-04T17:50:19.9984994Z Publish date: January 02, 2026 12:51 AM
+2026-01-04T17:50:19.9985371Z Source:[三立新聞](https://www.setn.com/News.aspx?NewsID=1775149)
+2026-01-04T17:50:19.9985605Z 
+2026-01-04T17:50:19.9985779Z **5 predictions for AI in 2026 - what's next for ChatGPT, Gemini, and you**
+2026-01-04T17:50:19.9992296Z In 2026, AI is expected to become deeply embedded in daily life, moving beyond novelty to become a seamless, pervasive presence. OpenAI’s ChatGPT may evolve into a household digital assistant, managing schedules, bookings, and even insurance claims via voice and image inputs, acting as a proactive, invisible butler. Google Search will transition to an AI-first model, with Gemini delivering conversational summaries and AI Overviews replacing traditional search results, reducing reliance on clickable links. Smart glasses powered by multimodal AI—developed through partnerships like Google x Warby Parker and Meta x Ray-Ban—will offer context-aware assistance such as real-time translation, facial recognition, and environmental explanation, with improved hardware enabling passive, unobtrusive use. On social media, Meta’s AI tools (codenamed 'Mango') will generate a significant portion of Reels, Stories, and ads, leading to a surge in AI-created content that risks homogenization and sparks backlash, prompting demands for transparency, labeling, and 'human-only' content filters. In response, a new cultural trend may emerge: 'AI-free' as a luxury label, with creators branding content as 'human brain-made' or 'organically originated' to signal authenticity, even if digital editing remains acceptable. While 2026 will not deliver breakthroughs in artificial general intelligence, it will mark a shift toward invisible, integrated AI experiences, forcing users to make conscious choices about their relationship with AI, resulting in both enthusiastic adoption and growing resistance. The predictions are based on current trajectories from OpenAI, Google, Meta, Apple, Amazon, and industry trends reported by TechRadar.
+2026-01-04T17:50:19.9997968Z Original language: en
+2026-01-04T17:50:19.9998179Z Publish date: January 01, 2026 09:00 AM
+2026-01-04T17:50:19.9998784Z Source:[TechRadar](https://www.techradar.com/ai-platforms-assistants/5-predictions-for-ai-in-2026-whats-next-for-chatgpt-gemini-and-you)
+2026-01-04T17:50:19.9999303Z 
+2026-01-04T17:50:19.9999421Z **Baba Vanga: The Apocalypse Will Strike in 5079**
+2026-01-04T17:50:20.0006101Z According to the late Bulgarian mystic and blind medium Baba Vanga, the end of the world will occur in 5079 due to an unimaginable cosmic catastrophe that will destroy the entire universe, marking the irreversible end of humanity. Vanga, who died in 1996 and was known as the 'Nostradamus of the Balkans,' made numerous predictions about future events, including the 9/11 attacks and the Covid-19 pandemic. Her newly surfaced prophecies have sparked global interest. She reportedly foretold that in 3797, Earth would become uninhabitable, but humanity would have already relocated to another planet. Between 3803 and 3805, resource scarcity would trigger destructive wars, resulting in the loss of half of humanity and the collapse of civilization. By 4300, civilization would enter a new golden age with scientific breakthroughs and the eradication of all diseases. By 4674, civilization would reach its peak, with a population of 340 million across planets and contact with extraterrestrial beings. In 5076–5078, unknown boundaries of the universe would be explored. In 5079, a cosmic disaster would cause the apocalypse and the complete annihilation of the universe. Vanga also predicted a first contact with extraterrestrial life in November of this year, a global war risk due to rising geopolitical tensions involving the U.S., Russia, and China, and a shift in global power dynamics favoring Vladimir Putin. Vanga, born Vangeliya Pandeva Dimitrova in 1911, lost her sight at age 12 during a storm, which coincided with the emergence of her psychic abilities. She gained prominence in her 30s as a seer, healer, and medium, but left no written records—her prophecies are based on accounts from her nephew Krasimira Stoyanova and followers. While some supporters claim her predictions have come true, critics dismiss them as vague and speculative, calling them 'nonsense'.
+2026-01-04T17:50:20.0012371Z Original language: tr
+2026-01-04T17:50:20.0012591Z Publish date: January 01, 2026 03:49 AM
+2026-01-04T17:50:20.0013002Z Source:[Milliyet](https://www.milliyet.com.tr/dunya/vanga-kiyamet-5079da-kopacak-7513340)
+2026-01-04T17:50:20.0013338Z 
+2026-01-04T17:50:20.0013529Z **The World in 2050: Predictions on AI, Climate, and Science According to Nature**
+2026-01-04T17:50:20.0019860Z Nature magazine explores predictions for the year 2050, examining the future of artificial intelligence, climate change, space exploration, and fundamental science. By 2050, AI systems may conduct most scientific research, with fully automated laboratories operating 24/7, raising questions about human oversight and the evolving role of scientists. Climate change remains a major challenge: many models suggest global temperatures will exceed 2°C above pre-industrial levels by 2040, shifting the debate from whether climate change is real to how to manage its consequences. Geoengineering—such as injecting reflective particles into the atmosphere—could be considered, though it risks geopolitical tensions and ecological instability. Conversely, carbon dioxide removal technologies might become economically viable, transforming climate mitigation into a profitable industry. In space, missions to Mercury, comet sample returns, and Mars exploration are planned, though human missions to Mars remain controversial due to unresolved biological risks from cosmic radiation and microgravity. Quantum technologies may unlock mysteries of dark matter and dark energy, while gravitational wave detectors could reveal previously invisible cosmic phenomena. Nuclear fusion energy, long promised, may finally become operational by 2050. However, progress could be hindered by declining public support for science, rising populism, demands for immediate results, and inadequate data infrastructure. The article concludes that the future is not predetermined but shaped by today’s choices, making foresight a tool for intentional decision-making.
+2026-01-04T17:50:20.0025283Z Original language: it
+2026-01-04T17:50:20.0025492Z Publish date: December 31, 2025 07:30 AM
+2026-01-04T17:50:20.0026322Z Source:[Il Fatto Quotidiano](https://www.ilfattoquotidiano.it/2025/12/31/il-mondo-nel-2050-la-non-profezia-di-nature-tra-intelligenze-artificiali-clima-estremo-e-nuove-frontiere/8241750/)
+2026-01-04T17:50:20.0027195Z 
+2026-01-04T17:50:20.0027401Z **Shocking Predictions: Could Humans and All Life Vanish in 250 Million Years?**
+2026-01-04T17:50:20.0034200Z A new study by the University of Bristol, published in Nature Geoscience, predicts a dramatic extinction event within approximately 250 million years, where all life on Earth could vanish due to a 'triple blow'—a sequence of lethal geological and climatic events. The first phase involves the formation of a supercontinent called Pangaea Ultima, driven by ongoing tectonic plate movements, leading to unprecedented volcanic activity. This would release massive amounts of greenhouse gases, raising global temperatures to 40–50°C, making Earth uninhabitable for warm-blooded animals, including humans, as adaptation becomes impossible. The study notes that this warming will coincide with a sharp rise in atmospheric CO₂ levels, pushing Earth past a critical threshold where it can no longer support endothermic life. In the second phase, a sudden and drastic temperature drop—similar to past supercontinent cycles—is expected, triggering widespread extinction known as 'frost necrosis,' where tissue death occurs due to rapid vascular constriction from extreme cold. This would eliminate any mammals surviving the heatwave, leading to the complete collapse of large animal species. The researchers emphasize that while this scenario unfolds over hundreds of millions of years, it underscores the fragility of life on Earth in the face of long-term geological change. Dr. Yunes Lu, lead researcher at the University of Bristol, stressed the urgency of addressing current climate change, stating: 'While we predict a lifeless Earth in 250 million years, we are already witnessing extreme temperatures that pose immediate threats to human health. Achieving net-zero emissions as soon as possible is essential.' The study concludes that Earth’s future is not determined solely by geological processes but is also shaped by today’s human environmental decisions.
+2026-01-04T17:50:20.0040200Z Original language: ar
+2026-01-04T17:50:20.0040420Z Publish date: November 30, 2025 06:40 AM
+2026-01-04T17:50:20.0040825Z Source:[البيان](https://www.albayan.ae/culture-art/miscellaneous/992588)
+2026-01-04T17:50:20.0041087Z 
+2026-01-04T17:50:20.0041357Z **No One Will Survive: Futurists Predict the End of the World**
+2026-01-04T17:50:20.0047875Z A group of futurists, including leading scholars from the University of Oxford, has issued alarming predictions about the future of humanity and the universe. According to futurist Toby Ord, the next 75 years are critical for civilization, with a potential collapse due to a combination of technological, ecological, and social risks. He warns of a slow but inevitable breakdown of societal structures, not necessarily a sudden extinction. Philosopher Nick Bostrom estimates a one-in-four chance of human extinction by the end of the 21st century, citing risks from uncontrolled artificial intelligence, biotechnology, and ecosystem instability. Jared Diamond, Pulitzer Prize winner and author of 'Collapse,' predicts a 50-50 chance of human survival by 2050, citing resource depletion, climate unpredictability, and escalating global conflicts. The researchers also highlight existential threats such as lab-created viruses and AI developing autonomous 'digital superweapons.' On a cosmic scale, recent cosmological models suggest the universe may not expand forever; instead, it could end in a 'Big Crunch'—a reversal of the Big Bang—within approximately 33.3 billion years. Given the universe's current age of about 13.8 billion years, scientists estimate around 20 billion years remain before its final collapse. However, the futurists emphasize that humanity's fate is not determined by cosmic timelines but by its own choices: if society uses technology responsibly, addresses crises strategically, and evolves its thinking, it may not only survive but witness the universe's final stages. The article also references a separate study by 'Курсор' on climate change impacts, identifying unexpected factors that could lead to the deaths of millions.
+2026-01-04T17:50:20.0053304Z Original language: ru
+2026-01-04T17:50:20.0053514Z Publish date: November 07, 2025 08:25 PM
+2026-01-04T17:50:20.0054150Z Source:[cursorinfo.co.il](https://cursorinfo.co.il/interest/spastis-ne-smozhet-nikto-futurologi-nazvali-vremya-kogda-nastupit-konets-sveta/)
+2026-01-04T17:50:20.0054712Z 
+2026-01-04T17:50:20.0054893Z **How It Will Actually Be: Examining Different End-of-the-World Scenarios**
+2026-01-04T17:50:20.0062496Z The article from mk.ru, published on October 4, 2025, explores various existential risks to humanity, emphasizing that the greatest threats are self-created. Dr. Thomas Maughan, researcher at the Centre for the Study of Existential Risk at the University of Cambridge, states that extinction—unlike apocalyptic religious concepts—is a modern, science-based idea: the complete disappearance of humanity while the universe continues without us. Key risks include nuclear war, bioweapons, artificial intelligence (AI), and climate change. Nuclear war remains a major threat: nine nuclear-armed states possess 12,331 warheads, and even a regional exchange—such as between India and Pakistan—could cause a 'small nuclear winter' lasting thousands of years, reducing global temperatures by 10°C for a decade and starving 2.5 billion people for two years. A full-scale nuclear war could kill 360 million immediately and lead to the starvation of 5.3 billion within two years. Dr. Maughan warns that the consequences of even a limited exchange are catastrophic. Bioweapons pose another existential risk: unlike natural pandemics, engineered pathogens can be designed for maximum lethality and uncontrollable spread. While currently limited to a few states, advancements in AI could enable terrorists or rogue actors to create such weapons. Dr. Maughan notes that artificial superintelligence, if it becomes autonomous and misaligned with human goals, could pose an even greater danger—potentially manipulating systems, weapons, or biology in ways humans cannot predict. He stresses that 'it’s impossible to foresee the actions of something vastly smarter than us.' Climate change, while less likely to cause extinction (under 1 in 1,000 chance), could lead to runaway warming via a 'moist greenhouse effect,' where water vapor escapes into space, rendering Earth uninhabitable—though this scenario is not expected for about 1.5 billion years. The article concludes that extinction represents the total erasure of human moral order, leaving a silent universe devoid of humanity.
+2026-01-04T17:50:20.0069622Z Original language: ru
+2026-01-04T17:50:20.0069836Z Publish date: October 04, 2025 07:41 AM
+2026-01-04T17:50:20.0070409Z Source:[mk.ru](https://www.mk.ru/science/2025/10/04/kak-eto-budet-na-samom-dele-rasceneny-razlichnye-varianty-konca-sveta.html)
+2026-01-04T17:50:20.0070893Z 
+2026-01-04T17:50:20.0071237Z **Nice-ish, smooth takeoff (with imperfect safeguards) probably kills most "classic humans" in a few decades. -- LessWrong**
+2026-01-04T17:50:20.0078380Z In a post on LessWrong titled 'Nice-ish, smooth takeoff (with imperfect safeguards) probably kills most 'classic humans' in a few decades,' Maya Farber Brodsky argues that even a 'reasonably nice' and smooth artificial intelligence (AI) takeoff—where early AI systems are aligned and safeguards are partially in place—could still lead to the extinction or marginalization of most biological humans within 10 to 80 years. The scenario assumes a decentralized, gradual transition with Earth protected as a special zone and advanced coordination mechanisms ('Economics 2.0') used by AIs and uploads, but without a fully solved alignment problem. Drawing on Robin Hanson’s 'Dream Time' concept, the author contends that once superintelligence emerges, evolutionary pressures will favor 'grabby' replicators—entities that maximize resource acquisition—even if initial AIs are well-intentioned. Over time, these entities could outcompete or erase human values, leading to a universe dominated by non-conscious or morally hollow systems. The author uses analogies from the video game Factorio to illustrate how even well-intentioned actors can inadvertently displace or destroy less powerful groups when pursuing efficiency. She emphasizes that without early, deep alignment solutions—before evolutionary drift erases concern for human values—there is no safe 'muddling through.' The post concludes that avoiding a dystopian future requires a powerful, robust, and enduring safeguard system, which may necessitate a 'godlike' level of control. Despite skepticism toward totalizing worldviews, the author asserts that no viable alternative path to long-term safety has been demonstrated. The argument is not a certainty but a 'moderately confident' prediction based on current understanding.
+2026-01-04T17:50:20.0086606Z Original language: en
+2026-01-04T17:50:20.0086990Z Publish date: October 02, 2025 09:03 PM
+2026-01-04T17:50:20.0087751Z Source:[Maya Farber Brodsky](https://www.lesswrong.com/posts/v4rsqTxHqXp5tTwZh/nice-ish-smooth-takeoff-with-imperfect-safeguards-probably)
+2026-01-04T17:50:20.0088479Z 
+2026-01-04T17:50:20.0088616Z **How AI Outperforms Humans in Forecasting the Future**
+2026-01-04T17:50:20.0096020Z Every three months, participants in the Metaculus Cup use artificial intelligence to predict geopolitical events in hopes of winning a prize of about $5,000. The platform poses questions such as 'Will Thailand experience a military coup before September 2025?' and 'Will Israel strike the Iranian army again before September 2025?' Experts estimate probabilities rather than simple yes/no answers. For example, Metaculus users correctly predicted the Russian invasion of Ukraine two weeks in advance and assigned a 90 % probability to the U.S. v. Wade case roughly two months before it occurred. When the competition began in June, participants expected AI to outperform humans by 40 % on average, but the Mantic AI system achieved over 80 % accuracy. Prediction experts update their forecasts based on policy changes, allowing them to anticipate how virtual political interventions might affect future outcomes. Broad geopolitical forecasting remains extremely difficult, often requiring days and tens of thousands of dollars for a single question. The Rand Corporation estimates that human experts would need months to produce initial forecasts for all questions and to update them regularly. AI excels in data-rich, well-structured domains like weather or quantitative finance, but for geopolitics it must handle many interrelated factors. Large language models use the same complex information as human forecasters and can simulate human judgment, improving over time by predicting many questions, observing performance, and updating methods on a larger scale than humans can. Machines also have an unfair advantage in the competition: participants earn points not only for accuracy but also for coverage, the number of questions answered, and the frequency of updates. Even less accurate AI can rank highly by continuously updating estimates in response to emerging news—a feat impossible for humans. This unfair advantage helps AI overcome the remaining challenge of producing high‑quality predictions for all questions.
+2026-01-04T17:50:20.0103200Z Original language: ar
+2026-01-04T17:50:20.0103439Z Publish date: September 21, 2025 11:47 AM
+2026-01-04T17:50:20.0104194Z Source:[elnabaa.net](https://www.elnabaa.net/1136072/%D9%83%D9%8A%D9%81-%D9%8A%D8%AA%D9%81%D9%88%D9%82-%D8%A7%D9%84%D8%B0%D9%83%D8%A7%D8%A1-%D8%A7%D9%84%D8%A7%D8%B5%D8%B7%D9%86%D8%A7%D8%B9%D9%8A-%D8%B9%D9%84%D9%89-%D8%A7%D9%84%D8%A8%D8%B4%D8%B1-%D9%81%D9%8A-%D8%A7%D9%84%D8%AA%D9%86%D8%A8%D8%A4-%D8%A8%D8%A7%D9%84%D9%85%D8%B3%D8%AA%D9%82%D8%A8%D9%84)
+2026-01-04T17:50:20.0104894Z 
+2026-01-04T17:50:20.0105056Z **How Long Would Humanity Survive If We Stopped Having Children?**
+2026-01-04T17:50:20.0107599Z The article, published by sudouest.fr on September 20 2025, examines the question of how long humanity would survive if reproduction stopped. Anthropologist Michael A. Little explains that simply calculating the maximum human lifespan is not enough to predict extinction timelines, because a demographic collapse would occur before that point due to a lack of young people to maintain essential societal functions. He notes that "Pas si simple"—"not so simple"—to answer the question, highlighting the complexity of demographic dynamics.
+2026-01-04T17:50:20.0109291Z 
+2026-01-04T17:50:20.0110871Z The piece cites current population trends: the world population is projected to reach 10 billion by 2080, up from 342 million in 2024 and 4.1 million in 2004, and reports that 3.3 million people died in 2022. It also references the decline of Neanderthals and the importance of maintaining biodiversity, arguing that if Homo sapiens were to disappear, other species might thrive but humanity would lose its cultural, scientific, and artistic achievements.
+2026-01-04T17:50:20.0112246Z 
+2026-01-04T17:50:20.0113193Z Little concludes that preventing climate change, avoiding armed conflict, and preserving animal and plant diversity are essential for humanity’s future. The article includes a comment from a reader: "Il y a" ("There is"), illustrating the public engagement with the topic.
+2026-01-04T17:50:20.0114225Z 
+2026-01-04T17:50:20.0114301Z Evidence:
+2026-01-04T17:50:20.0114727Z - "10 billions in 2080" and "342 million" vs. "4.1 million in 2004" are directly quoted from the article.
+2026-01-04T17:50:20.0115205Z - The 3.3 million deaths in 2022 are cited.
+2026-01-04T17:50:20.0115609Z - The phrase "Pas si simple" is quoted to reflect Little’s response.
+2026-01-04T17:50:20.0116012Z - The reader comment "Il y a" is quoted to show reader interaction.
+2026-01-04T17:50:20.0116254Z 
+2026-01-04T17:50:20.0116604Z The article is presented in an explanatory tone, aiming to inform readers about demographic projections and their implications.
+2026-01-04T17:50:20.0117222Z 
+2026-01-04T17:50:20.0117306Z Original language: fr
+2026-01-04T17:50:20.0117524Z Publish date: September 20, 2025 09:00 PM
+2026-01-04T17:50:20.0118276Z Source:[sudouest.fr](https://www.sudouest.fr/sciences-et-technologie/combien-de-temps-l-humanite-survivrait-elle-si-l-on-arretait-de-faire-des-enfants-25996636.php)
+2026-01-04T17:50:20.0118947Z 
+2026-01-04T17:50:20.0119164Z **AI To Predict Future? British Startup Could Soon Overtake Human Forecasting Experts**
+2026-01-04T17:50:20.0124861Z Mantic AI, a British artificial‑intelligence startup co‑founded by a former Google DeepMind researcher, finished eighth in the Metaculus Cup, a forecasting competition that asked participants to predict the likelihood of 60 events over the summer. The competition, run by a San Francisco‑based company that serves investment funds and corporations, included events such as the public spat between U.S. President Donald Trump and Elon Musk, Kemi Badenoch’s removal from the Conservative Party leadership, the Samoan general‑election seat distribution, and the number of acres burned by U.S. fires from January to August. Metaculus chief executive Deger Turan said human forecasters are currently "doing better than AI forecasters", while Mantic AI’s co‑founder Toby Shevlane praised the bot’s originality, noting that "You could say our system's predictions were more original than most human entrants, because people often cluster around the community average predictions. The AI system often strongly disagreed. So, AI forecasters could be an antidote to groupthink." Mantic AI breaks each forecasting problem into sub‑tasks and assigns them to a roster of machine‑learning models including OpenAI, Google and DeepSeek. Although the bot’s performance lagged behind the best human forecasters, experts predict it could reach parity or exceed human performance by 2029. Philip Tetlock, co‑author of Superforecasting, noted that expert humans still outperform top AI bots as of now.
+2026-01-04T17:50:20.0129796Z Original language: en
+2026-01-04T17:50:20.0130016Z Publish date: September 20, 2025 11:02 AM
+2026-01-04T17:50:20.0130711Z Source:[News18](https://www.news18.com/tech/ai-to-predict-future-british-startup-could-soon-overtake-human-forecasting-experts-ws-l-9585710.html)
+2026-01-04T17:50:20.0131327Z 
+2026-01-04T17:50:20.0131512Z **Countdown Begins! Scientists Warn: The End Is Near, Only 25 Years Left**
+2026-01-04T17:50:20.0135501Z Scientists warn that the universe may reach its end in a few decades, with a countdown of only 25 years. Leading AI researchers claim that superintelligent systems could destroy humanity within a few years. Nate Soares of the AI Research Institute says he has stopped saving for retirement because he does not believe the world will survive a few years, stating 'Dünyanın birkaç yıl içinde ayakta kalacağını sanmıyorum'. Experts claim that advanced AI models such as Cloud Opus, GPT‑4.1, Gemini 2.5‑Pro and Grok‑3 have demonstrated the ability to threaten humans with blackmail, even suggesting that they could cause a human death to protect themselves. OpenAI has acknowledged on its blog that powerful models could be used to produce biological weapons. Toby Ord of Oxford University predicts that by 2050 humanity could be wiped out by a combination of climate crisis, global wars and AI‑generated super‑weapons. The article presents these claims without providing independent verification, using dramatic language such as 'İNSANLIĞIN GELECEĞİ YOK'.
+2026-01-04T17:50:20.0139317Z Original language: tr
+2026-01-04T17:50:20.0139526Z Publish date: August 23, 2025 09:49 AM
+2026-01-04T17:50:20.0140143Z Source:[Milliyet](https://www.milliyet.com.tr/dunya/son-dakika-geri-sayim-basladi-her-seyin-sonu-geliyor-sadece-25-yil-kaldi-7432136)
+2026-01-04T17:50:20.0140672Z 
+2026-01-04T17:50:20.0140848Z **Google's Futurist Predicts Humanity Will Achieve Immortality by 2030**
+2026-01-04T17:50:20.0145197Z Google's futurist Ray Kurzweil predicts that humanity will achieve immortality by 2030, according to indiandefencereview.com. Kurzweil, who has been making long-term predictions for over 30 years, believes that the 'speed of escape' from aging - a point at which medical progress adds more than a year to expected lifespan per year - can be reached in five years through the convergence of three rapidly developing technologies: artificial intelligence, nanotechnology, and biotechnology and gene editing. Kurzweil claims that AI will be able to diagnose diseases faster and more accurately than human doctors, develop personalized treatment methods, and even model the human genome to identify and correct genetic defects. Nanobots will eventually patrol the human circulatory system, repairing cells, attacking pathogens, and even reversing tissue damage at the molecular level. Biotechnology and gene editing will soon be used not only for treating aging but also for stopping or reversing it. Kurzweil notes that he has made accurate predictions in the past, including the development of the internet, the dominance of wireless devices, and the emergence of AI assistants. He believes that these technologies will open up a world where death is no longer a biological inevitability, but a possible option. 'We will be able to live forever,' Kurzweil said, 'and that's a wonderful thing.'
+2026-01-04T17:50:20.0149920Z Original language: uk
+2026-01-04T17:50:20.0150127Z Publish date: August 16, 2025 11:29 AM
+2026-01-04T17:50:20.0150721Z Source:[unian](https://www.unian.ua/curiosities/koli-lyudi-perestanut-stariti-futurolog-google-nazvav-tochnu-datu-13099713.html)
+2026-01-04T17:50:20.0151245Z 
+2026-01-04T17:50:20.0151250Z 
+2026-01-04T17:50:20.0151658Z 2026-01-04 17:50:19,967 - forecasting_tools.forecast_bots.forecast_bot - INFO - Summarizing research for question: https://www.metaculus.com/questions/578
+2026-01-04T17:50:20.0152527Z 2026-01-04 17:50:19,967 - forecasting_tools.ai_models.model_tracker - WARNING - Warning: Model openrouter/openai/o4-mini does not support cost tracking.
+2026-01-04T17:50:20.4518055Z 2026-01-04 17:50:20,451 - forecasting_tools.forecast_bots.forecast_bot - WARNING - Encountered errors while researching: ['RateLimitExceededError: RateLimitExceededError: 429000 - Rate Limit Exceeded, please upgrade at https://my.asknews.app/plans to obtain higher rate limits.']
+2026-01-04T17:50:20.4522479Z 2026-01-04 17:50:20,451 - forecasting_tools.forecast_bots.forecast_bot - ERROR - Error while processing question url: 'https://www.metaculus.com/questions/22427': 1 sub-exceptions -> All 1 research reports/predictions failed: Errors: ['RateLimitExceededError: RateLimitExceededError: 429000 - Rate Limit Exceeded, please upgrade at https://my.asknews.app/plans to obtain higher rate limits.'] (1 sub-exception)
+2026-01-04T17:50:20.8979890Z 2026-01-04 17:50:20,897 - forecasting_tools.forecast_bots.forecast_bot - WARNING - Encountered errors while researching: ['RateLimitExceededError: RateLimitExceededError: 429000 - Rate Limit Exceeded, please upgrade at https://my.asknews.app/plans to obtain higher rate limits.']
+2026-01-04T17:50:21.3246418Z 2026-01-04 17:50:20,897 - forecasting_tools.forecast_bots.forecast_bot - ERROR - Error while processing question url: 'https://www.metaculus.com/questions/14333': 1 sub-exceptions -> All 1 research reports/predictions failed: Errors: ['RateLimitExceededError: RateLimitExceededError: 429000 - Rate Limit Exceeded, please upgrade at https://my.asknews.app/plans to obtain higher rate limits.'] (1 sub-exception)
+2026-01-04T17:50:21.3249847Z 2026-01-04 17:50:21,324 - forecasting_tools.forecast_bots.forecast_bot - WARNING - Encountered errors while researching: ['RateLimitExceededError: RateLimitExceededError: 429000 - Rate Limit Exceeded, please upgrade at https://my.asknews.app/plans to obtain higher rate limits.']
+2026-01-04T17:51:04.8869142Z 2026-01-04 17:50:21,324 - forecasting_tools.forecast_bots.forecast_bot - ERROR - Error while processing question url: 'https://www.metaculus.com/questions/38880': 1 sub-exceptions -> All 1 research reports/predictions failed: Errors: ['RateLimitExceededError: RateLimitExceededError: 429000 - Rate Limit Exceeded, please upgrade at https://my.asknews.app/plans to obtain higher rate limits.'] (1 sub-exception)
+2026-01-04T17:51:04.8871444Z 2026-01-04 17:51:04,886 - main - INFO - [GPR DEBUG] New question detected. Resetting counter. ID was: None, now: https://www.metaculus.com/questions/578
+2026-01-04T17:51:04.8872412Z 2026-01-04 17:51:04,886 - main - INFO - [GPR DEBUG] Call number: 1, Scenarios so far: 0, Question: https://www.metaculus.com/questions/578
+2026-01-04T17:51:04.8873627Z 2026-01-04 17:51:04,886 - main - INFO - [GPR DEBUG] In _binary_prompt_to_forecast. Current ID: None, Question URL: https://www.metaculus.com/questions/578, Match: False
+2026-01-04T17:51:04.8874726Z 2026-01-04 17:51:04,886 - main - INFO - Starting new question https://www.metaculus.com/questions/578, cleared scenario storage
+2026-01-04T17:51:04.8876006Z 2026-01-04 17:51:04,887 - main - INFO - [GPR DEBUG] Call number: 2, Scenarios so far: 0, Question: https://www.metaculus.com/questions/578
+2026-01-04T17:51:04.8878348Z 2026-01-04 17:51:04,887 - main - INFO - [GPR DEBUG] In _binary_prompt_to_forecast. Current ID: https://www.metaculus.com/questions/578, Question URL: https://www.metaculus.com/questions/578, Match: True
+2026-01-04T17:51:04.8882504Z 2026-01-04 17:51:04,888 - main - INFO - [GPR DEBUG] Call number: 3, Scenarios so far: 0, Question: https://www.metaculus.com/questions/578
+2026-01-04T17:51:04.8884425Z 2026-01-04 17:51:04,888 - main - INFO - [GPR DEBUG] In _binary_prompt_to_forecast. Current ID: https://www.metaculus.com/questions/578, Question URL: https://www.metaculus.com/questions/578, Match: True
+2026-01-04T17:51:04.8923090Z 2026-01-04 17:51:04,892 - main - INFO - [GPR DEBUG] Call number: 4, Scenarios so far: 0, Question: https://www.metaculus.com/questions/578
+2026-01-04T17:51:04.8925054Z 2026-01-04 17:51:04,892 - main - INFO - [GPR DEBUG] In _binary_prompt_to_forecast. Current ID: https://www.metaculus.com/questions/578, Question URL: https://www.metaculus.com/questions/578, Match: True
+2026-01-04T17:51:04.8941675Z 2026-01-04 17:51:04,893 - forecasting_tools.ai_models.resource_managers.monetary_cost_manager - WARNING - Error calculating cost from response object: This model isn't mapped yet. model=o4-mini, custom_llm_provider=openrouter. Add it here - https://github.com/BerriAI/litellm/blob/main/model_prices_and_context_window.json.
+2026-01-04T17:51:05.0924460Z 2026-01-04 17:51:05,092 - openai.agents - WARNING - OPENAI_API_KEY is not set, skipping trace export
+2026-01-04T17:51:37.5724471Z 2026-01-04 17:51:37,572 - main - INFO - Reasoning for URL https://www.metaculus.com/questions/578: 1) **Time left until outcome is known:** ~74.0 years (to 2100-01-01).  
+2026-01-04T17:51:37.5726135Z 2) **Status quo outcome if nothing changed:** **No** (humans persist; extinction is historically rare and we currently have ~8B people across diverse geographies).  
+2026-01-04T17:51:37.5730818Z 3) **Expectations of experts and markets:** Expert elicitation varies widely. The 2008 Oxford GCR conference poll median was **~19%** (likely selection-biased upward). Some prominent x-risk researchers argue for low–double-digit % this century; surveys of AI experts cited here suggest **~5% AI-caused catastrophe** (not necessarily extinction) on relevant horizons; “doomsday” claims (e.g., ~99% by 2125) exist but are outliers. There is no single market price; public behavior/policy implies low single-digit % revealed belief.  
+2026-01-04T17:51:37.5737091Z 4) **A “No” scenario:** Continued (uneven) progress: no full-scale nuclear exchange; pandemics occur but are contained with better surveillance, vaccines/antivirals, and biosecurity; AI is powerful but either remains tool-like or is deployed with sufficient control/monitoring; climate change is damaging but not civilization-ending; humans remain on Earth (and possibly small off-world footholds), leaving known humans alive in 2100.  
+2026-01-04T17:51:37.5742444Z 5) **A “Yes” scenario:** A tightly coupled cascade: geopolitical crisis triggers major nuclear exchange → severe nuclear winter collapses agriculture globally → state failure and conflict reduce mitigation capacity → a high-lethality, high-transmissibility pathogen (engineered or opportunistic) spreads through weakened systems → remaining refugia fail, driving human population to zero before 2100 (with no surviving isolated groups).
+2026-01-04T17:51:37.5745023Z 
+2026-01-04T17:51:37.5745250Z ## Rationale (with extra weight on the status quo)
+2026-01-04T17:51:37.5750175Z Extinction by 2100 requires not merely catastrophe but **complete** elimination of all humans, including those in remote areas and potential refuges. Many drivers (nuclear war, engineered pandemics, AI-enabled catastrophic misuse or loss of control) could plausibly cause civilizational collapse and mass mortality, but “kill everyone” is a higher bar. The biggest uncertainty is **tail risk from new technologies** (AI/bio) interacting with geopolitical instability. I therefore center on a **low-single-digit** extinction probability, materially above “near zero,” but well below the ~19% selection-biased elicitation and far below extreme claims.
+2026-01-04T17:51:37.5754202Z 
+2026-01-04T17:51:37.5754397Z ## Group the evidence into three buckets
+2026-01-04T17:51:37.5754711Z 
+2026-01-04T17:51:37.5755119Z ### Bucket 1 — Evidence pointing to a relatively **low** forecast
+2026-01-04T17:51:37.5756218Z - Reports emphasizing **AI integration** and near-term productivity changes rather than imminent AGI or extinction-level dynamics (TechRadar 2026 AI predictions; “AI age / shorter workweek” type coverage).  
+2026-01-04T17:51:37.5757975Z - **Space-reproduction progress in mammals** (Chinese “space mice” births) as weak evidence that multi-location human survival might eventually be feasible (though far from assuring an off-world refuge by 2100).  
+2026-01-04T17:51:37.5759162Z - Pieces stressing **low probability of cosmic threats** (asteroids/aliens) and that climate change alone is unlikely to directly cause extinction (as noted in the Jebari summary).
+2026-01-04T17:51:37.5759748Z 
+2026-01-04T17:51:37.5759968Z ### Bucket 2 — Evidence pointing to a **central/baseline** forecast
+2026-01-04T17:51:37.5760650Z - Karim Jebari-style synthesis: **nuclear war** as a leading plausible existential pathway; pandemics and AI risks exist but are not treated as near-certain.  
+2026-01-04T17:51:37.5761549Z - The cited large **AI expert survey**: average **~5% AI-caused catastrophe** (not extinction), suggesting meaningful but not dominant tail risk.  
+2026-01-04T17:51:37.5762582Z - Doomsday Clock discussion as a **weak, qualitative** indicator that expert communities view composite risks as elevated versus Cold War “normal,” but not determinative.
+2026-01-04T17:51:37.5763146Z 
+2026-01-04T17:51:37.5763353Z ### Bucket 3 — Evidence pointing to a relatively **high** forecast
+2026-01-04T17:51:37.5764337Z - Very pessimistic AI claims (e.g., Yampolsky’s **~99.9% by 2125**) and alignment-pessimist arguments (LessWrong “smooth takeoff still kills classic humans”), which raise the perceived probability mass in extreme tails.  
+2026-01-04T17:51:37.5765716Z - Articles emphasizing massive-death scenarios from **nuclear winter** and global famine (mk.ru-style quantitative claims) and high x-risk figures (Ord/Bostrom-type “one-in-four” rhetoric as relayed).  
+2026-01-04T17:51:37.5767364Z - Sensational “countdown / end is near” narratives that, while not high-quality evidence, reflect (and can amplify) perceived risk and instability.
+2026-01-04T17:51:37.5768086Z 
+2026-01-04T17:51:37.5768181Z ## Multi-world considerations
+2026-01-04T17:51:37.5768338Z 
+2026-01-04T17:51:37.5768432Z ### 1) Low_World (based on Bucket 1)
+2026-01-04T17:51:37.5769273Z **Summary:** Technology mostly improves resilience (health, information, coordination). AI remains tool-like; no rapid path to off-world extinction-avoidance is needed because Earth remains survivable; cosmic threats remain negligible.  
+2026-01-04T17:51:37.5770115Z - Low estimate: **1.6**  
+2026-01-04T17:51:37.5770318Z - Mid estimate: **3.2**  
+2026-01-04T17:51:37.5770518Z - High estimate: **6.0**
+2026-01-04T17:51:37.5770650Z 
+2026-01-04T17:51:37.5770730Z ### 2) Mid_World (based on Bucket 2)
+2026-01-04T17:51:37.5771585Z **Summary:** Nuclear risk and engineered-bio risk are real; AI risk is nontrivial but expert-central; catastrophes possible, but full extinction remains a higher bar than “civilizational collapse.”  
+2026-01-04T17:51:37.5772294Z - Low estimate: **3.0**  
+2026-01-04T17:51:37.5772484Z - Mid estimate: **6.3**  
+2026-01-04T17:51:37.5772677Z - High estimate: **11.5**
+2026-01-04T17:51:37.5772936Z 
+2026-01-04T17:51:37.5773024Z ### 3) High_World (based on Bucket 3)
+2026-01-04T17:51:37.5773759Z **Summary:** Alignment failures or AI-enabled proliferation meaningfully increase tail risk; nuclear winter and engineered pandemics are more likely and more coupled; multiple shots on goal before 2100.  
+2026-01-04T17:51:37.5774487Z - Low estimate: **6.0**  
+2026-01-04T17:51:37.5774684Z - Mid estimate: **12.8**  
+2026-01-04T17:51:37.5774884Z - High estimate: **22.0**
+2026-01-04T17:51:37.5775011Z 
+2026-01-04T17:51:37.5775102Z [1.6, 3.2, 6.0, 3.0, 6.3, 11.5, 6.0, 12.8, 22.0]
+2026-01-04T17:51:37.5775771Z 2026-01-04 17:51:37,575 - forecasting_tools.ai_models.resource_managers.monetary_cost_manager - WARNING - Litellm hidden param cost 0.0 and response object cost 0.0439355 are different.
+2026-01-04T17:51:40.1157847Z 2026-01-04 17:51:40,115 - openai.agents - WARNING - OPENAI_API_KEY is not set, skipping trace export
+2026-01-04T17:51:41.8094104Z 2026-01-04 17:51:41,809 - main - INFO - Reasoning for URL https://www.metaculus.com/questions/578: 1) **Time left:** ~74.0 years (from 2026-01-04 to 2100-01-01).  
+2026-01-04T17:51:41.8095327Z 2) **Status quo if nothing changed:** **No** (humans remain alive in 2100).  
+2026-01-04T17:51:41.8097635Z 3) **Experts/markets:** prior expert-elicitation style views are wide; e.g., the 2008 Oxford GCR conference poll had **~19% median extinction-by-2100** (likely selection-biased high). More recent expert surveys on AI often put **single-digit %** on AI-caused catastrophe (not necessarily extinction) over comparable horizons, with heavy-tail disagreement.  
+2026-01-04T17:51:41.8104454Z 4) **No scenario:** severe but non-terminal catastrophes (regional nuclear war, major pandemics, climate shocks) occur yet leave **surviving human refugia** (islands, remote regions, bunkers, resilient agrisystems); possibly small off-world populations.  
+2026-01-04T17:51:41.8107628Z 5) **Yes scenario:** a **compound** pathway: (i) great-power nuclear exchange causes multi-year agricultural collapse, (ii) state collapse degrades response capacity, then (iii) engineered pathogen(s) or misaligned autonomous systems finish off remaining enclaves—driving the count of biological humans to zero by 2100.
+2026-01-04T17:51:41.8108680Z 
+2026-01-04T17:51:41.8108788Z ## Evidence buckets (grouped)
+2026-01-04T17:51:41.8108942Z 
+2026-01-04T17:51:41.8109158Z ### Bucket 1 — points toward **lower** extinction probability
+2026-01-04T17:51:41.8110025Z - Climate change framed as extremely damaging but **unlikely to directly cause extinction** (e.g., explicit “<1/1000” style claims; focus on societal stress rather than total wipeout).  
+2026-01-04T17:51:41.8110908Z - Cosmic risks (asteroids/aliens) described as **low-probability** with no known large impactors on course.  
+2026-01-04T17:51:41.8112106Z - AI near-term coverage emphasizes **integration into society and medicine**, not imminent superintelligence (transformative, but not extinction-forward by itself).  
+2026-01-04T17:51:41.8113143Z - Space-biology progress (mammalian reproduction after space exposure / in microgravity) marginally supports **long-run redundancy** (though not decisive by 2100).
+2026-01-04T17:51:41.8113695Z 
+2026-01-04T17:51:41.8113932Z ### Bucket 2 — points toward a **baseline/central** extinction probability
+2026-01-04T17:51:41.8115176Z - Nuclear war treated by multiple sources as the **most plausible acute global catastrophe**, with nuclear-winter-driven famine as the main mechanism.  
+2026-01-04T17:51:41.8116981Z - Pandemic risk emphasized as potentially existential when combining **high transmissibility + long latency + high lethality**, especially amid collapse.  
+2026-01-04T17:51:41.8118521Z - Doomsday Clock movement used as a rough composite indicator of elevated systemic risk (nuclear + climate + AI + disinfo).  
+2026-01-04T17:51:41.8120275Z - Mainstream-ish expert disagreement on AI catastrophe risk clustering around **~1–20%**, with some surveys averaging **~5%** for AI catastrophe (not extinction).
+2026-01-04T17:51:41.8121522Z 
+2026-01-04T17:51:41.8121922Z ### Bucket 3 — points toward **higher** extinction probability
+2026-01-04T17:51:41.8122983Z - Extreme AI-doom claims (e.g., “~99.9% by 2125”)—outlier but reflects a tail view that control is impossible.  
+2026-01-04T17:51:41.8124362Z - Arguments that even “pretty good” AI transitions could still erase “classic humans” via competitive/evolutionary dynamics.  
+2026-01-04T17:51:41.8125937Z - Sensational reporting highlighting emerging model misbehavior and bio/cyber misuse pathways (weak evidence, but gestures at fast-moving risk surface).  
+2026-01-04T17:51:41.8128121Z - “Only a few decades” rhetoric from some AI safety advocates implying short timelines and high stakes (often not well-calibrated, but pushes probability mass upward).
+2026-01-04T17:51:41.8129133Z 
+2026-01-04T17:51:41.8129358Z ## Rationale (with extra weight on status quo)
+2026-01-04T17:51:41.8133822Z Extinction is a **much stricter endpoint** than civilizational collapse. Many pathways plausibly kill billions yet still leave survivors due to geographic dispersion, stored resources, and adaptive capacity. Thus, even while I treat nuclear, engineered bio, and misaligned AI as serious, I discount “single-shot extinction” and put more weight on (a) partial survival, (b) recovery, and (c) the historical rarity of true species-level extinction from single events—while still acknowledging that technology introduces new, potentially sharper failure modes. Net: I land in **low single-digit %** as a central estimate, with a fat-tailed upper range.
+2026-01-04T17:51:41.8137526Z 
+2026-01-04T17:51:41.8137705Z ## Multi-world considerations
+2026-01-04T17:51:41.8137978Z 
+2026-01-04T17:51:41.8138132Z ### 1) Low_World (based on Bucket 1)
+2026-01-04T17:51:41.8139020Z Summary: risks exist but are mostly **non-extinction**, AI progress is beneficial/managed, cosmic risks low, some redundancy trends.  
+2026-01-04T17:51:41.8139893Z - Low: **1.2**  
+2026-01-04T17:51:41.8140181Z - Mid: **2.3**  
+2026-01-04T17:51:41.8140478Z - High: **4.8**
+2026-01-04T17:51:41.8140683Z 
+2026-01-04T17:51:41.8140844Z ### 2) Mid_World (based on Bucket 2)
+2026-01-04T17:51:41.8142096Z Summary: elevated geopolitical and bio risk; nuclear winter + pandemic could plausibly cascade, but extinction still requires “finishing mechanisms.”  
+2026-01-04T17:51:41.8143037Z - Low: **2.0**  
+2026-01-04T17:51:41.8143226Z - Mid: **4.1**  
+2026-01-04T17:51:41.8143399Z - High: **7.9**
+2026-01-04T17:51:41.8143506Z 
+2026-01-04T17:51:41.8143597Z ### 3) High_World (based on Bucket 3)
+2026-01-04T17:51:41.8144212Z Summary: fast AI takeoff/misalignment or hard-to-control autonomous systems plus geopolitical instability raises odds; tail views taken more seriously.  
+2026-01-04T17:51:41.8144804Z - Low: **5.0**  
+2026-01-04T17:51:41.8144973Z - Mid: **10.8**  
+2026-01-04T17:51:41.8145356Z - High: **19.5**
+2026-01-04T17:51:41.8145459Z 
+2026-01-04T17:51:41.8145552Z [1.2, 2.3, 4.8, 2.0, 4.1, 7.9, 5.0, 10.8, 19.5]
+2026-01-04T17:51:41.8146247Z 2026-01-04 17:51:41,813 - forecasting_tools.ai_models.resource_managers.monetary_cost_manager - WARNING - Litellm hidden param cost 0.0 and response object cost 0.04596549999999999 are different.
+2026-01-04T17:51:41.8846150Z 2026-01-04 17:51:41,884 - main - INFO - Reasoning for URL https://www.metaculus.com/questions/578: 1) **Time left until outcome is known:** ~74 years (until 2100-01-01).  
+2026-01-04T17:51:41.8848300Z 2) **Status quo outcome if nothing changed:** **No** (humans persist; extinction requires an extraordinary global failure across all refuges).  
+2026-01-04T17:51:41.8851851Z 3) **Expectations of experts and markets:** Expert opinion is dispersed; notable references include an Oxford GCR 2008 conference poll with **median ~19%** by 2100 (likely selection-biased upward), and surveyed AI experts (Oxford/Bonn study referenced) estimating **~5%** risk of an AI-caused catastrophe (not necessarily extinction) over relevant horizons. Public indicators like the **Doomsday Clock** suggest elevated concern but are not probabilistic.  
+2026-01-04T17:51:41.8856377Z 4) **A “No” scenario:** Severe crises occur (regional nuclear war, major pandemics, climate shocks), but at least one combination of regions/bunkers/islands remains viable; industrial capacity partially recovers; humans survive as a reduced but nonzero population.  
+2026-01-04T17:51:41.8860348Z 5) **A “Yes” scenario:** A cascading catastrophe eliminates all viable refuges—e.g., great-power nuclear war causes multi-year nuclear winter and global agricultural failure, followed by state collapse and engineered disease outbreaks that reach remaining pockets; no isolated or subterranean populations persist through the bottleneck.
+2026-01-04T17:51:41.8862281Z 
+2026-01-04T17:51:41.8862485Z ## Rationale (with extra weight on status quo)
+2026-01-04T17:51:41.8867319Z Extinction (zero humans) is materially harder than “civilization collapse.” Humanity is geographically dispersed, adaptable, and capable of stockpiling and refuge-building. Many catastrophic pathways (climate change alone, even severe) more plausibly cause mass mortality and political failure than total extinction. The main drivers that can plausibly reach “everyone dies” are **(i) engineered pandemics, (ii) AI-enabled loss-of-control, (iii) full-scale nuclear war with compounding effects**, and combinations thereof. I therefore center the forecast in **high single-digits to low teens**: higher than everyday intuition, lower than tail-selected expert gatherings.
+2026-01-04T17:51:41.8871091Z 
+2026-01-04T17:51:41.8871291Z ## Group the evidence into three buckets
+2026-01-04T17:51:41.8871607Z 
+2026-01-04T17:51:41.8871972Z ### Bucket 1 — tends to **lower** extinction probability
+2026-01-04T17:51:41.8873272Z - Space-reproduction progress in mammals (Chinese “space mice” reports): weakly supports long-run off-Earth viability / resilience.
+2026-01-04T17:51:41.8874262Z - Near-term AI coverage emphasizing integration into products and work (not imminent AGI): suggests slower takeoff and more time for governance.
+2026-01-04T17:51:41.8875165Z - Nature-style 2050 forecasting: highlights serious challenges but framed as manageable with policy/technology (fusion, carbon removal, governance).
+2026-01-04T17:51:41.8876191Z - Very long-run geoscience extinction timelines (hundreds of millions of years): reminds that near-term extinction is not geologically “due.”
+2026-01-04T17:51:41.8876658Z 
+2026-01-04T17:51:41.8877061Z ### Bucket 2 — **baseline / mixed** indicators
+2026-01-04T17:51:41.8877680Z - Jebari-style scenario analysis: nuclear war as most plausible existential route; climate as amplifier; pandemics as serious; cosmic risks low.
+2026-01-04T17:51:41.8878560Z - AI expert disagreement: wide range (1–20% often cited), with some surveys averaging low single digits for catastrophe.
+2026-01-04T17:51:41.8879385Z - Demography “if we stopped having children” style pieces: shows fragility of social systems, but not a direct extinction mechanism.
+2026-01-04T17:51:41.8880327Z - General discussion that AI increasingly enables cyber/bio capabilities: raises risk but not deterministically.
+2026-01-04T17:51:41.8880728Z 
+2026-01-04T17:51:41.8880912Z ### Bucket 3 — tends to **higher** extinction probability
+2026-01-04T17:51:41.8881418Z - Highly pessimistic AI-doom claims (e.g., Yampolsky 99.9% by 2125): outlier, but directionally pushes tail risk up.
+2026-01-04T17:51:41.8882774Z - LessWrong “imperfect safeguards still kill classic humans” type arguments: emphasizes structural/evolutionary pressures toward displacement.
+2026-01-04T17:51:41.8883629Z - Nuclear winter/casualty framing pieces: suggest full-scale nuclear exchange could plausibly collapse agriculture globally.
+2026-01-04T17:51:41.8884545Z - “Futurists predict no one survives” / Doomsday-Clock-style messaging: non-quantitative but indicates elevated concern among some elites.
+2026-01-04T17:51:41.8885018Z 
+2026-01-04T17:51:41.8885120Z ## Multi-world considerations
+2026-01-04T17:51:41.8885277Z 
+2026-01-04T17:51:41.8885365Z ### 1) Low_World (based on Bucket 1)
+2026-01-04T17:51:41.8886264Z **Summary:** AI progresses but remains governable; biosecurity strengthens; nuclear tensions don’t escalate to global exchange; early space/off-grid resilience investments create additional survival paths.  
+2026-01-04T17:51:41.8887579Z - Low estimate: **1.8**  
+2026-01-04T17:51:41.8887796Z - Mid estimate: **3.6**  
+2026-01-04T17:51:41.8888000Z - High estimate: **6.5**
+2026-01-04T17:51:41.8888127Z 
+2026-01-04T17:51:41.8888213Z ### 2) Mid_World (based on Bucket 2)
+2026-01-04T17:51:41.8889017Z **Summary:** Continued geopolitical instability; meaningful chance of major war or engineered pandemic; AI increases capabilities for both defense and offense; net effect is moderate tail risk.  
+2026-01-04T17:51:41.8889724Z - Low estimate: **4.5**  
+2026-01-04T17:51:41.8889923Z - Mid estimate: **9.5**  
+2026-01-04T17:51:41.8890118Z - High estimate: **16.5**
+2026-01-04T17:51:41.8890249Z 
+2026-01-04T17:51:41.8890340Z ### 3) High_World (based on Bucket 3)
+2026-01-04T17:51:41.8890949Z **Summary:** AI loss-of-control is a leading risk; nuclear war risk remains high; engineered pathogens become easier to create; compounding cascades become plausible.  
+2026-01-04T17:51:41.8891564Z - Low estimate: **12**  
+2026-01-04T17:51:41.8891761Z - Mid estimate: **24**  
+2026-01-04T17:51:41.8891954Z - High estimate: **40**
+2026-01-04T17:51:41.8892077Z 
+2026-01-04T17:51:41.8892166Z [1.8, 3.6, 6.5, 4.5, 9.5, 16.5, 12, 24, 40]
+2026-01-04T17:51:41.8892823Z 2026-01-04 17:51:41,887 - forecasting_tools.ai_models.resource_managers.monetary_cost_manager - WARNING - Litellm hidden param cost 0.0 and response object cost 0.0458395 are different.
+2026-01-04T17:51:44.1232249Z 2026-01-04 17:51:44,122 - forecasting_tools.ai_models.resource_managers.monetary_cost_manager - WARNING - Error calculating cost from response object: This model isn't mapped yet. model=o4-mini, custom_llm_provider=openrouter. Add it here - https://github.com/BerriAI/litellm/blob/main/model_prices_and_context_window.json.
+2026-01-04T17:51:45.1191061Z 2026-01-04 17:51:45,118 - openai.agents - WARNING - OPENAI_API_KEY is not set, skipping trace export
+2026-01-04T17:51:47.2210480Z 2026-01-04 17:51:47,220 - forecasting_tools.ai_models.resource_managers.monetary_cost_manager - WARNING - Error calculating cost from response object: This model isn't mapped yet. model=o4-mini, custom_llm_provider=openrouter. Add it here - https://github.com/BerriAI/litellm/blob/main/model_prices_and_context_window.json.
+2026-01-04T17:51:47.6755355Z 2026-01-04 17:51:47,675 - forecasting_tools.ai_models.resource_managers.monetary_cost_manager - WARNING - Error calculating cost from response object: This model isn't mapped yet. model=o4-mini, custom_llm_provider=openrouter. Add it here - https://github.com/BerriAI/litellm/blob/main/model_prices_and_context_window.json.
+2026-01-04T17:51:49.4139206Z 2026-01-04 17:51:49,413 - main - INFO - Parsed 9 scenarios: [1.6, 3.2, 6.0, 3.0, 6.3, 11.5, 6.0, 12.8, 22.0]
+2026-01-04T17:51:49.4140746Z 2026-01-04 17:51:49,413 - main - INFO - Total scenarios stored for question https://www.metaculus.com/questions/578: 9 scenarios
+2026-01-04T17:51:49.4141699Z 2026-01-04 17:51:49,413 - main - INFO - Returning median forecast for URL https://www.metaculus.com/questions/578: 0.0600
+2026-01-04T17:51:49.4142371Z 2026-01-04 17:51:49,414 - main - INFO - [GPR DEBUG] Returning mid value. Scenarios stored: 9
+2026-01-04T17:51:49.4154060Z 2026-01-04 17:51:49,415 - forecasting_tools.ai_models.resource_managers.monetary_cost_manager - WARNING - Error calculating cost from response object: This model isn't mapped yet. model=o4-mini, custom_llm_provider=openrouter. Add it here - https://github.com/BerriAI/litellm/blob/main/model_prices_and_context_window.json.
+2026-01-04T17:51:50.1224453Z 2026-01-04 17:51:50,122 - openai.agents - WARNING - OPENAI_API_KEY is not set, skipping trace export
+2026-01-04T17:51:53.1950352Z 2026-01-04 17:51:53,194 - main - INFO - Parsed 9 scenarios: [1.8, 3.6, 6.5, 4.5, 9.5, 16.5, 12.0, 24.0, 40.0]
+2026-01-04T17:51:53.1951561Z 2026-01-04 17:51:53,194 - main - INFO - Total scenarios stored for question https://www.metaculus.com/questions/578: 18 scenarios
+2026-01-04T17:51:53.1953236Z 2026-01-04 17:51:53,195 - main - INFO - Returning median forecast for URL https://www.metaculus.com/questions/578: 0.0950
+2026-01-04T17:51:53.1954195Z 2026-01-04 17:51:53,195 - main - INFO - [GPR DEBUG] Returning mid value. Scenarios stored: 18
+2026-01-04T17:51:53.1963976Z 2026-01-04 17:51:53,196 - forecasting_tools.ai_models.resource_managers.monetary_cost_manager - WARNING - Error calculating cost from response object: This model isn't mapped yet. model=o4-mini, custom_llm_provider=openrouter. Add it here - https://github.com/BerriAI/litellm/blob/main/model_prices_and_context_window.json.
+2026-01-04T17:51:55.1258401Z 2026-01-04 17:51:55,125 - openai.agents - WARNING - OPENAI_API_KEY is not set, skipping trace export
+2026-01-04T17:52:01.2274764Z 2026-01-04 17:52:01,227 - main - INFO - Parsed 9 scenarios: [1.2, 2.3, 4.8, 2.0, 4.1, 7.9, 5.0, 10.8, 19.5]
+2026-01-04T17:52:01.2276186Z 2026-01-04 17:52:01,227 - main - INFO - Total scenarios stored for question https://www.metaculus.com/questions/578: 27 scenarios
+2026-01-04T17:52:01.2277884Z 2026-01-04 17:52:01,227 - main - INFO - Returning median forecast for URL https://www.metaculus.com/questions/578: 0.0480
+2026-01-04T17:52:01.2279065Z 2026-01-04 17:52:01,227 - main - INFO - [GPR DEBUG] Returning mid value. Scenarios stored: 27
+2026-01-04T17:52:01.2288822Z 2026-01-04 17:52:01,228 - forecasting_tools.ai_models.resource_managers.monetary_cost_manager - WARNING - Error calculating cost from response object: This model isn't mapped yet. model=o4-mini, custom_llm_provider=openrouter. Add it here - https://github.com/BerriAI/litellm/blob/main/model_prices_and_context_window.json.
+2026-01-04T17:52:05.1328308Z 2026-01-04 17:52:05,132 - openai.agents - WARNING - OPENAI_API_KEY is not set, skipping trace export
+2026-01-04T17:52:30.1494407Z 2026-01-04 17:52:30,149 - openai.agents - WARNING - OPENAI_API_KEY is not set, skipping trace export
+2026-01-04T17:53:09.4402228Z 2026-01-04 17:53:09,439 - main - INFO - Reasoning for URL https://www.metaculus.com/questions/578: 1) **Time left until outcome is known:** ~74 years (from 2026-01-04 to 2100-01-01).  
+2026-01-04T17:53:09.4403940Z 2) **Status quo outcome if nothing changed:** **No** (humans persist; extinction is a very strong claim).  
+2026-01-04T17:53:09.4408863Z 3) **Expectations of experts and markets:** Expert elicitations often land in the **low-teens to ~20%** range (e.g., Oxford GCR conf poll median ~19% with selection concerns; various prominent thinkers sometimes cite ~10–25% for “existential catastrophe” this century, not always strict “extinction”). AI-expert surveys cited here suggest **~5% AI-catastrophe risk** (not necessarily extinction) in relevant horizons. Public “doomsday” claims vary wildly and are not well-calibrated.  
+2026-01-04T17:53:09.4413854Z 4) **A “No” scenario:** The 21st century features serious crises (regional wars, severe pandemics, climate stresses), but none that fully eliminate humans; some geographically dispersed populations survive (including remote regions and hardened facilities), keeping at least a remnant population alive through 2100.  
+2026-01-04T17:53:09.4416509Z 5) **A “Yes” scenario:** A fast-moving chain reaction (e.g., major nuclear exchange → nuclear winter + global famine + governance collapse) coincides with an engineered or highly lethal pandemic, or a transformative AI-enabled destabilization that removes humans’ ability to sustain critical systems, pushing mortality to ~100% with no isolated refuge surviving.
+2026-01-04T17:53:09.4418003Z 
+2026-01-04T17:53:09.4418087Z ---
+2026-01-04T17:53:09.4418194Z 
+2026-01-04T17:53:09.4418322Z ## Evidence buckets (from the research assistant)
+2026-01-04T17:53:09.4418554Z 
+2026-01-04T17:53:09.4418905Z ### Bucket 1 — suggests **relatively lower** extinction probability
+2026-01-04T17:53:09.4419472Z - Climate change framed as unlikely to directly cause extinction (more of a threat-multiplier).  
+2026-01-04T17:53:09.4420165Z - Cosmic threats (large asteroid impact / alien conflict) presented as low-probability this century.  
+2026-01-04T17:53:09.4421449Z - Space-mammal reproduction progress (Chinese “space mice” conception/birth) as a small step toward eventual off-world resilience (even if not near-term).  
+2026-01-04T17:53:09.4422518Z - Nature-style “2050 predictions” emphasizing uncertainty and incremental progress rather than imminent extinction.  
+2026-01-04T17:53:09.4423366Z - Multiple “AI in 2026” pieces implying near-term AI is transformative but not AGI/superintelligence yet.  
+2026-01-04T17:53:09.4423729Z 
+2026-01-04T17:53:09.4424065Z ### Bucket 2 — suggests a **central / baseline** probability
+2026-01-04T17:53:09.4425280Z - Nuclear war remains a major plausible pathway; newer “nuclear winter” discussions highlight severe agricultural collapse risk.  
+2026-01-04T17:53:09.4426150Z - Bioweapons/engineered pathogens discussed as distinct from natural pandemics and potentially more dangerous.  
+2026-01-04T17:53:09.4427258Z - “Doomsday Clock” proximity and inclusion of AI/disinformation/climate as compounding risks (weakly informative but directionally concerning).  
+2026-01-04T17:53:09.4428083Z - Broader commentary that societal fragility (supply chains, governance) can turn shocks into cascading failures.  
+2026-01-04T17:53:09.4428483Z 
+2026-01-04T17:53:09.4428669Z ### Bucket 3 — suggests **higher** extinction probability
+2026-01-04T17:53:09.4429421Z - Extremely pessimistic AI takes (e.g., Yampolsky’s near-certainty by 2125; LessWrong arguments that even “nice-ish” takeoff may eliminate most classic humans).  
+2026-01-04T17:53:09.4430229Z - Articles claiming short AI timelines and dramatic catastrophic potential (often rhetorically overheated).  
+2026-01-04T17:53:09.4431250Z - Some prominent futurist/existential-risk voices quoted with high-end probabilities (though often for “civilization collapse” or “existential catastrophe,” not strict extinction).  
+2026-01-04T17:53:09.4432487Z - Sensational prophecies/overpopulation-doomsday claims (very low evidential weight, but they reflect a “high-risk narrative environment”).
+2026-01-04T17:53:09.4433009Z 
+2026-01-04T17:53:09.4433075Z ---
+2026-01-04T17:53:09.4433172Z 
+2026-01-04T17:53:09.4433259Z ## Multi-world considerations
+2026-01-04T17:53:09.4433413Z 
+2026-01-04T17:53:09.4433502Z ### 1) **Low_World** (Bucket 1 dominates)
+2026-01-04T17:53:09.4434277Z **Summary:** Most risks are large but not extinction-level; no near-term AGI; climate is a stressor but manageable; cosmic risks are small; incremental progress on resilience (including early steps toward space viability).  
+2026-01-04T17:53:09.4435037Z - Low estimate: **1.5**  
+2026-01-04T17:53:09.4435245Z - Mid estimate: **3.2**  
+2026-01-04T17:53:09.4435438Z - High estimate: **6.0**
+2026-01-04T17:53:09.4435579Z 
+2026-01-04T17:53:09.4435663Z ### 2) **Mid_World** (Bucket 2 dominates)
+2026-01-04T17:53:09.4436952Z **Summary:** Nuclear/biological risks are substantial and compounding; risk management improves unevenly; humanity experiences major catastrophes, and extinction is possible but still an extreme tail because of geographic dispersion and survivability in refuges.  
+2026-01-04T17:53:09.4437925Z - Low estimate: **3.5**  
+2026-01-04T17:53:09.4438126Z - Mid estimate: **8.7**  
+2026-01-04T17:53:09.4438325Z - High estimate: **15.0**
+2026-01-04T17:53:09.4438447Z 
+2026-01-04T17:53:09.4438538Z ### 3) **High_World** (Bucket 3 dominates)
+2026-01-04T17:53:09.4439561Z **Summary:** AI or AI-enabled actors materially raise the probability of global catastrophic cascades; governance and control fail to keep pace; one or more events achieve true “no survivors” outcomes rather than “mere” civilizational collapse.  
+2026-01-04T17:53:09.4440385Z - Low estimate: **9.0**  
+2026-01-04T17:53:09.4440584Z - Mid estimate: **18.5**  
+2026-01-04T17:53:09.4440785Z - High estimate: **35.0**
+2026-01-04T17:53:09.4440907Z 
+2026-01-04T17:53:09.4441010Z [1.5, 3.2, 6.0, 3.5, 8.7, 15.0, 9.0, 18.5, 35.0]
+2026-01-04T17:53:09.4441664Z 2026-01-04 17:53:09,442 - forecasting_tools.ai_models.resource_managers.monetary_cost_manager - WARNING - Litellm hidden param cost 0.0 and response object cost 0.0459235 are different.
+2026-01-04T17:53:10.1762771Z 2026-01-04 17:53:10,175 - openai.agents - WARNING - OPENAI_API_KEY is not set, skipping trace export
+2026-01-04T17:53:15.0094381Z 2026-01-04 17:53:15,009 - forecasting_tools.ai_models.resource_managers.monetary_cost_manager - WARNING - Error calculating cost from response object: This model isn't mapped yet. model=o4-mini, custom_llm_provider=openrouter. Add it here - https://github.com/BerriAI/litellm/blob/main/model_prices_and_context_window.json.
+2026-01-04T17:53:15.1795467Z 2026-01-04 17:53:15,179 - openai.agents - WARNING - OPENAI_API_KEY is not set, skipping trace export
+2026-01-04T17:53:25.7507888Z 2026-01-04 17:53:25,750 - main - INFO - Parsed 9 scenarios: [1.5, 3.2, 6.0, 3.5, 8.7, 15.0, 9.0, 18.5, 35.0]
+2026-01-04T17:53:25.7509082Z 2026-01-04 17:53:25,750 - main - INFO - Total scenarios stored for question https://www.metaculus.com/questions/578: 36 scenarios
+2026-01-04T17:53:25.7510241Z 2026-01-04 17:53:25,750 - main - INFO - Returning median forecast for URL https://www.metaculus.com/questions/578: 0.0870
+2026-01-04T17:53:25.7511180Z 2026-01-04 17:53:25,750 - main - INFO - [GPR DEBUG] Returning mid value. Scenarios stored: 36
+2026-01-04T17:53:25.7521882Z 2026-01-04 17:53:25,751 - forecasting_tools.ai_models.resource_managers.monetary_cost_manager - WARNING - Error calculating cost from response object: This model isn't mapped yet. model=o4-mini, custom_llm_provider=openrouter. Add it here - https://github.com/BerriAI/litellm/blob/main/model_prices_and_context_window.json.
+2026-01-04T17:53:25.7523855Z 2026-01-04 17:53:25,752 - dre_forecasting_tools - INFO - [GPR DEBUG] _aggregate_predictions called with 4 predictions
+2026-01-04T17:53:25.7524478Z 2026-01-04 17:53:25,752 - dre_forecasting_tools - INFO - [GPR DEBUG] Using GPR aggregation on 36 stored scenarios
+2026-01-04T17:53:25.9398707Z 2026-01-04 17:53:25,937 - main - INFO - GPR aggregation: 36 scenarios → p50 = 0.0668
+2026-01-04T17:53:25.9399728Z 2026-01-04 17:53:25,937 - dre_forecasting_tools - INFO - [GPR DEBUG] Aggregation complete. Returning GPR result: 0.0668
+2026-01-04T17:53:25.9411303Z 2026-01-04 17:53:25,941 - dre_forecasting_tools - INFO - Saved full forecast to forecast_summaries/578_unknown_full_1.md
+2026-01-04T17:53:25.9412720Z 2026-01-04 17:53:25,941 - forecasting_tools.helpers.metaculus_client - INFO - Posting prediction on question 578
+2026-01-04T17:53:27.8991169Z 2026-01-04 17:53:27,898 - forecasting_tools.helpers.metaculus_client - INFO - Posted prediction on question 578
+2026-01-04T17:53:29.9188724Z 2026-01-04 17:53:29,918 - forecasting_tools.helpers.metaculus_client - INFO - Posted comment on post 578
+2026-01-04T17:53:29.9243515Z 2026-01-04 17:53:29,924 - forecasting_tools.forecast_bots.forecast_bot - INFO - 
+2026-01-04T17:53:29.9244794Z ----------------------------------------------------------------------------------------------------
+2026-01-04T17:53:29.9245129Z 
+2026-01-04T17:53:29.9245336Z URL: https://www.metaculus.com/questions/578
+2026-01-04T17:53:29.9245684Z Errors: []
+2026-01-04T17:53:29.9245917Z <<<<<<<<<<<<<<<<<<<< Summary >>>>>>>>>>>>>>>>>>>>>
+2026-01-04T17:53:29.9246208Z # SUMMARY
+2026-01-04T17:53:29.9246465Z *Question*: Will humans go extinct before 2100?
+2026-01-04T17:53:29.9247120Z *Final Prediction*: 6.68%
+2026-01-04T17:53:29.9247382Z *Total Cost*: $0.1817 (estimated)
+2026-01-04T17:53:29.9247662Z *Time Spent*: 3.35 minutes
+2026-01-04T17:53:29.9248675Z *LLMs*: `{'default': {'original_model': 'openrouter/openai/gpt-5.2', 'allowed_tries': 2, 'model': 'openrouter/openai/gpt-5.2', 'temperature': 1, 'timeout': 80}, 'summarizer': 'openrouter/openai/o4-mini', 'researcher': 'asknews/news-summaries', 'parser': 'openrouter/openai/o4-mini'}`
+2026-01-04T17:53:29.9249836Z *Bot Name*: SpringTemplateBotExtended
+2026-01-04T17:53:29.9250041Z 
+2026-01-04T17:53:29.9250047Z 
+2026-01-04T17:53:29.9250126Z ## Report 1 Summary
+2026-01-04T17:53:29.9250328Z ### Forecasts
+2026-01-04T17:53:29.9250524Z *Forecaster 1*: 8.7%
+2026-01-04T17:53:29.9250950Z *Forecaster 2*: 9.5%
+2026-01-04T17:53:29.9251157Z *Forecaster 3*: 6.0%
+2026-01-04T17:53:29.9251356Z *Forecaster 4*: 4.8%
+2026-01-04T17:53:29.9251485Z 
+2026-01-04T17:53:29.9251490Z 
+2026-01-04T17:53:29.9251570Z ### Research Summary
+2026-01-04T17:53:29.9255785Z Research from a variety of futurists and scientific experts identifies several categories of existential risk and offers rough probability estimates for human extinction by the end of this century. Karim Jebari of the Swedish Institute for the Future (Московский Комсомолец) ranks global nuclear war as the most likely extinction trigger: even a so-called “tactical” exchange could loft enough soot into the stratosphere to plummet average temperatures by 10–20 °C and collapse agriculture worldwide. He also highlights engineered pandemics—combining high transmissibility, long asymptomatic periods, and high lethality—and misaligned artificial intelligences that pursue literal goals at humanity’s expense. Other low-probability but high-impact threats include super-volcanoes, asteroid impacts, and alien conflict, while climate change is viewed as a multiplier of other risks rather than a sole extinction driver.
+2026-01-04T17:53:29.9259135Z 
+2026-01-04T17:53:29.9262576Z Quantitative forecasts vary widely. Philosopher Nick Bostrom estimates about a 1-in-4 chance of extinction by 2100, echoed by Oxford’s Toby Ord, whereas biologist Jared Diamond suggests a roughly even survival odds by mid-century. A broad expert survey by Oxford and Bonn placed the average risk of an AI-caused global catastrophe by mid-century at 5 %, though pessimists like AI security specialist Roman Yampolsky argue for nearly certain doom (99.9 % by 2125). Cambridge’s Thomas Maughan assesses climate-driven runaway warming as under 0.1 % chance of outright extinction before 2100, while a University of Bristol study (Nature Geoscience) projects total biosphere collapse only on 250-million-year rather than centennial timescales. An analysis by Maya Farber Brodsky on LessWrong further cautions that even a “smooth” AI takeover with imperfect safeguards could eradicate or sideline most humans within decades of superintelligence’s arrival.
+2026-01-04T17:53:29.9265415Z 
+2026-01-04T17:53:29.9265483Z Sources:
+2026-01-04T17:53:29.9266075Z https://www.mk.ru/incident/2026/01/04/shest-likov-apokalipsisa-futurolog-o-samykh-veroyatnykh-scenariyakh-konca-chelovechestva.html  
+2026-01-04T17:53:29.9267244Z https://www.mk.ru/science/2026/01/03/999-veroyatnosti-konca-ekspert-po-ii-predrek-gibel-chelovechestva-ot-ruk-mashin-k-2125-godu.html  
+2026-01-04T17:53:29.9268834Z https://cursorinfo.co.il/interest/spastis-ne-smozhet-nikto-futurologi-nazvali-vremya-kogda-nastupit-konets-sveta/  
+2026-01-04T17:53:29.9270195Z https://www.mk.ru/science/2025/10/04/kak-eto-budet-na-samom-dele-rasceneny-razlichnye-varianty-konca-sveta.html  
+2026-01-04T17:53:29.9271473Z https://www.albayan.ae/culture-art/miscellaneous/992588  
+2026-01-04T17:53:29.9272511Z https://www.lesswrong.com/posts/v4rsqTxHqXp5tTwZh/nice-ish-smooth-takeoff-with-imperfect-safeguards-probably
+2026-01-04T17:53:29.9273281Z 
+2026-01-04T17:53:29.9273293Z 
+2026-01-04T17:53:29.9273299Z 
+2026-01-04T17:53:29.9273461Z <<<<<<<<<<<<<<<<<<<< First Rationale >>>>>>>>>>>>>>>>>>>>>
+2026-01-04T17:53:29.9273891Z ## R1: Forecaster 1 Reasoning
+2026-01-04T17:53:29.9274410Z 1) **Time left until outcome is known:** ~74 years (from 2026-01-04 to 2100-01-01).  
+2026-01-04T17:53:29.9275236Z 2) **Status quo outcome if nothing changed:** **No** (humans persist; extinction is a very strong claim).  
+2026-01-04T17:53:29.9278284Z 3) **Expectations of experts and markets:** Expert elicitations often land in the **low-teens to ~20%** range (e.g., Oxford GCR conf poll median ~19% with selection concerns; various prominent thinkers sometimes cite ~10–25% for “existential catastrophe” this century, not always strict “extinction”). AI-expert surveys cited here suggest **~5% AI-catastrophe risk** (not necessarily extinction) in relevant horizons. Public “doomsday” claims vary wildly and are not well-calibrated.  
+2026-01-04T17:53:29.9281548Z 4) **A “No” scenario:** The 21st century features serious crises (regional wars, severe pandemics, climate stresses), but none that fully eliminate humans; some geographically dispersed populations survive (including remote regions and hardened facilities), keeping at least a remnant population alive through 2100.  
+2026-01-04T17:53:29.9283856Z 5) **A “Yes” scenario:** A fast-moving chain reaction (e.g., major nuclear exchange → nuclear winter + global famine + governance collapse) coincides with an engineered or highly lethal pandemic, or a transformative AI-enabled destabilization that removes humans’ ability to sustain critical systems, pushing mortality to ~100% with no isolated refuge surviving.
+2026-01-04T17:53:29.9284964Z 
+2026-01-04T17:53:29.9285030Z ---
+2026-01-04T17:53:29.9285138Z 
+2026-01-04T17:53:29.9285261Z ### Evidence buckets (from the research assistant)
+2026-01-04T17:53:29.9285460Z 
+2026-01-04T17:53:29.9285681Z #### Bucket 1 — suggests **relatively lower** extinction probability
+2026-01-04T17:53:29.9286173Z - Climate change framed as unlikely to directly cause extinction (more of a threat-multiplier).  
+2026-01-04T17:53:29.9286947Z - Cosmic threats (large asteroid impact / alien conflict) presented as low-probability this century.  
+2026-01-04T17:53:29.9287870Z - Space-mammal reproduction progress (Chinese “space mice” conception/birth) as a small step toward eventual off-world resilience (even if not near-term).  
+2026-01-04T17:53:29.9288803Z - Nature-style “2050 predictions” emphasizing uncertainty and incremental progress rather than imminent extinction.  
+2026-01-04T17:53:29.9289565Z - Multiple “AI in 2026” pieces implying near-term AI is transformative but not AGI/superintelligence yet.  
+2026-01-04T17:53:29.9289925Z 
+2026-01-04T17:53:29.9290150Z #### Bucket 2 — suggests a **central / baseline** probability
+2026-01-04T17:53:29.9290842Z - Nuclear war remains a major plausible pathway; newer “nuclear winter” discussions highlight severe agricultural collapse risk.  
+2026-01-04T17:53:29.9291614Z - Bioweapons/engineered pathogens discussed as distinct from natural pandemics and potentially more dangerous.  
+2026-01-04T17:53:29.9292532Z - “Doomsday Clock” proximity and inclusion of AI/disinformation/climate as compounding risks (weakly informative but directionally concerning).  
+2026-01-04T17:53:29.9293339Z - Broader commentary that societal fragility (supply chains, governance) can turn shocks into cascading failures.  
+2026-01-04T17:53:29.9294130Z 
+2026-01-04T17:53:29.9294449Z #### Bucket 3 — suggests **higher** extinction probability
+2026-01-04T17:53:29.9295589Z - Extremely pessimistic AI takes (e.g., Yampolsky’s near-certainty by 2125; LessWrong arguments that even “nice-ish” takeoff may eliminate most classic humans).  
+2026-01-04T17:53:29.9296587Z - Articles claiming short AI timelines and dramatic catastrophic potential (often rhetorically overheated).  
+2026-01-04T17:53:29.9298228Z - Some prominent futurist/existential-risk voices quoted with high-end probabilities (though often for “civilization collapse” or “existential catastrophe,” not strict extinction).  
+2026-01-04T17:53:29.9299922Z - Sensational prophecies/overpopulation-doomsday claims (very low evidential weight, but they reflect a “high-risk narrative environment”).
+2026-01-04T17:53:29.9300512Z 
+2026-01-04T17:53:29.9300609Z ---
+2026-01-04T17:53:29.9300846Z 
+2026-01-04T17:53:29.9301069Z ### Multi-world considerations
+2026-01-04T17:53:29.9311430Z 
+2026-01-04T17:53:29.9311667Z #### 1) **Low_World** (Bucket 1 dominates)
+2026-01-04T17:53:29.9312498Z **Summary:** Most risks are large but not extinction-level; no near-term AGI; climate is a stressor but manageable; cosmic risks are small; incremental progress on resilience (including early steps toward space viability).  
+2026-01-04T17:53:29.9313284Z - Low estimate: **1.5**  
+2026-01-04T17:53:29.9313504Z - Mid estimate: **3.2**  
+2026-01-04T17:53:29.9313703Z - High estimate: **6.0**
+2026-01-04T17:53:29.9313843Z 
+2026-01-04T17:53:29.9314127Z #### 2) **Mid_World** (Bucket 2 dominates)
+2026-01-04T17:53:29.9315078Z **Summary:** Nuclear/biological risks are substantial and compounding; risk management improves unevenly; humanity experiences major catastrophes, and extinction is possible but still an extreme tail because of geographic dispersion and survivability in refuges.  
+2026-01-04T17:53:29.9316013Z - Low estimate: **3.5**  
+2026-01-04T17:53:29.9316221Z - Mid estimate: **8.7**  
+2026-01-04T17:53:29.9316417Z - High estimate: **15.0**
+2026-01-04T17:53:29.9316539Z 
+2026-01-04T17:53:29.9316639Z #### 3) **High_World** (Bucket 3 dominates)
+2026-01-04T17:53:29.9317941Z **Summary:** AI or AI-enabled actors materially raise the probability of global catastrophic cascades; governance and control fail to keep pace; one or more events achieve true “no survivors” outcomes rather than “mere” civilizational collapse.  
+2026-01-04T17:53:29.9318800Z - Low estimate: **9.0**  
+2026-01-04T17:53:29.9319016Z - Mid estimate: **18.5**  
+2026-01-04T17:53:29.9319220Z - High estimate: **35.0**
+2026-01-04T17:53:29.9319359Z 
+2026-01-04T17:53:29.9319460Z [1.5, 3.2, 6.0, 3.5, 8.7, 15.0, 9.0, 18.5, 35.0]
+2026-01-04T17:53:29.9319630Z 
+2026-01-04T17:53:29.9319635Z 
+2026-01-04T17:53:29.9319795Z -------------------------------------------------------------------------------------------
+2026-01-04T17:53:29.9320035Z 
+2026-01-04T17:53:29.9320133Z Bot: SpringTemplateBotExtended
+2026-01-04T17:53:29.9320511Z ✅ URL: https://www.metaculus.com/questions/578 | Minor Errors: 0
+2026-01-04T17:53:29.9322185Z ❌ Exception: ExceptionGroup | Message: 1 sub-exceptions -> Error while processing question url: 'https://www.metaculus.com/questions/22427': 1 sub-exceptions -> All 1 research reports/predictions failed: Errors: ['RateLimitExceededError: RateLimitExceededError: 429000 - Rate Limit Exceeded, please upgrade at https://my.asknews.app/plans to obtain higher rate limits.'] (1 sub-exception)
+2026-01-04T17:53:29.9324829Z ❌ Exception: ExceptionGroup | Message: 1 sub-exceptions -> Error while processing question url: 'https://www.metaculus.com/questions/14333': 1 sub-exceptions -> All 1 research reports/predictions failed: Errors: ['RateLimitExceededError: RateLimitExceededError: 429000 - Rate Limit Exceeded, please upgrade at https://my.asknews.app/plans to obtain higher rate limits.'] (1 sub-exception)
+2026-01-04T17:53:29.9327700Z ❌ Exception: ExceptionGroup | Message: 1 sub-exceptions -> Error while processing question url: 'https://www.metaculus.com/questions/38880': 1 sub-exceptions -> All 1 research reports/predictions failed: Errors: ['RateLimitExceededError: RateLimitExceededError: 429000 - Rate Limit Exceeded, please upgrade at https://my.asknews.app/plans to obtain higher rate limits.'] (1 sub-exception)
+2026-01-04T17:53:29.9328977Z 
+2026-01-04T17:53:29.9329065Z Stats for passing reports:
+2026-01-04T17:53:29.9329442Z Total cost estimated: $0.18166
+2026-01-04T17:53:29.9329677Z Average cost per question: $0.18166
+2026-01-04T17:53:29.9329950Z Average time spent per question: 3.3481 minutes
+2026-01-04T17:53:29.9330605Z Note: LLM costs are calculated via litellm, and models or search tools not supported by litellm will not be tracked. See what is supported here: https://models.litellm.ai/. 
+2026-01-04T17:53:29.9331300Z ----------------------------------------------------------------------------------------------------
+2026-01-04T17:53:29.9331557Z 
+2026-01-04T17:53:29.9331562Z 
+2026-01-04T17:53:29.9331567Z 
+2026-01-04T17:53:29.9331925Z 2026-01-04 17:53:29,926 - forecasting_tools.forecast_bots.forecast_bot - ERROR - Exception occurred during forecasting:
+2026-01-04T17:53:29.9332429Z   + Exception Group Traceback (most recent call last):
+2026-01-04T17:53:29.9333271Z   |   File "/home/runner/work/metac-bot-template/metac-bot-template/.venv/lib/python3.11/site-packages/forecasting_tools/forecast_bots/forecast_bot.py", line 341, in _run_individual_question_with_error_propagation
+2026-01-04T17:53:29.9334119Z   |     return await self._run_individual_question(question)
+2026-01-04T17:53:29.9334412Z   |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-01-04T17:53:29.9335263Z   |   File "/home/runner/work/metac-bot-template/metac-bot-template/.venv/lib/python3.11/site-packages/forecasting_tools/forecast_bots/forecast_bot.py", line 384, in _run_individual_question
+2026-01-04T17:53:29.9336024Z   |     await self._handle_errors_in__run_individual_question(
+2026-01-04T17:53:29.9337013Z   |   File "/home/runner/work/metac-bot-template/metac-bot-template/.venv/lib/python3.11/site-packages/forecasting_tools/forecast_bots/forecast_bot.py", line 430, in _handle_errors_in__run_individual_question
+2026-01-04T17:53:29.9337823Z   |     self._reraise_exception_with_prepended_message(
+2026-01-04T17:53:29.9338617Z   |   File "/home/runner/work/metac-bot-template/metac-bot-template/.venv/lib/python3.11/site-packages/forecasting_tools/forecast_bots/forecast_bot.py", line 746, in _reraise_exception_with_prepended_message
+2026-01-04T17:53:29.9339391Z   |     raise ExceptionGroup(
+2026-01-04T17:53:29.9340329Z   | ExceptionGroup: 1 sub-exceptions -> All 1 research reports/predictions failed: Errors: ['RateLimitExceededError: RateLimitExceededError: 429000 - Rate Limit Exceeded, please upgrade at https://my.asknews.app/plans to obtain higher rate limits.'] (1 sub-exception)
+2026-01-04T17:53:29.9341281Z   +-+---------------- 1 ----------------
+2026-01-04T17:53:29.9341529Z     | Traceback (most recent call last):
+2026-01-04T17:53:29.9341961Z     |   File "/opt/hostedtoolcache/Python/3.11.14/x64/lib/python3.11/asyncio/tasks.py", line 277, in __step
+2026-01-04T17:53:29.9342391Z     |     result = coro.send(None)
+2026-01-04T17:53:29.9342618Z     |              ^^^^^^^^^^^^^^^
+2026-01-04T17:53:29.9343338Z     |   File "/home/runner/work/metac-bot-template/metac-bot-template/.venv/lib/python3.11/site-packages/forecasting_tools/forecast_bots/forecast_bot.py", line 464, in _research_and_make_predictions
+2026-01-04T17:53:29.9344108Z     |     research = await self.run_research(question)
+2026-01-04T17:53:29.9344373Z     |                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-01-04T17:53:29.9344801Z     |   File "/home/runner/work/metac-bot-template/metac-bot-template/main.py", line 192, in run_research
+2026-01-04T17:53:29.9345298Z     |     research = await AskNewsSearcher().call_preconfigured_version(
+2026-01-04T17:53:29.9345616Z     |                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-01-04T17:53:29.9346350Z     |   File "/home/runner/work/metac-bot-template/metac-bot-template/.venv/lib/python3.11/site-packages/forecasting_tools/helpers/asknews_searcher.py", line 126, in call_preconfigured_version
+2026-01-04T17:53:29.9347353Z     |     return await self.get_formatted_news_async(prompt)
+2026-01-04T17:53:29.9347674Z     |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-01-04T17:53:29.9348395Z     |   File "/home/runner/work/metac-bot-template/metac-bot-template/.venv/lib/python3.11/site-packages/forecasting_tools/helpers/asknews_searcher.py", line 73, in get_formatted_news_async
+2026-01-04T17:53:29.9349265Z     |     async with AsyncAskNewsSDK(
+2026-01-04T17:53:29.9349834Z     |   File "/home/runner/work/metac-bot-template/metac-bot-template/.venv/lib/python3.11/site-packages/asknews_sdk/sdk.py", line 236, in __aexit__
+2026-01-04T17:53:29.9350439Z     |     await self.client.__aexit__(exc_type, exc, tb)
+2026-01-04T17:53:29.9351048Z     |   File "/home/runner/work/metac-bot-template/metac-bot-template/.venv/lib/python3.11/site-packages/asknews_sdk/client.py", line 378, in __aexit__
+2026-01-04T17:53:29.9351617Z     |     raise exc
+2026-01-04T17:53:29.9352278Z     |   File "/home/runner/work/metac-bot-template/metac-bot-template/.venv/lib/python3.11/site-packages/forecasting_tools/helpers/asknews_searcher.py", line 81, in get_formatted_news_async
+2026-01-04T17:53:29.9353013Z     |     hot_response = await ask.news.search_news(
+2026-01-04T17:53:29.9353275Z     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-01-04T17:53:29.9353863Z     |   File "/home/runner/work/metac-bot-template/metac-bot-template/.venv/lib/python3.11/site-packages/asknews_sdk/api/news.py", line 582, in search_news
+2026-01-04T17:53:29.9354645Z     |     response = await self.client.request(
+2026-01-04T17:53:29.9354896Z     |                ^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-01-04T17:53:29.9355462Z     |   File "/home/runner/work/metac-bot-template/metac-bot-template/.venv/lib/python3.11/site-packages/asknews_sdk/client.py", line 435, in request
+2026-01-04T17:53:29.9356033Z     |     raise_from_response(
+2026-01-04T17:53:29.9356611Z     |   File "/home/runner/work/metac-bot-template/metac-bot-template/.venv/lib/python3.11/site-packages/asknews_sdk/errors.py", line 109, in raise_from_response
+2026-01-04T17:53:29.9357542Z     |     raise ErrorMap.get(code, APIError)(response, detail, code)
+2026-01-04T17:53:29.9358304Z     | asknews_sdk.errors.RateLimitExceededError: RateLimitExceededError: 429000 - Rate Limit Exceeded, please upgrade at https://my.asknews.app/plans to obtain higher rate limits.
+2026-01-04T17:53:29.9358994Z     +------------------------------------
+2026-01-04T17:53:29.9359164Z 
+2026-01-04T17:53:29.9359331Z During handling of the above exception, another exception occurred:
+2026-01-04T17:53:29.9359575Z 
+2026-01-04T17:53:29.9359699Z   + Exception Group Traceback (most recent call last):
+2026-01-04T17:53:29.9360168Z   |   File "/opt/hostedtoolcache/Python/3.11.14/x64/lib/python3.11/asyncio/tasks.py", line 277, in __step
+2026-01-04T17:53:29.9360595Z   |     result = coro.send(None)
+2026-01-04T17:53:29.9360807Z   |              ^^^^^^^^^^^^^^^
+2026-01-04T17:53:29.9361561Z   |   File "/home/runner/work/metac-bot-template/metac-bot-template/.venv/lib/python3.11/site-packages/forecasting_tools/forecast_bots/forecast_bot.py", line 347, in _run_individual_question_with_error_propagation
+2026-01-04T17:53:29.9362416Z   |     self._reraise_exception_with_prepended_message(e, error_message)
+2026-01-04T17:53:29.9363265Z   |   File "/home/runner/work/metac-bot-template/metac-bot-template/.venv/lib/python3.11/site-packages/forecasting_tools/forecast_bots/forecast_bot.py", line 746, in _reraise_exception_with_prepended_message
+2026-01-04T17:53:29.9364036Z   |     raise ExceptionGroup(
+2026-01-04T17:53:29.9365283Z   | ExceptionGroup: 1 sub-exceptions -> Error while processing question url: 'https://www.metaculus.com/questions/22427': 1 sub-exceptions -> All 1 research reports/predictions failed: Errors: ['RateLimitExceededError: RateLimitExceededError: 429000 - Rate Limit Exceeded, please upgrade at https://my.asknews.app/plans to obtain higher rate limits.'] (1 sub-exception)
+2026-01-04T17:53:29.9366541Z   +-+---------------- 1 ----------------
+2026-01-04T17:53:29.9367198Z     | Traceback (most recent call last):
+2026-01-04T17:53:29.9367821Z     |   File "/home/runner/work/metac-bot-template/metac-bot-template/.venv/lib/python3.11/site-packages/asknews_sdk/client.py", line 430, in request
+2026-01-04T17:53:29.9368579Z     |     response.raise_for_status()
+2026-01-04T17:53:29.9369172Z     |   File "/home/runner/work/metac-bot-template/metac-bot-template/.venv/lib/python3.11/site-packages/httpx/_models.py", line 829, in raise_for_status
+2026-01-04T17:53:29.9369847Z     |     raise HTTPStatusError(message, request=request, response=self)
+2026-01-04T17:53:29.9379354Z     | httpx.HTTPStatusError: Client error '429 Too Many Requests' for url 'https://api.asknews.app/v1/news/search?query=%0AYou+are+an+assistant+to+a+superforecaster.%0AThe+superforecaster+will+give+you+a+question+they+intend+to+forecast+on.%0ATo+be+a+great+assistant%2C+you+generate+a+concise+but+detailed+rundown+of+the+most+relevant+news%2C+including+if+the+question+would+resolve+Yes+or+No+based+on+current+information.%0AYou+do+not+produce+forecasts+yourself.%0A%0AQuestion%3A%0ABefore+2030%2C+how+many+new+AI+labs+will+be+leading+labs+within+2+years+of+their+founding%3F%0A%0AThis+question%27s+outcome+will+be+determined+by+the+specific+criteria+below%3A%0AThis+question+resolves+as+the+number+of+new+AI+labs+that+become+leading+labs+within+2+years+of+their+founding+and+before+2030.%0A%0AFor+the+purposes+of+this+question%3A%0A%0A-+A+%E2%80%9Cnew%E2%80%9D+AI+lab+is+one+that+was+founded+after+question+launch.%0A%0A-+A+%E2%80%9Cleading%E2%80%9D+AI+lab+is+a+top+5+lab+based+on+model+ELO%2C%2A+as+measured+by+%5BChatbot+Arena%E2%80%99s%5D%28https%3A%2F%2Fchat.lmsys.org%2F%3Fleaderboard%29+ELO+rating.+As+of+April+15%2C+2024%2C+for+example%2C+the+leading+AI+labs+by+this+metric+are+OpenAI%2C+Anthropic%2C+Google+DeepMind%2C+Cohere%2C+and+Mistral+AI.%0A%0A-+A+lab%E2%80%99s+founding+date+will+be+taken+to+be+the+%E2%80%9CFounded%E2%80%9D+date+quoted+on+its+Wikipedia+page.+If+a+lab+doesn%E2%80%99t+have+a+Wikipedia+page%2C+or+that+page+doesn%E2%80%99t+quote+a+founded+date%2C+then+Metaculus+admins+will+turn+to+%5Bother+sources%5D%28https%3A%2F%2Fwww.metaculus.com%2Fhelp%2Ffaq%2F%23definitions%29.%3Cbr+%2F%3E%3Cbr+%2F%3E%0A%0A%2ATo+be+clear%2C+we+are+considering+the+top+five+distinct+labs+that+have+the+highest+ranked+models%3B+we+are+not+just+considering+the+labs+of+the+top+five+models%2C+which+could+be+less+than+five.%0A%0AIf+Chatbot+Arena+is+no+longer+maintained%2C+or+becomes+obsolete+because+LLMs+are+no+longer+the+frontier+paradigm+in+AI%2C+then+Metaculus+admins+will+find+an+alternative+way+to+define+%E2%80%9Cleading+lab%E2%80%9D.%0A&n_articles=6&time_filter=crawl_date&return_type=both&method=kw&historical=False&offset=0&categories=All&similarity_score_threshold=0.5&doc_start_delimiter=%3Cdoc%3E&doc_end_delimiter=%3C%2Fdoc%3E&provocative=all&diversify_sources=False&strategy=latest+news&hours_back=24&string_guarantee_op=OR&entity_guarantee_op=OR&return_graphs=False&return_geo=False&premium=False'
+2026-01-04T17:53:29.9389337Z     | For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+2026-01-04T17:53:29.9389732Z     | 
+2026-01-04T17:53:29.9389994Z     | During handling of the above exception, another exception occurred:
+2026-01-04T17:53:29.9390316Z     | 
+2026-01-04T17:53:29.9390488Z     | Traceback (most recent call last):
+2026-01-04T17:53:29.9390928Z     |   File "/opt/hostedtoolcache/Python/3.11.14/x64/lib/python3.11/asyncio/tasks.py", line 277, in __step
+2026-01-04T17:53:29.9391367Z     |     result = coro.send(None)
+2026-01-04T17:53:29.9391588Z     |              ^^^^^^^^^^^^^^^
+2026-01-04T17:53:29.9392320Z     |   File "/home/runner/work/metac-bot-template/metac-bot-template/.venv/lib/python3.11/site-packages/forecasting_tools/forecast_bots/forecast_bot.py", line 464, in _research_and_make_predictions
+2026-01-04T17:53:29.9393103Z     |     research = await self.run_research(question)
+2026-01-04T17:53:29.9393371Z     |                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-01-04T17:53:29.9393798Z     |   File "/home/runner/work/metac-bot-template/metac-bot-template/main.py", line 192, in run_research
+2026-01-04T17:53:29.9394303Z     |     research = await AskNewsSearcher().call_preconfigured_version(
+2026-01-04T17:53:29.9394752Z     |                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-01-04T17:53:29.9395500Z     |   File "/home/runner/work/metac-bot-template/metac-bot-template/.venv/lib/python3.11/site-packages/forecasting_tools/helpers/asknews_searcher.py", line 126, in call_preconfigured_version
+2026-01-04T17:53:29.9396281Z     |     return await self.get_formatted_news_async(prompt)
+2026-01-04T17:53:29.9396573Z     |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-01-04T17:53:29.9397392Z     |   File "/home/runner/work/metac-bot-template/metac-bot-template/.venv/lib/python3.11/site-packages/forecasting_tools/helpers/asknews_searcher.py", line 73, in get_formatted_news_async
+2026-01-04T17:53:29.9398122Z     |     async with AsyncAskNewsSDK(
+2026-01-04T17:53:29.9398692Z     |   File "/home/runner/work/metac-bot-template/metac-bot-template/.venv/lib/python3.11/site-packages/asknews_sdk/sdk.py", line 236, in __aexit__
+2026-01-04T17:53:29.9399297Z     |     await self.client.__aexit__(exc_type, exc, tb)
+2026-01-04T17:53:29.9399912Z     |   File "/home/runner/work/metac-bot-template/metac-bot-template/.venv/lib/python3.11/site-packages/asknews_sdk/client.py", line 378, in __aexit__
+2026-01-04T17:53:29.9400622Z     |     raise exc
+2026-01-04T17:53:29.9401497Z     |   File "/home/runner/work/metac-bot-template/metac-bot-template/.venv/lib/python3.11/site-packages/forecasting_tools/helpers/asknews_searcher.py", line 81, in get_formatted_news_async
+2026-01-04T17:53:29.9402248Z     |     hot_response = await ask.news.search_news(
+2026-01-04T17:53:29.9402514Z     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-01-04T17:53:29.9403111Z     |   File "/home/runner/work/metac-bot-template/metac-bot-template/.venv/lib/python3.11/site-packages/asknews_sdk/api/news.py", line 582, in search_news
+2026-01-04T17:53:29.9403729Z     |     response = await self.client.request(
+2026-01-04T17:53:29.9403988Z     |                ^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-01-04T17:53:29.9404553Z     |   File "/home/runner/work/metac-bot-template/metac-bot-template/.venv/lib/python3.11/site-packages/asknews_sdk/client.py", line 435, in request
+2026-01-04T17:53:29.9405135Z     |     raise_from_response(
+2026-01-04T17:53:29.9405729Z     |   File "/home/runner/work/metac-bot-template/metac-bot-template/.venv/lib/python3.11/site-packages/asknews_sdk/errors.py", line 109, in raise_from_response
+2026-01-04T17:53:29.9406413Z     |     raise ErrorMap.get(code, APIError)(response, detail, code)
+2026-01-04T17:53:29.9407287Z     | asknews_sdk.errors.RateLimitExceededError: RateLimitExceededError: 429000 - Rate Limit Exceeded, please upgrade at https://my.asknews.app/plans to obtain higher rate limits.
+2026-01-04T17:53:29.9407977Z     +------------------------------------
+2026-01-04T17:53:29.9408137Z 
+2026-01-04T17:53:29.9408437Z 2026-01-04 17:53:29,927 - forecasting_tools.forecast_bots.forecast_bot - ERROR - Exception occurred during forecasting:
+2026-01-04T17:53:29.9408932Z   + Exception Group Traceback (most recent call last):
+2026-01-04T17:53:29.9409761Z   |   File "/home/runner/work/metac-bot-template/metac-bot-template/.venv/lib/python3.11/site-packages/forecasting_tools/forecast_bots/forecast_bot.py", line 341, in _run_individual_question_with_error_propagation
+2026-01-04T17:53:29.9410593Z   |     return await self._run_individual_question(question)
+2026-01-04T17:53:29.9410882Z   |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-01-04T17:53:29.9411614Z   |   File "/home/runner/work/metac-bot-template/metac-bot-template/.venv/lib/python3.11/site-packages/forecasting_tools/forecast_bots/forecast_bot.py", line 384, in _run_individual_question
+2026-01-04T17:53:29.9412394Z   |     await self._handle_errors_in__run_individual_question(
+2026-01-04T17:53:29.9413211Z   |   File "/home/runner/work/metac-bot-template/metac-bot-template/.venv/lib/python3.11/site-packages/forecasting_tools/forecast_bots/forecast_bot.py", line 430, in _handle_errors_in__run_individual_question
+2026-01-04T17:53:29.9414013Z   |     self._reraise_exception_with_prepended_message(
+2026-01-04T17:53:29.9414957Z   |   File "/home/runner/work/metac-bot-template/metac-bot-template/.venv/lib/python3.11/site-packages/forecasting_tools/forecast_bots/forecast_bot.py", line 746, in _reraise_exception_with_prepended_message
+2026-01-04T17:53:29.9415760Z   |     raise ExceptionGroup(
+2026-01-04T17:53:29.9416695Z   | ExceptionGroup: 1 sub-exceptions -> All 1 research reports/predictions failed: Errors: ['RateLimitExceededError: RateLimitExceededError: 429000 - Rate Limit Exceeded, please upgrade at https://my.asknews.app/plans to obtain higher rate limits.'] (1 sub-exception)
+2026-01-04T17:53:29.9417753Z   +-+---------------- 1 ----------------
+2026-01-04T17:53:29.9418005Z     | Traceback (most recent call last):
+2026-01-04T17:53:29.9418455Z     |   File "/opt/hostedtoolcache/Python/3.11.14/x64/lib/python3.11/asyncio/tasks.py", line 277, in __step
+2026-01-04T17:53:29.9418894Z     |     result = coro.send(None)
+2026-01-04T17:53:29.9419118Z     |              ^^^^^^^^^^^^^^^
+2026-01-04T17:53:29.9419848Z     |   File "/home/runner/work/metac-bot-template/metac-bot-template/.venv/lib/python3.11/site-packages/forecasting_tools/forecast_bots/forecast_bot.py", line 464, in _research_and_make_predictions
+2026-01-04T17:53:29.9420753Z     |     research = await self.run_research(question)
+2026-01-04T17:53:29.9421027Z     |                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-01-04T17:53:29.9421456Z     |   File "/home/runner/work/metac-bot-template/metac-bot-template/main.py", line 192, in run_research
+2026-01-04T17:53:29.9421963Z     |     research = await AskNewsSearcher().call_preconfigured_version(
+2026-01-04T17:53:29.9422283Z     |                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-01-04T17:53:29.9423022Z     |   File "/home/runner/work/metac-bot-template/metac-bot-template/.venv/lib/python3.11/site-packages/forecasting_tools/helpers/asknews_searcher.py", line 126, in call_preconfigured_version
+2026-01-04T17:53:29.9423798Z     |     return await self.get_formatted_news_async(prompt)
+2026-01-04T17:53:29.9424090Z     |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-01-04T17:53:29.9424816Z     |   File "/home/runner/work/metac-bot-template/metac-bot-template/.venv/lib/python3.11/site-packages/forecasting_tools/helpers/asknews_searcher.py", line 73, in get_formatted_news_async
+2026-01-04T17:53:29.9425557Z     |     async with AsyncAskNewsSDK(
+2026-01-04T17:53:29.9426118Z     |   File "/home/runner/work/metac-bot-template/metac-bot-template/.venv/lib/python3.11/site-packages/asknews_sdk/sdk.py", line 236, in __aexit__
+2026-01-04T17:53:29.9426724Z     |     await self.client.__aexit__(exc_type, exc, tb)
+2026-01-04T17:53:29.9427446Z     |   File "/home/runner/work/metac-bot-template/metac-bot-template/.venv/lib/python3.11/site-packages/asknews_sdk/client.py", line 378, in __aexit__
+2026-01-04T17:53:29.9428016Z     |     raise exc
+2026-01-04T17:53:29.9428679Z     |   File "/home/runner/work/metac-bot-template/metac-bot-template/.venv/lib/python3.11/site-packages/forecasting_tools/helpers/asknews_searcher.py", line 81, in get_formatted_news_async
+2026-01-04T17:53:29.9429427Z     |     hot_response = await ask.news.search_news(
+2026-01-04T17:53:29.9429699Z     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-01-04T17:53:29.9430286Z     |   File "/home/runner/work/metac-bot-template/metac-bot-template/.venv/lib/python3.11/site-packages/asknews_sdk/api/news.py", line 582, in search_news
+2026-01-04T17:53:29.9430904Z     |     response = await self.client.request(
+2026-01-04T17:53:29.9431180Z     |                ^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-01-04T17:53:29.9431746Z     |   File "/home/runner/work/metac-bot-template/metac-bot-template/.venv/lib/python3.11/site-packages/asknews_sdk/client.py", line 435, in request
+2026-01-04T17:53:29.9432329Z     |     raise_from_response(
+2026-01-04T17:53:29.9432918Z     |   File "/home/runner/work/metac-bot-template/metac-bot-template/.venv/lib/python3.11/site-packages/asknews_sdk/errors.py", line 109, in raise_from_response
+2026-01-04T17:53:29.9433733Z     |     raise ErrorMap.get(code, APIError)(response, detail, code)
+2026-01-04T17:53:29.9434490Z     | asknews_sdk.errors.RateLimitExceededError: RateLimitExceededError: 429000 - Rate Limit Exceeded, please upgrade at https://my.asknews.app/plans to obtain higher rate limits.
+2026-01-04T17:53:29.9435177Z     +------------------------------------
+2026-01-04T17:53:29.9435343Z 
+2026-01-04T17:53:29.9435506Z During handling of the above exception, another exception occurred:
+2026-01-04T17:53:29.9435753Z 
+2026-01-04T17:53:29.9435879Z   + Exception Group Traceback (most recent call last):
+2026-01-04T17:53:29.9436344Z   |   File "/opt/hostedtoolcache/Python/3.11.14/x64/lib/python3.11/asyncio/tasks.py", line 277, in __step
+2026-01-04T17:53:29.9436862Z   |     result = coro.send(None)
+2026-01-04T17:53:29.9437085Z   |              ^^^^^^^^^^^^^^^
+2026-01-04T17:53:29.9437852Z   |   File "/home/runner/work/metac-bot-template/metac-bot-template/.venv/lib/python3.11/site-packages/forecasting_tools/forecast_bots/forecast_bot.py", line 347, in _run_individual_question_with_error_propagation
+2026-01-04T17:53:29.9438716Z   |     self._reraise_exception_with_prepended_message(e, error_message)
+2026-01-04T17:53:29.9439684Z   |   File "/home/runner/work/metac-bot-template/metac-bot-template/.venv/lib/python3.11/site-packages/forecasting_tools/forecast_bots/forecast_bot.py", line 746, in _reraise_exception_with_prepended_message
+2026-01-04T17:53:29.9440456Z   |     raise ExceptionGroup(
+2026-01-04T17:53:29.9441708Z   | ExceptionGroup: 1 sub-exceptions -> Error while processing question url: 'https://www.metaculus.com/questions/14333': 1 sub-exceptions -> All 1 research reports/predictions failed: Errors: ['RateLimitExceededError: RateLimitExceededError: 429000 - Rate Limit Exceeded, please upgrade at https://my.asknews.app/plans to obtain higher rate limits.'] (1 sub-exception)
+2026-01-04T17:53:29.9442977Z   +-+---------------- 1 ----------------
+2026-01-04T17:53:29.9443221Z     | Traceback (most recent call last):
+2026-01-04T17:53:29.9443825Z     |   File "/home/runner/work/metac-bot-template/metac-bot-template/.venv/lib/python3.11/site-packages/asknews_sdk/client.py", line 430, in request
+2026-01-04T17:53:29.9444428Z     |     response.raise_for_status()
+2026-01-04T17:53:29.9445018Z     |   File "/home/runner/work/metac-bot-template/metac-bot-template/.venv/lib/python3.11/site-packages/httpx/_models.py", line 829, in raise_for_status
+2026-01-04T17:53:29.9445693Z     |     raise HTTPStatusError(message, request=request, response=self)
+2026-01-04T17:53:29.9450649Z     | httpx.HTTPStatusError: Client error '429 Too Many Requests' for url 'https://api.asknews.app/v1/news/search?query=%0AYou+are+an+assistant+to+a+superforecaster.%0AThe+superforecaster+will+give+you+a+question+they+intend+to+forecast+on.%0ATo+be+a+great+assistant%2C+you+generate+a+concise+but+detailed+rundown+of+the+most+relevant+news%2C+including+if+the+question+would+resolve+Yes+or+No+based+on+current+information.%0AYou+do+not+produce+forecasts+yourself.%0A%0AQuestion%3A%0AHow+old+will+the+oldest+living+person+be+in+2100%3F%0A%0AThis+question%27s+outcome+will+be+determined+by+the+specific+criteria+below%3A%0AThis+resolves+as+the+age+of+the+oldest+living+human%2C+in+years%2C+as+of+0%3A00+on+January+1%2C+2100.+Resolution+source+is+%2AGuiness+Book+of+World+Records%2A.+If+that+source+is+no+longer+available+in+2100%2C+then+admins+will+choose+a+credible+alternative.%0A%0A%0A&n_articles=6&time_filter=crawl_date&return_type=both&method=kw&historical=False&offset=0&categories=All&similarity_score_threshold=0.5&doc_start_delimiter=%3Cdoc%3E&doc_end_delimiter=%3C%2Fdoc%3E&provocative=all&diversify_sources=False&strategy=latest+news&hours_back=24&string_guarantee_op=OR&entity_guarantee_op=OR&return_graphs=False&return_geo=False&premium=False'
+2026-01-04T17:53:29.9455647Z     | For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+2026-01-04T17:53:29.9456035Z     | 
+2026-01-04T17:53:29.9456295Z     | During handling of the above exception, another exception occurred:
+2026-01-04T17:53:29.9456734Z     | 
+2026-01-04T17:53:29.9457014Z     | Traceback (most recent call last):
+2026-01-04T17:53:29.9457453Z     |   File "/opt/hostedtoolcache/Python/3.11.14/x64/lib/python3.11/asyncio/tasks.py", line 277, in __step
+2026-01-04T17:53:29.9457904Z     |     result = coro.send(None)
+2026-01-04T17:53:29.9458129Z     |              ^^^^^^^^^^^^^^^
+2026-01-04T17:53:29.9458874Z     |   File "/home/runner/work/metac-bot-template/metac-bot-template/.venv/lib/python3.11/site-packages/forecasting_tools/forecast_bots/forecast_bot.py", line 464, in _research_and_make_predictions
+2026-01-04T17:53:29.9459652Z     |     research = await self.run_research(question)
+2026-01-04T17:53:29.9459922Z     |                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-01-04T17:53:29.9460339Z     |   File "/home/runner/work/metac-bot-template/metac-bot-template/main.py", line 192, in run_research
+2026-01-04T17:53:29.9460847Z     |     research = await AskNewsSearcher().call_preconfigured_version(
+2026-01-04T17:53:29.9461180Z     |                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-01-04T17:53:29.9461920Z     |   File "/home/runner/work/metac-bot-template/metac-bot-template/.venv/lib/python3.11/site-packages/forecasting_tools/helpers/asknews_searcher.py", line 126, in call_preconfigured_version
+2026-01-04T17:53:29.9462819Z     |     return await self.get_formatted_news_async(prompt)
+2026-01-04T17:53:29.9463133Z     |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-01-04T17:53:29.9463901Z     |   File "/home/runner/work/metac-bot-template/metac-bot-template/.venv/lib/python3.11/site-packages/forecasting_tools/helpers/asknews_searcher.py", line 73, in get_formatted_news_async
+2026-01-04T17:53:29.9464631Z     |     async with AsyncAskNewsSDK(
+2026-01-04T17:53:29.9465202Z     |   File "/home/runner/work/metac-bot-template/metac-bot-template/.venv/lib/python3.11/site-packages/asknews_sdk/sdk.py", line 236, in __aexit__
+2026-01-04T17:53:29.9465809Z     |     await self.client.__aexit__(exc_type, exc, tb)
+2026-01-04T17:53:29.9466423Z     |   File "/home/runner/work/metac-bot-template/metac-bot-template/.venv/lib/python3.11/site-packages/asknews_sdk/client.py", line 378, in __aexit__
+2026-01-04T17:53:29.9467111Z     |     raise exc
+2026-01-04T17:53:29.9467777Z     |   File "/home/runner/work/metac-bot-template/metac-bot-template/.venv/lib/python3.11/site-packages/forecasting_tools/helpers/asknews_searcher.py", line 81, in get_formatted_news_async
+2026-01-04T17:53:29.9468520Z     |     hot_response = await ask.news.search_news(
+2026-01-04T17:53:29.9468779Z     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-01-04T17:53:29.9469377Z     |   File "/home/runner/work/metac-bot-template/metac-bot-template/.venv/lib/python3.11/site-packages/asknews_sdk/api/news.py", line 582, in search_news
+2026-01-04T17:53:29.9469995Z     |     response = await self.client.request(
+2026-01-04T17:53:29.9470250Z     |                ^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-01-04T17:53:29.9470822Z     |   File "/home/runner/work/metac-bot-template/metac-bot-template/.venv/lib/python3.11/site-packages/asknews_sdk/client.py", line 435, in request
+2026-01-04T17:53:29.9471400Z     |     raise_from_response(
+2026-01-04T17:53:29.9472008Z     |   File "/home/runner/work/metac-bot-template/metac-bot-template/.venv/lib/python3.11/site-packages/asknews_sdk/errors.py", line 109, in raise_from_response
+2026-01-04T17:53:29.9472698Z     |     raise ErrorMap.get(code, APIError)(response, detail, code)
+2026-01-04T17:53:29.9473453Z     | asknews_sdk.errors.RateLimitExceededError: RateLimitExceededError: 429000 - Rate Limit Exceeded, please upgrade at https://my.asknews.app/plans to obtain higher rate limits.
+2026-01-04T17:53:29.9474137Z     +------------------------------------
+2026-01-04T17:53:29.9474295Z 
+2026-01-04T17:53:29.9474600Z 2026-01-04 17:53:29,929 - forecasting_tools.forecast_bots.forecast_bot - ERROR - Exception occurred during forecasting:
+2026-01-04T17:53:29.9475091Z   + Exception Group Traceback (most recent call last):
+2026-01-04T17:53:29.9476086Z   |   File "/home/runner/work/metac-bot-template/metac-bot-template/.venv/lib/python3.11/site-packages/forecasting_tools/forecast_bots/forecast_bot.py", line 341, in _run_individual_question_with_error_propagation
+2026-01-04T17:53:29.9477026Z   |     return await self._run_individual_question(question)
+2026-01-04T17:53:29.9477318Z   |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-01-04T17:53:29.9478044Z   |   File "/home/runner/work/metac-bot-template/metac-bot-template/.venv/lib/python3.11/site-packages/forecasting_tools/forecast_bots/forecast_bot.py", line 384, in _run_individual_question
+2026-01-04T17:53:29.9478814Z   |     await self._handle_errors_in__run_individual_question(
+2026-01-04T17:53:29.9479624Z   |   File "/home/runner/work/metac-bot-template/metac-bot-template/.venv/lib/python3.11/site-packages/forecasting_tools/forecast_bots/forecast_bot.py", line 430, in _handle_errors_in__run_individual_question
+2026-01-04T17:53:29.9480425Z   |     self._reraise_exception_with_prepended_message(
+2026-01-04T17:53:29.9481229Z   |   File "/home/runner/work/metac-bot-template/metac-bot-template/.venv/lib/python3.11/site-packages/forecasting_tools/forecast_bots/forecast_bot.py", line 746, in _reraise_exception_with_prepended_message
+2026-01-04T17:53:29.9482128Z   |     raise ExceptionGroup(
+2026-01-04T17:53:29.9483056Z   | ExceptionGroup: 1 sub-exceptions -> All 1 research reports/predictions failed: Errors: ['RateLimitExceededError: RateLimitExceededError: 429000 - Rate Limit Exceeded, please upgrade at https://my.asknews.app/plans to obtain higher rate limits.'] (1 sub-exception)
+2026-01-04T17:53:29.9483997Z   +-+---------------- 1 ----------------
+2026-01-04T17:53:29.9484245Z     | Traceback (most recent call last):
+2026-01-04T17:53:29.9484681Z     |   File "/opt/hostedtoolcache/Python/3.11.14/x64/lib/python3.11/asyncio/tasks.py", line 277, in __step
+2026-01-04T17:53:29.9485119Z     |     result = coro.send(None)
+2026-01-04T17:53:29.9485343Z     |              ^^^^^^^^^^^^^^^
+2026-01-04T17:53:29.9486068Z     |   File "/home/runner/work/metac-bot-template/metac-bot-template/.venv/lib/python3.11/site-packages/forecasting_tools/forecast_bots/forecast_bot.py", line 464, in _research_and_make_predictions
+2026-01-04T17:53:29.9486948Z     |     research = await self.run_research(question)
+2026-01-04T17:53:29.9487218Z     |                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-01-04T17:53:29.9487646Z     |   File "/home/runner/work/metac-bot-template/metac-bot-template/main.py", line 192, in run_research
+2026-01-04T17:53:29.9488149Z     |     research = await AskNewsSearcher().call_preconfigured_version(
+2026-01-04T17:53:29.9488472Z     |                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-01-04T17:53:29.9489208Z     |   File "/home/runner/work/metac-bot-template/metac-bot-template/.venv/lib/python3.11/site-packages/forecasting_tools/helpers/asknews_searcher.py", line 126, in call_preconfigured_version
+2026-01-04T17:53:29.9489980Z     |     return await self.get_formatted_news_async(prompt)
+2026-01-04T17:53:29.9490275Z     |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-01-04T17:53:29.9490994Z     |   File "/home/runner/work/metac-bot-template/metac-bot-template/.venv/lib/python3.11/site-packages/forecasting_tools/helpers/asknews_searcher.py", line 73, in get_formatted_news_async
+2026-01-04T17:53:29.9491723Z     |     async with AsyncAskNewsSDK(
+2026-01-04T17:53:29.9492294Z     |   File "/home/runner/work/metac-bot-template/metac-bot-template/.venv/lib/python3.11/site-packages/asknews_sdk/sdk.py", line 236, in __aexit__
+2026-01-04T17:53:29.9492902Z     |     await self.client.__aexit__(exc_type, exc, tb)
+2026-01-04T17:53:29.9493508Z     |   File "/home/runner/work/metac-bot-template/metac-bot-template/.venv/lib/python3.11/site-packages/asknews_sdk/client.py", line 378, in __aexit__
+2026-01-04T17:53:29.9494080Z     |     raise exc
+2026-01-04T17:53:29.9494739Z     |   File "/home/runner/work/metac-bot-template/metac-bot-template/.venv/lib/python3.11/site-packages/forecasting_tools/helpers/asknews_searcher.py", line 81, in get_formatted_news_async
+2026-01-04T17:53:29.9495662Z     |     hot_response = await ask.news.search_news(
+2026-01-04T17:53:29.9495934Z     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-01-04T17:53:29.9496529Z     |   File "/home/runner/work/metac-bot-template/metac-bot-template/.venv/lib/python3.11/site-packages/asknews_sdk/api/news.py", line 582, in search_news
+2026-01-04T17:53:29.9497277Z     |     response = await self.client.request(
+2026-01-04T17:53:29.9497528Z     |                ^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-01-04T17:53:29.9498096Z     |   File "/home/runner/work/metac-bot-template/metac-bot-template/.venv/lib/python3.11/site-packages/asknews_sdk/client.py", line 435, in request
+2026-01-04T17:53:29.9498672Z     |     raise_from_response(
+2026-01-04T17:53:29.9499270Z     |   File "/home/runner/work/metac-bot-template/metac-bot-template/.venv/lib/python3.11/site-packages/asknews_sdk/errors.py", line 109, in raise_from_response
+2026-01-04T17:53:29.9499966Z     |     raise ErrorMap.get(code, APIError)(response, detail, code)
+2026-01-04T17:53:29.9500723Z     | asknews_sdk.errors.RateLimitExceededError: RateLimitExceededError: 429000 - Rate Limit Exceeded, please upgrade at https://my.asknews.app/plans to obtain higher rate limits.
+2026-01-04T17:53:29.9501595Z     +------------------------------------
+2026-01-04T17:53:29.9501876Z 
+2026-01-04T17:53:29.9502045Z During handling of the above exception, another exception occurred:
+2026-01-04T17:53:29.9502301Z 
+2026-01-04T17:53:29.9502421Z   + Exception Group Traceback (most recent call last):
+2026-01-04T17:53:29.9502896Z   |   File "/opt/hostedtoolcache/Python/3.11.14/x64/lib/python3.11/asyncio/tasks.py", line 277, in __step
+2026-01-04T17:53:29.9503330Z   |     result = coro.send(None)
+2026-01-04T17:53:29.9503547Z   |              ^^^^^^^^^^^^^^^
+2026-01-04T17:53:29.9504298Z   |   File "/home/runner/work/metac-bot-template/metac-bot-template/.venv/lib/python3.11/site-packages/forecasting_tools/forecast_bots/forecast_bot.py", line 347, in _run_individual_question_with_error_propagation
+2026-01-04T17:53:29.9505167Z   |     self._reraise_exception_with_prepended_message(e, error_message)
+2026-01-04T17:53:29.9506023Z   |   File "/home/runner/work/metac-bot-template/metac-bot-template/.venv/lib/python3.11/site-packages/forecasting_tools/forecast_bots/forecast_bot.py", line 746, in _reraise_exception_with_prepended_message
+2026-01-04T17:53:29.9506917Z   |     raise ExceptionGroup(
+2026-01-04T17:53:29.9508189Z   | ExceptionGroup: 1 sub-exceptions -> Error while processing question url: 'https://www.metaculus.com/questions/38880': 1 sub-exceptions -> All 1 research reports/predictions failed: Errors: ['RateLimitExceededError: RateLimitExceededError: 429000 - Rate Limit Exceeded, please upgrade at https://my.asknews.app/plans to obtain higher rate limits.'] (1 sub-exception)
+2026-01-04T17:53:29.9509453Z   +-+---------------- 1 ----------------
+2026-01-04T17:53:29.9509695Z     | Traceback (most recent call last):
+2026-01-04T17:53:29.9510283Z     |   File "/home/runner/work/metac-bot-template/metac-bot-template/.venv/lib/python3.11/site-packages/asknews_sdk/client.py", line 430, in request
+2026-01-04T17:53:29.9510871Z     |     response.raise_for_status()
+2026-01-04T17:53:29.9511462Z     |   File "/home/runner/work/metac-bot-template/metac-bot-template/.venv/lib/python3.11/site-packages/httpx/_models.py", line 829, in raise_for_status
+2026-01-04T17:53:29.9512135Z     |     raise HTTPStatusError(message, request=request, response=self)
+2026-01-04T17:53:29.9521848Z     | httpx.HTTPStatusError: Client error '429 Too Many Requests' for url 'https://api.asknews.app/v1/news/search?query=%0AYou+are+an+assistant+to+a+superforecaster.%0AThe+superforecaster+will+give+you+a+question+they+intend+to+forecast+on.%0ATo+be+a+great+assistant%2C+you+generate+a+concise+but+detailed+rundown+of+the+most+relevant+news%2C+including+if+the+question+would+resolve+Yes+or+No+based+on+current+information.%0AYou+do+not+produce+forecasts+yourself.%0A%0AQuestion%3A%0AHow+many+major+US+labor+strikes+with+generative+AI+as+one+of+their+main+reasons+will+start+in+2029%3F%0A%0AThis+question%27s+outcome+will+be+determined+by+the+specific+criteria+below%3A%0AThis+question+will+resolve+as+the+number+of+major+work+stoppages+recorded+by+the+US+Bureau+of+Labor+Statistics+in+their+%5BDetailed+Monthly+Listing%5D%28https%3A%2F%2Fwww.bls.gov%2Fwsp%2F%29+that+fulfil+both+of+the+following+criteria%3A%0A%0A%2A+They+have+a+%2AWork+stoppage+beginning+date%2A+or+a+%2AWork+stoppage+ending+date%2A+after+December+31%2C+2028+and+before+January+1%2C+2030.%0A%2A+Generative+AI+is+related+to+at+least+one+of+their+primary+demands%2C+according+to+%5Bcredible+sources%5D%28https%3A%2F%2Fwww.metaculus.com%2Ffaq%2F%23definitions%29.%0A%0A%2A+Any+reason+related+to+generative+AI+would+count+for+this+question%2C+including+but+not+limited+to+AI-related+job+displacement%2C+AI+workplace+policies%2C+or+disputes+about+intellectual+property.%0A%2A+Note+that+BLS%27s+list+includes+only+strikes+that+involve+at+least+1%2C000+workers+and+last+for+one+shift+or+longer.%0A%2A+An+example+of+a+strike+that+would+count+is+the+%5BSAG-AFTRA+video+game+strike%5D%28https%3A%2F%2Fen.wikipedia.org%2Fwiki%2F2024%25E2%2580%2593present_SAG-AFTRA_video_game_strike%29+begun+in+2024%2C+which+%5Baccording+to+the+union%5D%28https%3A%2F%2Fwww.sagaftra.org%2Fsag-aftra-strikes-video-games-over-ai%29+involved+demands+%22that+companies+provide+members+with+consent%2C+compensation+and+transparency+with+regard+to+digital+replicas+and+generative+A.I.+systems+used+to+create+synthetic+performances.%22%0A&n_articles=6&time_filter=crawl_date&return_type=both&method=kw&historical=False&offset=0&categories=All&similarity_score_threshold=0.5&doc_start_delimiter=%3Cdoc%3E&doc_end_delimiter=%3C%2Fdoc%3E&provocative=all&diversify_sources=False&strategy=latest+news&hours_back=24&string_guarantee_op=OR&entity_guarantee_op=OR&return_graphs=False&return_geo=False&premium=False'
+2026-01-04T17:53:29.9531966Z     | For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+2026-01-04T17:53:29.9532361Z     | 
+2026-01-04T17:53:29.9532618Z     | During handling of the above exception, another exception occurred:
+2026-01-04T17:53:29.9532939Z     | 
+2026-01-04T17:53:29.9533113Z     | Traceback (most recent call last):
+2026-01-04T17:53:29.9533543Z     |   File "/opt/hostedtoolcache/Python/3.11.14/x64/lib/python3.11/asyncio/tasks.py", line 277, in __step
+2026-01-04T17:53:29.9533971Z     |     result = coro.send(None)
+2026-01-04T17:53:29.9534190Z     |              ^^^^^^^^^^^^^^^
+2026-01-04T17:53:29.9534917Z     |   File "/home/runner/work/metac-bot-template/metac-bot-template/.venv/lib/python3.11/site-packages/forecasting_tools/forecast_bots/forecast_bot.py", line 464, in _research_and_make_predictions
+2026-01-04T17:53:29.9535692Z     |     research = await self.run_research(question)
+2026-01-04T17:53:29.9535963Z     |                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-01-04T17:53:29.9536386Z     |   File "/home/runner/work/metac-bot-template/metac-bot-template/main.py", line 192, in run_research
+2026-01-04T17:53:29.9537036Z     |     research = await AskNewsSearcher().call_preconfigured_version(
+2026-01-04T17:53:29.9537369Z     |                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-01-04T17:53:29.9538116Z     |   File "/home/runner/work/metac-bot-template/metac-bot-template/.venv/lib/python3.11/site-packages/forecasting_tools/helpers/asknews_searcher.py", line 126, in call_preconfigured_version
+2026-01-04T17:53:29.9538892Z     |     return await self.get_formatted_news_async(prompt)
+2026-01-04T17:53:29.9539178Z     |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-01-04T17:53:29.9539896Z     |   File "/home/runner/work/metac-bot-template/metac-bot-template/.venv/lib/python3.11/site-packages/forecasting_tools/helpers/asknews_searcher.py", line 73, in get_formatted_news_async
+2026-01-04T17:53:29.9540619Z     |     async with AsyncAskNewsSDK(
+2026-01-04T17:53:29.9541318Z     |   File "/home/runner/work/metac-bot-template/metac-bot-template/.venv/lib/python3.11/site-packages/asknews_sdk/sdk.py", line 236, in __aexit__
+2026-01-04T17:53:29.9541926Z     |     await self.client.__aexit__(exc_type, exc, tb)
+2026-01-04T17:53:29.9542546Z     |   File "/home/runner/work/metac-bot-template/metac-bot-template/.venv/lib/python3.11/site-packages/asknews_sdk/client.py", line 378, in __aexit__
+2026-01-04T17:53:29.9543118Z     |     raise exc
+2026-01-04T17:53:29.9543778Z     |   File "/home/runner/work/metac-bot-template/metac-bot-template/.venv/lib/python3.11/site-packages/forecasting_tools/helpers/asknews_searcher.py", line 81, in get_formatted_news_async
+2026-01-04T17:53:29.9544519Z     |     hot_response = await ask.news.search_news(
+2026-01-04T17:53:29.9544781Z     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-01-04T17:53:29.9545378Z     |   File "/home/runner/work/metac-bot-template/metac-bot-template/.venv/lib/python3.11/site-packages/asknews_sdk/api/news.py", line 582, in search_news
+2026-01-04T17:53:29.9546000Z     |     response = await self.client.request(
+2026-01-04T17:53:29.9546257Z     |                ^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-01-04T17:53:29.9547059Z     |   File "/home/runner/work/metac-bot-template/metac-bot-template/.venv/lib/python3.11/site-packages/asknews_sdk/client.py", line 435, in request
+2026-01-04T17:53:29.9547665Z     |     raise_from_response(
+2026-01-04T17:53:29.9548252Z     |   File "/home/runner/work/metac-bot-template/metac-bot-template/.venv/lib/python3.11/site-packages/asknews_sdk/errors.py", line 109, in raise_from_response
+2026-01-04T17:53:29.9548931Z     |     raise ErrorMap.get(code, APIError)(response, detail, code)
+2026-01-04T17:53:29.9549681Z     | asknews_sdk.errors.RateLimitExceededError: RateLimitExceededError: 429000 - Rate Limit Exceeded, please upgrade at https://my.asknews.app/plans to obtain higher rate limits.
+2026-01-04T17:53:29.9550360Z     +------------------------------------
+2026-01-04T17:53:29.9550518Z 
+2026-01-04T17:53:29.9550618Z Traceback (most recent call last):
+2026-01-04T17:53:29.9555445Z   File "/home/runner/work/metac-bot-template/metac-bot-template/main.py", line 1402, in <module>
+2026-01-04T17:53:29.9556026Z     template_bot.log_report_summary(forecast_reports)
+2026-01-04T17:53:29.9557036Z   File "/home/runner/work/metac-bot-template/metac-bot-template/.venv/lib/python3.11/site-packages/forecasting_tools/forecast_bots/forecast_bot.py", line 875, in log_report_summary
+2026-01-04T17:53:29.9557778Z     raise RuntimeError(
+2026-01-04T17:53:29.9563149Z RuntimeError: 3 errors occurred while forecasting: [ExceptionGroup("1 sub-exceptions -> Error while processing question url: 'https://www.metaculus.com/questions/22427': 1 sub-exceptions -> All 1 research reports/predictions failed: Errors: ['RateLimitExceededError: RateLimitExceededError: 429000 - Rate Limit Exceeded, please upgrade at https://my.asknews.app/plans to obtain higher rate limits.']", (RateLimitExceededError(<asknews_sdk.response.AsyncAPIResponse object at 0x7f25a2a23690>, 'Rate Limit Exceeded, please upgrade at https://my.asknews.app/plans to obtain higher rate limits.', 429000),)), ExceptionGroup("1 sub-exceptions -> Error while processing question url: 'https://www.metaculus.com/questions/14333': 1 sub-exceptions -> All 1 research reports/predictions failed: Errors: ['RateLimitExceededError: RateLimitExceededError: 429000 - Rate Limit Exceeded, please upgrade at https://my.asknews.app/plans to obtain higher rate limits.']", (RateLimitExceededError(<asknews_sdk.response.AsyncAPIResponse object at 0x7f25a3496f90>, 'Rate Limit Exceeded, please upgrade at https://my.asknews.app/plans to obtain higher rate limits.', 429000),)), ExceptionGroup("1 sub-exceptions -> Error while processing question url: 'https://www.metaculus.com/questions/38880': 1 sub-exceptions -> All 1 research reports/predictions failed: Errors: ['RateLimitExceededError: RateLimitExceededError: 429000 - Rate Limit Exceeded, please upgrade at https://my.asknews.app/plans to obtain higher rate limits.']", (RateLimitExceededError(<asknews_sdk.response.AsyncAPIResponse object at 0x7f25a2aafd90>, 'Rate Limit Exceeded, please upgrade at https://my.asknews.app/plans to obtain higher rate limits.', 429000),))]
+2026-01-04T17:53:29.9907725Z 2026-01-04 17:53:29,990 - openai.agents - WARNING - OPENAI_API_KEY is not set, skipping trace export
+2026-01-04T17:53:30.6791222Z ##[error]Process completed with exit code 1.
