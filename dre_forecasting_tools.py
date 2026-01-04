@@ -162,6 +162,32 @@ class SpringTemplateBotExtended(SpringTemplateBot2026):
 
         return slug_clean, readable_name
 
+    def _get_question_type(self, question: MetaculusQuestion) -> str:
+        """Get human-readable question type"""
+        from forecasting_tools.data_models.questions import (
+            BinaryQuestion,
+            NumericQuestion,
+            MultipleChoiceQuestion,
+            DateQuestion,
+            ConditionalQuestion
+        )
+
+        if isinstance(question, BinaryQuestion):
+            return "Binary"
+        elif isinstance(question, MultipleChoiceQuestion):
+            return "Multiple Choice"
+        elif isinstance(question, NumericQuestion):
+            # Check if it's discrete (has specific options) or continuous
+            if hasattr(question, 'options') and question.options:
+                return "Discrete Numeric"
+            return "Numeric"
+        elif isinstance(question, DateQuestion):
+            return "Date"
+        elif isinstance(question, ConditionalQuestion):
+            return "Conditional"
+        else:
+            return "Unknown"
+
     def _save_full_forecast_copy(
         self,
         full_explanation: str,
@@ -173,6 +199,7 @@ class SpringTemplateBotExtended(SpringTemplateBot2026):
 
         question_id = question.page_url.rstrip('/').split('/')[-1]
         tournament_slug, tournament_readable = self._get_tournament_name(question)
+        question_type = self._get_question_type(question)
 
         counter = 1
         while True:
@@ -188,6 +215,7 @@ class SpringTemplateBotExtended(SpringTemplateBot2026):
             # FORECAST METADATA
             **Forecast ID**: q{question_id}
             **Question URL**: {question.page_url}
+            **Question Type**: {question_type}
             **Tournament**: {tournament_readable}
             **Forecast Date**: {timestamp}
             **Bot Version**: {self.__class__.__name__}
