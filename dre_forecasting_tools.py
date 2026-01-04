@@ -259,9 +259,7 @@ class SpringTemplateBotExtended(SpringTemplateBot2026):
         )
 
         # Generate condensed summary
-        logger.info("[CONDENSED] Generating condensed summary with LLM...")
         condensed = await summarizer_llm.invoke(prompt)
-        logger.info(f"[CONDENSED] Generated condensed summary ({len(condensed)} characters)")
 
         return condensed
 
@@ -408,12 +406,7 @@ class SpringTemplateBotExtended(SpringTemplateBot2026):
         """
         import asyncio
 
-        print("="*80)
-        print("DEBUG: _create_comment in SpringTemplateBotExtended called!")
-        print("="*80)
-        logger.info("="*80)
-        logger.info("CONDENSED SUMMARY: Starting _create_comment override")
-        logger.info("="*80)
+        logger.info("Creating forecast comment with condensed summary generation")
 
         # Generate full explanation
         full_explanation = super()._create_comment(
@@ -425,13 +418,10 @@ class SpringTemplateBotExtended(SpringTemplateBot2026):
         )
 
         # Save full forecast locally
-        print(f"DEBUG: Saving full forecast, length={len(full_explanation)}")
-        logger.info(f"Saving full forecast, length={len(full_explanation)}")
         self._save_full_forecast_copy(full_explanation, question)
 
         # Generate condensed summary using LLM (run async function synchronously)
-        print("DEBUG: Starting condensed summary generation...")
-        logger.info("Starting condensed summary generation...")
+        logger.info("Generating condensed summary...")
         try:
             loop = asyncio.get_event_loop()
             if loop.is_running():
@@ -460,20 +450,15 @@ class SpringTemplateBotExtended(SpringTemplateBot2026):
                         time_spent_in_minutes
                     )
                 )
-            print(f"DEBUG: Condensed summary generated, length={len(condensed_explanation)}")
-            logger.info(f"Condensed summary generated successfully, length={len(condensed_explanation)}")
+            logger.info(f"Condensed summary generated ({len(condensed_explanation)} chars)")
         except Exception as e:
-            print(f"DEBUG: ERROR generating condensed summary: {e}")
-            logger.error(f"[CONDENSED] Error generating condensed summary: {e}")
-            logger.info("[CONDENSED] Falling back to full explanation")
+            logger.error(f"Error generating condensed summary: {e}")
+            logger.warning("Falling back to full explanation for posting")
             condensed_explanation = full_explanation
 
         # Save condensed forecast locally
-        print(f"DEBUG: Saving condensed forecast, length={len(condensed_explanation)}")
-        logger.info(f"Saving condensed forecast, length={len(condensed_explanation)}")
         self._save_condensed_forecast_copy(condensed_explanation, question)
 
         # Return condensed version (this gets posted to Metaculus)
-        print("DEBUG: Returning condensed version for Metaculus posting")
-        logger.info("[CONDENSED] Returning condensed version for Metaculus posting")
+        logger.info("Returning condensed summary for Metaculus posting")
         return condensed_explanation
