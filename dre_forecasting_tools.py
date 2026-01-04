@@ -394,7 +394,7 @@ class SpringTemplateBotExtended(SpringTemplateBot2026):
 
         logger.info(f"Saved condensed forecast to {filepath}")
 
-    async def _create_comment(
+    def _create_comment(
         self,
         question: MetaculusQuestion,
         research_prediction_collections: list[ResearchWithPredictions],
@@ -406,6 +406,8 @@ class SpringTemplateBotExtended(SpringTemplateBot2026):
         Override to save both full and condensed forecasts locally.
         Posts condensed version to Metaculus, keeps full version in local storage.
         """
+        import asyncio
+
         # Generate full explanation
         full_explanation = super()._create_comment(
             question,
@@ -418,14 +420,39 @@ class SpringTemplateBotExtended(SpringTemplateBot2026):
         # Save full forecast locally
         self._save_full_forecast_copy(full_explanation, question)
 
-        # Generate condensed summary using LLM
-        condensed_explanation = await self._create_condensed_summary(
-            full_explanation,
-            aggregated_prediction,
-            question,
-            final_cost,
-            time_spent_in_minutes
-        )
+        # Generate condensed summary using LLM (run async function synchronously)
+        try:
+            loop = asyncio.get_event_loop()
+            if loop.is_running():
+                # If we're already in an event loop, create a new task
+                import concurrent.futures
+                with concurrent.futures.ThreadPoolExecutor() as executor:
+                    future = executor.submit(
+                        asyncio.run,
+                        self._create_condensed_summary(
+                            full_explanation,
+                            aggregated_prediction,
+                            question,
+                            final_cost,
+                            time_spent_in_minutes
+                        )
+                    )
+                    condensed_explanation = future.result()
+            else:
+                # No event loop running, use asyncio.run
+                condensed_explanation = asyncio.run(
+                    self._create_condensed_summary(
+                        full_explanation,
+                        aggregated_prediction,
+                        question,
+                        final_cost,
+                        time_spent_in_minutes
+                    )
+                )
+        except Exception as e:
+            logger.error(f"[CONDENSED] Error generating condensed summary: {e}")
+            logger.info("[CONDENSED] Falling back to full explanation")
+            condensed_explanation = full_explanation
 
         # Save condensed forecast locally
         self._save_condensed_forecast_copy(condensed_explanation, question)

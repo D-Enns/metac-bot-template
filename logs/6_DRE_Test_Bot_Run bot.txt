@@ -1,0 +1,535 @@
+﻿2026-01-04T20:59:33.0276197Z ##[group]Run poetry run python main.py --mode test_questions
+2026-01-04T20:59:33.0276665Z [36;1mpoetry run python main.py --mode test_questions[0m
+2026-01-04T20:59:33.0310275Z shell: /usr/bin/bash -e {0}
+2026-01-04T20:59:33.0310507Z env:
+2026-01-04T20:59:33.0310760Z   pythonLocation: /opt/hostedtoolcache/Python/3.11.14/x64
+2026-01-04T20:59:33.0311187Z   PKG_CONFIG_PATH: /opt/hostedtoolcache/Python/3.11.14/x64/lib/pkgconfig
+2026-01-04T20:59:33.0311599Z   Python_ROOT_DIR: /opt/hostedtoolcache/Python/3.11.14/x64
+2026-01-04T20:59:33.0311956Z   Python2_ROOT_DIR: /opt/hostedtoolcache/Python/3.11.14/x64
+2026-01-04T20:59:33.0312318Z   Python3_ROOT_DIR: /opt/hostedtoolcache/Python/3.11.14/x64
+2026-01-04T20:59:33.0312689Z   LD_LIBRARY_PATH: /opt/hostedtoolcache/Python/3.11.14/x64/lib
+2026-01-04T20:59:33.0313010Z   VENV: .venv/bin/activate
+2026-01-04T20:59:33.0313425Z   METACULUS_TOKEN: ***
+2026-01-04T20:59:33.0313696Z   PERPLEXITY_API_KEY: 
+2026-01-04T20:59:33.0313892Z   EXA_API_KEY: 
+2026-01-04T20:59:33.0314075Z   OPENAI_API_KEY: 
+2026-01-04T20:59:33.0314521Z   OPENROUTER_API_KEY: ***
+2026-01-04T20:59:33.0314736Z   ANTHROPIC_API_KEY: 
+2026-01-04T20:59:33.0314992Z   ASKNEWS_CLIENT_ID: ***
+2026-01-04T20:59:33.0315237Z   ASKNEWS_SECRET: ***
+2026-01-04T20:59:33.0315433Z ##[endgroup]
+2026-01-04T20:59:42.1339219Z Warning: Model openrouter/perplexity/sonar does not support cost tracking.
+2026-01-04T20:59:43.1758767Z 2026-01-04 20:59:43.175 WARNING streamlit.runtime.caching.cache_data_api: No runtime found, using MemoryCacheStorageManager
+2026-01-04T20:59:43.2081228Z 2026-01-04 20:59:43,207 - forecasting_tools.ai_models.model_tracker - WARNING - Warning: Model openrouter/openai/gpt-4o-mini does not support cost tracking.
+2026-01-04T20:59:43.2093917Z 2026-01-04 20:59:43,209 - forecasting_tools.helpers.metaculus_client - INFO - Retrieving question details for question 14333
+2026-01-04T20:59:45.4533654Z 2026-01-04 20:59:45,453 - forecasting_tools.helpers.metaculus_client - INFO - Retrieved question details for question 14333
+2026-01-04T20:59:45.8556653Z 2026-01-04 20:59:45,855 - openai.agents - WARNING - OPENAI_API_KEY is not set, skipping trace export
+2026-01-04T20:59:58.8904645Z 2026-01-04 20:59:58,890 - main - INFO - Found Research for URL https://www.metaculus.com/questions/14333:
+2026-01-04T20:59:58.8905508Z Here are the relevant news articles:
+2026-01-04T20:59:58.8905834Z 
+2026-01-04T20:59:58.8906950Z **World's Oldest Cat Fluffy, 30, Lives on at 136 Human Years: What’s Her Secret to Longevity?**
+2026-01-04T20:59:58.8918829Z Fluffy, the world's oldest living cat, celebrated her 30th birthday on December 29, 2023, according to reports from the New York Post and other international media. Fluffy, a short-haired cat with brown and black fur, is estimated to be equivalent to 136 human years old. Born on December 29, 1995, in the vicinity of a hospital in Merseyside, England, she was originally a stray cat adopted by a hospital employee. She lived with her first owner until his death, then moved to her sister’s home, where she stayed for 14 years. After her second owner passed away, her son briefly cared for her before placing her in a shelter. It was there that she met her current owner, Vicki Green. Shelter staff initially doubted Fluffy’s age, but after tracing her medical records, they confirmed she was 27, leading to her official recognition by Guinness World Records in December 2022 as the world’s oldest living cat. Green said she always knew Fluffy was special but never imagined she would become a record holder. She described her goal as giving Fluffy a comfortable retirement and expressed pride in adopting such a remarkable cat. Fluffy currently suffers from hearing and vision loss due to age but remains in generally good health. Green reported that Fluffy, who initially struggled with new environments and darkness, now sleeps peacefully in bed with her. Shelter officials attributed Fluffy’s longevity to a consistent routine including regular meals, sufficient sleep, and moderate play. The previous record holder, Cream Puff, a cat from Texas, lived 38 years and 3 days, from August 3, 1967, to August 6, 2005.
+2026-01-04T20:59:58.8925405Z Original language: ko
+2026-01-04T20:59:58.8925639Z Publish date: January 03, 2026 11:42 PM
+2026-01-04T20:59:58.8926149Z Source:[First-Class 경제신문 파이낸셜뉴스](https://www.fnnews.com/news/202601020955243414)
+2026-01-04T20:59:58.8926433Z 
+2026-01-04T20:59:58.8926560Z **Staying alive! Inside the quest for longevity**
+2026-01-04T20:59:58.8933571Z The article explores the global quest for longevity and immortality, examining both scientific and speculative approaches. It highlights how billionaires like Jeff Bezos, Larry Ellison, Peter Thiel, Larry Page, and Sam Altman are investing heavily in anti-aging technologies, driven by a belief that death can be conquered. The pursuit is linked to space travel ambitions, with longevity seen as essential for interstellar journeys. Historical roots of this quest include myths like the Fountain of Youth and the Epic of Gilgamesh. Modern advances in medicine, sanitation, nutrition, and antibiotics have raised average life expectancy from 30–40 years in 1900 to over 80 today, though individual life expectancy may not have changed significantly due to improved survival rates in early life. The article contrasts two recent books: Michael Gurven’s 'Seven Decades' (Princeton University Press, 2025), which argues humans are biologically designed to live around 70 years due to evolutionary advantages of intergenerational cooperation in hunter-gatherer societies, and Aleks Krotoski’s 'The Immortalists' (Bodley Head, 2025), which critiques the tech elite’s obsession with immortality as a form of hubris, narcissism, and 'engineer’s syndrome.' Krotoski highlights the ethical, economic, and social consequences of extended lifespans, including unequal access, population strain, estate complications, and the risk of geriatric crime, as seen in Japan. The article references historical practices like 'memento mori' and philosophical views—such as Borges’ notion that death gives life meaning—and warns that indefinite life without limits could erase urgency and purpose. It concludes with concerns about wealth concentration, societal disruption, and the moral question of whether anyone is entitled to 'clutter up the planet forever,' as argued by Martin Wolf in the Financial Times.
+2026-01-04T20:59:58.8940960Z Original language: en
+2026-01-04T20:59:58.8941343Z Publish date: January 03, 2026 06:11 PM
+2026-01-04T20:59:58.8942319Z Source:[The New Indian Express](https://www.newindianexpress.com/web-only/2026/Jan/03/staying-alive-inside-the-quest-for-longevity)
+2026-01-04T20:59:58.8943176Z 
+2026-01-04T20:59:58.8943640Z **Amitabh Bachchan questions truth, history in age of information overload - Yes Punjab News**
+2026-01-04T20:59:58.8952585Z Megastar Amitabh Bachchan has raised concerns about the evolving nature of truth, history, and storytelling in the current era of information overload. In a blog post, he questioned the permanence and objectivity of history, suggesting it is increasingly fragmented into subjective narratives such as 'his story,' 'my story,' or 'someone else's story.' He emphasized that in the future, nothing will be definitively recorded—only what is written, interpreted, and preserved, which he described as 'artificial writing' shaped by the author's intent. Bachchan further noted that even images, once considered reliable records, may no longer be trusted due to the influence of AI, stating, 'that too in question, for it shall never be in the realm of reality.' On X (formerly Twitter), he shared a countdown to 2027, marking 'T 5613 - 2 days have passed; 363 are left,' indicating the passage of time in 2026. This reflection follows a lighter moment on the show Kaun Banega Crorepati, where actress Mithila Palkar and Sharib Hashmi quizzed Bachchan on Marathi phrases—'Shaana' (someone who thinks they are very smart) and 'Dedh Shaana' (a person who tries to act extra smart)—eliciting laughter from the audience.
+2026-01-04T20:59:58.8959812Z Original language: en
+2026-01-04T20:59:58.8960209Z Publish date: January 03, 2026 06:26 AM
+2026-01-04T20:59:58.8962098Z Source:[YesPunjab – No.1 News-Portal. Latest News from Punjab, India & the World.](https://yespunjab.com/amitabh-bachchan-questions-truth-history-in-age-of-information-overload/)
+2026-01-04T20:59:58.8963300Z 
+2026-01-04T20:59:58.8963818Z **David Sinclair, Harvard Longevity Expert: 'The First Person to Live 150 Years Has Already Been Born'**
+2026-01-04T20:59:58.8972025Z David Sinclair, a Harvard professor and longevity expert, stated in an interview with Peter Diamandis that 'the first person to live 150 years has already been born.' This claim is based on his research into epigenetic reprogramming, a process that resets gene expression without altering DNA sequence, potentially reversing cellular aging. Sinclair, who leads a lab at Harvard, claims to have deciphered the code for this reprogramming, which could allow rejuvenation through a simple pill taken three times a week for a month. While still experimental, studies in mice have shown significant cellular rejuvenation, and in monkeys, up to 95% reversal of aging in optic nerve tissues was observed. Although these results have not yet been peer-reviewed or published, Sinclair announced that human trials will begin in 2026. His work represents a shift from traditional longevity approaches focused on lifestyle habits—such as those promoted by National Geographic’s Dann Buettner in 'blue zones'—to direct biological intervention targeting aging mechanisms at the cellular level.
+2026-01-04T20:59:58.8978719Z Original language: es
+2026-01-04T20:59:58.8979116Z Publish date: January 03, 2026 04:26 AM
+2026-01-04T20:59:58.8980514Z Source:[Vanitatis](https://www.vanitatis.elconfidencial.com/vida-saludable/2026-01-03/david-sinclair-experto-longevidad-harvard-150-anos-1qrt_4276635/)
+2026-01-04T20:59:58.8981619Z 
+2026-01-04T20:59:58.8981808Z **The True Biological Clock: You Will Die**
+2026-01-04T20:59:58.8994953Z The article reflects on the inevitability of death and the illusion of time as a renewable resource. It begins with the passing of Nabi Tajima, the world’s oldest person at 117, who was the last person born in the 19th century. The author, now 47, contemplates how time is finite and irreversible—every year lived reduces the time available for meaningful connections, especially with children. He recalls his father’s death, attributing it partly to smoking, and reflects on how he and his father shared life moments that his own children now experience. The piece critiques societal norms that encourage delaying adulthood, marriage, and parenthood, framing such delays as false security. The author argues that 'readiness' is a myth, and that postponing parenthood doesn’t preserve time—it consumes it. He highlights how biological limitations—like declining fertility—are often overshadowed by the unspoken reality that one may die before having children. The article questions the illusion of choice in life decisions, especially regarding reproduction, and points out that even technological advances (e.g., fertility freezing, future DNA-based conception) cannot overcome the ultimate limit: mortality. The author uses personal milestones—such as his own age, his children’s ages, and projected lifespans—to illustrate that time is not a clock but a sandglass. According to the U.S. Social Security Administration’s calculator, a man born on the same day as the author has a life expectancy of 82.0 years, with 34.9 years remaining at age 47. The author fears that by the time his first child reaches adulthood, he may already be too old to witness key moments. He reflects on how children disrupt the adult illusion of time, noting physical changes and emotional shifts—like a son no longer holding hands—foreshadowing the finality of death. The article ends with the poignant realization that every embrace may one day be the last.
+2026-01-04T20:59:58.9006559Z Original language: zh
+2026-01-04T20:59:58.9006970Z Publish date: January 03, 2026 12:00 AM
+2026-01-04T20:59:58.9007617Z Source:[煎蛋](https://jandan.net/p/121819)
+2026-01-04T20:59:58.9008205Z 
+2026-01-04T20:59:58.9009029Z **A Giant Volcano Off The Coast Of Oregon Is Scheduled To Erupt In 2026, JWST Finds The Best Evidence Yet Of A Lava World With A Thick Atmosphere, And Much More This Week**
+2026-01-04T20:59:58.9019103Z On January 2, 2026, IFLScience reported on several scientific developments. Axial Seamount, a submarine volcano off the coast of Oregon, is nearing a predicted eruption by the end of 2025, with scientists awaiting confirmation before the year ends. In a groundbreaking move, Peru granted legal rights to the world’s oldest bee species, which pollinates over 80% of Amazonian flora. New research reveals that stimulant drugs used for ADHD primarily affect the brain’s reward and wakefulness centers, not attention-specific regions as previously believed. Data from the James Webb Space Telescope (JWST) provides the strongest evidence yet of a thick atmosphere on the super-Earth TOI-561 b, despite its extreme heat, suggesting atmospheric longevity is possible on rocky exoplanets. Mice lacking the ability to produce vitamin C are protected against schistosomiasis, offering insight into why humans lost this metabolic ability. Cancer research continues to advance, with 2025 marking another year of innovation in therapies and survival rates. Additionally, IFLScience’s e-magazine CURIOUS Issue 42 (January 2026) explores 'Why Do We Cry?', while the podcast 'We Have Questions' examines how frogs were historically used as pregnancy tests, and a bonus episode of 'The Big Questions' explores whether magic can be a tool in science.
+2026-01-04T20:59:58.9027311Z Original language: en
+2026-01-04T20:59:58.9027718Z Publish date: January 02, 2026 12:55 PM
+2026-01-04T20:59:58.9029933Z Source:[IFLScience](https://www.iflscience.com/a-giant-volcano-off-the-coast-of-oregon-is-scheduled-to-erupt-in-2026-jwst-finds-the-best-evidence-yet-of-a-lava-world-with-a-thick-atmosphere-and-much-more-this-week-82088)
+2026-01-04T20:59:58.9031800Z 
+2026-01-04T20:59:58.9032018Z **Staying alive! Inside the quest for longevity**
+2026-01-04T20:59:58.9045115Z The article explores the global quest for longevity and immortality, examining both scientific and speculative approaches. It highlights how billionaires like Jeff Bezos, Larry Ellison, Peter Thiel, Larry Page, and Sam Altman are investing heavily in anti-aging technologies, driven by a belief that death can be conquered. The pursuit is linked to space travel ambitions, with longevity seen as essential for interstellar journeys. Historical roots of this quest include myths like the Fountain of Youth and the Epic of Gilgamesh. Modern advances in medicine, sanitation, nutrition, and antibiotics have raised average life expectancy from 30–40 years in 1900 to over 80 today, though individual life expectancy may not have changed significantly due to improved survival rates in early life. The article contrasts two recent books: Michael Gurven’s 'Seven Decades' (Princeton University Press, 2025), which argues humans are biologically designed to live around 70 years due to evolutionary advantages of intergenerational cooperation in hunter-gatherer societies, and Aleks Krotoski’s 'The Immortalists' (Bodley Head, 2025), which critiques the tech elite’s obsession with immortality as a form of hubris, narcissism, and 'engineer’s syndrome.' Krotoski highlights the ethical, economic, and social consequences of extended lifespans, including unequal access, population strain, estate complications, and the risk of geriatric crime, as seen in Japan. The article references historical practices like 'memento mori' and philosophical views—such as Borges’ notion that death gives life meaning—and warns that indefinite life without limits could erase urgency and purpose. It concludes with concerns about wealth concentration, societal disruption, and the moral question of whether anyone is entitled to 'clutter up the planet forever,' as argued by Martin Wolf in the Financial Times.
+2026-01-04T20:59:58.9056297Z Original language: en
+2026-01-04T20:59:58.9056689Z Publish date: January 03, 2026 06:11 PM
+2026-01-04T20:59:58.9057919Z Source:[The New Indian Express](https://www.newindianexpress.com/web-only/2026/Jan/03/staying-alive-inside-the-quest-for-longevity)
+2026-01-04T20:59:58.9058783Z 
+2026-01-04T20:59:58.9059282Z **David Sinclair, Harvard Longevity Expert: 'The First Person to Live 150 Years Has Already Been Born'**
+2026-01-04T20:59:58.9067191Z David Sinclair, a Harvard professor and longevity expert, stated in an interview with Peter Diamandis that 'the first person to live 150 years has already been born.' This claim is based on his research into epigenetic reprogramming, a process that resets gene expression without altering DNA sequence, potentially reversing cellular aging. Sinclair, who leads a lab at Harvard, claims to have deciphered the code for this reprogramming, which could allow rejuvenation through a simple pill taken three times a week for a month. While still experimental, studies in mice have shown significant cellular rejuvenation, and in monkeys, up to 95% reversal of aging in optic nerve tissues was observed. Although these results have not yet been peer-reviewed or published, Sinclair announced that human trials will begin in 2026. His work represents a shift from traditional longevity approaches focused on lifestyle habits—such as those promoted by National Geographic’s Dann Buettner in 'blue zones'—to direct biological intervention targeting aging mechanisms at the cellular level.
+2026-01-04T20:59:58.9073762Z Original language: es
+2026-01-04T20:59:58.9074171Z Publish date: January 03, 2026 04:26 AM
+2026-01-04T20:59:58.9074876Z Source:[Vanitatis](https://www.vanitatis.elconfidencial.com/vida-saludable/2026-01-03/david-sinclair-experto-longevidad-harvard-150-anos-1qrt_4276635/)
+2026-01-04T20:59:58.9075472Z 
+2026-01-04T20:59:58.9075579Z **The True Biological Clock: You Will Die**
+2026-01-04T20:59:58.9082696Z The article reflects on the inevitability of death and the illusion of time as a renewable resource. It begins with the passing of Nabi Tajima, the world’s oldest person at 117, who was the last person born in the 19th century. The author, now 47, contemplates how time is finite and irreversible—every year lived reduces the time available for meaningful connections, especially with children. He recalls his father’s death, attributing it partly to smoking, and reflects on how he and his father shared life moments that his own children now experience. The piece critiques societal norms that encourage delaying adulthood, marriage, and parenthood, framing such delays as false security. The author argues that 'readiness' is a myth, and that postponing parenthood doesn’t preserve time—it consumes it. He highlights how biological limitations—like declining fertility—are often overshadowed by the unspoken reality that one may die before having children. The article questions the illusion of choice in life decisions, especially regarding reproduction, and points out that even technological advances (e.g., fertility freezing, future DNA-based conception) cannot overcome the ultimate limit: mortality. The author uses personal milestones—such as his own age, his children’s ages, and projected lifespans—to illustrate that time is not a clock but a sandglass. According to the U.S. Social Security Administration’s calculator, a man born on the same day as the author has a life expectancy of 82.0 years, with 34.9 years remaining at age 47. The author fears that by the time his first child reaches adulthood, he may already be too old to witness key moments. He reflects on how children disrupt the adult illusion of time, noting physical changes and emotional shifts—like a son no longer holding hands—foreshadowing the finality of death. The article ends with the poignant realization that every embrace may one day be the last.
+2026-01-04T20:59:58.9089896Z Original language: zh
+2026-01-04T20:59:58.9090141Z Publish date: January 03, 2026 12:00 AM
+2026-01-04T20:59:58.9090519Z Source:[煎蛋](https://jandan.net/p/121819)
+2026-01-04T20:59:58.9090711Z 
+2026-01-04T20:59:58.9090829Z **The Longevity Edit | Sunday Magazine Special**
+2026-01-04T20:59:58.9095477Z The Sunday Magazine Special issue of The Hindu, published on January 2, 2026, explores the growing longevity movement in 2025 and beyond, highlighting advancements in biohacking, cryotherapy, IV therapy, brain-mapping gadgets, oxygen chambers, and Blue Zones. The article examines the science and market of preventive healthcare, questioning whether India is prepared for this shift. It features profiles of nonagenarians—including Dr. M. S. S. M. G. R. S. S. (AIIMS' first and only woman director), a world champion athlete, and a Gandhian social activist—who continue to lead purposeful lives, from wearing tracksuits to spinning on a charkha. Sunil Rajagopal discusses the changing image of India as a land of ancient trees, noting that 1,000- and 2,000-year-old trees stand as living records of time and survival amid rapid urban development, raising concerns about their protection. Korean author and psychiatrist Rhee Kun Hoo, aged 90, reflects on ageing and the importance of everyday happiness. The issue also includes Aditya Mani Jha’s 'Binge Watch' column on longevity-themed podcasts and shows, along with content on books, the Sunday quiz, and other features. The publication concludes with a message of hope and a new year greeting.
+2026-01-04T20:59:58.9099351Z Original language: en
+2026-01-04T20:59:58.9099750Z Publish date: January 02, 2026 09:31 AM
+2026-01-04T20:59:58.9100271Z Source:[The Hindu](https://www.thehindu.com/society/special-issue-longevity-boom-india-2026/article70463087.ece)
+2026-01-04T20:59:58.9100683Z 
+2026-01-04T20:59:58.9100870Z **New Year Special – What Awaits the World in 2026?**
+2026-01-04T20:59:58.9103355Z In a New Year special titled 'New Year Special - December 31, 2025 (What Awaits the World in 2026?)', Kadir Kaymakçı posed forward-looking questions about the future, including whether the secret to immortality has been discovered, what changes will occur in 2026 and beyond, what medical breakthroughs will emerge, how healthcare will evolve, and whether human lifespan could reach 150 years. The program also examined how the world has changed from the 2000s to 2026. The panelists—journalist İpek Yezdani, Habertürk Technology Editor Cem Kadri Özenen, art critic Samet Karagöz, and Dr. Ayşegül Çoruhlu—provided answers to these speculative and futuristic inquiries.
+2026-01-04T20:59:58.9105396Z Original language: tr
+2026-01-04T20:59:58.9105614Z Publish date: January 01, 2026 10:15 AM
+2026-01-04T20:59:58.9106208Z Source:[HABERTURK.COM](https://www.haberturk.com/video/programlar/izle/yeni-yil-ozel-31-aralik-2025-2026da-dunyayi-neler-bekliyor/898938)
+2026-01-04T20:59:58.9106708Z 
+2026-01-04T20:59:58.9106873Z **Americans in 1998 tried to predict 2025. Here's what they got right**
+2026-01-04T20:59:58.9112125Z In 1998, Gallup and USA Today surveyed 1,055 Americans via landline phones to predict life in 2025. Most correctly anticipated that a Black president would be elected (Barack Obama served from 2009–2017), that gay marriage would become legal and common (legalized nationwide in 2015), and that a deadly new disease would emerge (referring to the COVID-19 pandemic). However, predictions that space travel would be common for ordinary Americans or that alien life would make contact were deemed incorrect. About two-thirds expected a female president by 2025, but no woman has yet been elected. Over half expected a cure for cancer, and 61% believed people would routinely live to 100 years old—neither of which has materialized. The poll also revealed widespread pessimism: 70% believed quality of life would improve for the rich, but most expected worsening conditions for the poor; nearly 80% anticipated less personal privacy, 57% expected less personal freedom, and a 71% majority thought raising good children would be harder. Despite these concerns, most believed race relations would improve and medical care would be more available, albeit less affordable. In 1998, 60% of Americans were satisfied with the country’s direction; by 2026, that number had dropped to 24%, according to Gallup. The original predictions are archived at the Roper Center at Cornell University.
+2026-01-04T20:59:58.9116850Z Original language: en
+2026-01-04T20:59:58.9117068Z Publish date: January 01, 2026 01:56 AM
+2026-01-04T20:59:58.9117535Z Source:[Pittsburgh's Action News 4](https://www.wtae.com/article/1998-predictions-2025-retrospective/69878133)
+2026-01-04T20:59:58.9117920Z 
+2026-01-04T20:59:58.9118146Z **How to Spend the Next 20 Years of Life in Retirement: A Question from a 60-Year-Old Woman**
+2026-01-04T20:59:58.9121860Z A 60-year-old housewife from Osaka, Japan, is seeking guidance on how to spend the next 20 years of her life, as she faces aging, declining physical health, and difficulty keeping up with computer-based work. She lives with her 70-year-old husband, who is job-seeking, and her son, who works part-time, while her daughter is married with two children. Her daily routine includes stretching, household chores, reading, watching movies, and occasionally caring for her grandchildren. She participates in volunteer activities and occasionally visits art galleries with friends, but she feels reluctant to go out alone. She describes feeling aimless and overwhelmed by the prospect of living this way for nearly two decades, expressing fear about the future. Her question—how to meaningfully live the next 20 years of life—is posed to philosopher Hitoshi Ogawa, who provides philosophical reflection on aging and purpose in later life.
+2026-01-04T20:59:58.9124672Z Original language: ja
+2026-01-04T20:59:58.9124889Z Publish date: December 31, 2025 08:08 PM
+2026-01-04T20:59:58.9125317Z Source:[読売新聞オンライン](https://www.yomiuri.co.jp/jinsei/20251231-GYT8T00016/)
+2026-01-04T20:59:58.9125570Z 
+2026-01-04T20:59:58.9125937Z **Reflections at Year-End and Year-Beginning: What Can Taiwan’s Elderly Contribute to the Nation’s Future?**
+2026-01-04T20:59:58.9133992Z According to research by Sohail Inayatullah, a professor of futurology at UNESCO and a renowned futurist, futurology transforms uncertain futures into understandable and designable pathways, enabling foresight and informed decision-making in a changing world. This perspective allows for broader visions of Taiwan’s future over the next 25 years, spanning individuals, families, organizations, society, and the nation, urging action from the present. Regarding national security and population issues, global population is projected to reach 9.7 billion by 2050, while Taiwan’s population is expected to fall below 20 million—similar to its 1989 level—due to a rise in the proportion of people aged 65 and above to 35–40%, entering the peak of a 'super-aging society.' This will significantly increase the burden on the working-age population (15–64 years), projected to shrink to fewer than 5 million by 2050. The article urges current middle-aged and older adults to prepare now by rethinking financial planning, education, community building, workplace demands, societal values, national governance, and international cooperation. The author references a university that outsourced its security personnel to private firms due to budget cuts, eroding workplace trust and camaraderie. The article raises concerns about whether professions such as parents, teachers, government officials, doctors, lawyers, firefighters, and military personnel may also become outsourced in the future, especially with the rise of AI and efficiency-driven trends. This could erode Taiwan’s traditionally valued human connections and public-spirited culture. While older adults in Taiwan may not emulate the lifestyles of British author Iris Murdoch’s 'dressing up and sharing' ideal, American investor Charlie Munger’s financial foresight, or 104-year-old Lin You-mao, the world’s oldest certified badminton player at the 2025 Taipei-Keelung World Masters Games, they can still strive toward the psychologist’s concept of 'three autonomies for seniors': economic, emotional, and physical autonomy. This effort can serve as a model for future generations entering old age.
+2026-01-04T20:59:58.9140943Z Original language: zh
+2026-01-04T20:59:58.9141359Z Publish date: December 31, 2025 04:06 PM
+2026-01-04T20:59:58.9141661Z Source:[UDN](https://udn.com/news/story/7339/9238152)
+2026-01-04T20:59:58.9141877Z 
+2026-01-04T20:59:58.9142049Z **Can Blood Predict A 100-Year Life? New Studies Say The Clues Are There**
+2026-01-04T20:59:58.9146686Z New research indicates that individuals who live beyond 100 years—centenarians and supercentenarians—possess unique blood profiles that may predict extreme longevity and healthier ageing. These biological signatures, detectable as early as age 65, include strong immune system markers and low levels of 'bad' cholesterol, as seen in Maria Branyas, a 117-year-old supercentenarian studied by Spanish scientists. Despite having short telomeres—a trait typically linked to ageing—Branyas’s cells functioned like those of much younger individuals, suggesting a possible cancer-protective mechanism. A separate Chinese study of 65 centenarians found lower levels of fatty acids and other metabolites compared to younger groups, pointing to metabolic patterns that could serve as 'longevity clocks.' While no single blood test can currently predict lifespan, researchers believe these markers, influenced by diet and lifestyle, may guide future longevity interventions. The Mediterranean diet, which Branyas followed, is highlighted as a potential contributor to extended, healthier life. Scientists remain optimistic that insights from these blood profiles could lead to treatments or strategies benefiting broader populations.
+2026-01-04T20:59:58.9150869Z Original language: en
+2026-01-04T20:59:58.9151090Z Publish date: December 30, 2025 03:16 PM
+2026-01-04T20:59:58.9151650Z Source:[NDTV](https://www.ndtv.com/science/can-blood-predict-a-100-year-life-new-studies-say-the-clues-are-there-10103885)
+2026-01-04T20:59:58.9152121Z 
+2026-01-04T20:59:58.9152228Z **Remembering: You Left Us in 2025 (Part 1)**
+2026-01-04T20:59:58.9154703Z The first death announcement of 2025 comes from late 2024: Tomiko Itooka, the world’s oldest woman, passed away at her care home in Ashiya, Japan. She survived two world wars, climbed Mount Ontake—3,067 meters—twice, and managed her late husband’s textile factory as a widow for decades. Her favorite food was Calpis, a yogurt drink. Itooka’s Japanese heritage is unsurprising, as Japan has an aging population: over 95,000 people are over 100 years old, with 88% being women. Despite holding the title of 'oldest living person in the world' until her death, she lost it posthumously to a Brazilian woman born 16 days after her, who was 117 years old at the time of the article’s publication.
+2026-01-04T20:59:58.9156744Z Original language: de
+2026-01-04T20:59:58.9156951Z Publish date: December 30, 2025 04:14 AM
+2026-01-04T20:59:58.9157669Z Source:[Bayerischer Rundfunk](https://www.br.de/nachrichten/deutschland-welt/erinnerung-sie-sind-2025-von-uns-gegangen-teil-1,V2EKv6W)
+2026-01-04T20:59:58.9158180Z 
+2026-01-04T20:59:58.9158303Z **How women could be the key to unlocking longer life**
+2026-01-04T20:59:58.9161324Z Women significantly outlive men, with a ratio of nine women to every man over the age of 110. This trend is exemplified by supercentenarians: Maria Branyas, the world’s oldest verified person who died at 117, attributed her longevity to eating plain yogurt, not high-tech interventions. Her successor, Ethel Catherman, is 116, and the record for human lifespan is held by Jean Calment, who lived to 122. Scientists have not yet fully explained why women live longer, but biological differences in aging between sexes are well-documented, with females generally outliving males across most mammalian species. Research into these sex-based differences may provide insights into the aging process and potentially lead to new strategies for slowing aging in both men and women.
+2026-01-04T20:59:58.9163700Z Original language: en
+2026-01-04T20:59:58.9163902Z Publish date: November 11, 2025 09:02 AM
+2026-01-04T20:59:58.9164412Z Source:[The Japan Times](https://www.japantimes.co.jp/commentary/2025/11/09/world/women-key-to-unlocking-longer-life/)
+2026-01-04T20:59:58.9164970Z 
+2026-01-04T20:59:58.9165136Z **The maximum age humans can live to has been revealed by scientists**
+2026-01-04T20:59:58.9169723Z Scientists have identified a theoretical upper limit to human lifespan, suggesting that the maximum age a human could live to is approximately 150 years, based on studies of human cell resilience, which is predicted to deteriorate beyond that point. William J. Kole, author of *The Big 100: The New World of Super-Aging*, forecasts that by 2050, there will be eight times more centenarians than today, with 'half of all five-year-olds alive now' potentially reaching age 100. Current global life expectancy is around 73 years, varying by country and socioeconomic factors. While medical advancements have extended lifespans, research indicates that most people will not approach the 150-year ceiling, with even optimistic projections suggesting only about 15% of women and 5% of men might live beyond 100. The verified oldest person, Jeanne Louise Calment of France, lived 122 years and 164 days, dying in 1997. The article also raises concerns about the societal challenges of caring for a growing elderly population, noting that many of the world’s oldest individuals are not highly active. The findings are based on scientific studies and expert analysis, with no claims made about indefinite human longevity.
+2026-01-04T20:59:58.9173476Z Original language: en
+2026-01-04T20:59:58.9173689Z Publish date: October 14, 2025 07:00 PM
+2026-01-04T20:59:58.9174167Z Source:[LADbible](https://www.ladbible.com/news/science/maximum-age-humans-live-revealed-374254-20251014)
+2026-01-04T20:59:58.9174568Z 
+2026-01-04T20:59:58.9174790Z **Who Are the World’s Oldest Living People Today? – Tunisie Numerique**
+2026-01-04T20:59:58.9180169Z According to the Global Register of Supercentenarians, Ethel Caterham, born on August 21, 1909, in the United Kingdom, is the world's oldest living person, having turned 116 years old on August 21, 2025, and currently residing in England. The world's oldest man is João Marinho Neto from Brazil, born on October 5, 1912, who turned 113 in 2025. These titles are based on rigorous documentary validation, including civil records, censuses, and administrative cross-references, conducted by longevity specialists. The lists are continuously updated as new verifications emerge. Neither Caterham nor Marinho Neto has publicly shared a detailed longevity recipe. Their families describe simple, consistent habits: moderate diet, regular sleep, limited stress, daily walking when possible, and balanced medical care. There is no extraordinary secret—just stable lifestyle habits and adaptability to aging. Longevity is also influenced by genetics and cumulative life conditions over decades. Historical records show that Jeanne Calment of France lived 122 years and 164 days (February 21, 1875 – August 4, 1997), the longest verified human lifespan. The longest documented male lifespan belongs to Jirōemon Kimura of Japan, who lived 116 years and 54 days (April 19, 1897 – June 12, 2013). These exceptional cases highlight that extreme longevity is rooted in ordinary lives lived with consistency, care, social connection, and often, significant luck.
+2026-01-04T20:59:58.9184742Z Original language: fr
+2026-01-04T20:59:58.9184951Z Publish date: October 05, 2025 08:48 AM
+2026-01-04T20:59:58.9185499Z Source:[Tunisie Numerique](https://www.tunisienumerique.com/humanite-qui-sont-aujourdhui-la-doyenne-et-le-doyen-vivants/)
+2026-01-04T20:59:58.9185960Z 
+2026-01-04T20:59:58.9186288Z **The 'fascinating duality' revealed by the study of the Spanish supercentenarian who broke the longevity record: 117 years**
+2026-01-04T20:59:58.9190898Z A study by the Josep Carreras Institute of Leukemia Research, published in *Cell Reports Medicine*, analyzed samples from Maria Branyas, the world’s oldest living person at 117 years old, who died in 2024. The researchers reported a "fascinante dualidad": simultaneous signs of extreme aging—short telomeres, a pro‑inflammatory immune system, and an aged B‑cell population—alongside markers of healthy longevity such as genetic neuro‑ and cardio‑protection, a microbiome dominated by beneficial bifidobacteria, and a biological age 17 years younger than her chronological age. Branyas had no major diseases, including cancer or dementia. The study suggests that extreme longevity may arise not from a global delay of aging but from a combination of protective genetic traits and a youthful microbiome, even while some aging markers are present. These findings could help develop strategies to mitigate age‑related diseases, including hematologic cancers. The authors note that lifestyle factors—healthy diet, diverse social network, and absence of toxic habits—may contribute, but they caution against premature conclusions linking habits to biology.
+2026-01-04T20:59:58.9194724Z Original language: es
+2026-01-04T20:59:58.9194943Z Publish date: September 24, 2025 04:29 PM
+2026-01-04T20:59:58.9195743Z Source:[HERALDO](https://www.heraldo.es/noticias/sociedad/2025/09/24/las-paradojas-que-revela-el-estudio-de-la-espanola-que-batio-el-record-de-longevidad-117-anos-1856545.html)
+2026-01-04T20:59:58.9196450Z 
+2026-01-04T20:59:58.9196593Z **The Oldest People on Earth Reveal Secrets of Longevity**
+2026-01-04T20:59:58.9201259Z Researchers report that the key to living to 100 is not exotic diets but moderation, love of simple home food, physical activity, and joy. Longevity is rare: only 0.07 % of the world population are super‑centenarians, and forecasts predict the number will quadruple by 2054. The article profiles several of the oldest people on Earth, all of whom share common habits: fresh whole foods, minimal meat, avoidance of fast food, home cooking, Mediterranean‑style meals, the 80/20 rule, moderate alcohol, regular exercise, a positive mindset, and small pleasures. 102‑year‑old Debora Sekey of Mexico’s Lower California ranch, 101‑year‑old William from Toronto, 101‑year‑old Jack Van Nordheim, 112‑year‑old Luisa Jin Xion in New York, 114‑year‑old Bonita Gibson of Idaho, 110‑year‑old Etel Katheram of England, 122‑year‑old Jeanne‑Louise Calment of France, and 123‑year‑old Maria Antonia Queiro of Colombia are highlighted.  Etel Katheram is quoted as saying, 'Не понимаю, из‑за чего весь сыр‑бор', and she adds, 'Я никогда ни с кем не спорю, я слушаю и делаю то, что мне нравится'.  The article emphasizes that these elders cook at home, consume fewer ultra‑processed foods, and maintain a balanced diet, which research links to lower rates of depression, type 2 diabetes, and cardiovascular disease.
+2026-01-04T20:59:58.9205156Z Original language: ru
+2026-01-04T20:59:58.9205374Z Publish date: September 23, 2025 11:41 AM
+2026-01-04T20:59:58.9206111Z Source:[Рамблер](https://news.rambler.ru/tech/55346098-ot-hara-hati-bu-do-shokoladki-stareyshie-lyudi-planety-raskryli-sekrety-dolgoletiya/)
+2026-01-04T20:59:58.9206836Z 
+2026-01-04T20:59:58.9207032Z **Predicting the future: The supergroup of AI, humans, hedgehogs and foxes**
+2026-01-04T20:59:58.9213309Z Philip Tetlock, a psychology professor and author of *Superforecasting*, explains how his research on expert prediction has evolved to include large language models (LLMs).  In the 1980s he launched a prediction tournament that showed most experts performed no better than random guessing, but a minority—"foxes" who used diverse information and Bayesian updating—outperformed the "hedgehogs" who stuck to a single thesis.  Tetlock’s later work, the Good‑Judgement Project (GJP), demonstrated that teams of superforecasters beat a control group by 60 % in year 1 and 78 % in year 2, and outperformed university teams by 30‑70 %.  He then tested LLM assistants: participants using a super‑forecasting‑trained LLM improved their accuracy by 28 % overall and 41 % when the outlier question was removed, compared with a control model.  A separate experiment found that the aggregate forecast of a diverse “silicon crowd” of LLMs was statistically indistinguishable from that of a human crowd, though still 30 % below the performance of super‑forecaster teams.  Tetlock concludes that LLMs can act as counterfactual generators, fermize problems, and provide a “wisdom of the silicon crowd,” potentially becoming super‑forecasters themselves within 2‑5 years.  He stresses that forecasting is a better test of AI intelligence than standard exams, and that LLMs’ lack of a fixed worldview may be advantageous for exploring unknown futures.  Key quotes include: 'It is absolutely crucial to integrate LLMs into almost all lines of inquiry,' says Tetlock, and 'Superforecasters could predict out 300 days with the same accuracy as ordinary predictors could predict 100 days.'
+2026-01-04T20:59:58.9218622Z Original language: en
+2026-01-04T20:59:58.9218885Z Publish date: September 22, 2025 02:10 PM
+2026-01-04T20:59:58.9219713Z Source:[Newsweek](https://www.newsweek.com/nw-ai/predicting-future-supergroup-ai-humans-hedgehogs-foxes-2132146)
+2026-01-04T20:59:58.9220244Z 
+2026-01-04T20:59:58.9220438Z **Xi Jinping and Putin Discuss Living to 150 Years**
+2026-01-04T20:59:58.9225640Z According to the article, Chinese President Xi Jinping and Russian President Vladimir Putin were overheard discussing the possibility of humans living to 150 years during a ceremony in Beijing marking the 80th anniversary of the end of World War II. The conversation, reported by international media such as CNN, Reuters and Sky News, included Putin saying that biotechnological advances could allow repeated organ transplants and even immortality. Xi replied that some predict humans could reach 150 years in this century. However, aging researcher Morten Scheibye‑Knudsen from the University of Copenhagen cautions that current science is not yet ready for such longevity, citing a biological upper limit of about 120 years. He says, 'Jeg tror, at de fleste aldringsforskere rundt omkring i verden faktisk er enige om, at aldring er en biologisk proces, som vi kan påvirke.' and notes that 'Der er en øvre barriere i vores biologi, som hedder omkring 120 år.' The article also mentions Putin’s long‑standing interest in life extension, his confidant Mikhail Kovalchuk’s research into organ printing, and his daughter Maria Vorontsova’s work on cell renewal. It notes that the oldest living person in Denmark is 111‑year‑old Kirsten Schwalbe. The ceremony also featured a massive military parade with 50,000 spectators and displays of military hardware, and Xi addressed the crowd, affirming China’s strength. The article is sourced from DR.
+2026-01-04T20:59:58.9230243Z Original language: da
+2026-01-04T20:59:58.9230460Z Publish date: September 04, 2025 12:56 PM
+2026-01-04T20:59:58.9230908Z Source:[DR](https://www.dr.dk/nyheder/udland/xi-jinping-og-putin-hyggesnakker-om-blive-150-aar)
+2026-01-04T20:59:58.9231274Z 
+2026-01-04T20:59:58.9231434Z **Xi Jinping and Putin Discuss Human Lifespan**
+2026-01-04T20:59:58.9236959Z The article reports that on 3 September 2025, Chinese President Xi Jinping and Russian President Vladimir Putin were walking on the red carpet in Beijing to watch the 80th‑anniversary parade of the Chinese victory in the anti‑Japanese war. While walking, Xi said, '과거엔 70까지 사는 것도 어려웠지만 지금 70은 어린아이 수준', meaning that in the past living to 70 was rare, but now 70 is considered child‑like. The article states that a translator later reported Putin’s reply in Chinese: '생명공학이 계속 발전함에 따라 몇십년 내에 인간의 장기 이식은 계속 증가할 것이고, 사람들은 더 젊어지고 어쩌면 불노불사를 이룰 수도 있을 것', which translates to ‘With ongoing advances in biotechnology, organ transplantation will increase in the coming decades, people will become younger, and immortality may be possible’. The article also notes that during the conversation, a voice heard from the crowd said, '150살까지 살 수도 있을 것', and another said, '100살까지 살 것으로 예측되고 있다', indicating predictions that humans could live to 150 or 100 years. The article cites that Kim Jong‑un, the North Korean leader, was present and smiled at the discussion. The article concludes that Putin later gave a press conference in which he echoed the idea that modern medical technology and organ replacement give hope for longer active lives, and that life expectancy is rising worldwide. All statements are directly quoted or paraphrased from the article, and the metrics mentioned are 70, 100, and 150 years.
+2026-01-04T20:59:58.9241472Z Original language: ko
+2026-01-04T20:59:58.9241694Z Publish date: September 04, 2025 11:06 AM
+2026-01-04T20:59:58.9242134Z Source:[뉴시스 (NEWSIS)](https://www.newsis.com/view/NISX20250904_0003316608)
+2026-01-04T20:59:58.9242404Z 
+2026-01-04T20:59:58.9242523Z **World's oldest person, Ethel Caterham, turns 116**
+2026-01-04T20:59:58.9247993Z British great‑grandmother Ethel Caterham celebrated her 116th birthday on August 21 and was officially named the world’s oldest living person earlier this year after the death of a Brazilian nun who had held the record.  The article discusses how many people who are reported to be 110 years or older—so‑called ‘supercentenarians’—may actually be younger because of poor record‑keeping.  Dr Saul Newman, a research fellow at the Oxford Institute of Population Ageing, examined the demographics of ‘Blue Zones’ such as Okinawa, Japan, and Sardinia, Italy, and found that these regions, which are often celebrated for longevity, actually have low life expectancies, high poverty, and poor health outcomes, yet are reported to contain many supercentenarians.  Newman attributes this to recording errors, misreported birthdates, and in some cases deliberate misrepresentation.  He also notes that in the United States the introduction of formal birth certificates in the early 20th century led to a 69‑82 % drop in the number of people reported to have reached age 110, suggesting that seven to eight out of every ten claimed supercentenarians may never have reached that age.  The article concludes that while Ethel Caterham was born in an era with better documentation and may indeed be 116, for many others the claim of reaching 110 may be more about missing birth certificates than a truly long, healthy life.  Key quotes include: ‘Blue Zones’ raise red flags and ‘supercentenarians’ may not be as old as they claim.
+2026-01-04T20:59:58.9252902Z Original language: en
+2026-01-04T20:59:58.9253126Z Publish date: August 21, 2025 07:32 PM
+2026-01-04T20:59:58.9253764Z Source:[Australian Broadcasting Corporation](https://www.abc.net.au/news/2025-08-22/whats-the-secret-to-living-to-110-poor-record-keeping-mostly/105681852)
+2026-01-04T20:59:58.9254324Z 
+2026-01-04T20:59:58.9254477Z **Scientists Predict Humans Will Live Up to 125 Years by 2070**
+2026-01-04T20:59:58.9256016Z Scientists from the Netherlands have predicted that the average lifespan will increase to 125 years by 2070. According to their research, published in the Nature journal, this growth is linked to advancements in medicine, the adoption of innovative technologies, and the promotion of a healthy lifestyle. The researchers estimate that women will have the longest lifespan. However, the scientific community has differing opinions on these predictions.
+2026-01-04T20:59:58.9257614Z Original language: ru
+2026-01-04T20:59:58.9257823Z Publish date: August 18, 2025 09:27 AM
+2026-01-04T20:59:58.9258095Z Source:[Life.ru](https://life.ru/p/1781032)
+2026-01-04T20:59:58.9258287Z 
+2026-01-04T20:59:58.9258291Z 
+2026-01-04T20:59:58.9258706Z 2026-01-04 20:59:58,890 - forecasting_tools.forecast_bots.forecast_bot - INFO - Summarizing research for question: https://www.metaculus.com/questions/14333
+2026-01-04T20:59:58.9259834Z 2026-01-04 20:59:58,890 - forecasting_tools.ai_models.model_tracker - WARNING - Warning: Model openrouter/openai/gpt-oss-120b:exacto does not support cost tracking.
+2026-01-04T21:00:00.8640688Z 2026-01-04 21:00:00,863 - openai.agents - WARNING - OPENAI_API_KEY is not set, skipping trace export
+2026-01-04T21:00:08.7970450Z 2026-01-04 21:00:08,796 - forecasting_tools.forecast_bots.forecast_bot - WARNING - Could not summarize research. litellm.NotFoundError: NotFoundError: OpenrouterException - {"error":{"message":"No allowed providers are available for the selected model.","code":404}}
+2026-01-04T21:00:08.7978668Z 2026-01-04 21:00:08,797 - main - INFO - [GPR DEBUG] New numeric question detected. Resetting counter. ID was: None, now: https://www.metaculus.com/questions/14333
+2026-01-04T21:00:08.7982944Z 2026-01-04 21:00:08,797 - main - INFO - [GPR DEBUG] Numeric call number: 1, Scenarios so far: 0, Question: https://www.metaculus.com/questions/14333
+2026-01-04T21:00:08.7984431Z 2026-01-04 21:00:08,797 - main - INFO - [GPR DEBUG] In _numeric_prompt_to_forecast. Current ID: None, Question URL: https://www.metaculus.com/questions/14333, Match: False
+2026-01-04T21:00:08.7985896Z 2026-01-04 21:00:08,798 - main - INFO - Starting new numeric question https://www.metaculus.com/questions/14333, cleared scenario storage
+2026-01-04T21:00:08.7987994Z 2026-01-04 21:00:08,798 - main - INFO - [GPR DEBUG] Numeric call number: 2, Scenarios so far: 0, Question: https://www.metaculus.com/questions/14333
+2026-01-04T21:00:08.7990484Z 2026-01-04 21:00:08,798 - main - INFO - [GPR DEBUG] In _numeric_prompt_to_forecast. Current ID: https://www.metaculus.com/questions/14333, Question URL: https://www.metaculus.com/questions/14333, Match: True
+2026-01-04T21:00:08.8005627Z 2026-01-04 21:00:08,800 - main - INFO - [GPR DEBUG] Numeric call number: 3, Scenarios so far: 0, Question: https://www.metaculus.com/questions/14333
+2026-01-04T21:00:08.8007807Z 2026-01-04 21:00:08,800 - main - INFO - [GPR DEBUG] In _numeric_prompt_to_forecast. Current ID: https://www.metaculus.com/questions/14333, Question URL: https://www.metaculus.com/questions/14333, Match: True
+2026-01-04T21:00:08.8035791Z 2026-01-04 21:00:08,803 - main - INFO - [GPR DEBUG] Numeric call number: 4, Scenarios so far: 0, Question: https://www.metaculus.com/questions/14333
+2026-01-04T21:00:08.8038115Z 2026-01-04 21:00:08,803 - main - INFO - [GPR DEBUG] In _numeric_prompt_to_forecast. Current ID: https://www.metaculus.com/questions/14333, Question URL: https://www.metaculus.com/questions/14333, Match: True
+2026-01-04T21:00:10.8706164Z 2026-01-04 21:00:10,870 - openai.agents - WARNING - OPENAI_API_KEY is not set, skipping trace export
+2026-01-04T21:00:37.9287671Z 2026-01-04 21:00:37,928 - main - INFO - Reasoning for URL https://www.metaculus.com/questions/14333: Units for the answer are: **years old**
+2026-01-04T21:00:37.9288486Z 
+2026-01-04T21:00:37.9288667Z ## Review some potential outcomes
+2026-01-04T21:00:37.9288971Z 
+2026-01-04T21:00:37.9289521Z 1. **Time left until resolution:** about **73 years and 362 days** (from 2026-01-04 to 2100-01-01).
+2026-01-04T21:00:37.9291005Z 2. **Outcome if nothing changed (current value):** the oldest living verified people today are about **116–117 years old** (recent “world’s oldest living person” cases are in that range).
+2026-01-04T21:00:37.9293377Z 3. **Outcome if the current trend continued:** maximum *verified* human ages have been mostly flat (record 122 in 1997; living oldest typically 115–118). A conservative “trend” extrapolation suggests roughly **120–130 years old** by 2100.
+2026-01-04T21:00:37.9297228Z 4. **Expectations of experts and markets:** public-facing experts disagree widely—some argue a near ceiling around **120–125**, others claim plausible extension toward **150**, and a small minority implies much larger gains if rejuvenation becomes real and broadly deployable. (No clear “market price” exists for this.)
+2026-01-04T21:00:37.9301598Z 5. **Volatility history and expectations:** historically, the oldest-living-at-a-time metric is low-volatility (usually within ~110–118), with occasional record leaps (e.g., 122). By 2100, volatility is dominated by *regime change* risk (breakthroughs vs. continued plateau), not year-to-year noise.
+2026-01-04T21:00:37.9303565Z 
+2026-01-04T21:00:37.9303766Z ## Group the evidence (three buckets)
+2026-01-04T21:00:37.9304099Z 
+2026-01-04T21:00:37.9304517Z ### Bucket 1 — Evidence pointing to a relatively low forecast
+2026-01-04T21:00:37.9305957Z - Research and commentary suggesting a **hard-ish biological ceiling** near ~120 (e.g., cited aging researchers; “upper barrier” framing).
+2026-01-04T21:00:37.9308488Z - Findings and arguments that **reported extreme ages are often record-keeping artifacts**, implying we may already be near the “true” maximum absent major biology changes (Blue Zones / supercentenarian misreporting issues).
+2026-01-04T21:00:37.9311301Z - The long-run empirical pattern: **maximum verified lifespan hasn’t moved much** despite big gains in average life expectancy.
+2026-01-04T21:00:37.9312151Z 
+2026-01-04T21:00:37.9312576Z ### Bucket 2 — Evidence pointing to a relatively high forecast
+2026-01-04T21:00:37.9313893Z - Active, well-funded efforts and optimism around **intervening in aging biology** (epigenetic reprogramming, organ replacement/printing, billionaire investment).
+2026-01-04T21:00:37.9315704Z - Repeated claims in media and by prominent researchers that **150-year lives are plausible this century** (even if speculative/overconfident).
+2026-01-04T21:00:37.9317170Z - Continued broad improvements in survival, chronic disease management, and potentially personalized medicine that could **push the right tail** of lifespan.
+2026-01-04T21:00:37.9317725Z 
+2026-01-04T21:00:37.9317945Z ### Bucket 3 — Evidence pointing to a central forecast
+2026-01-04T21:00:37.9318780Z - Biomarker and omics studies of supercentenarians (immune/metabolic signatures, microbiome, protective genetics) suggesting **mechanisms for incremental extension**, not necessarily radical rejuvenation.
+2026-01-04T21:00:37.9320198Z - Demographic expectations that **centenarians/supercentenarians will become more common**, increasing the odds that someone reaches a new extreme even if biology is unchanged.
+2026-01-04T21:00:37.9321280Z - General longevity “movement” and preventive care trends: likely to **add some years at the margin** but uncertain impact on the absolute maximum.
+2026-01-04T21:00:37.9321761Z 
+2026-01-04T21:00:37.9321978Z ## Multi-world considerations (all values in years old)
+2026-01-04T21:00:37.9322403Z 
+2026-01-04T21:00:37.9322743Z ### 1) Low_World (plateau / hard ceiling dominates; limited true breakthroughs)
+2026-01-04T21:00:37.9323636Z Using Bucket 1 logic: verification improves, errors shrink, biology remains the limiter.
+2026-01-04T21:00:37.9324350Z - **Low estimate:** 118  
+2026-01-04T21:00:37.9324717Z - **Mid estimate:** 122  
+2026-01-04T21:00:37.9325076Z - **High estimate:** 126  
+2026-01-04T21:00:37.9325318Z 
+2026-01-04T21:00:37.9325771Z ### 2) High_World (step-change interventions work and are deployed enough to affect the extreme tail)
+2026-01-04T21:00:37.9326873Z Using Bucket 2 logic: meaningful rejuvenation/organ replacement becomes safe and available to at least some.
+2026-01-04T21:00:37.9327666Z - **Low estimate:** 140  
+2026-01-04T21:00:37.9328025Z - **Mid estimate:** 160  
+2026-01-04T21:00:37.9328367Z - **High estimate:** 190  
+2026-01-04T21:00:37.9328617Z 
+2026-01-04T21:00:37.9329171Z ### 3) Mid_World (incremental progress + more supercentenarians; no full “aging cure”)
+2026-01-04T21:00:37.9330743Z Using Bucket 3 logic: better chronic control, earlier detection, personalized prevention; the tail inches up.
+2026-01-04T21:00:37.9331224Z - **Low estimate:** 124  
+2026-01-04T21:00:37.9331445Z - **Mid estimate:** 132  
+2026-01-04T21:00:37.9331670Z - **High estimate:** 145  
+2026-01-04T21:00:37.9331808Z 
+2026-01-04T21:00:37.9331885Z ## Verify units
+2026-01-04T21:00:37.9332550Z All scenario values above are in **years old**, matching the question’s resolution definition (oldest living person as of 0:00 on January 1, 2100).
+2026-01-04T21:00:37.9333046Z 
+2026-01-04T21:00:37.9333123Z # Final Answer
+2026-01-04T21:00:37.9333313Z [118, 122, 126, 124, 132, 145, 140, 160, 190]
+2026-01-04T21:00:37.9333897Z 2026-01-04 21:00:37,928 - forecasting_tools.ai_models.model_tracker - WARNING - Warning: Model openrouter/openai/o4-mini does not support cost tracking.
+2026-01-04T21:00:37.9334872Z 2026-01-04 21:00:37,931 - forecasting_tools.ai_models.resource_managers.monetary_cost_manager - WARNING - Litellm hidden param cost 0.0 and response object cost 0.037618 are different.
+2026-01-04T21:00:40.8879324Z 2026-01-04 21:00:40,887 - openai.agents - WARNING - OPENAI_API_KEY is not set, skipping trace export
+2026-01-04T21:00:44.1381001Z 2026-01-04 21:00:44,137 - forecasting_tools.ai_models.resource_managers.monetary_cost_manager - WARNING - Error calculating cost from response object: This model isn't mapped yet. model=o4-mini, custom_llm_provider=openrouter. Add it here - https://github.com/BerriAI/litellm/blob/main/model_prices_and_context_window.json.
+2026-01-04T21:00:45.8906949Z 2026-01-04 21:00:45,890 - openai.agents - WARNING - OPENAI_API_KEY is not set, skipping trace export
+2026-01-04T21:00:51.5530011Z 2026-01-04 21:00:51,552 - main - INFO - Reasoning for URL https://www.metaculus.com/questions/14333: Units for the answer are: **years old**
+2026-01-04T21:00:51.5530795Z 
+2026-01-04T21:00:51.5530976Z ## Review some potential outcomes
+2026-01-04T21:00:51.5531241Z 
+2026-01-04T21:00:51.5531530Z 1. **Time left until resolution:** about **72 years and 362 days** (from 2026-01-04 to 2100-01-01).
+2026-01-04T21:00:51.5532362Z 2. **Outcome if nothing changed (the current value):** the oldest living person today is about **116 years old** (e.g., Ethel Caterham, born 1909).
+2026-01-04T21:00:51.5534875Z 3. **Outcome if the current trend continued:** the *verified maximum lifespan record* has been ~flat since Jeanne Calment at **122.4** (died 1997). If that “near-plateau” persists with only incremental medical progress, a reasonable extrapolation for the oldest living person in 2100 is roughly **120 to 130 years old**.
+2026-01-04T21:00:51.5536610Z 4. **Expectations of experts and markets:** there’s no clean “market price,” but public expert claims cluster around:
+2026-01-04T21:00:51.5537468Z    - **~120** as a practical/biological ceiling (some aging researchers cited in media; skepticism about big gains),
+2026-01-04T21:00:51.5538317Z    - **~150** as an optimistic target (e.g., David Sinclair’s claim; political/elite chatter about 150),
+2026-01-04T21:00:51.5539094Z    - occasional speculative talk above that, but with weak evidence and major feasibility/validation uncertainty.
+2026-01-04T21:00:51.5541888Z 5. **Volatility history and expectations:** the oldest living person at a point in time fluctuates year-to-year (often **112 to 117** recently), driven by small-number statistics among supercentenarians and verification. The *all-time verified maximum* is much less volatile (still **122.4**). By 2100, higher counts of supercentenarians could raise the “oldest living at a moment” modestly even without changing biology, but large jumps likely require real aging-rate modification.
+2026-01-04T21:00:51.5543712Z 
+2026-01-04T21:00:51.5543822Z ## Group the evidence (three buckets)
+2026-01-04T21:00:51.5544029Z 
+2026-01-04T21:00:51.5544244Z ### Bucket 1 — Evidence implying a relatively low forecast
+2026-01-04T21:00:51.5545158Z - **Skepticism/limits:** reports citing researchers who argue for an upper barrier around **~120** (e.g., commentary around Xi/Putin discussion; various aging researchers expressing “not ready yet” views).
+2026-01-04T21:00:51.5547168Z - **Verification/measurement problems:** Saul Newman-style arguments that many extreme-age claims are inflated by documentation errors; better records reduce apparent extreme ages (suggesting today’s verified maxima may already be near the true frontier).
+2026-01-04T21:00:51.5548567Z - **Evolutionary/biological arguments:** claims humans are “designed” around ~70 and that major extension is hard (e.g., Gurven framing in the longevity-quest article).
+2026-01-04T21:00:51.5549104Z 
+2026-01-04T21:00:51.5549289Z ### Bucket 2 — Evidence implying a relatively high forecast
+2026-01-04T21:00:51.5550407Z - **Active intervention optimism:** epigenetic reprogramming / “rejuvenation” narratives (Sinclair claiming the first 150-year-old is already born; human trials starting 2026 per the article).
+2026-01-04T21:00:51.5551440Z - **Capital and sustained effort:** billionaires and states showing strong interest and funding in longevity, organ replacement, bioengineering.
+2026-01-04T21:00:51.5552640Z - **Public speculation converging on 150:** repeated mentions of **150** as a plausible within-century milestone (media/political conversation), which—while not strong evidence—signals a common “high” focal point.
+2026-01-04T21:00:51.5553477Z 
+2026-01-04T21:00:51.5553640Z ### Bucket 3 — Evidence implying a central forecast
+2026-01-04T21:00:51.5554389Z - **Empirical plateau in the verified record:** Jeanne Calment’s **122.4** remains unbeaten for decades; oldest living people commonly cluster in the mid-teens (115–117).
+2026-01-04T21:00:51.5555659Z - **Incremental biomedical progress:** improved survival and management of chronic disease plausibly increases the *tail* modestly, even if the absolute ceiling shifts slowly.
+2026-01-04T21:00:51.5557416Z - **Supercentenarian biology studies:** findings (e.g., Branyas work) suggest longevity comes from a mix of protective factors rather than a wholesale “turn off aging,” consistent with gradual rather than explosive gains.
+2026-01-04T21:00:51.5558116Z 
+2026-01-04T21:00:51.5558240Z ## Multi-world considerations (ranges in years old)
+2026-01-04T21:00:51.5558441Z 
+2026-01-04T21:00:51.5559001Z I’ll treat **Bucket 1 = Low_World**, **Bucket 3 = Mid_World (central)**, **Bucket 2 = High_World**, since that matches the intent (the prompt’s bucket reference labels appear swapped).
+2026-01-04T21:00:51.5559733Z 
+2026-01-04T21:00:51.5559901Z ### 1) Low_World (Bucket 1: strong limits + verification constraints)
+2026-01-04T21:00:51.5560226Z - **Low estimate:** **112**
+2026-01-04T21:00:51.5560445Z - **Mid estimate:** **122**
+2026-01-04T21:00:51.5560657Z - **High estimate:** **130**
+2026-01-04T21:00:51.5560796Z 
+2026-01-04T21:00:51.5561014Z ### 2) High_World (Bucket 2: successful aging-rate modification / rejuvenation therapies)
+2026-01-04T21:00:51.5561390Z - **Low estimate:** **135**
+2026-01-04T21:00:51.5561600Z - **Mid estimate:** **155**
+2026-01-04T21:00:51.5561807Z - **High estimate:** **180**
+2026-01-04T21:00:51.5561947Z 
+2026-01-04T21:00:51.5562196Z ### 3) Mid_World (Bucket 3: plateau-ish record + incremental improvements + larger elderly population)
+2026-01-04T21:00:51.5562608Z - **Low estimate:** **120**
+2026-01-04T21:00:51.5562819Z - **Mid estimate:** **132**
+2026-01-04T21:00:51.5563022Z - **High estimate:** **145**
+2026-01-04T21:00:51.5563157Z 
+2026-01-04T21:00:51.5563227Z ## Verify units
+2026-01-04T21:00:51.5563576Z All scenario values are in **years old** (age of the oldest living human at 0:00 on January 1, 2100).
+2026-01-04T21:00:51.5563900Z 
+2026-01-04T21:00:51.5564005Z # Final Answer
+2026-01-04T21:00:51.5564267Z [112, 122, 130, 120, 132, 145, 135, 155, 180]
+2026-01-04T21:00:51.5564937Z 2026-01-04 21:00:51,555 - forecasting_tools.ai_models.resource_managers.monetary_cost_manager - WARNING - Litellm hidden param cost 0.0 and response object cost 0.047922 are different.
+2026-01-04T21:00:52.3077840Z 2026-01-04 21:00:52,307 - main - INFO - Reasoning for URL https://www.metaculus.com/questions/14333: ## Review some potential outcomes
+2026-01-04T21:00:52.3079333Z 
+2026-01-04T21:00:52.3080016Z 1. **Time left until outcome is known:** about **73.99 years** (from 2026-01-04 to 2100-01-01).  
+2026-01-04T21:00:52.3081485Z 2. **Outcome if nothing changed (current value):** the *oldest living* person today is about **116 years old** (recent reporting: Ethel Caterham at 116).  
+2026-01-04T21:00:52.3084256Z 3. **Outcome if the current trend continued:** the *verified maximum* age at death has been roughly flat since Jeanne Calment’s **122** (1997). A conservative “slow creep” scenario (roughly +0 to +10 years over ~1 century) puts the oldest living person in 2100 around **125 to 135 years old**.  
+2026-01-04T21:00:52.3085532Z 4. **Expectations of experts and markets:**  
+2026-01-04T21:00:52.3087091Z    - Some aging researchers and popularizers openly discuss **150 years** as plausible this century (e.g., Sinclair’s “first 150-year-old has already been born”), while other researchers argue for hard-ish ceilings near **120** or at most **~150** based on resilience/biology arguments.  
+2026-01-04T21:00:52.3089949Z    - Market behavior (heavy investment by wealthy individuals/firms into longevity biotech) suggests belief in *meaningful* life extension, but not consensus on “beyond 150.”  
+2026-01-04T21:00:52.3091743Z 5. **Volatility history and expectations:**  
+2026-01-04T21:00:52.3093512Z    - The *oldest living* at any moment varies by a few years (typically ~110–117 recently), but the **record** of maximum verified lifespan has been **sticky** (122 has held for decades).  
+2026-01-04T21:00:52.3096351Z    - Expect low volatility upward unless a true step-change therapy arrives; then volatility becomes very high (because “oldest living” becomes sensitive to the first cohort receiving effective rejuvenation).
+2026-01-04T21:00:52.3097840Z 
+2026-01-04T21:00:52.3098064Z **Units for the answer are: years old**
+2026-01-04T21:00:52.3098471Z 
+2026-01-04T21:00:52.3098620Z ---
+2026-01-04T21:00:52.3098785Z 
+2026-01-04T21:00:52.3098940Z ## Group the evidence (three buckets)
+2026-01-04T21:00:52.3099231Z 
+2026-01-04T21:00:52.3099794Z ### Bucket 1 — Evidence suggesting a relatively low forecast
+2026-01-04T21:00:52.3101717Z - Reporting and demographic skepticism: claims of extreme ages are often **recording errors**; formal birth registration caused large drops in claimed 110+ counts (ABC citing Saul Newman). This pushes expectations downward for “new records.”  
+2026-01-04T21:00:52.3103122Z - Persistent plateau: the longest verified lifespan remains **122**; repeated narratives emphasizing a **biological barrier near ~120** (e.g., Danish aging researcher quoted in the Xi/Putin item).  
+2026-01-04T21:00:52.3104459Z - Popular “upper limit” discussions often cluster at **~120–150**, with some treatments framed as *improving healthspan* more than making 150+ common (several articles emphasize inevitability/limits).
+2026-01-04T21:00:52.3105106Z 
+2026-01-04T21:00:52.3105324Z ### Bucket 2 — Evidence suggesting a relatively high forecast
+2026-01-04T21:00:52.3106118Z - Aggressive tech optimism: prominent longevity advocates claim **150-year lifespan** is achievable this century; announced human trials for rejuvenation-like interventions (Sinclair interview).  
+2026-01-04T21:00:52.3107528Z - Large, increasing capital + prestige: billionaire attention and sustained investment into anti-aging and organ replacement/regeneration ideas could accelerate breakthroughs (longevity “quest” coverage).  
+2026-01-04T21:00:52.3108846Z - Some media/forecast claims push even average lifespan to very high levels (e.g., “125 average by 2070” style claims), implying tails could extend further (even if these are contestable).
+2026-01-04T21:00:52.3109657Z 
+2026-01-04T21:00:52.3109841Z ### Bucket 3 — Evidence suggesting a central forecast
+2026-01-04T21:00:52.3110633Z - Current reality of validated supercentenarians: oldest living typically **mid-teens above 100**, with rigorous validation emphasizing how rare extreme ages are (Global Register / lists of oldest living).  
+2026-01-04T21:00:52.3112254Z - Biology appears “partly malleable but not magic yet”: studies of supercentenarians show protective factors (microbiome/genetics) and some “younger biological age,” but still clear aging markers (Branyas study summary).  
+2026-01-04T21:00:52.3113407Z - Societal/demographic momentum: more people surviving to old age raises the chance of a new record by sheer numbers, but not necessarily by huge margins.
+2026-01-04T21:00:52.3113905Z 
+2026-01-04T21:00:52.3113975Z ---
+2026-01-04T21:00:52.3114065Z 
+2026-01-04T21:00:52.3114203Z ## Multi-world considerations (ranges in **years old**)
+2026-01-04T21:00:52.3114414Z 
+2026-01-04T21:00:52.3114616Z ### 1) Low_World (reviewing Bucket 1 evidence; ceilings + validation limits dominate)
+2026-01-04T21:00:52.3115195Z - **Low estimate:** 115 years old (record remains ~current-oldest-like, no material progress, occasional dips).  
+2026-01-04T21:00:52.3116104Z - **Mid estimate:** 120 years old (more people reach extreme old age, but record still near historical plateau).  
+2026-01-04T21:00:52.3117052Z - **High estimate:** 124 years old (small improvements, but no break into 130+).
+2026-01-04T21:00:52.3117521Z 
+2026-01-04T21:00:52.3117919Z ### 2) High_World (reviewing Bucket 3 evidence; steady progress, bigger population of very old)
+2026-01-04T21:00:52.3119091Z - **Low estimate:** 125 years old (a modest new record driven by more supercentenarians + incremental medicine).  
+2026-01-04T21:00:52.3119835Z - **Mid estimate:** 135 years old (continued incremental gains; some slowing of late-life mortality).  
+2026-01-04T21:00:52.3120565Z - **High estimate:** 145 years old (strong but not “sci-fi” improvements; occasional breakthroughs extend tail risk).
+2026-01-04T21:00:52.3120952Z 
+2026-01-04T21:00:52.3121189Z ### 3) Mid_World (reviewing Bucket 2 evidence; genuine rejuvenation/repair arrives, uneven access)
+2026-01-04T21:00:52.3121735Z - **Low estimate:** 146 years old (first real break past prior ceilings, but limited rollout).  
+2026-01-04T21:00:52.3122334Z - **Mid estimate:** 165 years old (rejuvenation/organ replacement becomes reliable for a small elite cohort).  
+2026-01-04T21:00:52.3122999Z - **High estimate:** 195 years old (rare, extreme tail: early recipients maintain function with repeated interventions).
+2026-01-04T21:00:52.3123387Z 
+2026-01-04T21:00:52.3123456Z ---
+2026-01-04T21:00:52.3123546Z 
+2026-01-04T21:00:52.3123621Z ## Verify units
+2026-01-04T21:00:52.3124042Z All scenario values are expressed in **years old**, matching the question’s resolution definition.
+2026-01-04T21:00:52.3124375Z 
+2026-01-04T21:00:52.3124439Z ---
+2026-01-04T21:00:52.3124529Z 
+2026-01-04T21:00:52.3124597Z # Final Answer
+2026-01-04T21:00:52.3124788Z [115, 120, 124, 146, 165, 195, 125, 135, 145]
+2026-01-04T21:00:52.3125458Z 2026-01-04 21:00:52,311 - forecasting_tools.ai_models.resource_managers.monetary_cost_manager - WARNING - Litellm hidden param cost 0.0 and response object cost 0.047334 are different.
+2026-01-04T21:00:52.5666462Z 2026-01-04 21:00:52,566 - main - INFO - Parsed 9 numeric scenarios: [118.0, 122.0, 126.0, 124.0, 132.0, 145.0, 140.0, 160.0, 190.0]
+2026-01-04T21:00:52.5667972Z 2026-01-04 21:00:52,566 - main - INFO - Total numeric scenarios stored for question https://www.metaculus.com/questions/14333: 9 scenarios
+2026-01-04T21:00:52.5674410Z 2026-01-04 21:00:52,567 - main - INFO - Returning temporary distribution for URL https://www.metaculus.com/questions/14333, median: 132.0
+2026-01-04T21:00:52.5675872Z 2026-01-04 21:00:52,567 - main - INFO - [GPR DEBUG] Returning temporary distribution. Numeric scenarios stored: 9
+2026-01-04T21:00:52.5686230Z 2026-01-04 21:00:52,568 - forecasting_tools.ai_models.resource_managers.monetary_cost_manager - WARNING - Error calculating cost from response object: This model isn't mapped yet. model=o4-mini, custom_llm_provider=openrouter. Add it here - https://github.com/BerriAI/litellm/blob/main/model_prices_and_context_window.json.
+2026-01-04T21:00:55.8964110Z 2026-01-04 21:00:55,896 - openai.agents - WARNING - OPENAI_API_KEY is not set, skipping trace export
+2026-01-04T21:00:56.0868085Z 2026-01-04 21:00:56,086 - main - INFO - Reasoning for URL https://www.metaculus.com/questions/14333: ## Review some potential outcomes
+2026-01-04T21:00:56.0868698Z 
+2026-01-04T21:00:56.0869046Z 1. **Time left until resolution:** about **74.0 years** (from 2026-01-04 to 2100-01-01).  
+2026-01-04T21:00:56.0870208Z 2. **Outcome if nothing changed (current value):** the oldest living person today is about **116 years old** (recent reporting centers around ~116).  
+2026-01-04T21:00:56.0871960Z 3. **Outcome if the current trend continued:** the verified *record* (122) has barely moved for decades; a “slow improvement” extrapolation suggests the oldest living person in 2100 might be around **125 to 135 years old**.  
+2026-01-04T21:00:56.0873009Z 4. **Expectations of experts and markets:**  
+2026-01-04T21:00:56.0873882Z    - Some longevity proponents publicly claim **150** is plausible this century (e.g., Sinclair-style claims), and there’s heavy private investment.  
+2026-01-04T21:00:56.0875012Z    - Other researchers argue for a hard-ish ceiling around **120 to 130**, with some “ultimate limit” arguments near **150**.  
+2026-01-04T21:00:56.0875784Z    - No clear “market price” exists; expert views are split and noisy.  
+2026-01-04T21:00:56.0878328Z 5. **Volatility history and expectations:** the **oldest-living** age at a point in time tends to vary within a narrow band (often ~113–117 recently), while the **all-time verified maximum** (122) has been stable since 1997. So volatility is low unless true rejuvenation arrives.
+2026-01-04T21:00:56.0879501Z 
+2026-01-04T21:00:56.0879617Z **Units for the answer are: years old.**
+2026-01-04T21:00:56.0879833Z 
+2026-01-04T21:00:56.0879909Z ---
+2026-01-04T21:00:56.0880022Z 
+2026-01-04T21:00:56.0880112Z ## Group the evidence
+2026-01-04T21:00:56.0880262Z 
+2026-01-04T21:00:56.0880359Z ### Bucket 1 (lower forecast)
+2026-01-04T21:00:56.0881503Z - **Guinness-style verification / record-keeping effects:** reporting errors inflate extreme ages; formal birth registration sharply reduced claimed 110+ cases (suggesting “true” maxima may be lower than folklore).  
+2026-01-04T21:00:56.0882757Z - **Skeptical biology takes:** multiple voices cite an apparent barrier around **120** (or limited gains beyond it).  
+2026-01-04T21:00:56.0883794Z - **Lack of historical movement in the verified maximum:** the best-verified record remains **122** since 1997, despite big gains in general medicine.  
+2026-01-04T21:00:56.0885047Z - **“Designed for ~70” arguments (evolutionary framing):** suggests limited malleability of maximum lifespan without radical biotech.
+2026-01-04T21:00:56.0885594Z 
+2026-01-04T21:00:56.0885700Z ### Bucket 2 (central forecast)
+2026-01-04T21:00:56.0886450Z - **Incremental biomedical and public health progress:** cancer and chronic disease management continues to improve; should lift survival at very old ages somewhat.  
+2026-01-04T21:00:56.0887782Z - **Expanding elderly populations:** many more centenarians expected; bigger “tail sample size” modestly increases odds of an outlier at any given date.  
+2026-01-04T21:00:56.0889496Z - **Supercentenarian biology studies (e.g., Branyas work):** indicates protective factors (genetics/microbiome/immune patterns) that could be partially translated into interventions—likely improving healthspan more than producing 150+.
+2026-01-04T21:00:56.0890289Z 
+2026-01-04T21:00:56.0890373Z ### Bucket 3 (higher forecast)
+2026-01-04T21:00:56.0890965Z - **Rejuvenation/epigenetic reprogramming claims:** public claims of near-term trials and large effects, if real and scalable, could shift maxima dramatically.  
+2026-01-04T21:00:56.0892535Z - **Large-scale investment and sustained “longevity industry” push:** increases probability of at least one real breakthrough by 2100.  
+2026-01-04T21:00:56.0893837Z - **Explicit 150-year narratives entering mainstream discourse:** political/media discussion and repeated forecasting of **150** (even if speculative) signals a non-trivial “high world” pathway where radical life extension works.
+2026-01-04T21:00:56.0894748Z 
+2026-01-04T21:00:56.0894816Z ---
+2026-01-04T21:00:56.0894907Z 
+2026-01-04T21:00:56.0895034Z ## Multi-world considerations (all in **years old**)
+2026-01-04T21:00:56.0895238Z 
+2026-01-04T21:00:56.0895340Z ### 1) Low_World (guided by Bucket 1)
+2026-01-04T21:00:56.0895887Z Assumption: maximum verified lifespan stays near today’s ceiling; better verification may even compress extremes.
+2026-01-04T21:00:56.0896361Z - **Low estimate:** 118  
+2026-01-04T21:00:56.0896567Z - **Mid estimate:** 122  
+2026-01-04T21:00:56.0896771Z - **High estimate:** 126  
+2026-01-04T21:00:56.0896901Z 
+2026-01-04T21:00:56.0896994Z ### 2) High_World (guided by Bucket 3)
+2026-01-04T21:00:56.0897660Z Assumption: some combination of rejuvenation + organ replacement + chronic disease control becomes real and accessible enough that at least one person reaches extreme ages by 2100.
+2026-01-04T21:00:56.0898333Z - **Low estimate:** 140  
+2026-01-04T21:00:56.0898535Z - **Mid estimate:** 155  
+2026-01-04T21:00:56.0898736Z - **High estimate:** 175  
+2026-01-04T21:00:56.0898867Z 
+2026-01-04T21:00:56.0898960Z ### 3) Mid_World (guided by Bucket 2)
+2026-01-04T21:00:56.0899784Z Assumption: strong but mostly incremental progress; more people reach 110–120; rare outliers creep upward without “aging cured.”
+2026-01-04T21:00:56.0901049Z - **Low estimate:** 124  
+2026-01-04T21:00:56.0901407Z - **Mid estimate:** 130  
+2026-01-04T21:00:56.0901760Z - **High estimate:** 138  
+2026-01-04T21:00:56.0902003Z 
+2026-01-04T21:00:56.0902114Z ---
+2026-01-04T21:00:56.0902276Z 
+2026-01-04T21:00:56.0902402Z ## Verify units
+2026-01-04T21:00:56.0903507Z All scenario values are in **years old**, matching the question’s resolution criterion (age of the oldest living person as of 0:00 on January 1, 2100).
+2026-01-04T21:00:56.0904391Z 
+2026-01-04T21:00:56.0904506Z ---
+2026-01-04T21:00:56.0904674Z 
+2026-01-04T21:00:56.0904790Z # Final Answer
+2026-01-04T21:00:56.0905132Z [118, 122, 126, 124, 130, 138, 140, 155, 175]
+2026-01-04T21:00:56.0906260Z 2026-01-04 21:00:56,089 - forecasting_tools.ai_models.resource_managers.monetary_cost_manager - WARNING - Litellm hidden param cost 0.0 and response object cost 0.04928 are different.
+2026-01-04T21:00:56.8057115Z 2026-01-04 21:00:56,805 - forecasting_tools.ai_models.resource_managers.monetary_cost_manager - WARNING - Error calculating cost from response object: This model isn't mapped yet. model=o4-mini, custom_llm_provider=openrouter. Add it here - https://github.com/BerriAI/litellm/blob/main/model_prices_and_context_window.json.
+2026-01-04T21:01:00.1509615Z 2026-01-04 21:01:00,150 - forecasting_tools.ai_models.resource_managers.monetary_cost_manager - WARNING - Error calculating cost from response object: This model isn't mapped yet. model=o4-mini, custom_llm_provider=openrouter. Add it here - https://github.com/BerriAI/litellm/blob/main/model_prices_and_context_window.json.
+2026-01-04T21:01:00.8994630Z 2026-01-04 21:01:00,899 - openai.agents - WARNING - OPENAI_API_KEY is not set, skipping trace export
+2026-01-04T21:01:03.6125195Z 2026-01-04 21:01:03,612 - forecasting_tools.ai_models.resource_managers.monetary_cost_manager - WARNING - Error calculating cost from response object: This model isn't mapped yet. model=o4-mini, custom_llm_provider=openrouter. Add it here - https://github.com/BerriAI/litellm/blob/main/model_prices_and_context_window.json.
+2026-01-04T21:01:05.9023058Z 2026-01-04 21:01:05,902 - openai.agents - WARNING - OPENAI_API_KEY is not set, skipping trace export
+2026-01-04T21:01:08.7521203Z 2026-01-04 21:01:08,751 - main - INFO - Parsed 9 numeric scenarios: [115.0, 120.0, 124.0, 146.0, 165.0, 195.0, 125.0, 135.0, 145.0]
+2026-01-04T21:01:08.7522160Z 2026-01-04 21:01:08,751 - main - INFO - Total numeric scenarios stored for question https://www.metaculus.com/questions/14333: 18 scenarios
+2026-01-04T21:01:08.7523635Z 2026-01-04 21:01:08,752 - main - INFO - Returning temporary distribution for URL https://www.metaculus.com/questions/14333, median: 135.0
+2026-01-04T21:01:08.7524884Z 2026-01-04 21:01:08,752 - main - INFO - [GPR DEBUG] Returning temporary distribution. Numeric scenarios stored: 18
+2026-01-04T21:01:08.7537309Z 2026-01-04 21:01:08,753 - forecasting_tools.ai_models.resource_managers.monetary_cost_manager - WARNING - Error calculating cost from response object: This model isn't mapped yet. model=o4-mini, custom_llm_provider=openrouter. Add it here - https://github.com/BerriAI/litellm/blob/main/model_prices_and_context_window.json.
+2026-01-04T21:01:10.9052039Z 2026-01-04 21:01:10,904 - openai.agents - WARNING - OPENAI_API_KEY is not set, skipping trace export
+2026-01-04T21:01:11.4183558Z 2026-01-04 21:01:11,418 - main - INFO - Parsed 9 numeric scenarios: [118.0, 122.0, 126.0, 124.0, 130.0, 138.0, 140.0, 155.0, 175.0]
+2026-01-04T21:01:11.4185034Z 2026-01-04 21:01:11,418 - main - INFO - Total numeric scenarios stored for question https://www.metaculus.com/questions/14333: 27 scenarios
+2026-01-04T21:01:11.4186688Z 2026-01-04 21:01:11,418 - main - INFO - Returning temporary distribution for URL https://www.metaculus.com/questions/14333, median: 130.0
+2026-01-04T21:01:11.4187947Z 2026-01-04 21:01:11,418 - main - INFO - [GPR DEBUG] Returning temporary distribution. Numeric scenarios stored: 27
+2026-01-04T21:01:11.4199125Z 2026-01-04 21:01:11,419 - forecasting_tools.ai_models.resource_managers.monetary_cost_manager - WARNING - Error calculating cost from response object: This model isn't mapped yet. model=o4-mini, custom_llm_provider=openrouter. Add it here - https://github.com/BerriAI/litellm/blob/main/model_prices_and_context_window.json.
+2026-01-04T21:01:15.9083578Z 2026-01-04 21:01:15,908 - openai.agents - WARNING - OPENAI_API_KEY is not set, skipping trace export
+2026-01-04T21:01:36.4922398Z 2026-01-04 21:01:36,492 - main - INFO - Parsed 9 numeric scenarios: [112.0, 122.0, 130.0, 120.0, 132.0, 145.0, 135.0, 155.0, 180.0]
+2026-01-04T21:01:36.4923777Z 2026-01-04 21:01:36,492 - main - INFO - Total numeric scenarios stored for question https://www.metaculus.com/questions/14333: 36 scenarios
+2026-01-04T21:01:36.4925241Z 2026-01-04 21:01:36,492 - main - INFO - Returning temporary distribution for URL https://www.metaculus.com/questions/14333, median: 132.0
+2026-01-04T21:01:36.4926074Z 2026-01-04 21:01:36,492 - main - INFO - [GPR DEBUG] Returning temporary distribution. Numeric scenarios stored: 36
+2026-01-04T21:01:36.4937941Z 2026-01-04 21:01:36,493 - forecasting_tools.ai_models.resource_managers.monetary_cost_manager - WARNING - Error calculating cost from response object: This model isn't mapped yet. model=o4-mini, custom_llm_provider=openrouter. Add it here - https://github.com/BerriAI/litellm/blob/main/model_prices_and_context_window.json.
+2026-01-04T21:01:36.4940789Z 2026-01-04 21:01:36,493 - dre_forecasting_tools - INFO - [GPR DEBUG] _aggregate_predictions called for numeric question with 4 predictions
+2026-01-04T21:01:36.4942098Z 2026-01-04 21:01:36,493 - dre_forecasting_tools - INFO - [GPR DEBUG] Using GPR aggregation on 36 stored numeric scenarios
+2026-01-04T21:01:36.4943534Z 2026-01-04 21:01:36,494 - main - INFO - ✅ [MAJORITY VOTE] All 4 calls agree. Using all 36 scenarios.
+2026-01-04T21:01:36.6857564Z 2026-01-04 21:01:36,684 - main - INFO - ✅ GPR numeric aggregation: 36 scenarios → 19 percentiles
+2026-01-04T21:01:36.6859658Z 2026-01-04 21:01:36,684 - main - INFO - Distribution: p5=114.58, p50=132.44, p95=189.21
+2026-01-04T21:01:36.6860658Z 2026-01-04 21:01:36,684 - dre_forecasting_tools - INFO - [GPR DEBUG] Numeric aggregation complete. Returning distribution with 19 percentiles
+2026-01-04T21:01:36.6862245Z 2026-01-04 21:01:36,685 - forecasting_tools.forecast_bots.forecast_bot - ERROR - Error while processing question url: 'https://www.metaculus.com/questions/14333': 1 validation error for NumericReport
+2026-01-04T21:01:36.6863346Z explanation
+2026-01-04T21:01:36.6864076Z   Input should be a valid string [type=string_type, input_value=<coroutine object SpringT...mment at 0x7f1883b97480>, input_type=coroutine]
+2026-01-04T21:01:36.6865482Z     For further information visit https://errors.pydantic.dev/2.12/v/string_type
+2026-01-04T21:01:36.6866214Z 2026-01-04 21:01:36,685 - forecasting_tools.forecast_bots.forecast_bot - INFO - 
+2026-01-04T21:01:36.6866870Z ----------------------------------------------------------------------------------------------------
+2026-01-04T21:01:36.6867417Z Bot: SpringTemplateBotExtended
+2026-01-04T21:01:36.6868669Z ❌ Exception: RuntimeError | Message: Error while processing question url: 'https://www.metaculus.com/questions/14333': ValidationError - 1 validation error for NumericReport
+2026-01-04T21:01:36.6869843Z explanation
+2026-01-04T21:01:36.6870565Z   Input should be a valid string [type=string_type, input_value=<coroutine object SpringT...mment at 0x7f1883b97480>, input_type=coroutine]
+2026-01-04T21:01:36.6871590Z     For further information visit https://errors.pydantic.dev/2.12/v/string_type
+2026-01-04T21:01:36.6872048Z 
+2026-01-04T21:01:36.6872177Z Stats for passing reports:
+2026-01-04T21:01:36.6872524Z Total cost estimated: $0.00000
+2026-01-04T21:01:36.6872870Z Average cost per question: $0.00000
+2026-01-04T21:01:36.6873271Z Average time spent per question: 0.0000 minutes
+2026-01-04T21:01:36.6874291Z Note: LLM costs are calculated via litellm, and models or search tools not supported by litellm will not be tracked. See what is supported here: https://models.litellm.ai/. 
+2026-01-04T21:01:36.6875618Z ----------------------------------------------------------------------------------------------------
+2026-01-04T21:01:36.6876018Z 
+2026-01-04T21:01:36.6876025Z 
+2026-01-04T21:01:36.6876031Z 
+2026-01-04T21:01:36.6921317Z 2026-01-04 21:01:36,691 - forecasting_tools.forecast_bots.forecast_bot - ERROR - Exception occurred during forecasting:
+2026-01-04T21:01:36.6922320Z Traceback (most recent call last):
+2026-01-04T21:01:36.6939996Z   File "/home/runner/work/metac-bot-template/metac-bot-template/.venv/lib/python3.11/site-packages/forecasting_tools/forecast_bots/forecast_bot.py", line 341, in _run_individual_question_with_error_propagation
+2026-01-04T21:01:36.6941796Z     return await self._run_individual_question(question)
+2026-01-04T21:01:36.6942314Z            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-01-04T21:01:36.6943724Z   File "/home/runner/work/metac-bot-template/metac-bot-template/.venv/lib/python3.11/site-packages/forecasting_tools/forecast_bots/forecast_bot.py", line 406, in _run_individual_question
+2026-01-04T21:01:36.6944969Z     report = report_type(
+2026-01-04T21:01:36.6945286Z              ^^^^^^^^^^^^
+2026-01-04T21:01:36.6946191Z   File "/home/runner/work/metac-bot-template/metac-bot-template/.venv/lib/python3.11/site-packages/pydantic/main.py", line 250, in __init__
+2026-01-04T21:01:36.6947321Z     validated_self = self.__pydantic_validator__.validate_python(data, self_instance=self)
+2026-01-04T21:01:36.6947936Z                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-01-04T21:01:36.6948572Z pydantic_core._pydantic_core.ValidationError: 1 validation error for NumericReport
+2026-01-04T21:01:36.6949161Z explanation
+2026-01-04T21:01:36.6950060Z   Input should be a valid string [type=string_type, input_value=<coroutine object SpringT...mment at 0x7f1883b97480>, input_type=coroutine]
+2026-01-04T21:01:36.6951076Z     For further information visit https://errors.pydantic.dev/2.12/v/string_type
+2026-01-04T21:01:36.6951546Z 
+2026-01-04T21:01:36.6951806Z The above exception was the direct cause of the following exception:
+2026-01-04T21:01:36.6952196Z 
+2026-01-04T21:01:36.6952336Z Traceback (most recent call last):
+2026-01-04T21:01:36.6953075Z   File "/opt/hostedtoolcache/Python/3.11.14/x64/lib/python3.11/asyncio/tasks.py", line 277, in __step
+2026-01-04T21:01:36.6953763Z     result = coro.send(None)
+2026-01-04T21:01:36.6954070Z              ^^^^^^^^^^^^^^^
+2026-01-04T21:01:36.6955339Z   File "/home/runner/work/metac-bot-template/metac-bot-template/.venv/lib/python3.11/site-packages/forecasting_tools/forecast_bots/forecast_bot.py", line 347, in _run_individual_question_with_error_propagation
+2026-01-04T21:01:36.6956964Z     self._reraise_exception_with_prepended_message(e, error_message)
+2026-01-04T21:01:36.6958397Z   File "/home/runner/work/metac-bot-template/metac-bot-template/.venv/lib/python3.11/site-packages/forecasting_tools/forecast_bots/forecast_bot.py", line 751, in _reraise_exception_with_prepended_message
+2026-01-04T21:01:36.6959815Z     raise RuntimeError(
+2026-01-04T21:01:36.6960709Z RuntimeError: Error while processing question url: 'https://www.metaculus.com/questions/14333': ValidationError - 1 validation error for NumericReport
+2026-01-04T21:01:36.6961638Z explanation
+2026-01-04T21:01:36.6962353Z   Input should be a valid string [type=string_type, input_value=<coroutine object SpringT...mment at 0x7f1883b97480>, input_type=coroutine]
+2026-01-04T21:01:36.6963366Z     For further information visit https://errors.pydantic.dev/2.12/v/string_type
+2026-01-04T21:01:36.6963822Z 
+2026-01-04T21:01:36.6963955Z Traceback (most recent call last):
+2026-01-04T21:01:36.6964655Z   File "/home/runner/work/metac-bot-template/metac-bot-template/main.py", line 1402, in <module>
+2026-01-04T21:01:36.6965384Z     template_bot.log_report_summary(forecast_reports)
+2026-01-04T21:01:36.6966617Z   File "/home/runner/work/metac-bot-template/metac-bot-template/.venv/lib/python3.11/site-packages/forecasting_tools/forecast_bots/forecast_bot.py", line 875, in log_report_summary
+2026-01-04T21:01:36.6967958Z     raise RuntimeError(
+2026-01-04T21:01:36.6970444Z RuntimeError: 1 errors occurred while forecasting: [RuntimeError("Error while processing question url: 'https://www.metaculus.com/questions/14333': ValidationError - 1 validation error for NumericReport\nexplanation\n  Input should be a valid string [type=string_type, input_value=<coroutine object SpringT...mment at 0x7f1883b97480>, input_type=coroutine]\n    For further information visit https://errors.pydantic.dev/2.12/v/string_type")]
+2026-01-04T21:01:36.7232928Z 2026-01-04 21:01:36,723 - openai.agents - WARNING - OPENAI_API_KEY is not set, skipping trace export
+2026-01-04T21:01:37.1064030Z sys:1: RuntimeWarning: coroutine 'SpringTemplateBotExtended._create_comment' was never awaited
+2026-01-04T21:01:37.4370174Z ##[error]Process completed with exit code 1.
