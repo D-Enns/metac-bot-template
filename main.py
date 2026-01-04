@@ -538,89 +538,7 @@ class SpringTemplateBot2026(ForecastBot):
         return by_option
 
     ##################################### AGGREGATION OVERRIDE #####################################
-
-    async def _aggregate_predictions(
-        self,
-        predictions: list,
-        question: MetaculusQuestion,
-    ):
-        """
-        Override framework's aggregation to use GPR for binary, numeric, and multiple choice questions.
-
-        For binary questions: Apply GPR on all stored scenarios to get p50.
-        For numeric questions: Apply GPR on all stored scenarios to get full distribution.
-        For multiple choice questions: Apply GPR per option, then normalize.
-        For other question types: Use default framework aggregation.
-        """
-        from forecasting_tools.data_models.questions import BinaryQuestion, NumericQuestion, MultipleChoiceQuestion
-        from forecasting_tools.data_models.multiple_choice_report import PredictedOption
-
-        # Binary questions: GPR aggregation
-        if isinstance(question, BinaryQuestion) and len(self._binary_scenarios) >= 3:
-            logger.info(f"[GPR DEBUG] _aggregate_predictions called with {len(predictions)} predictions")
-            logger.info(f"[GPR DEBUG] Using GPR aggregation on {len(self._binary_scenarios)} stored scenarios")
-
-            gpr_result = self._gpr_aggregate_binary(self._binary_scenarios)
-
-            # Clear scenarios after aggregation
-            self._binary_scenarios = []
-            self._current_question_id = None
-            self._current_call_number = 0
-
-            logger.info(f"[GPR DEBUG] Aggregation complete. Returning GPR result: {gpr_result:.4f}")
-            return gpr_result
-
-        # Numeric questions: GPR aggregation for full distribution
-        elif isinstance(question, NumericQuestion) and len(self._numeric_scenarios) >= 9:
-            logger.info(f"[GPR DEBUG] _aggregate_predictions called for numeric question with {len(predictions)} predictions")
-            logger.info(f"[GPR DEBUG] Using GPR aggregation on {len(self._numeric_scenarios)} stored numeric scenarios")
-
-            gpr_distribution = self._gpr_aggregate_numeric(self._numeric_scenarios, question)
-
-            # Clear scenarios after aggregation
-            self._numeric_scenarios = []
-            self._current_question_id = None
-            self._current_call_number = 0
-
-            logger.info(f"[GPR DEBUG] Numeric aggregation complete. Returning distribution with {len(gpr_distribution.declared_percentiles)} percentiles")
-            return gpr_distribution
-
-        # Multiple choice questions: GPR aggregation per option
-        elif isinstance(question, MultipleChoiceQuestion) and self._multiple_choice_scenarios:
-            # Check if we have enough scenarios (at least 9 per option)
-            first_option = list(self._multiple_choice_scenarios.keys())[0]
-            num_scenarios = len(self._multiple_choice_scenarios[first_option])
-
-            logger.info(f"[GPR DEBUG] _aggregate_predictions called for MC question with {len(predictions)} predictions")
-            logger.info(f"[GPR DEBUG] Using GPR aggregation on {num_scenarios} scenarios per option")
-
-            if num_scenarios >= 9:
-                # Run GPR aggregation
-                gpr_results = self._gpr_aggregate_multiple_choice(self._multiple_choice_scenarios)
-
-                # Convert to PredictedOptionList
-                predicted_options = [
-                    PredictedOption(option_name=opt, probability=prob)
-                    for opt, prob in gpr_results.items()
-                ]
-                result = PredictedOptionList(predicted_options=predicted_options)
-
-                # Clear scenarios after aggregation
-                self._multiple_choice_scenarios = {}
-                self._current_question_id = None
-                self._current_call_number = 0
-
-                logger.info(f"[GPR DEBUG] MC aggregation complete. Returning GPR result")
-                return result
-            else:
-                logger.warning(
-                    f"MC question has only {num_scenarios} scenarios per option (need >=9), "
-                    f"using default framework aggregation"
-                )
-
-        # Fallback: Use default framework aggregation for other question types or insufficient scenarios
-        logger.info(f"[GPR DEBUG] Using default aggregation for {type(question).__name__}")
-        return await super()._aggregate_predictions(predictions, question)
+    # GPR aggregation moved to dre_forecasting_tools.py
 
     ##################################### MULTIPLE CHOICE QUESTIONS #####################################
 
@@ -1386,73 +1304,13 @@ class SpringTemplateBot2026(ForecastBot):
         )
 
     ##################################### FORECAST SUMMARY SAVING #####################################
-
-    def _save_full_forecast_copy(
-        self,
-        full_explanation: str,
-        question: MetaculusQuestion,
-    ) -> None:
-        """Save complete forecast explanation to local file with counter-based naming"""
-        # Create directory if it doesn't exist
-        reports_dir = Path("forecast_summaries")
-        reports_dir.mkdir(parents=True, exist_ok=True)
-
-        # Extract question ID from URL (e.g., "https://www.metaculus.com/questions/12345/" -> "12345")
-        question_id = question.page_url.rstrip('/').split('/')[-1]
-
-        # Get tournament name - use tournament_slugs if available, otherwise use "unknown"
-        tournament_name = "unknown"
-        if hasattr(question, 'tournament_slugs') and question.tournament_slugs:
-            tournament_name = question.tournament_slugs[0].replace('-', '_')
-        elif hasattr(question, 'post') and hasattr(question.post, 'projects'):
-            # Alternative: try to get from projects
-            if question.post.projects:
-                tournament_name = str(question.post.projects[0]).replace('-', '_')
-
-        # Find next available counter
-        counter = 1
-        while True:
-            filename = f"{question_id}_{tournament_name}_full_{counter}.md"
-            filepath = reports_dir / filename
-            if not filepath.exists():
-                break
-            counter += 1
-
-        # Save the file
-        with open(filepath, 'w', encoding='utf-8') as f:
-            f.write(full_explanation)
-
-        logger.info(f"Saved full forecast to {filepath}")
-
-    def _create_comment(
-        self,
-        question: MetaculusQuestion,
-        research_prediction_collections: list[ResearchWithPredictions],
-        aggregated_prediction: PredictionTypes,
-        final_cost: float,
-        time_spent_in_minutes: float,
-    ) -> str:
-        """
-        Override to save full forecast locally before posting to Metaculus.
-        The posted forecast remains unchanged.
-        """
-        # Get standard explanation from parent class
-        full_explanation = super()._create_comment(
-            question,
-            research_prediction_collections,
-            aggregated_prediction,
-            final_cost,
-            time_spent_in_minutes
-        )
-
-        # Save it locally
-        self._save_full_forecast_copy(full_explanation, question)
-
-        # Return unchanged for Metaculus API submission
-        return full_explanation
+    # Forecast saving functionality moved to dre_forecasting_tools.py
 
 
 if __name__ == "__main__":
+    # Import custom extensions here to avoid circular import
+    from dre_forecasting_tools import SpringTemplateBotExtended
+
     logging.basicConfig(
         level=logging.INFO,
         format="%(asctime)s - %(name)s - %(levelname)s - %(message)s",
@@ -1481,7 +1339,7 @@ if __name__ == "__main__":
         "test_questions",
     ], "Invalid run mode"
 
-    template_bot = SpringTemplateBot2026(
+    template_bot = SpringTemplateBotExtended(
         research_reports_per_question=1,
         predictions_per_research_report=4,  # 8 desired in production.
         use_research_summary_to_forecast=False,
