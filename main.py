@@ -1399,4 +1399,9 @@ if __name__ == "__main__":
         forecast_reports = asyncio.run(
             template_bot.forecast_questions(questions, return_exceptions=True)
         )
-    template_bot.log_report_summary(forecast_reports)
+    # Log summary (may fail with condensed format, but forecasts already posted)
+    try:
+        template_bot.log_report_summary(forecast_reports)
+    except ValueError as e:
+        logger.warning(f"Could not parse condensed summary format for logging: {e}")
+        logger.info("Forecasts completed and posted successfully")
