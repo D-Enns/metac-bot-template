@@ -1353,8 +1353,7 @@ if __name__ == "__main__":
                 temperature=1,
                 timeout=80,  # Updated from 40 to 80. In test, one run failed due to exceeding 40.
                 allowed_tries=2,
-            ),
-            "summarizer": "openrouter/openai/o4-mini",  # For summaries and condensed forecast summaries 
+            ), 
             "summarizer": "openrouter/openai/gpt-4o-mini",  # For condensed forecast summaries (cost tracked) (and standard in the base bot) changed from o4-mini
             "researcher": "asknews/news-summaries",
             "parser": "openrouter/openai/o4-mini",  # "metaculus/openai/o4-mini",
