@@ -1355,6 +1355,7 @@ if __name__ == "__main__":
                 allowed_tries=2,
             ),
             "summarizer": "openrouter/openai/o4-mini",  # For summaries and condensed forecast summaries 
+            "summarizer": "openrouter/openai/gpt-4o-mini",  # For condensed forecast summaries (cost tracked) (and standard in the base bot) changed from o4-mini
             "researcher": "asknews/news-summaries",
             "parser": "openrouter/openai/o4-mini",  # "metaculus/openai/o4-mini",
         },
