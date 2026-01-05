@@ -1035,6 +1035,10 @@ class SpringTemplateBot2026(ForecastBot):
             value = gpr_model.predict(np.array([[p]]))[0]
             percentile_list.append(Percentile(percentile=p/100, value=float(value)))
 
+        # Ensure strictly increasing values (required by NumericDistribution)
+        # This handles low-variance scenarios where GPR may produce identical values
+        percentile_list = self._ensure_strictly_increasing_percentiles(percentile_list)
+
         logger.info(f"✅ GPR numeric aggregation: {len(validated_scenarios)} scenarios → {len(target_percentiles)} percentiles")
         logger.info(
             f"Distribution: p5={percentile_list[0].value:.2f}, "
@@ -1070,6 +1074,65 @@ class SpringTemplateBot2026(ForecastBot):
         )
 
         return NumericDistribution.from_question(percentile_list, question)
+
+    def _ensure_strictly_increasing_percentiles(self, percentile_list: list[Percentile]) -> list[Percentile]:
+        """
+        Ensure percentile values are strictly increasing by adding small increments when needed.
+
+        This handles edge cases where GPR produces nearly identical values due to low variance,
+        which would fail NumericDistribution validation.
+
+        Args:
+            percentile_list: List of Percentile objects from GPR prediction
+
+        Returns:
+            List of Percentile objects with strictly increasing values
+        """
+        if len(percentile_list) < 2:
+            return percentile_list
+
+        # Check if already strictly increasing
+        is_strictly_increasing = all(
+            percentile_list[i].value < percentile_list[i+1].value
+            for i in range(len(percentile_list) - 1)
+        )
+
+        if is_strictly_increasing:
+            return percentile_list
+
+        # Need to fix non-increasing values
+        logger.warning(
+            "⚠️  Low-variance distribution detected. "
+            "Applying minimum spacing to ensure strictly increasing percentiles."
+        )
+
+        # Calculate minimum spacing needed (0.01% of range, or 1e-10 if range is tiny)
+        values = [p.value for p in percentile_list]
+        value_range = max(values) - min(values)
+        min_spacing = max(value_range * 0.0001, 1e-10)
+
+        # Apply minimum spacing
+        adjusted_list = [percentile_list[0]]  # Keep first value as-is
+
+        for i in range(1, len(percentile_list)):
+            prev_value = adjusted_list[-1].value
+            current_value = percentile_list[i].value
+
+            # Ensure current value is at least min_spacing above previous
+            if current_value <= prev_value:
+                new_value = prev_value + min_spacing
+            else:
+                new_value = max(current_value, prev_value + min_spacing)
+
+            adjusted_list.append(
+                Percentile(percentile=percentile_list[i].percentile, value=new_value)
+            )
+
+        logger.info(
+            f"✅ Adjusted distribution range: [{adjusted_list[0].value:.6f}, {adjusted_list[-1].value:.6f}]"
+        )
+
+        return adjusted_list
 
     ##################################### DATE QUESTIONS #####################################
 

@@ -1,0 +1,554 @@
+﻿2026-01-05T14:24:44.2502792Z ##[group]Run poetry run python main.py
+2026-01-05T14:24:44.2503196Z [36;1mpoetry run python main.py[0m
+2026-01-05T14:24:44.2536230Z shell: /usr/bin/bash -e {0}
+2026-01-05T14:24:44.2536497Z env:
+2026-01-05T14:24:44.2536782Z   pythonLocation: /opt/hostedtoolcache/Python/3.11.14/x64
+2026-01-05T14:24:44.2537271Z   PKG_CONFIG_PATH: /opt/hostedtoolcache/Python/3.11.14/x64/lib/pkgconfig
+2026-01-05T14:24:44.2537739Z   Python_ROOT_DIR: /opt/hostedtoolcache/Python/3.11.14/x64
+2026-01-05T14:24:44.2538163Z   Python2_ROOT_DIR: /opt/hostedtoolcache/Python/3.11.14/x64
+2026-01-05T14:24:44.2538591Z   Python3_ROOT_DIR: /opt/hostedtoolcache/Python/3.11.14/x64
+2026-01-05T14:24:44.2539034Z   LD_LIBRARY_PATH: /opt/hostedtoolcache/Python/3.11.14/x64/lib
+2026-01-05T14:24:44.2539396Z   VENV: .venv/bin/activate
+2026-01-05T14:24:44.2539850Z   METACULUS_TOKEN: ***
+2026-01-05T14:24:44.2540096Z   PERPLEXITY_API_KEY: 
+2026-01-05T14:24:44.2540330Z   EXA_API_KEY: 
+2026-01-05T14:24:44.2540550Z   OPENAI_API_KEY: 
+2026-01-05T14:24:44.2541068Z   OPENROUTER_API_KEY: ***
+2026-01-05T14:24:44.2541323Z   ANTHROPIC_API_KEY: 
+2026-01-05T14:24:44.2541621Z   ASKNEWS_CLIENT_ID: ***
+2026-01-05T14:24:44.2541906Z   ASKNEWS_SECRET: ***
+2026-01-05T14:24:44.2542131Z ##[endgroup]
+2026-01-05T14:24:53.5215637Z Warning: Model openrouter/perplexity/sonar does not support cost tracking.
+2026-01-05T14:24:54.6341696Z 2026-01-05 14:24:54.633 WARNING streamlit.runtime.caching.cache_data_api: No runtime found, using MemoryCacheStorageManager
+2026-01-05T14:24:54.6663372Z 2026-01-05 14:24:54,666 - forecasting_tools.ai_models.model_tracker - WARNING - Warning: Model openrouter/openai/gpt-4o-mini does not support cost tracking.
+2026-01-05T14:24:54.6674758Z 2026-01-05 14:24:54,667 - forecasting_tools.helpers.metaculus_client - INFO - Retrieving questions from tournament 32916
+2026-01-05T14:24:56.6404648Z 2026-01-05 14:24:56,639 - forecasting_tools.helpers.metaculus_client - INFO - Returning 0 questions matching the Metaculus API filter
+2026-01-05T14:24:56.6406569Z 2026-01-05 14:24:56,640 - forecasting_tools.helpers.metaculus_client - INFO - Retrieved 0 questions from tournament 32916
+2026-01-05T14:24:56.6407854Z 2026-01-05 14:24:56,640 - forecasting_tools.helpers.metaculus_client - INFO - Retrieving questions from tournament minibench
+2026-01-05T14:24:58.5355887Z 2026-01-05 14:24:58,535 - forecasting_tools.helpers.metaculus_client - INFO - Returning 2 questions matching the Metaculus API filter
+2026-01-05T14:24:58.5357770Z 2026-01-05 14:24:58,535 - forecasting_tools.helpers.metaculus_client - INFO - Retrieved 2 questions from tournament minibench
+2026-01-05T14:24:58.5359419Z 2026-01-05 14:24:58,535 - forecasting_tools.forecast_bots.forecast_bot - INFO - Skipping 1 previously forecasted questions
+2026-01-05T14:25:03.5387865Z 2026-01-05 14:25:03,538 - openai.agents - WARNING - OPENAI_API_KEY is not set, skipping trace export
+2026-01-05T14:25:13.7792997Z 2026-01-05 14:25:13,778 - main - INFO - Found Research for URL https://www.metaculus.com/questions/41380:
+2026-01-05T14:25:13.7794228Z Here are the relevant news articles:
+2026-01-05T14:25:13.7794664Z 
+2026-01-05T14:25:13.7795040Z **The 2026 Investment Outcome Is Already Determined**
+2026-01-05T14:25:13.7807482Z The article, published on January 5, 2026, argues that investment outcomes for 2026 are already largely determined by decisions made between 2023 and 2024, such as asset selections, system construction, and discipline. The author emphasizes that investment results are governed by delayed feedback, likening it to a signal delay in physics: current returns are echoes of past decisions, while current actions shape returns decades later. DALBAR's research shows that in 2024, the S&P 500 rose 25%, but the average investor earned only 16.5%, a gap of 8.5 percentage points—the second-worst in a decade. The author attributes this gap not to poor stock choices but to emotional, reactive behavior—selling during panic and buying after rallies—driven by the illusion that short-term timing matters more than long-term systems. Over 20 years, $100,000 invested in an index fund grew to $717,000, while the average investor’s portfolio reached only $346,000, with half the capital lost due to behavioral errors. The author concludes that setting annual investment goals is misleading because results depend on long-term inputs, not short-term effort. Instead, the only meaningful January question is: 'What seeds am I planting for my 2030 self?'—focusing on automation, robust diversification, and rejecting the futile attempt to time the market, as statistics show success occurs only once in four attempts. This perspective brings peace: poor 2026 results are echoes of past choices, not a verdict; strong results are rewards for past discipline, not reasons to relax. True calm comes not from controlling outcomes, but from understanding that only inputs are controllable—everything else is physics in motion.
+2026-01-05T14:25:13.7815778Z Original language: ru
+2026-01-05T14:25:13.7816045Z Publish date: January 05, 2026 10:32 AM
+2026-01-05T14:25:13.7816620Z Source:[Investing.com Россия](https://ru.investing.com/analysis/article-200327669)
+2026-01-05T14:25:13.7816991Z 
+2026-01-05T14:25:13.7817275Z **StackOverflow Trends 2026: The Structural Shift from Human Support to Generative AI**
+2026-01-05T14:25:13.7823589Z A 2026 report analyzing StackOverflow data from 2008 to 2026 reveals a structural shift from human-driven support to generative AI, marked by a 'precipitous decline' in question volume post-ChatGPT (released November 30, 2022). The google-apps-script tag serves as a 'canary in the coal mine,' showing a sharp drop in total questions—from a 2020 peak of 9,397 to projected lows of 130,000 by 2025. Active answerers declined significantly, indicating a substitution effect where developers now use AI for routine coding tasks instead of seeking human help. The 'questions per answerer' ratio normalized from a peak of 6.7 in 2022 to lower levels, suggesting AI has reduced expert burden by absorbing low-complexity queries. Globally, total questions dropped from ~1.86 million in 2020 to ~130,000 in 2025, while AI-related questions rose from 0.29% to 0.76% of total volume. Language-specific analysis shows Rust and Go experienced the steepest declines due to AI’s strength in syntax debugging, while PHP and Swift showed resilience due to their integration into complex legacy systems. The report concludes that StackOverflow is evolving from a 'help desk' to a 'verification layer' for AI-generated code, serving as a canonical archive for exceptional use cases and a critical source of ground truth to prevent model collapse in future AI training.
+2026-01-05T14:25:13.7828158Z Original language: en
+2026-01-05T14:25:13.7828556Z Publish date: January 05, 2026 02:42 AM
+2026-01-05T14:25:13.7829313Z Source:[Medium.com](https://medium.com/google-cloud/stackoverflow-trends-2026-the-structural-shift-from-human-support-to-generative-ai-b921930ff29d)
+2026-01-05T14:25:13.7829976Z 
+2026-01-05T14:25:13.7830074Z **2026-01-04 Daily Ai News**
+2026-01-05T14:25:13.7844869Z By January 2026, agentic AI tools like Claude Code and Opus 4.5 have dramatically compressed the gap between novice and expert software engineering, enabling even Google principal engineers to resolve year-long internal problems in under an hour. Boris Cherny, creator of Claude Code, described a streamlined setup using aliases for Rust/Go and native Mac apps to auto-optimize development environments. Ex-Google/Meta engineer Arohan claimed Opus-based coding could condense six years of onboarding into months, reducing onboarding time from months to days across large codebases. DeepCode, a 13.3K-star GitHub repository, uses the Model Context Protocol to orchestrate multi-agent pipelines that transform research papers into full repositories with testing and documentation, overcoming context limitations that plague single-model agents. This shift reflects a broader trend where AI is becoming the dominant substrate for verification-heavy development, as noted by Carlos E. Perez’s warning of a 'radical verification bottleneck' forcing software paradigms to evolve. Despite progress, challenges remain: models remain probabilistic, requiring best-of-n reruns or verification prompts (e.g., in Cursor) to reduce hallucinations. Satya Nadella advocates for moving beyond 'AI slop' by building systems with tool use, memory, and evaluation impact to bridge model overhang. Frontier models are surpassing anthropocentric benchmarks: xAI’s Grok reached #1 on App Store charts globally via real-time knowledge, Google’s Gemini 3 generates non-anthropocentric visual consciousness and alternative explanations for complex reasoning, and Grok 4.2 is confirmed for January launch with superior performance on physics questions. OpenAI’s Grove initiative trains AI builders, while David Shapiro predicts 2026 as the year AI capabilities visibly exceed most humans, aligning with iruletheworldmo’s claim that Google solved continual learning three months prior—a NeurIPS-highlighted breakthrough racing into production by end-of-year 2026 across Google, Meta, OpenAI, and DeepSeek. Shapiro states, '2026 is going to be when everyone realizes that AI capabilities go well beyond most humans.' This momentum foreshadows phase-one AGI in agentic digital worlds, where intent alone can AGI-fy browsing, buying, and planning within two years, per SentientAGI founder Hstyagi. Recursive and visual AI paradigms are overcoming context length limits: MIT’s Recursive Language Models (RLMs) enable near-infinite input processing via a plug-and-play GitHub inference library, while Tencent’s FIGR achieves 13% gains on AIME 2025 math by interleaving code-generated diagrams mid-reasoning. ROME, an open agent trained on 1M+ sandbox trajectories, achieves 57% on SWE-bench Verified via reinforcement learning, rivaling large models in bug-fixing. DeepSeek’s open model release fuels global confidence in self-building models, shifting weight from closed to open systems. Manual derivations like hand-backpropagating Transformers reveal LoRA’s 2% weight efficiency, inspiring architectures like Deep Delta Learning for gated residual flips/erases. These tools democratize long-horizon reasoning, but raise safety concerns—Hugging Face revealed malicious RLHF that bypasses safety protocols. Inference demand now exceeds training, per Morgan Stanley, favoring AMD/ASIC efficiency over NVIDIA, with Amazon’s $11B, 2.2GW Indiana AI campus exemplifying multi-GW infrastructure buildouts. Anthropic’s 1M TPU purchase directly from Broadcom signals Google-independent scaling. OpenAI’s Greg Brockman emerged as a top donor to Trump’s super-PAC, indicating political capital flows. Economic models are shifting toward attention and preference allocation replacing wages, with MrBeast and Elon Musk’s memetic capital coordinating resources post-labor. Meanwhile, Meta struggles as Yann LeCun criticizes new leader Alexandr Wang as inexperienced in research, predicting a talent exodus.
+2026-01-05T14:25:13.7857629Z Original language: en
+2026-01-05T14:25:13.7857866Z Publish date: January 04, 2026 11:05 PM
+2026-01-05T14:25:13.7858285Z Source:[DEV Community](https://dev.to/dan_ledger_ce2886f0037972/2026-01-04-daily-ai-news-g06)
+2026-01-05T14:25:13.7858613Z 
+2026-01-05T14:25:13.7858746Z **WEEKLY OUTLOOK 2: U.S. Jobs Data to Test Dax Rally**
+2026-01-05T14:25:13.7866679Z The Dax is poised for further gains in the new week following a strong year-end rally, with market expert Andreas Lipkow noting investor confidence in a German economic recovery extending into 2026. The index remains focused on its record high of 24,771 points set in October. However, the upcoming U.S. jobs data on Friday could challenge this optimism. Political tensions escalated when the U.S., under former President Trump’s orders, conducted a military operation 'Absolute Resolve' in Venezuela, arresting President Nicolás Maduro and his wife Cilia Flores, who face charges of 'drug terrorism' in New York. Despite past political disruptions, markets have shown resilience, and the Dax was slightly higher on Sunday evening compared to Friday’s close, though weekend data is not highly indicative. Analyst Frank Sohlleder of Activtrades highlighted the Dax’s strong 23% rise in 2025—the best since 2019—and its climb above the 24,500 psychological barrier. He cited a growing trend of capital rotation from overvalued U.S. markets to more attractively priced European blue chips. Ulrich Kater of Dekabank emphasized that global economic disruptions have been less severe than feared, partly due to lower-than-expected U.S. tariffs and corporate adaptability. He expects 2026 to mirror 2025’s positive market trends across Europe, though cautioned against euphoria: 'We are experiencing a major economic transformation' involving winners and losers across countries, sectors, and firms. In the coming week, key data include German regional consumer prices and inflation figures, with Friday’s U.S. employment report drawing particular attention. Volkswirt Dirk Chlench of LBBW noted that despite a delayed release due to federal agency shutdowns, recent U.S. job data showed continued employment growth, though rising unemployment may signal a shift in U.S. monetary policy. A positive jobs report could boost expectations for rate cuts, supporting global equities; a disappointing one could pressure the Dax. Company-specific updates include Grenke’s new business report on Wednesday and Yara’s investor day on Friday, which may offer insights into Germany’s K+S.
+2026-01-05T14:25:13.7873679Z Original language: de
+2026-01-05T14:25:13.7873896Z Publish date: January 04, 2026 06:15 PM
+2026-01-05T14:25:13.7874558Z Source:[Investing.com Deutsch](https://de.investing.com/news/economy-news/wochenausblick-2-usjobdaten-stellen-daxrally-auf-die-probe-3286135)
+2026-01-05T14:25:13.7875108Z 
+2026-01-05T14:25:13.7875228Z **I Optimized Our API. Response Times Got Worse.**
+2026-01-05T14:25:13.7881732Z The author recounts a three-week professional ordeal in which a well-intentioned API optimization—adding Redis caching to reduce response times—backfired, increasing average response times from 180ms to 850ms and causing production outages. Despite passing staging load tests, the production rollout triggered a 'cache stampede' when expired keys were simultaneously refreshed by hundreds of requests, overwhelming the database. The author then implemented a distributed lock to prevent this, but it worsened performance due to retry loops and lock contention under high load. Root cause analysis revealed that the real bottleneck was not database speed, but inefficient queries fetching 47 unnecessary columns (including large BLOBs and TEXT fields), which took 120ms. The actual fix—selecting only needed columns (e.g., id, email, username) and optimizing database queries—reduced response times to 35ms without caching. Additional issues included stale data (due to flawed cache invalidation), memory explosion in Redis (2.1GB used, costing $400/month), and serialization overhead (20–30ms per request). After removing most caching layers and focusing on database tuning, connection pool optimization, and proper indexing, response times dropped to 65ms average, P95 latency to 95ms, and infrastructure costs decreased by $380/month. The author emphasizes that caching is not a universal performance fix and should only be used after optimizing underlying queries, measuring real-world performance, and evaluating tradeoffs. He warns against premature optimization driven by ego rather than measurable outcomes. The article concludes with a call to prioritize fixing actual bottlenecks—like bad SQL—over adding complexity, and provides resources on real-world engineering failures.
+2026-01-05T14:25:13.7887732Z Original language: en
+2026-01-05T14:25:13.7887954Z Publish date: January 04, 2026 05:02 PM
+2026-01-05T14:25:13.7888479Z Source:[Medium.com](https://medium.com/@coding_with_tech/i-optimized-our-api-response-times-got-worse-8656c68214ba)
+2026-01-05T14:25:13.7888907Z 
+2026-01-05T14:25:13.7889159Z **Seven Trends in the Evolution and Use of Artificial Intelligence in Work and Daily Life by 2026**
+2026-01-05T14:25:13.7897348Z Microsoft forecasts that 2026 will mark a turning point in artificial intelligence (AI), shifting from AI as a tool to AI as a collaborative partner that amplifies human capabilities in work and daily life. Aparna Chennapragada, Microsoft’s AI experience product director, identified seven emerging trends for 2026, emphasizing 'true collaboration' where AI agents function as digital colleagues, enabling individuals and small teams to achieve more with greater speed. She advised professionals to focus on learning how to work with AI rather than competing against it. Vasu Kakkal, Microsoft Security vice president, stressed the need for robust security protections for AI agents to prevent unintended risks, likening them to human safeguards. In healthcare, Dr. Dominic King of Microsoft AI predicted AI would expand beyond diagnostic support to include symptom assessment and treatment planning, helping close the global healthcare worker deficit—projected at 11 million by 2030—and the 4.5 billion people lacking access to essential care. In scientific research, Peter Lee, Microsoft Research president, anticipates AI will generate hypotheses, control experimental tools, and collaborate with both humans and other AI researchers, potentially giving each scientist a digital lab assistant. Microsoft also envisions a new generation of denser, distributed AI systems that reduce reliance on massive, energy-intensive data centers—forecasted by Mark Russinovich, Azure’s chief technology officer—to be replaced by more efficient, cost-effective models. In software development, Mario Rodríguez of GitHub noted AI will move beyond coding syntax to understand context and relationships in code, proactively identifying and even automating fixes to improve developer productivity and code quality. Finally, Jason Zander, Microsoft’s executive vice president for Discovery and Quantum, stated quantum computing is now 'years, not decades' from reality, with hybrid systems combining quantum computing, AI, and supercomputers enabling unprecedented precision in modeling molecules and materials. All predictions are based on Microsoft’s internal analysis and expert insights.
+2026-01-05T14:25:13.7904481Z Original language: es
+2026-01-05T14:25:13.7904700Z Publish date: January 03, 2026 02:00 PM
+2026-01-05T14:25:13.7905658Z Source:[El Nuevo Día](https://www.elnuevodia.com/negocios/empresas-comercios/notas/siete-tendencias-en-la-evolucion-y-uso-de-la-inteligencia-artificial-en-el-trabajo-y-la-vida-diaria/)
+2026-01-05T14:25:13.7906378Z 
+2026-01-05T14:25:13.7906509Z **The 2026 Investment Outcome Is Already Determined**
+2026-01-05T14:25:13.7912666Z The article, published on January 5, 2026, argues that investment outcomes for 2026 are already largely determined by decisions made between 2023 and 2024, such as asset selections, system construction, and discipline. The author emphasizes that investment results are governed by delayed feedback, likening it to a signal delay in physics: current returns are echoes of past decisions, while current actions shape returns decades later. DALBAR's research shows that in 2024, the S&P 500 rose 25%, but the average investor earned only 16.5%, a gap of 8.5 percentage points—the second-worst in a decade. The author attributes this gap not to poor stock choices but to emotional, reactive behavior—selling during panic and buying after rallies—driven by the illusion that short-term timing matters more than long-term systems. Over 20 years, $100,000 invested in an index fund grew to $717,000, while the average investor’s portfolio reached only $346,000, with half the capital lost due to behavioral errors. The author concludes that setting annual investment goals is misleading because results depend on long-term inputs, not short-term effort. Instead, the only meaningful January question is: 'What seeds am I planting for my 2030 self?'—focusing on automation, robust diversification, and rejecting the futile attempt to time the market, as statistics show success occurs only once in four attempts. This perspective brings peace: poor 2026 results are echoes of past choices, not a verdict; strong results are rewards for past discipline, not reasons to relax. True calm comes not from controlling outcomes, but from understanding that only inputs are controllable—everything else is physics in motion.
+2026-01-05T14:25:13.7918074Z Original language: ru
+2026-01-05T14:25:13.7918289Z Publish date: January 05, 2026 10:32 AM
+2026-01-05T14:25:13.7918742Z Source:[Investing.com Россия](https://ru.investing.com/analysis/article-200327669)
+2026-01-05T14:25:13.7919041Z 
+2026-01-05T14:25:13.7919263Z **StackOverflow Trends 2026: The Structural Shift from Human Support to Generative AI**
+2026-01-05T14:25:13.7924232Z A 2026 report analyzing StackOverflow data from 2008 to 2026 reveals a structural shift from human-driven support to generative AI, marked by a 'precipitous decline' in question volume post-ChatGPT (released November 30, 2022). The google-apps-script tag serves as a 'canary in the coal mine,' showing a sharp drop in total questions—from a 2020 peak of 9,397 to projected lows of 130,000 by 2025. Active answerers declined significantly, indicating a substitution effect where developers now use AI for routine coding tasks instead of seeking human help. The 'questions per answerer' ratio normalized from a peak of 6.7 in 2022 to lower levels, suggesting AI has reduced expert burden by absorbing low-complexity queries. Globally, total questions dropped from ~1.86 million in 2020 to ~130,000 in 2025, while AI-related questions rose from 0.29% to 0.76% of total volume. Language-specific analysis shows Rust and Go experienced the steepest declines due to AI’s strength in syntax debugging, while PHP and Swift showed resilience due to their integration into complex legacy systems. The report concludes that StackOverflow is evolving from a 'help desk' to a 'verification layer' for AI-generated code, serving as a canonical archive for exceptional use cases and a critical source of ground truth to prevent model collapse in future AI training.
+2026-01-05T14:25:13.7928360Z Original language: en
+2026-01-05T14:25:13.7928575Z Publish date: January 05, 2026 02:42 AM
+2026-01-05T14:25:13.7929259Z Source:[Medium.com](https://medium.com/google-cloud/stackoverflow-trends-2026-the-structural-shift-from-human-support-to-generative-ai-b921930ff29d)
+2026-01-05T14:25:13.7929855Z 
+2026-01-05T14:25:13.7929936Z **2026-01-04 Daily Ai News**
+2026-01-05T14:25:13.7945903Z By January 2026, agentic AI tools like Claude Code and Opus 4.5 have dramatically compressed the gap between novice and expert software engineering, enabling even Google principal engineers to resolve year-long internal problems in under an hour. Boris Cherny, creator of Claude Code, described a streamlined setup using aliases for Rust/Go and native Mac apps to auto-optimize development environments. Ex-Google/Meta engineer Arohan claimed Opus-based coding could condense six years of onboarding into months, reducing onboarding time from months to days across large codebases. DeepCode, a 13.3K-star GitHub repository, uses the Model Context Protocol to orchestrate multi-agent pipelines that transform research papers into full repositories with testing and documentation, overcoming context limitations that plague single-model agents. This shift reflects a broader trend where AI is becoming the dominant substrate for verification-heavy development, as noted by Carlos E. Perez’s warning of a 'radical verification bottleneck' forcing software paradigms to evolve. Despite progress, challenges remain: models remain probabilistic, requiring best-of-n reruns or verification prompts (e.g., in Cursor) to reduce hallucinations. Satya Nadella advocates for moving beyond 'AI slop' by building systems with tool use, memory, and evaluation impact to bridge model overhang. Frontier models are surpassing anthropocentric benchmarks: xAI’s Grok reached #1 on App Store charts globally via real-time knowledge, Google’s Gemini 3 generates non-anthropocentric visual consciousness and alternative explanations for complex reasoning, and Grok 4.2 is confirmed for January launch with superior performance on physics questions. OpenAI’s Grove initiative trains AI builders, while David Shapiro predicts 2026 as the year AI capabilities visibly exceed most humans, aligning with iruletheworldmo’s claim that Google solved continual learning three months prior—a NeurIPS-highlighted breakthrough racing into production by end-of-year 2026 across Google, Meta, OpenAI, and DeepSeek. Shapiro states, '2026 is going to be when everyone realizes that AI capabilities go well beyond most humans.' This momentum foreshadows phase-one AGI in agentic digital worlds, where intent alone can AGI-fy browsing, buying, and planning within two years, per SentientAGI founder Hstyagi. Recursive and visual AI paradigms are overcoming context length limits: MIT’s Recursive Language Models (RLMs) enable near-infinite input processing via a plug-and-play GitHub inference library, while Tencent’s FIGR achieves 13% gains on AIME 2025 math by interleaving code-generated diagrams mid-reasoning. ROME, an open agent trained on 1M+ sandbox trajectories, achieves 57% on SWE-bench Verified via reinforcement learning, rivaling large models in bug-fixing. DeepSeek’s open model release fuels global confidence in self-building models, shifting weight from closed to open systems. Manual derivations like hand-backpropagating Transformers reveal LoRA’s 2% weight efficiency, inspiring architectures like Deep Delta Learning for gated residual flips/erases. These tools democratize long-horizon reasoning, but raise safety concerns—Hugging Face revealed malicious RLHF that bypasses safety protocols. Inference demand now exceeds training, per Morgan Stanley, favoring AMD/ASIC efficiency over NVIDIA, with Amazon’s $11B, 2.2GW Indiana AI campus exemplifying multi-GW infrastructure buildouts. Anthropic’s 1M TPU purchase directly from Broadcom signals Google-independent scaling. OpenAI’s Greg Brockman emerged as a top donor to Trump’s super-PAC, indicating political capital flows. Economic models are shifting toward attention and preference allocation replacing wages, with MrBeast and Elon Musk’s memetic capital coordinating resources post-labor. Meanwhile, Meta struggles as Yann LeCun criticizes new leader Alexandr Wang as inexperienced in research, predicting a talent exodus.
+2026-01-05T14:25:13.7958698Z Original language: en
+2026-01-05T14:25:13.7958928Z Publish date: January 04, 2026 11:05 PM
+2026-01-05T14:25:13.7959342Z Source:[DEV Community](https://dev.to/dan_ledger_ce2886f0037972/2026-01-04-daily-ai-news-g06)
+2026-01-05T14:25:13.7959664Z 
+2026-01-05T14:25:13.7959798Z **WEEKLY OUTLOOK 2: U.S. Jobs Data to Test Dax Rally**
+2026-01-05T14:25:13.7967777Z The Dax is poised for further gains in the new week following a strong year-end rally, with market expert Andreas Lipkow noting investor confidence in a German economic recovery extending into 2026. The index remains focused on its record high of 24,771 points set in October. However, the upcoming U.S. jobs data on Friday could challenge this optimism. Political tensions escalated when the U.S., under former President Trump’s orders, conducted a military operation 'Absolute Resolve' in Venezuela, arresting President Nicolás Maduro and his wife Cilia Flores, who face charges of 'drug terrorism' in New York. Despite past political disruptions, markets have shown resilience, and the Dax was slightly higher on Sunday evening compared to Friday’s close, though weekend data is not highly indicative. Analyst Frank Sohlleder of Activtrades highlighted the Dax’s strong 23% rise in 2025—the best since 2019—and its climb above the 24,500 psychological barrier. He cited a growing trend of capital rotation from overvalued U.S. markets to more attractively priced European blue chips. Ulrich Kater of Dekabank emphasized that global economic disruptions have been less severe than feared, partly due to lower-than-expected U.S. tariffs and corporate adaptability. He expects 2026 to mirror 2025’s positive market trends across Europe, though cautioned against euphoria: 'We are experiencing a major economic transformation' involving winners and losers across countries, sectors, and firms. In the coming week, key data include German regional consumer prices and inflation figures, with Friday’s U.S. employment report drawing particular attention. Volkswirt Dirk Chlench of LBBW noted that despite a delayed release due to federal agency shutdowns, recent U.S. job data showed continued employment growth, though rising unemployment may signal a shift in U.S. monetary policy. A positive jobs report could boost expectations for rate cuts, supporting global equities; a disappointing one could pressure the Dax. Company-specific updates include Grenke’s new business report on Wednesday and Yara’s investor day on Friday, which may offer insights into Germany’s K+S.
+2026-01-05T14:25:13.7974911Z Original language: de
+2026-01-05T14:25:13.7975132Z Publish date: January 04, 2026 06:15 PM
+2026-01-05T14:25:13.7975750Z Source:[Investing.com Deutsch](https://de.investing.com/news/economy-news/wochenausblick-2-usjobdaten-stellen-daxrally-auf-die-probe-3286135)
+2026-01-05T14:25:13.7976301Z 
+2026-01-05T14:25:13.7976491Z **Weekly Outlook 2: U.S. Job Data Test Dax Rally as Geopolitical Tensions Rise**
+2026-01-05T14:25:13.7985395Z The Dax is poised for further gains in the new week following a strong year-end rally, with market experts like Andreas Lipkow noting investor optimism about Germany's economic recovery in 2026. The index remains focused on its record high of 24,771 points set in October. However, the upcoming U.S. labor market data on Friday could challenge this optimism. The situation is further complicated by a U.S. military operation, 'Absolute Resolve,' which led to the arrest of Venezuelan President Nicolás Maduro and his wife Cilia Flores in the early hours of Saturday, following orders from former President Trump. They are expected to face charges of 'drug terrorism' in New York. While past political disruptions have not significantly impacted markets, the geopolitical tension may introduce short-term volatility. The Dax was slightly higher on Sunday evening compared to Friday’s Xetra close, though weekend indicators are not highly reliable. More meaningful data will emerge Monday night with Asian market open. Despite the U.S. tariff shock in April 2025, the Dax rose 23% that year—the best performance since 2019—and closed above the psychological 24,500-point threshold. Analyst Frank Sohlleder of Activtrades suggests this momentum could ignite 2026. He highlights the Dax’s moderate valuation compared to overvalued U.S. indices as a driver for capital rotation toward European blue chips. Dekabank’s chief economist Ulrich Kater attributes current resilience to less severe global economic disruption than expected, citing lower-than-anticipated U.S. tariffs and corporate adaptability. He warns, however, that 2026 will be a period of major economic restructuring, with clear winners and losers across countries, sectors, and firms. On the data front, Tuesday brings key inflation figures from German federal states and national data, while Friday’s U.S. jobs report will be critical. Landesbank Baden-Württemberg’s Dirk Chlench notes that recent delayed U.S. employment data showed continued job growth, but rising unemployment rates may signal a shift in Federal Reserve policy. A positive jobs report could increase expectations for future rate cuts—beneficial for global equities—while a weaker report may dampen those expectations and pressure the Dax. On the corporate side, Leasing specialist Grenke reports on its new business for the previous year on Wednesday, and Norwegian fertilizer company Yara hosts its investor day on Friday.
+2026-01-05T14:25:13.7993207Z Original language: de
+2026-01-05T14:25:13.7993429Z Publish date: January 04, 2026 06:07 PM
+2026-01-05T14:25:13.7994136Z Source:[de.marketscreener.com](https://de.marketscreener.com/boerse-nachrichten/wochenausblick-2-us-jobdaten-stellen-dax-rally-auf-die-probe-ce7e59d9d180fe26)
+2026-01-05T14:25:13.7994754Z 
+2026-01-05T14:25:13.7994873Z **I Optimized Our API. Response Times Got Worse.**
+2026-01-05T14:25:13.8001346Z The author recounts a three-week professional ordeal in which a well-intentioned API optimization—adding Redis caching to reduce response times—backfired, increasing average response times from 180ms to 850ms and causing production outages. Despite passing staging load tests, the production rollout triggered a 'cache stampede' when expired keys were simultaneously refreshed by hundreds of requests, overwhelming the database. The author then implemented a distributed lock to prevent this, but it worsened performance due to retry loops and lock contention under high load. Root cause analysis revealed that the real bottleneck was not database speed, but inefficient queries fetching 47 unnecessary columns (including large BLOBs and TEXT fields), which took 120ms. The actual fix—selecting only needed columns (e.g., id, email, username) and optimizing database queries—reduced response times to 35ms without caching. Additional issues included stale data (due to flawed cache invalidation), memory explosion in Redis (2.1GB used, costing $400/month), and serialization overhead (20–30ms per request). After removing most caching layers and focusing on database tuning, connection pool optimization, and proper indexing, response times dropped to 65ms average, P95 latency to 95ms, and infrastructure costs decreased by $380/month. The author emphasizes that caching is not a universal performance fix and should only be used after optimizing underlying queries, measuring real-world performance, and evaluating tradeoffs. He warns against premature optimization driven by ego rather than measurable outcomes. The article concludes with a call to prioritize fixing actual bottlenecks—like bad SQL—over adding complexity, and provides resources on real-world engineering failures.
+2026-01-05T14:25:13.8007348Z Original language: en
+2026-01-05T14:25:13.8007566Z Publish date: January 04, 2026 05:02 PM
+2026-01-05T14:25:13.8008085Z Source:[Medium.com](https://medium.com/@coding_with_tech/i-optimized-our-api-response-times-got-worse-8656c68214ba)
+2026-01-05T14:25:13.8008519Z 
+2026-01-05T14:25:13.8008770Z **Seven Trends in the Evolution and Use of Artificial Intelligence in Work and Daily Life by 2026**
+2026-01-05T14:25:13.8016868Z Microsoft forecasts that 2026 will mark a turning point in artificial intelligence (AI), shifting from AI as a tool to AI as a collaborative partner that amplifies human capabilities in work and daily life. Aparna Chennapragada, Microsoft’s AI experience product director, identified seven emerging trends for 2026, emphasizing 'true collaboration' where AI agents function as digital colleagues, enabling individuals and small teams to achieve more with greater speed. She advised professionals to focus on learning how to work with AI rather than competing against it. Vasu Kakkal, Microsoft Security vice president, stressed the need for robust security protections for AI agents to prevent unintended risks, likening them to human safeguards. In healthcare, Dr. Dominic King of Microsoft AI predicted AI would expand beyond diagnostic support to include symptom assessment and treatment planning, helping close the global healthcare worker deficit—projected at 11 million by 2030—and the 4.5 billion people lacking access to essential care. In scientific research, Peter Lee, Microsoft Research president, anticipates AI will generate hypotheses, control experimental tools, and collaborate with both humans and other AI researchers, potentially giving each scientist a digital lab assistant. Microsoft also envisions a new generation of denser, distributed AI systems that reduce reliance on massive, energy-intensive data centers—forecasted by Mark Russinovich, Azure’s chief technology officer—to be replaced by more efficient, cost-effective models. In software development, Mario Rodríguez of GitHub noted AI will move beyond coding syntax to understand context and relationships in code, proactively identifying and even automating fixes to improve developer productivity and code quality. Finally, Jason Zander, Microsoft’s executive vice president for Discovery and Quantum, stated quantum computing is now 'years, not decades' from reality, with hybrid systems combining quantum computing, AI, and supercomputers enabling unprecedented precision in modeling molecules and materials. All predictions are based on Microsoft’s internal analysis and expert insights.
+2026-01-05T14:25:13.8024013Z Original language: es
+2026-01-05T14:25:13.8024234Z Publish date: January 03, 2026 02:00 PM
+2026-01-05T14:25:13.8025168Z Source:[El Nuevo Día](https://www.elnuevodia.com/negocios/empresas-comercios/notas/siete-tendencias-en-la-evolucion-y-uso-de-la-inteligencia-artificial-en-el-trabajo-y-la-vida-diaria/)
+2026-01-05T14:25:13.8025906Z 
+2026-01-05T14:25:13.8026070Z **Agentic Finance: The $30 Trillion Opportunity Nobody is Ready For**
+2026-01-05T14:25:13.8032130Z Gartner predicts that by 2030, the 'Agentic Economy' could generate up to $30 trillion in global economic activity, driven by autonomous AI agents in finance. While infrastructure like Coinbase’s Payments MCP, Cloudflare’s Agent SDK with X402 protocol support, Stripe’s agent-friendly APIs, and tool-use capabilities from OpenAI, Anthropic, and Google are being developed, a critical gap remains: secure, policy-enforced financial controls for machine-to-machine transactions. Current financial systems are built for humans (high friction, judgment-based) or scripts (low friction, rigid), neither of which suit LLMs, which are probabilistic, dynamic, and prone to hallucinations or infinite loops. Key use cases include autonomous refunds, portfolio rebalancing, procurement negotiations, and on-demand payments for API/data resources. Each faces major blockers: uncontrolled spending risks, infinite loops, malicious endpoints, and lack of audit trails. Solutions require per-transaction limits, daily caps, recipient validation, velocity limits, whitelists, kill switches, and semantic validation. The essential missing piece is a 'policy layer' that cryptographically enforces spending constraints, ensuring agents cannot exceed defined limits regardless of their internal reasoning. This layer—described as the trust boundary—will enable enterprise adoption starting 2026–2027 and mainstream agentic commerce by 2028–2030. The company that builds this standard will capture a share of every autonomous transaction, representing the $30 trillion opportunity. The need is not more AI or blockchain, but enforceable financial policy infrastructure.
+2026-01-05T14:25:13.8037477Z Original language: en
+2026-01-05T14:25:13.8037690Z Publish date: January 03, 2026 12:10 PM
+2026-01-05T14:25:13.8038199Z Source:[DEV Community](https://dev.to/l_x_1/agentic-finance-the-30-trillion-opportunity-nobody-is-ready-for-cmb)
+2026-01-05T14:25:13.8038751Z 
+2026-01-05T14:25:13.8039032Z **I asked AI to help me come up with my New Year's resolutions  --  the results were genuinely useful and achievable**
+2026-01-05T14:25:13.8044429Z The author, reflecting on a history of failing to keep New Year's resolutions, decided to use ChatGPT to generate five challenging yet achievable resolutions for 2026. Drawing on the SMART framework (specific, measurable, achievable, relevant), the author provided personal details about their eating habits, lack of consistent exercise, procrastination, and desire to write a film idea. ChatGPT responded with tailored, practical resolutions: (1) a specific, measurable healthy eating plan focused on reducing impulsive eating and ultra-processed foods; (2) a realistic two-times-per-week exercise routine including walking and strength training, designed to match the author’s preferences; (3) a writing resolution emphasizing uninterrupted time over quality, with no requirement for the output to be perfect; (4) strengthening social connections through weekly messages to different friends and one planned monthly catch-up; and (5) a wildcard resolution to improve knowledge sharing by explaining key takeaways from podcasts and non-fiction books to others in an engaging way. The author found the AI-generated suggestions genuinely useful and more sustainable than past self-set goals, noting that the specificity and personalization significantly increased their confidence in following through. The article concludes without a follow-up, emphasizing the resolution to not check in on progress.
+2026-01-05T14:25:13.8048984Z Original language: en
+2026-01-05T14:25:13.8049206Z Publish date: December 31, 2025 07:22 AM
+2026-01-05T14:25:13.8049921Z Source:[Tom's Guide](https://www.tomsguide.com/ai/i-asked-ai-to-help-me-come-up-with-my-new-years-resolutions-the-results-were-genuinely-useful-and-achievable)
+2026-01-05T14:25:13.8050546Z 
+2026-01-05T14:25:13.8050638Z **RxJava Operators Complete Guide**
+2026-01-05T14:25:13.8055414Z This article provides a comprehensive guide to RxJava operators, detailing their functionality and use cases. Key operators include: 'merge' (returns an Observable without guaranteeing order), 'concatMap' (similar to flatMap but preserves order), 'switchMap' (cancels previous operations when a new emission occurs), 'defaultIfEmpty' (returns a default value if the source is empty), 'switchIfEmpty' (switches to another Observable if the source is empty), 'sorted' (sorts elements in ascending order using x - y), 'scan' (performs cumulative calculations using previous and current values), 'debounce' (processes only when no new emissions occur during a delay), 'first' and 'last' (retrieve the first or last element), 'ignoreElements' (ignores all elements and returns a Completable), 'skipWhile' (skips elements while the condition is true, then passes all subsequent elements), 'skipUntil' (skips until another Observable emits), 'firstElement' (uses only the Observable that emits first), 'zip' (combines elements from the same index of multiple Observables, up to 9), 'combineLatest' (combines the latest value from one Observable with the most recent value from another), 'count' (returns the number of elements), 'reduce' (performs cumulative calculation and returns only the final result), 'buffer' (buffers elements, but returns an Observable), 'groupBy' (groups elements by a key), and 'throttleFirst'/'throttleLast' (passes only the first or last emission within a specified time window). The article was published on December 31, 2025, at 03:23 and sourced from DEV Community.
+2026-01-05T14:25:13.8060192Z Original language: ko
+2026-01-05T14:25:13.8060405Z Publish date: December 31, 2025 03:23 AM
+2026-01-05T14:25:13.8060789Z Source:[DEV Community](https://dev.to/dss99911/rxjava-operators-complete-guide-g9c)
+2026-01-05T14:25:13.8061109Z 
+2026-01-05T14:25:13.8061284Z **AI 随手记上线周记与月记功能，让时间记录更有结构**
+2026-01-05T14:25:13.8065974Z AI 随手记 recently launched new weekly and monthly journaling features to enhance time-based organization of personal records. The update addresses common pain points such as difficulty recalling events from a specific week or month, and the lack of a clear narrative thread during monthly reviews. The new features include automatic generation of weekly summaries every Sunday morning and monthly recaps on the first day of each month, with support for manual triggering. The system uses intelligent time recognition to interpret natural language expressions like 'last week,' 'this month,' or specific date ranges (e.g., 'November 1 to November 7'). The weekly view displays entries as 'Week X of 2025' and defaults to the latest week, while the monthly view enables users to review trends and key events. Additional capabilities include AI-powered queries such as 'summarize last week's work' or 'what were the important milestones in November?' The update also includes technical optimizations for accurate date calculations based on the local week start (Sunday) and interface improvements. Future plans include cross-week/month comparisons and enhanced time expression recognition. The feature aims to help users better structure their daily records and reflect on their lives with greater clarity.
+2026-01-05T14:25:13.8070172Z Original language: zh
+2026-01-05T14:25:13.8070385Z Publish date: December 07, 2025 08:05 AM
+2026-01-05T14:25:13.8070656Z Source:[V2EX](https://www.v2ex.com/t/1177371)
+2026-01-05T14:25:13.8070966Z 
+2026-01-05T14:25:13.8071126Z **An AI-Powered T-SQL assistant built with Python and SQL Server**
+2026-01-05T14:25:13.8077959Z A SQL Server DBA named Rodrigo developed an AI-powered T-SQL assistant using Python, SQL Server 2025 (available in Azure SQL Database), and GPU-accelerated AI models to solve the long-standing problem of locating the right SQL script among hundreds of saved scripts—similar to how his father struggled to find the right screw in his toolbox. The system, hosted in a public GitHub repository called 'SQL Server Lib' with over 490 scripts (102 added at the time of writing), uses semantic search via embeddings to enable natural language queries. The process involves two phases: indexing and search. During indexing, GitHub Actions trigger a PowerShell script (embed.ps1) that generates embeddings for each script using a Hugging Face Space with a Sentence Transformers model, loaded on a GPU via Gradio. These embeddings (1024-dimensional vectors) are then bulk-inserted into an Azure SQL Database using the new vector data type support in SQL Server 2025. During search, a user’s query is sent to a Hugging Face-hosted Gradio web interface. The query is first translated into English using Google Gemini via the OpenAI-compatible API (to align with the embedding model’s training language). The system then generates embeddings for the query using the same model and performs a semantic similarity search in SQL Server using vector operations. The most relevant scripts are retrieved and passed to the LLM (Google Gemini) to generate a natural language response, which can be in the user’s original language. The project demonstrates a real-world application of Retrieval-Augmented Generation (RAG), leveraging embeddings, vector search in SQL Server, and LLMs for practical, non-generative AI tasks in database administration. The entire system is open-source, community-maintainable via PRs, and accessible at https://huggingface.co/spaces/rrg92/sqlserver-lib-assistant.
+2026-01-05T14:25:13.8083779Z Original language: en
+2026-01-05T14:25:13.8084001Z Publish date: October 22, 2025 11:34 AM
+2026-01-05T14:25:13.8084638Z Source:[Red Gate Software Limited](https://www.red-gate.com/simple-talk/uncategorized/an-ai-powered-t-sql-assistant-built-with-python-and-sql-server/)
+2026-01-05T14:25:13.8085182Z 
+2026-01-05T14:25:13.8085371Z **7 REST Performance Questions That Test Your Real Backend Skills in 2025**
+2026-01-05T14:25:13.8089609Z The article '7 REST Performance Questions That Test Your Real Backend Skills in 2025' identifies critical performance challenges in REST API development and provides practical solutions. It emphasizes that slow APIs degrade user experience and undermine system credibility. The first question addresses the N+1 query problem, where fetching related data for each record results in excessive database calls. The solution uses ORM prefetching—specifically SQLAlchemy's joinedload—to fetch all related data in a single query. For 100 users with 5 posts each, the inefficient approach results in 101 queries taking 550ms, while the optimized method uses 1 query and completes in 90ms. The second question focuses on pagination and response size, warning that returning all data in one request causes large payloads and client slowdowns. The article recommends implementing limit-offset or cursor-based pagination, providing a Flask example that uses query parameters 'page' and 'per_page' to retrieve data in chunks via offset and limit, improving scalability and performance. The article is published on October 14, 2025, on Medium.com.
+2026-01-05T14:25:13.8093466Z Original language: en
+2026-01-05T14:25:13.8093684Z Publish date: October 14, 2025 05:12 AM
+2026-01-05T14:25:13.8094347Z Source:[Medium.com](https://medium.com/@diyasanjaysatpute147/7-rest-performance-questions-that-test-your-real-backend-skills-in-2025-9ae134a130a5)
+2026-01-05T14:25:13.8094909Z 
+2026-01-05T14:25:13.8095100Z **Following AI Together: Building an Interactive Website from Scratch Day 22**
+2026-01-05T14:25:13.8100633Z The article 'Following AI Together: Building an Interactive Website from Scratch Day 22' presents a practical example of creating an API integration to display real-time weather data. It uses the OpenWeatherMap API with the endpoint 'https://api.openweathermap.org/data/2.5/weather?q=Taipei&appid=demo&units=metric', where 'q=Taipei' specifies the city, 'appid=demo' is a placeholder for the user's actual API key, and 'units=metric' sets temperature to Celsius. The tutorial includes a hands-on exercise to enhance the user interface by adding background color and font styling, displaying weather icons using the 'data.weather[0].icon' field, and enabling query triggering via the 'Enter' key in addition to a button. HTML elements include an input field with id='city' for user city input, a button for triggering the request, and a result display area. JavaScript code retrieves the input value, trims whitespace, validates non-empty input, substitutes the user's API key, constructs the API URL, sends the request, parses the JSON response, and displays weather data such as city name, temperature, weather description (e.g., 'sunny'), humidity, and icon URL. The workflow is: user inputs city → request sent → API returns JSON → data displayed on webpage. The article was published on October 7, 2025, and sourced from iT 邦幫忙::一起幫忙解決難題，拯救 IT 人的一天.
+2026-01-05T14:25:13.8104981Z Original language: zh
+2026-01-05T14:25:13.8105193Z Publish date: October 07, 2025 05:47 AM
+2026-01-05T14:25:13.8105648Z Source:[iT 邦幫忙::一起幫忙解決難題，拯救 IT 人的一天](https://ithelp.ithome.com.tw/articles/10388214)
+2026-01-05T14:25:13.8105926Z 
+2026-01-05T14:25:13.8106160Z **How We Automated Job Searching in the Rунет and Overcame Key Challenges**
+2026-01-05T14:25:13.8114834Z The article, published on October 3, 2025, on Habr, details the development of 'Sophie,' an AI assistant designed to automate the job search process in the Russian-speaking internet (Rунет). The product aims to address the challenge that only 10% of the 13+ million Russians interested in changing jobs actively search for new positions, due to fear, lack of confidence, or the bureaucratic burden of updating resumes, writing cover letters, responding to recruiters, and preparing for interviews. Sophie automates four core functions: creating and improving resumes, sending personalized applications to relevant job postings, preparing users for interviews via a personalized trainer, and scheduling interviews—leaving only the user’s presence required. The technical foundation includes a sophisticated parser that mimics human behavior when scraping job data from hh.ru, avoiding detection by using delays and human-like navigation. The resume enhancement process involves four steps: extracting data from the user’s existing resume, conducting a deep contextual inquiry through personalized AI-generated questions, providing example responses for inspiration, and then refining the content using a fine-tuned language model to produce concise, results-driven descriptions. Key challenges included API changes from hh.ru that disrupted resume updates, and AI-generated content that sometimes fabricated experience or produced illogical questions—resolved through iterative testing and adding hundreds of correct example prompts. The interview trainer generates 15 unique questions based on the job description, analyzes user responses via video or audio, and provides detailed feedback and a summary of improvement areas. A 'gatekeeper' system requires users to pass a quiz about the company before being allowed to proceed to real interviews, increasing engagement and quality. After launch, 45 users made 5,679 applications in seven days, resulting in 37 interview invitations (including Telegram outreach), averaging 126 applications and 0.82 interviews per user. Over 50% of users retained their subscription after the trial, indicating strong user satisfaction. The project’s mission is to re-engage the 13 million passive job seekers by eliminating fear and routine, with 10 people having found jobs so far among 13 million potential users.
+2026-01-05T14:25:13.8122461Z Original language: ru
+2026-01-05T14:25:13.8122670Z Publish date: October 03, 2025 11:38 AM
+2026-01-05T14:25:13.8123016Z Source:[Хабр](https://habr.com/ru/articles/953192/)
+2026-01-05T14:25:13.8123224Z 
+2026-01-05T14:25:13.8123380Z **Day 22: Bug Fixes and Deployment Improvements**
+2026-01-05T14:25:13.8129458Z The author reports on a 22‑day effort to clean up a production bot running on Render. The main fixes addressed four recurring errors: (1) an ImportError for 'AsyncWebhookHandler' from linebot.v3.webhooks, (2) a gold‑price query that raised an AttributeError because the page’s table structure had changed, (3) a Groq main model that had been removed, and (4) an invalid OpenAI API key that caused TTS/STT failures. The author explains that the linebot SDK no longer ships with AsyncWebhookHandler, so the solution is to import the synchronous WebhookHandler, run its handle method in a thread pool, and keep the FastAPI endpoint async. For the gold‑price page, the author switched from DOM‑based scraping to parsing the entire page text, which eliminates the ‘table not found’ bug. The lottery feature now supports Powerball, 539, and other games; it first tries a custom crawler, falls back to scraping the official Taiwan Lottery site, and then uses an LLM to generate trend analysis and three recommended numbers. Stock price queries identify tickers such as 2330, 00937B, NVDA, ^TWII, ^GSPC, using yfinance’s fast_info and history, with a fallback to YahooStock if necessary. The deployment includes health‑check endpoints (GET / and GET /healthz) that return 200 OK, and the bot’s webhook is pointed to BASE_URL/callback. The post also outlines Day 23 plans: adding user shortcuts, generating price‑comparison charts with matplotlib, and running a pre‑deployment health‑check script. The article contains several quoted error messages, such as 'ImportError: cannot import name 'AsyncWebhookHandler'' and '金價查詢報 AttributeError: 'NoneType' object has no attribute 'find''.
+2026-01-05T14:25:13.8134752Z Original language: zh
+2026-01-05T14:25:13.8134981Z Publish date: September 15, 2025 04:58 AM
+2026-01-05T14:25:13.8135458Z Source:[iT 邦幫忙::一起幫忙解決難題，拯救 IT 人的一天](https://ithelp.ithome.com.tw/articles/10380105)
+2026-01-05T14:25:13.8135743Z 
+2026-01-05T14:25:13.8135927Z **We are all inside the same car. The fog is thick. The accelerator is jammed.**
+2026-01-05T14:25:13.8141224Z In the summer of 2022 a group of superforecasters and domain experts were asked to predict existential risks over the next 2‑3 years, including the likelihood of rapid AI progress. A 2025 report from the Forecasting Research Institute shows that the forecasts were systematically far too low. For example, AI achieved 87.8 % accuracy on the MATH dataset by April 2024, yet experts had only a 21 % chance and superforecasters 9 %. On the MMLU benchmark AI scored 88.7 % by mid‑2024 against expert estimates of 25 % and superforecaster estimates of 7 %. AI won the International Math Olympiad gold in July 2025, while experts expected it only after 2030 and superforecasters after 2035, with estimated chances of 8.6 % and 2.3 % respectively. Forecasts of computational‑power growth were off by a factor of five. The report attributes the gap to a sudden acceleration in AI development that began with ChatGPT’s release in November 2022, collapsing research cycles and shifting scaling laws from linear to exponential. The author uses the metaphor of “we are all inside the same car, the fog is thick, the accelerator is jammed” to illustrate the loss of foresight. The article concludes that if top forecasters cannot reliably predict 24‑month horizons, planning for 2030 may be unrealistic; the window for human‑level AI could shrink to 2026, compressing safety and governance timelines. The tone is analytical, presenting data and implications without sensationalism.
+2026-01-05T14:25:13.8145985Z Original language: en
+2026-01-05T14:25:13.8146206Z Publish date: September 08, 2025 12:59 PM
+2026-01-05T14:25:13.8146828Z Source:[Medium.com](https://medium.com/@AJurabaev/we-are-all-inside-the-same-car-the-fog-is-thick-the-accelerator-is-jammed-b181aaeb937f)
+2026-01-05T14:25:13.8147477Z 
+2026-01-05T14:25:13.8147694Z **Day 15: Enhancing Data Resilience for Gold, FX, and Taiwanese ETF Queries in a LINE Bot**
+2026-01-05T14:25:13.8153635Z The article describes the 15th day of a project that builds a LINE Bot financial assistant. It focuses on making data queries for gold prices, foreign‑exchange rates, and Taiwanese ETFs more resilient and stable. The author explains a multi‑source fallback strategy: for gold, the bot first scrapes the Taiwan Bank’s “sell” column using a header‑based selector; if that fails, it falls back to Yahoo Finance’s spot gold (XAUUSD=X) and then to COMEX futures (GC=F). For ETFs, the author normalises symbols that may end with a letter (e.g., 00937B) by allowing 4–6 digits plus an optional letter, converting to uppercase, and appending ".TW". The article also discusses handling yfinance errors such as "possibly delisted" or "no timezone found" by adding retries, shortening the period, or switching to a quote snapshot. Exchange rates are fetched from the open.er‑api endpoint (e.g., https://open.er‑api.com/v6/latest/JPY) and the rate for TWD is extracted from the JSON. To avoid blocking the FastAPI event loop, the author runs blocking I/O (requests, yfinance) in a thread pool with "await run_in_threadpool(...)". The bot registers its webhook automatically on startup using the LINE SDK’s "set_webhook_endpoint_url". The article lists common pitfalls—missing ".TW" for ETF symbols, yfinance errors, webhook failures, and blocking I/O delays—and provides troubleshooting tips. Finally, it summarizes the recent commits: new gold‑quote functions, symbol normalisation, retry logic, automatic webhook registration, and thread‑pool usage. The tone is technical and factual, aimed at developers building similar bots.
+2026-01-05T14:25:13.8158588Z Original language: zh
+2026-01-05T14:25:13.8158806Z Publish date: September 08, 2025 12:32 AM
+2026-01-05T14:25:13.8159268Z Source:[iT 邦幫忙::一起幫忙解決難題，拯救 IT 人的一天](https://ithelp.ithome.com.tw/articles/10378202)
+2026-01-05T14:25:13.8159559Z 
+2026-01-05T14:25:13.8159780Z **Adding Currency, Importance, and Time Filters to the MQL5 Economic Calendar (Part 3)**
+2026-01-05T14:25:13.8165736Z The article explains how to extend a previously created MQL5 economic‑calendar dashboard by adding three filters—currency, importance, and time—to display only the most relevant news for traders. It begins by declaring three global boolean variables: 'enableCurrencyFilter', 'enableImportanceFilter', and 'enableTimeFilter', all initially set to true, which control whether each filter is active. The currency filter uses the array 'curr_filter', containing the codes 'AUD', 'CAD', 'CHF', 'EUR', 'GBP', 'JPY', 'NZD', and 'USD'; the code loops through this array and matches the event’s currency, setting 'currencyMatch' to true when a match is found. The importance filter relies on the array 'allowed_importance_levels', which currently includes all levels, and sets 'importanceMatch' similarly. The time filter calculates a one‑day range by calling PeriodSeconds(PERIOD_D1) to obtain the number of seconds in a day, then defines 'timeBefore' and 'timeAfter' relative to the current server time from TimeTradeServer; events whose timestamps fall within this window set 'timeMatch' to true. After all three filters are applied, the article updates a counter 'news_filter_count', uses it to color rows alternately, and updates a label via the function 'updateLabel' that displays the server time and the number of filtered news items. Finally, the article describes a cleanup routine 'destroy_Dashboard' that deletes all graphical objects created for the dashboard when the script is removed. The piece is a straightforward, step‑by‑step guide aimed at developers who want to make the MQL5 economic calendar more focused and efficient.
+2026-01-05T14:25:13.8170849Z Original language: es
+2026-01-05T14:25:13.8171065Z Publish date: August 29, 2025 08:20 AM
+2026-01-05T14:25:13.8171372Z Source:[mql5.com](https://www.mql5.com/es/articles/16380)
+2026-01-05T14:25:13.8171703Z 
+2026-01-05T14:25:13.8172003Z **D14 Document Management System Implementation – Adding Query and Modify Functionality**
+2026-01-05T14:25:13.8175641Z Today the team added a query‑and‑modify feature to the D14 document‑management system. The implementation uses Google Apps Script: `SpreadsheetApp.getActiveSpreadsheet()` retrieves the current spreadsheet; `.getSheetByName('單據資料')` selects the sheet named '單據資料'; `sheet.getDataRange().getValues()` pulls all rows into a 2‑D array. A for loop starting at `i = 1` (skipping the header) checks if `data[i][0]` equals the user‑supplied `billNo`. When a match is found, a `billData` object is built, its row number recorded as `i+1`, and the object is returned as a JSON string via `JSON.stringify` for the front‑end. If no match is found, a JSON object indicating “no data” is returned. For updates, the front‑end supplies the row number; `Number(data.row)` converts it to a number. The new values are assembled into an array `newValues = [billNo, customer, item, amount, date, note]` and written back with `sheet.getRange(row,1,1,6).setValues([newValues])`.
+2026-01-05T14:25:13.8178373Z 
+2026-01-05T14:25:13.8178936Z The article explains the code logic step‑by‑step, highlighting that the loop begins at the second row (`i = 1`) and that the update writes a single row of six columns (`1,6`).
+2026-01-05T14:25:13.8179546Z Original language: zh
+2026-01-05T14:25:13.8179758Z Publish date: August 28, 2025 04:38 PM
+2026-01-05T14:25:13.8180212Z Source:[iT 邦幫忙::一起幫忙解決難題，拯救 IT 人的一天](https://ithelp.ithome.com.tw/articles/10375478)
+2026-01-05T14:25:13.8180494Z 
+2026-01-05T14:25:13.8180499Z 
+2026-01-05T14:25:13.8180915Z 2026-01-05 14:25:13,779 - forecasting_tools.forecast_bots.forecast_bot - INFO - Summarizing research for question: https://www.metaculus.com/questions/41380
+2026-01-05T14:25:28.4162691Z 2026-01-05 14:25:28,415 - main - INFO - [GPR DEBUG] New numeric question detected. Resetting counter. ID was: None, now: https://www.metaculus.com/questions/41380
+2026-01-05T14:25:28.4164805Z 2026-01-05 14:25:28,416 - main - INFO - [GPR DEBUG] Numeric call number: 1, Scenarios so far: 0, Question: https://www.metaculus.com/questions/41380
+2026-01-05T14:25:28.4166802Z 2026-01-05 14:25:28,416 - main - INFO - [GPR DEBUG] In _numeric_prompt_to_forecast. Current ID: None, Question URL: https://www.metaculus.com/questions/41380, Match: False
+2026-01-05T14:25:28.4168296Z 2026-01-05 14:25:28,416 - main - INFO - Starting new numeric question https://www.metaculus.com/questions/41380, cleared scenario storage
+2026-01-05T14:25:28.4170472Z 2026-01-05 14:25:28,416 - main - INFO - [GPR DEBUG] Numeric call number: 2, Scenarios so far: 0, Question: https://www.metaculus.com/questions/41380
+2026-01-05T14:25:28.4173036Z 2026-01-05 14:25:28,417 - main - INFO - [GPR DEBUG] In _numeric_prompt_to_forecast. Current ID: https://www.metaculus.com/questions/41380, Question URL: https://www.metaculus.com/questions/41380, Match: True
+2026-01-05T14:25:28.4199478Z 2026-01-05 14:25:28,419 - main - INFO - [GPR DEBUG] Numeric call number: 3, Scenarios so far: 0, Question: https://www.metaculus.com/questions/41380
+2026-01-05T14:25:28.4201766Z 2026-01-05 14:25:28,420 - main - INFO - [GPR DEBUG] In _numeric_prompt_to_forecast. Current ID: https://www.metaculus.com/questions/41380, Question URL: https://www.metaculus.com/questions/41380, Match: True
+2026-01-05T14:25:28.4206186Z 2026-01-05 14:25:28,420 - main - INFO - [GPR DEBUG] Numeric call number: 4, Scenarios so far: 0, Question: https://www.metaculus.com/questions/41380
+2026-01-05T14:25:28.4208659Z 2026-01-05 14:25:28,420 - main - INFO - [GPR DEBUG] In _numeric_prompt_to_forecast. Current ID: https://www.metaculus.com/questions/41380, Question URL: https://www.metaculus.com/questions/41380, Match: True
+2026-01-05T14:25:28.4226769Z 2026-01-05 14:25:28,422 - forecasting_tools.ai_models.resource_managers.monetary_cost_manager - WARNING - Error calculating cost from response object: This model isn't mapped yet. model=gpt-4o-mini, custom_llm_provider=openrouter. Add it here - https://github.com/BerriAI/litellm/blob/main/model_prices_and_context_window.json.
+2026-01-05T14:25:28.5524278Z 2026-01-05 14:25:28,552 - openai.agents - WARNING - OPENAI_API_KEY is not set, skipping trace export
+2026-01-05T14:26:02.9231073Z 2026-01-05 14:26:02,922 - main - INFO - Reasoning for URL https://www.metaculus.com/questions/41380: ## Potential outcomes (quick orientation)
+2026-01-05T14:26:02.9232785Z 
+2026-01-05T14:26:02.9233279Z 1. **Time left until outcome is known:** 9 days (from 2026-01-05 to 2026-01-14).  
+2026-01-05T14:26:02.9234547Z 2. **Outcome if nothing changed (current value):** 1.22671228 (last observed on 2026-01-02).  
+2026-01-05T14:26:02.9236922Z 3. **Outcome if the current trend continued:** SOFR Index is a smoothly compounding index. With ~8 business days between 2026-01-02 and 2026-01-14, a typical overnight rate in the few-percent range implies an increase of roughly **0.07% to 0.12%**, putting the index around **1.2276 to 1.2281**.  
+2026-01-05T14:26:02.9239883Z 4. **Expectations of experts and markets:** Near-term policy expectations (jobs-data-sensitive, but no scheduled policy regime shift in this window) generally imply **small day-to-day changes in SOFR**, so the index should move **slightly upward** with minimal risk of a jump.  
+2026-01-05T14:26:02.9242619Z 5. **Volatility history and expectations:** SOFR Index is **very low volatility** and almost monotonic upward (compounding). Variation mostly comes from small changes in overnight SOFR; over ~2 weeks, the range is typically **very tight**.
+2026-01-05T14:26:02.9243852Z 
+2026-01-05T14:26:02.9244037Z Units for the answer are: **Index Apr 2, 2018 = 1**
+2026-01-05T14:26:02.9244371Z 
+2026-01-05T14:26:02.9244477Z ---
+2026-01-05T14:26:02.9244622Z 
+2026-01-05T14:26:02.9244780Z ## Evidence grouped into three buckets
+2026-01-05T14:26:02.9245052Z 
+2026-01-05T14:26:02.9245776Z ### Bucket 1 — Evidence consistent with a relatively **low** forecast (lower SOFR → slower index growth)
+2026-01-05T14:26:02.9247568Z - Market commentary highlighting that **rising unemployment** could signal a **shift toward easier monetary policy** (rate-cut expectations), which would reduce SOFR and slow the index’s climb.  
+2026-01-05T14:26:02.9250638Z - The “U.S. jobs data to test rally” framing: if jobs come in weak, markets often price **more accommodation**, nudging SOFR lower.  
+2026-01-05T14:26:02.9252001Z - General risk-off/geopolitical uncertainty could also pull expectations toward **easier policy**, modestly lowering overnight rates.
+2026-01-05T14:26:02.9253060Z 
+2026-01-05T14:26:02.9253868Z ### Bucket 2 — Evidence consistent with a **central** forecast (policy/rates broadly steady → normal compounding)
+2026-01-05T14:26:02.9256100Z - The relevant near-term reality for SOFR is that it’s anchored to the Fed’s administered rates; absent an FOMC change, **SOFR typically stays in a narrow band**.  
+2026-01-05T14:26:02.9257969Z - Most provided articles are unrelated to funding markets; the absence of strong rate-focused shocks in the news set supports a **steady-rate baseline**.  
+2026-01-05T14:26:02.9259528Z - Historical behavior of the SOFR Index: **smooth compounding** with small daily increments, making a central projection robust.
+2026-01-05T14:26:02.9260276Z 
+2026-01-05T14:26:02.9260963Z ### Bucket 3 — Evidence consistent with a relatively **high** forecast (higher SOFR → faster index growth)
+2026-01-05T14:26:02.9262589Z - If data surprises on the strong side (e.g., jobs resilience), markets can dial back rate-cut expectations, keeping SOFR **higher for longer**, slightly accelerating index growth.  
+2026-01-05T14:26:02.9264567Z - Ongoing “major economic transformation” / resilience narratives can support **less accommodative** expectations at the margin.  
+2026-01-05T14:26:02.9266148Z - Any renewed funding stress (not evidenced strongly here, but always a tail possibility) can sometimes **lift overnight secured rates** modestly.
+2026-01-05T14:26:02.9267049Z 
+2026-01-05T14:26:02.9267178Z ---
+2026-01-05T14:26:02.9267356Z 
+2026-01-05T14:26:02.9267989Z ## Multi-world considerations (ranges of reasonable possibilities)
+2026-01-05T14:26:02.9268463Z 
+2026-01-05T14:26:02.9268839Z ### 1) Low_World (reviewing Bucket 1: easier-policy expectations, slightly lower SOFR)
+2026-01-05T14:26:02.9269524Z - **Low estimate:** 1.22735  
+2026-01-05T14:26:02.9269936Z - **Mid estimate:** 1.22750  
+2026-01-05T14:26:02.9270324Z - **High estimate:** 1.22765  
+2026-01-05T14:26:02.9270476Z 
+2026-01-05T14:26:02.9270704Z ### 2) High_World (reviewing Bucket 3: higher-for-longer expectations, slightly higher SOFR)
+2026-01-05T14:26:02.9271123Z - **Low estimate:** 1.22810  
+2026-01-05T14:26:02.9271364Z - **Mid estimate:** 1.22825  
+2026-01-05T14:26:02.9271586Z - **High estimate:** 1.22840  
+2026-01-05T14:26:02.9271727Z 
+2026-01-05T14:26:02.9271903Z ### 3) Mid_World (reviewing Bucket 2: steady policy, normal compounding)
+2026-01-05T14:26:02.9272588Z - **Low estimate:** 1.22770  
+2026-01-05T14:26:02.9272809Z - **Mid estimate:** 1.22788  
+2026-01-05T14:26:02.9273033Z - **High estimate:** 1.22805  
+2026-01-05T14:26:02.9273175Z 
+2026-01-05T14:26:02.9273238Z ---
+2026-01-05T14:26:02.9273328Z 
+2026-01-05T14:26:02.9273405Z ## Verify units
+2026-01-05T14:26:02.9273626Z All values above are in **Index Apr 2, 2018 = 1**.
+2026-01-05T14:26:02.9273823Z 
+2026-01-05T14:26:02.9273885Z ---
+2026-01-05T14:26:02.9273976Z 
+2026-01-05T14:26:02.9274043Z # Final Answer
+2026-01-05T14:26:02.9274301Z [1.22735, 1.22750, 1.22765, 1.22770, 1.22788, 1.22805, 1.22810, 1.22825, 1.22840]
+2026-01-05T14:26:02.9274953Z 2026-01-05 14:26:02,923 - forecasting_tools.ai_models.model_tracker - WARNING - Warning: Model openrouter/openai/o4-mini does not support cost tracking.
+2026-01-05T14:26:02.9275912Z 2026-01-05 14:26:02,926 - forecasting_tools.ai_models.resource_managers.monetary_cost_manager - WARNING - Litellm hidden param cost 0.0 and response object cost 0.048874 are different.
+2026-01-05T14:26:03.5714870Z 2026-01-05 14:26:03,571 - openai.agents - WARNING - OPENAI_API_KEY is not set, skipping trace export
+2026-01-05T14:26:05.5077707Z 2026-01-05 14:26:05,507 - main - INFO - Reasoning for URL https://www.metaculus.com/questions/41380: ### 1) Time left until outcome is known
+2026-01-05T14:26:05.5079028Z 9 days (from 2026-01-05 until 2026-01-14).
+2026-01-05T14:26:05.5079442Z 
+2026-01-05T14:26:05.5079706Z ### 2) Outcome if nothing changed (the current value)
+2026-01-05T14:26:05.5080775Z If the SOFR Index did not move after the last observed point (2026-01-02), it would remain **1.22671228**.
+2026-01-05T14:26:05.5081591Z 
+2026-01-05T14:26:05.5081819Z ### 3) Outcome if the current trend continued
+2026-01-05T14:26:05.5083425Z Mechanically, the SOFR Index almost always **increases smoothly** day to day because it accrues overnight interest (roughly multiplying by \(1 + \text{SOFR}/360\) each business day).  
+2026-01-05T14:26:05.5085359Z From 2026-01-02 to 2026-01-14 there are about **8 business days** of accrual; at a mid-single-digit SOFR, that suggests roughly **+0.07% to +0.13%** cumulative increase, putting the index around **1.2276 to 1.2283**.
+2026-01-05T14:26:05.5086302Z 
+2026-01-05T14:26:05.5086521Z ### 4) Expectations of experts and markets
+2026-01-05T14:26:05.5089856Z Nothing in the provided news is directly about SOFR, but the *macro* signal in the “U.S. jobs data to test rally / could shift monetary policy” item implies markets are sensitive to data that could alter the expected path of Fed policy. Over a 1–2 week horizon, though, the **most likely** situation is **no major rate shock**, so the index should move mostly by predictable accrual.
+2026-01-05T14:26:05.5094015Z 
+2026-01-05T14:26:05.5094280Z ### 5) Volatility history and expectations
+2026-01-05T14:26:05.5096595Z SOFR Index volatility is **very low** versus most financial series: it is a **level index that compounds overnight rates**, so it should be **monotone increasing** (barring extremely unusual negative rates) and changes are small and stable day-to-day.
+2026-01-05T14:26:05.5098053Z 
+2026-01-05T14:26:05.5098171Z ---
+2026-01-05T14:26:05.5098611Z 
+2026-01-05T14:26:05.5098809Z ## Evidence buckets (from the research assistant)
+2026-01-05T14:26:05.5099154Z 
+2026-01-05T14:26:05.5099659Z ### Bucket 1 — Evidence indicating a relatively low forecast (lower SOFR → less accrual)
+2026-01-05T14:26:05.5100646Z - The outlook piece highlights that **rising unemployment / weaker jobs** could increase expectations for **Fed rate cuts**, which would **reduce SOFR** and slightly reduce the index’s daily growth.
+2026-01-05T14:26:05.5101676Z - Geopolitical tension in the same piece could contribute to **risk-off / slower growth** narratives, also consistent with **easier policy** (lower SOFR).
+2026-01-05T14:26:05.5102888Z - General “transformation / caution against euphoria” language supports a scenario where rates drift lower rather than stay high.
+2026-01-05T14:26:05.5103699Z 
+2026-01-05T14:26:05.5104252Z ### Bucket 2 — Evidence indicating a relatively high forecast (higher SOFR → more accrual)
+2026-01-05T14:26:05.5105712Z - The same outlook article implies that a **strong jobs report** could delay easing / keep policy tight, supporting **higher overnight rates** and slightly **higher SOFR Index accrual**.
+2026-01-05T14:26:05.5107701Z - Equity optimism and resilience themes (strong 2025, rotation flows) are consistent with **no urgent need to cut rates**, again supporting **higher SOFR** than in the low world.
+2026-01-05T14:26:05.5109254Z - Continued market strength can coincide with **higher-for-longer** policy expectations, nudging accrual up.
+2026-01-05T14:26:05.5109944Z 
+2026-01-05T14:26:05.5110466Z ### Bucket 3 — Evidence indicating a central forecast (stable rates → “normal” accrual)
+2026-01-05T14:26:05.5112099Z - Most other provided articles are **unrelated to rates/SOFR** (AI trends, software engineering, investing behavior), which effectively supports the base case of **no strong new rate signal** from this information set.
+2026-01-05T14:26:05.5114181Z - With no concrete new monetary-policy data in the packet, the most defensible near-term view is **SOFR roughly stable** over ~2 weeks.
+2026-01-05T14:26:05.5115343Z - The SOFR Index’s structure itself favors a **predictable, low-noise** projection over short horizons.
+2026-01-05T14:26:05.5115708Z 
+2026-01-05T14:26:05.5115781Z ---
+2026-01-05T14:26:05.5115874Z 
+2026-01-05T14:26:05.5116013Z ## Multi-world considerations (Units verified below)
+2026-01-05T14:26:05.5116228Z 
+2026-01-05T14:26:05.5116341Z **Units for the answer are: Index Apr 2, 2018 = 1**
+2026-01-05T14:26:05.5116541Z 
+2026-01-05T14:26:05.5116954Z Assumption used across worlds: about **8 business-day accruals** between 2026-01-02 (last known) and 2026-01-14, with different plausible average SOFR levels.
+2026-01-05T14:26:05.5117651Z 
+2026-01-05T14:26:05.5117848Z ### 1) Low_World (Bucket 1 dominates: softer data → lower SOFR)
+2026-01-05T14:26:05.5118151Z - Low estimate: **1.22730**
+2026-01-05T14:26:05.5118359Z - Mid estimate: **1.22745**
+2026-01-05T14:26:05.5118565Z - High estimate: **1.22765**
+2026-01-05T14:26:05.5118701Z 
+2026-01-05T14:26:05.5118930Z ### 2) High_World (Bucket 2 dominates: stronger data → higher-for-longer)
+2026-01-05T14:26:05.5119261Z - Low estimate: **1.22820**
+2026-01-05T14:26:05.5119466Z - Mid estimate: **1.22835**
+2026-01-05T14:26:05.5119665Z - High estimate: **1.22855**
+2026-01-05T14:26:05.5119798Z 
+2026-01-05T14:26:05.5120020Z ### 3) Mid_World (Bucket 3 dominates: stable conditions → normal accrual)
+2026-01-05T14:26:05.5120342Z - Low estimate: **1.22775**
+2026-01-05T14:26:05.5120537Z - Mid estimate: **1.22795**
+2026-01-05T14:26:05.5120736Z - High estimate: **1.22815**
+2026-01-05T14:26:05.5120872Z 
+2026-01-05T14:26:05.5120934Z ---
+2026-01-05T14:26:05.5121029Z 
+2026-01-05T14:26:05.5121185Z [1.22730, 1.22745, 1.22765, 1.22775, 1.22795, 1.22815, 1.22820, 1.22835, 1.22855]
+2026-01-05T14:26:05.5121919Z 2026-01-05 14:26:05,510 - forecasting_tools.ai_models.resource_managers.monetary_cost_manager - WARNING - Litellm hidden param cost 0.0 and response object cost 0.050526 are different.
+2026-01-05T14:26:06.7858119Z 2026-01-05 14:26:06,785 - main - INFO - Reasoning for URL https://www.metaculus.com/questions/41380: ### 1) Time left until the outcome is known
+2026-01-05T14:26:06.7859564Z 9 days (from 2026-01-05 to 2026-01-14).
+2026-01-05T14:26:06.7859838Z 
+2026-01-05T14:26:06.7860035Z ### 2) Outcome if nothing changed (the current value)
+2026-01-05T14:26:06.7860791Z If the SOFR Index did not change from the latest provided datapoint (2026-01-02), it would be **1.22671228**.
+2026-01-05T14:26:06.7861367Z 
+2026-01-05T14:26:06.7861526Z ### 3) Outcome if the current trend continued
+2026-01-05T14:26:06.7862544Z The SOFR Index is a **smooth, monotonic, compounded-accrual index**. A reasonable short-horizon extrapolation is:
+2026-01-05T14:26:06.7863401Z - Index change over ~8 business days is approximately:  
+2026-01-05T14:26:06.7863865Z   \[
+2026-01-05T14:26:06.7864310Z   \Delta \approx \text{Index}\times \left(\frac{\text{SOFR}}{360}\right)\times 8
+2026-01-05T14:26:06.7864853Z   \]
+2026-01-05T14:26:06.7865558Z - If SOFR averages about **4.0% to 5.0%**, the increment is roughly **0.0009 to 0.0011** (about **0.09% to 0.11%**), putting 2026-01-14 around **1.2278 to 1.2281**.
+2026-01-05T14:26:06.7866555Z 
+2026-01-05T14:26:06.7866713Z ### 4) Expectations of experts and markets
+2026-01-05T14:26:06.7868559Z No direct “SOFR Index” forecasts are commonly published; expectations come from **Fed policy/rate-cut timing** and short-rate markets. The provided macro-relevant snippet (jobs data potentially affecting rate-cut expectations) suggests:
+2026-01-05T14:26:06.7870650Z - **Weaker labor data / rising unemployment ⇒ higher probability of rate cuts ⇒ slightly lower SOFR path ⇒ slightly lower SOFR Index by 2026-01-14.**
+2026-01-05T14:26:06.7872086Z - **Stronger labor data ⇒ delayed cuts / higher-for-longer ⇒ slightly higher SOFR path ⇒ slightly higher SOFR Index.**
+2026-01-05T14:26:06.7872937Z 
+2026-01-05T14:26:06.7873584Z Given the very short horizon (days), even meaningful shifts in expectations generally move the index only in the **4th decimal place**.
+2026-01-05T14:26:06.7874337Z 
+2026-01-05T14:26:06.7874585Z ### 5) Volatility history and expectations for the target measure
+2026-01-05T14:26:06.7876567Z SOFR Index volatility is **extremely low** compared with most financial series because it is **compounded overnight interest**. Over a 9-calendar-day / ~8-business-day horizon, plausible variation is dominated by the average overnight rate level (e.g., 3% vs 6%), yielding a tight range (here, only about **0.0011** wide across quite different rate regimes).
+2026-01-05T14:26:06.7878283Z 
+2026-01-05T14:26:06.7878389Z ---
+2026-01-05T14:26:06.7878532Z 
+2026-01-05T14:26:06.7878718Z ## Group the evidence (from the research assistant)
+2026-01-05T14:26:06.7879203Z 
+2026-01-05T14:26:06.7879894Z ### Bucket 1 — Evidence indicating a relatively low forecast (lower SOFR → slower index growth)
+2026-01-05T14:26:06.7881725Z - Commentary pointing to **rising unemployment** and potential **shift in U.S. monetary policy** (rate cuts becoming more plausible if jobs data weak).
+2026-01-05T14:26:06.7883561Z - General macro tone: if labor market softens, markets tend to price **lower short rates** fairly quickly.
+2026-01-05T14:26:06.7884338Z 
+2026-01-05T14:26:06.7885062Z ### Bucket 2 — Evidence indicating a relatively high forecast (higher SOFR → faster index growth)
+2026-01-05T14:26:06.7886778Z - Risk-on market tone (equity strength, optimism narratives) can coincide with “**higher-for-longer**” if growth remains resilient.
+2026-01-05T14:26:06.7888488Z - Mention that a **positive jobs report could change expectations** (in context: if strong enough, it can reduce urgency for cuts, keeping SOFR higher).
+2026-01-05T14:26:06.7889541Z 
+2026-01-05T14:26:06.7890140Z ### Bucket 3 — Evidence indicating a central forecast (little changes over ~2 weeks)
+2026-01-05T14:26:06.7891433Z - Most provided articles are **not rate/SOFR-relevant**, implying **no strong new information** forcing a regime shift within days.
+2026-01-05T14:26:06.7893185Z - In typical conditions, overnight rates evolve gradually; over ~8 business days, the index is mostly a mechanical accrual at roughly the prevailing rate.
+2026-01-05T14:26:06.7894376Z 
+2026-01-05T14:26:06.7894499Z ---
+2026-01-05T14:26:06.7894677Z 
+2026-01-05T14:26:06.7894946Z ## Multi-world considerations (all values in confirmed units)
+2026-01-05T14:26:06.7895379Z 
+2026-01-05T14:26:06.7895580Z **Units for the answer are: Index Apr 2, 2018 = 1**
+2026-01-05T14:26:06.7895930Z 
+2026-01-05T14:26:06.7897150Z I treat 2026-01-02’s value (**1.22671228**) as the starting point and project forward ~8 business days. Differences across worlds mainly reflect different average SOFR levels over that window.
+2026-01-05T14:26:06.7898240Z 
+2026-01-05T14:26:06.7898598Z ### 1) Low_World (Bucket 1: rate cuts get priced more aggressively; SOFR runs lower)
+2026-01-05T14:26:06.7899259Z - Low estimate (SOFR ~2.5%): **1.22739**
+2026-01-05T14:26:06.7899731Z - Mid estimate (SOFR ~3.0%): **1.22753**
+2026-01-05T14:26:06.7900076Z - High estimate (SOFR ~3.5%): **1.22767**
+2026-01-05T14:26:06.7900256Z 
+2026-01-05T14:26:06.7900611Z ### 2) High_World (Bucket 2: “higher for longer”; SOFR runs higher)
+2026-01-05T14:26:06.7900949Z - Low estimate (SOFR ~5.5%): **1.22821**
+2026-01-05T14:26:06.7901199Z - Mid estimate (SOFR ~6.0%): **1.22835**
+2026-01-05T14:26:06.7901442Z - High estimate (SOFR ~6.5%): **1.22849**
+2026-01-05T14:26:06.7901616Z 
+2026-01-05T14:26:06.7901789Z ### 3) Mid_World (Bucket 3: no big surprise; SOFR stays near a moderate level)
+2026-01-05T14:26:06.7902141Z - Low estimate (SOFR ~4.0%): **1.22780**
+2026-01-05T14:26:06.7902647Z - Mid estimate (SOFR ~4.5%): **1.22797**
+2026-01-05T14:26:06.7902900Z - High estimate (SOFR ~5.0%): **1.22807**
+2026-01-05T14:26:06.7903075Z 
+2026-01-05T14:26:06.7903148Z ---
+2026-01-05T14:26:06.7903239Z 
+2026-01-05T14:26:06.7903391Z [1.22739, 1.22753, 1.22767, 1.22780, 1.22797, 1.22807, 1.22821, 1.22835, 1.22849]
+2026-01-05T14:26:06.7904147Z 2026-01-05 14:26:06,787 - forecasting_tools.ai_models.resource_managers.monetary_cost_manager - WARNING - Litellm hidden param cost 0.0 and response object cost 0.051576 are different.
+2026-01-05T14:26:08.5744311Z 2026-01-05 14:26:08,574 - openai.agents - WARNING - OPENAI_API_KEY is not set, skipping trace export
+2026-01-05T14:26:09.8673303Z 2026-01-05 14:26:09,867 - forecasting_tools.ai_models.resource_managers.monetary_cost_manager - WARNING - Error calculating cost from response object: This model isn't mapped yet. model=o4-mini, custom_llm_provider=openrouter. Add it here - https://github.com/BerriAI/litellm/blob/main/model_prices_and_context_window.json.
+2026-01-05T14:26:10.8769744Z 2026-01-05 14:26:10,876 - forecasting_tools.ai_models.resource_managers.monetary_cost_manager - WARNING - Error calculating cost from response object: This model isn't mapped yet. model=o4-mini, custom_llm_provider=openrouter. Add it here - https://github.com/BerriAI/litellm/blob/main/model_prices_and_context_window.json.
+2026-01-05T14:26:13.5772449Z 2026-01-05 14:26:13,577 - openai.agents - WARNING - OPENAI_API_KEY is not set, skipping trace export
+2026-01-05T14:26:15.5818583Z 2026-01-05 14:26:15,581 - forecasting_tools.ai_models.resource_managers.monetary_cost_manager - WARNING - Error calculating cost from response object: This model isn't mapped yet. model=o4-mini, custom_llm_provider=openrouter. Add it here - https://github.com/BerriAI/litellm/blob/main/model_prices_and_context_window.json.
+2026-01-05T14:26:15.5918412Z 2026-01-05 14:26:15,591 - main - INFO - Parsed 9 numeric scenarios: [1.22739, 1.22753, 1.22767, 1.2278, 1.22797, 1.22807, 1.22821, 1.22835, 1.22849]
+2026-01-05T14:26:15.5919726Z 2026-01-05 14:26:15,591 - main - INFO - Total numeric scenarios stored for question https://www.metaculus.com/questions/41380: 9 scenarios
+2026-01-05T14:26:15.5924264Z 2026-01-05 14:26:15,592 - main - INFO - Returning temporary distribution for URL https://www.metaculus.com/questions/41380, median: 1.22797
+2026-01-05T14:26:15.5925463Z 2026-01-05 14:26:15,592 - main - INFO - [GPR DEBUG] Returning temporary distribution. Numeric scenarios stored: 9
+2026-01-05T14:26:15.5934928Z 2026-01-05 14:26:15,593 - forecasting_tools.ai_models.resource_managers.monetary_cost_manager - WARNING - Error calculating cost from response object: This model isn't mapped yet. model=o4-mini, custom_llm_provider=openrouter. Add it here - https://github.com/BerriAI/litellm/blob/main/model_prices_and_context_window.json.
+2026-01-05T14:26:17.4212066Z 2026-01-05 14:26:17,420 - main - INFO - Parsed 9 numeric scenarios: [1.22735, 1.2275, 1.22765, 1.2277, 1.22788, 1.22805, 1.2281, 1.22825, 1.2284]
+2026-01-05T14:26:17.4214710Z 2026-01-05 14:26:17,421 - main - INFO - Total numeric scenarios stored for question https://www.metaculus.com/questions/41380: 18 scenarios
+2026-01-05T14:26:17.4216579Z 2026-01-05 14:26:17,421 - main - INFO - Returning temporary distribution for URL https://www.metaculus.com/questions/41380, median: 1.22788
+2026-01-05T14:26:17.4218190Z 2026-01-05 14:26:17,421 - main - INFO - [GPR DEBUG] Returning temporary distribution. Numeric scenarios stored: 18
+2026-01-05T14:26:17.4227193Z 2026-01-05 14:26:17,422 - forecasting_tools.ai_models.resource_managers.monetary_cost_manager - WARNING - Error calculating cost from response object: This model isn't mapped yet. model=o4-mini, custom_llm_provider=openrouter. Add it here - https://github.com/BerriAI/litellm/blob/main/model_prices_and_context_window.json.
+2026-01-05T14:26:18.5801135Z 2026-01-05 14:26:18,579 - openai.agents - WARNING - OPENAI_API_KEY is not set, skipping trace export
+2026-01-05T14:26:37.9207090Z 2026-01-05 14:26:37,920 - main - INFO - Parsed 9 numeric scenarios: [1.2273, 1.22745, 1.22765, 1.22775, 1.22795, 1.22815, 1.2282, 1.22835, 1.22855]
+2026-01-05T14:26:37.9208405Z 2026-01-05 14:26:37,920 - main - INFO - Total numeric scenarios stored for question https://www.metaculus.com/questions/41380: 27 scenarios
+2026-01-05T14:26:37.9210354Z 2026-01-05 14:26:37,920 - main - INFO - Returning temporary distribution for URL https://www.metaculus.com/questions/41380, median: 1.22795
+2026-01-05T14:26:37.9211536Z 2026-01-05 14:26:37,920 - main - INFO - [GPR DEBUG] Returning temporary distribution. Numeric scenarios stored: 27
+2026-01-05T14:26:37.9222984Z 2026-01-05 14:26:37,921 - forecasting_tools.ai_models.resource_managers.monetary_cost_manager - WARNING - Error calculating cost from response object: This model isn't mapped yet. model=o4-mini, custom_llm_provider=openrouter. Add it here - https://github.com/BerriAI/litellm/blob/main/model_prices_and_context_window.json.
+2026-01-05T14:26:38.5911343Z 2026-01-05 14:26:38,590 - openai.agents - WARNING - OPENAI_API_KEY is not set, skipping trace export
+2026-01-05T14:26:53.5994508Z 2026-01-05 14:26:53,599 - openai.agents - WARNING - OPENAI_API_KEY is not set, skipping trace export
+2026-01-05T14:27:29.6138451Z 2026-01-05 14:27:29,613 - main - INFO - Reasoning for URL https://www.metaculus.com/questions/41380: ## Review some potential outcomes
+2026-01-05T14:27:29.6139763Z 
+2026-01-05T14:27:29.6140899Z 1. **Time left until the outcome is known:** 9 days (from 2026-01-05 to 2026-01-14), with the observation typically appearing on/after that date in the daily FRED series.  
+2026-01-05T14:27:29.6142485Z 2. **Outcome if nothing changed (current value):** 1.22671228 (last available datapoint: 2026-01-02).  
+2026-01-05T14:27:29.6144904Z 3. **Outcome if the current trend continued:** SOFR Index is a smoothly compounding interest index; with overnight rates roughly in the mid-single-digits annualized, a typical ~12-day accrual from 2026-01-02 to 2026-01-14 implies an increase on the order of about 0.10%–0.20%, i.e. roughly **1.2280–1.2292**.  
+2026-01-05T14:27:29.6148164Z 4. **Expectations of experts and markets:** The provided macro-relevant snippet (jobs data potentially shifting rate-cut expectations) suggests the *directional* risk: weaker data → more cuts → lower SOFR (slower index rise); stronger data → fewer cuts/higher-for-longer → higher SOFR (faster index rise).  
+2026-01-05T14:27:29.6151164Z 5. **Volatility history and expectations:** The SOFR Index is mechanically cumulative and therefore **very low-volatility** day-to-day; uncertainty over a ~2-week horizon is dominated by (a) small changes in the SOFR fixing and (b) day-count / weekend & holiday accrual mechanics. Large jumps are very unlikely.
+2026-01-05T14:27:29.6153162Z 
+2026-01-05T14:27:29.6153349Z Units for the answer are: **Index Apr 2, 2018 = 1**
+2026-01-05T14:27:29.6153673Z 
+2026-01-05T14:27:29.6153782Z ---
+2026-01-05T14:27:29.6153927Z 
+2026-01-05T14:27:29.6154057Z ## Group the evidence
+2026-01-05T14:27:29.6154256Z 
+2026-01-05T14:27:29.6154724Z ### Bucket 1 — Evidence for a relatively **low** forecast (lower SOFR → slower index growth)
+2026-01-05T14:27:29.6155969Z - The “U.S. jobs data… may signal a shift in U.S. monetary policy” framing: softer labor data can increase perceived odds of rate cuts.
+2026-01-05T14:27:29.6157113Z - Mention of delayed jobs data and rising unemployment as a potential catalyst for easier policy.
+2026-01-05T14:27:29.6158227Z - General risk-off / uncertainty from geopolitical tensions could contribute to growth concerns and a more dovish path.
+2026-01-05T14:27:29.6158951Z 
+2026-01-05T14:27:29.6159468Z ### Bucket 2 — Evidence for a relatively **high** forecast (higher-for-longer SOFR → faster index growth)
+2026-01-05T14:27:29.6160272Z - Equity/risk optimism narrative (DAX rally confidence, resilience): consistent with an economy that does not force rapid easing.
+2026-01-05T14:27:29.6161252Z - “Markets have shown resilience” despite disruptions: aligns with conditions where policy may stay restrictive longer.
+2026-01-05T14:27:29.6162891Z - Structural transformation / “winners and losers” but not necessarily recessionary: could keep inflation/services pressure sticky, limiting cuts.
+2026-01-05T14:27:29.6163845Z 
+2026-01-05T14:27:29.6164430Z ### Bucket 3 — Evidence for a **central** forecast (rates broadly stable in the near term)
+2026-01-05T14:27:29.6165872Z - None of the provided articles indicate an imminent, large, discrete policy shock exactly in the Jan 5–Jan 14 window.
+2026-01-05T14:27:29.6167619Z - The SOFR Index itself is dominated by steady mechanical compounding; absent a surprise meeting/action, short-horizon variation should be small.
+2026-01-05T14:27:29.6169323Z - Typical near-term expectation: incremental day-to-day increases with only modest sensitivity to one or two data releases.
+2026-01-05T14:27:29.6170086Z 
+2026-01-05T14:27:29.6170214Z ---
+2026-01-05T14:27:29.6170379Z 
+2026-01-05T14:27:29.6170737Z ## Multi-world considerations (all values in **Index Apr 2, 2018 = 1**)
+2026-01-05T14:27:29.6171231Z 
+2026-01-05T14:27:29.6171503Z ### 1) Low_World (more dovish shift; SOFR fixings drift down a bit)
+2026-01-05T14:27:29.6172036Z - Low: **1.2277**
+2026-01-05T14:27:29.6172909Z - Mid: **1.2280**
+2026-01-05T14:27:29.6173224Z - High: **1.2283**
+2026-01-05T14:27:29.6173424Z 
+2026-01-05T14:27:29.6173699Z ### 2) High_World (higher-for-longer; SOFR fixings drift up a bit)
+2026-01-05T14:27:29.6174262Z - Low: **1.2286**
+2026-01-05T14:27:29.6174483Z - Mid: **1.2290**
+2026-01-05T14:27:29.6174663Z - High: **1.2295**
+2026-01-05T14:27:29.6174782Z 
+2026-01-05T14:27:29.6174964Z ### 3) Mid_World (policy and SOFR roughly stable; typical compounding)
+2026-01-05T14:27:29.6175302Z - Low: **1.2281**
+2026-01-05T14:27:29.6175485Z - Mid: **1.2284**
+2026-01-05T14:27:29.6175660Z - High: **1.2287**
+2026-01-05T14:27:29.6175769Z 
+2026-01-05T14:27:29.6175833Z ---
+2026-01-05T14:27:29.6175927Z 
+2026-01-05T14:27:29.6175996Z ## Verify units
+2026-01-05T14:27:29.6176326Z All scenario values are expressed in **Index Apr 2, 2018 = 1** (the SOFR Index unit).
+2026-01-05T14:27:29.6176636Z 
+2026-01-05T14:27:29.6176700Z ---
+2026-01-05T14:27:29.6176785Z 
+2026-01-05T14:27:29.6176859Z # Final Answer
+2026-01-05T14:27:29.6177110Z [1.2277, 1.2280, 1.2283, 1.2281, 1.2284, 1.2287, 1.2286, 1.2290, 1.2295]
+2026-01-05T14:27:29.6177867Z 2026-01-05 14:27:29,616 - forecasting_tools.ai_models.resource_managers.monetary_cost_manager - WARNING - Litellm hidden param cost 0.0 and response object cost 0.049881999999999996 are different.
+2026-01-05T14:27:33.6214983Z 2026-01-05 14:27:33,621 - openai.agents - WARNING - OPENAI_API_KEY is not set, skipping trace export
+2026-01-05T14:27:46.9339151Z 2026-01-05 14:27:46,933 - forecasting_tools.ai_models.resource_managers.monetary_cost_manager - WARNING - Error calculating cost from response object: This model isn't mapped yet. model=o4-mini, custom_llm_provider=openrouter. Add it here - https://github.com/BerriAI/litellm/blob/main/model_prices_and_context_window.json.
+2026-01-05T14:27:48.6297063Z 2026-01-05 14:27:48,629 - openai.agents - WARNING - OPENAI_API_KEY is not set, skipping trace export
+2026-01-05T14:27:54.9306749Z 2026-01-05 14:27:54,930 - main - INFO - Parsed 9 numeric scenarios: [1.2277, 1.228, 1.2283, 1.2281, 1.2284, 1.2287, 1.2286, 1.229, 1.2295]
+2026-01-05T14:27:54.9308944Z 2026-01-05 14:27:54,930 - main - INFO - Total numeric scenarios stored for question https://www.metaculus.com/questions/41380: 36 scenarios
+2026-01-05T14:27:54.9311300Z 2026-01-05 14:27:54,930 - main - INFO - Returning temporary distribution for URL https://www.metaculus.com/questions/41380, median: 1.2284
+2026-01-05T14:27:54.9313740Z 2026-01-05 14:27:54,930 - main - INFO - [GPR DEBUG] Returning temporary distribution. Numeric scenarios stored: 36
+2026-01-05T14:27:54.9324410Z 2026-01-05 14:27:54,932 - forecasting_tools.ai_models.resource_managers.monetary_cost_manager - WARNING - Error calculating cost from response object: This model isn't mapped yet. model=o4-mini, custom_llm_provider=openrouter. Add it here - https://github.com/BerriAI/litellm/blob/main/model_prices_and_context_window.json.
+2026-01-05T14:27:54.9326911Z 2026-01-05 14:27:54,932 - dre_forecasting_tools - INFO - [GPR DEBUG] _aggregate_predictions called for numeric question with 4 predictions
+2026-01-05T14:27:54.9328131Z 2026-01-05 14:27:54,932 - dre_forecasting_tools - INFO - [GPR DEBUG] Using GPR aggregation on 36 stored numeric scenarios
+2026-01-05T14:27:54.9329486Z 2026-01-05 14:27:54,932 - main - INFO - ✅ [MAJORITY VOTE] All 4 calls agree. Using all 36 scenarios.
+2026-01-05T14:27:55.0521023Z 2026-01-05 14:27:55,051 - main - INFO - ✅ GPR numeric aggregation: 36 scenarios → 19 percentiles
+2026-01-05T14:27:55.0552919Z 2026-01-05 14:27:55,052 - main - INFO - Distribution: p5=1.23, p50=1.23, p95=1.23
+2026-01-05T14:27:55.0554256Z 2026-01-05 14:27:55,052 - forecasting_tools.forecast_bots.forecast_bot - ERROR - Error while processing question url: 'https://www.metaculus.com/questions/41380': 1 validation error for NumericDistribution
+2026-01-05T14:27:55.0555931Z   Value error, Values must be in strictly increasing order [type=value_error, input_value={'declared_percentiles': ...: 201, 'is_date': False}, input_type=dict]
+2026-01-05T14:27:55.0557348Z     For further information visit https://errors.pydantic.dev/2.12/v/value_error
+2026-01-05T14:27:55.0558057Z 2026-01-05 14:27:55,052 - forecasting_tools.forecast_bots.forecast_bot - INFO - 
+2026-01-05T14:27:55.0558691Z ----------------------------------------------------------------------------------------------------
+2026-01-05T14:27:55.0559225Z Bot: SpringTemplateBotExtended
+2026-01-05T14:27:55.0560574Z ❌ Exception: RuntimeError | Message: Error while processing question url: 'https://www.metaculus.com/questions/41380': ValidationError - 1 validation error for NumericDistribution
+2026-01-05T14:27:55.0562369Z   Value error, Values must be in strictly increasing order [type=value_error, input_value={'declared_percentiles': ...: 201, 'is_date': False}, input_type=dict]
+2026-01-05T14:27:55.0563492Z     For further information visit https://errors.pydantic.dev/2.12/v/value_error
+2026-01-05T14:27:55.0563956Z 
+2026-01-05T14:27:55.0564096Z Stats for passing reports:
+2026-01-05T14:27:55.0564423Z Total cost estimated: $0.00000
+2026-01-05T14:27:55.0564787Z Average cost per question: $0.00000
+2026-01-05T14:27:55.0565195Z Average time spent per question: 0.0000 minutes
+2026-01-05T14:27:55.0566217Z Note: LLM costs are calculated via litellm, and models or search tools not supported by litellm will not be tracked. See what is supported here: https://models.litellm.ai/. 
+2026-01-05T14:27:55.0567326Z ----------------------------------------------------------------------------------------------------
+2026-01-05T14:27:55.0567938Z 
+2026-01-05T14:27:55.0567945Z 
+2026-01-05T14:27:55.0567951Z 
+2026-01-05T14:27:55.0568567Z 2026-01-05 14:27:55,054 - forecasting_tools.forecast_bots.forecast_bot - ERROR - Exception occurred during forecasting:
+2026-01-05T14:27:55.0569400Z Traceback (most recent call last):
+2026-01-05T14:27:55.0580138Z   File "/home/runner/work/metac-bot-template/metac-bot-template/.venv/lib/python3.11/site-packages/forecasting_tools/forecast_bots/forecast_bot.py", line 341, in _run_individual_question_with_error_propagation
+2026-01-05T14:27:55.0581604Z     return await self._run_individual_question(question)
+2026-01-05T14:27:55.0582060Z            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-01-05T14:27:55.0583566Z   File "/home/runner/work/metac-bot-template/metac-bot-template/.venv/lib/python3.11/site-packages/forecasting_tools/forecast_bots/forecast_bot.py", line 391, in _run_individual_question
+2026-01-05T14:27:55.0584865Z     aggregated_prediction = await self._aggregate_predictions(
+2026-01-05T14:27:55.0585357Z                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-01-05T14:27:55.0586245Z   File "/home/runner/work/metac-bot-template/metac-bot-template/dre_forecasting_tools.py", line 86, in _aggregate_predictions
+2026-01-05T14:27:55.0587273Z     gpr_distribution = self._gpr_aggregate_numeric(self._numeric_scenarios, question)
+2026-01-05T14:27:55.0587861Z                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-01-05T14:27:55.0588667Z   File "/home/runner/work/metac-bot-template/metac-bot-template/main.py", line 1045, in _gpr_aggregate_numeric
+2026-01-05T14:27:55.0589576Z     return NumericDistribution.from_question(percentile_list, question)
+2026-01-05T14:27:55.0590127Z            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-01-05T14:27:55.0591288Z   File "/home/runner/work/metac-bot-template/metac-bot-template/.venv/lib/python3.11/site-packages/forecasting_tools/data_models/numeric_report.py", line 271, in from_question
+2026-01-05T14:27:55.0592562Z     return NumericDistribution(
+2026-01-05T14:27:55.0592890Z            ^^^^^^^^^^^^^^^^^^^^
+2026-01-05T14:27:55.0593789Z   File "/home/runner/work/metac-bot-template/metac-bot-template/.venv/lib/python3.11/site-packages/pydantic/main.py", line 250, in __init__
+2026-01-05T14:27:55.0594922Z     validated_self = self.__pydantic_validator__.validate_python(data, self_instance=self)
+2026-01-05T14:27:55.0595539Z                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-01-05T14:27:55.0596386Z pydantic_core._pydantic_core.ValidationError: 1 validation error for NumericDistribution
+2026-01-05T14:27:55.0597557Z   Value error, Values must be in strictly increasing order [type=value_error, input_value={'declared_percentiles': ...: 201, 'is_date': False}, input_type=dict]
+2026-01-05T14:27:55.0598662Z     For further information visit https://errors.pydantic.dev/2.12/v/value_error
+2026-01-05T14:27:55.0599116Z 
+2026-01-05T14:27:55.0599376Z The above exception was the direct cause of the following exception:
+2026-01-05T14:27:55.0599774Z 
+2026-01-05T14:27:55.0599905Z Traceback (most recent call last):
+2026-01-05T14:27:55.0600599Z   File "/opt/hostedtoolcache/Python/3.11.14/x64/lib/python3.11/asyncio/tasks.py", line 277, in __step
+2026-01-05T14:27:55.0601278Z     result = coro.send(None)
+2026-01-05T14:27:55.0601597Z              ^^^^^^^^^^^^^^^
+2026-01-05T14:27:55.0603037Z   File "/home/runner/work/metac-bot-template/metac-bot-template/.venv/lib/python3.11/site-packages/forecasting_tools/forecast_bots/forecast_bot.py", line 347, in _run_individual_question_with_error_propagation
+2026-01-05T14:27:55.0604448Z     self._reraise_exception_with_prepended_message(e, error_message)
+2026-01-05T14:27:55.0605872Z   File "/home/runner/work/metac-bot-template/metac-bot-template/.venv/lib/python3.11/site-packages/forecasting_tools/forecast_bots/forecast_bot.py", line 751, in _reraise_exception_with_prepended_message
+2026-01-05T14:27:55.0607289Z     raise RuntimeError(
+2026-01-05T14:27:55.0608197Z RuntimeError: Error while processing question url: 'https://www.metaculus.com/questions/41380': ValidationError - 1 validation error for NumericDistribution
+2026-01-05T14:27:55.0610129Z   Value error, Values must be in strictly increasing order [type=value_error, input_value={'declared_percentiles': ...: 201, 'is_date': False}, input_type=dict]
+2026-01-05T14:27:55.0611232Z     For further information visit https://errors.pydantic.dev/2.12/v/value_error
+2026-01-05T14:27:55.0611685Z 
+2026-01-05T14:27:55.0611829Z Traceback (most recent call last):
+2026-01-05T14:27:55.0612667Z   File "/home/runner/work/metac-bot-template/metac-bot-template/main.py", line 1404, in <module>
+2026-01-05T14:27:55.0613396Z     template_bot.log_report_summary(forecast_reports)
+2026-01-05T14:27:55.0614622Z   File "/home/runner/work/metac-bot-template/metac-bot-template/.venv/lib/python3.11/site-packages/forecasting_tools/forecast_bots/forecast_bot.py", line 875, in log_report_summary
+2026-01-05T14:27:55.0615767Z     raise RuntimeError(
+2026-01-05T14:27:55.0618072Z RuntimeError: 1 errors occurred while forecasting: [RuntimeError("Error while processing question url: 'https://www.metaculus.com/questions/41380': ValidationError - 1 validation error for NumericDistribution\n  Value error, Values must be in strictly increasing order [type=value_error, input_value={'declared_percentiles': ...: 201, 'is_date': False}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.12/v/value_error")]
+2026-01-05T14:27:55.2345127Z 2026-01-05 14:27:55,234 - openai.agents - WARNING - OPENAI_API_KEY is not set, skipping trace export
+2026-01-05T14:27:55.8570639Z ##[error]Process completed with exit code 1.
