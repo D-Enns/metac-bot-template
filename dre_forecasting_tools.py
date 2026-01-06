@@ -70,6 +70,17 @@ class SpringTemplateBotExtended(SpringTemplateBot2026):
 
             gpr_result = self._gpr_aggregate_binary(self._binary_scenarios)
 
+            # Save scenario data before clearing
+            try:
+                self._save_scenario_data(
+                    scenarios=self._binary_scenarios,
+                    question=question,
+                    aggregated_result=gpr_result,
+                    question_type="binary"
+                )
+            except Exception as e:
+                logger.error(f"Error saving binary scenario data: {e}")
+
             # Clear scenarios after aggregation
             self._binary_scenarios = []
             self._current_question_id = None
@@ -84,6 +95,17 @@ class SpringTemplateBotExtended(SpringTemplateBot2026):
             logger.info(f"[GPR DEBUG] Using GPR aggregation on {len(self._numeric_scenarios)} stored numeric scenarios")
 
             gpr_distribution = self._gpr_aggregate_numeric(self._numeric_scenarios, question)
+
+            # Save scenario data before clearing
+            try:
+                self._save_scenario_data(
+                    scenarios=self._numeric_scenarios,
+                    question=question,
+                    aggregated_result=gpr_distribution,
+                    question_type="numeric"
+                )
+            except Exception as e:
+                logger.error(f"Error saving numeric scenario data: {e}")
 
             # Clear scenarios after aggregation
             self._numeric_scenarios = []
@@ -112,6 +134,17 @@ class SpringTemplateBotExtended(SpringTemplateBot2026):
                     for opt, prob in gpr_results.items()
                 ]
                 result = PredictedOptionList(predicted_options=predicted_options)
+
+                # Save scenario data before clearing
+                try:
+                    self._save_scenario_data(
+                        scenarios=self._multiple_choice_scenarios,
+                        question=question,
+                        aggregated_result=result,
+                        question_type="multiple_choice"
+                    )
+                except Exception as e:
+                    logger.error(f"Error saving multiple choice scenario data: {e}")
 
                 # Clear scenarios after aggregation
                 self._multiple_choice_scenarios = {}
@@ -391,6 +424,169 @@ class SpringTemplateBotExtended(SpringTemplateBot2026):
             f.write(condensed_explanation)
 
         logger.info(f"Saved condensed forecast to {filepath}")
+
+    def _save_scenario_data(
+        self,
+        scenarios: list | dict,
+        question: MetaculusQuestion,
+        aggregated_result: Any,
+        question_type: str
+    ) -> None:
+        """
+        Save individual scenario data from LLM runs as JSON.
+
+        Args:
+            scenarios: Raw scenario data (list for binary/numeric, dict for MC)
+            question: MetaculusQuestion object
+            aggregated_result: Final aggregated prediction
+            question_type: Type of question (binary, numeric, multiple_choice)
+        """
+        import json
+
+        reports_dir = Path("forecast_summaries")
+        reports_dir.mkdir(parents=True, exist_ok=True)
+
+        question_id = question.page_url.rstrip('/').split('/')[-1]
+        tournament_slug, tournament_readable = self._get_tournament_name(question)
+
+        # Find counter for this question (match the forecast summary counter)
+        counter = 1
+        while True:
+            test_filename = f"{question_id}_{tournament_slug}_full_{counter}.md"
+            test_filepath = reports_dir / test_filename
+            if not test_filepath.exists():
+                # Use this counter for scenarios file too
+                break
+            counter += 1
+
+        # Create scenarios filename
+        scenarios_filename = f"{question_id}_{tournament_slug}_scenarios_{counter}.json"
+        scenarios_filepath = reports_dir / scenarios_filename
+
+        timestamp = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M:%S UTC")
+
+        # Determine actual scenario count
+        if question_type == "multiple_choice":
+            # For MC, count scenarios per option (should be same for all)
+            actual_count = len(next(iter(scenarios.values()))) if scenarios else 0
+        else:
+            actual_count = len(scenarios)
+
+        # Calculate expected scenarios
+        scenarios_per_prediction = 9  # Standard for 3x3 world matrix
+        expected_count = self.predictions_per_research_report * scenarios_per_prediction
+
+        # Build scenario data structure
+        scenario_data = {
+            "metadata": {
+                "forecast_id": f"q{question_id}",
+                "question_url": question.page_url,
+                "question_text": question.question_text,
+                "question_type": question_type,
+                "tournament": tournament_readable,
+                "tournament_slug": tournament_slug,
+                "forecast_date": timestamp,
+                "bot_version": self.__class__.__name__,
+                "run_config": {
+                    "predictions_per_research_report": self.predictions_per_research_report,
+                    "scenarios_per_prediction": scenarios_per_prediction,
+                    "expected_total_scenarios": expected_count,
+                    "actual_total_scenarios": actual_count,
+                    "all_scenarios_generated": (actual_count == expected_count)
+                }
+            },
+            "scenarios": {},
+            "aggregated_result": None,
+            "summary": {}
+        }
+
+        # Add type-specific scenario data
+        if question_type == "binary":
+            scenario_data["scenarios"]["raw_values"] = scenarios  # List of probabilities (0-1)
+            scenario_data["scenarios"]["num_scenarios"] = len(scenarios)
+            scenario_data["aggregated_result"] = {
+                "type": "probability",
+                "value": float(aggregated_result),
+                "percentage": f"{float(aggregated_result) * 100:.2f}%"
+            }
+            scenario_data["summary"] = {
+                "min_probability": float(min(scenarios)),
+                "max_probability": float(max(scenarios)),
+                "mean_probability": float(np.mean(scenarios)),
+                "median_probability": float(np.median(scenarios)),
+                "std_probability": float(np.std(scenarios))
+            }
+
+        elif question_type == "numeric":
+            scenario_data["scenarios"]["raw_values"] = scenarios  # List of numeric values
+            scenario_data["scenarios"]["num_scenarios"] = len(scenarios)
+            scenario_data["metadata"]["units"] = getattr(question, 'unit_of_measure', 'N/A')
+
+            # Get percentiles from aggregated result
+            if hasattr(aggregated_result, 'declared_percentiles'):
+                percentiles_dict = {
+                    f"p{int(p.percentile * 100)}": float(p.value)
+                    for p in aggregated_result.declared_percentiles
+                }
+                scenario_data["aggregated_result"] = {
+                    "type": "distribution",
+                    "percentiles": percentiles_dict
+                }
+            else:
+                scenario_data["aggregated_result"] = {
+                    "type": "distribution",
+                    "value": str(aggregated_result)
+                }
+
+            scenario_data["summary"] = {
+                "min_value": float(min(scenarios)),
+                "max_value": float(max(scenarios)),
+                "mean_value": float(np.mean(scenarios)),
+                "median_value": float(np.median(scenarios)),
+                "std_value": float(np.std(scenarios))
+            }
+
+        elif question_type == "multiple_choice":
+            # scenarios is a dict mapping option names to lists of probabilities
+            scenario_data["scenarios"]["by_option"] = {
+                option: {
+                    "raw_probabilities": probs,
+                    "num_scenarios": len(probs)
+                }
+                for option, probs in scenarios.items()
+            }
+
+            # Get aggregated result per option
+            if hasattr(aggregated_result, 'predicted_options'):
+                aggregated_probs = {
+                    opt.option_name: float(opt.probability)
+                    for opt in aggregated_result.predicted_options
+                }
+            else:
+                aggregated_probs = {}
+
+            scenario_data["aggregated_result"] = {
+                "type": "multiple_choice",
+                "probabilities": aggregated_probs
+            }
+
+            # Summary stats per option
+            scenario_data["summary"]["by_option"] = {
+                option: {
+                    "min_probability": float(min(probs)),
+                    "max_probability": float(max(probs)),
+                    "mean_probability": float(np.mean(probs)),
+                    "median_probability": float(np.median(probs)),
+                    "std_probability": float(np.std(probs))
+                }
+                for option, probs in scenarios.items()
+            }
+
+        # Save to JSON file
+        with open(scenarios_filepath, 'w', encoding='utf-8') as f:
+            json.dump(scenario_data, f, indent=2, ensure_ascii=False)
+
+        logger.info(f"Saved scenario data to {scenarios_filepath}")
 
     def _create_comment(
         self,
