@@ -2,6 +2,9 @@
 benchmarks/
 sandbox.py
 
+# Downloaded forecast summaries (from GitHub Actions artifacts)
+all_forecast_summaries/
+
 
 ### General gitignore ###
 
