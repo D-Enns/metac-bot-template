@@ -1,0 +1,13 @@
+# Naming convention for jupyter notebook tests
+
+# Jupyter notebook tests may be written by Claude Code, by me, or by some other coder
+
+# Name contents
+- Components are separated by underscore: _
+- Index: the very first saved jupyter notebook has the prefix 0001
+- Secondary index: Save a modification of an existing file with a, b, c,... e.g 001a
+- Content: basic name based on content
+- Author: add initials: dre for me, cc for claude code
+- Date: in format dd-mm-yyyy
+- Example: 003_Great_New_Test_dre_01-22-2026
+

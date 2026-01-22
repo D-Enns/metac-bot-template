@@ -1,0 +1,39 @@
+# Alternate Method for Aggregating Numeric Forecasts
+
+# Problems
+
+## Problem 1: GPR method doesn't work well for the high and low ranges of the distribution (CDF)
+- The CDF needs to be defined from percentile 1 to percentile 99
+- the GPR method seems to introduce artifacts at the high and low percentiles (0% - 20%) and (80% - 100%)
+
+## Problem 2: the distribution is lumpy
+- Probably due to randomness in individual forecasts
+
+# Tentative Solution
+
+## 1: Aggregate by fitting normal distribution to forecasts
+- Linear regression of percentile to cumulative value 
+- Cumulative value is linear against percentile (in probit or z scale)
+
+## 2: Alternate: Segmented fit
+- Same linear strategy, but fit percentiles 0-50 with one curve and 50-100 with another.
+
+## Why
+- By assuming the distribution type, we smooth the curve and project to arbitrarily small or large percentiles.
+
+## Issues
+- Normal distribution may be a bad assumption
+- Median may not be well picked
+- Revisit Binary?
+
+# Crude Plan
+
+## Get a couple of examples of data 
+- Requires revisiting how we stored the data on github (Remind me to add summary of work
+
+## Work examples in jupyter notebook
+- I have some preliminary notebooks for building blocks
+
+## Integrate into production bot
+- What do we do with existing GSR Code
+

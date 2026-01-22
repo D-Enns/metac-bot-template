@@ -12,6 +12,9 @@ from typing import Any
 import numpy as np
 from sklearn.gaussian_process import GaussianProcessRegressor
 from sklearn.gaussian_process.kernels import RBF, WhiteKernel, ConstantKernel as C
+from scipy.integrate import quad
+from scipy.interpolate import splrep, splev
+from scipy.stats import linregress
 
 from forecasting_tools import (
     BinaryQuestion,
@@ -24,6 +27,7 @@ from forecasting_tools import (
     ForecastBot,
     clean_indents,
 )
+from forecasting_tools.data_models.numeric_report import Percentile
 from forecasting_tools.data_models.forecast_report import ResearchWithPredictions
 
 # Import base bot class from main
@@ -33,6 +37,37 @@ sys.path.insert(0, str(Path(__file__).parent))
 from main import SpringTemplateBot2026
 
 logger = logging.getLogger(__name__)
+
+
+##################################### PROBIT TRANSFORMATION FUNCTIONS #####################################
+
+def _pdf_normal(z: float) -> float:
+    """Standard normal probability density function."""
+    return (1 / ((2 * np.pi))**0.5) * np.exp(-0.5 * (z**2))
+
+
+def _pcntl_from_z(z: float) -> float:
+    """Convert z-score to percentile by integrating normal PDF from -inf to z."""
+    return quad(_pdf_normal, -np.inf, z)[0]
+
+
+# Precompute z-spline lookup table at module load for performance
+_Z_VALUES = np.arange(-7, 7.01, 0.01)
+_PCNTL_VALUES = [_pcntl_from_z(z) for z in _Z_VALUES]
+_Z_SPLINE = splrep(_PCNTL_VALUES, _Z_VALUES)
+
+
+def _z_from_pcntl(percentile: float | np.ndarray) -> float | np.ndarray:
+    """
+    Convert percentile (0-1 scale) to z-score using precomputed spline.
+
+    Args:
+        percentile: Value(s) between 0 and 1
+
+    Returns:
+        Corresponding z-score(s)
+    """
+    return splev(percentile, _Z_SPLINE)
 
 
 class SpringTemplateBotExtended(SpringTemplateBot2026):
@@ -89,19 +124,19 @@ class SpringTemplateBotExtended(SpringTemplateBot2026):
             logger.info(f"[GPR DEBUG] Aggregation complete. Returning GPR result: {gpr_result:.4f}")
             return gpr_result
 
-        # Numeric questions: GPR aggregation for full distribution
+        # Numeric questions: Probit aggregation for full distribution
         elif isinstance(question, NumericQuestion) and len(self._numeric_scenarios) >= 9:
-            logger.info(f"[GPR DEBUG] _aggregate_predictions called for numeric question with {len(predictions)} predictions")
-            logger.info(f"[GPR DEBUG] Using GPR aggregation on {len(self._numeric_scenarios)} stored numeric scenarios")
+            logger.info(f"[PROBIT DEBUG] _aggregate_predictions called for numeric question with {len(predictions)} predictions")
+            logger.info(f"[PROBIT DEBUG] Using Probit aggregation on {len(self._numeric_scenarios)} stored numeric scenarios")
 
-            gpr_distribution = self._gpr_aggregate_numeric(self._numeric_scenarios, question)
+            probit_distribution, r_squared = self._probit_aggregate_numeric(self._numeric_scenarios, question)
 
             # Save scenario data before clearing
             try:
                 self._save_scenario_data(
                     scenarios=self._numeric_scenarios,
                     question=question,
-                    aggregated_result=gpr_distribution,
+                    aggregated_result=probit_distribution,
                     question_type="numeric"
                 )
             except Exception as e:
@@ -112,8 +147,8 @@ class SpringTemplateBotExtended(SpringTemplateBot2026):
             self._current_question_id = None
             self._current_call_number = 0
 
-            logger.info(f"[GPR DEBUG] Numeric aggregation complete. Returning distribution with {len(gpr_distribution.declared_percentiles)} percentiles")
-            return gpr_distribution
+            logger.info(f"[PROBIT DEBUG] Numeric aggregation complete. Returning distribution with {len(probit_distribution.declared_percentiles)} percentiles (R²={r_squared:.4f})")
+            return probit_distribution
 
         # Multiple choice questions: GPR aggregation per option
         elif isinstance(question, MultipleChoiceQuestion) and self._multiple_choice_scenarios:
@@ -163,6 +198,100 @@ class SpringTemplateBotExtended(SpringTemplateBot2026):
         logger.info(f"[GPR DEBUG] Using default aggregation for {type(question).__name__}")
         return await super()._aggregate_predictions(predictions, question)
 
+    ##################################### PROBIT AGGREGATION FOR NUMERIC #####################################
+
+    def _probit_aggregate_numeric(
+        self,
+        scenarios: list[float],
+        question: NumericQuestion,
+    ) -> tuple[NumericDistribution, float]:
+        """
+        Aggregate numeric scenarios using probit (normal) regression to create full CDF.
+
+        The probit method fits a normal distribution by performing linear regression
+        in z-score space, enabling smooth extrapolation to extreme percentiles (p01, p99)
+        without edge artifacts.
+
+        Args:
+            scenarios: List of numeric values from multiple world scenarios
+            question: The NumericQuestion being forecasted
+
+        Returns:
+            Tuple of (NumericDistribution with 21 percentiles, R² fit quality)
+        """
+        # Validate scenarios using parent class method (majority vote validation)
+        validated_scenarios = self._validate_numeric_scenarios_majority_vote(scenarios)
+
+        if len(validated_scenarios) < 9:
+            logger.warning(
+                f"⚠️  PROBIT FALLBACK: Only {len(validated_scenarios)} scenarios available. "
+                f"Using empirical percentiles instead."
+            )
+            return self._empirical_distribution_fallback(validated_scenarios, question), 0.0
+
+        # Sort scenarios and assign empirical percentiles
+        data_sorted = np.sort(np.array(validated_scenarios))
+        n = len(data_sorted)
+        empirical_pctl = np.array(range(1, n + 1)) / (n + 1)  # 0-1 scale
+
+        # Transform to z-space
+        z_values = _z_from_pcntl(empirical_pctl)
+
+        # Linear regression: value = slope * z + intercept
+        slope, intercept, r_value, _, _ = linregress(z_values, data_sorted)
+        r_squared = r_value ** 2
+
+        # Store R² for use in summary
+        self._last_probit_r2 = r_squared
+
+        # Output percentiles: 1, 5, 10, 15, 20, ..., 85, 90, 95, 99 (21 total)
+        output_pctls = [1, 5, 10, 15, 20, 25, 30, 35, 40, 45, 50, 55, 60, 65, 70, 75, 80, 85, 90, 95, 99]
+
+        # Generate output distribution
+        output_z = _z_from_pcntl(np.array(output_pctls) / 100)
+        output_values = [z * slope + intercept for z in output_z]
+
+        # Get question bounds for clamping
+        lower_bound = getattr(question, 'lower_bound', None)
+        upper_bound = getattr(question, 'upper_bound', None)
+
+        # Clamp values to question bounds if they exist
+        if lower_bound is not None:
+            output_values = [max(v, lower_bound) for v in output_values]
+        if upper_bound is not None:
+            output_values = [min(v, upper_bound) for v in output_values]
+
+        # Create percentile list
+        percentile_list = [
+            Percentile(percentile=p/100, value=float(v))
+            for p, v in zip(output_pctls, output_values)
+        ]
+
+        # Ensure strictly increasing values (required by NumericDistribution)
+        percentile_list = self._ensure_strictly_increasing_percentiles(percentile_list)
+
+        # Log fit quality
+        fit_quality = "✓" if r_squared >= 0.85 else "⚠️ LOW FIT"
+        logger.info(
+            f"✅ Probit numeric aggregation: {len(validated_scenarios)} scenarios → {len(output_pctls)} percentiles"
+        )
+        logger.info(
+            f"   Probit fit: slope={slope:.4f}, intercept={intercept:.4f}, R²={r_squared:.4f} {fit_quality}"
+        )
+        logger.info(
+            f"   Distribution: p1={percentile_list[0].value:.2f}, "
+            f"p50={percentile_list[10].value:.2f}, "
+            f"p99={percentile_list[-1].value:.2f}"
+        )
+
+        if r_squared < 0.85:
+            logger.warning(
+                f"⚠️  LOW PROBIT FIT (R²={r_squared:.4f}): Data may not be normally distributed. "
+                f"Consider reviewing scenarios for multimodality or skewness."
+            )
+
+        return NumericDistribution.from_question(percentile_list, question), r_squared
+
     ##################################### FORECAST SUMMARY SAVING #####################################
 
     async def _create_condensed_summary(
@@ -188,6 +317,7 @@ class SpringTemplateBotExtended(SpringTemplateBot2026):
         units = getattr(question, 'unit_of_measure', None) or "N/A"
         tournament_slug, tournament_readable = self._get_tournament_name(question)
         question_type = self._get_question_type(question)
+        aggregation_method = self._get_aggregation_method_info(question)
         timestamp = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M:%S UTC")
 
         # Create summarization prompt
@@ -209,6 +339,7 @@ class SpringTemplateBotExtended(SpringTemplateBot2026):
             **Tournament**: {tournament_readable}
             **Forecast Date**: {timestamp}
             **Bot Version**: {self.__class__.__name__}
+            **Aggregation Method**: {aggregation_method}
 
             ---
 
@@ -267,7 +398,7 @@ class SpringTemplateBotExtended(SpringTemplateBot2026):
             Concisely summarize the **key points** that drove the final forecast across all forecasters. What were the most important considerations in arriving at the final prediction? (3-5 bullet points)
 
             ---
-            *Methodology: Multi-world scenario analysis with Gaussian Process Regression aggregation*
+            *Methodology: Multi-world scenario analysis with {aggregation_method} aggregation*
 
             ---
 
@@ -352,6 +483,37 @@ class SpringTemplateBotExtended(SpringTemplateBot2026):
         else:
             return "Unknown"
 
+    def _get_aggregation_method_info(self, question: MetaculusQuestion) -> str:
+        """
+        Get aggregation method string with R² for numeric questions.
+
+        Returns string like:
+        - "Probit (R²=0.94)" for good fits
+        - "Probit (R²=0.72 LOW FIT)" for poor fits
+        - "GPR" for binary/multiple choice
+        - "N/A" for other question types
+        """
+        from forecasting_tools.data_models.questions import (
+            BinaryQuestion,
+            NumericQuestion,
+            MultipleChoiceQuestion,
+        )
+
+        if isinstance(question, NumericQuestion):
+            r2 = getattr(self, '_last_probit_r2', None)
+            if r2 is not None:
+                if r2 >= 0.85:
+                    return f"Probit (R²={r2:.2f})"
+                else:
+                    return f"Probit (R²={r2:.2f} LOW FIT)"
+            return "Probit"
+        elif isinstance(question, BinaryQuestion):
+            return "GPR"
+        elif isinstance(question, MultipleChoiceQuestion):
+            return "GPR"
+        else:
+            return "N/A"
+
     def _save_full_forecast_copy(
         self,
         full_explanation: str,
@@ -364,6 +526,7 @@ class SpringTemplateBotExtended(SpringTemplateBot2026):
         question_id = question.page_url.rstrip('/').split('/')[-1]
         tournament_slug, tournament_readable = self._get_tournament_name(question)
         question_type = self._get_question_type(question)
+        aggregation_method = self._get_aggregation_method_info(question)
 
         # Get units if available
         units = getattr(question, 'unit_of_measure', None) or "N/A"
@@ -387,6 +550,7 @@ class SpringTemplateBotExtended(SpringTemplateBot2026):
             **Tournament**: {tournament_readable}
             **Forecast Date**: {timestamp}
             **Bot Version**: {self.__class__.__name__}
+            **Aggregation Method**: {aggregation_method}
 
             ---
 
@@ -521,6 +685,13 @@ class SpringTemplateBotExtended(SpringTemplateBot2026):
             scenario_data["scenarios"]["raw_values"] = scenarios  # List of numeric values
             scenario_data["scenarios"]["num_scenarios"] = len(scenarios)
             scenario_data["metadata"]["units"] = getattr(question, 'unit_of_measure', 'N/A')
+            scenario_data["metadata"]["aggregation_method"] = "probit"
+
+            # Add probit R² if available
+            probit_r2 = getattr(self, '_last_probit_r2', None)
+            if probit_r2 is not None:
+                scenario_data["metadata"]["probit_r_squared"] = round(probit_r2, 4)
+                scenario_data["metadata"]["probit_fit_quality"] = "good" if probit_r2 >= 0.85 else "low"
 
             # Get percentiles from aggregated result
             if hasattr(aggregated_result, 'declared_percentiles'):
@@ -530,6 +701,7 @@ class SpringTemplateBotExtended(SpringTemplateBot2026):
                 }
                 scenario_data["aggregated_result"] = {
                     "type": "distribution",
+                    "aggregation_method": "probit",
                     "percentiles": percentiles_dict
                 }
             else:
