@@ -244,8 +244,8 @@ class SpringTemplateBotExtended(SpringTemplateBot2026):
         # Store R² for use in summary
         self._last_probit_r2 = r_squared
 
-        # Output percentiles: 1, 5, 10, 15, 20, ..., 85, 90, 95, 99 (21 total)
-        output_pctls = [1, 5, 10, 15, 20, 25, 30, 35, 40, 45, 50, 55, 60, 65, 70, 75, 80, 85, 90, 95, 99]
+        # Output percentiles: 1, 2, 3, ..., 97, 98, 99 (99 total) for smooth CDF
+        output_pctls = list(range(1, 100))  # [1, 2, 3, ..., 97, 98, 99]
 
         # Generate output distribution
         output_z = _z_from_pcntl(np.array(output_pctls) / 100)
@@ -280,7 +280,7 @@ class SpringTemplateBotExtended(SpringTemplateBot2026):
         )
         logger.info(
             f"   Distribution: p1={percentile_list[0].value:.2f}, "
-            f"p50={percentile_list[10].value:.2f}, "
+            f"p50={percentile_list[49].value:.2f}, "
             f"p99={percentile_list[-1].value:.2f}"
         )
 
