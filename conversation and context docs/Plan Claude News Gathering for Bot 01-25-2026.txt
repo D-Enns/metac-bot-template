@@ -1,0 +1,35 @@
+# News Gathering and Summary for Forecasting Specific Questions
+
+## Purpose
+- To gather and process news relevant to questions for **probablistic forecasting*
+- The questions are of the type typically forecast by **superforecasters**
+- Convert it to a format for bot forecasting useful
+- Integrate the news into the forecast bot question forecast
+
+## Gathering News Workflow
+
+### Read the question and background from a forecasting website such as Metaculus.com
+- Consider all information and links on the question website relevant information
+
+### Produce one or more prompts to gather potentially important news
+- Prioritize sources that provide **quantitative information** on outcomes
+- Also useful are news sources that suggest **likelihood** of outcomes 
+- Sources indicating the **potential** outcomes
+- Sources that show the **current status** of the forecast target outcome
+- Sources that indicate the question has already resolved (and how)
+
+### Select the top 5 to 10 news sources
+- Based on quality, reliability of source, and uniqueness
+
+## Preparing News for Forecast Bot Use
+
+### Summarize each selected news source into 1 to 2 
+- To the extent included in the news source:
+	- Include quantitative information useful to forecasting the question outcome
+	- Potential outcomes
+	- Likely and unlikely outcomes
+	- Current status
+	- Flag if the **question has already resolved**.
+	
+## Place the processed news in the template bot and forecasting tools system
+- Make the processed news ready for use by the forecasting LLM
