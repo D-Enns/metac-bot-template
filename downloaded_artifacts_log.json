@@ -1,0 +1,3631 @@
+{
+  "downloaded_artifacts": {
+    "909:forecast-summaries-909": {
+      "run_number": 909,
+      "run_id": 21415607575,
+      "artifact_name": "forecast-summaries-909",
+      "path": "forecast_summaries/run_909",
+      "downloaded_at": "2026-01-28T07:02:14.308576"
+    },
+    "908:forecast-summaries-908": {
+      "run_number": 908,
+      "run_id": 21414852974,
+      "artifact_name": "forecast-summaries-908",
+      "path": "forecast_summaries/run_908",
+      "downloaded_at": "2026-01-28T07:02:16.417595"
+    },
+    "907:forecast-summaries-907": {
+      "run_number": 907,
+      "run_id": 21413834818,
+      "artifact_name": "forecast-summaries-907",
+      "path": "forecast_summaries/run_907",
+      "downloaded_at": "2026-01-28T07:02:18.310990"
+    },
+    "906:forecast-summaries-906": {
+      "run_number": 906,
+      "run_id": 21413080508,
+      "artifact_name": "forecast-summaries-906",
+      "path": "forecast_summaries/run_906",
+      "downloaded_at": "2026-01-28T07:02:20.594049"
+    },
+    "905:forecast-summaries-905": {
+      "run_number": 905,
+      "run_id": 21411957890,
+      "artifact_name": "forecast-summaries-905",
+      "path": "forecast_summaries/run_905",
+      "downloaded_at": "2026-01-28T07:02:22.474543"
+    },
+    "904:forecast-summaries-904": {
+      "run_number": 904,
+      "run_id": 21411258650,
+      "artifact_name": "forecast-summaries-904",
+      "path": "forecast_summaries/run_904",
+      "downloaded_at": "2026-01-28T07:02:24.420557"
+    },
+    "903:forecast-summaries-903": {
+      "run_number": 903,
+      "run_id": 21409993531,
+      "artifact_name": "forecast-summaries-903",
+      "path": "forecast_summaries/run_903",
+      "downloaded_at": "2026-01-28T07:02:26.363187"
+    },
+    "902:forecast-summaries-902": {
+      "run_number": 902,
+      "run_id": 21408272237,
+      "artifact_name": "forecast-summaries-902",
+      "path": "forecast_summaries/run_902",
+      "downloaded_at": "2026-01-28T07:02:28.356006"
+    },
+    "901:forecast-summaries-901": {
+      "run_number": 901,
+      "run_id": 21407564018,
+      "artifact_name": "forecast-summaries-901",
+      "path": "forecast_summaries/run_901",
+      "downloaded_at": "2026-01-28T07:02:30.309291"
+    },
+    "900:forecast-summaries-900": {
+      "run_number": 900,
+      "run_id": 21405813003,
+      "artifact_name": "forecast-summaries-900",
+      "path": "forecast_summaries/run_900",
+      "downloaded_at": "2026-01-28T07:02:32.203214"
+    },
+    "899:forecast-summaries-899": {
+      "run_number": 899,
+      "run_id": 21404247225,
+      "artifact_name": "forecast-summaries-899",
+      "path": "forecast_summaries/run_899",
+      "downloaded_at": "2026-01-28T07:02:33.972975"
+    },
+    "898:forecast-summaries-898": {
+      "run_number": 898,
+      "run_id": 21403499367,
+      "artifact_name": "forecast-summaries-898",
+      "path": "forecast_summaries/run_898",
+      "downloaded_at": "2026-01-28T07:02:35.900848"
+    },
+    "897:forecast-summaries-897": {
+      "run_number": 897,
+      "run_id": 21401606448,
+      "artifact_name": "forecast-summaries-897",
+      "path": "forecast_summaries/run_897",
+      "downloaded_at": "2026-01-28T07:02:37.864030"
+    },
+    "896:forecast-summaries-896": {
+      "run_number": 896,
+      "run_id": 21400022512,
+      "artifact_name": "forecast-summaries-896",
+      "path": "forecast_summaries/run_896",
+      "downloaded_at": "2026-01-28T07:02:39.868123"
+    },
+    "895:forecast-summaries-895": {
+      "run_number": 895,
+      "run_id": 21398342823,
+      "artifact_name": "forecast-summaries-895",
+      "path": "forecast_summaries/run_895",
+      "downloaded_at": "2026-01-28T07:02:42.057284"
+    },
+    "894:forecast-summaries-894": {
+      "run_number": 894,
+      "run_id": 21395784667,
+      "artifact_name": "forecast-summaries-894",
+      "path": "forecast_summaries/run_894",
+      "downloaded_at": "2026-01-28T07:02:43.961321"
+    },
+    "893:forecast-summaries-893": {
+      "run_number": 893,
+      "run_id": 21394600399,
+      "artifact_name": "forecast-summaries-893",
+      "path": "forecast_summaries/run_893",
+      "downloaded_at": "2026-01-28T07:02:45.904595"
+    },
+    "892:forecast-summaries-892": {
+      "run_number": 892,
+      "run_id": 21393893446,
+      "artifact_name": "forecast-summaries-892",
+      "path": "forecast_summaries/run_892",
+      "downloaded_at": "2026-01-28T07:02:47.852187"
+    },
+    "891:forecast-summaries-891": {
+      "run_number": 891,
+      "run_id": 21392140630,
+      "artifact_name": "forecast-summaries-891",
+      "path": "forecast_summaries/run_891",
+      "downloaded_at": "2026-01-28T07:02:49.820374"
+    },
+    "890:forecast-summaries-890": {
+      "run_number": 890,
+      "run_id": 21390367457,
+      "artifact_name": "forecast-summaries-890",
+      "path": "forecast_summaries/run_890",
+      "downloaded_at": "2026-01-28T07:02:51.814084"
+    },
+    "889:forecast-summaries-889": {
+      "run_number": 889,
+      "run_id": 21389045481,
+      "artifact_name": "forecast-summaries-889",
+      "path": "forecast_summaries/run_889",
+      "downloaded_at": "2026-01-28T07:02:53.707265"
+    },
+    "888:forecast-summaries-888": {
+      "run_number": 888,
+      "run_id": 21388579976,
+      "artifact_name": "forecast-summaries-888",
+      "path": "forecast_summaries/run_888",
+      "downloaded_at": "2026-01-28T07:02:55.721309"
+    },
+    "887:forecast-summaries-887": {
+      "run_number": 887,
+      "run_id": 21387530833,
+      "artifact_name": "forecast-summaries-887",
+      "path": "forecast_summaries/run_887",
+      "downloaded_at": "2026-01-28T07:02:57.638371"
+    },
+    "886:forecast-summaries-886": {
+      "run_number": 886,
+      "run_id": 21386337582,
+      "artifact_name": "forecast-summaries-886",
+      "path": "forecast_summaries/run_886",
+      "downloaded_at": "2026-01-28T07:02:59.546230"
+    },
+    "885:forecast-summaries-885": {
+      "run_number": 885,
+      "run_id": 21385952395,
+      "artifact_name": "forecast-summaries-885",
+      "path": "forecast_summaries/run_885",
+      "downloaded_at": "2026-01-28T07:03:01.534217"
+    },
+    "884:forecast-summaries-884": {
+      "run_number": 884,
+      "run_id": 21385151190,
+      "artifact_name": "forecast-summaries-884",
+      "path": "forecast_summaries/run_884",
+      "downloaded_at": "2026-01-28T07:03:03.413249"
+    },
+    "883:forecast-summaries-883": {
+      "run_number": 883,
+      "run_id": 21384011588,
+      "artifact_name": "forecast-summaries-883",
+      "path": "forecast_summaries/run_883",
+      "downloaded_at": "2026-01-28T07:03:05.228682"
+    },
+    "882:forecast-summaries-882": {
+      "run_number": 882,
+      "run_id": 21382164075,
+      "artifact_name": "forecast-summaries-882",
+      "path": "forecast_summaries/run_882",
+      "downloaded_at": "2026-01-28T07:03:07.018860"
+    },
+    "881:forecast-summaries-881": {
+      "run_number": 881,
+      "run_id": 21378638638,
+      "artifact_name": "forecast-summaries-881",
+      "path": "forecast_summaries/run_881",
+      "downloaded_at": "2026-01-28T07:03:09.668403"
+    },
+    "880:forecast-summaries-880": {
+      "run_number": 880,
+      "run_id": 21378065752,
+      "artifact_name": "forecast-summaries-880",
+      "path": "forecast_summaries/run_880",
+      "downloaded_at": "2026-01-28T07:03:13.262240"
+    },
+    "879:forecast-summaries-879": {
+      "run_number": 879,
+      "run_id": 21377156370,
+      "artifact_name": "forecast-summaries-879",
+      "path": "forecast_summaries/run_879",
+      "downloaded_at": "2026-01-28T07:03:15.240331"
+    },
+    "878:forecast-summaries-878": {
+      "run_number": 878,
+      "run_id": 21376494878,
+      "artifact_name": "forecast-summaries-878",
+      "path": "forecast_summaries/run_878",
+      "downloaded_at": "2026-01-28T07:03:17.199044"
+    },
+    "877:forecast-summaries-877": {
+      "run_number": 877,
+      "run_id": 21375409552,
+      "artifact_name": "forecast-summaries-877",
+      "path": "forecast_summaries/run_877",
+      "downloaded_at": "2026-01-28T07:03:19.018880"
+    },
+    "876:forecast-summaries-876": {
+      "run_number": 876,
+      "run_id": 21374766757,
+      "artifact_name": "forecast-summaries-876",
+      "path": "forecast_summaries/run_876",
+      "downloaded_at": "2026-01-28T07:03:20.912459"
+    },
+    "875:forecast-summaries-875": {
+      "run_number": 875,
+      "run_id": 21373677351,
+      "artifact_name": "forecast-summaries-875",
+      "path": "forecast_summaries/run_875",
+      "downloaded_at": "2026-01-28T07:03:22.798317"
+    },
+    "874:forecast-summaries-874": {
+      "run_number": 874,
+      "run_id": 21373042221,
+      "artifact_name": "forecast-summaries-874",
+      "path": "forecast_summaries/run_874",
+      "downloaded_at": "2026-01-28T07:03:24.775219"
+    },
+    "873:forecast-summaries-873": {
+      "run_number": 873,
+      "run_id": 21371757102,
+      "artifact_name": "forecast-summaries-873",
+      "path": "forecast_summaries/run_873",
+      "downloaded_at": "2026-01-28T07:03:26.645130"
+    },
+    "872:forecast-summaries-872": {
+      "run_number": 872,
+      "run_id": 21371081739,
+      "artifact_name": "forecast-summaries-872",
+      "path": "forecast_summaries/run_872",
+      "downloaded_at": "2026-01-28T07:03:28.438406"
+    },
+    "871:forecast-summaries-871": {
+      "run_number": 871,
+      "run_id": 21369890385,
+      "artifact_name": "forecast-summaries-871",
+      "path": "forecast_summaries/run_871",
+      "downloaded_at": "2026-01-28T07:03:30.385006"
+    },
+    "870:forecast-summaries-870": {
+      "run_number": 870,
+      "run_id": 21368256166,
+      "artifact_name": "forecast-summaries-870",
+      "path": "forecast_summaries/run_870",
+      "downloaded_at": "2026-01-28T07:03:32.247168"
+    },
+    "869:forecast-summaries-869": {
+      "run_number": 869,
+      "run_id": 21367590289,
+      "artifact_name": "forecast-summaries-869",
+      "path": "forecast_summaries/run_869",
+      "downloaded_at": "2026-01-28T07:03:34.307304"
+    },
+    "868:forecast-summaries-868": {
+      "run_number": 868,
+      "run_id": 21365838154,
+      "artifact_name": "forecast-summaries-868",
+      "path": "forecast_summaries/run_868",
+      "downloaded_at": "2026-01-28T07:03:36.413820"
+    },
+    "867:forecast-summaries-867": {
+      "run_number": 867,
+      "run_id": 21363984982,
+      "artifact_name": "forecast-summaries-867",
+      "path": "forecast_summaries/run_867",
+      "downloaded_at": "2026-01-28T07:03:38.341960"
+    },
+    "866:forecast-summaries-866": {
+      "run_number": 866,
+      "run_id": 21362391828,
+      "artifact_name": "forecast-summaries-866",
+      "path": "forecast_summaries/run_866",
+      "downloaded_at": "2026-01-28T07:03:40.363695"
+    },
+    "865:forecast-summaries-865": {
+      "run_number": 865,
+      "run_id": 21361625356,
+      "artifact_name": "forecast-summaries-865",
+      "path": "forecast_summaries/run_865",
+      "downloaded_at": "2026-01-28T07:03:42.408577"
+    },
+    "864:forecast-summaries-864": {
+      "run_number": 864,
+      "run_id": 21360249600,
+      "artifact_name": "forecast-summaries-864",
+      "path": "forecast_summaries/run_864",
+      "downloaded_at": "2026-01-28T07:03:44.360513"
+    },
+    "863:forecast-summaries-863": {
+      "run_number": 863,
+      "run_id": 21358673920,
+      "artifact_name": "forecast-summaries-863",
+      "path": "forecast_summaries/run_863",
+      "downloaded_at": "2026-01-28T07:03:46.246448"
+    },
+    "862:forecast-summaries-862": {
+      "run_number": 862,
+      "run_id": 21356650903,
+      "artifact_name": "forecast-summaries-862",
+      "path": "forecast_summaries/run_862",
+      "downloaded_at": "2026-01-28T07:03:48.613105"
+    },
+    "861:forecast-summaries-861": {
+      "run_number": 861,
+      "run_id": 21356105976,
+      "artifact_name": "forecast-summaries-861",
+      "path": "forecast_summaries/run_861",
+      "downloaded_at": "2026-01-28T07:03:50.866760"
+    },
+    "860:forecast-summaries-860": {
+      "run_number": 860,
+      "run_id": 21355224008,
+      "artifact_name": "forecast-summaries-860",
+      "path": "forecast_summaries/run_860",
+      "downloaded_at": "2026-01-28T07:03:52.901723"
+    },
+    "859:forecast-summaries-859": {
+      "run_number": 859,
+      "run_id": 21354598208,
+      "artifact_name": "forecast-summaries-859",
+      "path": "forecast_summaries/run_859",
+      "downloaded_at": "2026-01-28T07:03:54.851886"
+    },
+    "858:forecast-summaries-858": {
+      "run_number": 858,
+      "run_id": 21353017906,
+      "artifact_name": "forecast-summaries-858",
+      "path": "forecast_summaries/run_858",
+      "downloaded_at": "2026-01-28T07:03:56.717360"
+    },
+    "857:forecast-summaries-857": {
+      "run_number": 857,
+      "run_id": 21351387496,
+      "artifact_name": "forecast-summaries-857",
+      "path": "forecast_summaries/run_857",
+      "downloaded_at": "2026-01-28T07:03:58.568998"
+    },
+    "856:forecast-summaries-856": {
+      "run_number": 856,
+      "run_id": 21350177750,
+      "artifact_name": "forecast-summaries-856",
+      "path": "forecast_summaries/run_856",
+      "downloaded_at": "2026-01-28T07:04:00.475378"
+    },
+    "855:forecast-summaries-855": {
+      "run_number": 855,
+      "run_id": 21349756221,
+      "artifact_name": "forecast-summaries-855",
+      "path": "forecast_summaries/run_855",
+      "downloaded_at": "2026-01-28T07:04:02.342756"
+    },
+    "854:forecast-summaries-854": {
+      "run_number": 854,
+      "run_id": 21348830919,
+      "artifact_name": "forecast-summaries-854",
+      "path": "forecast_summaries/run_854",
+      "downloaded_at": "2026-01-28T07:04:04.132386"
+    },
+    "853:forecast-summaries-853": {
+      "run_number": 853,
+      "run_id": 21347702131,
+      "artifact_name": "forecast-summaries-853",
+      "path": "forecast_summaries/run_853",
+      "downloaded_at": "2026-01-27T15:30:22.539773"
+    },
+    "852:forecast-summaries-852": {
+      "run_number": 852,
+      "run_id": 21346946293,
+      "artifact_name": "forecast-summaries-852",
+      "path": "forecast_summaries/run_852",
+      "downloaded_at": "2026-01-27T15:30:24.297096"
+    },
+    "851:forecast-summaries-851": {
+      "run_number": 851,
+      "run_id": 21345986167,
+      "artifact_name": "forecast-summaries-851",
+      "path": "forecast_summaries/run_851",
+      "downloaded_at": "2026-01-27T15:30:26.115447"
+    },
+    "850:forecast-summaries-850": {
+      "run_number": 850,
+      "run_id": 21344337239,
+      "artifact_name": "forecast-summaries-850",
+      "path": "forecast_summaries/run_850",
+      "downloaded_at": "2026-01-27T15:30:27.900237"
+    },
+    "849:forecast-summaries-849": {
+      "run_number": 849,
+      "run_id": 21341757659,
+      "artifact_name": "forecast-summaries-849",
+      "path": "forecast_summaries/run_849",
+      "downloaded_at": "2026-01-27T15:30:29.705832"
+    },
+    "848:forecast-summaries-848": {
+      "run_number": 848,
+      "run_id": 21341457175,
+      "artifact_name": "forecast-summaries-848",
+      "path": "forecast_summaries/run_848",
+      "downloaded_at": "2026-01-27T15:30:31.456696"
+    },
+    "847:forecast-summaries-847": {
+      "run_number": 847,
+      "run_id": 21340988562,
+      "artifact_name": "forecast-summaries-847",
+      "path": "forecast_summaries/run_847",
+      "downloaded_at": "2026-01-27T15:30:33.313059"
+    },
+    "846:forecast-summaries-846": {
+      "run_number": 846,
+      "run_id": 21340672054,
+      "artifact_name": "forecast-summaries-846",
+      "path": "forecast_summaries/run_846",
+      "downloaded_at": "2026-01-27T15:30:35.067925"
+    },
+    "845:forecast-summaries-845": {
+      "run_number": 845,
+      "run_id": 21340149480,
+      "artifact_name": "forecast-summaries-845",
+      "path": "forecast_summaries/run_845",
+      "downloaded_at": "2026-01-27T15:30:36.897069"
+    },
+    "844:forecast-summaries-844": {
+      "run_number": 844,
+      "run_id": 21339836315,
+      "artifact_name": "forecast-summaries-844",
+      "path": "forecast_summaries/run_844",
+      "downloaded_at": "2026-01-27T15:30:38.742849"
+    },
+    "843:forecast-summaries-843": {
+      "run_number": 843,
+      "run_id": 21339374185,
+      "artifact_name": "forecast-summaries-843",
+      "path": "forecast_summaries/run_843",
+      "downloaded_at": "2026-01-27T15:30:40.569269"
+    },
+    "842:forecast-summaries-842": {
+      "run_number": 842,
+      "run_id": 21339094328,
+      "artifact_name": "forecast-summaries-842",
+      "path": "forecast_summaries/run_842",
+      "downloaded_at": "2026-01-27T15:30:42.337810"
+    },
+    "841:forecast-summaries-841": {
+      "run_number": 841,
+      "run_id": 21338521026,
+      "artifact_name": "forecast-summaries-841",
+      "path": "forecast_summaries/run_841",
+      "downloaded_at": "2026-01-27T15:30:44.178122"
+    },
+    "840:forecast-summaries-840": {
+      "run_number": 840,
+      "run_id": 21338216952,
+      "artifact_name": "forecast-summaries-840",
+      "path": "forecast_summaries/run_840",
+      "downloaded_at": "2026-01-27T15:30:46.010593"
+    },
+    "839:forecast-summaries-839": {
+      "run_number": 839,
+      "run_id": 21337841880,
+      "artifact_name": "forecast-summaries-839",
+      "path": "forecast_summaries/run_839",
+      "downloaded_at": "2026-01-27T15:30:47.774034"
+    },
+    "838:forecast-summaries-838": {
+      "run_number": 838,
+      "run_id": 21337584547,
+      "artifact_name": "forecast-summaries-838",
+      "path": "forecast_summaries/run_838",
+      "downloaded_at": "2026-01-27T15:30:49.533479"
+    },
+    "837:forecast-summaries-837": {
+      "run_number": 837,
+      "run_id": 21336920065,
+      "artifact_name": "forecast-summaries-837",
+      "path": "forecast_summaries/run_837",
+      "downloaded_at": "2026-01-27T15:30:51.300377"
+    },
+    "836:forecast-summaries-836": {
+      "run_number": 836,
+      "run_id": 21336585361,
+      "artifact_name": "forecast-summaries-836",
+      "path": "forecast_summaries/run_836",
+      "downloaded_at": "2026-01-27T15:30:53.040675"
+    },
+    "835:forecast-summaries-835": {
+      "run_number": 835,
+      "run_id": 21336164360,
+      "artifact_name": "forecast-summaries-835",
+      "path": "forecast_summaries/run_835",
+      "downloaded_at": "2026-01-27T15:30:54.874831"
+    },
+    "834:forecast-summaries-834": {
+      "run_number": 834,
+      "run_id": 21335894216,
+      "artifact_name": "forecast-summaries-834",
+      "path": "forecast_summaries/run_834",
+      "downloaded_at": "2026-01-27T15:30:57.020740"
+    },
+    "833:forecast-summaries-833": {
+      "run_number": 833,
+      "run_id": 21335305894,
+      "artifact_name": "forecast-summaries-833",
+      "path": "forecast_summaries/run_833",
+      "downloaded_at": "2026-01-27T15:30:58.815286"
+    },
+    "832:forecast-summaries-832": {
+      "run_number": 832,
+      "run_id": 21334993723,
+      "artifact_name": "forecast-summaries-832",
+      "path": "forecast_summaries/run_832",
+      "downloaded_at": "2026-01-27T15:31:00.666233"
+    },
+    "831:forecast-summaries-831": {
+      "run_number": 831,
+      "run_id": 21334483844,
+      "artifact_name": "forecast-summaries-831",
+      "path": "forecast_summaries/run_831",
+      "downloaded_at": "2026-01-27T15:31:02.444519"
+    },
+    "830:forecast-summaries-830": {
+      "run_number": 830,
+      "run_id": 21334149483,
+      "artifact_name": "forecast-summaries-830",
+      "path": "forecast_summaries/run_830",
+      "downloaded_at": "2026-01-27T15:31:04.159999"
+    },
+    "829:forecast-summaries-829": {
+      "run_number": 829,
+      "run_id": 21333722983,
+      "artifact_name": "forecast-summaries-829",
+      "path": "forecast_summaries/run_829",
+      "downloaded_at": "2026-01-27T15:31:06.073204"
+    },
+    "828:forecast-summaries-828": {
+      "run_number": 828,
+      "run_id": 21333505577,
+      "artifact_name": "forecast-summaries-828",
+      "path": "forecast_summaries/run_828",
+      "downloaded_at": "2026-01-27T15:31:07.912375"
+    },
+    "827:forecast-summaries-827": {
+      "run_number": 827,
+      "run_id": 21332962996,
+      "artifact_name": "forecast-summaries-827",
+      "path": "forecast_summaries/run_827",
+      "downloaded_at": "2026-01-27T15:31:09.681584"
+    },
+    "826:forecast-summaries-826": {
+      "run_number": 826,
+      "run_id": 21332098262,
+      "artifact_name": "forecast-summaries-826",
+      "path": "forecast_summaries/run_826",
+      "downloaded_at": "2026-01-27T15:31:11.422445"
+    },
+    "825:forecast-summaries-825": {
+      "run_number": 825,
+      "run_id": 21331798516,
+      "artifact_name": "forecast-summaries-825",
+      "path": "forecast_summaries/run_825",
+      "downloaded_at": "2026-01-27T15:31:13.300587"
+    },
+    "824:forecast-summaries-824": {
+      "run_number": 824,
+      "run_id": 21331414315,
+      "artifact_name": "forecast-summaries-824",
+      "path": "forecast_summaries/run_824",
+      "downloaded_at": "2026-01-27T15:31:15.026054"
+    },
+    "823:forecast-summaries-823": {
+      "run_number": 823,
+      "run_id": 21331134146,
+      "artifact_name": "forecast-summaries-823",
+      "path": "forecast_summaries/run_823",
+      "downloaded_at": "2026-01-27T15:31:16.828182"
+    },
+    "822:forecast-summaries-822": {
+      "run_number": 822,
+      "run_id": 21330661675,
+      "artifact_name": "forecast-summaries-822",
+      "path": "forecast_summaries/run_822",
+      "downloaded_at": "2026-01-27T15:31:18.754415"
+    },
+    "821:forecast-summaries-821": {
+      "run_number": 821,
+      "run_id": 21330421994,
+      "artifact_name": "forecast-summaries-821",
+      "path": "forecast_summaries/run_821",
+      "downloaded_at": "2026-01-27T15:31:20.564869"
+    },
+    "820:forecast-summaries-820": {
+      "run_number": 820,
+      "run_id": 21329986436,
+      "artifact_name": "forecast-summaries-820",
+      "path": "forecast_summaries/run_820",
+      "downloaded_at": "2026-01-27T15:31:22.328776"
+    },
+    "819:forecast-summaries-819": {
+      "run_number": 819,
+      "run_id": 21329741474,
+      "artifact_name": "forecast-summaries-819",
+      "path": "forecast_summaries/run_819",
+      "downloaded_at": "2026-01-27T15:31:24.023754"
+    },
+    "818:forecast-summaries-818": {
+      "run_number": 818,
+      "run_id": 21329202141,
+      "artifact_name": "forecast-summaries-818",
+      "path": "forecast_summaries/run_818",
+      "downloaded_at": "2026-01-27T15:31:26.001698"
+    },
+    "817:forecast-summaries-817": {
+      "run_number": 817,
+      "run_id": 21328947394,
+      "artifact_name": "forecast-summaries-817",
+      "path": "forecast_summaries/run_817",
+      "downloaded_at": "2026-01-27T15:31:27.776676"
+    },
+    "816:forecast-summaries-816": {
+      "run_number": 816,
+      "run_id": 21328411005,
+      "artifact_name": "forecast-summaries-816",
+      "path": "forecast_summaries/run_816",
+      "downloaded_at": "2026-01-27T15:31:30.000037"
+    },
+    "815:forecast-summaries-815": {
+      "run_number": 815,
+      "run_id": 21327762785,
+      "artifact_name": "forecast-summaries-815",
+      "path": "forecast_summaries/run_815",
+      "downloaded_at": "2026-01-27T15:31:31.977383"
+    },
+    "814:forecast-summaries-814": {
+      "run_number": 814,
+      "run_id": 21327266322,
+      "artifact_name": "forecast-summaries-814",
+      "path": "forecast_summaries/run_814",
+      "downloaded_at": "2026-01-27T15:31:33.864003"
+    },
+    "813:forecast-summaries-813": {
+      "run_number": 813,
+      "run_id": 21326627796,
+      "artifact_name": "forecast-summaries-813",
+      "path": "forecast_summaries/run_813",
+      "downloaded_at": "2026-01-27T15:31:35.949784"
+    },
+    "812:forecast-summaries-812": {
+      "run_number": 812,
+      "run_id": 21325547085,
+      "artifact_name": "forecast-summaries-812",
+      "path": "forecast_summaries/run_812",
+      "downloaded_at": "2026-01-27T15:31:37.903054"
+    },
+    "811:forecast-summaries-811": {
+      "run_number": 811,
+      "run_id": 21323606484,
+      "artifact_name": "forecast-summaries-811",
+      "path": "forecast_summaries/run_811",
+      "downloaded_at": "2026-01-27T15:31:39.725118"
+    },
+    "810:forecast-summaries-810": {
+      "run_number": 810,
+      "run_id": 21323328664,
+      "artifact_name": "forecast-summaries-810",
+      "path": "forecast_summaries/run_810",
+      "downloaded_at": "2026-01-27T15:31:41.698935"
+    },
+    "809:forecast-summaries-809": {
+      "run_number": 809,
+      "run_id": 21322902047,
+      "artifact_name": "forecast-summaries-809",
+      "path": "forecast_summaries/run_809",
+      "downloaded_at": "2026-01-27T15:31:43.483533"
+    },
+    "808:forecast-summaries-808": {
+      "run_number": 808,
+      "run_id": 21322602424,
+      "artifact_name": "forecast-summaries-808",
+      "path": "forecast_summaries/run_808",
+      "downloaded_at": "2026-01-27T15:31:45.180652"
+    },
+    "807:forecast-summaries-807": {
+      "run_number": 807,
+      "run_id": 21322143256,
+      "artifact_name": "forecast-summaries-807",
+      "path": "forecast_summaries/run_807",
+      "downloaded_at": "2026-01-27T15:31:46.979804"
+    },
+    "806:forecast-summaries-806": {
+      "run_number": 806,
+      "run_id": 21321851383,
+      "artifact_name": "forecast-summaries-806",
+      "path": "forecast_summaries/run_806",
+      "downloaded_at": "2026-01-27T15:31:48.822526"
+    },
+    "805:forecast-summaries-805": {
+      "run_number": 805,
+      "run_id": 21321427163,
+      "artifact_name": "forecast-summaries-805",
+      "path": "forecast_summaries/run_805",
+      "downloaded_at": "2026-01-27T15:31:50.946834"
+    },
+    "804:forecast-summaries-804": {
+      "run_number": 804,
+      "run_id": 21321155719,
+      "artifact_name": "forecast-summaries-804",
+      "path": "forecast_summaries/run_804",
+      "downloaded_at": "2026-01-27T15:31:53.914876"
+    },
+    "803:forecast-summaries-803": {
+      "run_number": 803,
+      "run_id": 21320653091,
+      "artifact_name": "forecast-summaries-803",
+      "path": "forecast_summaries/run_803",
+      "downloaded_at": "2026-01-27T15:31:55.826734"
+    },
+    "802:forecast-summaries-802": {
+      "run_number": 802,
+      "run_id": 21320348064,
+      "artifact_name": "forecast-summaries-802",
+      "path": "forecast_summaries/run_802",
+      "downloaded_at": "2026-01-27T15:31:57.623871"
+    },
+    "801:forecast-summaries-801": {
+      "run_number": 801,
+      "run_id": 21319996244,
+      "artifact_name": "forecast-summaries-801",
+      "path": "forecast_summaries/run_801",
+      "downloaded_at": "2026-01-27T15:31:59.430179"
+    },
+    "800:forecast-summaries-800": {
+      "run_number": 800,
+      "run_id": 21319755932,
+      "artifact_name": "forecast-summaries-800",
+      "path": "forecast_summaries/run_800",
+      "downloaded_at": "2026-01-27T15:32:02.305194"
+    },
+    "799:forecast-summaries-799": {
+      "run_number": 799,
+      "run_id": 21319121047,
+      "artifact_name": "forecast-summaries-799",
+      "path": "forecast_summaries/run_799",
+      "downloaded_at": "2026-01-27T15:32:04.108995"
+    },
+    "798:forecast-summaries-798": {
+      "run_number": 798,
+      "run_id": 21318800467,
+      "artifact_name": "forecast-summaries-798",
+      "path": "forecast_summaries/run_798",
+      "downloaded_at": "2026-01-27T15:32:05.919406"
+    },
+    "797:forecast-summaries-797": {
+      "run_number": 797,
+      "run_id": 21318401849,
+      "artifact_name": "forecast-summaries-797",
+      "path": "forecast_summaries/run_797",
+      "downloaded_at": "2026-01-27T15:32:07.729497"
+    },
+    "796:forecast-summaries-796": {
+      "run_number": 796,
+      "run_id": 21318148313,
+      "artifact_name": "forecast-summaries-796",
+      "path": "forecast_summaries/run_796",
+      "downloaded_at": "2026-01-27T15:32:09.415925"
+    },
+    "795:forecast-summaries-795": {
+      "run_number": 795,
+      "run_id": 21317614956,
+      "artifact_name": "forecast-summaries-795",
+      "path": "forecast_summaries/run_795",
+      "downloaded_at": "2026-01-27T15:32:11.293279"
+    },
+    "794:forecast-summaries-794": {
+      "run_number": 794,
+      "run_id": 21317334845,
+      "artifact_name": "forecast-summaries-794",
+      "path": "forecast_summaries/run_794",
+      "downloaded_at": "2026-01-27T15:32:13.003432"
+    },
+    "793:forecast-summaries-793": {
+      "run_number": 793,
+      "run_id": 21316875953,
+      "artifact_name": "forecast-summaries-793",
+      "path": "forecast_summaries/run_793",
+      "downloaded_at": "2026-01-27T15:32:14.685798"
+    },
+    "792:forecast-summaries-792": {
+      "run_number": 792,
+      "run_id": 21316564668,
+      "artifact_name": "forecast-summaries-792",
+      "path": "forecast_summaries/run_792",
+      "downloaded_at": "2026-01-27T15:32:16.415337"
+    },
+    "791:forecast-summaries-791": {
+      "run_number": 791,
+      "run_id": 21316141419,
+      "artifact_name": "forecast-summaries-791",
+      "path": "forecast_summaries/run_791",
+      "downloaded_at": "2026-01-27T15:32:18.342542"
+    },
+    "790:forecast-summaries-790": {
+      "run_number": 790,
+      "run_id": 21315941408,
+      "artifact_name": "forecast-summaries-790",
+      "path": "forecast_summaries/run_790",
+      "downloaded_at": "2026-01-27T15:32:20.243060"
+    },
+    "789:forecast-summaries-789": {
+      "run_number": 789,
+      "run_id": 21315428828,
+      "artifact_name": "forecast-summaries-789",
+      "path": "forecast_summaries/run_789",
+      "downloaded_at": "2026-01-27T15:32:23.026798"
+    },
+    "788:forecast-summaries-788": {
+      "run_number": 788,
+      "run_id": 21314631472,
+      "artifact_name": "forecast-summaries-788",
+      "path": "forecast_summaries/run_788",
+      "downloaded_at": "2026-01-27T15:32:25.110408"
+    },
+    "787:forecast-summaries-787": {
+      "run_number": 787,
+      "run_id": 21314345671,
+      "artifact_name": "forecast-summaries-787",
+      "path": "forecast_summaries/run_787",
+      "downloaded_at": "2026-01-27T15:32:26.962490"
+    },
+    "786:forecast-summaries-786": {
+      "run_number": 786,
+      "run_id": 21313970774,
+      "artifact_name": "forecast-summaries-786",
+      "path": "forecast_summaries/run_786",
+      "downloaded_at": "2026-01-27T15:32:29.343650"
+    },
+    "785:forecast-summaries-785": {
+      "run_number": 785,
+      "run_id": 21313687591,
+      "artifact_name": "forecast-summaries-785",
+      "path": "forecast_summaries/run_785",
+      "downloaded_at": "2026-01-27T15:32:31.256595"
+    },
+    "784:forecast-summaries-784": {
+      "run_number": 784,
+      "run_id": 21313211804,
+      "artifact_name": "forecast-summaries-784",
+      "path": "forecast_summaries/run_784",
+      "downloaded_at": "2026-01-27T15:32:33.074754"
+    },
+    "783:forecast-summaries-783": {
+      "run_number": 783,
+      "run_id": 21312959738,
+      "artifact_name": "forecast-summaries-783",
+      "path": "forecast_summaries/run_783",
+      "downloaded_at": "2026-01-27T15:32:34.922411"
+    },
+    "782:forecast-summaries-782": {
+      "run_number": 782,
+      "run_id": 21312534107,
+      "artifact_name": "forecast-summaries-782",
+      "path": "forecast_summaries/run_782",
+      "downloaded_at": "2026-01-27T15:32:36.873726"
+    },
+    "781:forecast-summaries-781": {
+      "run_number": 781,
+      "run_id": 21312286970,
+      "artifact_name": "forecast-summaries-781",
+      "path": "forecast_summaries/run_781",
+      "downloaded_at": "2026-01-27T15:32:38.847833"
+    },
+    "780:forecast-summaries-780": {
+      "run_number": 780,
+      "run_id": 21311733023,
+      "artifact_name": "forecast-summaries-780",
+      "path": "forecast_summaries/run_780",
+      "downloaded_at": "2026-01-27T15:32:40.605922"
+    },
+    "779:forecast-summaries-779": {
+      "run_number": 779,
+      "run_id": 21311451474,
+      "artifact_name": "forecast-summaries-779",
+      "path": "forecast_summaries/run_779",
+      "downloaded_at": "2026-01-27T15:32:42.436259"
+    },
+    "778:forecast-summaries-778": {
+      "run_number": 778,
+      "run_id": 21310868486,
+      "artifact_name": "forecast-summaries-778",
+      "path": "forecast_summaries/run_778",
+      "downloaded_at": "2026-01-27T15:32:44.165834"
+    },
+    "777:forecast-summaries-777": {
+      "run_number": 777,
+      "run_id": 21310101882,
+      "artifact_name": "forecast-summaries-777",
+      "path": "forecast_summaries/run_777",
+      "downloaded_at": "2026-01-27T15:32:45.984695"
+    },
+    "776:forecast-summaries-776": {
+      "run_number": 776,
+      "run_id": 21309589132,
+      "artifact_name": "forecast-summaries-776",
+      "path": "forecast_summaries/run_776",
+      "downloaded_at": "2026-01-27T15:32:47.690029"
+    },
+    "775:forecast-summaries-775": {
+      "run_number": 775,
+      "run_id": 21309335856,
+      "artifact_name": "forecast-summaries-775",
+      "path": "forecast_summaries/run_775",
+      "downloaded_at": "2026-01-27T15:32:49.572991"
+    },
+    "774:forecast-summaries-774": {
+      "run_number": 774,
+      "run_id": 21308650007,
+      "artifact_name": "forecast-summaries-774",
+      "path": "forecast_summaries/run_774",
+      "downloaded_at": "2026-01-27T15:32:51.421655"
+    },
+    "773:forecast-summaries-773": {
+      "run_number": 773,
+      "run_id": 21307397701,
+      "artifact_name": "forecast-summaries-773",
+      "path": "forecast_summaries/run_773",
+      "downloaded_at": "2026-01-27T15:32:53.310217"
+    },
+    "772:forecast-summaries-772": {
+      "run_number": 772,
+      "run_id": 21305076858,
+      "artifact_name": "forecast-summaries-772",
+      "path": "forecast_summaries/run_772",
+      "downloaded_at": "2026-01-27T15:32:55.204883"
+    },
+    "771:forecast-summaries-771": {
+      "run_number": 771,
+      "run_id": 21304621877,
+      "artifact_name": "forecast-summaries-771",
+      "path": "forecast_summaries/run_771",
+      "downloaded_at": "2026-01-27T15:32:57.042841"
+    },
+    "770:forecast-summaries-770": {
+      "run_number": 770,
+      "run_id": 21303835068,
+      "artifact_name": "forecast-summaries-770",
+      "path": "forecast_summaries/run_770",
+      "downloaded_at": "2026-01-27T15:32:58.902165"
+    },
+    "769:forecast-summaries-769": {
+      "run_number": 769,
+      "run_id": 21303242273,
+      "artifact_name": "forecast-summaries-769",
+      "path": "forecast_summaries/run_769",
+      "downloaded_at": "2026-01-27T15:33:00.743335"
+    },
+    "768:forecast-summaries-768": {
+      "run_number": 768,
+      "run_id": 21302363975,
+      "artifact_name": "forecast-summaries-768",
+      "path": "forecast_summaries/run_768",
+      "downloaded_at": "2026-01-27T15:33:02.457512"
+    },
+    "767:forecast-summaries-767": {
+      "run_number": 767,
+      "run_id": 21301776989,
+      "artifact_name": "forecast-summaries-767",
+      "path": "forecast_summaries/run_767",
+      "downloaded_at": "2026-01-27T15:33:05.038962"
+    },
+    "766:forecast-summaries-766": {
+      "run_number": 766,
+      "run_id": 21300882852,
+      "artifact_name": "forecast-summaries-766",
+      "path": "forecast_summaries/run_766",
+      "downloaded_at": "2026-01-27T15:33:06.902526"
+    },
+    "765:forecast-summaries-765": {
+      "run_number": 765,
+      "run_id": 21300330367,
+      "artifact_name": "forecast-summaries-765",
+      "path": "forecast_summaries/run_765",
+      "downloaded_at": "2026-01-27T15:33:09.539836"
+    },
+    "764:forecast-summaries-764": {
+      "run_number": 764,
+      "run_id": 21299135775,
+      "artifact_name": "forecast-summaries-764",
+      "path": "forecast_summaries/run_764",
+      "downloaded_at": "2026-01-27T15:33:11.407280"
+    },
+    "763:forecast-summaries-763": {
+      "run_number": 763,
+      "run_id": 21298546715,
+      "artifact_name": "forecast-summaries-763",
+      "path": "forecast_summaries/run_763",
+      "downloaded_at": "2026-01-27T15:33:13.233343"
+    },
+    "762:forecast-summaries-762": {
+      "run_number": 762,
+      "run_id": 21297320250,
+      "artifact_name": "forecast-summaries-762",
+      "path": "forecast_summaries/run_762",
+      "downloaded_at": "2026-01-27T15:33:15.432819"
+    },
+    "761:forecast-summaries-761": {
+      "run_number": 761,
+      "run_id": 21295807804,
+      "artifact_name": "forecast-summaries-761",
+      "path": "forecast_summaries/run_761",
+      "downloaded_at": "2026-01-27T15:33:17.254671"
+    },
+    "760:forecast-summaries-760": {
+      "run_number": 760,
+      "run_id": 21295177881,
+      "artifact_name": "forecast-summaries-760",
+      "path": "forecast_summaries/run_760",
+      "downloaded_at": "2026-01-27T15:33:19.115950"
+    },
+    "759:forecast-summaries-759": {
+      "run_number": 759,
+      "run_id": 21293751051,
+      "artifact_name": "forecast-summaries-759",
+      "path": "forecast_summaries/run_759",
+      "downloaded_at": "2026-01-27T15:33:21.042941"
+    },
+    "758:forecast-summaries-758": {
+      "run_number": 758,
+      "run_id": 21292346376,
+      "artifact_name": "forecast-summaries-758",
+      "path": "forecast_summaries/run_758",
+      "downloaded_at": "2026-01-27T15:33:22.882314"
+    },
+    "757:forecast-summaries-757": {
+      "run_number": 757,
+      "run_id": 21291690897,
+      "artifact_name": "forecast-summaries-757",
+      "path": "forecast_summaries/run_757",
+      "downloaded_at": "2026-01-27T15:33:25.591522"
+    },
+    "756:forecast-summaries-756": {
+      "run_number": 756,
+      "run_id": 21290482429,
+      "artifact_name": "forecast-summaries-756",
+      "path": "forecast_summaries/run_756",
+      "downloaded_at": "2026-01-27T15:33:27.345787"
+    },
+    "755:forecast-summaries-755": {
+      "run_number": 755,
+      "run_id": 21289728490,
+      "artifact_name": "forecast-summaries-755",
+      "path": "forecast_summaries/run_755",
+      "downloaded_at": "2026-01-27T15:33:29.367215"
+    },
+    "754:forecast-summaries-754": {
+      "run_number": 754,
+      "run_id": 21288561116,
+      "artifact_name": "forecast-summaries-754",
+      "path": "forecast_summaries/run_754",
+      "downloaded_at": "2026-01-27T15:33:31.303838"
+    },
+    "753:forecast-summaries-753": {
+      "run_number": 753,
+      "run_id": 21287102365,
+      "artifact_name": "forecast-summaries-753",
+      "path": "forecast_summaries/run_753",
+      "downloaded_at": "2026-01-27T15:33:33.230730"
+    },
+    "752:forecast-summaries-752": {
+      "run_number": 752,
+      "run_id": 21285214924,
+      "artifact_name": "forecast-summaries-752",
+      "path": "forecast_summaries/run_752",
+      "downloaded_at": "2026-01-27T15:33:35.321514"
+    },
+    "751:forecast-summaries-751": {
+      "run_number": 751,
+      "run_id": 21284635139,
+      "artifact_name": "forecast-summaries-751",
+      "path": "forecast_summaries/run_751",
+      "downloaded_at": "2026-01-27T15:33:37.289897"
+    },
+    "750:forecast-summaries-750": {
+      "run_number": 750,
+      "run_id": 21283759096,
+      "artifact_name": "forecast-summaries-750",
+      "path": "forecast_summaries/run_750",
+      "downloaded_at": "2026-01-27T15:33:39.166705"
+    },
+    "749:forecast-summaries-749": {
+      "run_number": 749,
+      "run_id": 21283121938,
+      "artifact_name": "forecast-summaries-749",
+      "path": "forecast_summaries/run_749",
+      "downloaded_at": "2026-01-27T15:33:41.006889"
+    },
+    "748:forecast-summaries-748": {
+      "run_number": 748,
+      "run_id": 21281812670,
+      "artifact_name": "forecast-summaries-748",
+      "path": "forecast_summaries/run_748",
+      "downloaded_at": "2026-01-27T15:33:42.798695"
+    },
+    "747:forecast-summaries-747": {
+      "run_number": 747,
+      "run_id": 21280572056,
+      "artifact_name": "forecast-summaries-747",
+      "path": "forecast_summaries/run_747",
+      "downloaded_at": "2026-01-27T15:33:44.623638"
+    },
+    "746:forecast-summaries-746": {
+      "run_number": 746,
+      "run_id": 21279960286,
+      "artifact_name": "forecast-summaries-746",
+      "path": "forecast_summaries/run_746",
+      "downloaded_at": "2026-01-27T15:33:46.502902"
+    },
+    "745:forecast-summaries-745": {
+      "run_number": 745,
+      "run_id": 21278781986,
+      "artifact_name": "forecast-summaries-745",
+      "path": "forecast_summaries/run_745",
+      "downloaded_at": "2026-01-27T15:33:48.383717"
+    },
+    "744:forecast-summaries-744": {
+      "run_number": 744,
+      "run_id": 21278341752,
+      "artifact_name": "forecast-summaries-744",
+      "path": "forecast_summaries/run_744",
+      "downloaded_at": "2026-01-27T15:33:50.196919"
+    },
+    "743:forecast-summaries-743": {
+      "run_number": 743,
+      "run_id": 21277325187,
+      "artifact_name": "forecast-summaries-743",
+      "path": "forecast_summaries/run_743",
+      "downloaded_at": "2026-01-27T15:33:52.152405"
+    },
+    "742:forecast-summaries-742": {
+      "run_number": 742,
+      "run_id": 21276236514,
+      "artifact_name": "forecast-summaries-742",
+      "path": "forecast_summaries/run_742",
+      "downloaded_at": "2026-01-27T15:33:53.967050"
+    },
+    "741:forecast-summaries-741": {
+      "run_number": 741,
+      "run_id": 21275840728,
+      "artifact_name": "forecast-summaries-741",
+      "path": "forecast_summaries/run_741",
+      "downloaded_at": "2026-01-27T15:33:55.800289"
+    },
+    "740:forecast-summaries-740": {
+      "run_number": 740,
+      "run_id": 21275017442,
+      "artifact_name": "forecast-summaries-740",
+      "path": "forecast_summaries/run_740",
+      "downloaded_at": "2026-01-27T15:33:57.579867"
+    },
+    "739:forecast-summaries-739": {
+      "run_number": 739,
+      "run_id": 21274012121,
+      "artifact_name": "forecast-summaries-739",
+      "path": "forecast_summaries/run_739",
+      "downloaded_at": "2026-01-27T15:33:59.442686"
+    },
+    "738:forecast-summaries-738": {
+      "run_number": 738,
+      "run_id": 21272256063,
+      "artifact_name": "forecast-summaries-738",
+      "path": "forecast_summaries/run_738",
+      "downloaded_at": "2026-01-27T15:34:01.328190"
+    },
+    "737:forecast-summaries-737": {
+      "run_number": 737,
+      "run_id": 21269151759,
+      "artifact_name": "forecast-summaries-737",
+      "path": "forecast_summaries/run_737",
+      "downloaded_at": "2026-01-27T15:34:04.482950"
+    },
+    "736:forecast-summaries-736": {
+      "run_number": 736,
+      "run_id": 21268630445,
+      "artifact_name": "forecast-summaries-736",
+      "path": "forecast_summaries/run_736",
+      "downloaded_at": "2026-01-27T15:34:06.272650"
+    },
+    "735:forecast-summaries-735": {
+      "run_number": 735,
+      "run_id": 21267820236,
+      "artifact_name": "forecast-summaries-735",
+      "path": "forecast_summaries/run_735",
+      "downloaded_at": "2026-01-27T15:34:08.035589"
+    },
+    "734:forecast-summaries-734": {
+      "run_number": 734,
+      "run_id": 21267226294,
+      "artifact_name": "forecast-summaries-734",
+      "path": "forecast_summaries/run_734",
+      "downloaded_at": "2026-01-27T15:34:09.876114"
+    },
+    "733:forecast-summaries-733": {
+      "run_number": 733,
+      "run_id": 21266260301,
+      "artifact_name": "forecast-summaries-733",
+      "path": "forecast_summaries/run_733",
+      "downloaded_at": "2026-01-27T15:34:11.739342"
+    },
+    "732:forecast-summaries-732": {
+      "run_number": 732,
+      "run_id": 21265663209,
+      "artifact_name": "forecast-summaries-732",
+      "path": "forecast_summaries/run_732",
+      "downloaded_at": "2026-01-27T15:34:13.513873"
+    },
+    "731:forecast-summaries-731": {
+      "run_number": 731,
+      "run_id": 21264637975,
+      "artifact_name": "forecast-summaries-731",
+      "path": "forecast_summaries/run_731",
+      "downloaded_at": "2026-01-27T15:34:15.420807"
+    },
+    "730:forecast-summaries-730": {
+      "run_number": 730,
+      "run_id": 21264027481,
+      "artifact_name": "forecast-summaries-730",
+      "path": "forecast_summaries/run_730",
+      "downloaded_at": "2026-01-27T15:34:17.690093"
+    },
+    "729:forecast-summaries-729": {
+      "run_number": 729,
+      "run_id": 21262736830,
+      "artifact_name": "forecast-summaries-729",
+      "path": "forecast_summaries/run_729",
+      "downloaded_at": "2026-01-27T15:34:19.539334"
+    },
+    "728:forecast-summaries-728": {
+      "run_number": 728,
+      "run_id": 21262097025,
+      "artifact_name": "forecast-summaries-728",
+      "path": "forecast_summaries/run_728",
+      "downloaded_at": "2026-01-27T15:34:21.401194"
+    },
+    "727:forecast-summaries-727": {
+      "run_number": 727,
+      "run_id": 21260827470,
+      "artifact_name": "forecast-summaries-727",
+      "path": "forecast_summaries/run_727",
+      "downloaded_at": "2026-01-27T15:34:23.264607"
+    },
+    "726:forecast-summaries-726": {
+      "run_number": 726,
+      "run_id": 21259185431,
+      "artifact_name": "forecast-summaries-726",
+      "path": "forecast_summaries/run_726",
+      "downloaded_at": "2026-01-27T15:34:25.100458"
+    },
+    "725:forecast-summaries-725": {
+      "run_number": 725,
+      "run_id": 21258527824,
+      "artifact_name": "forecast-summaries-725",
+      "path": "forecast_summaries/run_725",
+      "downloaded_at": "2026-01-27T15:34:26.946414"
+    },
+    "724:forecast-summaries-724": {
+      "run_number": 724,
+      "run_id": 21257168212,
+      "artifact_name": "forecast-summaries-724",
+      "path": "forecast_summaries/run_724",
+      "downloaded_at": "2026-01-27T15:34:28.851636"
+    },
+    "723:forecast-summaries-723": {
+      "run_number": 723,
+      "run_id": 21255357159,
+      "artifact_name": "forecast-summaries-723",
+      "path": "forecast_summaries/run_723",
+      "downloaded_at": "2026-01-27T15:34:30.635191"
+    },
+    "722:forecast-summaries-722": {
+      "run_number": 722,
+      "run_id": 21254556744,
+      "artifact_name": "forecast-summaries-722",
+      "path": "forecast_summaries/run_722",
+      "downloaded_at": "2026-01-27T15:34:32.309874"
+    },
+    "721:forecast-summaries-721": {
+      "run_number": 721,
+      "run_id": 21252565425,
+      "artifact_name": "forecast-summaries-721",
+      "path": "forecast_summaries/run_721",
+      "downloaded_at": "2026-01-27T15:34:34.125093"
+    },
+    "720:forecast-summaries-720": {
+      "run_number": 720,
+      "run_id": 21251212281,
+      "artifact_name": "forecast-summaries-720",
+      "path": "forecast_summaries/run_720",
+      "downloaded_at": "2026-01-27T15:34:37.756083"
+    },
+    "719:forecast-summaries-719": {
+      "run_number": 719,
+      "run_id": 21249583378,
+      "artifact_name": "forecast-summaries-719",
+      "path": "forecast_summaries/run_719",
+      "downloaded_at": "2026-01-27T15:34:39.604027"
+    },
+    "718:forecast-summaries-718": {
+      "run_number": 718,
+      "run_id": 21247426714,
+      "artifact_name": "forecast-summaries-718",
+      "path": "forecast_summaries/run_718",
+      "downloaded_at": "2026-01-27T15:34:41.406097"
+    },
+    "717:forecast-summaries-717": {
+      "run_number": 717,
+      "run_id": 21246766530,
+      "artifact_name": "forecast-summaries-717",
+      "path": "forecast_summaries/run_717",
+      "downloaded_at": "2026-01-27T15:34:43.185102"
+    },
+    "716:forecast-summaries-716": {
+      "run_number": 716,
+      "run_id": 21245616551,
+      "artifact_name": "forecast-summaries-716",
+      "path": "forecast_summaries/run_716",
+      "downloaded_at": "2026-01-27T15:34:45.342104"
+    },
+    "715:forecast-summaries-715": {
+      "run_number": 715,
+      "run_id": 21244112361,
+      "artifact_name": "forecast-summaries-715",
+      "path": "forecast_summaries/run_715",
+      "downloaded_at": "2026-01-27T15:34:47.126093"
+    },
+    "714:forecast-summaries-714": {
+      "run_number": 714,
+      "run_id": 21243501927,
+      "artifact_name": "forecast-summaries-714",
+      "path": "forecast_summaries/run_714",
+      "downloaded_at": "2026-01-27T15:34:48.868500"
+    },
+    "713:forecast-summaries-713": {
+      "run_number": 713,
+      "run_id": 21241761163,
+      "artifact_name": "forecast-summaries-713",
+      "path": "forecast_summaries/run_713",
+      "downloaded_at": "2026-01-27T15:34:50.622600"
+    },
+    "712:forecast-summaries-712": {
+      "run_number": 712,
+      "run_id": 21240463476,
+      "artifact_name": "forecast-summaries-712",
+      "path": "forecast_summaries/run_712",
+      "downloaded_at": "2026-01-27T15:34:52.482379"
+    },
+    "711:forecast-summaries-711": {
+      "run_number": 711,
+      "run_id": 21240016480,
+      "artifact_name": "forecast-summaries-711",
+      "path": "forecast_summaries/run_711",
+      "downloaded_at": "2026-01-27T15:34:54.330051"
+    },
+    "710:forecast-summaries-710": {
+      "run_number": 710,
+      "run_id": 21238903017,
+      "artifact_name": "forecast-summaries-710",
+      "path": "forecast_summaries/run_710",
+      "downloaded_at": "2026-01-27T15:34:56.192506"
+    },
+    "709:forecast-summaries-709": {
+      "run_number": 709,
+      "run_id": 21237642884,
+      "artifact_name": "forecast-summaries-709",
+      "path": "forecast_summaries/run_709",
+      "downloaded_at": "2026-01-27T15:34:58.074450"
+    },
+    "708:forecast-summaries-708": {
+      "run_number": 708,
+      "run_id": 21236776179,
+      "artifact_name": "forecast-summaries-708",
+      "path": "forecast_summaries/run_708",
+      "downloaded_at": "2026-01-27T15:34:59.791955"
+    },
+    "707:forecast-summaries-707": {
+      "run_number": 707,
+      "run_id": 21236107769,
+      "artifact_name": "forecast-summaries-707",
+      "path": "forecast_summaries/run_707",
+      "downloaded_at": "2026-01-27T15:35:01.665114"
+    },
+    "706:forecast-summaries-706": {
+      "run_number": 706,
+      "run_id": 21234523458,
+      "artifact_name": "forecast-summaries-706",
+      "path": "forecast_summaries/run_706",
+      "downloaded_at": "2026-01-27T15:35:03.970819"
+    },
+    "705:forecast-summaries-705": {
+      "run_number": 705,
+      "run_id": 21231631467,
+      "artifact_name": "forecast-summaries-705",
+      "path": "forecast_summaries/run_705",
+      "downloaded_at": "2026-01-27T15:35:05.983744"
+    },
+    "704:forecast-summaries-704": {
+      "run_number": 704,
+      "run_id": 21230169997,
+      "artifact_name": "forecast-summaries-704",
+      "path": "forecast_summaries/run_704",
+      "downloaded_at": "2026-01-27T15:35:07.491492"
+    },
+    "703:forecast-summaries-703": {
+      "run_number": 703,
+      "run_id": 21229575991,
+      "artifact_name": "forecast-summaries-703",
+      "path": "forecast_summaries/run_703",
+      "downloaded_at": "2026-01-27T15:35:09.093517"
+    },
+    "702:forecast-summaries-702": {
+      "run_number": 702,
+      "run_id": 21228707690,
+      "artifact_name": "forecast-summaries-702",
+      "path": "forecast_summaries/run_702",
+      "downloaded_at": "2026-01-27T15:35:11.412936"
+    },
+    "701:forecast-summaries-701": {
+      "run_number": 701,
+      "run_id": 21227904109,
+      "artifact_name": "forecast-summaries-701",
+      "path": "forecast_summaries/run_701",
+      "downloaded_at": "2026-01-27T15:35:12.758638"
+    },
+    "700:forecast-summaries-700": {
+      "run_number": 700,
+      "run_id": 21226828890,
+      "artifact_name": "forecast-summaries-700",
+      "path": "forecast_summaries/run_700",
+      "downloaded_at": "2026-01-27T15:35:14.152729"
+    },
+    "699:forecast-summaries-699": {
+      "run_number": 699,
+      "run_id": 21225546406,
+      "artifact_name": "forecast-summaries-699",
+      "path": "forecast_summaries/run_699",
+      "downloaded_at": "2026-01-27T15:35:15.517276"
+    },
+    "698:forecast-summaries-698": {
+      "run_number": 698,
+      "run_id": 21224885467,
+      "artifact_name": "forecast-summaries-698",
+      "path": "forecast_summaries/run_698",
+      "downloaded_at": "2026-01-27T15:35:16.994576"
+    },
+    "697:forecast-summaries-697": {
+      "run_number": 697,
+      "run_id": 21223740448,
+      "artifact_name": "forecast-summaries-697",
+      "path": "forecast_summaries/run_697",
+      "downloaded_at": "2026-01-27T15:35:18.429457"
+    },
+    "696:forecast-summaries-696": {
+      "run_number": 696,
+      "run_id": 21222846763,
+      "artifact_name": "forecast-summaries-696",
+      "path": "forecast_summaries/run_696",
+      "downloaded_at": "2026-01-27T15:35:19.882782"
+    },
+    "695:forecast-summaries-695": {
+      "run_number": 695,
+      "run_id": 21221508682,
+      "artifact_name": "forecast-summaries-695",
+      "path": "forecast_summaries/run_695",
+      "downloaded_at": "2026-01-27T15:35:21.306062"
+    },
+    "694:forecast-summaries-694": {
+      "run_number": 694,
+      "run_id": 21220059650,
+      "artifact_name": "forecast-summaries-694",
+      "path": "forecast_summaries/run_694",
+      "downloaded_at": "2026-01-27T15:35:22.650507"
+    },
+    "693:forecast-summaries-693": {
+      "run_number": 693,
+      "run_id": 21217953795,
+      "artifact_name": "forecast-summaries-693",
+      "path": "forecast_summaries/run_693",
+      "downloaded_at": "2026-01-27T15:35:24.194630"
+    },
+    "692:forecast-summaries-692": {
+      "run_number": 692,
+      "run_id": 21216132279,
+      "artifact_name": "forecast-summaries-692",
+      "path": "forecast_summaries/run_692",
+      "downloaded_at": "2026-01-27T15:35:25.641028"
+    },
+    "691:forecast-summaries-691": {
+      "run_number": 691,
+      "run_id": 21214387259,
+      "artifact_name": "forecast-summaries-691",
+      "path": "forecast_summaries/run_691",
+      "downloaded_at": "2026-01-27T15:35:27.006590"
+    },
+    "690:forecast-summaries-690": {
+      "run_number": 690,
+      "run_id": 21213357753,
+      "artifact_name": "forecast-summaries-690",
+      "path": "forecast_summaries/run_690",
+      "downloaded_at": "2026-01-27T15:35:28.401954"
+    },
+    "689:forecast-summaries-689": {
+      "run_number": 689,
+      "run_id": 21211896427,
+      "artifact_name": "forecast-summaries-689",
+      "path": "forecast_summaries/run_689",
+      "downloaded_at": "2026-01-27T15:35:29.830694"
+    },
+    "688:forecast-summaries-688": {
+      "run_number": 688,
+      "run_id": 21210214111,
+      "artifact_name": "forecast-summaries-688",
+      "path": "forecast_summaries/run_688",
+      "downloaded_at": "2026-01-27T15:35:31.165488"
+    },
+    "687:forecast-summaries-687": {
+      "run_number": 687,
+      "run_id": 21208508849,
+      "artifact_name": "forecast-summaries-687",
+      "path": "forecast_summaries/run_687",
+      "downloaded_at": "2026-01-27T15:35:32.622708"
+    },
+    "686:forecast-summaries-686": {
+      "run_number": 686,
+      "run_id": 21207985514,
+      "artifact_name": "forecast-summaries-686",
+      "path": "forecast_summaries/run_686",
+      "downloaded_at": "2026-01-27T15:35:34.432656"
+    },
+    "685:forecast-summaries-685": {
+      "run_number": 685,
+      "run_id": 21207009350,
+      "artifact_name": "forecast-summaries-685",
+      "path": "forecast_summaries/run_685",
+      "downloaded_at": "2026-01-27T15:35:35.837258"
+    },
+    "684:forecast-summaries-684": {
+      "run_number": 684,
+      "run_id": 21206079070,
+      "artifact_name": "forecast-summaries-684",
+      "path": "forecast_summaries/run_684",
+      "downloaded_at": "2026-01-27T15:35:37.258023"
+    },
+    "683:forecast-summaries-683": {
+      "run_number": 683,
+      "run_id": 21204820884,
+      "artifact_name": "forecast-summaries-683",
+      "path": "forecast_summaries/run_683",
+      "downloaded_at": "2026-01-27T15:35:38.611176"
+    },
+    "682:forecast-summaries-682": {
+      "run_number": 682,
+      "run_id": 21203371717,
+      "artifact_name": "forecast-summaries-682",
+      "path": "forecast_summaries/run_682",
+      "downloaded_at": "2026-01-27T15:35:39.945676"
+    },
+    "681:forecast-summaries-681": {
+      "run_number": 681,
+      "run_id": 21202561273,
+      "artifact_name": "forecast-summaries-681",
+      "path": "forecast_summaries/run_681",
+      "downloaded_at": "2026-01-27T15:35:41.713321"
+    },
+    "680:forecast-summaries-680": {
+      "run_number": 680,
+      "run_id": 21201366449,
+      "artifact_name": "forecast-summaries-680",
+      "path": "forecast_summaries/run_680",
+      "downloaded_at": "2026-01-27T15:35:43.133318"
+    },
+    "679:forecast-summaries-679": {
+      "run_number": 679,
+      "run_id": 21200418125,
+      "artifact_name": "forecast-summaries-679",
+      "path": "forecast_summaries/run_679",
+      "downloaded_at": "2026-01-27T15:35:44.780784"
+    },
+    "678:forecast-summaries-678": {
+      "run_number": 678,
+      "run_id": 21199867142,
+      "artifact_name": "forecast-summaries-678",
+      "path": "forecast_summaries/run_678",
+      "downloaded_at": "2026-01-27T15:35:46.174831"
+    },
+    "677:forecast-summaries-677": {
+      "run_number": 677,
+      "run_id": 21198956118,
+      "artifact_name": "forecast-summaries-677",
+      "path": "forecast_summaries/run_677",
+      "downloaded_at": "2026-01-27T15:35:47.545878"
+    },
+    "676:forecast-summaries-676": {
+      "run_number": 676,
+      "run_id": 21198407224,
+      "artifact_name": "forecast-summaries-676",
+      "path": "forecast_summaries/run_676",
+      "downloaded_at": "2026-01-27T15:35:48.885885"
+    },
+    "675:forecast-summaries-675": {
+      "run_number": 675,
+      "run_id": 21197532442,
+      "artifact_name": "forecast-summaries-675",
+      "path": "forecast_summaries/run_675",
+      "downloaded_at": "2026-01-27T15:35:50.354434"
+    },
+    "674:forecast-summaries-674": {
+      "run_number": 674,
+      "run_id": 21196413505,
+      "artifact_name": "forecast-summaries-674",
+      "path": "forecast_summaries/run_674",
+      "downloaded_at": "2026-01-27T15:35:51.924587"
+    },
+    "673:forecast-summaries-673": {
+      "run_number": 673,
+      "run_id": 21194180683,
+      "artifact_name": "forecast-summaries-673",
+      "path": "forecast_summaries/run_673",
+      "downloaded_at": "2026-01-27T15:35:53.360225"
+    },
+    "672:forecast-summaries-672": {
+      "run_number": 672,
+      "run_id": 21191658606,
+      "artifact_name": "forecast-summaries-672",
+      "path": "forecast_summaries/run_672",
+      "downloaded_at": "2026-01-27T15:35:54.808985"
+    },
+    "671:forecast-summaries-671": {
+      "run_number": 671,
+      "run_id": 21190962934,
+      "artifact_name": "forecast-summaries-671",
+      "path": "forecast_summaries/run_671",
+      "downloaded_at": "2026-01-27T15:35:56.159909"
+    },
+    "670:forecast-summaries-670": {
+      "run_number": 670,
+      "run_id": 21190171171,
+      "artifact_name": "forecast-summaries-670",
+      "path": "forecast_summaries/run_670",
+      "downloaded_at": "2026-01-27T15:35:57.500425"
+    },
+    "669:forecast-summaries-669": {
+      "run_number": 669,
+      "run_id": 21189429828,
+      "artifact_name": "forecast-summaries-669",
+      "path": "forecast_summaries/run_669",
+      "downloaded_at": "2026-01-27T15:35:58.932541"
+    },
+    "668:forecast-summaries-668": {
+      "run_number": 668,
+      "run_id": 21188465877,
+      "artifact_name": "forecast-summaries-668",
+      "path": "forecast_summaries/run_668",
+      "downloaded_at": "2026-01-27T15:36:00.373783"
+    },
+    "667:forecast-summaries-667": {
+      "run_number": 667,
+      "run_id": 21187640251,
+      "artifact_name": "forecast-summaries-667",
+      "path": "forecast_summaries/run_667",
+      "downloaded_at": "2026-01-27T15:36:02.062030"
+    },
+    "666:forecast-summaries-666": {
+      "run_number": 666,
+      "run_id": 21186509760,
+      "artifact_name": "forecast-summaries-666",
+      "path": "forecast_summaries/run_666",
+      "downloaded_at": "2026-01-27T15:36:03.588396"
+    },
+    "665:forecast-summaries-665": {
+      "run_number": 665,
+      "run_id": 21185095601,
+      "artifact_name": "forecast-summaries-665",
+      "path": "forecast_summaries/run_665",
+      "downloaded_at": "2026-01-27T15:36:05.150106"
+    },
+    "664:forecast-summaries-664": {
+      "run_number": 664,
+      "run_id": 21183081359,
+      "artifact_name": "forecast-summaries-664",
+      "path": "forecast_summaries/run_664",
+      "downloaded_at": "2026-01-27T15:36:06.546806"
+    },
+    "663:forecast-summaries-663": {
+      "run_number": 663,
+      "run_id": 21181676805,
+      "artifact_name": "forecast-summaries-663",
+      "path": "forecast_summaries/run_663",
+      "downloaded_at": "2026-01-27T15:36:08.013830"
+    },
+    "662:forecast-summaries-662": {
+      "run_number": 662,
+      "run_id": 21180303331,
+      "artifact_name": "forecast-summaries-662",
+      "path": "forecast_summaries/run_662",
+      "downloaded_at": "2026-01-27T15:36:09.468240"
+    },
+    "661:forecast-summaries-661": {
+      "run_number": 661,
+      "run_id": 21179411955,
+      "artifact_name": "forecast-summaries-661",
+      "path": "forecast_summaries/run_661",
+      "downloaded_at": "2026-01-27T15:36:12.029776"
+    },
+    "660:forecast-summaries-660": {
+      "run_number": 660,
+      "run_id": 21177882604,
+      "artifact_name": "forecast-summaries-660",
+      "path": "forecast_summaries/run_660",
+      "downloaded_at": "2026-01-27T15:36:13.527628"
+    },
+    "659:forecast-summaries-659": {
+      "run_number": 659,
+      "run_id": 21176247151,
+      "artifact_name": "forecast-summaries-659",
+      "path": "forecast_summaries/run_659",
+      "downloaded_at": "2026-01-27T15:36:14.939520"
+    },
+    "658:forecast-summaries-658": {
+      "run_number": 658,
+      "run_id": 21175208460,
+      "artifact_name": "forecast-summaries-658",
+      "path": "forecast_summaries/run_658",
+      "downloaded_at": "2026-01-27T15:36:16.360521"
+    },
+    "657:forecast-summaries-657": {
+      "run_number": 657,
+      "run_id": 21173801546,
+      "artifact_name": "forecast-summaries-657",
+      "path": "forecast_summaries/run_657",
+      "downloaded_at": "2026-01-27T15:36:17.766274"
+    },
+    "656:forecast-summaries-656": {
+      "run_number": 656,
+      "run_id": 21172121680,
+      "artifact_name": "forecast-summaries-656",
+      "path": "forecast_summaries/run_656",
+      "downloaded_at": "2026-01-27T15:36:19.497889"
+    },
+    "655:forecast-summaries-655": {
+      "run_number": 655,
+      "run_id": 21170445717,
+      "artifact_name": "forecast-summaries-655",
+      "path": "forecast_summaries/run_655",
+      "downloaded_at": "2026-01-27T15:36:20.897461"
+    },
+    "654:forecast-summaries-654": {
+      "run_number": 654,
+      "run_id": 21169866792,
+      "artifact_name": "forecast-summaries-654",
+      "path": "forecast_summaries/run_654",
+      "downloaded_at": "2026-01-27T15:36:22.485703"
+    },
+    "653:forecast-summaries-653": {
+      "run_number": 653,
+      "run_id": 21168946402,
+      "artifact_name": "forecast-summaries-653",
+      "path": "forecast_summaries/run_653",
+      "downloaded_at": "2026-01-27T15:36:24.046319"
+    },
+    "652:forecast-summaries-652": {
+      "run_number": 652,
+      "run_id": 21168051042,
+      "artifact_name": "forecast-summaries-652",
+      "path": "forecast_summaries/run_652",
+      "downloaded_at": "2026-01-27T15:36:25.399584"
+    },
+    "651:forecast-summaries-651": {
+      "run_number": 651,
+      "run_id": 21166877944,
+      "artifact_name": "forecast-summaries-651",
+      "path": "forecast_summaries/run_651",
+      "downloaded_at": "2026-01-27T15:36:26.750468"
+    },
+    "650:forecast-summaries-650": {
+      "run_number": 650,
+      "run_id": 21165487970,
+      "artifact_name": "forecast-summaries-650",
+      "path": "forecast_summaries/run_650",
+      "downloaded_at": "2026-01-27T15:36:28.128554"
+    },
+    "649:forecast-summaries-649": {
+      "run_number": 649,
+      "run_id": 21164645848,
+      "artifact_name": "forecast-summaries-649",
+      "path": "forecast_summaries/run_649",
+      "downloaded_at": "2026-01-27T15:36:29.526069"
+    },
+    "648:forecast-summaries-648": {
+      "run_number": 648,
+      "run_id": 21163429648,
+      "artifact_name": "forecast-summaries-648",
+      "path": "forecast_summaries/run_648",
+      "downloaded_at": "2026-01-27T15:36:31.058186"
+    },
+    "647:forecast-summaries-647": {
+      "run_number": 647,
+      "run_id": 21162522153,
+      "artifact_name": "forecast-summaries-647",
+      "path": "forecast_summaries/run_647",
+      "downloaded_at": "2026-01-27T15:36:32.418260"
+    },
+    "646:forecast-summaries-646": {
+      "run_number": 646,
+      "run_id": 21161987547,
+      "artifact_name": "forecast-summaries-646",
+      "path": "forecast_summaries/run_646",
+      "downloaded_at": "2026-01-27T15:36:33.845432"
+    },
+    "645:forecast-summaries-645": {
+      "run_number": 645,
+      "run_id": 21161090337,
+      "artifact_name": "forecast-summaries-645",
+      "path": "forecast_summaries/run_645",
+      "downloaded_at": "2026-01-27T15:36:35.320894"
+    },
+    "644:forecast-summaries-644": {
+      "run_number": 644,
+      "run_id": 21160567658,
+      "artifact_name": "forecast-summaries-644",
+      "path": "forecast_summaries/run_644",
+      "downloaded_at": "2026-01-27T15:36:36.702885"
+    },
+    "643:forecast-summaries-643": {
+      "run_number": 643,
+      "run_id": 21159770680,
+      "artifact_name": "forecast-summaries-643",
+      "path": "forecast_summaries/run_643",
+      "downloaded_at": "2026-01-27T15:36:38.088518"
+    },
+    "642:forecast-summaries-642": {
+      "run_number": 642,
+      "run_id": 21158686490,
+      "artifact_name": "forecast-summaries-642",
+      "path": "forecast_summaries/run_642",
+      "downloaded_at": "2026-01-27T15:36:39.469563"
+    },
+    "641:forecast-summaries-641": {
+      "run_number": 641,
+      "run_id": 21156641590,
+      "artifact_name": "forecast-summaries-641",
+      "path": "forecast_summaries/run_641",
+      "downloaded_at": "2026-01-27T15:36:40.991064"
+    },
+    "640:forecast-summaries-640": {
+      "run_number": 640,
+      "run_id": 21154605135,
+      "artifact_name": "forecast-summaries-640",
+      "path": "forecast_summaries/run_640",
+      "downloaded_at": "2026-01-27T15:36:42.453777"
+    },
+    "639:forecast-summaries-639": {
+      "run_number": 639,
+      "run_id": 21154080186,
+      "artifact_name": "forecast-summaries-639",
+      "path": "forecast_summaries/run_639",
+      "downloaded_at": "2026-01-27T15:36:43.861347"
+    },
+    "638:forecast-summaries-638": {
+      "run_number": 638,
+      "run_id": 21153548490,
+      "artifact_name": "forecast-summaries-638",
+      "path": "forecast_summaries/run_638",
+      "downloaded_at": "2026-01-27T15:36:45.380120"
+    },
+    "637:forecast-summaries-637": {
+      "run_number": 637,
+      "run_id": 21152969987,
+      "artifact_name": "forecast-summaries-637",
+      "path": "forecast_summaries/run_637",
+      "downloaded_at": "2026-01-27T15:36:46.828331"
+    },
+    "636:forecast-summaries-636": {
+      "run_number": 636,
+      "run_id": 21152352653,
+      "artifact_name": "forecast-summaries-636",
+      "path": "forecast_summaries/run_636",
+      "downloaded_at": "2026-01-27T15:36:48.301719"
+    },
+    "635:forecast-summaries-635": {
+      "run_number": 635,
+      "run_id": 21152100847,
+      "artifact_name": "forecast-summaries-635",
+      "path": "forecast_summaries/run_635",
+      "downloaded_at": "2026-01-27T15:36:49.677767"
+    },
+    "634:forecast-summaries-634": {
+      "run_number": 634,
+      "run_id": 21151713663,
+      "artifact_name": "forecast-summaries-634",
+      "path": "forecast_summaries/run_634",
+      "downloaded_at": "2026-01-27T15:36:52.107817"
+    },
+    "633:forecast-summaries-633": {
+      "run_number": 633,
+      "run_id": 21151112953,
+      "artifact_name": "forecast-summaries-633",
+      "path": "forecast_summaries/run_633",
+      "downloaded_at": "2026-01-27T15:36:53.529573"
+    },
+    "632:forecast-summaries-632": {
+      "run_number": 632,
+      "run_id": 21150523128,
+      "artifact_name": "forecast-summaries-632",
+      "path": "forecast_summaries/run_632",
+      "downloaded_at": "2026-01-27T15:36:55.034264"
+    },
+    "631:forecast-summaries-631": {
+      "run_number": 631,
+      "run_id": 21149698125,
+      "artifact_name": "forecast-summaries-631",
+      "path": "forecast_summaries/run_631",
+      "downloaded_at": "2026-01-27T15:36:56.482852"
+    },
+    "630:forecast-summaries-630": {
+      "run_number": 630,
+      "run_id": 21149254705,
+      "artifact_name": "forecast-summaries-630",
+      "path": "forecast_summaries/run_630",
+      "downloaded_at": "2026-01-27T15:36:57.926627"
+    },
+    "629:forecast-summaries-629": {
+      "run_number": 629,
+      "run_id": 21148621556,
+      "artifact_name": "forecast-summaries-629",
+      "path": "forecast_summaries/run_629",
+      "downloaded_at": "2026-01-27T15:36:59.468940"
+    },
+    "628:forecast-summaries-628": {
+      "run_number": 628,
+      "run_id": 21148007080,
+      "artifact_name": "forecast-summaries-628",
+      "path": "forecast_summaries/run_628",
+      "downloaded_at": "2026-01-27T15:37:00.877131"
+    },
+    "627:forecast-summaries-627": {
+      "run_number": 627,
+      "run_id": 21147072078,
+      "artifact_name": "forecast-summaries-627",
+      "path": "forecast_summaries/run_627",
+      "downloaded_at": "2026-01-27T15:37:02.262285"
+    },
+    "626:forecast-summaries-626": {
+      "run_number": 626,
+      "run_id": 21146567685,
+      "artifact_name": "forecast-summaries-626",
+      "path": "forecast_summaries/run_626",
+      "downloaded_at": "2026-01-27T15:37:03.641776"
+    },
+    "625:forecast-summaries-625": {
+      "run_number": 625,
+      "run_id": 21145688863,
+      "artifact_name": "forecast-summaries-625",
+      "path": "forecast_summaries/run_625",
+      "downloaded_at": "2026-01-27T15:37:05.083626"
+    },
+    "624:forecast-summaries-624": {
+      "run_number": 624,
+      "run_id": 21144844608,
+      "artifact_name": "forecast-summaries-624",
+      "path": "forecast_summaries/run_624",
+      "downloaded_at": "2026-01-27T15:37:06.556821"
+    },
+    "623:forecast-summaries-623": {
+      "run_number": 623,
+      "run_id": 21143808181,
+      "artifact_name": "forecast-summaries-623",
+      "path": "forecast_summaries/run_623",
+      "downloaded_at": "2026-01-27T15:37:08.072758"
+    },
+    "622:forecast-summaries-622": {
+      "run_number": 622,
+      "run_id": 21143172758,
+      "artifact_name": "forecast-summaries-622",
+      "path": "forecast_summaries/run_622",
+      "downloaded_at": "2026-01-27T15:37:09.486880"
+    },
+    "621:forecast-summaries-621": {
+      "run_number": 621,
+      "run_id": 21142051202,
+      "artifact_name": "forecast-summaries-621",
+      "path": "forecast_summaries/run_621",
+      "downloaded_at": "2026-01-27T15:37:10.898037"
+    },
+    "620:forecast-summaries-620": {
+      "run_number": 620,
+      "run_id": 21141087177,
+      "artifact_name": "forecast-summaries-620",
+      "path": "forecast_summaries/run_620",
+      "downloaded_at": "2026-01-27T15:37:12.328810"
+    },
+    "619:forecast-summaries-619": {
+      "run_number": 619,
+      "run_id": 21139768077,
+      "artifact_name": "forecast-summaries-619",
+      "path": "forecast_summaries/run_619",
+      "downloaded_at": "2026-01-27T15:37:13.868490"
+    },
+    "618:forecast-summaries-618": {
+      "run_number": 618,
+      "run_id": 21138115359,
+      "artifact_name": "forecast-summaries-618",
+      "path": "forecast_summaries/run_618",
+      "downloaded_at": "2026-01-27T15:37:15.285485"
+    },
+    "617:forecast-summaries-617": {
+      "run_number": 617,
+      "run_id": 21136386417,
+      "artifact_name": "forecast-summaries-617",
+      "path": "forecast_summaries/run_617",
+      "downloaded_at": "2026-01-27T15:37:16.972557"
+    },
+    "615:forecast-summaries-615": {
+      "run_number": 615,
+      "run_id": 21134883775,
+      "artifact_name": "forecast-summaries-615",
+      "path": "forecast_summaries/run_615",
+      "downloaded_at": "2026-01-27T15:37:18.386630"
+    },
+    "614:forecast-summaries-614": {
+      "run_number": 614,
+      "run_id": 21133986231,
+      "artifact_name": "forecast-summaries-614",
+      "path": "forecast_summaries/run_614",
+      "downloaded_at": "2026-01-27T15:37:19.856144"
+    },
+    "613:forecast-summaries-613": {
+      "run_number": 613,
+      "run_id": 21132843015,
+      "artifact_name": "forecast-summaries-613",
+      "path": "forecast_summaries/run_613",
+      "downloaded_at": "2026-01-27T15:37:21.411498"
+    },
+    "612:forecast-summaries-612": {
+      "run_number": 612,
+      "run_id": 21131364586,
+      "artifact_name": "forecast-summaries-612",
+      "path": "forecast_summaries/run_612",
+      "downloaded_at": "2026-01-27T15:37:22.833769"
+    },
+    "611:forecast-summaries-611": {
+      "run_number": 611,
+      "run_id": 21130537128,
+      "artifact_name": "forecast-summaries-611",
+      "path": "forecast_summaries/run_611",
+      "downloaded_at": "2026-01-27T15:37:24.255113"
+    },
+    "610:forecast-summaries-610": {
+      "run_number": 610,
+      "run_id": 21129507388,
+      "artifact_name": "forecast-summaries-610",
+      "path": "forecast_summaries/run_610",
+      "downloaded_at": "2026-01-27T15:37:25.655263"
+    },
+    "609:forecast-summaries-609": {
+      "run_number": 609,
+      "run_id": 21128902007,
+      "artifact_name": "forecast-summaries-609",
+      "path": "forecast_summaries/run_609",
+      "downloaded_at": "2026-01-27T15:37:27.183933"
+    },
+    "608:forecast-summaries-608": {
+      "run_number": 608,
+      "run_id": 21128031188,
+      "artifact_name": "forecast-summaries-608",
+      "path": "forecast_summaries/run_608",
+      "downloaded_at": "2026-01-27T15:37:28.607242"
+    },
+    "607:forecast-summaries-607": {
+      "run_number": 607,
+      "run_id": 21126941650,
+      "artifact_name": "forecast-summaries-607",
+      "path": "forecast_summaries/run_607",
+      "downloaded_at": "2026-01-27T15:37:29.987954"
+    },
+    "606:forecast-summaries-606": {
+      "run_number": 606,
+      "run_id": 21126462226,
+      "artifact_name": "forecast-summaries-606",
+      "path": "forecast_summaries/run_606",
+      "downloaded_at": "2026-01-27T15:37:31.503653"
+    },
+    "605:forecast-summaries-605": {
+      "run_number": 605,
+      "run_id": 21125741218,
+      "artifact_name": "forecast-summaries-605",
+      "path": "forecast_summaries/run_605",
+      "downloaded_at": "2026-01-27T15:37:32.868614"
+    },
+    "604:forecast-summaries-604": {
+      "run_number": 604,
+      "run_id": 21124661008,
+      "artifact_name": "forecast-summaries-604",
+      "path": "forecast_summaries/run_604",
+      "downloaded_at": "2026-01-27T15:37:34.217713"
+    },
+    "603:forecast-summaries-603": {
+      "run_number": 603,
+      "run_id": 21122644093,
+      "artifact_name": "forecast-summaries-603",
+      "path": "forecast_summaries/run_603",
+      "downloaded_at": "2026-01-27T15:37:35.605607"
+    },
+    "602:forecast-summaries-602": {
+      "run_number": 602,
+      "run_id": 21120736945,
+      "artifact_name": "forecast-summaries-602",
+      "path": "forecast_summaries/run_602",
+      "downloaded_at": "2026-01-27T15:37:37.016351"
+    },
+    "601:forecast-summaries-601": {
+      "run_number": 601,
+      "run_id": 21120582623,
+      "artifact_name": "forecast-summaries-601",
+      "path": "forecast_summaries/run_601",
+      "downloaded_at": "2026-01-27T15:37:38.460636"
+    },
+    "600:forecast-summaries-600": {
+      "run_number": 600,
+      "run_id": 21120356031,
+      "artifact_name": "forecast-summaries-600",
+      "path": "forecast_summaries/run_600",
+      "downloaded_at": "2026-01-27T15:37:39.835790"
+    },
+    "599:forecast-summaries-599": {
+      "run_number": 599,
+      "run_id": 21119992415,
+      "artifact_name": "forecast-summaries-599",
+      "path": "forecast_summaries/run_599",
+      "downloaded_at": "2026-01-27T15:37:41.273466"
+    },
+    "598:forecast-summaries-598": {
+      "run_number": 598,
+      "run_id": 21119834256,
+      "artifact_name": "forecast-summaries-598",
+      "path": "forecast_summaries/run_598",
+      "downloaded_at": "2026-01-27T15:37:42.677061"
+    },
+    "597:forecast-summaries-597": {
+      "run_number": 597,
+      "run_id": 21119566483,
+      "artifact_name": "forecast-summaries-597",
+      "path": "forecast_summaries/run_597",
+      "downloaded_at": "2026-01-27T15:37:44.113745"
+    },
+    "596:forecast-summaries-596": {
+      "run_number": 596,
+      "run_id": 21119132652,
+      "artifact_name": "forecast-summaries-596",
+      "path": "forecast_summaries/run_596",
+      "downloaded_at": "2026-01-27T15:37:45.537773"
+    },
+    "595:forecast-summaries-595": {
+      "run_number": 595,
+      "run_id": 21118977505,
+      "artifact_name": "forecast-summaries-595",
+      "path": "forecast_summaries/run_595",
+      "downloaded_at": "2026-01-27T15:37:46.967514"
+    },
+    "594:forecast-summaries-594": {
+      "run_number": 594,
+      "run_id": 21118764888,
+      "artifact_name": "forecast-summaries-594",
+      "path": "forecast_summaries/run_594",
+      "downloaded_at": "2026-01-27T15:37:48.437419"
+    },
+    "593:forecast-summaries-593": {
+      "run_number": 593,
+      "run_id": 21118390485,
+      "artifact_name": "forecast-summaries-593",
+      "path": "forecast_summaries/run_593",
+      "downloaded_at": "2026-01-27T15:37:49.827605"
+    },
+    "592:forecast-summaries-592": {
+      "run_number": 592,
+      "run_id": 21118030845,
+      "artifact_name": "forecast-summaries-592",
+      "path": "forecast_summaries/run_592",
+      "downloaded_at": "2026-01-27T15:37:51.200117"
+    },
+    "591:forecast-summaries-591": {
+      "run_number": 591,
+      "run_id": 21117573690,
+      "artifact_name": "forecast-summaries-591",
+      "path": "forecast_summaries/run_591",
+      "downloaded_at": "2026-01-27T15:37:52.695702"
+    },
+    "590:forecast-summaries-590": {
+      "run_number": 590,
+      "run_id": 21117361813,
+      "artifact_name": "forecast-summaries-590",
+      "path": "forecast_summaries/run_590",
+      "downloaded_at": "2026-01-27T15:37:54.219026"
+    },
+    "589:forecast-summaries-589": {
+      "run_number": 589,
+      "run_id": 21117175494,
+      "artifact_name": "forecast-summaries-589",
+      "path": "forecast_summaries/run_589",
+      "downloaded_at": "2026-01-27T15:37:55.606492"
+    },
+    "588:forecast-summaries-588": {
+      "run_number": 588,
+      "run_id": 21116876712,
+      "artifact_name": "forecast-summaries-588",
+      "path": "forecast_summaries/run_588",
+      "downloaded_at": "2026-01-27T15:37:56.968320"
+    },
+    "587:forecast-summaries-587": {
+      "run_number": 587,
+      "run_id": 21116531806,
+      "artifact_name": "forecast-summaries-587",
+      "path": "forecast_summaries/run_587",
+      "downloaded_at": "2026-01-27T15:37:58.392265"
+    },
+    "586:forecast-summaries-586": {
+      "run_number": 586,
+      "run_id": 21116016193,
+      "artifact_name": "forecast-summaries-586",
+      "path": "forecast_summaries/run_586",
+      "downloaded_at": "2026-01-27T15:38:00.054699"
+    },
+    "585:forecast-summaries-585": {
+      "run_number": 585,
+      "run_id": 21115857723,
+      "artifact_name": "forecast-summaries-585",
+      "path": "forecast_summaries/run_585",
+      "downloaded_at": "2026-01-27T15:38:01.500892"
+    },
+    "584:forecast-summaries-584": {
+      "run_number": 584,
+      "run_id": 21115595021,
+      "artifact_name": "forecast-summaries-584",
+      "path": "forecast_summaries/run_584",
+      "downloaded_at": "2026-01-27T15:38:02.965845"
+    },
+    "583:forecast-summaries-583": {
+      "run_number": 583,
+      "run_id": 21115258671,
+      "artifact_name": "forecast-summaries-583",
+      "path": "forecast_summaries/run_583",
+      "downloaded_at": "2026-01-27T15:38:04.457933"
+    },
+    "582:forecast-summaries-582": {
+      "run_number": 582,
+      "run_id": 21114895580,
+      "artifact_name": "forecast-summaries-582",
+      "path": "forecast_summaries/run_582",
+      "downloaded_at": "2026-01-27T15:38:05.875469"
+    },
+    "581:forecast-summaries-581": {
+      "run_number": 581,
+      "run_id": 21114413121,
+      "artifact_name": "forecast-summaries-581",
+      "path": "forecast_summaries/run_581",
+      "downloaded_at": "2026-01-27T15:38:07.290126"
+    },
+    "580:forecast-summaries-580": {
+      "run_number": 580,
+      "run_id": 21114252853,
+      "artifact_name": "forecast-summaries-580",
+      "path": "forecast_summaries/run_580",
+      "downloaded_at": "2026-01-27T15:38:09.901408"
+    },
+    "579:forecast-summaries-579": {
+      "run_number": 579,
+      "run_id": 21114005139,
+      "artifact_name": "forecast-summaries-579",
+      "path": "forecast_summaries/run_579",
+      "downloaded_at": "2026-01-27T15:38:11.300840"
+    },
+    "578:forecast-summaries-578": {
+      "run_number": 578,
+      "run_id": 21113606363,
+      "artifact_name": "forecast-summaries-578",
+      "path": "forecast_summaries/run_578",
+      "downloaded_at": "2026-01-27T15:38:12.747031"
+    },
+    "577:forecast-summaries-577": {
+      "run_number": 577,
+      "run_id": 21113449857,
+      "artifact_name": "forecast-summaries-577",
+      "path": "forecast_summaries/run_577",
+      "downloaded_at": "2026-01-27T15:38:14.185542"
+    },
+    "576:forecast-summaries-576": {
+      "run_number": 576,
+      "run_id": 21113179689,
+      "artifact_name": "forecast-summaries-576",
+      "path": "forecast_summaries/run_576",
+      "downloaded_at": "2026-01-27T15:38:15.626985"
+    },
+    "575:forecast-summaries-575": {
+      "run_number": 575,
+      "run_id": 21112712225,
+      "artifact_name": "forecast-summaries-575",
+      "path": "forecast_summaries/run_575",
+      "downloaded_at": "2026-01-27T15:38:17.092146"
+    },
+    "574:forecast-summaries-574": {
+      "run_number": 574,
+      "run_id": 21112376403,
+      "artifact_name": "forecast-summaries-574",
+      "path": "forecast_summaries/run_574",
+      "downloaded_at": "2026-01-27T15:38:18.532275"
+    },
+    "573:forecast-summaries-573": {
+      "run_number": 573,
+      "run_id": 21111869210,
+      "artifact_name": "forecast-summaries-573",
+      "path": "forecast_summaries/run_573",
+      "downloaded_at": "2026-01-27T15:38:19.898517"
+    },
+    "572:forecast-summaries-572": {
+      "run_number": 572,
+      "run_id": 21111192426,
+      "artifact_name": "forecast-summaries-572",
+      "path": "forecast_summaries/run_572",
+      "downloaded_at": "2026-01-27T15:38:21.387885"
+    },
+    "571:forecast-summaries-571": {
+      "run_number": 571,
+      "run_id": 21111012935,
+      "artifact_name": "forecast-summaries-571",
+      "path": "forecast_summaries/run_571",
+      "downloaded_at": "2026-01-27T15:38:22.847808"
+    },
+    "570:forecast-summaries-570": {
+      "run_number": 570,
+      "run_id": 21110833163,
+      "artifact_name": "forecast-summaries-570",
+      "path": "forecast_summaries/run_570",
+      "downloaded_at": "2026-01-27T15:38:24.301799"
+    },
+    "569:forecast-summaries-569": {
+      "run_number": 569,
+      "run_id": 21110497711,
+      "artifact_name": "forecast-summaries-569",
+      "path": "forecast_summaries/run_569",
+      "downloaded_at": "2026-01-27T15:38:25.681207"
+    },
+    "568:forecast-summaries-568": {
+      "run_number": 568,
+      "run_id": 21110143612,
+      "artifact_name": "forecast-summaries-568",
+      "path": "forecast_summaries/run_568",
+      "downloaded_at": "2026-01-27T15:38:27.061414"
+    },
+    "567:forecast-summaries-567": {
+      "run_number": 567,
+      "run_id": 21109744548,
+      "artifact_name": "forecast-summaries-567",
+      "path": "forecast_summaries/run_567",
+      "downloaded_at": "2026-01-27T15:38:28.600230"
+    },
+    "566:forecast-summaries-566": {
+      "run_number": 566,
+      "run_id": 21109397012,
+      "artifact_name": "forecast-summaries-566",
+      "path": "forecast_summaries/run_566",
+      "downloaded_at": "2026-01-27T15:38:30.079379"
+    },
+    "565:forecast-summaries-565": {
+      "run_number": 565,
+      "run_id": 21109047859,
+      "artifact_name": "forecast-summaries-565",
+      "path": "forecast_summaries/run_565",
+      "downloaded_at": "2026-01-27T15:38:31.420557"
+    },
+    "564:forecast-summaries-564": {
+      "run_number": 564,
+      "run_id": 21108733904,
+      "artifact_name": "forecast-summaries-564",
+      "path": "forecast_summaries/run_564",
+      "downloaded_at": "2026-01-27T15:38:32.802869"
+    },
+    "563:forecast-summaries-563": {
+      "run_number": 563,
+      "run_id": 21108278498,
+      "artifact_name": "forecast-summaries-563",
+      "path": "forecast_summaries/run_563",
+      "downloaded_at": "2026-01-27T15:38:34.259591"
+    },
+    "562:forecast-summaries-562": {
+      "run_number": 562,
+      "run_id": 21108032939,
+      "artifact_name": "forecast-summaries-562",
+      "path": "forecast_summaries/run_562",
+      "downloaded_at": "2026-01-27T15:38:35.681074"
+    },
+    "561:forecast-summaries-561": {
+      "run_number": 561,
+      "run_id": 21107697169,
+      "artifact_name": "forecast-summaries-561",
+      "path": "forecast_summaries/run_561",
+      "downloaded_at": "2026-01-27T15:38:37.083577"
+    },
+    "560:forecast-summaries-560": {
+      "run_number": 560,
+      "run_id": 21107404088,
+      "artifact_name": "forecast-summaries-560",
+      "path": "forecast_summaries/run_560",
+      "downloaded_at": "2026-01-27T15:38:38.407183"
+    },
+    "559:forecast-summaries-559": {
+      "run_number": 559,
+      "run_id": 21106936681,
+      "artifact_name": "forecast-summaries-559",
+      "path": "forecast_summaries/run_559",
+      "downloaded_at": "2026-01-27T15:38:39.859948"
+    },
+    "558:forecast-summaries-558": {
+      "run_number": 558,
+      "run_id": 21106618370,
+      "artifact_name": "forecast-summaries-558",
+      "path": "forecast_summaries/run_558",
+      "downloaded_at": "2026-01-27T15:38:41.289787"
+    },
+    "557:forecast-summaries-557": {
+      "run_number": 557,
+      "run_id": 21106144613,
+      "artifact_name": "forecast-summaries-557",
+      "path": "forecast_summaries/run_557",
+      "downloaded_at": "2026-01-27T15:38:42.705008"
+    },
+    "556:forecast-summaries-556": {
+      "run_number": 556,
+      "run_id": 21105515458,
+      "artifact_name": "forecast-summaries-556",
+      "path": "forecast_summaries/run_556",
+      "downloaded_at": "2026-01-27T15:38:44.134641"
+    },
+    "555:forecast-summaries-555": {
+      "run_number": 555,
+      "run_id": 21104167507,
+      "artifact_name": "forecast-summaries-555",
+      "path": "forecast_summaries/run_555",
+      "downloaded_at": "2026-01-27T15:38:45.620643"
+    },
+    "554:forecast-summaries-554": {
+      "run_number": 554,
+      "run_id": 21102748568,
+      "artifact_name": "forecast-summaries-554",
+      "path": "forecast_summaries/run_554",
+      "downloaded_at": "2026-01-27T15:38:47.101438"
+    },
+    "553:forecast-summaries-553": {
+      "run_number": 553,
+      "run_id": 21102613329,
+      "artifact_name": "forecast-summaries-553",
+      "path": "forecast_summaries/run_553",
+      "downloaded_at": "2026-01-27T15:38:48.542925"
+    },
+    "552:forecast-summaries-552": {
+      "run_number": 552,
+      "run_id": 21102421108,
+      "artifact_name": "forecast-summaries-552",
+      "path": "forecast_summaries/run_552",
+      "downloaded_at": "2026-01-27T15:38:50.037735"
+    },
+    "551:forecast-summaries-551": {
+      "run_number": 551,
+      "run_id": 21102114121,
+      "artifact_name": "forecast-summaries-551",
+      "path": "forecast_summaries/run_551",
+      "downloaded_at": "2026-01-27T15:38:51.430987"
+    },
+    "550:forecast-summaries-550": {
+      "run_number": 550,
+      "run_id": 21101974762,
+      "artifact_name": "forecast-summaries-550",
+      "path": "forecast_summaries/run_550",
+      "downloaded_at": "2026-01-27T15:38:52.766991"
+    },
+    "549:forecast-summaries-549": {
+      "run_number": 549,
+      "run_id": 21101735190,
+      "artifact_name": "forecast-summaries-549",
+      "path": "forecast_summaries/run_549",
+      "downloaded_at": "2026-01-27T15:38:54.171012"
+    },
+    "548:forecast-summaries-548": {
+      "run_number": 548,
+      "run_id": 21101347690,
+      "artifact_name": "forecast-summaries-548",
+      "path": "forecast_summaries/run_548",
+      "downloaded_at": "2026-01-27T15:38:55.581817"
+    },
+    "547:forecast-summaries-547": {
+      "run_number": 547,
+      "run_id": 21101194779,
+      "artifact_name": "forecast-summaries-547",
+      "path": "forecast_summaries/run_547",
+      "downloaded_at": "2026-01-27T15:38:57.021722"
+    },
+    "546:forecast-summaries-546": {
+      "run_number": 546,
+      "run_id": 21101004752,
+      "artifact_name": "forecast-summaries-546",
+      "path": "forecast_summaries/run_546",
+      "downloaded_at": "2026-01-27T15:38:58.363140"
+    },
+    "545:forecast-summaries-545": {
+      "run_number": 545,
+      "run_id": 21100656318,
+      "artifact_name": "forecast-summaries-545",
+      "path": "forecast_summaries/run_545",
+      "downloaded_at": "2026-01-27T15:38:59.821246"
+    },
+    "544:forecast-summaries-544": {
+      "run_number": 544,
+      "run_id": 21100316718,
+      "artifact_name": "forecast-summaries-544",
+      "path": "forecast_summaries/run_544",
+      "downloaded_at": "2026-01-27T15:39:01.257542"
+    },
+    "543:forecast-summaries-543": {
+      "run_number": 543,
+      "run_id": 21099890847,
+      "artifact_name": "forecast-summaries-543",
+      "path": "forecast_summaries/run_543",
+      "downloaded_at": "2026-01-27T15:39:02.698656"
+    },
+    "542:forecast-summaries-542": {
+      "run_number": 542,
+      "run_id": 21099701456,
+      "artifact_name": "forecast-summaries-542",
+      "path": "forecast_summaries/run_542",
+      "downloaded_at": "2026-01-27T15:39:04.154990"
+    },
+    "541:forecast-summaries-541": {
+      "run_number": 541,
+      "run_id": 21099526270,
+      "artifact_name": "forecast-summaries-541",
+      "path": "forecast_summaries/run_541",
+      "downloaded_at": "2026-01-27T15:39:05.618554"
+    },
+    "540:forecast-summaries-540": {
+      "run_number": 540,
+      "run_id": 21099249737,
+      "artifact_name": "forecast-summaries-540",
+      "path": "forecast_summaries/run_540",
+      "downloaded_at": "2026-01-27T15:39:07.078529"
+    },
+    "539:forecast-summaries-539": {
+      "run_number": 539,
+      "run_id": 21098931500,
+      "artifact_name": "forecast-summaries-539",
+      "path": "forecast_summaries/run_539",
+      "downloaded_at": "2026-01-27T15:39:08.504474"
+    },
+    "538:forecast-summaries-538": {
+      "run_number": 538,
+      "run_id": 21098420802,
+      "artifact_name": "forecast-summaries-538",
+      "path": "forecast_summaries/run_538",
+      "downloaded_at": "2026-01-27T15:39:09.839966"
+    },
+    "537:forecast-summaries-537": {
+      "run_number": 537,
+      "run_id": 21098273771,
+      "artifact_name": "forecast-summaries-537",
+      "path": "forecast_summaries/run_537",
+      "downloaded_at": "2026-01-27T15:39:11.272424"
+    },
+    "536:forecast-summaries-536": {
+      "run_number": 536,
+      "run_id": 21098033449,
+      "artifact_name": "forecast-summaries-536",
+      "path": "forecast_summaries/run_536",
+      "downloaded_at": "2026-01-27T15:39:12.773384"
+    },
+    "535:forecast-summaries-535": {
+      "run_number": 535,
+      "run_id": 21097682915,
+      "artifact_name": "forecast-summaries-535",
+      "path": "forecast_summaries/run_535",
+      "downloaded_at": "2026-01-27T15:39:14.097993"
+    },
+    "534:forecast-summaries-534": {
+      "run_number": 534,
+      "run_id": 21097336734,
+      "artifact_name": "forecast-summaries-534",
+      "path": "forecast_summaries/run_534",
+      "downloaded_at": "2026-01-27T15:39:15.540480"
+    },
+    "533:forecast-summaries-533": {
+      "run_number": 533,
+      "run_id": 21096894756,
+      "artifact_name": "forecast-summaries-533",
+      "path": "forecast_summaries/run_533",
+      "downloaded_at": "2026-01-27T15:39:17.002867"
+    },
+    "532:forecast-summaries-532": {
+      "run_number": 532,
+      "run_id": 21096721266,
+      "artifact_name": "forecast-summaries-532",
+      "path": "forecast_summaries/run_532",
+      "downloaded_at": "2026-01-27T15:39:18.382120"
+    },
+    "531:forecast-summaries-531": {
+      "run_number": 531,
+      "run_id": 21096464977,
+      "artifact_name": "forecast-summaries-531",
+      "path": "forecast_summaries/run_531",
+      "downloaded_at": "2026-01-27T15:39:19.811733"
+    },
+    "530:forecast-summaries-530": {
+      "run_number": 530,
+      "run_id": 21096090632,
+      "artifact_name": "forecast-summaries-530",
+      "path": "forecast_summaries/run_530",
+      "downloaded_at": "2026-01-27T15:39:21.345371"
+    },
+    "529:forecast-summaries-529": {
+      "run_number": 529,
+      "run_id": 21095898140,
+      "artifact_name": "forecast-summaries-529",
+      "path": "forecast_summaries/run_529",
+      "downloaded_at": "2026-01-27T15:39:22.695265"
+    },
+    "528:forecast-summaries-528": {
+      "run_number": 528,
+      "run_id": 21095640882,
+      "artifact_name": "forecast-summaries-528",
+      "path": "forecast_summaries/run_528",
+      "downloaded_at": "2026-01-27T15:39:24.017927"
+    },
+    "527:forecast-summaries-527": {
+      "run_number": 527,
+      "run_id": 21095191982,
+      "artifact_name": "forecast-summaries-527",
+      "path": "forecast_summaries/run_527",
+      "downloaded_at": "2026-01-27T15:39:25.492136"
+    },
+    "526:forecast-summaries-526": {
+      "run_number": 526,
+      "run_id": 21094885064,
+      "artifact_name": "forecast-summaries-526",
+      "path": "forecast_summaries/run_526",
+      "downloaded_at": "2026-01-27T15:39:26.832829"
+    },
+    "525:forecast-summaries-525": {
+      "run_number": 525,
+      "run_id": 21094408810,
+      "artifact_name": "forecast-summaries-525",
+      "path": "forecast_summaries/run_525",
+      "downloaded_at": "2026-01-27T15:39:28.173738"
+    },
+    "524:forecast-summaries-524": {
+      "run_number": 524,
+      "run_id": 21093754056,
+      "artifact_name": "forecast-summaries-524",
+      "path": "forecast_summaries/run_524",
+      "downloaded_at": "2026-01-27T15:39:29.765733"
+    },
+    "523:forecast-summaries-523": {
+      "run_number": 523,
+      "run_id": 21093584016,
+      "artifact_name": "forecast-summaries-523",
+      "path": "forecast_summaries/run_523",
+      "downloaded_at": "2026-01-27T15:39:31.195356"
+    },
+    "522:forecast-summaries-522": {
+      "run_number": 522,
+      "run_id": 21093411653,
+      "artifact_name": "forecast-summaries-522",
+      "path": "forecast_summaries/run_522",
+      "downloaded_at": "2026-01-27T15:39:32.625298"
+    },
+    "521:forecast-summaries-521": {
+      "run_number": 521,
+      "run_id": 21092979250,
+      "artifact_name": "forecast-summaries-521",
+      "path": "forecast_summaries/run_521",
+      "downloaded_at": "2026-01-27T15:39:34.182196"
+    },
+    "520:forecast-summaries-520": {
+      "run_number": 520,
+      "run_id": 21092734510,
+      "artifact_name": "forecast-summaries-520",
+      "path": "forecast_summaries/run_520",
+      "downloaded_at": "2026-01-27T15:39:35.696986"
+    },
+    "519:forecast-summaries-519": {
+      "run_number": 519,
+      "run_id": 21092382086,
+      "artifact_name": "forecast-summaries-519",
+      "path": "forecast_summaries/run_519",
+      "downloaded_at": "2026-01-27T15:39:37.098269"
+    },
+    "518:forecast-summaries-518": {
+      "run_number": 518,
+      "run_id": 21092250755,
+      "artifact_name": "forecast-summaries-518",
+      "path": "forecast_summaries/run_518",
+      "downloaded_at": "2026-01-27T15:39:38.426849"
+    },
+    "517:forecast-summaries-517": {
+      "run_number": 517,
+      "run_id": 21092038198,
+      "artifact_name": "forecast-summaries-517",
+      "path": "forecast_summaries/run_517",
+      "downloaded_at": "2026-01-27T15:39:39.824459"
+    },
+    "516:forecast-summaries-516": {
+      "run_number": 516,
+      "run_id": 21091717240,
+      "artifact_name": "forecast-summaries-516",
+      "path": "forecast_summaries/run_516",
+      "downloaded_at": "2026-01-27T15:39:41.512334"
+    },
+    "515:forecast-summaries-515": {
+      "run_number": 515,
+      "run_id": 21091398377,
+      "artifact_name": "forecast-summaries-515",
+      "path": "forecast_summaries/run_515",
+      "downloaded_at": "2026-01-27T15:39:43.562949"
+    },
+    "514:forecast-summaries-514": {
+      "run_number": 514,
+      "run_id": 21090936087,
+      "artifact_name": "forecast-summaries-514",
+      "path": "forecast_summaries/run_514",
+      "downloaded_at": "2026-01-27T15:39:44.975547"
+    },
+    "513:forecast-summaries-513": {
+      "run_number": 513,
+      "run_id": 21090648081,
+      "artifact_name": "forecast-summaries-513",
+      "path": "forecast_summaries/run_513",
+      "downloaded_at": "2026-01-27T15:39:46.371953"
+    },
+    "512:forecast-summaries-512": {
+      "run_number": 512,
+      "run_id": 21090326363,
+      "artifact_name": "forecast-summaries-512",
+      "path": "forecast_summaries/run_512",
+      "downloaded_at": "2026-01-27T15:39:47.791861"
+    },
+    "511:forecast-summaries-511": {
+      "run_number": 511,
+      "run_id": 21089993375,
+      "artifact_name": "forecast-summaries-511",
+      "path": "forecast_summaries/run_511",
+      "downloaded_at": "2026-01-27T15:39:49.169810"
+    },
+    "510:forecast-summaries-510": {
+      "run_number": 510,
+      "run_id": 21089352028,
+      "artifact_name": "forecast-summaries-510",
+      "path": "forecast_summaries/run_510",
+      "downloaded_at": "2026-01-27T15:39:50.467653"
+    },
+    "509:forecast-summaries-509": {
+      "run_number": 509,
+      "run_id": 21089097823,
+      "artifact_name": "forecast-summaries-509",
+      "path": "forecast_summaries/run_509",
+      "downloaded_at": "2026-01-27T15:39:51.880488"
+    },
+    "508:forecast-summaries-508": {
+      "run_number": 508,
+      "run_id": 21088675654,
+      "artifact_name": "forecast-summaries-508",
+      "path": "forecast_summaries/run_508",
+      "downloaded_at": "2026-01-27T15:39:53.354298"
+    },
+    "507:forecast-summaries-507": {
+      "run_number": 507,
+      "run_id": 21088154570,
+      "artifact_name": "forecast-summaries-507",
+      "path": "forecast_summaries/run_507",
+      "downloaded_at": "2026-01-27T15:39:54.739037"
+    },
+    "506:forecast-summaries-506": {
+      "run_number": 506,
+      "run_id": 21087503760,
+      "artifact_name": "forecast-summaries-506",
+      "path": "forecast_summaries/run_506",
+      "downloaded_at": "2026-01-27T15:39:56.109511"
+    },
+    "505:forecast-summaries-505": {
+      "run_number": 505,
+      "run_id": 21086278814,
+      "artifact_name": "forecast-summaries-505",
+      "path": "forecast_summaries/run_505",
+      "downloaded_at": "2026-01-27T15:39:57.596088"
+    },
+    "504:forecast-summaries-504": {
+      "run_number": 504,
+      "run_id": 21084454943,
+      "artifact_name": "forecast-summaries-504",
+      "path": "forecast_summaries/run_504",
+      "downloaded_at": "2026-01-27T15:39:58.993362"
+    },
+    "503:forecast-summaries-503": {
+      "run_number": 503,
+      "run_id": 21084233400,
+      "artifact_name": "forecast-summaries-503",
+      "path": "forecast_summaries/run_503",
+      "downloaded_at": "2026-01-27T15:40:00.333070"
+    },
+    "502:forecast-summaries-502": {
+      "run_number": 502,
+      "run_id": 21083892531,
+      "artifact_name": "forecast-summaries-502",
+      "path": "forecast_summaries/run_502",
+      "downloaded_at": "2026-01-27T15:40:01.709623"
+    },
+    "501:forecast-summaries-501": {
+      "run_number": 501,
+      "run_id": 21083307147,
+      "artifact_name": "forecast-summaries-501",
+      "path": "forecast_summaries/run_501",
+      "downloaded_at": "2026-01-27T15:40:03.516099"
+    },
+    "500:forecast-summaries-500": {
+      "run_number": 500,
+      "run_id": 21082669264,
+      "artifact_name": "forecast-summaries-500",
+      "path": "forecast_summaries/run_500",
+      "downloaded_at": "2026-01-27T15:40:04.934562"
+    },
+    "499:forecast-summaries-499": {
+      "run_number": 499,
+      "run_id": 21081927641,
+      "artifact_name": "forecast-summaries-499",
+      "path": "forecast_summaries/run_499",
+      "downloaded_at": "2026-01-27T15:40:06.484052"
+    },
+    "498:forecast-summaries-498": {
+      "run_number": 498,
+      "run_id": 21081196390,
+      "artifact_name": "forecast-summaries-498",
+      "path": "forecast_summaries/run_498",
+      "downloaded_at": "2026-01-27T15:40:07.834252"
+    },
+    "497:forecast-summaries-497": {
+      "run_number": 497,
+      "run_id": 21080442811,
+      "artifact_name": "forecast-summaries-497",
+      "path": "forecast_summaries/run_497",
+      "downloaded_at": "2026-01-27T15:40:09.357888"
+    },
+    "496:forecast-summaries-496": {
+      "run_number": 496,
+      "run_id": 21079732407,
+      "artifact_name": "forecast-summaries-496",
+      "path": "forecast_summaries/run_496",
+      "downloaded_at": "2026-01-27T15:40:10.739431"
+    },
+    "495:forecast-summaries-495": {
+      "run_number": 495,
+      "run_id": 21078782155,
+      "artifact_name": "forecast-summaries-495",
+      "path": "forecast_summaries/run_495",
+      "downloaded_at": "2026-01-27T15:40:12.202717"
+    },
+    "494:forecast-summaries-494": {
+      "run_number": 494,
+      "run_id": 21078221957,
+      "artifact_name": "forecast-summaries-494",
+      "path": "forecast_summaries/run_494",
+      "downloaded_at": "2026-01-27T15:40:13.546639"
+    },
+    "493:forecast-summaries-493": {
+      "run_number": 493,
+      "run_id": 21077496375,
+      "artifact_name": "forecast-summaries-493",
+      "path": "forecast_summaries/run_493",
+      "downloaded_at": "2026-01-27T15:40:14.965051"
+    },
+    "492:forecast-summaries-492": {
+      "run_number": 492,
+      "run_id": 21076803110,
+      "artifact_name": "forecast-summaries-492",
+      "path": "forecast_summaries/run_492",
+      "downloaded_at": "2026-01-27T15:40:16.289679"
+    },
+    "491:forecast-summaries-491": {
+      "run_number": 491,
+      "run_id": 21075742781,
+      "artifact_name": "forecast-summaries-491",
+      "path": "forecast_summaries/run_491",
+      "downloaded_at": "2026-01-27T15:40:17.696057"
+    },
+    "490:forecast-summaries-490": {
+      "run_number": 490,
+      "run_id": 21075175781,
+      "artifact_name": "forecast-summaries-490",
+      "path": "forecast_summaries/run_490",
+      "downloaded_at": "2026-01-27T15:40:19.150608"
+    },
+    "489:forecast-summaries-489": {
+      "run_number": 489,
+      "run_id": 21074258155,
+      "artifact_name": "forecast-summaries-489",
+      "path": "forecast_summaries/run_489",
+      "downloaded_at": "2026-01-27T15:40:20.607239"
+    },
+    "488:forecast-summaries-488": {
+      "run_number": 488,
+      "run_id": 21073436875,
+      "artifact_name": "forecast-summaries-488",
+      "path": "forecast_summaries/run_488",
+      "downloaded_at": "2026-01-27T15:40:21.983451"
+    },
+    "487:forecast-summaries-487": {
+      "run_number": 487,
+      "run_id": 21072372719,
+      "artifact_name": "forecast-summaries-487",
+      "path": "forecast_summaries/run_487",
+      "downloaded_at": "2026-01-27T15:40:24.395267"
+    },
+    "486:forecast-summaries-486": {
+      "run_number": 486,
+      "run_id": 21071586986,
+      "artifact_name": "forecast-summaries-486",
+      "path": "forecast_summaries/run_486",
+      "downloaded_at": "2026-01-27T15:40:25.764907"
+    },
+    "485:forecast-summaries-485": {
+      "run_number": 485,
+      "run_id": 21070686155,
+      "artifact_name": "forecast-summaries-485",
+      "path": "forecast_summaries/run_485",
+      "downloaded_at": "2026-01-27T15:40:27.157635"
+    },
+    "484:forecast-summaries-484": {
+      "run_number": 484,
+      "run_id": 21070034190,
+      "artifact_name": "forecast-summaries-484",
+      "path": "forecast_summaries/run_484",
+      "downloaded_at": "2026-01-27T15:40:28.537877"
+    },
+    "483:forecast-summaries-483": {
+      "run_number": 483,
+      "run_id": 21069042905,
+      "artifact_name": "forecast-summaries-483",
+      "path": "forecast_summaries/run_483",
+      "downloaded_at": "2026-01-27T15:40:30.976384"
+    },
+    "482:forecast-summaries-482": {
+      "run_number": 482,
+      "run_id": 21068449347,
+      "artifact_name": "forecast-summaries-482",
+      "path": "forecast_summaries/run_482",
+      "downloaded_at": "2026-01-27T15:40:32.563897"
+    },
+    "481:forecast-summaries-481": {
+      "run_number": 481,
+      "run_id": 21067021841,
+      "artifact_name": "forecast-summaries-481",
+      "path": "forecast_summaries/run_481",
+      "downloaded_at": "2026-01-27T15:40:34.241665"
+    },
+    "480:forecast-summaries-480": {
+      "run_number": 480,
+      "run_id": 21065676694,
+      "artifact_name": "forecast-summaries-480",
+      "path": "forecast_summaries/run_480",
+      "downloaded_at": "2026-01-27T15:40:35.640832"
+    },
+    "479:forecast-summaries-479": {
+      "run_number": 479,
+      "run_id": 21065366941,
+      "artifact_name": "forecast-summaries-479",
+      "path": "forecast_summaries/run_479",
+      "downloaded_at": "2026-01-27T15:40:37.100840"
+    },
+    "478:forecast-summaries-478": {
+      "run_number": 478,
+      "run_id": 21064911733,
+      "artifact_name": "forecast-summaries-478",
+      "path": "forecast_summaries/run_478",
+      "downloaded_at": "2026-01-27T15:40:38.611963"
+    },
+    "477:forecast-summaries-477": {
+      "run_number": 477,
+      "run_id": 21064233548,
+      "artifact_name": "forecast-summaries-477",
+      "path": "forecast_summaries/run_477",
+      "downloaded_at": "2026-01-27T15:40:40.043604"
+    },
+    "476:forecast-summaries-476": {
+      "run_number": 476,
+      "run_id": 21063453307,
+      "artifact_name": "forecast-summaries-476",
+      "path": "forecast_summaries/run_476",
+      "downloaded_at": "2026-01-27T15:40:41.443798"
+    },
+    "475:forecast-summaries-475": {
+      "run_number": 475,
+      "run_id": 21062610633,
+      "artifact_name": "forecast-summaries-475",
+      "path": "forecast_summaries/run_475",
+      "downloaded_at": "2026-01-27T15:40:42.841664"
+    },
+    "474:forecast-summaries-474": {
+      "run_number": 474,
+      "run_id": 21062108854,
+      "artifact_name": "forecast-summaries-474",
+      "path": "forecast_summaries/run_474",
+      "downloaded_at": "2026-01-27T15:40:44.241333"
+    },
+    "473:forecast-summaries-473": {
+      "run_number": 473,
+      "run_id": 21061134020,
+      "artifact_name": "forecast-summaries-473",
+      "path": "forecast_summaries/run_473",
+      "downloaded_at": "2026-01-27T15:40:45.635819"
+    },
+    "472:forecast-summaries-472": {
+      "run_number": 472,
+      "run_id": 21060450408,
+      "artifact_name": "forecast-summaries-472",
+      "path": "forecast_summaries/run_472",
+      "downloaded_at": "2026-01-27T15:40:47.147529"
+    },
+    "471:forecast-summaries-471": {
+      "run_number": 471,
+      "run_id": 21059522645,
+      "artifact_name": "forecast-summaries-471",
+      "path": "forecast_summaries/run_471",
+      "downloaded_at": "2026-01-27T15:40:48.505951"
+    },
+    "470:forecast-summaries-470": {
+      "run_number": 470,
+      "run_id": 21059159014,
+      "artifact_name": "forecast-summaries-470",
+      "path": "forecast_summaries/run_470",
+      "downloaded_at": "2026-01-27T15:40:49.925431"
+    },
+    "469:forecast-summaries-469": {
+      "run_number": 469,
+      "run_id": 21058456205,
+      "artifact_name": "forecast-summaries-469",
+      "path": "forecast_summaries/run_469",
+      "downloaded_at": "2026-01-27T15:40:51.362827"
+    },
+    "468:forecast-summaries-468": {
+      "run_number": 468,
+      "run_id": 21057953774,
+      "artifact_name": "forecast-summaries-468",
+      "path": "forecast_summaries/run_468",
+      "downloaded_at": "2026-01-27T15:40:52.827849"
+    },
+    "467:forecast-summaries-467": {
+      "run_number": 467,
+      "run_id": 21056978740,
+      "artifact_name": "forecast-summaries-467",
+      "path": "forecast_summaries/run_467",
+      "downloaded_at": "2026-01-27T15:40:54.215752"
+    },
+    "466:forecast-summaries-466": {
+      "run_number": 466,
+      "run_id": 21056198149,
+      "artifact_name": "forecast-summaries-466",
+      "path": "forecast_summaries/run_466",
+      "downloaded_at": "2026-01-27T15:40:55.743242"
+    },
+    "465:forecast-summaries-465": {
+      "run_number": 465,
+      "run_id": 21055616035,
+      "artifact_name": "forecast-summaries-465",
+      "path": "forecast_summaries/run_465",
+      "downloaded_at": "2026-01-27T15:40:57.163101"
+    },
+    "464:forecast-summaries-464": {
+      "run_number": 464,
+      "run_id": 21054777085,
+      "artifact_name": "forecast-summaries-464",
+      "path": "forecast_summaries/run_464",
+      "downloaded_at": "2026-01-27T15:40:58.710624"
+    },
+    "463:forecast-summaries-463": {
+      "run_number": 463,
+      "run_id": 21052721064,
+      "artifact_name": "forecast-summaries-463",
+      "path": "forecast_summaries/run_463",
+      "downloaded_at": "2026-01-27T15:41:00.176617"
+    },
+    "462:forecast-summaries-462": {
+      "run_number": 462,
+      "run_id": 21050402645,
+      "artifact_name": "forecast-summaries-462",
+      "path": "forecast_summaries/run_462",
+      "downloaded_at": "2026-01-27T15:41:01.625238"
+    },
+    "461:forecast-summaries-461": {
+      "run_number": 461,
+      "run_id": 21049807555,
+      "artifact_name": "forecast-summaries-461",
+      "path": "forecast_summaries/run_461",
+      "downloaded_at": "2026-01-27T15:41:03.223635"
+    },
+    "460:forecast-summaries-460": {
+      "run_number": 460,
+      "run_id": 21049140702,
+      "artifact_name": "forecast-summaries-460",
+      "path": "forecast_summaries/run_460",
+      "downloaded_at": "2026-01-27T15:41:04.632351"
+    },
+    "459:forecast-summaries-459": {
+      "run_number": 459,
+      "run_id": 21048380432,
+      "artifact_name": "forecast-summaries-459",
+      "path": "forecast_summaries/run_459",
+      "downloaded_at": "2026-01-27T15:41:06.059233"
+    },
+    "458:forecast-summaries-458": {
+      "run_number": 458,
+      "run_id": 21047539939,
+      "artifact_name": "forecast-summaries-458",
+      "path": "forecast_summaries/run_458",
+      "downloaded_at": "2026-01-27T15:41:07.437300"
+    },
+    "457:forecast-summaries-457": {
+      "run_number": 457,
+      "run_id": 21046756986,
+      "artifact_name": "forecast-summaries-457",
+      "path": "forecast_summaries/run_457",
+      "downloaded_at": "2026-01-27T15:41:09.558507"
+    },
+    "456:forecast-summaries-456": {
+      "run_number": 456,
+      "run_id": 21046000658,
+      "artifact_name": "forecast-summaries-456",
+      "path": "forecast_summaries/run_456",
+      "downloaded_at": "2026-01-27T15:41:10.931539"
+    },
+    "455:forecast-summaries-455": {
+      "run_number": 455,
+      "run_id": 21045233325,
+      "artifact_name": "forecast-summaries-455",
+      "path": "forecast_summaries/run_455",
+      "downloaded_at": "2026-01-27T15:41:12.406972"
+    },
+    "454:forecast-summaries-454": {
+      "run_number": 454,
+      "run_id": 21044303362,
+      "artifact_name": "forecast-summaries-454",
+      "path": "forecast_summaries/run_454",
+      "downloaded_at": "2026-01-27T15:41:13.906926"
+    },
+    "453:forecast-summaries-453": {
+      "run_number": 453,
+      "run_id": 21043647662,
+      "artifact_name": "forecast-summaries-453",
+      "path": "forecast_summaries/run_453",
+      "downloaded_at": "2026-01-27T15:41:15.408158"
+    },
+    "452:forecast-summaries-452": {
+      "run_number": 452,
+      "run_id": 21042766691,
+      "artifact_name": "forecast-summaries-452",
+      "path": "forecast_summaries/run_452",
+      "downloaded_at": "2026-01-27T15:41:16.946585"
+    },
+    "451:forecast-summaries-451": {
+      "run_number": 451,
+      "run_id": 21041186853,
+      "artifact_name": "forecast-summaries-451",
+      "path": "forecast_summaries/run_451",
+      "downloaded_at": "2026-01-27T15:41:18.380831"
+    },
+    "450:forecast-summaries-450": {
+      "run_number": 450,
+      "run_id": 21040393114,
+      "artifact_name": "forecast-summaries-450",
+      "path": "forecast_summaries/run_450",
+      "downloaded_at": "2026-01-27T15:41:19.767946"
+    },
+    "449:forecast-summaries-449": {
+      "run_number": 449,
+      "run_id": 21039171977,
+      "artifact_name": "forecast-summaries-449",
+      "path": "forecast_summaries/run_449",
+      "downloaded_at": "2026-01-27T15:41:21.177399"
+    },
+    "448:forecast-summaries-448": {
+      "run_number": 448,
+      "run_id": 21037658922,
+      "artifact_name": "forecast-summaries-448",
+      "path": "forecast_summaries/run_448",
+      "downloaded_at": "2026-01-27T15:41:22.579656"
+    },
+    "447:forecast-summaries-447": {
+      "run_number": 447,
+      "run_id": 21036565370,
+      "artifact_name": "forecast-summaries-447",
+      "path": "forecast_summaries/run_447",
+      "downloaded_at": "2026-01-27T15:41:23.982524"
+    },
+    "446:forecast-summaries-446": {
+      "run_number": 446,
+      "run_id": 21035267307,
+      "artifact_name": "forecast-summaries-446",
+      "path": "forecast_summaries/run_446",
+      "downloaded_at": "2026-01-27T15:41:25.356379"
+    },
+    "445:forecast-summaries-445": {
+      "run_number": 445,
+      "run_id": 21033953197,
+      "artifact_name": "forecast-summaries-445",
+      "path": "forecast_summaries/run_445",
+      "downloaded_at": "2026-01-27T15:41:26.795739"
+    },
+    "444:forecast-summaries-444": {
+      "run_number": 444,
+      "run_id": 21033302870,
+      "artifact_name": "forecast-summaries-444",
+      "path": "forecast_summaries/run_444",
+      "downloaded_at": "2026-01-27T15:41:28.259247"
+    },
+    "443:forecast-summaries-443": {
+      "run_number": 443,
+      "run_id": 21031732465,
+      "artifact_name": "forecast-summaries-443",
+      "path": "forecast_summaries/run_443",
+      "downloaded_at": "2026-01-27T15:41:29.814798"
+    },
+    "442:forecast-summaries-442": {
+      "run_number": 442,
+      "run_id": 21030296463,
+      "artifact_name": "forecast-summaries-442",
+      "path": "forecast_summaries/run_442",
+      "downloaded_at": "2026-01-27T15:41:31.202430"
+    },
+    "441:forecast-summaries-441": {
+      "run_number": 441,
+      "run_id": 21029956512,
+      "artifact_name": "forecast-summaries-441",
+      "path": "forecast_summaries/run_441",
+      "downloaded_at": "2026-01-27T15:41:32.658252"
+    },
+    "440:forecast-summaries-440": {
+      "run_number": 440,
+      "run_id": 21029469260,
+      "artifact_name": "forecast-summaries-440",
+      "path": "forecast_summaries/run_440",
+      "downloaded_at": "2026-01-27T15:41:34.052217"
+    },
+    "439:forecast-summaries-439": {
+      "run_number": 439,
+      "run_id": 21028756075,
+      "artifact_name": "forecast-summaries-439",
+      "path": "forecast_summaries/run_439",
+      "downloaded_at": "2026-01-27T15:41:35.481194"
+    },
+    "438:forecast-summaries-438": {
+      "run_number": 438,
+      "run_id": 21027901502,
+      "artifact_name": "forecast-summaries-438",
+      "path": "forecast_summaries/run_438",
+      "downloaded_at": "2026-01-27T15:41:36.886787"
+    },
+    "437:forecast-summaries-437": {
+      "run_number": 437,
+      "run_id": 21027018615,
+      "artifact_name": "forecast-summaries-437",
+      "path": "forecast_summaries/run_437",
+      "downloaded_at": "2026-01-27T15:41:38.376291"
+    },
+    "436:forecast-summaries-436": {
+      "run_number": 436,
+      "run_id": 21026507316,
+      "artifact_name": "forecast-summaries-436",
+      "path": "forecast_summaries/run_436",
+      "downloaded_at": "2026-01-27T15:41:39.790086"
+    },
+    "435:forecast-summaries-435": {
+      "run_number": 435,
+      "run_id": 21025436046,
+      "artifact_name": "forecast-summaries-435",
+      "path": "forecast_summaries/run_435",
+      "downloaded_at": "2026-01-27T15:41:41.293936"
+    },
+    "434:forecast-summaries-434": {
+      "run_number": 434,
+      "run_id": 21024707855,
+      "artifact_name": "forecast-summaries-434",
+      "path": "forecast_summaries/run_434",
+      "downloaded_at": "2026-01-27T15:41:42.702590"
+    },
+    "433:forecast-summaries-433": {
+      "run_number": 433,
+      "run_id": 21023473119,
+      "artifact_name": "forecast-summaries-433",
+      "path": "forecast_summaries/run_433",
+      "downloaded_at": "2026-01-27T15:41:44.448194"
+    },
+    "432:forecast-summaries-432": {
+      "run_number": 432,
+      "run_id": 21022605230,
+      "artifact_name": "forecast-summaries-432",
+      "path": "forecast_summaries/run_432",
+      "downloaded_at": "2026-01-27T15:41:45.787821"
+    },
+    "431:forecast-summaries-431": {
+      "run_number": 431,
+      "run_id": 21022093543,
+      "artifact_name": "forecast-summaries-431",
+      "path": "forecast_summaries/run_431",
+      "downloaded_at": "2026-01-27T15:41:47.257118"
+    },
+    "430:forecast-summaries-430": {
+      "run_number": 430,
+      "run_id": 21021291087,
+      "artifact_name": "forecast-summaries-430",
+      "path": "forecast_summaries/run_430",
+      "downloaded_at": "2026-01-27T15:41:48.702336"
+    },
+    "429:forecast-summaries-429": {
+      "run_number": 429,
+      "run_id": 21020784732,
+      "artifact_name": "forecast-summaries-429",
+      "path": "forecast_summaries/run_429",
+      "downloaded_at": "2026-01-27T15:41:50.046327"
+    },
+    "428:forecast-summaries-428": {
+      "run_number": 428,
+      "run_id": 21019968086,
+      "artifact_name": "forecast-summaries-428",
+      "path": "forecast_summaries/run_428",
+      "downloaded_at": "2026-01-27T15:41:51.455227"
+    },
+    "427:forecast-summaries-427": {
+      "run_number": 427,
+      "run_id": 21018886375,
+      "artifact_name": "forecast-summaries-427",
+      "path": "forecast_summaries/run_427",
+      "downloaded_at": "2026-01-27T15:41:52.924851"
+    },
+    "426:forecast-summaries-426": {
+      "run_number": 426,
+      "run_id": 21016620183,
+      "artifact_name": "forecast-summaries-426",
+      "path": "forecast_summaries/run_426",
+      "downloaded_at": "2026-01-27T15:41:54.279882"
+    },
+    "425:forecast-summaries-425": {
+      "run_number": 425,
+      "run_id": 21014039679,
+      "artifact_name": "forecast-summaries-425",
+      "path": "forecast_summaries/run_425",
+      "downloaded_at": "2026-01-27T15:41:55.695053"
+    },
+    "424:forecast-summaries-424": {
+      "run_number": 424,
+      "run_id": 21013710454,
+      "artifact_name": "forecast-summaries-424",
+      "path": "forecast_summaries/run_424",
+      "downloaded_at": "2026-01-27T15:41:57.066649"
+    },
+    "423:forecast-summaries-423": {
+      "run_number": 423,
+      "run_id": 21013374633,
+      "artifact_name": "forecast-summaries-423",
+      "path": "forecast_summaries/run_423",
+      "downloaded_at": "2026-01-27T15:41:58.438375"
+    },
+    "422:forecast-summaries-422": {
+      "run_number": 422,
+      "run_id": 21012759407,
+      "artifact_name": "forecast-summaries-422",
+      "path": "forecast_summaries/run_422",
+      "downloaded_at": "2026-01-27T15:41:59.797168"
+    },
+    "421:forecast-summaries-421": {
+      "run_number": 421,
+      "run_id": 21011974152,
+      "artifact_name": "forecast-summaries-421",
+      "path": "forecast_summaries/run_421",
+      "downloaded_at": "2026-01-27T15:42:01.225337"
+    },
+    "420:forecast-summaries-420": {
+      "run_number": 420,
+      "run_id": 21011154200,
+      "artifact_name": "forecast-summaries-420",
+      "path": "forecast_summaries/run_420",
+      "downloaded_at": "2026-01-27T15:42:02.665799"
+    },
+    "419:forecast-summaries-419": {
+      "run_number": 419,
+      "run_id": 21010297066,
+      "artifact_name": "forecast-summaries-419",
+      "path": "forecast_summaries/run_419",
+      "downloaded_at": "2026-01-27T15:42:04.056963"
+    },
+    "418:forecast-summaries-418": {
+      "run_number": 418,
+      "run_id": 21009409712,
+      "artifact_name": "forecast-summaries-418",
+      "path": "forecast_summaries/run_418",
+      "downloaded_at": "2026-01-27T15:42:05.528194"
+    },
+    "417:forecast-summaries-417": {
+      "run_number": 417,
+      "run_id": 21008593739,
+      "artifact_name": "forecast-summaries-417",
+      "path": "forecast_summaries/run_417",
+      "downloaded_at": "2026-01-27T15:42:06.943097"
+    },
+    "416:forecast-summaries-416": {
+      "run_number": 416,
+      "run_id": 21007622873,
+      "artifact_name": "forecast-summaries-416",
+      "path": "forecast_summaries/run_416",
+      "downloaded_at": "2026-01-27T15:42:08.416016"
+    },
+    "415:forecast-summaries-415": {
+      "run_number": 415,
+      "run_id": 21007064392,
+      "artifact_name": "forecast-summaries-415",
+      "path": "forecast_summaries/run_415",
+      "downloaded_at": "2026-01-27T15:42:09.865636"
+    },
+    "414:forecast-summaries-414": {
+      "run_number": 414,
+      "run_id": 21006250449,
+      "artifact_name": "forecast-summaries-414",
+      "path": "forecast_summaries/run_414",
+      "downloaded_at": "2026-01-27T15:42:11.238630"
+    },
+    "413:forecast-summaries-413": {
+      "run_number": 413,
+      "run_id": 21005498354,
+      "artifact_name": "forecast-summaries-413",
+      "path": "forecast_summaries/run_413",
+      "downloaded_at": "2026-01-27T15:42:12.656497"
+    },
+    "412:forecast-summaries-412": {
+      "run_number": 412,
+      "run_id": 21004115130,
+      "artifact_name": "forecast-summaries-412",
+      "path": "forecast_summaries/run_412",
+      "downloaded_at": "2026-01-27T15:42:14.048880"
+    },
+    "411:forecast-summaries-411": {
+      "run_number": 411,
+      "run_id": 21002743832,
+      "artifact_name": "forecast-summaries-411",
+      "path": "forecast_summaries/run_411",
+      "downloaded_at": "2026-01-27T15:42:15.530619"
+    },
+    "410:forecast-summaries-410": {
+      "run_number": 410,
+      "run_id": 21001776530,
+      "artifact_name": "forecast-summaries-410",
+      "path": "forecast_summaries/run_410",
+      "downloaded_at": "2026-01-27T15:42:16.985415"
+    },
+    "928:forecast-summaries-928": {
+      "run_number": 928,
+      "run_id": 21441125651,
+      "artifact_name": "forecast-summaries-928",
+      "path": "forecast_summaries/run_928",
+      "downloaded_at": "2026-01-28T07:01:38.022504"
+    },
+    "927:forecast-summaries-927": {
+      "run_number": 927,
+      "run_id": 21439418369,
+      "artifact_name": "forecast-summaries-927",
+      "path": "forecast_summaries/run_927",
+      "downloaded_at": "2026-01-28T07:01:40.077846"
+    },
+    "926:forecast-summaries-926": {
+      "run_number": 926,
+      "run_id": 21436775499,
+      "artifact_name": "forecast-summaries-926",
+      "path": "forecast_summaries/run_926",
+      "downloaded_at": "2026-01-28T07:01:41.918520"
+    },
+    "925:forecast-summaries-925": {
+      "run_number": 925,
+      "run_id": 21435587706,
+      "artifact_name": "forecast-summaries-925",
+      "path": "forecast_summaries/run_925",
+      "downloaded_at": "2026-01-28T07:01:43.804713"
+    },
+    "924:forecast-summaries-924": {
+      "run_number": 924,
+      "run_id": 21434859489,
+      "artifact_name": "forecast-summaries-924",
+      "path": "forecast_summaries/run_924",
+      "downloaded_at": "2026-01-28T07:01:45.782586"
+    },
+    "923:forecast-summaries-923": {
+      "run_number": 923,
+      "run_id": 21433063092,
+      "artifact_name": "forecast-summaries-923",
+      "path": "forecast_summaries/run_923",
+      "downloaded_at": "2026-01-28T07:01:47.623188"
+    },
+    "922:forecast-summaries-922": {
+      "run_number": 922,
+      "run_id": 21431207201,
+      "artifact_name": "forecast-summaries-922",
+      "path": "forecast_summaries/run_922",
+      "downloaded_at": "2026-01-28T07:01:49.523199"
+    },
+    "921:forecast-summaries-921": {
+      "run_number": 921,
+      "run_id": 21429827067,
+      "artifact_name": "forecast-summaries-921",
+      "path": "forecast_summaries/run_921",
+      "downloaded_at": "2026-01-28T07:01:51.552377"
+    },
+    "920:forecast-summaries-920": {
+      "run_number": 920,
+      "run_id": 21429326582,
+      "artifact_name": "forecast-summaries-920",
+      "path": "forecast_summaries/run_920",
+      "downloaded_at": "2026-01-28T07:01:53.296839"
+    },
+    "919:forecast-summaries-919": {
+      "run_number": 919,
+      "run_id": 21428237610,
+      "artifact_name": "forecast-summaries-919",
+      "path": "forecast_summaries/run_919",
+      "downloaded_at": "2026-01-28T07:01:55.080334"
+    },
+    "918:forecast-summaries-918": {
+      "run_number": 918,
+      "run_id": 21426947299,
+      "artifact_name": "forecast-summaries-918",
+      "path": "forecast_summaries/run_918",
+      "downloaded_at": "2026-01-28T07:01:56.938861"
+    },
+    "917:forecast-summaries-917": {
+      "run_number": 917,
+      "run_id": 21426484497,
+      "artifact_name": "forecast-summaries-917",
+      "path": "forecast_summaries/run_917",
+      "downloaded_at": "2026-01-28T07:01:58.788419"
+    },
+    "916:forecast-summaries-916": {
+      "run_number": 916,
+      "run_id": 21425537990,
+      "artifact_name": "forecast-summaries-916",
+      "path": "forecast_summaries/run_916",
+      "downloaded_at": "2026-01-28T07:02:00.918034"
+    },
+    "915:forecast-summaries-915": {
+      "run_number": 915,
+      "run_id": 21424400730,
+      "artifact_name": "forecast-summaries-915",
+      "path": "forecast_summaries/run_915",
+      "downloaded_at": "2026-01-28T07:02:02.870117"
+    },
+    "914:forecast-summaries-914": {
+      "run_number": 914,
+      "run_id": 21422415240,
+      "artifact_name": "forecast-summaries-914",
+      "path": "forecast_summaries/run_914",
+      "downloaded_at": "2026-01-28T07:02:04.858459"
+    },
+    "913:forecast-summaries-913": {
+      "run_number": 913,
+      "run_id": 21418941556,
+      "artifact_name": "forecast-summaries-913",
+      "path": "forecast_summaries/run_913",
+      "downloaded_at": "2026-01-28T07:02:06.703941"
+    },
+    "912:forecast-summaries-912": {
+      "run_number": 912,
+      "run_id": 21418373299,
+      "artifact_name": "forecast-summaries-912",
+      "path": "forecast_summaries/run_912",
+      "downloaded_at": "2026-01-28T07:02:08.570915"
+    },
+    "911:forecast-summaries-911": {
+      "run_number": 911,
+      "run_id": 21417441318,
+      "artifact_name": "forecast-summaries-911",
+      "path": "forecast_summaries/run_911",
+      "downloaded_at": "2026-01-28T07:02:10.569460"
+    },
+    "910:forecast-summaries-910": {
+      "run_number": 910,
+      "run_id": 21416733774,
+      "artifact_name": "forecast-summaries-910",
+      "path": "forecast_summaries/run_910",
+      "downloaded_at": "2026-01-28T07:02:12.471071"
+    }
+  },
+  "last_updated": "2026-01-28T07:04:04.132409"
+}
