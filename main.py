@@ -1449,9 +1449,9 @@ if __name__ == "__main__":
     elif run_mode == "test_questions":
         # Example questions are a good way to test the bot's performance on a single question
         EXAMPLE_QUESTIONS = [
-            # "https://www.metaculus.com/questions/578/human-extinction-by-2100/",  # Binary
+            "https://www.metaculus.com/questions/578/human-extinction-by-2100/",  # Binary
             # "https://www.metaculus.com/questions/22427/number-of-new-leading-ai-labs/",  # Multiple Choice
-            "https://www.metaculus.com/questions/14333/age-of-oldest-human-as-of-2100/",  # Numeric
+            # "https://www.metaculus.com/questions/14333/age-of-oldest-human-as-of-2100/",  # Numeric
             # "https://www.metaculus.com/c/diffusion-community/38880/how-many-us-labor-strikes-due-to-ai-in-2029/",  # Discrete Numeric
         ]
         template_bot.skip_previously_forecasted_questions = False
@@ -1468,3 +1468,4 @@ if __name__ == "__main__":
     except ValueError as e:
         logger.warning(f"Could not parse condensed summary format for logging: {e}")
         logger.info("Forecasts completed and posted successfully")
+
