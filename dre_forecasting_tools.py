@@ -449,7 +449,7 @@ class SpringTemplateBotExtended(SpringTemplateBot2026):
             - Numeric: "p1=13.635; p5=13.955; p10=14.126; p25=14.412; p50=14.729; p75=15.047; p90=15.332; p95=15.503; p99=15.824"
             - Multiple Choice: "Option A: 43.21%; Option B: 37.45%; Option C: 19.34%"
         """
-        from forecasting_tools.ai_models.basic_model_interfaces import BinaryQuestion, NumericQuestion, MultipleChoiceQuestion
+        from forecasting_tools.data_models.questions import BinaryQuestion, NumericQuestion, MultipleChoiceQuestion
 
         # Binary question
         if isinstance(question, BinaryQuestion):
