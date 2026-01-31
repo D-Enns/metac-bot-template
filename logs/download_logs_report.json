@@ -1,0 +1,15 @@
+{
+  "generated_at": "2026-01-30T22:30:25.500093+00:00",
+  "summary": {
+    "total_runs_downloaded": 349,
+    "total_questions_processed": 349,
+    "questions_with_forecasts": 1,
+    "total_errors": 0,
+    "total_warnings": 5
+  },
+  "output_files": {
+    "tsv_file": "forecast_logs_metadata.tsv",
+    "state_file": "downloaded_logs_state.json",
+    "log_directory": "/mnt/c/Users/Donni/projects/metac_bot_Spring_2026/logs"
+  }
+}

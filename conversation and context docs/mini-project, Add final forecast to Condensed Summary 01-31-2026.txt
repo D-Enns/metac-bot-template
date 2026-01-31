@@ -1,0 +1,9 @@
+# mini-Project: Add final forecast after aggregation to the condensed summary
+
+## Purpose
+The condensed summary is more useful for analysis if it includes the submitted forecast.
+
+
+## Details
+- Also update full summaries to include the final forecast
+- Update the json to include final forecast

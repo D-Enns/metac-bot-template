@@ -1,0 +1,56 @@
+# Forecast Log Download from GitHub
+**Date:** January 30, 2026
+**Status:** New Project
+**Repository:** https://github.com/D-Enns/metac-bot-template
+**Project Directory**: C:/Users/Donni/projects/metac_bot_Spring_2026 
+**Key Sub-Directories**: 
+- C:/Users/Donni/projects/metac_bot_Spring_2026/dre_tools
+- C:/Users/Donni/projects/metac_bot_Spring_2026/conversation and context docs
+**Possible Analog Code**: 
+
+---
+
+## Overview
+My AI forecast bot runs as GitHub action. A large amount of information about the run is captured in the logs. The **goal** is to download the logs for forecast runs that occured over a specified period of time.
+
+## Details
+
+### For specified period of time, download logs from each workflow action associated with the repository.
+
+### Save raw logs to C:/Users/Donni/projects/metac_bot_Spring_2026/logs
+
+
+## Make Metadata
+
+### Read each log and extract
+- workflow run number
+- time (Rocky Mountain Time)
+- time (in system used in the log)
+- question number (none if there was no question found)
+- number of errors
+- was a forecast submitted (yes or no)
+- question url
+- question title
+
+### Make a metadata summary table in Tab-Separated Values format (TSV), that contains
+- one line per question with
+    - workflow run number
+    - question number (none if there was no question found)
+    - number of errors
+    - was a forecast submitted (yes or no)
+    - question url
+    - question title
+	
+## Issues:
+- logs are found in "forecast_job" for workflow actions
+    - Is only "Run bot" necessary?
+	- Or should all 7 components of forecast_job be downloaded?
+- Any optimization needed for follow-up analysis?
+- File size
+
+
+
+
+
+	
+

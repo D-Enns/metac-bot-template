@@ -309,6 +309,9 @@ class SpringTemplateBotExtended(SpringTemplateBot2026):
         report_type = DataOrganizer.get_report_type_for_question_type(type(question))
         readable_prediction = report_type.make_readable_prediction(aggregated_prediction)
 
+        # Get concise submitted forecast format
+        submitted_forecast = self._format_submitted_forecast(aggregated_prediction, question)
+
         # Get summarizer LLM
         summarizer_llm = self.get_llm("summarizer", "llm")
 
@@ -346,6 +349,7 @@ class SpringTemplateBotExtended(SpringTemplateBot2026):
             # SUMMARY FORECAST VALUES
             *Question*: {question.question_text}
             *Final Prediction*: {readable_prediction}
+            *Submitted Forecast*: {submitted_forecast}
             *Total Cost*: ${round(final_cost, 4)} (estimated)
             *Time Spent*: {round(time_spent_in_minutes, 2)} minutes
             *Bot Name*: {self.__class__.__name__}
@@ -426,6 +430,71 @@ class SpringTemplateBotExtended(SpringTemplateBot2026):
         condensed = await summarizer_llm.invoke(prompt)
 
         return condensed
+
+    def _format_submitted_forecast(
+        self,
+        aggregated_prediction: PredictionTypes,
+        question: MetaculusQuestion
+    ) -> str:
+        """
+        Format the submitted forecast in a concise, easy-to-scan format.
+
+        Args:
+            aggregated_prediction: The final aggregated prediction
+            question: MetaculusQuestion object
+
+        Returns:
+            Formatted string like:
+            - Binary: "65.32% probability"
+            - Numeric: "p1=13.635; p5=13.955; p10=14.126; p25=14.412; p50=14.729; p75=15.047; p90=15.332; p95=15.503; p99=15.824"
+            - Multiple Choice: "Option A: 43.21%; Option B: 37.45%; Option C: 19.34%"
+        """
+        from forecasting_tools.ai_models.basic_model_interfaces import BinaryQuestion, NumericQuestion, MultipleChoiceQuestion
+
+        # Binary question
+        if isinstance(question, BinaryQuestion):
+            prob_percentage = float(aggregated_prediction) * 100
+            return f"{prob_percentage:.4g}% probability"
+
+        # Numeric question
+        elif isinstance(question, NumericQuestion):
+            # Extract key percentiles
+            key_percentiles = [1, 5, 10, 25, 50, 75, 90, 95, 99]
+            percentile_parts = []
+
+            if hasattr(aggregated_prediction, 'declared_percentiles'):
+                for p in aggregated_prediction.declared_percentiles:
+                    p_int = int(p.percentile * 100)
+                    if p_int in key_percentiles:
+                        # Format with 5 significant figures
+                        value = float(p.value)
+                        formatted_value = float(f"{value:.5g}")
+                        percentile_parts.append(f"p{p_int}={formatted_value}")
+
+            if percentile_parts:
+                return "; ".join(percentile_parts)
+            else:
+                # Fallback if percentiles not available
+                return str(aggregated_prediction)
+
+        # Multiple choice question
+        elif isinstance(question, MultipleChoiceQuestion):
+            option_parts = []
+
+            if hasattr(aggregated_prediction, 'predicted_options'):
+                for opt in aggregated_prediction.predicted_options:
+                    prob_percentage = float(opt.probability) * 100
+                    option_parts.append(f"{opt.option_name}: {prob_percentage:.4g}%")
+
+            if option_parts:
+                return "; ".join(option_parts)
+            else:
+                # Fallback if options not available
+                return str(aggregated_prediction)
+
+        # Unknown question type
+        else:
+            return str(aggregated_prediction)
 
     def _get_tournament_name(self, question: MetaculusQuestion) -> tuple[str, str]:
         """
@@ -518,6 +587,7 @@ class SpringTemplateBotExtended(SpringTemplateBot2026):
         self,
         full_explanation: str,
         question: MetaculusQuestion,
+        aggregated_prediction: PredictionTypes,
     ) -> None:
         """Save complete forecast explanation with enhanced metadata"""
         reports_dir = Path("forecast_summaries")
@@ -557,7 +627,11 @@ class SpringTemplateBotExtended(SpringTemplateBot2026):
             """
         )
 
-        complete_content = metadata_header + full_explanation
+        # Add submitted forecast after metadata
+        submitted_forecast = self._format_submitted_forecast(aggregated_prediction, question)
+        submitted_forecast_section = f"\n**Submitted Forecast**: {submitted_forecast}\n\n"
+
+        complete_content = metadata_header + submitted_forecast_section + full_explanation
 
         with open(filepath, 'w', encoding='utf-8') as f:
             f.write(complete_content)
@@ -681,6 +755,14 @@ class SpringTemplateBotExtended(SpringTemplateBot2026):
                 "std_probability": float(np.std(scenarios))
             }
 
+            # Add submitted forecast
+            prob_percentage = float(aggregated_result) * 100
+            scenario_data["submitted_forecast"] = {
+                "format": "probability",
+                "value": float(aggregated_result),
+                "display": f"{prob_percentage:.4g}% probability"
+            }
+
         elif question_type == "numeric":
             scenario_data["scenarios"]["raw_values"] = scenarios  # List of numeric values
             scenario_data["scenarios"]["num_scenarios"] = len(scenarios)
@@ -716,6 +798,22 @@ class SpringTemplateBotExtended(SpringTemplateBot2026):
                 "mean_value": float(np.mean(scenarios)),
                 "median_value": float(np.median(scenarios)),
                 "std_value": float(np.std(scenarios))
+            }
+
+            # Add submitted forecast
+            key_percentiles = [1, 5, 10, 25, 50, 75, 90, 95, 99]
+            submitted_dict = {}
+            if hasattr(aggregated_result, 'declared_percentiles'):
+                for p in aggregated_result.declared_percentiles:
+                    p_int = int(p.percentile * 100)
+                    if p_int in key_percentiles:
+                        # Format with 5 significant figures
+                        submitted_dict[f"p{p_int}"] = float(f"{float(p.value):.5g}")
+
+            scenario_data["submitted_forecast"] = {
+                "format": "percentiles",
+                "percentiles": submitted_dict,
+                "display": "; ".join([f"{k}={v}" for k, v in submitted_dict.items()])
             }
 
         elif question_type == "multiple_choice":
@@ -754,6 +852,20 @@ class SpringTemplateBotExtended(SpringTemplateBot2026):
                 for option, probs in scenarios.items()
             }
 
+            # Add submitted forecast
+            submitted_dict = {}
+            if hasattr(aggregated_result, 'predicted_options'):
+                submitted_dict = {
+                    opt.option_name: f"{float(opt.probability) * 100:.4g}%"
+                    for opt in aggregated_result.predicted_options
+                }
+
+            scenario_data["submitted_forecast"] = {
+                "format": "multiple_choice",
+                "probabilities": submitted_dict,
+                "display": "; ".join([f"{k}: {v}" for k, v in submitted_dict.items()])
+            }
+
         # Save to JSON file
         with open(scenarios_filepath, 'w', encoding='utf-8') as f:
             json.dump(scenario_data, f, indent=2, ensure_ascii=False)
@@ -786,7 +898,7 @@ class SpringTemplateBotExtended(SpringTemplateBot2026):
         )
 
         # Save full forecast locally
-        self._save_full_forecast_copy(full_explanation, question)
+        self._save_full_forecast_copy(full_explanation, question, aggregated_prediction)
 
         # Generate condensed summary using LLM (run async function synchronously)
         logger.info("Generating condensed summary...")
