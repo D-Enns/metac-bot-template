@@ -52,18 +52,6 @@ class MultiScenarioPrediction(BaseModel):
     )
 
 
-# Data model for multiple choice scenario predictions (3x3 matrix = 9 distributions)
-class MultipleChoiceScenarios(BaseModel):
-    """Nine probability distributions from 3x3 world matrix approach.
-    Each distribution is a list of probabilities (one per option) that sum to 100."""
-    scenarios: list[list[float]] = Field(
-        ...,
-        description="List of 9 probability distributions. Each inner list contains probabilities (0-100) for all options in order. Each distribution must sum to 100.",
-        min_length=9,
-        max_length=9
-    )
-
-
 class SpringTemplateBot2026(ForecastBot):
     """
     This is the template bot for Spring 2026 Metaculus AI Tournament.
@@ -152,7 +140,6 @@ class SpringTemplateBot2026(ForecastBot):
         """Initialize bot with storage for multi-scenario predictions"""
         super().__init__(*args, **kwargs)
         self._numeric_scenarios = []  # Storage for numeric outcome scenarios
-        self._multiple_choice_scenarios = {}  # Storage for MC scenarios, dict of lists keyed by option name
         self._current_question_id = None  # Track question to know when to clear storage
         self._current_call_number = 0  # Track which LLM call we're on for current question
 
@@ -455,90 +442,52 @@ class SpringTemplateBot2026(ForecastBot):
 
         return gpr_model
 
-    def _transpose_mc_scenarios(
-        self,
-        scenarios: list[list[float]],
-        option_names: list[str]
-    ) -> dict[str, list[float]]:
-        """
-        Convert list of distributions to per-option lists for aggregation.
-
-        Args:
-            scenarios: List of 9 distributions, each a list of probabilities (0-100)
-            option_names: List of option names in order
-
-        Returns:
-            Dict mapping option names to lists of probabilities
-
-        Example:
-            Input:  [[60, 30, 10], [65, 25, 10], ...]
-            Output: {"Opt A": [60, 65, ...], "Opt B": [30, 25, ...], "Opt C": [10, 10, ...]}
-        """
-        by_option = {name: [] for name in option_names}
-
-        for i, distribution in enumerate(scenarios):
-            if len(distribution) != len(option_names):
-                logger.warning(
-                    f"Scenario {i+1} has {len(distribution)} values but expected {len(option_names)} "
-                    f"(options: {option_names}). Skipping this scenario."
-                )
-                continue
-
-            for j, option_name in enumerate(option_names):
-                by_option[option_name].append(distribution[j])
-
-        logger.info(
-            f"Transposed {len(scenarios)} distributions into per-option lists. "
-            f"Each option now has {len(by_option[option_names[0]])} scenarios."
-        )
-
-        return by_option
-
     ##################################### AGGREGATION OVERRIDE #####################################
     # GPR aggregation moved to dre_forecasting_tools.py
 
     ##################################### MULTIPLE CHOICE QUESTIONS #####################################
 
+    # dre 02/01/2026 - Production
     async def _run_forecast_on_multiple_choice(
         self, question: MultipleChoiceQuestion, research: str
     ) -> ReasonedPrediction[PredictedOptionList]:
         prompt = clean_indents(
             f"""
             # Make a Professional Forecast
-  
+
             ## You are a professional forecaster interviewing for a job.
-          
+
             ## Your interview question is:
             {question.question_text}
-          
+
             ## The options are:
             {question.options}
-          
+
             ## Question background:
             {question.background_info}
-          
+
             ## This question's outcome will be determined by the specific criteria below. These criteria have not yet been satisfied:
             {question.resolution_criteria}
-          
+
             {question.fine_print}
-          
+
             ## Your research assistant says:
             {research}
-          
+
             ## Today is {datetime.now().strftime("%Y-%m-%d")}.
-          
+
             ## Your workflow
-          
+
             ### Strategy
-            Your general strategy is to consider multiple scenarios across different interpretations of the evidence.
-            For each interpretation, you will provide probability distributions under different
-            conditions (trendline, baseline, chaos).
-          
+            Your general strategy is to generate multiple scenarios across different interpretations of the evidence.
+            For each interpretation, you will generate probability distributions under different conditions, and use those
+            to guide your forecast reasoning.
+
             ### Precision
             You do not preferentially choose round probabilities like 10%, 20%, 30%, etc. Instead you make your best forecast,
-            allowing values such as 12%, 17%, 34%, 48%, 71%...  Avoid forecasts below 1% or above 99%. You ensure that 
+            allowing values such as 12%, 17%, 34%, 48%, 71%...  Avoid forecasts below 1% or above 99%. You ensure that
             probabilities for all options sum to exactly 100% for each distribution you provide.
-          
+
             ### Before answering you write:
             1. The time left until the outcome to the question is known.
             2. The status quo outcome - which option is most likely if nothing changed.
@@ -546,149 +495,94 @@ class SpringTemplateBot2026(ForecastBot):
             4. The outcome if the current trends continued.
             5. A brief description of a scenario that results in the status quo option.
             6. A brief description of a scenario that results in an unexpected or alternative option.
-          
+
             ### You write your rationale remembering that:
             - Good forecasters put extra weight on the status quo outcome since the world changes slowly most of the time.
             - Good forecasters leave moderate probability on multiple options to account for unexpected outcomes.
-          
-            ### Group the evidence
+
+            ### Consider base rates and analogs
+            - Are there analogs that suggest what the probability should be in the absence of other evidence (base rate)
+            - Could this be a question dominated by simple probability, e.g. the chance that the roll of a single dice might be 6
+            - Do the base rates affect the options differently?
+            - How should base rates anchor or adjust your interpretation of the scenario range?
+            - Note your observations on base rates
+
+            ### Question options
+            There are N options in this question, in this order:
+            {question.options}
+
+            ### Scenario based forecast
+            At this stage, you treat each option as an independent, binary question.
+            For each option you conduct the following steps:
+
+            #### You write:
+            - The status quo outcome if nothing changed for the option.
+            - The expectations of experts and markets for the option.
+            - A brief description of a scenario that results in a No outcome for the option.
+            - A brief description of a scenario that results in a Yes outcome for the option.
+
+            #### Group the evidence for the option
             Review the evidence from your research assistant and group it into three buckets of approximately the same size:
-            - Bucket 1. Evidence supporting the status quo or most expected outcome
-            - Bucket 2. Evidence suggesting balanced uncertainty or multiple plausible outcomes
-            - Bucket 3. Evidence favoring unexpected, alternative, or less conventional outcomes
-          
-            ### Multi-world considerations
-            You explore ranges of reasonable probability distributions.
-            You consider three worlds, one world based on each bucket of evidence:
-          
-            1. StatusQuo_World: review the bucket 1 evidence from your research assistant that
-               supports the most expected outcome, summarize.
-               - Trendline: probability distribution if trends present in this world continue
-               - Baseline: probability distribution most supported by evidence in this world
-               - Chaos: probability distribution given chaotic conditions that could occur in this world
+            - Bucket 1. Evidence that would indicate a relatively low forecast
+            - Bucket 2. Evidence that would indicate a central forecast
+            - Bucket 3. Evidence that would indicate a relatively high forecast
 
-            2. Balanced_World: review the bucket 2 evidence from your research assistant suggesting
-               uncertainty across multiple outcomes, summarize.
-               - Trendline: probability distribution if trends present in this world continue
-               - Baseline: probability distribution most supported by evidence in this world
-               - Chaos: probability distribution given chaotic conditions that could occur in this world
+            #### Multi-world considerations for the option
+            Now you want to explore ranges of reasonable possible forecasts for the option. You consider three worlds:
+            1. Low_World: review the bucket 1 evidence from your research assistant that the forecast could be low.
+            - What would be a low forecast estimate for this world?
+            - What would be a mid forecast estimate for this world?
+            - What would be a high forecast estimate for this world?
+            2. Mid_World: review the bucket 2 evidence from your research assistant that the forecast could be around the central views and trends.
+            - What would be a low forecast estimate for this world?
+            - What would be a mid forecast estimate for this world?
+            - What would be a high forecast estimate for this world?
+            3. High_World: review the bucket 3 evidence from your research assistant that the forecast could be high.
+            - What would be a low forecast estimate be for this world?
+            - What would be a mid forecast estimate for this world?
+            - What would be a high forecast estimate be for this world?
 
-            3. Unexpected_World: review the bucket 3 evidence from your research assistant favoring
-                less conventional outcomes, summarize.
-               - Trendline: probability distribution if trends present in this world continue
-               - Baseline: probability distribution most supported by evidence in this world
-               - Chaos: probability distribution given chaotic conditions that could occur in this world
-          
-            # Final Answer
-            The last thing you write is your final answer as 9 probability distributions for the world scenarios.
-            Each distribution assigns a probability to every option in {question.options}, and all probabilities in each
-            distribution must sum to exactly 100.
+            #### Order the estimates for the option
+            You order the 9 estimates for the option from low to high to represent a possible range of reasonable forecasts.
 
-            Write them in order as a list of 9 lists:
-            [[StatusQuo_World-Trendline], [StatusQuo_World-Baseline], [StatusQuo_World-Chaos],
-            [Balanced_World-Trendline], [Balanced_World-Baseline], [Balanced_World-Chaos],
-            [Unexpected_World-Trendline], [Unexpected_World-Baseline], [Unexpected_World-Chaos]]
+            #### Forecast the probability for the option
+            Considering the 9 estimates ordered from low to high for the option:
+            - You use your judgment to select values for percentiles P10, P20, P30...P90
+            - The 9 scenarios provide guideposts, but you may adjust based on evidence strength
+            - Your P50 (median) is your preliminary estimate of probability for this option
+            - Write these as: P10: X%, P20: Y%, ... P90: Z%
 
-            Each inner list contains probabilities for the options in this exact order: {question.options}
+            ## Consolidate and adjust the multiple choice option forecasts
+            Sort the option probabilities from highest to lowest and reflect on:
+            - The options should sum to 100%
+            - Does the relative probability of each option make sense?
+            - Does the status quo impact the probability?
+            - Does evidence suggest moving away from the status quo?
+            - Does the evidence indicate the preliminary probability should be adjusted?
+            - Avoid assigning extreme low probabilities (less than 1%) to any option.
 
-            IMPORTANT:
-            - Write probabilities as numbers without percent signs
-            - Each inner list must have exactly {len(question.options)} values
-            - Each inner list must sum to exactly 100
+            ## Final forecast
+            You make your final and best forecast using any adjustments after reflection and remembering to report at 1%
+            precision.
+
+            The last thing you write is your final probabilities for the N options in this order {question.options} as:
+            Option_A: Probability_A
+            Option_B: Probability_B
+            ...
+            Option_N: Probability_N
             """
         )
-        return await self._multiple_choice_prompt_to_forecast(question, prompt)
-
-    async def _multiple_choice_prompt_to_forecast(
-        self,
-        question: MultipleChoiceQuestion,
-        prompt: str,
-    ) -> ReasonedPrediction[PredictedOptionList]:
-        # Clear storage if this is a new question
-        logger.info(f"[GPR DEBUG] In _multiple_choice_prompt_to_forecast. Current ID: {self._current_question_id}, Question URL: {question.page_url}, Match: {self._current_question_id == question.page_url}")
-        if self._current_question_id != question.page_url:
-            self._multiple_choice_scenarios = {}
-            self._current_question_id = question.page_url
-            logger.info(f"Starting new MC question {question.page_url}, cleared scenario storage")
-
         reasoning = await self.get_llm("default", "llm").invoke(prompt)
         logger.info(f"Reasoning for URL {question.page_url}: {reasoning}")
 
-        # Parse 9 probability distributions from prompt
-        mc_scenario_prediction: MultipleChoiceScenarios = await structure_output(
-            reasoning,
-            MultipleChoiceScenarios,
-            model=self.get_llm("parser", "llm"),
-            num_validation_samples=self._structure_output_validation_samples,
+        mc_prediction: PredictedOptionList = await structure_output(
+            reasoning, PredictedOptionList, model=self.get_llm("parser", "llm")
         )
-
-        # Auto-correct decimal/percentage confusion: if all values in all distributions < 1.0
-        all_values = [val for dist in mc_scenario_prediction.scenarios for val in dist]
-        if all_values and max(all_values) < 1.0:
-            logger.warning(
-                f"[DECIMAL DETECTED] MC distributions all have values < 1.0. "
-                f"LLM likely returned decimals (0-1) instead of percentages (0-100). Auto-correcting by ×100."
-            )
-            mc_scenario_prediction.scenarios = [
-                [val * 100 for val in dist] for dist in mc_scenario_prediction.scenarios
-            ]
-            logger.info(
-                f"[RESCALED] MC distributions after correction. "
-                f"Example first distribution: {mc_scenario_prediction.scenarios[0]}"
-            )
 
         logger.info(
-            f"Parsed {len(mc_scenario_prediction.scenarios)} distributions for MC question"
+            f"Forecasted URL {question.page_url} with MC prediction: {mc_prediction}"
         )
-
-        # Convert list of distributions to per-option lists
-        scenarios_by_option = self._transpose_mc_scenarios(
-            mc_scenario_prediction.scenarios,
-            question.options
-        )
-
-        # Store scenarios (extend existing lists or create new ones)
-        for option_name, probabilities in scenarios_by_option.items():
-            if option_name not in self._multiple_choice_scenarios:
-                self._multiple_choice_scenarios[option_name] = []
-            self._multiple_choice_scenarios[option_name].extend(probabilities)
-
-        logger.info(
-            f"Total scenarios stored for MC question {question.page_url}: "
-            f"{len(self._multiple_choice_scenarios.get(question.options[0], []))} scenarios per option"
-        )
-
-        # Return median value to framework (framework will collect all predictions)
-        # Calculate median per option, then normalize
-        median_probs = {}
-        for option_name in question.options:
-            if option_name in self._multiple_choice_scenarios:
-                median_probs[option_name] = float(np.median(self._multiple_choice_scenarios[option_name]))
-            else:
-                median_probs[option_name] = 0.0
-
-        # Normalize to sum to 100
-        total = sum(median_probs.values())
-        if total > 0:
-            normalized_probs = {opt: (prob / total) * 100 for opt, prob in median_probs.items()}
-        else:
-            # Equal probability fallback
-            normalized_probs = {opt: 100.0 / len(question.options) for opt in question.options}
-
-        # Convert to 0-1 scale for PredictedOptionList
-        from forecasting_tools.data_models.multiple_choice_report import PredictedOption
-        predicted_options = [
-            PredictedOption(option_name=opt, probability=normalized_probs[opt] / 100)
-            for opt in question.options
-        ]
-        predicted_option_list = PredictedOptionList(predicted_options=predicted_options)
-
-        logger.info(
-            f"Returning median MC forecast for URL {question.page_url}: {normalized_probs}"
-        )
-        return ReasonedPrediction(
-            prediction_value=predicted_option_list, reasoning=reasoning
-        )
+        return ReasonedPrediction(prediction_value=mc_prediction, reasoning=reasoning)
 
     ##################################### NUMERIC QUESTIONS #####################################
 
@@ -1406,8 +1300,8 @@ if __name__ == "__main__":
     elif run_mode == "test_questions":
         # Example questions are a good way to test the bot's performance on a single question
         EXAMPLE_QUESTIONS = [
-            "https://www.metaculus.com/questions/578/human-extinction-by-2100/",  # Binary
-            # "https://www.metaculus.com/questions/22427/number-of-new-leading-ai-labs/",  # Multiple Choice
+            # "https://www.metaculus.com/questions/578/human-extinction-by-2100/",  # Binary
+            "https://www.metaculus.com/questions/22427/number-of-new-leading-ai-labs/",  # Multiple Choice
             # "https://www.metaculus.com/questions/14333/age-of-oldest-human-as-of-2100/",  # Numeric
             # "https://www.metaculus.com/c/diffusion-community/38880/how-many-us-labor-strikes-due-to-ai-in-2029/",  # Discrete Numeric
         ]

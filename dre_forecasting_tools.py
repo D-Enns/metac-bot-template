@@ -124,51 +124,7 @@ class SpringTemplateBotExtended(SpringTemplateBot2026):
             logger.info(f"[PROBIT DEBUG] Numeric aggregation complete. Returning distribution with {len(probit_distribution.declared_percentiles)} percentiles (R²={r_squared:.4f})")
             return probit_distribution
 
-        # Multiple choice questions: GPR aggregation per option
-        elif isinstance(question, MultipleChoiceQuestion) and self._multiple_choice_scenarios:
-            # Check if we have enough scenarios (at least 9 per option)
-            first_option = list(self._multiple_choice_scenarios.keys())[0]
-            num_scenarios = len(self._multiple_choice_scenarios[first_option])
-
-            logger.info(f"[GPR DEBUG] _aggregate_predictions called for MC question with {len(predictions)} predictions")
-            logger.info(f"[GPR DEBUG] Using GPR aggregation on {num_scenarios} scenarios per option")
-
-            if num_scenarios >= 9:
-                # Run GPR aggregation
-                gpr_results = self._gpr_aggregate_multiple_choice(self._multiple_choice_scenarios)
-
-                # Convert to PredictedOptionList
-                predicted_options = [
-                    PredictedOption(option_name=opt, probability=prob)
-                    for opt, prob in gpr_results.items()
-                ]
-                result = PredictedOptionList(predicted_options=predicted_options)
-
-                # Save scenario data before clearing
-                try:
-                    self._save_scenario_data(
-                        scenarios=self._multiple_choice_scenarios,
-                        question=question,
-                        aggregated_result=result,
-                        question_type="multiple_choice"
-                    )
-                except Exception as e:
-                    logger.error(f"Error saving multiple choice scenario data: {e}")
-
-                # Clear scenarios after aggregation
-                self._multiple_choice_scenarios = {}
-                self._current_question_id = None
-                self._current_call_number = 0
-
-                logger.info(f"[GPR DEBUG] MC aggregation complete. Returning GPR result")
-                return result
-            else:
-                logger.warning(
-                    f"MC question has only {num_scenarios} scenarios per option (need >=9), "
-                    f"using default framework aggregation"
-                )
-
-        # Fallback: Use default framework aggregation for other question types or insufficient scenarios
+        # Fallback: Use default framework aggregation for binary, multiple choice, and other question types
         logger.info(f"[GPR DEBUG] Using default aggregation for {type(question).__name__}")
         return await super()._aggregate_predictions(predictions, question)
 

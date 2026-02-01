@@ -1,0 +1,131 @@
+    # dre 02/01/2026 - Production
+    async def _run_forecast_on_multiple_choice(
+        self, question: MultipleChoiceQuestion, research: str
+    ) -> ReasonedPrediction[PredictedOptionList]:
+        prompt = clean_indents(
+            f"""
+            # Make a Professional Forecast
+  
+            ## You are a professional forecaster interviewing for a job.
+          
+            ## Your interview question is:
+            {question.question_text}
+          
+            ## The options are:
+            {question.options}
+          
+            ## Question background:
+            {question.background_info}
+          
+            ## This question's outcome will be determined by the specific criteria below. These criteria have not yet been satisfied:
+            {question.resolution_criteria}
+          
+            {question.fine_print}
+          
+            ## Your research assistant says:
+            {research}
+          
+            ## Today is {datetime.now().strftime("%Y-%m-%d")}.
+          
+            ## Your workflow
+          
+            ### Strategy
+            Your general strategy is to generate multiple scenarios across different interpretations of the evidence.
+            For each interpretation, you will provide probability distributions under different conditions: 
+            - Trendline: Apparent trends and volatility continue going forward
+            - Baseline: Variation around the status quo
+            - Chaos: Unexpected events and changes strongly impact the outcome
+          
+            ### Precision
+            You do not preferentially choose round probabilities like 10%, 20%, 30%, etc. Instead you make your best forecast,
+            allowing values such as 12%, 17%, 34%, 48%, 71%...  Avoid forecasts below 1% or above 99%. You ensure that 
+            probabilities for all options sum to exactly 100% for each distribution you provide.
+          
+            ### Before answering you write:
+            1. The time left until the outcome to the question is known.
+            2. The status quo outcome - which option is most likely if nothing changed.
+            3. The expectations of experts and markets about which options are favored.
+            4. The outcome if the current trends continued.
+            5. A brief description of a scenario that results in the status quo option.
+            6. A brief description of a scenario that results in an unexpected or alternative option.
+          
+            ### You write your rationale remembering that:
+            - Good forecasters put extra weight on the status quo outcome since the world changes slowly most of the time.
+            - Good forecasters leave moderate probability on multiple options to account for unexpected outcomes.
+
+            ### Consider base rates and analogs
+            - Are there analogs that suggest what the probability should be in the absence of other evidence (base rate)
+            - Could this be a question dominated by simple probability, e.g. the chance that the roll of a single dice might be 6
+            - Do the base rates affect the options differently?
+            - How should base rates anchor or adjust your interpretation of the scenario range?
+            - Note your observations on base rates
+          
+            ### Question options
+            There are N options in this question, in this order:
+            {question.options}
+
+            ### Scenario based forecast
+            At this stage, you treat each option as an independent, binary question. 
+            For each option you conduct the following steps:
+            
+            #### You write:
+            - The status quo outcome if nothing changed for the option.
+            - The expectations of experts and markets for the option.
+            - A brief description of a scenario that results in a No outcome for the option.
+            - A brief description of a scenario that results in a Yes outcome for the option.
+            
+            #### Group the evidence for the option
+            Review the evidence from your reseach assistant and group it into three buckets of approximately the same size:
+            - Bucket 1. Evidence that would indicate a relatively low forecast
+            - Bucket 2. Evidence that would indicate a central forecast
+            - Bucket 3. Evidence that would indicate a relatively high forecast
+            
+            #### Multi-world considerations for the option
+            Now you want to explore ranges of reasonable possible forecasts for the option. You consider three worlds:
+            1. Low_World: review the bucket 1 evidence from your reseach assistant that the forecast could be low.
+            - What would an appropriate base rate be for this world?
+            - What would be a low forecast estimate for this world?
+            - What would be a mid forecast estimate for this world?
+            - What would be a high forecast estimate for this world?
+            2. Mid_World: review the bucket 2 evidence from your reseach assistant that the forecast could be around the central views and trends.
+            - What would an appropriate base rate be for this world?
+            - What would be a low forecast estimate for this world?
+            - What would be a mid forecast estimate for this world?
+            - What would be a high forecast estimate for this world?
+            3. High_World: review the bucket 2 evidence from your reseach assistant that the forecast could be high.
+            - What would an appropriate base rate be for this world:
+            - What would be a low forecast estimate be for this world?
+            - What would be a mid forecast estimate for this world?
+            - What would be a high forecast estimate be for this world?
+
+            #### Order the estimates for the option
+            You order the 9 estimates for the option from low to high because you know that these values represent a 
+            range of resonable forecasts.
+
+            #### Forecast the probability for the option
+            Considering the 9 estimates ordered from low to high for the option
+            - You use your judgment to make a table of with percentiles of probability
+              from P10 to p90 on increments of 10
+            - The 50th percentile is your preliminary estimate of probability for the option
+
+            ## Consolidate and adjust the multiple choice option forecasts
+            Sort the option probabilities from highest to lowest and reflect on:
+            - The options should sum to 100%
+            - Does the relative probability of each option make sense?
+            - Does the status quo impact the probability?
+            - Does evidence suggest moving away from the status quo?
+            - Does the evidence indicate the preliminary probability should be adjusted?
+            - Avoid assigning extreme low probabilities to any option.
+          
+            ## Final forecast
+            You make your final and best forecast using any adjustments after reflection and remembering to report at 1%
+            precision.
+            
+            The last thing you write is your final probabilities for the N options in this order {question.options} as:
+            Option_A: Probability_A
+            Option_B: Probability_B
+            ...
+            Option_N: Probability_N
+            """
+        )
+        return await self._multiple_choice_prompt_to_forecast(question, prompt)
