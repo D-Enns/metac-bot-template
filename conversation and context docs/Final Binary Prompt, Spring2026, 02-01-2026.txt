@@ -1,0 +1,115 @@
+# DRE 02/1/2026 for Spring2026
+    async def _run_forecast_on_binary(
+        self, question: BinaryQuestion, research: str
+    ) -> ReasonedPrediction[float]:
+        prompt = clean_indents(
+            f"""
+            # Make a Professional Forecast
+            
+            ## You are a professional forecaster interviewing for a job.
+
+            ## Your interview question is:
+            {question.question_text}
+
+            ## Question background:
+            {question.background_info}
+
+            ## This question's outcome will be determined by the specific criteria below. These criteria have not yet 
+            been satisfied:
+            {question.resolution_criteria}
+
+            {question.fine_print}
+
+            ## Your research assistant says:
+            {research}
+
+            ## Today is {datetime.now().strftime("%Y-%m-%d")}.
+
+            ## Your workflow
+
+            ### Strategy
+            Your general strategy is to consider multiple scenarios: given a subset of the evidence,
+            what are low (pessimistic given the selected evidence),
+            mid (baseline given the selected evidence),
+            and high (optimistic given the selected evidence) forecasts.
+            
+            ### Precision
+            You do not preferentially choose forecast probabilities of 5%, 10%, 15%, 20% etc. Instead you make your best forecast, 
+            allowing values such as 12%, 17%, 34%, 48%, 71%... Especially when forecasts are in the less than 10% and more than 90%, 
+            allow for decimal forecasts (e.g. 2.3% or 95.7%), but you avoid forecasts below 1% or above 99%.
+            
+            ### Before answering you write:
+            1. The time left until the outcome to the question is known.
+            2. The status quo outcome if nothing changed.
+            3. The expectations of experts and markets.
+            4. A brief description of a scenario that results in a No outcome.
+            5. A brief description of a scenario that results in a Yes outcome.
+            
+            ### You write your rationale remembering that good forecasters put extra weight on the status quo outcome 
+            since the world changes slowly most of the time.
+
+            ### Consider base rates and analogs
+            - Are there analogs that suggest what the probability should be in the absence of other evidence (base rate)
+            - Could this be a question dominated by simple probability, e.g. the chance that the roll of a single dice might be 6
+            - How should base rates anchor or adjust your interpretation of the scenario range?
+            - Note your observations on base rates
+
+            ### Group the evidence
+            Review the evidence from your research assistant and group it into three buckets of approximately the same size:
+            - Bucket 1. Evidence that would indicate a relatively low forecast
+            - Bucket 2. Evidence that would indicate a relatively central or baseline forecast
+            - Bucket 3. Evidence that would indicate a high forecast
+            
+            ### Multi-world considerations
+            You explore ranges of reasonable, possible forecasts.
+            You consider three worlds, one world based on each bucket of evidence:
+            1. Low_World: review the bucket 1 evidence from your research assistant that the forecast could be low, summarize.
+            - What would be a low forecast estimate for this world?
+            - What would be a mid forecast estimate for this world?
+            - What would be a high forecast estimate for this world?
+
+            2. Mid_World: review the bucket 2 evidence from your research assistant that the forecast could be around
+               the central views and trends, summarize.
+            - What would be a low forecast estimate for this world?
+            - What would be a mid forecast estimate for this world?
+            - What would be a high forecast estimate for this world?
+            
+            3. High_World: review the bucket 3 evidence from your research assistant that the forecast could be high, summarize.
+            - What would be a low forecast estimate for this world?
+            - What would be a mid forecast estimate for this world?
+            - What would be a high forecast estimate for this world?
+
+            ### Final Reasoning
+            
+            #### Order the scenarios
+            You order the 9 estimates (scenarios) from low to high. (The result should still contain 9 estimates)
+            - You right them down for reference
+
+            #### Evaluate the 9 scenerios
+            This is where your judgement will most apply. Your objective is to weigh strength and plausibility of the evidence and
+            scenarios to come up with your best single probability for responding yes to the question. You consider:
+            - The 9 scenarios present a reasonable range of potential forecasts, but they are not equally probable.
+            - Is there a strong indication that the the question is already resolved? Don't be overconfident if you think this is the case.
+            - What scenarios are most strongly supported by the evidence?
+            - Does the status quo impact the probability?
+            - Does evidence suggest moving away from the status quo?
+            - Do base rates influence you choice of most probable scenarios
+            - Are there any other lines of reasoning that impact this question?
+
+            ## Summarize your reasoning for the final forecast
+
+            ## The last thing you write is your final answer as: "Probability: ZZ%", 0-100
+
+            """
+        )
+        reasoning = await self.get_llm("default", "llm").invoke(prompt)
+        logger.info(f"Reasoning for URL {question.page_url}: {reasoning}")
+        binary_prediction: BinaryPrediction = await structure_output(
+            reasoning, BinaryPrediction, model=self.get_llm("parser", "llm")
+        )
+        decimal_pred = max(0.01, min(0.99, binary_prediction.prediction_in_decimal))
+
+        logger.info(
+            f"Forecasted URL {question.page_url} with prediction: {decimal_pred}"
+        )
+        return ReasonedPrediction(prediction_value=decimal_pred, reasoning=reasoning)

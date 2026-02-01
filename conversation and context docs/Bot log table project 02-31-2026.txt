@@ -1,0 +1,24 @@
+# Bot Forecast Log 
+Make spreadsheet containing one-line information on bot forecasts for each question
+
+## Data source
+
+### condensed forecast summaries with titles in the format f"{forecast_number}_{tournament}_condensed.md
+- forecast_number is also referred to as "Forecast ID"
+- date of forecast
+- time of forecast
+- question_type: "Question Type"
+- tournament is also "Tournament" 
+
+## Prepare the table 
+- One row for each forecast
+- columns: (run,forecast_number, date, time, question_type, question url, comments, forecast value(s) )
+
+### Forecast values
+Forecast values have different formats depending on type of question
+- Binary questions: a single percentage value, for example "51.03" that represents percentage
+- Multiple choice questions: a dictionary of values named as in the summary but with underscores, for example {"Option_A": 52%, "Option_B": 48%
+- Numeric: a dictionary with percentiles: e.g. {"p1": 228, "p25": 882, "p50": 1150, "p75" 1417, "p99": 2000}
+
+## Write it as a tab seperated table (.tsv)
+- write location: C:\Users\Donni\projects\metac_bot_Spring_2026\all_forecast_summaries

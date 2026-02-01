@@ -151,7 +151,6 @@ class SpringTemplateBot2026(ForecastBot):
     def __init__(self, *args, **kwargs):
         """Initialize bot with storage for multi-scenario predictions"""
         super().__init__(*args, **kwargs)
-        self._binary_scenarios = []  # Storage for low/mid/high scenarios
         self._numeric_scenarios = []  # Storage for numeric outcome scenarios
         self._multiple_choice_scenarios = {}  # Storage for MC scenarios, dict of lists keyed by option name
         self._current_question_id = None  # Track question to know when to clear storage
@@ -211,21 +210,14 @@ class SpringTemplateBot2026(ForecastBot):
 
     ##################################### BINARY QUESTIONS #####################################
 
+    # DRE 02/1/2026 for Spring2026
     async def _run_forecast_on_binary(
         self, question: BinaryQuestion, research: str
     ) -> ReasonedPrediction[float]:
-        # Track which call number this is for the current question
-        if self._current_question_id != question.page_url:
-            self._current_call_number = 0
-            logger.info(f"[GPR DEBUG] New question detected. Resetting counter. ID was: {self._current_question_id}, now: {question.page_url}")
-        self._current_call_number = getattr(self, '_current_call_number', 0) + 1
-        logger.info(f"[GPR DEBUG] Call number: {self._current_call_number}, Scenarios so far: {len(self._binary_scenarios)}, Question: {question.page_url}")
-
-        # DRE 01-01-2026 Binary for Spring2026
         prompt = clean_indents(
             f"""
             # Make a Professional Forecast
-            
+
             ## You are a professional forecaster interviewing for a job.
 
             ## Your interview question is:
@@ -234,7 +226,7 @@ class SpringTemplateBot2026(ForecastBot):
             ## Question background:
             {question.background_info}
 
-            ## This question's outcome will be determined by the specific criteria below. These criteria have not yet 
+            ## This question's outcome will be determined by the specific criteria below. These criteria have not yet
             been satisfied:
             {question.resolution_criteria}
 
@@ -249,30 +241,37 @@ class SpringTemplateBot2026(ForecastBot):
 
             ### Strategy
             Your general strategy is to consider multiple scenarios: given a subset of the evidence,
-            what are low (most pessimistic given the selected evidence), mid (your baseline given the selected evidence), 
+            what are low (pessimistic given the selected evidence),
+            mid (baseline given the selected evidence),
             and high (optimistic given the selected evidence) forecasts.
-            
+
             ### Precision
-            You do not preferentially choose forecast probabilities of 5%, 10%, 15%, 20% etc. Instead you make your best forecast, 
-            allowing values such as 12%, 17%, 34%, 48%, 71%... Especially when forecasts are in the less than 10% and more than 90%, 
+            You do not preferentially choose forecast probabilities of 5%, 10%, 15%, 20% etc. Instead you make your best forecast,
+            allowing values such as 12%, 17%, 34%, 48%, 71%... Especially when forecasts are in the less than 10% and more than 90%,
             allow for decimal forecasts (e.g. 2.3% or 95.7%), but you avoid forecasts below 1% or above 99%.
-            
+
             ### Before answering you write:
             1. The time left until the outcome to the question is known.
             2. The status quo outcome if nothing changed.
             3. The expectations of experts and markets.
             4. A brief description of a scenario that results in a No outcome.
             5. A brief description of a scenario that results in a Yes outcome.
-            
-            ### You write your rationale remembering that good forecasters put extra weight on the status quo outcome 
+
+            ### You write your rationale remembering that good forecasters put extra weight on the status quo outcome
             since the world changes slowly most of the time.
+
+            ### Consider base rates and analogs
+            - Are there analogs that suggest what the probability should be in the absence of other evidence (base rate)
+            - Could this be a question dominated by simple probability, e.g. the chance that the roll of a single dice might be 6
+            - How should base rates anchor or adjust your interpretation of the scenario range?
+            - Note your observations on base rates
 
             ### Group the evidence
             Review the evidence from your research assistant and group it into three buckets of approximately the same size:
             - Bucket 1. Evidence that would indicate a relatively low forecast
             - Bucket 2. Evidence that would indicate a relatively central or baseline forecast
             - Bucket 3. Evidence that would indicate a high forecast
-            
+
             ### Multi-world considerations
             You explore ranges of reasonable, possible forecasts.
             You consider three worlds, one world based on each bucket of evidence:
@@ -281,93 +280,51 @@ class SpringTemplateBot2026(ForecastBot):
             - What would be a mid forecast estimate for this world?
             - What would be a high forecast estimate for this world?
 
-            2. Mid_World: review the bucket 2 evidence from your research assistant that the forecast could be around 
+            2. Mid_World: review the bucket 2 evidence from your research assistant that the forecast could be around
                the central views and trends, summarize.
             - What would be a low forecast estimate for this world?
             - What would be a mid forecast estimate for this world?
             - What would be a high forecast estimate for this world?
-            
+
             3. High_World: review the bucket 3 evidence from your research assistant that the forecast could be high, summarize.
             - What would be a low forecast estimate for this world?
             - What would be a mid forecast estimate for this world?
             - What would be a high forecast estimate for this world?
 
-            # Final Answer
-            The last thing you write is your final answer as a list of values for the world scenarios. Written as a list: 
-            
-            [Low_World-Low, Low_World-Mid, Low_World-High, Mid_World-Low, Mid_World-Mid, Mid_World-High, High_World-Low,
-            High_World-Mid, High_World-High]
-            
-            IMPORTANT: Write only the numbers without percent signs inside the brackets.
+            ### Final Reasoning
+
+            #### Order the scenarios
+            You order the 9 estimates (scenarios) from low to high. (The result should still contain 9 estimates)
+            - You right them down for reference
+
+            #### Evaluate the 9 scenerios
+            This is where your judgement will most apply. Your objective is to weigh strength and plausibility of the evidence and
+            scenarios to come up with your best single probability for responding yes to the question. You consider:
+            - The 9 scenarios present a reasonable range of potential forecasts, but they are not equally probable.
+            - Is there a strong indication that the the question is already resolved? Don't be overconfident if you think this is the case.
+            - What scenarios are most strongly supported by the evidence?
+            - Does the status quo impact the probability?
+            - Does evidence suggest moving away from the status quo?
+            - Do base rates influence you choice of most probable scenarios
+            - Are there any other lines of reasoning that impact this question?
+
+            ## Summarize your reasoning for the final forecast
+
+            ## The last thing you write is your final answer as: "Probability: ZZ%", 0-100
+
             """
         )
-
-        result = await self._binary_prompt_to_forecast(question, prompt)
-
-        # Don't aggregate here - let the framework call _aggregate_predictions instead
-        # This avoids race conditions with async calls
-        logger.info(f"[GPR DEBUG] Returning mid value. Scenarios stored: {len(self._binary_scenarios)}")
-        return result
-
-    async def _binary_prompt_to_forecast(
-        self,
-        question: BinaryQuestion,
-        prompt: str,
-    ) -> ReasonedPrediction[float]:
-        # Clear storage if this is a new question
-        logger.info(f"[GPR DEBUG] In _binary_prompt_to_forecast. Current ID: {self._current_question_id}, Question URL: {question.page_url}, Match: {self._current_question_id == question.page_url}")
-        if self._current_question_id != question.page_url:
-            self._binary_scenarios = []
-            self._current_question_id = question.page_url
-            logger.info(f"Starting new question {question.page_url}, cleared scenario storage")
-
         reasoning = await self.get_llm("default", "llm").invoke(prompt)
         logger.info(f"Reasoning for URL {question.page_url}: {reasoning}")
-
-        # Parse variable number of scenarios from prompt
-        scenario_prediction: MultiScenarioPrediction = await structure_output(
-            reasoning,
-            MultiScenarioPrediction,
-            model=self.get_llm("parser", "llm"),
-            num_validation_samples=self._structure_output_validation_samples,
+        binary_prediction: BinaryPrediction = await structure_output(
+            reasoning, BinaryPrediction, model=self.get_llm("parser", "llm")
         )
-
-        # Auto-correct decimal/percentage confusion: if all values < 1.0, LLM likely returned decimals
-        if scenario_prediction.scenarios and max(scenario_prediction.scenarios) < 1.0:
-            logger.warning(
-                f"[DECIMAL DETECTED] Binary scenarios all < 1.0: {scenario_prediction.scenarios}. "
-                f"LLM likely returned decimals (0-1) instead of percentages (0-100). Auto-correcting by ×100."
-            )
-            scenario_prediction.scenarios = [s * 100 for s in scenario_prediction.scenarios]
-            logger.info(f"[RESCALED] Binary scenarios after correction: {scenario_prediction.scenarios}")
-
-        # Convert all scenarios from 0-100 to 0-1 scale and clamp
-        scenarios_decimal = [
-            max(0.01, min(0.99, s / 100)) for s in scenario_prediction.scenarios
-        ]
-
-        # Store all scenarios
-        self._binary_scenarios.extend(scenarios_decimal)
-
-        # Warn if unusually few scenarios (likely LLM didn't follow prompt)
-        if len(scenario_prediction.scenarios) < 2:
-            logger.warning(
-                f"Only {len(scenario_prediction.scenarios)} scenario(s) returned - check prompt clarity"
-            )
+        decimal_pred = max(0.01, min(0.99, binary_prediction.prediction_in_decimal))
 
         logger.info(
-            f"Parsed {len(scenario_prediction.scenarios)} scenarios: {scenario_prediction.scenarios}"
+            f"Forecasted URL {question.page_url} with prediction: {decimal_pred}"
         )
-        logger.info(
-            f"Total scenarios stored for question {question.page_url}: {len(self._binary_scenarios)} scenarios"
-        )
-
-        # Return median value to framework (framework will collect all predictions)
-        median_decimal = float(np.median(scenarios_decimal))
-        logger.info(
-            f"Returning median forecast for URL {question.page_url}: {median_decimal:.4f}"
-        )
-        return ReasonedPrediction(prediction_value=median_decimal, reasoning=reasoning)
+        return ReasonedPrediction(prediction_value=decimal_pred, reasoning=reasoning)
 
     def _gpr_aggregate_binary(self, scenarios: list[float]) -> float:
         """
