@@ -1255,7 +1255,7 @@ if __name__ == "__main__":
 
     template_bot = SpringTemplateBotExtended(
         research_reports_per_question=1,
-        predictions_per_research_report=4,  # 8 desired in production.
+        predictions_per_research_report=6,  # Increased from 4 to 6 for better coverage (8 runs still desirable)
         use_research_summary_to_forecast=False,
         publish_reports_to_metaculus=True,
         folder_to_save_reports_to=None,
@@ -1301,8 +1301,8 @@ if __name__ == "__main__":
         # Example questions are a good way to test the bot's performance on a single question
         EXAMPLE_QUESTIONS = [
             # "https://www.metaculus.com/questions/578/human-extinction-by-2100/",  # Binary
-            "https://www.metaculus.com/questions/22427/number-of-new-leading-ai-labs/",  # Multiple Choice
-            # "https://www.metaculus.com/questions/14333/age-of-oldest-human-as-of-2100/",  # Numeric
+            # "https://www.metaculus.com/questions/22427/number-of-new-leading-ai-labs/",  # Multiple Choice
+            "https://www.metaculus.com/questions/14333/age-of-oldest-human-as-of-2100/",  # Numeric
             # "https://www.metaculus.com/c/diffusion-community/38880/how-many-us-labor-strikes-due-to-ai-in-2029/",  # Discrete Numeric
         ]
         template_bot.skip_previously_forecasted_questions = False
