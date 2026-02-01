@@ -88,44 +88,18 @@ class SpringTemplateBotExtended(SpringTemplateBot2026):
         question: MetaculusQuestion,
     ):
         """
-        Override framework's aggregation to use GPR for binary, numeric, and multiple choice questions.
+        Override framework's aggregation to use Probit for numeric and GPR for multiple choice questions.
 
-        For binary questions: Apply GPR on all stored scenarios to get p50.
-        For numeric questions: Apply GPR on all stored scenarios to get full distribution.
+        For binary questions: Use default framework median aggregation.
+        For numeric questions: Apply Probit aggregation on all stored scenarios to get full distribution.
         For multiple choice questions: Apply GPR per option, then normalize.
         For other question types: Use default framework aggregation.
         """
         from forecasting_tools.data_models.questions import BinaryQuestion, NumericQuestion, MultipleChoiceQuestion
         from forecasting_tools.data_models.multiple_choice_report import PredictedOption
 
-        # Binary questions: GPR aggregation
-        if isinstance(question, BinaryQuestion) and len(self._binary_scenarios) >= 3:
-            logger.info(f"[GPR DEBUG] _aggregate_predictions called with {len(predictions)} predictions")
-            logger.info(f"[GPR DEBUG] Using GPR aggregation on {len(self._binary_scenarios)} stored scenarios")
-
-            gpr_result = self._gpr_aggregate_binary(self._binary_scenarios)
-
-            # Save scenario data before clearing
-            try:
-                self._save_scenario_data(
-                    scenarios=self._binary_scenarios,
-                    question=question,
-                    aggregated_result=gpr_result,
-                    question_type="binary"
-                )
-            except Exception as e:
-                logger.error(f"Error saving binary scenario data: {e}")
-
-            # Clear scenarios after aggregation
-            self._binary_scenarios = []
-            self._current_question_id = None
-            self._current_call_number = 0
-
-            logger.info(f"[GPR DEBUG] Aggregation complete. Returning GPR result: {gpr_result:.4f}")
-            return gpr_result
-
         # Numeric questions: Probit aggregation for full distribution
-        elif isinstance(question, NumericQuestion) and len(self._numeric_scenarios) >= 9:
+        if isinstance(question, NumericQuestion) and len(self._numeric_scenarios) >= 9:
             logger.info(f"[PROBIT DEBUG] _aggregate_predictions called for numeric question with {len(predictions)} predictions")
             logger.info(f"[PROBIT DEBUG] Using Probit aggregation on {len(self._numeric_scenarios)} stored numeric scenarios")
 
