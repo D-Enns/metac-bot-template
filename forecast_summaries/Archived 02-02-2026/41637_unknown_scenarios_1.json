@@ -1,0 +1,179 @@
+{
+  "metadata": {
+    "forecast_id": "q41637",
+    "question_url": "https://www.metaculus.com/questions/41637",
+    "question_text": "Will the interest in “brendan banfield” change between 2026-01-20 and 2026-01-29 according to Google Trends?",
+    "question_type": "multiple_choice",
+    "tournament": "Unknown",
+    "tournament_slug": "unknown",
+    "forecast_date": "2026-01-20 05:58:02 UTC",
+    "bot_version": "SpringTemplateBotExtended",
+    "run_config": {
+      "predictions_per_research_report": 4,
+      "scenarios_per_prediction": 9,
+      "expected_total_scenarios": 36,
+      "actual_total_scenarios": 36,
+      "all_scenarios_generated": true
+    }
+  },
+  "scenarios": {
+    "by_option": {
+      "Increases": {
+        "raw_probabilities": [
+          18.0,
+          15.5,
+          25.0,
+          24.0,
+          22.0,
+          30.0,
+          45.0,
+          40.0,
+          38.0,
+          18.4,
+          14.2,
+          26.3,
+          22.5,
+          20.1,
+          30.7,
+          45.6,
+          39.4,
+          41.2,
+          16.5,
+          18.0,
+          31.5,
+          21.0,
+          25.0,
+          33.0,
+          50.0,
+          40.0,
+          44.0,
+          6.8,
+          7.7,
+          24.0,
+          14.6,
+          18.7,
+          30.9,
+          46.4,
+          39.2,
+          52.8
+        ],
+        "num_scenarios": 36
+      },
+      "Doesn't change": {
+        "raw_probabilities": [
+          64.0,
+          70.0,
+          50.0,
+          52.0,
+          56.0,
+          40.0,
+          24.0,
+          27.0,
+          24.0,
+          56.7,
+          63.1,
+          41.8,
+          49.0,
+          52.4,
+          34.8,
+          30.2,
+          33.1,
+          22.6,
+          70.0,
+          66.0,
+          45.0,
+          60.0,
+          54.0,
+          38.0,
+          30.0,
+          35.0,
+          26.0,
+          74.3,
+          70.6,
+          45.2,
+          58.9,
+          54.8,
+          34.6,
+          28.1,
+          30.7,
+          19.4
+        ],
+        "num_scenarios": 36
+      },
+      "Decreases": {
+        "raw_probabilities": [
+          18.0,
+          14.5,
+          25.0,
+          24.0,
+          22.0,
+          30.0,
+          31.0,
+          33.0,
+          38.0,
+          24.9,
+          22.7,
+          31.9,
+          28.5,
+          27.5,
+          34.5,
+          24.2,
+          27.5,
+          36.2,
+          13.5,
+          16.0,
+          23.5,
+          19.0,
+          21.0,
+          29.0,
+          20.0,
+          25.0,
+          30.0,
+          18.9,
+          21.7,
+          30.8,
+          26.5,
+          26.5,
+          34.5,
+          25.5,
+          30.1,
+          27.8
+        ],
+        "num_scenarios": 36
+      }
+    }
+  },
+  "aggregated_result": {
+    "type": "multiple_choice",
+    "probabilities": {
+      "Increases": 0.27642509925808184,
+      "Doesn't change": 0.4630762497796189,
+      "Decreases": 0.2604986509622993
+    }
+  },
+  "summary": {
+    "by_option": {
+      "Increases": {
+        "min_probability": 6.8,
+        "max_probability": 52.8,
+        "mean_probability": 28.77777777777778,
+        "median_probability": 25.65,
+        "std_probability": 12.104179973856393
+      },
+      "Doesn't change": {
+        "min_probability": 19.4,
+        "max_probability": 74.3,
+        "mean_probability": 45.31388888888889,
+        "median_probability": 45.1,
+        "std_probability": 15.885145975228587
+      },
+      "Decreases": {
+        "min_probability": 13.5,
+        "max_probability": 38.0,
+        "mean_probability": 25.90833333333333,
+        "median_probability": 26.0,
+        "std_probability": 5.943314404531457
+      }
+    }
+  }
+}

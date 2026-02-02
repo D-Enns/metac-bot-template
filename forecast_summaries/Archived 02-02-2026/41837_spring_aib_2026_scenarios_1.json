@@ -1,0 +1,72 @@
+{
+  "metadata": {
+    "forecast_id": "q41837",
+    "question_url": "https://www.metaculus.com/questions/41837",
+    "question_text": "Will any AI model achieve a score of 94% or higher on the GPQA Diamond Benchmark Leaderboard before February 1, 2026?",
+    "question_type": "binary",
+    "tournament": "Spring Aib 2026",
+    "tournament_slug": "spring_aib_2026",
+    "forecast_date": "2026-01-27 17:37:19 UTC",
+    "bot_version": "SpringTemplateBotExtended",
+    "run_config": {
+      "predictions_per_research_report": 4,
+      "scenarios_per_prediction": 9,
+      "expected_total_scenarios": 36,
+      "actual_total_scenarios": 36,
+      "all_scenarios_generated": true
+    }
+  },
+  "scenarios": {
+    "raw_values": [
+      0.02,
+      0.05,
+      0.1,
+      0.06,
+      0.12,
+      0.22,
+      0.18,
+      0.32,
+      0.5,
+      0.015,
+      0.04,
+      0.08,
+      0.05,
+      0.12,
+      0.22,
+      0.15,
+      0.35,
+      0.55,
+      0.02,
+      0.06,
+      0.12,
+      0.08,
+      0.18,
+      0.32,
+      0.25,
+      0.45,
+      0.65,
+      0.025,
+      0.068,
+      0.135,
+      0.07200000000000001,
+      0.158,
+      0.27,
+      0.16,
+      0.33,
+      0.52
+    ],
+    "num_scenarios": 36
+  },
+  "aggregated_result": {
+    "type": "probability",
+    "value": 0.14821870279107316,
+    "percentage": "14.82%"
+  },
+  "summary": {
+    "min_probability": 0.015,
+    "max_probability": 0.65,
+    "mean_probability": 0.19480555555555557,
+    "median_probability": 0.14250000000000002,
+    "std_probability": 0.16645617031459803
+  }
+}

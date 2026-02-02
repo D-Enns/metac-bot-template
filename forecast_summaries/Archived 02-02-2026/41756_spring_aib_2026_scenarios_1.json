@@ -1,0 +1,72 @@
+{
+  "metadata": {
+    "forecast_id": "q41756",
+    "question_url": "https://www.metaculus.com/questions/41756",
+    "question_text": "Before May 1, 2026, will the United States publicly accuse China of supplying lethal military aid to Russia?",
+    "question_type": "binary",
+    "tournament": "Spring Aib 2026",
+    "tournament_slug": "spring_aib_2026",
+    "forecast_date": "2026-01-29 04:46:04 UTC",
+    "bot_version": "SpringTemplateBotExtended",
+    "run_config": {
+      "predictions_per_research_report": 4,
+      "scenarios_per_prediction": 9,
+      "expected_total_scenarios": 36,
+      "actual_total_scenarios": 36,
+      "all_scenarios_generated": true
+    }
+  },
+  "scenarios": {
+    "raw_values": [
+      0.07,
+      0.12,
+      0.2,
+      0.16,
+      0.28,
+      0.42,
+      0.33,
+      0.56,
+      0.78,
+      0.04,
+      0.09,
+      0.18,
+      0.1,
+      0.18,
+      0.3,
+      0.22,
+      0.4,
+      0.6,
+      0.03,
+      0.08,
+      0.15,
+      0.1,
+      0.22,
+      0.35,
+      0.2,
+      0.4,
+      0.6,
+      0.04,
+      0.08,
+      0.14,
+      0.1,
+      0.18,
+      0.28,
+      0.22,
+      0.38,
+      0.58
+    ],
+    "num_scenarios": 36
+  },
+  "aggregated_result": {
+    "type": "probability",
+    "value": 0.20983738462515247,
+    "percentage": "20.98%"
+  },
+  "summary": {
+    "min_probability": 0.03,
+    "max_probability": 0.78,
+    "mean_probability": 0.2544444444444445,
+    "median_probability": 0.2,
+    "std_probability": 0.18492407517748174
+  }
+}

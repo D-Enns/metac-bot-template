@@ -1,0 +1,72 @@
+{
+  "metadata": {
+    "forecast_id": "q41617",
+    "question_url": "https://www.metaculus.com/questions/41617",
+    "question_text": "Will FISV's market close price on 2026-01-30 be higher than its market close price on 2026-01-19?",
+    "question_type": "binary",
+    "tournament": "Unknown",
+    "tournament_slug": "unknown",
+    "forecast_date": "2026-01-19 15:56:35 UTC",
+    "bot_version": "SpringTemplateBotExtended",
+    "run_config": {
+      "predictions_per_research_report": 4,
+      "scenarios_per_prediction": 9,
+      "expected_total_scenarios": 36,
+      "actual_total_scenarios": 36,
+      "all_scenarios_generated": true
+    }
+  },
+  "scenarios": {
+    "raw_values": [
+      0.34,
+      0.44,
+      0.52,
+      0.45,
+      0.54,
+      0.62,
+      0.52,
+      0.64,
+      0.74,
+      0.35,
+      0.43,
+      0.5,
+      0.45,
+      0.53,
+      0.6,
+      0.52,
+      0.6,
+      0.68,
+      0.34,
+      0.45,
+      0.56,
+      0.46,
+      0.54,
+      0.62,
+      0.52,
+      0.6,
+      0.69,
+      0.28,
+      0.39,
+      0.5,
+      0.45,
+      0.54,
+      0.61,
+      0.56,
+      0.67,
+      0.77
+    ],
+    "num_scenarios": 36
+  },
+  "aggregated_result": {
+    "type": "probability",
+    "value": 0.5348351867831479,
+    "percentage": "53.48%"
+  },
+  "summary": {
+    "min_probability": 0.28,
+    "max_probability": 0.77,
+    "mean_probability": 0.5283333333333333,
+    "median_probability": 0.525,
+    "std_probability": 0.11282976360675208
+  }
+}

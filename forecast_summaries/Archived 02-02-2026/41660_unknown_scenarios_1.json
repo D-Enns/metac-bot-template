@@ -1,0 +1,72 @@
+{
+  "metadata": {
+    "forecast_id": "q41660",
+    "question_url": "https://www.metaculus.com/questions/41660",
+    "question_text": "Will the community prediction be higher than 34.00% on 2026-01-31 for the Metaculus question \"Will there be a bilateral ceasefire in the Russo-Ukrainian conflict before 2027?\"?",
+    "question_type": "binary",
+    "tournament": "Unknown",
+    "tournament_slug": "unknown",
+    "forecast_date": "2026-01-23 23:30:51 UTC",
+    "bot_version": "SpringTemplateBotExtended",
+    "run_config": {
+      "predictions_per_research_report": 4,
+      "scenarios_per_prediction": 9,
+      "expected_total_scenarios": 36,
+      "actual_total_scenarios": 36,
+      "all_scenarios_generated": true
+    }
+  },
+  "scenarios": {
+    "raw_values": [
+      0.15,
+      0.23,
+      0.32,
+      0.35,
+      0.45,
+      0.55,
+      0.52,
+      0.63,
+      0.74,
+      0.12,
+      0.24,
+      0.37,
+      0.3,
+      0.43,
+      0.56,
+      0.47,
+      0.63,
+      0.76,
+      0.12,
+      0.22,
+      0.35,
+      0.3,
+      0.45,
+      0.6,
+      0.45,
+      0.62,
+      0.75,
+      0.15,
+      0.25,
+      0.35,
+      0.3,
+      0.47,
+      0.6,
+      0.5,
+      0.65,
+      0.78
+    ],
+    "num_scenarios": 36
+  },
+  "aggregated_result": {
+    "type": "probability",
+    "value": 0.4468351602400025,
+    "percentage": "44.68%"
+  },
+  "summary": {
+    "min_probability": 0.12,
+    "max_probability": 0.78,
+    "mean_probability": 0.43694444444444447,
+    "median_probability": 0.45,
+    "std_probability": 0.18902997182170236
+  }
+}

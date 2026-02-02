@@ -1,0 +1,72 @@
+{
+  "metadata": {
+    "forecast_id": "q41690",
+    "question_url": "https://www.metaculus.com/questions/41690",
+    "question_text": "Will the United States attack Iran before April 2026?",
+    "question_type": "binary",
+    "tournament": "Spring Aib 2026",
+    "tournament_slug": "spring_aib_2026",
+    "forecast_date": "2026-01-23 15:38:43 UTC",
+    "bot_version": "SpringTemplateBotExtended",
+    "run_config": {
+      "predictions_per_research_report": 4,
+      "scenarios_per_prediction": 9,
+      "expected_total_scenarios": 36,
+      "actual_total_scenarios": 36,
+      "all_scenarios_generated": true
+    }
+  },
+  "scenarios": {
+    "raw_values": [
+      0.12,
+      0.22,
+      0.35,
+      0.25,
+      0.42,
+      0.58,
+      0.45,
+      0.66,
+      0.82,
+      0.15,
+      0.25,
+      0.38,
+      0.3,
+      0.42,
+      0.55,
+      0.5,
+      0.65,
+      0.78,
+      0.12,
+      0.22,
+      0.34,
+      0.24,
+      0.41,
+      0.58,
+      0.46,
+      0.66,
+      0.82,
+      0.09,
+      0.18,
+      0.31,
+      0.27,
+      0.43,
+      0.58,
+      0.49,
+      0.69,
+      0.84
+    ],
+    "num_scenarios": 36
+  },
+  "aggregated_result": {
+    "type": "probability",
+    "value": 0.4274487777460672,
+    "percentage": "42.74%"
+  },
+  "summary": {
+    "min_probability": 0.09,
+    "max_probability": 0.84,
+    "mean_probability": 0.43277777777777776,
+    "median_probability": 0.42,
+    "std_probability": 0.2121531301142737
+  }
+}

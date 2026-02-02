@@ -1,0 +1,72 @@
+{
+  "metadata": {
+    "forecast_id": "q41755",
+    "question_url": "https://www.metaculus.com/questions/41755",
+    "question_text": "Will the Bank of Japan raise its policy interest rate again before May 1, 2026?",
+    "question_type": "binary",
+    "tournament": "Spring Aib 2026",
+    "tournament_slug": "spring_aib_2026",
+    "forecast_date": "2026-01-29 02:42:15 UTC",
+    "bot_version": "SpringTemplateBotExtended",
+    "run_config": {
+      "predictions_per_research_report": 4,
+      "scenarios_per_prediction": 9,
+      "expected_total_scenarios": 36,
+      "actual_total_scenarios": 36,
+      "all_scenarios_generated": true
+    }
+  },
+  "scenarios": {
+    "raw_values": [
+      0.15,
+      0.28,
+      0.45,
+      0.4,
+      0.58,
+      0.72,
+      0.65,
+      0.78,
+      0.88,
+      0.18,
+      0.3,
+      0.42,
+      0.45,
+      0.58,
+      0.7,
+      0.65,
+      0.79,
+      0.88,
+      0.18,
+      0.3,
+      0.45,
+      0.35,
+      0.52,
+      0.68,
+      0.55,
+      0.72,
+      0.86,
+      0.18,
+      0.33,
+      0.5,
+      0.45,
+      0.62,
+      0.75,
+      0.7,
+      0.83,
+      0.92
+    ],
+    "num_scenarios": 36
+  },
+  "aggregated_result": {
+    "type": "probability",
+    "value": 0.5796568129834805,
+    "percentage": "57.97%"
+  },
+  "summary": {
+    "min_probability": 0.15,
+    "max_probability": 0.92,
+    "mean_probability": 0.5480555555555555,
+    "median_probability": 0.565,
+    "std_probability": 0.22147008130576068
+  }
+}

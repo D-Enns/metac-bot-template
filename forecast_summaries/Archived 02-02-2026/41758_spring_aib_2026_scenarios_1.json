@@ -1,0 +1,72 @@
+{
+  "metadata": {
+    "forecast_id": "q41758",
+    "question_url": "https://www.metaculus.com/questions/41758",
+    "question_text": "Will North Korea conduct a nuclear test before May 1, 2026?",
+    "question_type": "binary",
+    "tournament": "Spring Aib 2026",
+    "tournament_slug": "spring_aib_2026",
+    "forecast_date": "2026-01-29 21:37:23 UTC",
+    "bot_version": "SpringTemplateBotExtended",
+    "run_config": {
+      "predictions_per_research_report": 4,
+      "scenarios_per_prediction": 9,
+      "expected_total_scenarios": 36,
+      "actual_total_scenarios": 36,
+      "all_scenarios_generated": true
+    }
+  },
+  "scenarios": {
+    "raw_values": [
+      0.047,
+      0.094,
+      0.168,
+      0.109,
+      0.196,
+      0.315,
+      0.218,
+      0.369,
+      0.55,
+      0.025,
+      0.06,
+      0.12,
+      0.08,
+      0.18,
+      0.3,
+      0.2,
+      0.4,
+      0.6,
+      0.04,
+      0.09,
+      0.16,
+      0.1,
+      0.19,
+      0.3,
+      0.2,
+      0.35,
+      0.55,
+      0.065,
+      0.11,
+      0.17,
+      0.14,
+      0.225,
+      0.33,
+      0.28,
+      0.45,
+      0.62
+    ],
+    "num_scenarios": 36
+  },
+  "aggregated_result": {
+    "type": "probability",
+    "value": 0.1983892292782616,
+    "percentage": "19.84%"
+  },
+  "summary": {
+    "min_probability": 0.025,
+    "max_probability": 0.62,
+    "mean_probability": 0.2333611111111111,
+    "median_probability": 0.193,
+    "std_probability": 0.16227414266155654
+  }
+}

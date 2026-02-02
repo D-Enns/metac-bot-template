@@ -1,0 +1,72 @@
+{
+  "metadata": {
+    "forecast_id": "q41425",
+    "question_url": "https://www.metaculus.com/questions/41425",
+    "question_text": "Will the community prediction be higher than 11.00% on 2026-01-15 for the Metaculus question \"Will Lisa Cook cease to be a member of the Federal Reserve Board of Governors before November 3, 2026?\"?",
+    "question_type": "binary",
+    "tournament": "Unknown",
+    "tournament_slug": "unknown",
+    "forecast_date": "2026-01-07 13:41:07 UTC",
+    "bot_version": "SpringTemplateBotExtended",
+    "run_config": {
+      "predictions_per_research_report": 4,
+      "scenarios_per_prediction": 9,
+      "expected_total_scenarios": 36,
+      "actual_total_scenarios": 36,
+      "all_scenarios_generated": true
+    }
+  },
+  "scenarios": {
+    "raw_values": [
+      0.25,
+      0.38,
+      0.5,
+      0.42,
+      0.58,
+      0.7,
+      0.6,
+      0.74,
+      0.86,
+      0.18,
+      0.32,
+      0.46,
+      0.38,
+      0.52,
+      0.66,
+      0.56,
+      0.71,
+      0.83,
+      0.22,
+      0.34,
+      0.48,
+      0.38,
+      0.52,
+      0.65,
+      0.55,
+      0.68,
+      0.8,
+      0.1,
+      0.18,
+      0.3,
+      0.25,
+      0.4,
+      0.55,
+      0.45,
+      0.62,
+      0.78
+    ],
+    "num_scenarios": 36
+  },
+  "aggregated_result": {
+    "type": "probability",
+    "value": 0.515107125098284,
+    "percentage": "51.51%"
+  },
+  "summary": {
+    "min_probability": 0.1,
+    "max_probability": 0.86,
+    "mean_probability": 0.4972222222222223,
+    "median_probability": 0.51,
+    "std_probability": 0.19715491809334876
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "metadata": {
+    "forecast_id": "q41624",
+    "question_url": "https://www.metaculus.com/questions/41624",
+    "question_text": "Will the community prediction be higher than 36.00% on 2026-01-30 for the Metaculus question \"Will OpenAI file for an IPO during 2026?\"?",
+    "question_type": "binary",
+    "tournament": "Unknown",
+    "tournament_slug": "unknown",
+    "forecast_date": "2026-01-19 19:01:11 UTC",
+    "bot_version": "SpringTemplateBotExtended",
+    "run_config": {
+      "predictions_per_research_report": 4,
+      "scenarios_per_prediction": 9,
+      "expected_total_scenarios": 36,
+      "actual_total_scenarios": 36,
+      "all_scenarios_generated": true
+    }
+  },
+  "scenarios": {
+    "raw_values": [
+      0.25,
+      0.35,
+      0.45,
+      0.4,
+      0.52,
+      0.62,
+      0.55,
+      0.67,
+      0.78,
+      0.12,
+      0.22,
+      0.35,
+      0.28,
+      0.42,
+      0.55,
+      0.48,
+      0.65,
+      0.78,
+      0.09,
+      0.18,
+      0.3,
+      0.32,
+      0.46,
+      0.59,
+      0.58,
+      0.72,
+      0.86,
+      0.18,
+      0.27,
+      0.38,
+      0.3,
+      0.41,
+      0.53,
+      0.44,
+      0.58,
+      0.71
+    ],
+    "num_scenarios": 36
+  },
+  "aggregated_result": {
+    "type": "probability",
+    "value": 0.46508000208558314,
+    "percentage": "46.51%"
+  },
+  "summary": {
+    "min_probability": 0.09,
+    "max_probability": 0.86,
+    "mean_probability": 0.4538888888888889,
+    "median_probability": 0.445,
+    "std_probability": 0.19431185955940028
+  }
+}

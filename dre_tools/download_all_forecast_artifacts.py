@@ -3,7 +3,9 @@
 Download All Forecast Artifacts from GitHub Actions
 
 This script systematically downloads all forecast summary artifacts from GitHub Actions
-workflow runs, ensuring complete data recovery for all tournaments.
+workflow runs, ensuring complete data recovery for all tournaments. Each downloaded file
+is automatically renamed to include the run number, preventing any overwrites and
+maintaining complete version history.
 
 Requirements:
 - GitHub CLI (gh) installed and authenticated: gh auth login
@@ -14,6 +16,11 @@ Usage:
     python download_all_forecast_artifacts.py --workflow dre_run_bot_on_tournament.yaml
     python download_all_forecast_artifacts.py --limit 500
     python download_all_forecast_artifacts.py --output-dir my_forecasts
+    python download_all_forecast_artifacts.py --generate-manifest
+
+Files are saved with run numbers (e.g., 41871_spring_aib_2026_full_r909.md) to ensure
+uniqueness and prevent overwriting. Download reports are saved to reports/ subdirectory
+with timestamps.
 """
 
 import argparse
@@ -139,48 +146,87 @@ class ArtifactDownloader:
         except subprocess.CalledProcessError:
             return []
 
-    def download_artifact(self, run_id: int, run_number: int, artifact_name: str) -> Optional[Path]:
-        """Download a specific artifact"""
+    def download_artifact(self, run_id: int, run_number: int, artifact_name: str) -> Optional[Dict]:
+        """Download a specific artifact and organize files with run numbers"""
+        import tempfile
+        import shutil
+
         # Check if already downloaded
         artifact_key = f"{run_number}:{artifact_name}"
         if artifact_key in self.downloaded_artifacts.get("downloaded_artifacts", {}):
-            existing_path = self.downloaded_artifacts["downloaded_artifacts"][artifact_key].get("path")
-            if existing_path and Path(existing_path).exists():
+            existing_files = self.downloaded_artifacts["downloaded_artifacts"][artifact_key].get("files", [])
+            if existing_files and all(Path(f).exists() for f in existing_files):
                 print(f"    ⊙ Already downloaded (skipping)")
-                return Path(existing_path)
+                return self.downloaded_artifacts["downloaded_artifacts"][artifact_key]
 
-        # Create subdirectory for this run
-        run_dir = self.output_dir / f"run_{run_number}"
-        run_dir.mkdir(parents=True, exist_ok=True)
+        # Create temporary directory for download
+        with tempfile.TemporaryDirectory() as temp_dir:
+            cmd = [
+                "gh", "run", "download", str(run_id),
+                "--repo", self.repo,
+                "--name", artifact_name,
+                "--dir", temp_dir
+            ]
 
-        cmd = [
-            "gh", "run", "download", str(run_id),
-            "--repo", self.repo,
-            "--name", artifact_name,
-            "--dir", str(run_dir)
-        ]
+            try:
+                subprocess.run(cmd, capture_output=True, check=True, text=True)
 
-        try:
-            subprocess.run(cmd, capture_output=True, check=True, text=True)
+                # Process downloaded files: rename with run number and move to output_dir
+                downloaded_files = []
+                questions = set()
 
-            # Record download
-            if "downloaded_artifacts" not in self.downloaded_artifacts:
-                self.downloaded_artifacts["downloaded_artifacts"] = {}
+                for file in Path(temp_dir).rglob("*"):
+                    if file.is_file() and not file.name.startswith('.'):
+                        # Parse original filename: 41871_spring_aib_2026_full_1.md
+                        stem = file.stem
+                        suffix = file.suffix
 
-            self.downloaded_artifacts["downloaded_artifacts"][artifact_key] = {
-                "run_number": run_number,
-                "run_id": run_id,
-                "artifact_name": artifact_name,
-                "path": str(run_dir),
-                "downloaded_at": datetime.now().isoformat()
-            }
+                        # Extract question ID for tracking
+                        parts = file.name.split('_')
+                        if parts[0].isdigit():
+                            questions.add(parts[0])
 
-            print(f"    ✓ Downloaded to {run_dir}/")
-            return run_dir
+                        # Add run number if not already present
+                        if f"_r{run_number}" not in stem:
+                            # Remove trailing counter (e.g., _1) and add run number
+                            if stem[-2:].startswith('_') and stem[-1].isdigit():
+                                stem = stem[:-2]
+                            new_name = f"{stem}_r{run_number}{suffix}"
+                        else:
+                            new_name = file.name
 
-        except subprocess.CalledProcessError as e:
-            print(f"    ✗ Failed: {e.stderr.decode() if e.stderr else 'Unknown error'}")
-            return None
+                        target_path = self.output_dir / new_name
+
+                        # Only copy if doesn't exist (run number makes it unique)
+                        if not target_path.exists():
+                            shutil.copy2(file, target_path)
+                            downloaded_files.append(str(target_path))
+                            print(f"      ✓ {new_name}")
+                        else:
+                            print(f"      ⊙ {new_name} (already exists)")
+                            downloaded_files.append(str(target_path))
+
+                # Record download
+                if "downloaded_artifacts" not in self.downloaded_artifacts:
+                    self.downloaded_artifacts["downloaded_artifacts"] = {}
+
+                download_info = {
+                    "run_number": run_number,
+                    "run_id": run_id,
+                    "artifact_name": artifact_name,
+                    "files": downloaded_files,
+                    "questions": sorted(list(questions), key=int),
+                    "downloaded_at": datetime.now().isoformat()
+                }
+
+                self.downloaded_artifacts["downloaded_artifacts"][artifact_key] = download_info
+
+                print(f"    ✓ Processed {len(downloaded_files)} file(s)")
+                return download_info
+
+            except subprocess.CalledProcessError as e:
+                print(f"    ✗ Failed: {e.stderr.decode() if e.stderr else 'Unknown error'}")
+                return None
 
     def download_all_artifacts(self, limit: int = 1000, skip_existing: bool = True):
         """Main method to download all artifacts"""
@@ -286,34 +332,46 @@ class ArtifactDownloader:
         # List all downloaded files
         print(f"\n📁 Files organized in: {self.output_dir.absolute()}/")
 
-        # Count unique questions
+        # Count unique questions from actual files
         question_ids = set()
-        for run_dir in self.output_dir.glob("run_*/"):
-            for file in run_dir.glob("*.md"):
-                # Extract question ID from filename (e.g., 41871_spring_aib_2026_full_1.md)
-                parts = file.name.split('_')
-                if parts[0].isdigit():
-                    question_ids.add(parts[0])
+        for file in self.output_dir.glob("*_r*.md"):
+            # Extract question ID from filename (e.g., 41871_spring_aib_2026_full_r909.md)
+            parts = file.name.split('_')
+            if parts[0].isdigit():
+                question_ids.add(parts[0])
 
         print(f"\n📝 Unique questions with forecast data: {len(question_ids)}")
         if question_ids:
             print(f"  Question IDs: {', '.join(sorted(question_ids, key=int))}")
 
-        # Save detailed report
-        report_file = self.output_dir / "download_report.json"
+        # Build question-to-runs mapping
+        question_to_runs = self._build_question_run_map()
+
+        # Create reports directory
+        reports_dir = self.output_dir / "reports"
+        reports_dir.mkdir(exist_ok=True)
+
+        # Generate timestamped report filename
+        timestamp = datetime.now()
+        report_filename = f"download_report_{timestamp.strftime('%Y-%m-%d_%H-%M')}.json"
+        report_file = reports_dir / report_filename
+
+        # Build detailed report with question tracking
         report = {
-            "timestamp": datetime.now().isoformat(),
+            "timestamp": timestamp.isoformat(),
             "repository": self.repo,
             "workflow": self.workflow,
             "statistics": stats,
             "unique_questions": sorted(list(question_ids), key=int),
+            "question_to_runs_map": question_to_runs,
             "runs_processed": [
                 {
                     "run_number": run['run_number'],
                     "run_id": run['id'],
-                    "date": run['created_at']
+                    "date": run['created_at'],
+                    "questions": self._get_questions_for_run(run['run_number'])
                 }
-                for run in runs[:20]  # Save first 20 for reference
+                for run in runs[:50]  # Save first 50 for reference
             ]
         }
 
@@ -323,6 +381,51 @@ class ArtifactDownloader:
         print(f"\n📄 Detailed report saved to: {report_file}")
         print(f"📋 Download log saved to: {self.download_log_file}")
         print("\n✅ Download complete!")
+
+    def _get_questions_for_run(self, run_number: int) -> List[str]:
+        """Extract question IDs forecasted in a specific run"""
+        # Check downloaded artifacts log first
+        for artifact_key, info in self.downloaded_artifacts.get("downloaded_artifacts", {}).items():
+            if info.get("run_number") == run_number and "questions" in info:
+                return info["questions"]
+
+        # Fallback: scan files
+        questions = set()
+        for file in self.output_dir.glob(f"*_r{run_number}.md"):
+            parts = file.name.split('_')
+            if parts[0].isdigit():
+                questions.add(parts[0])
+
+        return sorted(list(questions), key=int)
+
+    def _build_question_run_map(self) -> Dict[str, List[int]]:
+        """Build mapping of question_id -> list of run_numbers"""
+        question_map = {}
+
+        # Scan all files with run numbers
+        for file in self.output_dir.glob("*_r*.md"):
+            parts = file.name.split('_')
+            if not parts[0].isdigit():
+                continue
+
+            question_id = parts[0]
+
+            # Extract run number from filename (e.g., _r909.md)
+            import re
+            match = re.search(r'_r(\d+)\.', file.name)
+            if match:
+                run_number = int(match.group(1))
+
+                if question_id not in question_map:
+                    question_map[question_id] = []
+                if run_number not in question_map[question_id]:
+                    question_map[question_id].append(run_number)
+
+        # Sort run numbers for each question (newest first)
+        for question_id in question_map:
+            question_map[question_id].sort(reverse=True)
+
+        return question_map
 
     def consolidate_files(self):
         """
@@ -369,6 +472,70 @@ class ArtifactDownloader:
         print(f"  Duplicates skipped: {duplicate_count}")
         print(f"\n📁 All files now in: {self.output_dir.absolute()}/")
 
+    def generate_versions_manifest(self):
+        """
+        Generate a manifest file tracking all versions of each question's forecasts.
+        This provides quick lookup of which runs forecasted each question.
+        """
+        print("\n" + "=" * 80)
+        print("GENERATING VERSIONS MANIFEST")
+        print("=" * 80)
+
+        manifest = {}
+
+        # Scan all forecast files
+        for file in sorted(self.output_dir.glob("*_r*.md")):
+            parts = file.name.split('_')
+            if not parts[0].isdigit():
+                continue
+
+            question_id = parts[0]
+
+            # Extract type (full, condensed, etc.)
+            import re
+            match = re.search(r'_(\w+)_r(\d+)\.md$', file.name)
+            if not match:
+                continue
+
+            forecast_type = match.group(1)
+            run_number = int(match.group(2))
+
+            # Create key for this question/type combination
+            key = f"{question_id}_{forecast_type}"
+
+            if key not in manifest:
+                manifest[key] = {
+                    "question_id": question_id,
+                    "type": forecast_type,
+                    "versions": []
+                }
+
+            manifest[key]["versions"].append({
+                "run_number": run_number,
+                "file_path": file.name,
+                "size_bytes": file.stat().st_size,
+                "modified": datetime.fromtimestamp(file.stat().st_mtime).isoformat()
+            })
+
+        # Sort versions by run number (newest first)
+        for key in manifest:
+            manifest[key]["versions"].sort(key=lambda x: x["run_number"], reverse=True)
+            if manifest[key]["versions"]:
+                manifest[key]["latest_run"] = manifest[key]["versions"][0]["run_number"]
+            manifest[key]["version_count"] = len(manifest[key]["versions"])
+
+        # Save manifest
+        manifest_file = self.output_dir / "versions_manifest.json"
+        with open(manifest_file, 'w') as f:
+            json.dump(manifest, f, indent=2)
+
+        print(f"✓ Versions manifest created: {manifest_file}")
+        print(f"  Tracked {len(manifest)} unique question/type combinations")
+        if manifest:
+            print(f"  Total versions: {sum(m['version_count'] for m in manifest.values())}")
+
+        return manifest
+
 
 def main():
     parser = argparse.ArgumentParser(
@@ -388,8 +555,8 @@ Examples:
   # Use custom output directory
   python download_all_forecast_artifacts.py --output-dir my_forecasts
 
-  # Skip consolidation step
-  python download_all_forecast_artifacts.py --no-consolidate
+  # Generate versions manifest after download
+  python download_all_forecast_artifacts.py --generate-manifest
         """
     )
 
@@ -415,9 +582,9 @@ Examples:
         help="Output directory for downloaded artifacts (default: forecast_summaries)"
     )
     parser.add_argument(
-        "--no-consolidate",
+        "--generate-manifest",
         action="store_true",
-        help="Skip consolidation step (keep files in run_* subdirectories)"
+        help="Generate versions manifest file after download"
     )
 
     args = parser.parse_args()
@@ -432,11 +599,9 @@ Examples:
     # Download all artifacts
     downloader.download_all_artifacts(limit=args.limit)
 
-    # Consolidate files (optional)
-    if not args.no_consolidate:
-        response = input("\n\nConsolidate files into main directory? (y/n): ")
-        if response.lower() == 'y':
-            downloader.consolidate_files()
+    # Generate versions manifest (optional)
+    if args.generate_manifest:
+        downloader.generate_versions_manifest()
 
     print("\n" + "=" * 80)
     print("All done! 🎉")

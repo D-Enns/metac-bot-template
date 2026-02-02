@@ -1,0 +1,72 @@
+{
+  "metadata": {
+    "forecast_id": "q41647",
+    "question_url": "https://www.metaculus.com/questions/41647",
+    "question_text": "Will the community prediction be higher than 45.00% on 2026-01-31 for the Metaculus question \"Will an AI model reach a 3 hour time horizon with 80% reliability during 2026?\"?",
+    "question_type": "binary",
+    "tournament": "Unknown",
+    "tournament_slug": "unknown",
+    "forecast_date": "2026-01-20 23:53:22 UTC",
+    "bot_version": "SpringTemplateBotExtended",
+    "run_config": {
+      "predictions_per_research_report": 4,
+      "scenarios_per_prediction": 9,
+      "expected_total_scenarios": 36,
+      "actual_total_scenarios": 36,
+      "all_scenarios_generated": true
+    }
+  },
+  "scenarios": {
+    "raw_values": [
+      0.25,
+      0.35,
+      0.47,
+      0.4,
+      0.49,
+      0.58,
+      0.52,
+      0.63,
+      0.74,
+      0.28,
+      0.38,
+      0.48,
+      0.43,
+      0.53,
+      0.62,
+      0.55,
+      0.67,
+      0.77,
+      0.16,
+      0.26,
+      0.36,
+      0.28,
+      0.41,
+      0.54,
+      0.43,
+      0.59,
+      0.73,
+      0.12,
+      0.24,
+      0.38,
+      0.28,
+      0.41,
+      0.54,
+      0.45,
+      0.59,
+      0.72
+    ],
+    "num_scenarios": 36
+  },
+  "aggregated_result": {
+    "type": "probability",
+    "value": 0.47287790344803926,
+    "percentage": "47.29%"
+  },
+  "summary": {
+    "min_probability": 0.12,
+    "max_probability": 0.77,
+    "mean_probability": 0.46194444444444444,
+    "median_probability": 0.45999999999999996,
+    "std_probability": 0.16441511562783265
+  }
+}

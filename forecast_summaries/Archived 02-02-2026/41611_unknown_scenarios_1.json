@@ -1,0 +1,92 @@
+{
+  "metadata": {
+    "forecast_id": "q41611",
+    "question_url": "https://www.metaculus.com/questions/41611",
+    "question_text": "What will be the value of \"ICE BofA US High Yield Index Option-Adjusted Spread\" on 2026-01-29?",
+    "question_type": "numeric",
+    "tournament": "Unknown",
+    "tournament_slug": "unknown",
+    "forecast_date": "2026-01-19 12:52:25 UTC",
+    "bot_version": "SpringTemplateBotExtended",
+    "run_config": {
+      "predictions_per_research_report": 4,
+      "scenarios_per_prediction": 9,
+      "expected_total_scenarios": 36,
+      "actual_total_scenarios": 36,
+      "all_scenarios_generated": true
+    },
+    "units": "Percent"
+  },
+  "scenarios": {
+    "raw_values": [
+      2.35,
+      2.5,
+      2.7,
+      2.55,
+      2.85,
+      3.15,
+      3.2,
+      3.8,
+      4.6,
+      2.3,
+      2.45,
+      2.65,
+      2.55,
+      2.85,
+      3.15,
+      3.2,
+      3.8,
+      4.6,
+      2.22,
+      2.35,
+      2.5,
+      2.55,
+      2.85,
+      3.2,
+      3.25,
+      3.8,
+      4.7,
+      2.3,
+      2.5,
+      2.7,
+      2.55,
+      2.85,
+      3.15,
+      3.0,
+      3.6,
+      4.4
+    ],
+    "num_scenarios": 36
+  },
+  "aggregated_result": {
+    "type": "distribution",
+    "percentiles": {
+      "p5": 2.2653715403043435,
+      "p10": 2.3312591247770627,
+      "p15": 2.3980081768332155,
+      "p20": 2.463603441096808,
+      "p25": 2.5265922959183484,
+      "p30": 2.58637563845987,
+      "p35": 2.643446081164541,
+      "p40": 2.6995457121519166,
+      "p45": 2.757720850159558,
+      "p50": 2.822258912719917,
+      "p55": 2.898502121364288,
+      "p60": 2.992543468984934,
+      "p65": 3.1108211990879795,
+      "p70": 3.2596379654952443,
+      "p75": 3.4446388747670653,
+      "p80": 3.6702879363969316,
+      "p85": 3.9393844750596827,
+      "p90": 4.2526595206871605,
+      "p95": 4.608487152974078
+    }
+  },
+  "summary": {
+    "min_value": 2.22,
+    "max_value": 4.7,
+    "mean_value": 3.0477777777777777,
+    "median_value": 2.85,
+    "std_value": 0.6893278171568101
+  }
+}

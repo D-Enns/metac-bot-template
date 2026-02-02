@@ -1,0 +1,92 @@
+{
+  "metadata": {
+    "forecast_id": "q41619",
+    "question_url": "https://www.metaculus.com/questions/41619",
+    "question_text": "What will be the value of \"Market Yield on U.S. Treasury Securities at 30-Year Constant Maturity, Quoted on an Investment Basis\" on 2026-01-29?",
+    "question_type": "numeric",
+    "tournament": "Unknown",
+    "tournament_slug": "unknown",
+    "forecast_date": "2026-01-19 17:02:57 UTC",
+    "bot_version": "SpringTemplateBotExtended",
+    "run_config": {
+      "predictions_per_research_report": 4,
+      "scenarios_per_prediction": 9,
+      "expected_total_scenarios": 36,
+      "actual_total_scenarios": 36,
+      "all_scenarios_generated": true
+    },
+    "units": "Percent"
+  },
+  "scenarios": {
+    "raw_values": [
+      4.4,
+      4.55,
+      4.65,
+      4.7,
+      4.82,
+      4.95,
+      4.98,
+      5.1,
+      5.25,
+      4.35,
+      4.5,
+      4.65,
+      4.65,
+      4.82,
+      4.95,
+      4.9,
+      5.05,
+      5.25,
+      4.35,
+      4.5,
+      4.65,
+      4.7,
+      4.85,
+      5.0,
+      5.05,
+      5.2,
+      5.4,
+      4.25,
+      4.45,
+      4.65,
+      4.65,
+      4.82,
+      4.95,
+      4.95,
+      5.2,
+      5.55
+    ],
+    "num_scenarios": 36
+  },
+  "aggregated_result": {
+    "type": "distribution",
+    "percentiles": {
+      "p5": 4.310072908356915,
+      "p10": 4.394793646168864,
+      "p15": 4.470069970931945,
+      "p20": 4.536457469869902,
+      "p25": 4.594755886302892,
+      "p30": 4.645999485037692,
+      "p35": 4.691440803416754,
+      "p40": 4.732527911054149,
+      "p45": 4.770875498277519,
+      "p50": 4.808230308611201,
+      "p55": 4.846431617761027,
+      "p60": 4.887367633837584,
+      "p65": 4.932928844593562,
+      "p70": 4.984959461684639,
+      "p75": 5.0452082042227175,
+      "p80": 5.115279720393119,
+      "p85": 5.196587963774391,
+      "p90": 5.290312818801567,
+      "p95": 5.397361207427821
+    }
+  },
+  "summary": {
+    "min_value": 4.25,
+    "max_value": 5.55,
+    "mean_value": 4.8247222222222215,
+    "median_value": 4.82,
+    "std_value": 0.30750326205235534
+  }
+}

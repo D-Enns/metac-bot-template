@@ -1,0 +1,72 @@
+{
+  "metadata": {
+    "forecast_id": "q41754",
+    "question_url": "https://www.metaculus.com/questions/41754",
+    "question_text": "Will Vladimir Putin cease to be the President of the Russian Federation before May 1, 2026?",
+    "question_type": "binary",
+    "tournament": "Spring Aib 2026",
+    "tournament_slug": "spring_aib_2026",
+    "forecast_date": "2026-01-28 21:39:24 UTC",
+    "bot_version": "SpringTemplateBotExtended",
+    "run_config": {
+      "predictions_per_research_report": 4,
+      "scenarios_per_prediction": 9,
+      "expected_total_scenarios": 36,
+      "actual_total_scenarios": 36,
+      "all_scenarios_generated": true
+    }
+  },
+  "scenarios": {
+    "raw_values": [
+      0.015,
+      0.032,
+      0.065,
+      0.035,
+      0.068,
+      0.115,
+      0.085,
+      0.155,
+      0.26,
+      0.015,
+      0.03,
+      0.06,
+      0.03,
+      0.06,
+      0.1,
+      0.07,
+      0.12,
+      0.2,
+      0.018000000000000002,
+      0.032,
+      0.05,
+      0.035,
+      0.065,
+      0.1,
+      0.07,
+      0.125,
+      0.2,
+      0.012,
+      0.02,
+      0.035,
+      0.02,
+      0.032,
+      0.055,
+      0.04,
+      0.075,
+      0.12
+    ],
+    "num_scenarios": 36
+  },
+  "aggregated_result": {
+    "type": "probability",
+    "value": 0.06119417717294482,
+    "percentage": "6.12%"
+  },
+  "summary": {
+    "min_probability": 0.012,
+    "max_probability": 0.26,
+    "mean_probability": 0.07275000000000001,
+    "median_probability": 0.06,
+    "std_probability": 0.05750766857076058
+  }
+}

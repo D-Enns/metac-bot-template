@@ -1,0 +1,92 @@
+{
+  "metadata": {
+    "forecast_id": "q41652",
+    "question_url": "https://www.metaculus.com/questions/41652",
+    "question_text": "What will be the value of \"Crude Oil Prices: West Texas Intermediate (WTI) - Cushing, Oklahoma\" on 2026-01-29?",
+    "question_type": "numeric",
+    "tournament": "Unknown",
+    "tournament_slug": "unknown",
+    "forecast_date": "2026-01-21 22:27:11 UTC",
+    "bot_version": "SpringTemplateBotExtended",
+    "run_config": {
+      "predictions_per_research_report": 4,
+      "scenarios_per_prediction": 9,
+      "expected_total_scenarios": 36,
+      "actual_total_scenarios": 36,
+      "all_scenarios_generated": true
+    },
+    "units": "Dollars per Barrel"
+  },
+  "scenarios": {
+    "raw_values": [
+      52.0,
+      56.0,
+      60.0,
+      57.0,
+      61.5,
+      66.0,
+      62.0,
+      68.0,
+      76.0,
+      50.0,
+      54.0,
+      57.0,
+      58.0,
+      60.5,
+      62.5,
+      63.0,
+      66.5,
+      72.0,
+      52.0,
+      55.0,
+      58.0,
+      57.0,
+      60.0,
+      63.0,
+      62.0,
+      66.0,
+      72.0,
+      50.0,
+      54.5,
+      58.0,
+      57.5,
+      61.0,
+      64.5,
+      62.0,
+      67.0,
+      73.0
+    ],
+    "num_scenarios": 36
+  },
+  "aggregated_result": {
+    "type": "distribution",
+    "percentiles": {
+      "p5": 50.53890255330589,
+      "p10": 52.33484239390236,
+      "p15": 53.92343134828661,
+      "p20": 55.30519694103714,
+      "p25": 56.48913800206719,
+      "p30": 57.49294074615136,
+      "p35": 58.34288956151795,
+      "p40": 59.073457489364955,
+      "p45": 59.726573493668184,
+      "p50": 60.35057647062058,
+      "p55": 60.99887897766348,
+      "p60": 61.728376291048335,
+      "p65": 62.59764803476719,
+      "p70": 63.665009708567595,
+      "p75": 64.986479468158,
+      "p80": 66.61373106025894,
+      "p85": 68.59210657102449,
+      "p90": 70.95876242409577,
+      "p95": 73.74101880910348
+    }
+  },
+  "summary": {
+    "min_value": 50.0,
+    "max_value": 76.0,
+    "mean_value": 60.958333333333336,
+    "median_value": 60.75,
+    "std_value": 6.3414148000794475
+  }
+}

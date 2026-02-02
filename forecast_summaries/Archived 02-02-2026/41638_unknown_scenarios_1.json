@@ -1,0 +1,92 @@
+{
+  "metadata": {
+    "forecast_id": "q41638",
+    "question_url": "https://www.metaculus.com/questions/41638",
+    "question_text": "What will be the value of \"Overnight Reverse Repurchase Agreements: Treasury Securities Sold by the Federal Reserve in the Temporary Open Market Operations\" on 2026-01-29?",
+    "question_type": "numeric",
+    "tournament": "Unknown",
+    "tournament_slug": "unknown",
+    "forecast_date": "2026-01-20 08:33:54 UTC",
+    "bot_version": "SpringTemplateBotExtended",
+    "run_config": {
+      "predictions_per_research_report": 4,
+      "scenarios_per_prediction": 9,
+      "expected_total_scenarios": 36,
+      "actual_total_scenarios": 36,
+      "all_scenarios_generated": true
+    },
+    "units": "Billions of US Dollars"
+  },
+  "scenarios": {
+    "raw_values": [
+      0.5,
+      1.5,
+      4.0,
+      2.0,
+      8.0,
+      20.0,
+      25.0,
+      75.0,
+      150.0,
+      0.3,
+      0.8,
+      1.2,
+      1.5,
+      3.0,
+      7.0,
+      10.0,
+      40.0,
+      150.0,
+      0.5,
+      1.2,
+      3.0,
+      0.9,
+      2.5,
+      8.0,
+      5.0,
+      25.0,
+      120.0,
+      0.94,
+      1.22,
+      1.6,
+      1.6,
+      3.5,
+      8.0,
+      8.0,
+      50.0,
+      150.0
+    ],
+    "num_scenarios": 36
+  },
+  "aggregated_result": {
+    "type": "distribution",
+    "percentiles": {
+      "p5": 0.41330042437543596,
+      "p10": 0.7010006278096181,
+      "p15": 0.9675256806851236,
+      "p20": 1.12279303766113,
+      "p25": 1.374240185646501,
+      "p30": 1.5115460578470137,
+      "p35": 1.604483771606374,
+      "p40": 2.466633568343798,
+      "p45": 3.1108823154630723,
+      "p50": 3.360571734238653,
+      "p55": 6.093104914861994,
+      "p60": 8.141593304738652,
+      "p65": 8.157183478452803,
+      "p70": 12.136982006434973,
+      "p75": 22.521127288294416,
+      "p80": 31.161733588781388,
+      "p85": 63.97750253011216,
+      "p90": 125.58903543796953,
+      "p95": 156.31503756587347
+    }
+  },
+  "summary": {
+    "min_value": 0.3,
+    "max_value": 150.0,
+    "mean_value": 24.743333333333332,
+    "median_value": 3.75,
+    "std_value": 44.63992993323852
+  }
+}

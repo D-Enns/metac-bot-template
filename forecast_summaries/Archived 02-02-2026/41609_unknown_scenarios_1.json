@@ -1,0 +1,72 @@
+{
+  "metadata": {
+    "forecast_id": "q41609",
+    "question_url": "https://www.metaculus.com/questions/41609",
+    "question_text": "Will CEG's market close price on 2026-01-30 be higher than its market close price on 2026-01-19?",
+    "question_type": "binary",
+    "tournament": "Unknown",
+    "tournament_slug": "unknown",
+    "forecast_date": "2026-01-19 10:59:57 UTC",
+    "bot_version": "SpringTemplateBotExtended",
+    "run_config": {
+      "predictions_per_research_report": 4,
+      "scenarios_per_prediction": 9,
+      "expected_total_scenarios": 36,
+      "actual_total_scenarios": 36,
+      "all_scenarios_generated": true
+    }
+  },
+  "scenarios": {
+    "raw_values": [
+      0.28,
+      0.41,
+      0.54,
+      0.39,
+      0.5,
+      0.61,
+      0.47,
+      0.58,
+      0.71,
+      0.3,
+      0.4,
+      0.5,
+      0.45,
+      0.54,
+      0.62,
+      0.55,
+      0.65,
+      0.74,
+      0.35,
+      0.42,
+      0.49,
+      0.45,
+      0.53,
+      0.6,
+      0.55,
+      0.63,
+      0.7,
+      0.32,
+      0.41,
+      0.5,
+      0.45,
+      0.55,
+      0.63,
+      0.52,
+      0.64,
+      0.73
+    ],
+    "num_scenarios": 36
+  },
+  "aggregated_result": {
+    "type": "probability",
+    "value": 0.5283019940669473,
+    "percentage": "52.83%"
+  },
+  "summary": {
+    "min_probability": 0.28,
+    "max_probability": 0.74,
+    "mean_probability": 0.5197222222222222,
+    "median_probability": 0.525,
+    "std_probability": 0.11877818054188027
+  }
+}

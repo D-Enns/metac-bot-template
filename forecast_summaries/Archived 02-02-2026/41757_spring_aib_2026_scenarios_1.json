@@ -1,0 +1,72 @@
+{
+  "metadata": {
+    "forecast_id": "q41757",
+    "question_url": "https://www.metaculus.com/questions/41757",
+    "question_text": "Will the FDA grant approval to Zilebesiran for the treatment of hypertension before May 1, 2026?",
+    "question_type": "binary",
+    "tournament": "Spring Aib 2026",
+    "tournament_slug": "spring_aib_2026",
+    "forecast_date": "2026-01-29 07:01:21 UTC",
+    "bot_version": "SpringTemplateBotExtended",
+    "run_config": {
+      "predictions_per_research_report": 4,
+      "scenarios_per_prediction": 9,
+      "expected_total_scenarios": 36,
+      "actual_total_scenarios": 36,
+      "all_scenarios_generated": true
+    }
+  },
+  "scenarios": {
+    "raw_values": [
+      0.01,
+      0.013999999999999999,
+      0.02,
+      0.012,
+      0.022000000000000002,
+      0.038,
+      0.02,
+      0.045,
+      0.075,
+      0.01,
+      0.017,
+      0.03,
+      0.015,
+      0.032,
+      0.06,
+      0.03,
+      0.075,
+      0.12,
+      0.01,
+      0.012,
+      0.018000000000000002,
+      0.011000000000000001,
+      0.016,
+      0.027999999999999997,
+      0.016,
+      0.035,
+      0.065,
+      0.011000000000000001,
+      0.02,
+      0.036000000000000004,
+      0.013999999999999999,
+      0.031,
+      0.062,
+      0.027000000000000003,
+      0.065,
+      0.128
+    ],
+    "num_scenarios": 36
+  },
+  "aggregated_result": {
+    "type": "probability",
+    "value": 0.025951996257834366,
+    "percentage": "2.60%"
+  },
+  "summary": {
+    "min_probability": 0.01,
+    "max_probability": 0.128,
+    "mean_probability": 0.034722222222222224,
+    "median_probability": 0.0245,
+    "std_probability": 0.028900798827013522
+  }
+}

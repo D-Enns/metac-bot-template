@@ -1,0 +1,179 @@
+{
+  "metadata": {
+    "forecast_id": "q41642",
+    "question_url": "https://www.metaculus.com/questions/41642",
+    "question_text": "Will the interest in “tj sabula” change between 2026-01-20 and 2026-01-30 according to Google Trends?",
+    "question_type": "multiple_choice",
+    "tournament": "Unknown",
+    "tournament_slug": "unknown",
+    "forecast_date": "2026-01-20 19:54:23 UTC",
+    "bot_version": "SpringTemplateBotExtended",
+    "run_config": {
+      "predictions_per_research_report": 4,
+      "scenarios_per_prediction": 9,
+      "expected_total_scenarios": 36,
+      "actual_total_scenarios": 36,
+      "all_scenarios_generated": true
+    }
+  },
+  "scenarios": {
+    "by_option": {
+      "Increases": {
+        "raw_probabilities": [
+          8.0,
+          10.0,
+          20.0,
+          12.0,
+          13.0,
+          25.0,
+          55.0,
+          45.0,
+          35.0,
+          10.4,
+          12.3,
+          26.2,
+          19.2,
+          20.7,
+          31.0,
+          52.4,
+          45.1,
+          40.0,
+          3.0,
+          4.0,
+          9.0,
+          5.0,
+          7.0,
+          14.0,
+          34.0,
+          28.0,
+          41.0,
+          9.0,
+          8.0,
+          15.0,
+          12.0,
+          11.0,
+          20.0,
+          38.0,
+          35.0,
+          34.0
+        ],
+        "num_scenarios": 36
+      },
+      "Doesn't change": {
+        "raw_probabilities": [
+          85.0,
+          82.0,
+          65.0,
+          78.0,
+          75.0,
+          55.0,
+          25.0,
+          30.0,
+          35.0,
+          78.1,
+          73.6,
+          45.9,
+          63.4,
+          59.1,
+          38.2,
+          17.8,
+          24.6,
+          20.0,
+          95.0,
+          93.0,
+          86.0,
+          91.0,
+          88.0,
+          76.0,
+          51.0,
+          55.0,
+          34.0,
+          84.0,
+          87.0,
+          66.0,
+          74.0,
+          76.0,
+          57.0,
+          42.0,
+          40.0,
+          28.0
+        ],
+        "num_scenarios": 36
+      },
+      "Decreases": {
+        "raw_probabilities": [
+          7.0,
+          8.0,
+          15.0,
+          10.0,
+          12.0,
+          20.0,
+          20.0,
+          25.0,
+          30.0,
+          11.5,
+          14.1,
+          27.9,
+          17.4,
+          20.2,
+          30.8,
+          29.8,
+          30.3,
+          40.0,
+          2.0,
+          3.0,
+          5.0,
+          4.0,
+          5.0,
+          10.0,
+          15.0,
+          17.0,
+          25.0,
+          7.0,
+          5.0,
+          19.0,
+          14.0,
+          13.0,
+          23.0,
+          20.0,
+          25.0,
+          38.0
+        ],
+        "num_scenarios": 36
+      }
+    }
+  },
+  "aggregated_result": {
+    "type": "multiple_choice",
+    "probabilities": {
+      "Increases": 0.1918315007358158,
+      "Doesn't change": 0.6430777264390192,
+      "Decreases": 0.16509077282516502
+    }
+  },
+  "summary": {
+    "by_option": {
+      "Increases": {
+        "min_probability": 3.0,
+        "max_probability": 55.0,
+        "mean_probability": 22.424999999999997,
+        "median_probability": 19.6,
+        "std_probability": 14.543123136230248
+      },
+      "Doesn't change": {
+        "min_probability": 17.8,
+        "max_probability": 95.0,
+        "mean_probability": 60.38055555555555,
+        "median_probability": 64.2,
+        "std_probability": 23.33855678967085
+      },
+      "Decreases": {
+        "min_probability": 2.0,
+        "max_probability": 40.0,
+        "mean_probability": 17.194444444444443,
+        "median_probability": 16.0,
+        "std_probability": 9.936854645556286
+      }
+    }
+  }
+}

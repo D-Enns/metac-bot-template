@@ -8,7 +8,7 @@ Custom tools for managing and analyzing forecast bot data.
 
 Systematically downloads all forecast summary artifacts from GitHub Actions workflow runs.
 
-**Purpose**: Ensure complete data recovery for all tournaments by downloading artifacts from all workflow runs.
+**Purpose**: Ensure complete data recovery for all tournaments by downloading artifacts from all workflow runs. Each file is automatically renamed with its run number to prevent overwrites and maintain complete version history.
 
 **Requirements**:
 - GitHub CLI (`gh`) installed and authenticated
@@ -29,23 +29,25 @@ python dre_tools/download_all_forecast_artifacts.py --limit 500
 # Use custom output directory
 python dre_tools/download_all_forecast_artifacts.py --output-dir my_forecasts
 
-# Skip file consolidation step
-python dre_tools/download_all_forecast_artifacts.py --no-consolidate
+# Generate versions manifest after download
+python dre_tools/download_all_forecast_artifacts.py --generate-manifest
 ```
 
 **Features**:
 - ✅ Downloads artifacts from all successful workflow runs
+- ✅ Automatically adds run numbers to filenames (prevents overwrites)
 - ✅ Tracks previously downloaded artifacts to avoid duplicates
-- ✅ Organizes files by run number
-- ✅ Generates comprehensive download report
-- ✅ Optional file consolidation into main directory
+- ✅ Generates comprehensive download reports with question tracking
+- ✅ Dated download reports organized in reports/ subdirectory
+- ✅ Optional versions manifest for quick lookup
 - ✅ Handles expired artifacts gracefully
 - ✅ Creates detailed logs for troubleshooting
 
 **Output**:
-- Files organized in `forecast_summaries/run_*/` directories
+- Files saved directly to `forecast_summaries/` with run numbers (e.g., `41871_spring_aib_2026_full_r909.md`)
+- Download reports in `forecast_summaries/reports/download_report_YYYY-MM-DD_HH-MM.json`
 - Download log saved to `downloaded_artifacts_log.json`
-- Summary report saved to `forecast_summaries/download_report.json`
+- Optional `versions_manifest.json` for tracking all versions
 
 **Example Output**:
 ```
@@ -67,7 +69,10 @@ Output directory: /path/to/forecast_summaries
   Date: 2026-01-27T21:51:43Z
   Status: success
   - forecast-summaries-909 (0.05 MB)
-    ✓ Downloaded to forecast_summaries/run_909/
+      ✓ 41871_spring_aib_2026_full_r909.md
+      ✓ 41871_spring_aib_2026_condensed_r909.md
+      ✓ 41871_spring_aib_2026_scenarios_r909.json
+    ✓ Processed 3 file(s)
 ...
 
 DOWNLOAD SUMMARY
@@ -86,7 +91,7 @@ DOWNLOAD SUMMARY
 📝 Unique questions with forecast data: 45
   Question IDs: 14333, 41379, 41384, 41392, ...
 
-📄 Detailed report saved to: forecast_summaries/download_report.json
+📄 Detailed report saved to: forecast_summaries/reports/download_report_2026-02-02_15-30.json
 📋 Download log saved to: downloaded_artifacts_log.json
 
 ✅ Download complete!
