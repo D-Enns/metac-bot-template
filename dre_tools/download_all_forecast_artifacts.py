@@ -1,11 +1,17 @@
 #!/usr/bin/env python3
 """
-Download All Forecast Artifacts from GitHub Actions
+Download All Forecast Artifacts from GitHub Actions (v3.0)
 
-This script systematically downloads all forecast summary artifacts from GitHub Actions
-workflow runs, ensuring complete data recovery for all tournaments. Each downloaded file
-is automatically renamed to include the run number, preventing any overwrites and
-maintaining complete version history.
+This script downloads forecast summary artifacts from GitHub Actions workflow runs,
+keeping only the FIRST OCCURRENCE of each question to minimize disk space and
+maintain a clean, navigable archive.
+
+Key Features:
+- Downloads only first occurrence of each question
+- Adds missing file types in subsequent runs (e.g., condensed.md added later)
+- TSV manifest tracks all questions with first run info
+- Tool run logs capture all console output
+- Space-efficient: ~90% reduction vs keeping all versions
 
 Requirements:
 - GitHub CLI (gh) installed and authenticated: gh auth login
@@ -13,24 +19,49 @@ Requirements:
 
 Usage:
     python download_all_forecast_artifacts.py
-    python download_all_forecast_artifacts.py --workflow dre_run_bot_on_tournament.yaml
     python download_all_forecast_artifacts.py --limit 500
     python download_all_forecast_artifacts.py --output-dir my_forecasts
-    python download_all_forecast_artifacts.py --generate-manifest
 
-Files are saved with run numbers (e.g., 41871_spring_aib_2026_full_r909.md) to ensure
-uniqueness and prevent overwriting. Download reports are saved to reports/ subdirectory
-with timestamps.
+Version History:
+- v3.0 (Feb 2026): First occurrence only, TSV manifest, tool logging
+- v2.0 (Feb 2026): Keep all versions with run numbers [DEPRECATED - too much space]
+- v1.0 (Jan 2026): Basic download with run_*/ subdirectories
 """
 
 import argparse
+import csv
 import json
+import re
+import shutil
 import subprocess
 import sys
+import tempfile
 from datetime import datetime
 from pathlib import Path
-from typing import List, Dict, Optional
-import time
+from typing import Dict, List, Optional, Set
+
+
+class ToolLogger:
+    """Dual output logger: console + timestamped log file"""
+
+    def __init__(self, output_dir: Path):
+        timestamp = datetime.now().strftime('%Y-%m-%d_%H-%M')
+        self.log_file = output_dir / f"tool_run_{timestamp}.log"
+        self.log_file.parent.mkdir(parents=True, exist_ok=True)
+
+        # Write header
+        with open(self.log_file, 'w', encoding='utf-8') as f:
+            f.write(f"Tool Run Log - {datetime.now().isoformat()}\n")
+            f.write("=" * 80 + "\n\n")
+
+    def log(self, message: str):
+        """Write to both console and log file"""
+        timestamp = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+        log_line = f"[{timestamp}] {message}"
+        print(message)  # Console output without timestamp for readability
+
+        with open(self.log_file, 'a', encoding='utf-8') as f:
+            f.write(log_line + '\n')
 
 
 class ArtifactDownloader:
@@ -40,55 +71,239 @@ class ArtifactDownloader:
         self.output_dir = Path(output_dir)
         self.output_dir.mkdir(parents=True, exist_ok=True)
 
-        # Track what we've downloaded
-        self.download_log_file = Path("downloaded_artifacts_log.json")
-        self.downloaded_artifacts = self._load_download_log()
+        # Initialize logger
+        self.logger = ToolLogger(self.output_dir)
 
-        # Verify gh CLI is available
+        # TSV manifest
+        self.tsv_data = {}  # {question_id: {first_run, first_run_date, tournament, files, notes}}
+        self.latest_tsv_file = self._get_latest_tsv_path()  # Most recent existing TSV
+        self.next_tsv_file = None  # Set after save
+
+        # Track run dates for TSV updates
+        self.run_dates = {}  # {run_number: date}
+
+        # Verify gh CLI
+        self._verify_gh_cli()
+
+        # Load existing TSV manifest
+        self.load_tsv_manifest()
+
+    def _verify_gh_cli(self):
+        """Verify GitHub CLI is installed and authenticated"""
         try:
             subprocess.run(["gh", "--version"], capture_output=True, check=True)
-            print("✓ GitHub CLI (gh) is available")
+            self.logger.log("✓ GitHub CLI (gh) is available")
         except (subprocess.CalledProcessError, FileNotFoundError):
-            print("ERROR: GitHub CLI (gh) is not installed or not in PATH")
-            print("Please install it: https://cli.github.com/")
-            print("Then authenticate: gh auth login")
+            self.logger.log("ERROR: GitHub CLI (gh) is not installed or not in PATH")
+            self.logger.log("Please install it: https://cli.github.com/")
+            self.logger.log("Then authenticate: gh auth login")
             sys.exit(1)
 
-        # Verify authentication
         try:
-            result = subprocess.run(
-                ["gh", "auth", "status"],
-                capture_output=True,
-                check=True,
-                text=True
-            )
-            print("✓ GitHub CLI is authenticated")
+            subprocess.run(["gh", "auth", "status"], capture_output=True, check=True, text=True)
+            self.logger.log("✓ GitHub CLI is authenticated")
         except subprocess.CalledProcessError:
-            print("ERROR: GitHub CLI is not authenticated")
-            print("Please run: gh auth login")
+            self.logger.log("ERROR: GitHub CLI is not authenticated")
+            self.logger.log("Please run: gh auth login")
             sys.exit(1)
 
-    def _load_download_log(self) -> Dict:
-        """Load log of previously downloaded artifacts"""
-        if self.download_log_file.exists():
-            with open(self.download_log_file, 'r') as f:
-                return json.load(f)
-        return {
-            "downloaded_artifacts": {},
-            "last_updated": None
-        }
+    # ========================================================================
+    # TSV Manifest Methods
+    # ========================================================================
 
-    def _save_download_log(self):
-        """Save log of downloaded artifacts"""
-        self.downloaded_artifacts["last_updated"] = datetime.now().isoformat()
-        with open(self.download_log_file, 'w') as f:
-            json.dump(self.downloaded_artifacts, f, indent=2)
+    def _get_latest_tsv_path(self) -> Optional[Path]:
+        """Find the most recent Question_Run_and_Date TSV file"""
+        tsv_files = sorted(self.output_dir.glob("Question_Run_and_Date_*.txt"))
+        return tsv_files[-1] if tsv_files else None
+
+    def _get_next_tsv_path(self) -> Path:
+        """Generate next versioned TSV filename for today"""
+        today = datetime.now().strftime('%Y-%m-%d')
+        n = 1
+        while True:
+            path = self.output_dir / f"Question_Run_and_Date_{today}_v{n}.txt"
+            if not path.exists():
+                return path
+            n += 1
+
+    def load_tsv_manifest(self):
+        """Load existing TSV manifest if it exists"""
+        if not self.latest_tsv_file:
+            self.logger.log("No existing TSV manifest found (starting fresh)")
+            return
+
+        try:
+            with open(self.latest_tsv_file, 'r', encoding='utf-8') as f:
+                reader = csv.DictReader(f, delimiter='\t')
+                for row in reader:
+                    question_id = row['question_id']
+                    self.tsv_data[question_id] = {
+                        'first_run': int(row['first_run']),
+                        'first_run_date': row['first_run_date'],
+                        'tournament': row['tournament'],
+                        'file_count': int(row['file_count']),
+                        'notes': row.get('notes', '')
+                    }
+
+            self.logger.log(f"✓ Loaded TSV manifest: {len(self.tsv_data)} questions tracked ({self.latest_tsv_file.name})")
+        except Exception as e:
+            self.logger.log(f"Warning: Failed to load TSV manifest: {e}")
+            self.logger.log("Will rebuild from files if needed")
+
+    def save_tsv_manifest(self):
+        """Save TSV manifest (rebuild from actual files on disk)"""
+        self.logger.log("\nUpdating TSV manifest...")
+
+        # Rebuild from files on disk
+        manifest = {}
+
+        for file in sorted(self.output_dir.glob("*_r*.*")):
+            if file.suffix not in ['.md', '.json']:
+                continue
+
+            question_id = self.extract_question_id(file.name)
+            if not question_id:
+                continue
+
+            run_number = self.extract_run_number(file.name)
+            tournament = self.extract_tournament(file.name)
+
+            if question_id not in manifest:
+                manifest[question_id] = {
+                    'first_run': run_number,
+                    'tournament': tournament,
+                    'files': set(),
+                    'notes': self.tsv_data.get(question_id, {}).get('notes', '')
+                }
+            else:
+                # Update first_run if this file is from earlier run
+                if run_number < manifest[question_id]['first_run']:
+                    manifest[question_id]['first_run'] = run_number
+
+            manifest[question_id]['files'].add(file.name)
+
+        # Extract Forecast Date from each question's full summary file
+        for question_id in manifest:
+            manifest[question_id]['first_run_date'] = self.extract_forecast_date(question_id)
+
+        # Write to next versioned TSV file
+        self.next_tsv_file = self._get_next_tsv_path()
+
+        with open(self.next_tsv_file, 'w', encoding='utf-8', newline='') as f:
+            writer = csv.writer(f, delimiter='\t')
+            writer.writerow(['question_id', 'first_run', 'first_run_date', 'tournament', 'file_count', 'notes'])
+
+            for question_id in sorted(manifest.keys(), key=int):
+                data = manifest[question_id]
+                writer.writerow([
+                    question_id,
+                    data['first_run'],
+                    data['first_run_date'],
+                    data['tournament'],
+                    len(data['files']),
+                    data['notes']
+                ])
+
+        self.logger.log(f"✓ TSV manifest saved: {len(manifest)} questions")
+        self.logger.log(f"  Location: {self.next_tsv_file.name}")
+
+    # ========================================================================
+    # Filename Parsing Helpers
+    # ========================================================================
+
+    def extract_question_id(self, filename: str) -> Optional[str]:
+        """Extract question ID from filename (e.g., '41871' from '41871_spring_aib_2026_full_r909.md')"""
+        match = re.match(r'^(\d+)_', filename)
+        return match.group(1) if match else None
+
+    def extract_run_number(self, filename: str) -> int:
+        """Extract run number from filename (e.g., 909 from '41871_spring_aib_2026_full_r909.md')"""
+        match = re.search(r'_r(\d+)\.', filename)
+        return int(match.group(1)) if match else 0
+
+    def extract_tournament(self, filename: str) -> str:
+        """Extract tournament from filename (e.g., 'spring_aib_2026' from filename)"""
+        # Pattern: questionID_tournament_type_rRUN.ext
+        # Example: 41871_spring_aib_2026_full_r909.md
+        parts = filename.split('_')
+
+        # Find where tournament ends (before 'full', 'condensed', 'scenarios')
+        file_types = ['full', 'condensed', 'scenarios']
+        tournament_parts = []
+
+        for i, part in enumerate(parts[1:], 1):  # Skip question ID
+            if part in file_types or part.startswith('r'):
+                break
+            tournament_parts.append(part)
+
+        return '_'.join(tournament_parts) if tournament_parts else 'unknown'
+
+    def extract_file_type(self, filename: str) -> Optional[str]:
+        """Extract file type from filename (full, condensed, or scenarios)"""
+        if '_full_r' in filename:
+            return 'full'
+        elif '_condensed_r' in filename:
+            return 'condensed'
+        elif '_scenarios_r' in filename:
+            return 'scenarios'
+        return None
+
+    def extract_forecast_date(self, question_id: str) -> str:
+        """Extract Forecast Date from the full summary file for a question"""
+        for file in self.output_dir.glob(f"{question_id}_*_full_r*.md"):
+            try:
+                with open(file, 'r', encoding='utf-8') as f:
+                    for line in f:
+                        match = re.match(r'\*\*Forecast Date\*\*:\s*(.+)', line)
+                        if match:
+                            return match.group(1).strip()
+            except Exception:
+                continue
+        return 'unknown'
+
+    # ========================================================================
+    # Question Tracking Methods
+    # ========================================================================
+
+    def get_existing_files(self, question_id: str) -> Dict[str, Optional[int]]:
+        """
+        Check what file types we already have for a question.
+        Returns: {'full': run_number or None, 'condensed': run_number or None, 'scenarios': run_number or None}
+        """
+        existing = {'full': None, 'condensed': None, 'scenarios': None}
+
+        # Check TSV first
+        if question_id in self.tsv_data:
+            # Question is tracked, check files on disk
+            for file in self.output_dir.glob(f"{question_id}_*"):
+                file_type = self.extract_file_type(file.name)
+                if file_type:
+                    run_num = self.extract_run_number(file.name)
+                    existing[file_type] = run_num
+        else:
+            # Fall back to file scan
+            for file in self.output_dir.glob(f"{question_id}_*"):
+                file_type = self.extract_file_type(file.name)
+                if file_type:
+                    run_num = self.extract_run_number(file.name)
+                    existing[file_type] = run_num
+
+        return existing
+
+    def should_download_file(self, question_id: str, file_type: str) -> bool:
+        """Determine if we should download this file type for this question"""
+        existing = self.get_existing_files(question_id)
+        return existing[file_type] is None
+
+    # ========================================================================
+    # GitHub API Methods
+    # ========================================================================
 
     def get_workflow_runs(self, limit: int = 1000) -> List[Dict]:
         """Get list of all workflow runs"""
-        print(f"\nFetching workflow runs for: {self.workflow}")
-        print(f"Repository: {self.repo}")
-        print(f"Limit: {limit} runs")
+        self.logger.log(f"\nFetching workflow runs for: {self.workflow}")
+        self.logger.log(f"Repository: {self.repo}")
+        self.logger.log(f"Limit: {limit} runs")
 
         cmd = [
             "gh", "api",
@@ -100,7 +315,7 @@ class ArtifactDownloader:
         try:
             result = subprocess.run(cmd, capture_output=True, check=True, text=True)
 
-            # Parse NDJSON output (one JSON object per line)
+            # Parse NDJSON output
             runs = []
             for line in result.stdout.strip().split('\n'):
                 if line:
@@ -112,14 +327,18 @@ class ArtifactDownloader:
             # Apply limit
             runs = runs[:limit]
 
-            print(f"✓ Found {len(runs)} workflow runs")
+            # Store run dates for TSV
+            for run in runs:
+                self.run_dates[run['run_number']] = run['created_at']
+
+            self.logger.log(f"✓ Found {len(runs)} workflow runs")
             return runs
 
         except subprocess.CalledProcessError as e:
-            print(f"ERROR: Failed to get workflow runs: {e.stderr}")
+            self.logger.log(f"ERROR: Failed to get workflow runs: {e.stderr}")
             return []
 
-    def get_run_artifacts(self, run_id: int, run_number: int) -> List[Dict]:
+    def get_run_artifacts(self, run_id: int) -> List[Dict]:
         """Get artifacts for a specific run"""
         cmd = [
             "gh", "api",
@@ -146,20 +365,12 @@ class ArtifactDownloader:
         except subprocess.CalledProcessError:
             return []
 
-    def download_artifact(self, run_id: int, run_number: int, artifact_name: str) -> Optional[Dict]:
-        """Download a specific artifact and organize files with run numbers"""
-        import tempfile
-        import shutil
+    # ========================================================================
+    # Download Methods
+    # ========================================================================
 
-        # Check if already downloaded
-        artifact_key = f"{run_number}:{artifact_name}"
-        if artifact_key in self.downloaded_artifacts.get("downloaded_artifacts", {}):
-            existing_files = self.downloaded_artifacts["downloaded_artifacts"][artifact_key].get("files", [])
-            if existing_files and all(Path(f).exists() for f in existing_files):
-                print(f"    ⊙ Already downloaded (skipping)")
-                return self.downloaded_artifacts["downloaded_artifacts"][artifact_key]
-
-        # Create temporary directory for download
+    def download_artifact(self, run_id: int, run_number: int, artifact_name: str) -> Dict:
+        """Download artifact and process files (only download missing file types)"""
         with tempfile.TemporaryDirectory() as temp_dir:
             cmd = [
                 "gh", "run", "download", str(run_id),
@@ -171,87 +382,103 @@ class ArtifactDownloader:
             try:
                 subprocess.run(cmd, capture_output=True, check=True, text=True)
 
-                # Process downloaded files: rename with run number and move to output_dir
                 downloaded_files = []
-                questions = set()
+                questions_processed = set()
+                skipped_files = []
 
                 for file in Path(temp_dir).rglob("*"):
-                    if file.is_file() and not file.name.startswith('.'):
-                        # Parse original filename: 41871_spring_aib_2026_full_1.md
-                        stem = file.stem
-                        suffix = file.suffix
+                    if not file.is_file() or file.name.startswith('.'):
+                        continue
 
-                        # Extract question ID for tracking
-                        parts = file.name.split('_')
-                        if parts[0].isdigit():
-                            questions.add(parts[0])
+                    # Parse filename
+                    question_id = self.extract_question_id(file.name)
+                    if not question_id:
+                        continue
 
-                        # Add run number if not already present
-                        if f"_r{run_number}" not in stem:
-                            # Remove trailing counter (e.g., _1) and add run number
-                            if stem[-2:].startswith('_') and stem[-1].isdigit():
-                                stem = stem[:-2]
-                            new_name = f"{stem}_r{run_number}{suffix}"
-                        else:
-                            new_name = file.name
+                    file_type = self.extract_file_type(file.name)
+                    if not file_type:
+                        continue
 
-                        target_path = self.output_dir / new_name
+                    questions_processed.add(question_id)
 
-                        # Only copy if doesn't exist (run number makes it unique)
-                        if not target_path.exists():
-                            shutil.copy2(file, target_path)
-                            downloaded_files.append(str(target_path))
-                            print(f"      ✓ {new_name}")
-                        else:
-                            print(f"      ⊙ {new_name} (already exists)")
-                            downloaded_files.append(str(target_path))
+                    # Check if we should download this file
+                    if not self.should_download_file(question_id, file_type):
+                        skipped_files.append(file.name)
+                        continue
 
-                # Record download
-                if "downloaded_artifacts" not in self.downloaded_artifacts:
-                    self.downloaded_artifacts["downloaded_artifacts"] = {}
+                    # Generate target filename with run number
+                    stem = file.stem
+                    suffix = file.suffix
 
-                download_info = {
-                    "run_number": run_number,
-                    "run_id": run_id,
-                    "artifact_name": artifact_name,
-                    "files": downloaded_files,
-                    "questions": sorted(list(questions), key=int),
-                    "downloaded_at": datetime.now().isoformat()
+                    # Check if file already has a run number
+                    existing_run_match = re.search(r'_r(\d+)$', stem)
+
+                    if existing_run_match:
+                        # File already has run number - use as is
+                        new_name = file.name
+                    else:
+                        # Remove trailing counter if present (e.g., _1)
+                        if stem[-2:].startswith('_') and stem[-1].isdigit():
+                            stem = stem[:-2]
+
+                        # Add run number
+                        new_name = f"{stem}_r{run_number}{suffix}"
+
+                    target_path = self.output_dir / new_name
+
+                    # Copy file
+                    if not target_path.exists():
+                        shutil.copy2(file, target_path)
+                        downloaded_files.append(new_name)
+                        self.logger.log(f"      ✓ {new_name}")
+                    else:
+                        self.logger.log(f"      ⊙ {new_name} (already exists)")
+
+                # Summary
+                if downloaded_files:
+                    self.logger.log(f"    ✓ Downloaded {len(downloaded_files)} file(s)")
+                if skipped_files:
+                    self.logger.log(f"    ⊙ Skipped {len(skipped_files)} file(s) (already have)")
+
+                return {
+                    'downloaded': len(downloaded_files),
+                    'skipped': len(skipped_files),
+                    'questions': list(questions_processed)
                 }
 
-                self.downloaded_artifacts["downloaded_artifacts"][artifact_key] = download_info
-
-                print(f"    ✓ Processed {len(downloaded_files)} file(s)")
-                return download_info
-
             except subprocess.CalledProcessError as e:
-                print(f"    ✗ Failed: {e.stderr.decode() if e.stderr else 'Unknown error'}")
-                return None
+                error_msg = e.stderr.decode() if e.stderr else 'Unknown error'
+                self.logger.log(f"    ✗ Failed: {error_msg}")
+                return {'downloaded': 0, 'skipped': 0, 'questions': [], 'error': error_msg}
 
-    def download_all_artifacts(self, limit: int = 1000, skip_existing: bool = True):
-        """Main method to download all artifacts"""
-        print("=" * 80)
-        print("FORECAST ARTIFACT DOWNLOADER")
-        print("=" * 80)
+    # ========================================================================
+    # Main Download Method
+    # ========================================================================
+
+    def download_all_artifacts(self, limit: int = 1000):
+        """Main method to download all artifacts (first occurrence only)"""
+        self.logger.log("=" * 80)
+        self.logger.log("FORECAST ARTIFACT DOWNLOADER v3.0 - First Occurrence Only")
+        self.logger.log("=" * 80)
 
         # Get all workflow runs
         runs = self.get_workflow_runs(limit)
         if not runs:
-            print("No workflow runs found!")
+            self.logger.log("No workflow runs found!")
             return
 
-        print(f"\nProcessing {len(runs)} workflow runs...")
-        print(f"Output directory: {self.output_dir.absolute()}")
-        print("-" * 80)
+        self.logger.log(f"\nProcessing {len(runs)} workflow runs...")
+        self.logger.log(f"Output directory: {self.output_dir.absolute()}")
+        self.logger.log("-" * 80)
 
         stats = {
-            "total_runs": len(runs),
-            "runs_with_artifacts": 0,
-            "total_artifacts": 0,
-            "downloaded": 0,
-            "skipped": 0,
-            "failed": 0,
-            "expired": 0
+            'total_runs': len(runs),
+            'runs_with_artifacts': 0,
+            'total_artifacts': 0,
+            'files_downloaded': 0,
+            'files_skipped': 0,
+            'failed': 0,
+            'expired': 0
         }
 
         # Process each run
@@ -261,289 +488,92 @@ class ArtifactDownloader:
             created_at = run['created_at']
             conclusion = run['conclusion']
 
-            print(f"\n[{i}/{len(runs)}] Run #{run_number} (ID: {run_id})")
-            print(f"  Date: {created_at}")
-            print(f"  Status: {conclusion}")
+            self.logger.log(f"\n[{i}/{len(runs)}] Run #{run_number} (ID: {run_id})")
+            self.logger.log(f"  Date: {created_at}")
+            self.logger.log(f"  Status: {conclusion}")
 
             # Skip failed runs
             if conclusion not in ["success", "completed", None]:
-                print(f"  ⊙ Skipping (not successful)")
+                self.logger.log(f"  ⊙ Skipping (not successful)")
                 continue
 
             # Get artifacts for this run
-            artifacts = self.get_run_artifacts(run_id, run_number)
+            artifacts = self.get_run_artifacts(run_id)
 
             if not artifacts:
-                print(f"  ⊙ No forecast artifacts found")
+                self.logger.log(f"  ⊙ No forecast artifacts found")
                 continue
 
-            stats["runs_with_artifacts"] += 1
-            stats["total_artifacts"] += len(artifacts)
+            stats['runs_with_artifacts'] += 1
+            stats['total_artifacts'] += len(artifacts)
 
             # Download each artifact
             for artifact in artifacts:
                 artifact_name = artifact['name']
-                artifact_id = artifact['id']
                 size_mb = artifact['size_in_bytes'] / (1024 * 1024)
                 expired = artifact['expired']
 
-                print(f"  - {artifact_name} ({size_mb:.2f} MB)")
+                self.logger.log(f"  - {artifact_name} ({size_mb:.2f} MB)")
 
                 if expired:
-                    print(f"    ✗ Expired (cannot download)")
-                    stats["expired"] += 1
+                    self.logger.log(f"    ✗ Expired (cannot download)")
+                    stats['expired'] += 1
                     continue
 
                 # Download
                 result = self.download_artifact(run_id, run_number, artifact_name)
 
-                if result:
-                    if "Already downloaded" in str(result):
-                        stats["skipped"] += 1
-                    else:
-                        stats["downloaded"] += 1
+                if 'error' in result:
+                    stats['failed'] += 1
                 else:
-                    stats["failed"] += 1
+                    stats['files_downloaded'] += result['downloaded']
+                    stats['files_skipped'] += result['skipped']
 
-            # Save progress after each run
-            self._save_download_log()
+        # Generate summary
+        self._generate_summary(stats)
 
-            # Small delay to avoid rate limiting
-            time.sleep(0.1)
+        # Save TSV manifest
+        self.save_tsv_manifest()
 
-        # Generate summary report
-        self._generate_summary_report(stats, runs)
+    def _generate_summary(self, stats: Dict):
+        """Generate summary report"""
+        self.logger.log("\n" + "=" * 80)
+        self.logger.log("DOWNLOAD SUMMARY")
+        self.logger.log("=" * 80)
 
-    def _generate_summary_report(self, stats: Dict, runs: List[Dict]):
-        """Generate a summary report of the download operation"""
-        print("\n" + "=" * 80)
-        print("DOWNLOAD SUMMARY")
-        print("=" * 80)
+        self.logger.log(f"\n📊 Statistics:")
+        self.logger.log(f"  Total workflow runs processed: {stats['total_runs']}")
+        self.logger.log(f"  Runs with forecast artifacts: {stats['runs_with_artifacts']}")
+        self.logger.log(f"  Total artifacts found: {stats['total_artifacts']}")
+        self.logger.log(f"  ✓ Files downloaded: {stats['files_downloaded']}")
+        self.logger.log(f"  ⊙ Files skipped (already have): {stats['files_skipped']}")
+        self.logger.log(f"  ✗ Failed: {stats['failed']}")
+        self.logger.log(f"  ⊗ Expired: {stats['expired']}")
 
-        print(f"\n📊 Statistics:")
-        print(f"  Total workflow runs processed: {stats['total_runs']}")
-        print(f"  Runs with forecast artifacts: {stats['runs_with_artifacts']}")
-        print(f"  Total artifacts found: {stats['total_artifacts']}")
-        print(f"  ✓ Downloaded: {stats['downloaded']}")
-        print(f"  ⊙ Skipped (already downloaded): {stats['skipped']}")
-        print(f"  ✗ Failed: {stats['failed']}")
-        print(f"  ⊗ Expired: {stats['expired']}")
-
-        # List all downloaded files
-        print(f"\n📁 Files organized in: {self.output_dir.absolute()}/")
-
-        # Count unique questions from actual files
+        # Count unique questions
         question_ids = set()
         for file in self.output_dir.glob("*_r*.md"):
-            # Extract question ID from filename (e.g., 41871_spring_aib_2026_full_r909.md)
-            parts = file.name.split('_')
-            if parts[0].isdigit():
-                question_ids.add(parts[0])
+            qid = self.extract_question_id(file.name)
+            if qid:
+                question_ids.add(qid)
 
-        print(f"\n📝 Unique questions with forecast data: {len(question_ids)}")
-        if question_ids:
-            print(f"  Question IDs: {', '.join(sorted(question_ids, key=int))}")
+        self.logger.log(f"\n📝 Unique questions with forecast data: {len(question_ids)}")
+        if question_ids and len(question_ids) <= 50:
+            self.logger.log(f"  Question IDs: {', '.join(sorted(question_ids, key=int))}")
 
-        # Build question-to-runs mapping
-        question_to_runs = self._build_question_run_map()
-
-        # Create reports directory
-        reports_dir = self.output_dir / "reports"
-        reports_dir.mkdir(exist_ok=True)
-
-        # Generate timestamped report filename
-        timestamp = datetime.now()
-        report_filename = f"download_report_{timestamp.strftime('%Y-%m-%d_%H-%M')}.json"
-        report_file = reports_dir / report_filename
-
-        # Build detailed report with question tracking
-        report = {
-            "timestamp": timestamp.isoformat(),
-            "repository": self.repo,
-            "workflow": self.workflow,
-            "statistics": stats,
-            "unique_questions": sorted(list(question_ids), key=int),
-            "question_to_runs_map": question_to_runs,
-            "runs_processed": [
-                {
-                    "run_number": run['run_number'],
-                    "run_id": run['id'],
-                    "date": run['created_at'],
-                    "questions": self._get_questions_for_run(run['run_number'])
-                }
-                for run in runs[:50]  # Save first 50 for reference
-            ]
-        }
-
-        with open(report_file, 'w') as f:
-            json.dump(report, f, indent=2)
-
-        print(f"\n📄 Detailed report saved to: {report_file}")
-        print(f"📋 Download log saved to: {self.download_log_file}")
-        print("\n✅ Download complete!")
-
-    def _get_questions_for_run(self, run_number: int) -> List[str]:
-        """Extract question IDs forecasted in a specific run"""
-        # Check downloaded artifacts log first
-        for artifact_key, info in self.downloaded_artifacts.get("downloaded_artifacts", {}).items():
-            if info.get("run_number") == run_number and "questions" in info:
-                return info["questions"]
-
-        # Fallback: scan files
-        questions = set()
-        for file in self.output_dir.glob(f"*_r{run_number}.md"):
-            parts = file.name.split('_')
-            if parts[0].isdigit():
-                questions.add(parts[0])
-
-        return sorted(list(questions), key=int)
-
-    def _build_question_run_map(self) -> Dict[str, List[int]]:
-        """Build mapping of question_id -> list of run_numbers"""
-        question_map = {}
-
-        # Scan all files with run numbers
-        for file in self.output_dir.glob("*_r*.md"):
-            parts = file.name.split('_')
-            if not parts[0].isdigit():
-                continue
-
-            question_id = parts[0]
-
-            # Extract run number from filename (e.g., _r909.md)
-            import re
-            match = re.search(r'_r(\d+)\.', file.name)
-            if match:
-                run_number = int(match.group(1))
-
-                if question_id not in question_map:
-                    question_map[question_id] = []
-                if run_number not in question_map[question_id]:
-                    question_map[question_id].append(run_number)
-
-        # Sort run numbers for each question (newest first)
-        for question_id in question_map:
-            question_map[question_id].sort(reverse=True)
-
-        return question_map
-
-    def consolidate_files(self):
-        """
-        Consolidate all downloaded files into the main forecast_summaries directory,
-        avoiding duplicates.
-        """
-        print("\n" + "=" * 80)
-        print("CONSOLIDATING FILES")
-        print("=" * 80)
-
-        consolidated_count = 0
-        duplicate_count = 0
-
-        # Process each run directory
-        for run_dir in sorted(self.output_dir.glob("run_*/")):
-            run_number = run_dir.name.replace("run_", "")
-            print(f"\nProcessing {run_dir.name}...")
-
-            for file in run_dir.glob("*"):
-                if file.is_file() and not file.name.startswith('.'):
-                    target = self.output_dir / file.name
-
-                    # Check if file already exists
-                    if target.exists():
-                        # Compare file sizes to determine if they're the same
-                        if target.stat().st_size == file.stat().st_size:
-                            print(f"  ⊙ {file.name} (duplicate, skipping)")
-                            duplicate_count += 1
-                        else:
-                            # Different content - rename with run number
-                            new_name = file.stem + f"_run{run_number}" + file.suffix
-                            target = self.output_dir / new_name
-                            file.rename(target)
-                            print(f"  ✓ {file.name} → {new_name} (different version)")
-                            consolidated_count += 1
-                    else:
-                        # Move file to main directory
-                        file.rename(target)
-                        print(f"  ✓ {file.name}")
-                        consolidated_count += 1
-
-        print(f"\n📊 Consolidation complete:")
-        print(f"  Files moved: {consolidated_count}")
-        print(f"  Duplicates skipped: {duplicate_count}")
-        print(f"\n📁 All files now in: {self.output_dir.absolute()}/")
-
-    def generate_versions_manifest(self):
-        """
-        Generate a manifest file tracking all versions of each question's forecasts.
-        This provides quick lookup of which runs forecasted each question.
-        """
-        print("\n" + "=" * 80)
-        print("GENERATING VERSIONS MANIFEST")
-        print("=" * 80)
-
-        manifest = {}
-
-        # Scan all forecast files
-        for file in sorted(self.output_dir.glob("*_r*.md")):
-            parts = file.name.split('_')
-            if not parts[0].isdigit():
-                continue
-
-            question_id = parts[0]
-
-            # Extract type (full, condensed, etc.)
-            import re
-            match = re.search(r'_(\w+)_r(\d+)\.md$', file.name)
-            if not match:
-                continue
-
-            forecast_type = match.group(1)
-            run_number = int(match.group(2))
-
-            # Create key for this question/type combination
-            key = f"{question_id}_{forecast_type}"
-
-            if key not in manifest:
-                manifest[key] = {
-                    "question_id": question_id,
-                    "type": forecast_type,
-                    "versions": []
-                }
-
-            manifest[key]["versions"].append({
-                "run_number": run_number,
-                "file_path": file.name,
-                "size_bytes": file.stat().st_size,
-                "modified": datetime.fromtimestamp(file.stat().st_mtime).isoformat()
-            })
-
-        # Sort versions by run number (newest first)
-        for key in manifest:
-            manifest[key]["versions"].sort(key=lambda x: x["run_number"], reverse=True)
-            if manifest[key]["versions"]:
-                manifest[key]["latest_run"] = manifest[key]["versions"][0]["run_number"]
-            manifest[key]["version_count"] = len(manifest[key]["versions"])
-
-        # Save manifest
-        manifest_file = self.output_dir / "versions_manifest.json"
-        with open(manifest_file, 'w') as f:
-            json.dump(manifest, f, indent=2)
-
-        print(f"✓ Versions manifest created: {manifest_file}")
-        print(f"  Tracked {len(manifest)} unique question/type combinations")
-        if manifest:
-            print(f"  Total versions: {sum(m['version_count'] for m in manifest.values())}")
-
-        return manifest
+        self.logger.log(f"\n📁 Files organized in: {self.output_dir.absolute()}/")
+        self.logger.log(f"📄 TSV manifest: (saved after summary)")
+        self.logger.log(f"📋 Tool run log: {self.logger.log_file}")
+        self.logger.log("\n✅ Download complete!")
 
 
 def main():
     parser = argparse.ArgumentParser(
-        description="Download all forecast artifacts from GitHub Actions workflow runs",
+        description="Download forecast artifacts from GitHub Actions (first occurrence only)",
         formatter_class=argparse.RawDescriptionHelpFormatter,
         epilog="""
 Examples:
-  # Download all artifacts from default workflow
+  # Download all artifacts (last 1000 runs)
   python download_all_forecast_artifacts.py
 
   # Download from specific workflow
@@ -555,8 +585,7 @@ Examples:
   # Use custom output directory
   python download_all_forecast_artifacts.py --output-dir my_forecasts
 
-  # Generate versions manifest after download
-  python download_all_forecast_artifacts.py --generate-manifest
+Version: 3.0 (First Occurrence Only)
         """
     )
 
@@ -581,11 +610,6 @@ Examples:
         default="forecast_summaries",
         help="Output directory for downloaded artifacts (default: forecast_summaries)"
     )
-    parser.add_argument(
-        "--generate-manifest",
-        action="store_true",
-        help="Generate versions manifest file after download"
-    )
 
     args = parser.parse_args()
 
@@ -598,10 +622,6 @@ Examples:
 
     # Download all artifacts
     downloader.download_all_artifacts(limit=args.limit)
-
-    # Generate versions manifest (optional)
-    if args.generate_manifest:
-        downloader.generate_versions_manifest()
 
     print("\n" + "=" * 80)
     print("All done! 🎉")

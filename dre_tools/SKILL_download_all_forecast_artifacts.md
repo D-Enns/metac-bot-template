@@ -1,12 +1,13 @@
 # SKILL: Download All Forecast Artifacts
 
 **Tool**: `download_all_forecast_artifacts.py`
-**Purpose**: Systematically recover all forecast summary data from GitHub Actions workflow runs
-**Category**: Data Recovery & Management
+**Purpose**: Download forecast summary data from GitHub Actions (first occurrence only)
+**Category**: Data Management & Recovery
+**Version**: 3.0
 **Created**: January 27, 2026
-**Updated**: February 2, 2026
+**Updated**: February 3, 2026
 
-**Key Feature**: All downloaded files are automatically renamed with run numbers to prevent overwrites and maintain complete version history.
+**Key Strategy:** Keep only the **first occurrence** of each question for space efficiency and clean navigation. TSV manifest is versioned — a new version is created each run, nothing is ever overwritten.
 
 ---
 
@@ -16,30 +17,28 @@
 # Navigate to project root
 cd /mnt/c/Users/Donni/projects/metac_bot_Spring_2026
 
-# Download from most recent 500 runs (recommended for regular updates)
+# Download from most recent 500 runs
 python3 dre_tools/download_all_forecast_artifacts.py --limit 500
 
-# Download all available runs with versions manifest
-python3 dre_tools/download_all_forecast_artifacts.py --limit 1000 --generate-manifest
+# Download all available runs (recommended for initial setup)
+python3 dre_tools/download_all_forecast_artifacts.py --limit 1000
 ```
 
 ---
 
 ## When to Use This Tool
 
-### Use Cases
-1. **Regular Data Backup**: Download new forecast artifacts after bot runs
-2. **Historical Recovery**: Recover forecast data that was previously lost due to artifact overwriting
-3. **Complete Archive**: Ensure you have all forecast summaries for specified tournaments
-4. **Data Analysis**: Gather complete dataset for performance analysis
-5. **After Code Changes**: Verify new forecast formats are being saved correctly
+### Primary Use Cases
+1. **Initial Archive Setup**: Download all historical forecasts
+2. **Regular Updates**: Weekly downloads to capture new questions
+3. **Data Recovery**: Recover forecasts after local data loss
+4. **Missing File Types**: Add condensed/scenarios files discovered later
 
 ### Signs You Need This Tool
-- Missing forecast summaries for certain questions
-- Can't find forecasts from specific date ranges
-- Need to verify bot predictions against Metaculus posts
-- Want to analyze forecast performance across tournaments
-- GitHub artifact artifacts are expiring (90-day retention)
+- Need to analyze bot's historical predictions
+- Want to verify forecasts against Metaculus outcomes
+- Missing forecast data for certain questions
+- Setting up new analysis environment
 
 ---
 
@@ -48,73 +47,18 @@ python3 dre_tools/download_all_forecast_artifacts.py --limit 1000 --generate-man
 ### Required
 1. **GitHub CLI (`gh`)** - Must be installed and authenticated
    ```bash
-   # Check if installed
    gh --version
-
-   # If not installed, install it
-   # On Ubuntu/Debian:
-   sudo apt install gh
-
-   # Authenticate (first time only)
-   gh auth login
+   sudo apt install gh   # if not installed
+   gh auth login         # first time only
    ```
 
 2. **Python 3.7+**
-   ```bash
-   python3 --version
-   ```
 
-3. **Repository Access** - Must have read access to `D-Enns/metac-bot-template`
-
-### Verification
-```bash
-# Verify setup
-gh auth status
-gh repo view D-Enns/metac-bot-template
-```
+3. **Repository Access** - Read access to `D-Enns/metac-bot-template`
 
 ---
 
 ## Command Reference
-
-### Basic Usage
-
-```bash
-# Download from default workflow (last 1000 runs)
-python3 dre_tools/download_all_forecast_artifacts.py
-
-# Download specific number of runs
-python3 dre_tools/download_all_forecast_artifacts.py --limit 200
-
-# Use different output directory
-python3 dre_tools/download_all_forecast_artifacts.py --output-dir backups/forecasts
-
-# Generate versions manifest after download
-python3 dre_tools/download_all_forecast_artifacts.py --generate-manifest
-```
-
-### Advanced Usage
-
-```bash
-# Download from specific workflow
-python3 dre_tools/download_all_forecast_artifacts.py \
-    --workflow dre_run_bot_on_tournament.yaml \
-    --limit 500
-
-# Download to custom location with manifest
-python3 dre_tools/download_all_forecast_artifacts.py \
-    --output-dir ../forecast_archive_2026 \
-    --limit 1000 \
-    --generate-manifest
-
-# Full command with all options
-python3 dre_tools/download_all_forecast_artifacts.py \
-    --repo D-Enns/metac-bot-template \
-    --workflow dre_run_bot_on_tournament.yaml \
-    --limit 500 \
-    --output-dir forecast_summaries \
-    --generate-manifest
-```
 
 ### Parameters
 
@@ -124,7 +68,6 @@ python3 dre_tools/download_all_forecast_artifacts.py \
 | `--workflow` | `dre_run_bot_on_tournament.yaml` | Workflow file to download from |
 | `--limit` | `1000` | Maximum number of runs to process |
 | `--output-dir` | `forecast_summaries` | Where to save downloaded files |
-| `--generate-manifest` | False | Generate versions manifest file |
 
 ---
 
@@ -132,140 +75,75 @@ python3 dre_tools/download_all_forecast_artifacts.py \
 
 ### Directory Structure
 
-After running, files are organized as:
 ```
 forecast_summaries/
-├── 41871_spring_aib_2026_full_r909.md          # Question 41871, run 909
-├── 41871_spring_aib_2026_condensed_r909.md
-├── 41871_spring_aib_2026_scenarios_r909.json
-├── 41871_spring_aib_2026_full_r908.md          # Same question, run 908
-├── 41871_spring_aib_2026_condensed_r908.md
-├── 41872_spring_aib_2026_full_r909.md          # Question 41872, run 909
-├── ... (all other forecast files with run numbers)
-├── reports/                                     # Download reports
-│   ├── download_report_2026-02-02_15-30.json
-│   ├── download_report_2026-01-27_14-22.json
-│   └── ...
-├── versions_manifest.json                       # Optional: quick lookup
-└── downloaded_artifacts_log.json                # Tracks what's been downloaded
+├── 41871_spring_aib_2026_full_r872.md
+├── 41871_spring_aib_2026_condensed_r872.md
+├── 41871_spring_aib_2026_scenarios_r872.json
+├── 41872_spring_aib_2026_full_r909.md
+├── ... (all other forecast files)
+├── Question_Run_and_Date_2026-02-03_v1.txt    ← First run on Feb 3
+├── Question_Run_and_Date_2026-02-03_v2.txt    ← Second run on Feb 3
+├── Question_Run_and_Date_2026-02-04_v1.txt    ← First run on Feb 4
+├── tool_run_2026-02-03_10-30.log
+└── tool_run_2026-02-03_14-45.log
 ```
 
 ### File Naming Convention
 
-Files follow this pattern:
 ```
 {question_id}_{tournament_slug}_{type}_r{run_number}.{ext}
 
 Examples:
-41871_spring_aib_2026_full_r909.md        # Full forecast, run 909
-41871_spring_aib_2026_condensed_r909.md   # Condensed version, run 909
-41871_spring_aib_2026_scenarios_r909.json # Scenario data (JSON), run 909
-41871_spring_aib_2026_full_r908.md        # Same question, earlier run 908
-41392_unknown_full_r872.md                # Unknown tournament, run 872
+41871_spring_aib_2026_full_r872.md         # Full forecast, run 872
+41871_spring_aib_2026_condensed_r909.md    # Condensed, run 909 (added later)
+41871_spring_aib_2026_scenarios_r872.json  # Scenarios data
+41872_unknown_full_r1045.md                # Unknown tournament
 ```
 
 **Components:**
-- `question_id`: Metaculus question number (e.g., 41871)
-- `tournament_slug`: Tournament identifier (e.g., spring_aib_2026, unknown)
-- `type`: File type (full, condensed, scenarios)
-- `run_number`: GitHub workflow run number (e.g., 909, 908)
-- `ext`: File extension (.md or .json)
+- `question_id` - Metaculus question number
+- `tournament_slug` - Tournament identifier (e.g., spring_aib_2026, unknown)
+- `type` - File type (full, condensed, scenarios)
+- `run_number` - GitHub workflow run number (preserved from original artifact)
+- `ext` - File extension (.md or .json)
 
-**Key Points:**
-- Run number makes each file unique - no overwrites ever occur
-- Higher run numbers = more recent forecasts
-- Same question can have multiple versions from different runs
+**Note:** Files for the same question may have different run numbers if file types were discovered in different runs.
 
-### Output Files
+### TSV Manifest
 
-**1. Download Report** (`forecast_summaries/reports/download_report_2026-02-02_15-30.json`)
-```json
-{
-  "timestamp": "2026-02-02T15:30:00",
-  "repository": "D-Enns/metac-bot-template",
-  "workflow": "dre_run_bot_on_tournament.yaml",
-  "statistics": {
-    "total_runs": 500,
-    "runs_with_artifacts": 499,
-    "total_artifacts": 499,
-    "downloaded": 499,
-    "skipped": 0,
-    "failed": 0,
-    "expired": 0
-  },
-  "unique_questions": ["14333", "41379", "41871", "41872"],
-  "question_to_runs_map": {
-    "41871": [909, 908, 872],
-    "41872": [909, 907],
-    "41875": [909, 908, 907, 905]
-  },
-  "runs_processed": [
-    {
-      "run_number": 909,
-      "run_id": 21415607575,
-      "date": "2026-01-27T21:51:43Z",
-      "questions": ["41871", "41872", "41875"]
-    },
-    {
-      "run_number": 908,
-      "run_id": 21415123456,
-      "date": "2026-01-27T20:15:30Z",
-      "questions": ["41871", "41875"]
-    }
-  ]
-}
+`Question_Run_and_Date_YYYY-MM-DD_v{n}.txt`:
+```tsv
+question_id	first_run	first_run_date	tournament	file_count	notes
+41871	872	2026-01-27 15:14:23 UTC	spring_aib_2026	3
+41872	909	2026-01-27 21:51:43 UTC	spring_aib_2026	2
+41873	908	2026-01-27 20:15:30 UTC	unknown	1	download_error: network timeout
 ```
 
-**2. Download Log** (`downloaded_artifacts_log.json`)
-```json
-{
-  "downloaded_artifacts": {
-    "872:forecast-summaries-872": {
-      "run_number": 872,
-      "run_id": 21371081739,
-      "artifact_name": "forecast-summaries-872",
-      "files": [
-        "forecast_summaries/41871_spring_aib_2026_full_r872.md",
-        "forecast_summaries/41871_spring_aib_2026_condensed_r872.md"
-      ],
-      "questions": ["41871"],
-      "downloaded_at": "2026-01-27T15:14:23"
-    }
-  },
-  "last_updated": "2026-01-27T15:30:00"
-}
-```
+**Versioning Behavior:**
+- Each tool run creates a new version
+- Version number (`v1`, `v2`, ...) resets to 1 each calendar day
+- Tool loads the most recent version (latest date, highest version number)
+- All previous versions are preserved — nothing is overwritten
+- If a file happens to be open in another app, no conflict — next version is used
 
-**3. Versions Manifest** (optional: `forecast_summaries/versions_manifest.json`)
-```json
-{
-  "41871_full": {
-    "question_id": "41871",
-    "type": "full",
-    "latest_run": 909,
-    "version_count": 3,
-    "versions": [
-      {
-        "run_number": 909,
-        "file_path": "41871_spring_aib_2026_full_r909.md",
-        "size_bytes": 12458,
-        "modified": "2026-02-02T15:30:00"
-      },
-      {
-        "run_number": 908,
-        "file_path": "41871_spring_aib_2026_full_r908.md",
-        "size_bytes": 12301,
-        "modified": "2026-02-01T14:22:00"
-      },
-      {
-        "run_number": 872,
-        "file_path": "41871_spring_aib_2026_full_r872.md",
-        "size_bytes": 11987,
-        "modified": "2026-01-27T15:14:00"
-      }
-    ]
-  }
-}
+**Columns:**
+- `question_id` - Question number
+- `first_run` - First workflow run where this question was forecasted
+- `first_run_date` - Extracted from `**Forecast Date**` in the full summary file
+- `tournament` - Tournament identifier
+- `file_count` - Number of file types downloaded (1-3)
+- `notes` - Error messages or blank
+
+### Tool Run Log
+
+`tool_run_2026-02-03_10-30.log` - Complete capture of console output with timestamps:
+```
+[2026-02-03 10:30:00] ================================================================================
+[2026-02-03 10:30:00] FORECAST ARTIFACT DOWNLOADER v3.0 - First Occurrence Only
+[2026-02-03 10:30:01] ✓ GitHub CLI (gh) is available
+[2026-02-03 10:30:01] ✓ Loaded TSV manifest: 17 questions tracked (Question_Run_and_Date_2026-02-03_v1.txt)
+...
 ```
 
 ---
@@ -274,519 +152,307 @@ Examples:
 
 ### During Download
 ```
-[247/500] Run #663 (ID: 21181676805)
-  Date: 2026-01-20T17:48:10Z
+[9/50] Run #1045 (ID: 21601452534)
+  Date: 2026-02-02T17:59:51Z
   Status: success
-  - forecast-summaries-663 (0.10 MB)
-      ✓ 41871_spring_aib_2026_full_r663.md
-      ✓ 41871_spring_aib_2026_condensed_r663.md
-      ✓ 41871_spring_aib_2026_scenarios_r663.json
-    ✓ Processed 3 file(s)
+  - forecast-summaries-1045 (0.06 MB)
+      ✓ 41909_spring_aib_2026_full_r1045.md
+      ✓ 41909_spring_aib_2026_condensed_r1045.md
+      ⊙ 41909_spring_aib_2026_scenarios_r1045.json (already have)
+    ✓ Downloaded 2 file(s)
+    ⊙ Skipped 1 file(s) (already have)
 ```
 
-**What this means:**
-- Processing run 247 out of 500 total
-- Run #663 in workflow history
-- GitHub database ID: 21181676805
-- Run date: January 20, 2026
-- Status: successful run
-- Artifact size: 0.10 MB (~100 KB)
-- Files automatically renamed with `_r663` suffix
-- All files saved directly to `forecast_summaries/`
-
-### Symbols
+**Symbols:**
 - `✓` = Successfully downloaded
-- `⊙` = Skipped (already downloaded or no artifacts)
+- `⊙` = Skipped (already have this file type)
 - `✗` = Failed to download
 - `⊗` = Artifact expired (cannot download)
-
-### Summary Statistics
-```
-📊 Statistics:
-  Total workflow runs processed: 500
-  Runs with forecast artifacts: 499
-  Total artifacts found: 499
-  ✓ Downloaded: 499
-  ⊙ Skipped (already downloaded): 0
-  ✗ Failed: 0
-  ⊗ Expired: 0
-```
 
 ---
 
 ## Common Workflows
 
-### Workflow 1: Regular Backup (Weekly)
-
-**Goal**: Keep local archive up-to-date with latest forecasts
+### Workflow 1: Initial Archive Setup
 
 ```bash
-# Download last week's forecasts (assuming ~3 runs/hour * 24 * 7 ≈ 500 runs)
-python3 dre_tools/download_all_forecast_artifacts.py --limit 500
-
-# Review what was downloaded
-ls forecast_summaries/reports/ | tail -1 | xargs -I {} cat "forecast_summaries/reports/{}"
-
-# Count new files
-ls -1 forecast_summaries/*_r*.md | wc -l
-```
-
-### Workflow 2: Complete Historical Recovery
-
-**Goal**: Recover all available forecast data with manifest
-
-```bash
-# Download maximum available runs and generate manifest
-python3 dre_tools/download_all_forecast_artifacts.py --limit 1000 --generate-manifest
-
-# Check latest report for any expired artifacts
-cat forecast_summaries/reports/download_report_*.json | tail -1 | jq '.statistics.expired'
-
-# Get unique question count from latest report
-ls -t forecast_summaries/reports/*.json | head -1 | xargs cat | jq '.unique_questions | length'
-```
-
-### Workflow 3: Tournament-Specific Archive
-
-**Goal**: Collect forecasts for a specific tournament
-
-```bash
-# Download all runs
+# Download all historical forecasts
 python3 dre_tools/download_all_forecast_artifacts.py --limit 1000
 
-# Filter by tournament (all files are in main directory now)
-cd forecast_summaries
-ls *spring_aib_2026*.md | wc -l
+# Check results
+wc -l forecast_summaries/Question_Run_and_Date_*.txt | tail -1
 
-# Copy tournament-specific files to archive
-mkdir -p ../spring_2026_archive/
-cp *spring_aib_2026* ../spring_2026_archive/
+# Review log for any errors
+tail -50 forecast_summaries/tool_run_*.log
 ```
 
-### Workflow 4: Verify Recent Forecasts
-
-**Goal**: Check that bot is saving forecasts correctly
+### Workflow 2: Regular Weekly Update
 
 ```bash
-# Download last 10 runs only
-python3 dre_tools/download_all_forecast_artifacts.py --limit 10
+# Download last week's runs (~70 runs/week)
+python3 dre_tools/download_all_forecast_artifacts.py --limit 100
 
-# List what questions were forecast in latest run
-cd forecast_summaries
-latest_run=$(ls *_r*.md | grep -o '_r[0-9]*' | sed 's/_r//' | sort -n | tail -1)
-echo "Latest run: $latest_run"
-ls *_r${latest_run}.md
+# Verify new questions added
+tail forecast_summaries/$(ls -t forecast_summaries/Question_Run_and_Date_*.txt | head -1 | xargs basename)
+```
+
+### Workflow 3: Recovery After Data Loss
+
+```bash
+# Clean start
+rm -rf forecast_summaries
+mkdir forecast_summaries
+
+# Download everything
+python3 dre_tools/download_all_forecast_artifacts.py --limit 1000
+```
+
+### Workflow 4: Check Specific Question
+
+```bash
+# List files for question 41871
+ls forecast_summaries/41871_*
+
+# View TSV entry (from latest manifest)
+latest=$(ls -t forecast_summaries/Question_Run_and_Date_*.txt | head -1)
+grep "^41871" "$latest"
 ```
 
 ---
 
-## Versions Manifest (Optional)
+## Data Analysis
 
-You can optionally generate a versions manifest file that provides quick lookup of all forecast versions:
+### Count Questions by Tournament
 
 ```bash
-python3 dre_tools/download_all_forecast_artifacts.py --generate-manifest
+latest=$(ls -t forecast_summaries/Question_Run_and_Date_*.txt | head -1)
+
+# Count by tournament
+cut -f4 "$latest" | tail -n +2 | sort | uniq -c | sort -rn
 ```
 
-### What the Manifest Provides:
-- Quick lookup of which runs forecasted each question
-- Latest run number for each question/type combination
-- Total version count per question
-- File paths and metadata for all versions
+### Find Latest Questions (by first_run number)
 
-### When to Use:
-- After downloading a large batch of forecasts
-- When you need to quickly find all versions of a question
-- For automated analysis scripts that need version information
-- To verify data completeness
+```bash
+latest=$(ls -t forecast_summaries/Question_Run_and_Date_*.txt | head -1)
 
-### Example Queries with Manifest:
+# Sort by first_run descending, show top 10
+sort -t$'\t' -k2 -nr "$latest" | head -10
+```
+
+### List Questions with Issues
+
+```bash
+latest=$(ls -t forecast_summaries/Question_Run_and_Date_*.txt | head -1)
+
+# Find questions with notes (errors)
+awk -F'\t' 'NR>1 && $6 != ""' "$latest"
+```
+
+### Check File Coverage
+
+```bash
+latest=$(ls -t forecast_summaries/Question_Run_and_Date_*.txt | head -1)
+
+# Questions with all 3 file types
+awk -F'\t' 'NR>1 && $5 == 3' "$latest" | wc -l
+
+# Questions with only 1 file type (might get more later)
+awk -F'\t' 'NR>1 && $5 == 1' "$latest"
+```
+
+---
+
+## Integration with Analysis Tools
+
+### Python Example
+
 ```python
-import json
+import csv
+from pathlib import Path
+
+# Find latest TSV manifest
+output_dir = Path('forecast_summaries')
+tsv_files = sorted(output_dir.glob("Question_Run_and_Date_*.txt"))
+latest_tsv = tsv_files[-1]
 
 # Load manifest
-with open('forecast_summaries/versions_manifest.json') as f:
-    manifest = json.load(f)
+manifest = {}
+with open(latest_tsv) as f:
+    reader = csv.DictReader(f, delimiter='\t')
+    for row in reader:
+        manifest[row['question_id']] = row
 
-# Find latest forecast for question 41871
-latest = manifest['41871_full']['latest_run']
-print(f"Latest run: {latest}")
+# Find question info
+qid = '41871'
+info = manifest[qid]
+print(f"Question {qid}:")
+print(f"  First run: {info['first_run']}")
+print(f"  Forecast date: {info['first_run_date']}")
+print(f"  Tournament: {info['tournament']}")
+print(f"  File count: {info['file_count']}")
 
-# Get all versions
-versions = manifest['41871_full']['versions']
-print(f"Total versions: {len(versions)}")
+# Load forecast content
+full_files = list(output_dir.glob(f"{qid}_*_full_r*.md"))
+if full_files:
+    with open(full_files[0]) as f:
+        content = f.read()
+        print(f"\nForecast length: {len(content)} characters")
+```
 
-# Find file for specific run
-for v in versions:
-    if v['run_number'] == 909:
-        print(f"File: {v['file_path']}")
+### R Example
+
+```r
+library(readr)
+
+# Find latest TSV
+tsv_files <- list.files("forecast_summaries", pattern="Question_Run_and_Date_.*\\.txt", full.names=TRUE)
+latest_tsv <- tail(sort(tsv_files), 1)
+
+manifest <- read_tsv(latest_tsv)
+
+# Summary
+summary(manifest)
+table(manifest$tournament)
 ```
 
 ---
 
 ## Troubleshooting
 
-### Error: "GitHub CLI (gh) is not installed"
+### Issue: No New Files Downloaded
 
-**Solution:**
+**Cause**: All questions already exist locally
+
+**Solution**:
 ```bash
-# Ubuntu/Debian
-sudo apt install gh
-
-# macOS
-brew install gh
-
-# Windows (WSL)
-curl -fsSL https://cli.github.com/packages/githubcli-archive-keyring.gpg | sudo dd of=/usr/share/keyrings/githubcli-archive-keyring.gpg
-echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/githubcli-archive-keyring.gpg] https://cli.github.com/packages stable main" | sudo tee /etc/apt/sources.list.d/github-cli.list > /dev/null
-sudo apt update
-sudo apt install gh
-
-# Authenticate
-gh auth login
+# Increase run limit to find new questions
+python3 dre_tools/download_all_forecast_artifacts.py --limit 2000
 ```
 
-### Error: "GitHub CLI is not authenticated"
+### Issue: TSV Manifest Missing or Corrupted
 
-**Solution:**
+**Cause**: Manual deletion or file corruption
+
+**Solution**: Tool rebuilds from files on disk automatically:
 ```bash
-gh auth login
-# Follow prompts to authenticate with GitHub
+# Delete all TSV manifests
+rm forecast_summaries/Question_Run_and_Date_*.txt
+
+# Rerun — will rebuild from existing forecast files
+python3 dre_tools/download_all_forecast_artifacts.py --limit 10
 ```
 
-### Error: "Failed to get workflow runs"
+### Issue: Missing File Types
 
-**Possible causes:**
-1. Wrong repository name
-2. Wrong workflow file name
-3. No access to repository
+**Cause**: File type added in later run but not yet downloaded
 
-**Solution:**
+**Solution**:
 ```bash
-# Verify repository access
-gh repo view D-Enns/metac-bot-template
-
-# List workflows
-gh workflow list --repo D-Enns/metac-bot-template
-
-# Use correct workflow name
-python3 dre_tools/download_all_forecast_artifacts.py \
-    --workflow dre_run_bot_on_tournament.yaml
+# Rerun with more runs to discover missing file types
+python3 dre_tools/download_all_forecast_artifacts.py --limit 1000
 ```
 
-### Warning: "Artifact expired"
-
-**Cause**: GitHub artifacts expire after retention period (default 90 days)
-
-**Solution**: Cannot download expired artifacts. For older data:
-1. Check if files already exist locally
-2. Try extracting from run logs (see Option 3 below)
-3. Check if data was committed to repository
-
-### Issue: "No forecast artifacts found"
-
-**Possible causes:**
-1. Runs before artifact upload was implemented
-2. Failed runs (no artifacts generated)
-3. Different workflow name
-
-**Solution:**
-```bash
-# Check specific run manually
-gh run view <run_id> --repo D-Enns/metac-bot-template
-
-# List artifacts for a run
-gh api repos/D-Enns/metac-bot-template/actions/runs/<run_id>/artifacts
-```
-
-### Issue: Download is very slow
-
-**Cause**: Large number of runs, GitHub API rate limiting
-
-**Solutions:**
-1. Reduce `--limit` parameter
-2. Download in batches (e.g., 100 at a time)
-3. Run during off-peak hours
-4. Use `--no-consolidate` to skip interactive prompt
-
----
-
-## Data Analysis After Download
-
-### Count Forecasts by Question
+### Issue: Download Errors
 
 ```bash
-cd forecast_summaries
-
-# Count unique question IDs
-ls *_r*.md | grep -o '^[0-9]*' | sort -u | wc -l
-
-# List all unique questions
-ls *_r*.md | grep -o '^[0-9]*' | sort -u
-
-# Count versions per question (using manifest if available)
-cat versions_manifest.json | jq '.[] | {question: .question_id, versions: .version_count}'
+# Check log for details
+tail -100 forecast_summaries/tool_run_*.log
 ```
 
-### Count Forecasts by Tournament
-
-```bash
-cd forecast_summaries
-
-# Count by tournament
-ls *_r*.md | grep -o '_[^_]*_[^_]*_r' | sed 's/_r$//' | sed 's/^_//' | sort | uniq -c
-
-# Example output:
-#  450 spring_aib_2026_full
-#  450 spring_aib_2026_condensed
-#  300 minibench_full
-```
-
-### Find Specific Question
-
-```bash
-# Find all files for question 41871
-ls forecast_summaries/41871_*
-
-# Find latest forecast for question 41871
-ls forecast_summaries/41871_*_r*.md | sort -t'r' -k2 -n | tail -1
-
-# Find all forecasts from a run range (e.g., 900-910)
-ls forecast_summaries/*_r{900..910}.md
-```
-
-### Check File Sizes
-
-```bash
-cd forecast_summaries
-
-# Total size by file type
-du -sh *_full_r*.md | awk '{sum+=$1} END {print sum}'
-du -sh *_condensed_r*.md | awk '{sum+=$1} END {print sum}'
-
-# Size of all forecast data
-du -sh *.md *.json | awk '{sum+=$1} END {print sum}'
-```
-
----
-
-## Integration with Other Tools
-
-### Loading Data for Analysis
-
-```python
-import json
-from pathlib import Path
-import re
-
-# Load latest download report
-reports_dir = Path("forecast_summaries/reports")
-latest_report = sorted(reports_dir.glob("*.json"))[-1]
-
-with open(latest_report) as f:
-    report = json.load(f)
-
-print(f"Total questions: {len(report['unique_questions'])}")
-print(f"Date range: {report['timestamp']}")
-print(f"Downloaded: {report['statistics']['downloaded']} artifacts")
-
-# Check which runs forecasted a specific question
-question_id = "41871"
-runs = report['question_to_runs_map'].get(question_id, [])
-print(f"Question {question_id} was forecasted in {len(runs)} runs: {runs}")
-
-# Load specific forecast (latest version)
-forecast_file = Path(f"forecast_summaries/41871_spring_aib_2026_full_r{runs[0]}.md")
-with open(forecast_file, 'r', encoding='utf-8') as f:
-    content = f.read()
-
-# Parse metadata
-metadata = {}
-for line in content.split('\n'):
-    if match := re.match(r'\*\*(.+?)\*\*:\s*(.+)', line):
-        metadata[match.group(1)] = match.group(2)
-
-# Load versions manifest (if available)
-manifest_file = Path("forecast_summaries/versions_manifest.json")
-if manifest_file.exists():
-    with open(manifest_file) as f:
-        manifest = json.load(f)
-
-    # Get all versions for a question
-    key = f"{question_id}_full"
-    if key in manifest:
-        versions = manifest[key]['versions']
-        print(f"Found {len(versions)} versions")
-        for v in versions:
-            print(f"  Run {v['run_number']}: {v['file_path']}")
-```
-
-### Comparing with Metaculus Posts
-
-```bash
-# Extract question IDs from latest report
-cd forecast_summaries/reports
-latest=$(ls -t *.json | head -1)
-cat "$latest" | jq -r '.unique_questions[]' > /tmp/question_ids.txt
-
-# For each question, build Metaculus URL
-while read qid; do
-    echo "Question $qid: https://www.metaculus.com/questions/$qid"
-done < /tmp/question_ids.txt
-```
+**Common causes:**
+- Network interruption
+- GitHub API rate limiting
+- Expired artifacts (>90 days old)
 
 ---
 
 ## Best Practices
 
-### 1. Regular Backups
-Run the tool weekly to keep archives current:
-```bash
-# Add to crontab (weekly on Sundays at 2 AM)
-0 2 * * 0 cd /path/to/project && python3 dre_tools/download_all_forecast_artifacts.py --limit 500 --generate-manifest
-```
-
-### 2. Verify Downloads
-Always check the summary statistics from latest report:
-```bash
-cd forecast_summaries/reports
-cat $(ls -t *.json | head -1) | jq '.statistics'
-```
-- Ensure no failed downloads
-- Check unique question count matches expectations
-- Verify date range covers intended period
-
-### 3. Never Overwrite - Run Numbers Ensure Safety
-The tool automatically prevents overwrites:
-- Each file includes its run number
-- Existing files are never modified
-- You can safely rerun downloads without losing data
-- Run numbers provide complete audit trail
-
-### 4. Document Your Downloads
-Track download history through reports:
-```bash
-# List all download sessions
-ls -lh forecast_summaries/reports/
-
-# Check what was downloaded in each session
-for report in forecast_summaries/reports/*.json; do
-    echo "=== $report ==="
-    cat "$report" | jq '{timestamp, total_runs: .statistics.total_runs, downloaded: .statistics.downloaded}'
-done
-```
-
-### 5. Monitor Artifact Expiration
-GitHub artifacts expire after 90 days. Download before expiration:
-```bash
-# Check oldest available run
-gh run list --repo D-Enns/metac-bot-template --workflow dre_run_bot_on_tournament.yaml --limit 1000 | tail -1
-
-# Check for expired artifacts in latest report
-cat forecast_summaries/reports/$(ls -t forecast_summaries/reports/*.json | head -1) | jq '.statistics.expired'
-```
-
-### 6. Use Versions Manifest for Analysis
-Generate manifest after major downloads:
-```bash
-python3 dre_tools/download_all_forecast_artifacts.py --generate-manifest
-
-# Quick lookup of question versions
-cat forecast_summaries/versions_manifest.json | jq '.["41871_full"]'
-```
+1. **Regular Updates:** Run weekly to capture new questions
+2. **Check Logs:** Review tool run logs after each session
+3. **TSV Versions Are Safe:** Previous versions are never overwritten — no data loss risk even if a file is open
+4. **Monitor Disk Space:** `du -sh forecast_summaries/`
+5. **Keep Logs:** Tool run logs are valuable for debugging — don't delete them
 
 ---
 
-## Success Metrics
+## Design Evolution & Version History
 
-After running the tool, you should see:
+### v3.0 (February 2026) - First Occurrence Only ✅ CURRENT
 
-✅ **Download Success**:
-- `✓ Downloaded: X` where X > 90% of processed runs
-- `✗ Failed: 0` (or very low)
-- `⊗ Expired: 0` for recent runs (last 90 days)
+**Strategy:** Keep only first occurrence of each question
 
-✅ **Data Completeness**:
-- Unique questions count matches expectations for date range
-- Each question has: full summary + condensed summary (+ scenarios JSON if after Jan 6)
-- All files have run numbers in filenames (e.g., `_r909.md`)
+**Implementation:**
+- Versioned TSV manifest: `Question_Run_and_Date_{date}_v{n}.txt`
+- `first_run_date` extracted from `**Forecast Date**` in full summary files
+- Tool run logs capture all output
+- Smart skip logic (loads latest TSV, falls back to file scan)
+- Support for adding missing file types in later runs
 
-✅ **File Organization**:
-- All forecast files directly in `forecast_summaries/` with run numbers
-- Reports organized in `forecast_summaries/reports/` with timestamps
-- Download log created successfully
-- No overwrites - existing files preserved
+**Rationale:**
+- Clean, navigable directory
+- Minimal disk space (~90% savings vs v2.0)
+- Versioned TSV prevents data loss
+- Practical for bot use case
 
-✅ **Question Tracking**:
-- Download report includes `question_to_runs_map`
-- Each run lists which questions it forecasted
-- Can quickly identify which runs forecasted any question
+### v2.0 (February 2026) - Keep All Versions [DEPRECATED]
 
----
+**Strategy:** Keep ALL versions with run numbers
 
-## Related Files
+**Why We Built It:**
+- Seemed valuable to track forecast evolution
+- Complete historical record
 
-- `download_all_forecast_artifacts.py` - Main tool script
-- `download_all_forecast_artifacts_README.md` - Technical documentation
-- `downloaded_artifacts_log.json` - Tracks download history (auto-generated)
-- `forecast_summaries/reports/download_report_*.json` - Timestamped summary reports (auto-generated)
-- `forecast_summaries/versions_manifest.json` - Version tracking manifest (optional, auto-generated)
+**Why We Abandoned It:**
+After testing with 50+ runs:
+1. **Space**: 3-5 versions per question = 3-5x disk usage
+2. **Navigation**: Hard to browse with so many files
+3. **Cognitive load**: Distracting to see multiple versions
+4. **Unused**: Rarely needed version comparison
 
----
+### v1.0 (January 2026) - Original
 
-## Future Enhancements
+**Strategy:** Basic download with `run_*/` subdirectories
 
-Potential improvements to consider:
-
-1. **Incremental Downloads**: Automatically detect and download only new runs since last session
-2. **Parallel Downloads**: Speed up by downloading multiple artifacts simultaneously
-3. **Filtering Options**: Download only specific tournaments or date ranges
-4. **Data Validation**: Verify downloaded files match expected format and are complete
-5. **Cloud Backup**: Automatically upload to cloud storage after download
-6. **Notification**: Send email/slack when download completes or errors occur
-7. **Analysis Integration**: Auto-generate performance reports after download
-8. **Compression**: Optionally compress older forecasts to save disk space
-9. **Archival**: Move forecasts older than X days to separate archive directory
+**Issues:** Too many subdirectories, needed manual consolidation, no tracking.
 
 ---
 
-## Quick Reference Card
+## Quick Reference
 
 ```bash
 # Most Common Commands
 
-# Regular weekly backup with manifest
-python3 dre_tools/download_all_forecast_artifacts.py --limit 500 --generate-manifest
-
-# Full historical recovery
+# Initial setup - download everything
 python3 dre_tools/download_all_forecast_artifacts.py --limit 1000
 
-# Quick check (last 10 runs)
-python3 dre_tools/download_all_forecast_artifacts.py --limit 10
+# Weekly update - recent runs only
+python3 dre_tools/download_all_forecast_artifacts.py --limit 100
 
-# View latest results
-cd forecast_summaries/reports && cat $(ls -t *.json | head -1) | jq
+# Find latest TSV manifest
+ls -t forecast_summaries/Question_Run_and_Date_*.txt | head -1
 
-# List all downloaded files
-ls -lh forecast_summaries/*_r*.md
+# List all questions (from latest manifest)
+latest=$(ls -t forecast_summaries/Question_Run_and_Date_*.txt | head -1)
+cut -f1 "$latest" | tail -n +2
 
-# Count questions
-cat forecast_summaries/reports/$(ls -t forecast_summaries/reports/*.json | head -1) | jq '.unique_questions | length'
+# Find question details
+grep "^41871" "$latest"
 
-# Find specific question (all versions)
-ls forecast_summaries/41871_*
+# Count questions by tournament
+cut -f4 "$latest" | tail -n +2 | sort | uniq -c
 
-# Find latest version of question
-ls forecast_summaries/41871_*_full_r*.md | sort -t'r' -k2 -n | tail -1
+# Check disk usage
+du -sh forecast_summaries/
 
-# Check which runs forecasted a question
-cat forecast_summaries/reports/$(ls -t forecast_summaries/reports/*.json | head -1) | jq '.question_to_runs_map["41871"]'
+# View latest log
+ls -t forecast_summaries/tool_run_*.log | head -1 | xargs less
 ```
 
 ---
 
-**Last Updated**: February 2, 2026
-**Version**: 2.0
+**Last Updated**: February 3, 2026
+**Version**: 3.0
 **Maintainer**: Dre + Claude
 **Status**: Production Ready ✅
-**Breaking Changes**: v2.0 introduces flat file structure with run numbers in filenames

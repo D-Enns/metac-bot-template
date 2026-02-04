@@ -75,7 +75,7 @@ class SpringTemplateBotExtended(SpringTemplateBot2026):
     Extended version of ForecastBot with custom aggregation and forecast saving.
 
     Extensions:
-    - GPR-based prediction aggregation
+    - Probit aggregation for numeric, framework defaults for binary/MC
     - Enhanced forecast summary saving with metadata
     - Future: Condensed summary generation
     """
@@ -88,11 +88,11 @@ class SpringTemplateBotExtended(SpringTemplateBot2026):
         question: MetaculusQuestion,
     ):
         """
-        Override framework's aggregation to use Probit for numeric and GPR for multiple choice questions.
+        Override framework's aggregation to use Probit for numeric questions.
 
         For binary questions: Use default framework median aggregation.
         For numeric questions: Apply Probit aggregation on all stored scenarios to get full distribution.
-        For multiple choice questions: Apply GPR per option, then normalize.
+        For multiple choice questions: Use default framework per-option mean with normalization.
         For other question types: Use default framework aggregation.
         """
         from forecasting_tools.data_models.questions import BinaryQuestion, NumericQuestion, MultipleChoiceQuestion
@@ -125,7 +125,7 @@ class SpringTemplateBotExtended(SpringTemplateBot2026):
             return probit_distribution
 
         # Fallback: Use default framework aggregation for binary, multiple choice, and other question types
-        logger.info(f"[GPR DEBUG] Using default aggregation for {type(question).__name__}")
+        logger.info(f"[AGG DEBUG] Using default aggregation for {type(question).__name__}")
         return await super()._aggregate_predictions(predictions, question)
 
     ##################################### PROBIT AGGREGATION FOR NUMERIC #####################################
@@ -261,6 +261,10 @@ class SpringTemplateBotExtended(SpringTemplateBot2026):
 
             **OUTPUT STRUCTURE:**
 
+            # [HEADLINE]
+            A 3–6 word tabloid-style headline. Usually breathless, often ends with an exclamation point.
+            Example: "WHO Declaration Looks Unlikely!"
+
             # FORECAST METADATA
             **Forecast ID**: q{question_id}
             **Question URL**: {question.page_url}
@@ -282,6 +286,7 @@ class SpringTemplateBotExtended(SpringTemplateBot2026):
 
             ## Research Summary
             Compress the research findings into **3 headings with 2-3 bullet points each**. Focus on the most important facts and insights. **Include website links** from the original research.
+            If base rates or historical analogs are discussed anywhere in the full analysis, include the values and any range in this section (or as a short note just below the headline). If none are discussed, omit entirely.
 
             Example structure:
             ### [Topic Area 1]
@@ -341,6 +346,7 @@ class SpringTemplateBotExtended(SpringTemplateBot2026):
             5. **Maintain technical accuracy:** Don't oversimplify to the point of losing meaning
             6. **Target 5,000-10,000 characters:** Be concise but complete
             7. **Use the exact metadata header shown above**
+            8. **Use proper markdown formatting throughout** — `#` for headers, `**text**` for bold, bullet lists with `-`, etc.
 
             **FULL FORECAST ANALYSIS TO CONDENSE:**
 
@@ -420,7 +426,7 @@ class SpringTemplateBotExtended(SpringTemplateBot2026):
         Returns string like:
         - "Probit (R²=0.94)" for good fits
         - "Probit (R²=0.72 LOW FIT)" for poor fits
-        - "GPR" for binary/multiple choice
+        - "Median" for binary, "per Option Mean, (normalized)" for multiple choice
         - "N/A" for other question types
         """
         from forecasting_tools.data_models.questions import (
@@ -438,9 +444,9 @@ class SpringTemplateBotExtended(SpringTemplateBot2026):
                     return f"Probit (R²={r2:.2f} LOW FIT)"
             return "Probit"
         elif isinstance(question, BinaryQuestion):
-            return "GPR"
+            return "Median"
         elif isinstance(question, MultipleChoiceQuestion):
-            return "GPR"
+            return "per Option Mean, (normalized)"
         else:
             return "N/A"
 
@@ -749,6 +755,17 @@ class SpringTemplateBotExtended(SpringTemplateBot2026):
                     )
                 )
             logger.info(f"Condensed summary generated ({len(condensed_explanation)} chars)")
+
+            # Post-generation validation: warn if condensation may not have occurred
+            if len(condensed_explanation) > 0.75 * len(full_explanation):
+                logger.warning(
+                    f"Condensation may not have occurred: condensed={len(condensed_explanation)} chars, "
+                    f"full={len(full_explanation)} chars (ratio={len(condensed_explanation)/len(full_explanation):.2f})"
+                )
+            if "# " not in condensed_explanation:
+                logger.warning(
+                    f"Condensed summary missing markdown headers (no '# ' found in {len(condensed_explanation)} chars)"
+                )
         except Exception as e:
             logger.error(f"Error generating condensed summary: {e}")
             logger.warning("Falling back to full explanation for posting")
