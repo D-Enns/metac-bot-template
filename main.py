@@ -38,6 +38,7 @@ from forecasting_tools import (
     structure_output,
 )
 from forecasting_tools.data_models.forecast_report import ResearchWithPredictions
+from forecasting_tools.data_models.multiple_choice_report import PredictedOption
 
 logger = logging.getLogger(__name__)
 
@@ -447,6 +448,38 @@ class SpringTemplateBot2026(ForecastBot):
 
     ##################################### MULTIPLE CHOICE QUESTIONS #####################################
 
+    def _normalize_mc_option_names(
+        self,
+        prediction: PredictedOptionList,
+        question: MultipleChoiceQuestion
+    ) -> PredictedOptionList:
+        """
+        Map predicted option names to question's canonical options.
+
+        Handles Unicode quote variants (smart quotes vs ASCII) that cause
+        aggregation failures when LLM outputs differ across runs.
+        """
+        def normalize_quotes(s: str) -> str:
+            # Replace smart/curly quotes with ASCII equivalents
+            return (s.replace('\u2019', "'")   # Right single quote → apostrophe
+                     .replace('\u2018', "'")   # Left single quote → apostrophe
+                     .replace('\u201c', '"')   # Left double quote → straight double
+                     .replace('\u201d', '"')   # Right double quote → straight double
+                     .strip())
+
+        # Build lookup: normalized canonical name -> original canonical name
+        canonical_map = {normalize_quotes(opt).lower(): opt for opt in question.options}
+
+        normalized_options = []
+        for pred in prediction.predicted_options:
+            key = normalize_quotes(pred.option_name).lower()
+            canonical_name = canonical_map.get(key, pred.option_name)  # fallback to original if no match
+            normalized_options.append(
+                PredictedOption(option_name=canonical_name, probability=pred.probability)
+            )
+
+        return PredictedOptionList(predicted_options=normalized_options)
+
     # dre 02/01/2026 - Production
     async def _run_forecast_on_multiple_choice(
         self, question: MultipleChoiceQuestion, research: str
@@ -578,6 +611,9 @@ class SpringTemplateBot2026(ForecastBot):
         mc_prediction: PredictedOptionList = await structure_output(
             reasoning, PredictedOptionList, model=self.get_llm("parser", "llm")
         )
+
+        # Normalize option names to match question's canonical options (handles Unicode quote variants)
+        mc_prediction = self._normalize_mc_option_names(mc_prediction, question)
 
         logger.info(
             f"Forecasted URL {question.page_url} with MC prediction: {mc_prediction}"
@@ -1269,7 +1305,7 @@ if __name__ == "__main__":
                 allowed_tries=2,
             ), 
             "summarizer": "openrouter/openai/gpt-4o-mini",  # For condensed forecast summaries (cost tracked) (and standard in the base bot) changed from o4-mini
-            "researcher": "asknews/news-summaries",
+            "researcher": "asknews/news-summaries",  # Working alternative: "smart-searcher/openai/gpt-4o-mini"
             "parser": "openrouter/openai/o4-mini",  # "metaculus/openai/o4-mini",
         },
     )
