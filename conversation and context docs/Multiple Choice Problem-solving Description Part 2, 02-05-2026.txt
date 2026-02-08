@@ -1,0 +1,20 @@
+# Solve and Fix Value Error in Multiple Choice Questions (Metaculus Forecasting Bot competition)
+**First make a plan**
+
+## Error description
+Occurs during workflow run for Dre Tournament Bot.
+
+### Error text
+Bot: SpringTemplateBotExtended
+❌ Exception: RuntimeError | Message: Error while processing question url: 'https://www.metaculus.com/questions/42006': ValueError - All predictions must have the same option names, but {'Decreases', "Doesn't change", 'Increases'} != ['Increases', 'Doesn’t change', 'Decreases']
+
+## Ideas
+
+### Recent modifications during aggregation might have introduced a problem
+https://github.com/D-Enns/metac-bot-template
+
+### There was also a mention that the https://github.com/Metaculus/forecasting-tools and/or https://github.com/Metaculus/metac-bot-template had been updated. That could be the source of the change.
+
+## Full "Run bot" log for background
+https://github.com/D-Enns/metac-bot-template/actions/runs/21719015542/job/62643095322
+
