@@ -2,6 +2,7 @@ import argparse
 import asyncio
 import json
 import logging
+import sys
 from datetime import datetime, timezone
 from pathlib import Path
 from typing import Literal, Any
@@ -1356,4 +1357,12 @@ if __name__ == "__main__":
         logger.warning(f"Could not parse condensed summary format for logging: {e}")
         logger.info("Forecasts completed and posted successfully")
 
+    # Write diagnostics JSON and determine exit code
+    try:
+        template_bot.write_diagnostics_json()
+    except Exception as e:
+        logger.error(f"Failed to write diagnostics JSON: {e}")
 
+    exit_code = template_bot.get_exit_code()
+    if exit_code != 0:
+        sys.exit(exit_code)

@@ -54,6 +54,49 @@ jobs:
       - name: Ensure forecast summaries directory exists
         if: always()
         run: mkdir -p forecast_summaries
+      - name: Write step summary from diagnostics
+        if: always()
+        run: |
+          if [ -f forecast_summaries/run_diagnostics.json ]; then
+            python3 -c "
+          import json, os
+          with open('forecast_summaries/run_diagnostics.json') as f:
+              diag = json.load(f)
+          s = diag.get('summary', {})
+          lines = []
+          lines.append('## Forecast Run Diagnostics')
+          lines.append(f'**Run time:** {diag.get(\"run_timestamp\", \"unknown\")}')
+          lines.append('')
+          lines.append('| Metric | Count |')
+          lines.append('|--------|-------|')
+          lines.append(f'| Open questions from API | {s.get(\"total_open_questions\", 0)} |')
+          lines.append(f'| Already forecasted (skipped) | {s.get(\"total_already_forecasted\", 0)} |')
+          lines.append(f'| Attempted | {s.get(\"total_attempted\", 0)} |')
+          lines.append(f'| Successes | {s.get(\"total_successes\", 0)} |')
+          lines.append(f'| Failures | {s.get(\"total_failures\", 0)} |')
+          lines.append('')
+          for t in diag.get('tournaments', []):
+              lines.append(f'### Tournament: {t[\"tournament_id\"]}')
+              lines.append(f'Questions: {t[\"total_open_questions\"]} | Types: {t[\"by_type\"]}')
+              lines.append(f'Skipped: {t[\"already_forecasted\"]} | Attempted: {t[\"attempted\"]}')
+              results = t.get('results', {})
+              successes = results.get('successes', [])
+              failures = results.get('failures', [])
+              if successes:
+                  lines.append(f'**Successes ({len(successes)}):**')
+                  for sc in successes:
+                      lines.append(f'- Q{sc[\"question_id\"]} [{sc[\"question_type\"]}]')
+              if failures:
+                  lines.append(f'**Failures ({len(failures)}):**')
+                  for fl in failures:
+                      lines.append(f'- {fl[\"type\"]}: {fl[\"message\"][:200]}')
+              lines.append('')
+          with open(os.environ['GITHUB_STEP_SUMMARY'], 'a') as out:
+              out.write('\n'.join(lines))
+          "
+          else
+            echo "No diagnostics file found" >> $GITHUB_STEP_SUMMARY
+          fi
       - name: Upload forecast summaries
         if: always()
         uses: actions/upload-artifact@v4

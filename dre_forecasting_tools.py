@@ -4,7 +4,9 @@ Author: Dre
 Date: January 4, 2026
 """
 
+import json
 import logging
+import sys
 from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
@@ -31,8 +33,6 @@ from forecasting_tools.data_models.numeric_report import Percentile
 from forecasting_tools.data_models.forecast_report import ResearchWithPredictions
 
 # Import base bot class from main
-import sys
-from pathlib import Path
 sys.path.insert(0, str(Path(__file__).parent))
 from main import SpringTemplateBot2026
 
@@ -77,8 +77,178 @@ class SpringTemplateBotExtended(SpringTemplateBot2026):
     Extensions:
     - Probit aggregation for numeric, framework defaults for binary/MC
     - Enhanced forecast summary saving with metadata
-    - Future: Condensed summary generation
+    - Question pipeline diagnostics for missed forecast investigation
     """
+
+    # Stores diagnostics from all tournament runs in a session
+    _run_diagnostics: list[dict] = []
+
+    ##################################### QUESTION PIPELINE DIAGNOSTICS #####################################
+
+    async def forecast_on_tournament(
+        self,
+        tournament_id: int | str,
+        return_exceptions: bool = False,
+    ):
+        """
+        Override framework's forecast_on_tournament to add question pipeline diagnostics.
+
+        Wraps the standard flow with detailed logging of:
+        - How many questions the API returns (and their types)
+        - Which are marked already_forecasted
+        - Which will actually be attempted
+        - Results: successes vs failures
+        """
+        from forecasting_tools.helpers.metaculus_api import MetaculusApi
+
+        # Fetch questions (same as framework)
+        questions = MetaculusApi.get_all_open_questions_from_tournament(tournament_id)
+
+        # Build per-question diagnostic data
+        question_details = []
+        by_type = {}
+        for q in questions:
+            q_type = type(q).__name__
+            by_type[q_type] = by_type.get(q_type, 0) + 1
+            q_id = getattr(q, 'id_of_post', '?')
+            q_text = (q.question_text or "")[:80]
+            question_details.append({
+                "id": q_id,
+                "type": q_type,
+                "already_forecasted": q.already_forecasted,
+                "text": q_text,
+            })
+
+        unforecasted = [q for q in questions if not q.already_forecasted]
+        skipped = [q for q in questions if q.already_forecasted]
+
+        # Log diagnostic summary
+        logger.info(f"{'='*60}")
+        logger.info(f"QUESTION PIPELINE: Tournament {tournament_id}")
+        logger.info(f"Total open questions from API: {len(questions)}")
+        logger.info(f"By type: {by_type}")
+        for d in question_details:
+            logger.info(f"  Q{d['id']} [{d['type']}] forecasted={d['already_forecasted']} | {d['text']}")
+        logger.info(f"Already forecasted (will skip): {len(skipped)}")
+        logger.info(f"Unforecasted (will attempt): {len(unforecasted)}")
+        for q in unforecasted:
+            q_id = getattr(q, 'id_of_post', '?')
+            logger.info(f"  ATTEMPT: Q{q_id} [{type(q).__name__}]")
+        logger.info(f"{'='*60}")
+
+        # Run the standard forecast pipeline
+        results = await self.forecast_questions(questions, return_exceptions)
+
+        # Inspect results
+        result_details = self._inspect_results(results, tournament_id)
+
+        # Store diagnostics for this tournament run
+        run_diag = {
+            "tournament_id": str(tournament_id),
+            "timestamp": datetime.now(timezone.utc).isoformat(),
+            "total_open_questions": len(questions),
+            "by_type": by_type,
+            "already_forecasted": len(skipped),
+            "attempted": len(unforecasted),
+            "questions": question_details,
+            "results": result_details,
+        }
+        self._run_diagnostics.append(run_diag)
+
+        return results
+
+    def _inspect_results(
+        self,
+        results: list,
+        tournament_id: int | str,
+    ) -> dict:
+        """
+        Inspect forecast results, separating successes from failures.
+        Logs summary with GitHub Actions annotations for failures.
+        """
+        from forecasting_tools.data_models.forecast_report import ForecastReport
+
+        successes = []
+        failures = []
+        for r in results:
+            if isinstance(r, BaseException):
+                failures.append({
+                    "type": type(r).__name__,
+                    "message": str(r)[:500],
+                })
+            elif isinstance(r, ForecastReport):
+                q_id = getattr(r.question, 'id_of_post', '?')
+                successes.append({
+                    "question_id": q_id,
+                    "question_type": type(r.question).__name__,
+                })
+
+        logger.info(f"RESULTS for tournament {tournament_id}: "
+                     f"{len(successes)} successes, {len(failures)} failures")
+
+        for s in successes:
+            logger.info(f"  SUCCESS: Q{s['question_id']} [{s['question_type']}]")
+
+        for f in failures:
+            logger.warning(f"  FAILURE: {f['type']}: {f['message']}")
+            # GitHub Actions annotation
+            print(f"::warning::Forecast failure in tournament {tournament_id}: "
+                  f"{f['type']}: {f['message'][:200]}")
+
+        return {
+            "successes": successes,
+            "failures": failures,
+        }
+
+    def write_diagnostics_json(self) -> Path:
+        """
+        Write accumulated diagnostics to forecast_summaries/run_diagnostics.json.
+        Called at end of script to capture all tournament runs.
+        """
+        reports_dir = Path("forecast_summaries")
+        reports_dir.mkdir(parents=True, exist_ok=True)
+        filepath = reports_dir / "run_diagnostics.json"
+
+        output = {
+            "run_timestamp": datetime.now(timezone.utc).isoformat(),
+            "tournaments": self._run_diagnostics,
+            "summary": self._build_diagnostics_summary(),
+        }
+
+        with open(filepath, 'w', encoding='utf-8') as f:
+            json.dump(output, f, indent=2, default=str)
+
+        logger.info(f"Wrote run diagnostics to {filepath}")
+        return filepath
+
+    def _build_diagnostics_summary(self) -> dict:
+        """Build a summary across all tournament runs."""
+        total_open = sum(d["total_open_questions"] for d in self._run_diagnostics)
+        total_already = sum(d["already_forecasted"] for d in self._run_diagnostics)
+        total_attempted = sum(d["attempted"] for d in self._run_diagnostics)
+        total_successes = sum(len(d["results"]["successes"]) for d in self._run_diagnostics)
+        total_failures = sum(len(d["results"]["failures"]) for d in self._run_diagnostics)
+
+        return {
+            "total_open_questions": total_open,
+            "total_already_forecasted": total_already,
+            "total_attempted": total_attempted,
+            "total_successes": total_successes,
+            "total_failures": total_failures,
+        }
+
+    def get_exit_code(self) -> int:
+        """
+        Determine exit code based on diagnostics.
+        Returns 1 if questions were attempted and ALL failed, 0 otherwise.
+        """
+        summary = self._build_diagnostics_summary()
+        if summary["total_attempted"] > 0 and summary["total_successes"] == 0:
+            logger.error(
+                f"ALL {summary['total_failures']} forecast attempts failed. Exiting with code 1."
+            )
+            return 1
+        return 0
 
     ##################################### AGGREGATION OVERRIDE #####################################
 
