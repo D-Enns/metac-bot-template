@@ -457,9 +457,13 @@ class SpringTemplateBot2026(ForecastBot):
         """
         Map predicted option names to question's canonical options.
 
-        Handles Unicode quote variants (smart quotes vs ASCII) that cause
-        aggregation failures when LLM outputs differ across runs.
+        Handles:
+        1. Unicode quote variants (smart quotes vs ASCII)
+        2. Generic placeholder names (Option_A, Option_B, etc.) mapped by position
+        3. Hybrid names like "Option_A (CAQ)" mapped by position
         """
+        import re
+
         def normalize_quotes(s: str) -> str:
             # Replace smart/curly quotes with ASCII equivalents
             return (s.replace('\u2019', "'")   # Right single quote → apostrophe
@@ -471,10 +475,28 @@ class SpringTemplateBot2026(ForecastBot):
         # Build lookup: normalized canonical name -> original canonical name
         canonical_map = {normalize_quotes(opt).lower(): opt for opt in question.options}
 
+        # Build positional map: Option_A -> 0, Option_B -> 1, etc.
+        letter_to_index = {chr(65 + i): i for i in range(len(question.options))}
+
         normalized_options = []
         for pred in prediction.predicted_options:
             key = normalize_quotes(pred.option_name).lower()
-            canonical_name = canonical_map.get(key, pred.option_name)  # fallback to original if no match
+            canonical_name = canonical_map.get(key)
+
+            # If no direct match, try positional mapping from Option_A/Option_B pattern
+            if canonical_name is None:
+                match = re.match(r'^option[_\s]*([a-z])', pred.option_name, re.IGNORECASE)
+                if match:
+                    letter = match.group(1).upper()
+                    idx = letter_to_index.get(letter)
+                    if idx is not None and idx < len(question.options):
+                        canonical_name = question.options[idx]
+                        logger.info(f"Mapped '{pred.option_name}' -> '{canonical_name}' (positional)")
+
+            # Final fallback to original name
+            if canonical_name is None:
+                canonical_name = pred.option_name
+
             normalized_options.append(
                 PredictedOption(option_name=canonical_name, probability=pred.probability)
             )
@@ -482,6 +504,7 @@ class SpringTemplateBot2026(ForecastBot):
         return PredictedOptionList(predicted_options=normalized_options)
 
     # dre 02/01/2026 - Production
+    # dre-claude prompt update option clarification - see claude session 02/14/2026
     async def _run_forecast_on_multiple_choice(
         self, question: MultipleChoiceQuestion, research: str
     ) -> ReasonedPrediction[PredictedOptionList]:
@@ -599,11 +622,9 @@ class SpringTemplateBot2026(ForecastBot):
             You make your final and best forecast using any adjustments after reflection and remembering to report at 1%
             precision.
 
-            The last thing you write is your final probabilities for the N options in this order {question.options} as:
-            Option_A: Probability_A
-            Option_B: Probability_B
-            ...
-            Option_N: Probability_N
+            The last thing you write is your final probabilities using the exact option names below.
+            Do NOT use generic labels like Option_A, Option_B, etc. Use the exact option names as written:
+            {chr(10).join(f'{opt}: <probability>%' for opt in question.options)}
             """
         )
         reasoning = await self.get_llm("default", "llm").invoke(prompt)
