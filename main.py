@@ -180,6 +180,8 @@ class SpringTemplateBot2026(ForecastBot):
                 research = await AskNewsSearcher().call_preconfigured_version(
                     researcher, prompt
                 )
+                # Sleep after AskNews call to avoid 429 rate limit when multiple questions
+                await asyncio.sleep(10)
             elif researcher.startswith("smart-searcher"):
                 model_name = researcher.removeprefix("smart-searcher/")
                 searcher = SmartSearcher(
