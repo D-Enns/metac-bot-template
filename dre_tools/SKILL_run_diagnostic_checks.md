@@ -165,7 +165,15 @@ The diagnostic logging in `dre_forecasting_tools.py` outputs these key lines:
 2. `_normalize_mc_option_names` maps `Option_A`/`Option_B` back to canonical names by position as a safety net
 If this recurs, check if the prompt output format has drifted or if a new naming variant needs handling in the normalizer.
 
-### 3. No Questions Available (Normal)
+### 3. AskNews Rate Limit Crash (when 2+ questions appear)
+**Symptom:** Run fails with exit code 1. One question succeeds, another fails.
+**Log clue:** `RateLimitExceededError: 429000 - Rate Limit Exceeded, please upgrade at https://my.asknews.app/plans`
+**Cause:** When 2+ unforecasted questions appear in the same run, AskNews research calls for the second question hit the AskNews API rate limit. The exception propagates through the framework, and `log_report_summary()` raises `RuntimeError` when processing results containing exception objects.
+**Example:** Run 22576198226 (2026-03-02): Q42391 succeeded, Q42390 failed with AskNews 429. Process crashed before writing diagnostics JSON.
+**Partially fixed:** 2026-03-06 — broadened exception handler around `log_report_summary` from `except ValueError` to `except Exception`. Now: failed question still won't get a forecast, but the process won't crash and diagnostics will be written. The successfully-forecasted questions are preserved.
+**Remaining risk:** The failed question itself is not retried. If it's still open on the next run (20 min later), it will be picked up then.
+
+### 4. No Questions Available (Normal)
 **Symptom:** `Total open questions from API: 0` for both tournaments, run takes ~1 min.
 **Cause:** Normal — no new unforecasted questions were open during this run window. Questions are only open for ~1 hour with runs every 20 minutes.
 
@@ -190,3 +198,8 @@ If this recurs, check if the prompt output format has drifted or if a new naming
 - **2026-02-14:** First diagnostic results analyzed and both issues fixed:
   - Numeric: framework v0.2.80 `assert isinstance(upper_bound, float)` fails on integer bounds → updated to v0.2.85
   - MC: prompt used `Option_A` placeholders causing inconsistent LLM outputs → prompt now uses exact names + positional fallback normalizer
+- **2026-03-06:** Part 2 investigation (13 runs analyzed, v0.2.85 wheel inspected):
+  - Zero Metaculus API 429 errors (library's 3.5s sleep works)
+  - Found AskNews 429 crash when 2+ questions appear simultaneously
+  - Fixed: broadened exception handler to prevent crash propagation
+  - Added timestamps to all diagnostic entries for timing analysis

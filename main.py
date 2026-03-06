@@ -1371,12 +1371,12 @@ if __name__ == "__main__":
         forecast_reports = asyncio.run(
             template_bot.forecast_questions(questions, return_exceptions=True)
         )
-    # Log summary (may fail with condensed format, but forecasts already posted)
+    # Log summary (may fail with condensed format or if results contain exceptions)
     try:
         template_bot.log_report_summary(forecast_reports)
-    except ValueError as e:
-        logger.warning(f"Could not parse condensed summary format for logging: {e}")
-        logger.info("Forecasts completed and posted successfully")
+    except (ValueError, RuntimeError, Exception) as e:
+        logger.warning(f"Could not log report summary: {type(e).__name__}: {e}")
+        logger.info("Forecasts already posted; continuing to diagnostics")
 
     # Write diagnostics JSON and determine exit code
     try:

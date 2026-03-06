@@ -102,6 +102,7 @@ class SpringTemplateBotExtended(SpringTemplateBot2026):
         from forecasting_tools.helpers.metaculus_api import MetaculusApi
 
         # Fetch questions (same as framework)
+        api_fetch_time = datetime.now(timezone.utc).isoformat()
         questions = MetaculusApi.get_all_open_questions_from_tournament(tournament_id)
 
         # Build per-question diagnostic data
@@ -117,6 +118,7 @@ class SpringTemplateBotExtended(SpringTemplateBot2026):
                 "type": q_type,
                 "already_forecasted": q.already_forecasted,
                 "text": q_text,
+                "fetched_at": api_fetch_time,
             })
 
         unforecasted = [q for q in questions if not q.already_forecasted]
@@ -137,7 +139,9 @@ class SpringTemplateBotExtended(SpringTemplateBot2026):
         logger.info(f"{'='*60}")
 
         # Run the standard forecast pipeline
+        forecast_start_time = datetime.now(timezone.utc).isoformat()
         results = await self.forecast_questions(questions, return_exceptions)
+        forecast_end_time = datetime.now(timezone.utc).isoformat()
 
         # Inspect results
         result_details = self._inspect_results(results, tournament_id)
@@ -145,7 +149,9 @@ class SpringTemplateBotExtended(SpringTemplateBot2026):
         # Store diagnostics for this tournament run
         run_diag = {
             "tournament_id": str(tournament_id),
-            "timestamp": datetime.now(timezone.utc).isoformat(),
+            "api_fetch_time": api_fetch_time,
+            "forecast_start_time": forecast_start_time,
+            "forecast_end_time": forecast_end_time,
             "total_open_questions": len(questions),
             "by_type": by_type,
             "already_forecasted": len(skipped),
@@ -170,17 +176,20 @@ class SpringTemplateBotExtended(SpringTemplateBot2026):
 
         successes = []
         failures = []
+        result_time = datetime.now(timezone.utc).isoformat()
         for r in results:
             if isinstance(r, BaseException):
                 failures.append({
                     "type": type(r).__name__,
                     "message": str(r)[:500],
+                    "timestamp": result_time,
                 })
             elif isinstance(r, ForecastReport):
                 q_id = getattr(r.question, 'id_of_post', '?')
                 successes.append({
                     "question_id": q_id,
                     "question_type": type(r.question).__name__,
+                    "timestamp": result_time,
                 })
 
         logger.info(f"RESULTS for tournament {tournament_id}: "
