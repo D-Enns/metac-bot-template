@@ -49,8 +49,8 @@ class MultiScenarioPrediction(BaseModel):
     """Multiple scenario forecasts of arbitrary count from a single prompt"""
     scenarios: list[float] = Field(
         ...,
-        description="List of forecast probabilities from low to high (0-100)",
-        min_length=1
+        description="List of 9 forecast percentile values from low to high, in the question's units",
+        min_length=9
     )
 
 
