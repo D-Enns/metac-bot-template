@@ -900,15 +900,16 @@ class SpringTemplateBot2026(ForecastBot):
             if len(cluster) > len(best_cluster):
                 best_cluster = cluster
 
-        # Bail out if <3 calls agree
-        if len(best_cluster) < 3:
+        # Bail out if insufficient calls agree (scales for small N_RUNS)
+        min_required = min(3, num_calls)
+        if len(best_cluster) < min_required:
             logger.error(
-                f"❌ [BAIL OUT] Only {len(best_cluster)}/{num_calls} calls agree. "
+                f"❌ [BAIL OUT] Only {len(best_cluster)}/{num_calls} calls agree (need {min_required}). "
                 f"Call medians: {[f'{m:.2e}' for m in medians]}"
             )
             raise ValueError(
-                f"Insufficient agreement: only {len(best_cluster)}/{num_calls} calls consistent. "
-                f"Refusing to submit unreliable forecast."
+                f"Insufficient agreement: only {len(best_cluster)}/{num_calls} calls consistent "
+                f"(need {min_required}). Refusing to submit unreliable forecast."
             )
 
         # Keep scenarios from majority cluster
