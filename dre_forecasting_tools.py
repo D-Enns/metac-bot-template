@@ -12,11 +12,9 @@ from pathlib import Path
 from typing import Any
 
 import numpy as np
-from sklearn.gaussian_process import GaussianProcessRegressor
-from sklearn.gaussian_process.kernels import RBF, WhiteKernel, ConstantKernel as C
-from scipy.integrate import quad
-from scipy.interpolate import splrep, splev
-from scipy.stats import linregress
+from scipy import stats as sp_stats
+from scipy.integrate import cumulative_trapezoid
+from scipy.optimize import brentq, minimize
 
 from forecasting_tools import (
     BinaryQuestion,
@@ -39,35 +37,145 @@ from main import SpringTemplateBot2026
 logger = logging.getLogger(__name__)
 
 
-##################################### PROBIT TRANSFORMATION FUNCTIONS #####################################
+##################################### SKEW-T DISTRIBUTION FUNCTIONS #####################################
 
-def _pdf_normal(z: float) -> float:
-    """Standard normal probability density function."""
-    return (1 / ((2 * np.pi))**0.5) * np.exp(-0.5 * (z**2))
-
-
-def _pcntl_from_z(z: float) -> float:
-    """Convert z-score to percentile by integrating normal PDF from -inf to z."""
-    return quad(_pdf_normal, -np.inf, z)[0]
+def skewt_pdf_standardized(z, alpha, nu):
+    """Standardized (mu=0, sigma=1) Azzalini skew-t PDF."""
+    z = np.asarray(z)
+    t_arg = alpha * z * np.sqrt((nu + 1) / (z**2 + nu))
+    return 2 * sp_stats.t.pdf(z, nu) * sp_stats.t.cdf(t_arg, nu + 1)
 
 
-# Precompute z-spline lookup table at module load for performance
-_Z_VALUES = np.arange(-7, 7.01, 0.01)
-_PCNTL_VALUES = [_pcntl_from_z(z) for z in _Z_VALUES]
-_Z_SPLINE = splrep(_PCNTL_VALUES, _Z_VALUES)
+def skewt_pdf(x, mu, sigma, alpha, nu):
+    """Azzalini skew-t PDF in real units."""
+    z = (np.asarray(x) - mu) / sigma
+    return skewt_pdf_standardized(z, alpha, nu) / sigma
 
 
-def _z_from_pcntl(percentile: float | np.ndarray) -> float | np.ndarray:
-    """
-    Convert percentile (0-1 scale) to z-score using precomputed spline.
+def build_cdf_grid(alpha, nu, n_grid=2000, z_lo=-12, z_hi=12):
+    """Precompute standardized CDF on a dense grid via cumulative_trapezoid."""
+    z_grid = np.linspace(z_lo, z_hi, n_grid)
+    pdf_vals = skewt_pdf_standardized(z_grid, alpha, nu)
+    cdf_grid = cumulative_trapezoid(pdf_vals, z_grid, initial=0)
+    cdf_grid /= cdf_grid[-1]
+    return z_grid, cdf_grid
 
-    Args:
-        percentile: Value(s) between 0 and 1
 
-    Returns:
-        Corresponding z-score(s)
-    """
-    return splev(percentile, _Z_SPLINE)
+def skewt_cdf(x_arr, mu, sigma, alpha, nu, n_grid=2000):
+    """Fast skew-t CDF via grid interpolation."""
+    z_arr = (np.atleast_1d(np.asarray(x_arr, dtype=float)) - mu) / sigma
+    z_grid, cdf_grid = build_cdf_grid(alpha, nu, n_grid)
+    return np.interp(z_arr, z_grid, cdf_grid)
+
+
+def skewt_ppf(p, mu, sigma, alpha, nu, n_grid=2000):
+    """Skew-t quantile function via CDF grid interpolation."""
+    z_grid, cdf_grid = build_cdf_grid(alpha, nu, n_grid)
+    p_arr = np.atleast_1d(p)
+    z_vals = np.interp(p_arr, cdf_grid, z_grid)
+    x_vals = mu + sigma * z_vals
+    return x_vals[0] if np.ndim(p) == 0 else x_vals
+
+
+def skewt_ppf_fast(p, alpha, nu, z_grid, cdf_grid):
+    """Fast standardized PPF from precomputed grid."""
+    return np.interp(p, cdf_grid, z_grid)
+
+
+def compute_robust_stats(x):
+    """Compute robust summary statistics: median, IQR, Bowley skew."""
+    m = np.median(x)
+    q10, q25, q75, q90 = np.percentile(x, [10, 25, 75, 90])
+    iqr = q75 - q25
+    denom_90 = q90 - q10
+    bowley_90 = (q90 + q10 - 2 * m) / denom_90 if denom_90 > 0 else 0.0
+    denom_75 = q75 - q25
+    bowley_75 = (q75 + q25 - 2 * m) / denom_75 if denom_75 > 0 else 0.0
+    return {
+        'median': m, 'iqr': iqr,
+        'q10': q10, 'q25': q25, 'q75': q75, 'q90': q90,
+        'bowley_skew_90': bowley_90, 'bowley_skew_75': bowley_75,
+        'moment_skew': sp_stats.skew(x), 'n': len(x)
+    }
+
+
+def fit_skewt_quantiles(x, nu, skew_target):
+    """Fit skew-t via method of quantiles: alpha -> sigma -> mu."""
+    emp_median = np.median(x)
+    emp_iqr = np.percentile(x, 75) - np.percentile(x, 25)
+    if emp_iqr < 1e-10:
+        raise ValueError('IQR ~ 0: data too clustered for skew-t fitting.')
+
+    def bowley_model(alpha):
+        zg, cg = build_cdf_grid(alpha, nu, n_grid=1500)
+        q10 = skewt_ppf_fast(0.1, alpha, nu, zg, cg)
+        q50 = skewt_ppf_fast(0.5, alpha, nu, zg, cg)
+        q90 = skewt_ppf_fast(0.9, alpha, nu, zg, cg)
+        d = q90 - q10
+        return (q90 + q10 - 2*q50) / d if abs(d) > 1e-12 else 0.0
+
+    skew_lo, skew_hi = bowley_model(-10), bowley_model(10)
+    if skew_target <= skew_lo:
+        alpha = -10.0
+    elif skew_target >= skew_hi:
+        alpha = 10.0
+    else:
+        alpha = brentq(lambda a: bowley_model(a) - skew_target, -10, 10, xtol=1e-6)
+
+    zg, cg = build_cdf_grid(alpha, nu, n_grid=1500)
+    model_iqr_std = skewt_ppf_fast(0.75, alpha, nu, zg, cg) - skewt_ppf_fast(0.25, alpha, nu, zg, cg)
+    sigma = emp_iqr / model_iqr_std
+
+    m_std = skewt_ppf_fast(0.5, alpha, nu, zg, cg)
+    mu = emp_median - sigma * m_std
+
+    n_pts = len(x)
+    x_sorted = np.sort(x)
+    ecdf = (np.arange(1, n_pts + 1) - 0.5) / n_pts
+    cvm = np.sum((skewt_cdf(x_sorted, mu, sigma, alpha, nu) - ecdf)**2)
+
+    return {'mu': mu, 'sigma': sigma, 'alpha': alpha, 'nu': nu,
+            'skew_target': skew_target, 'skew_model': bowley_model(alpha),
+            'iqr_emp': emp_iqr, 'median_emp': emp_median, 'cvm': cvm, 'n': n_pts}
+
+
+def refine_cvm(x, fit_init):
+    """Refine fit by minimizing CvM distance. Median stays hard-constrained."""
+    nu = fit_init['nu']
+    emp_median = np.median(x)
+    x_sorted = np.sort(x)
+    n = len(x)
+    ecdf = (np.arange(1, n + 1) - 0.5) / n
+
+    def objective(params):
+        sigma, alpha = params
+        if sigma <= 0:
+            return 1e10
+        zg, cg = build_cdf_grid(alpha, nu, n_grid=1000)
+        m_std = skewt_ppf_fast(0.5, alpha, nu, zg, cg)
+        mu = emp_median - sigma * m_std
+        return np.sum((skewt_cdf(x_sorted, mu, sigma, alpha, nu, n_grid=1500) - ecdf)**2)
+
+    result = minimize(objective, [fit_init['sigma'], fit_init['alpha']],
+                      method='Nelder-Mead', options={'xatol': 1e-5, 'fatol': 1e-8, 'maxiter': 200})
+    sigma_r, alpha_r = result.x
+
+    zg, cg = build_cdf_grid(alpha_r, nu, n_grid=1500)
+    m_std = skewt_ppf_fast(0.5, alpha_r, nu, zg, cg)
+    mu_r = emp_median - sigma_r * m_std
+
+    q10_s = skewt_ppf_fast(0.1, alpha_r, nu, zg, cg)
+    q50_s = skewt_ppf_fast(0.5, alpha_r, nu, zg, cg)
+    q90_s = skewt_ppf_fast(0.9, alpha_r, nu, zg, cg)
+    d = q90_s - q10_s
+    bowley_r = (q90_s + q10_s - 2*q50_s) / d if abs(d) > 1e-12 else 0.0
+
+    cvm_r = np.sum((skewt_cdf(x_sorted, mu_r, sigma_r, alpha_r, nu) - ecdf)**2)
+
+    return {'mu': mu_r, 'sigma': sigma_r, 'alpha': alpha_r, 'nu': nu,
+            'skew_target': fit_init['skew_target'], 'skew_model': bowley_r,
+            'iqr_emp': fit_init['iqr_emp'], 'median_emp': emp_median,
+            'cvm': cvm_r, 'cvm_before': fit_init['cvm'], 'n': fit_init['n']}
 
 
 class SpringTemplateBotExtended(SpringTemplateBot2026):
@@ -75,7 +183,7 @@ class SpringTemplateBotExtended(SpringTemplateBot2026):
     Extended version of ForecastBot with custom aggregation and forecast saving.
 
     Extensions:
-    - Probit aggregation for numeric, framework defaults for binary/MC
+    - Skew-T aggregation for numeric, framework defaults for binary/MC
     - Enhanced forecast summary saving with metadata
     - Question pipeline diagnostics for missed forecast investigation
     """
@@ -267,29 +375,29 @@ class SpringTemplateBotExtended(SpringTemplateBot2026):
         question: MetaculusQuestion,
     ):
         """
-        Override framework's aggregation to use Probit for numeric questions.
+        Override framework's aggregation to use Skew-T for numeric questions.
 
         For binary questions: Use default framework median aggregation.
-        For numeric questions: Apply Probit aggregation on all stored scenarios to get full distribution.
+        For numeric questions: Apply Skew-T aggregation on all stored scenarios to get full distribution.
         For multiple choice questions: Use default framework per-option mean with normalization.
         For other question types: Use default framework aggregation.
         """
         from forecasting_tools.data_models.questions import BinaryQuestion, NumericQuestion, MultipleChoiceQuestion
         from forecasting_tools.data_models.multiple_choice_report import PredictedOption
 
-        # Numeric questions: Probit aggregation for full distribution
+        # Numeric questions: Skew-T aggregation for full distribution
         if isinstance(question, NumericQuestion) and len(self._numeric_scenarios) >= 9:
-            logger.info(f"[PROBIT DEBUG] _aggregate_predictions called for numeric question with {len(predictions)} predictions")
-            logger.info(f"[PROBIT DEBUG] Using Probit aggregation on {len(self._numeric_scenarios)} stored numeric scenarios")
+            logger.info(f"[SKEWT DEBUG] _aggregate_predictions called for numeric question with {len(predictions)} predictions")
+            logger.info(f"[SKEWT DEBUG] Using Skew-T aggregation on {len(self._numeric_scenarios)} stored numeric scenarios")
 
-            probit_distribution, r_squared = self._probit_aggregate_numeric(self._numeric_scenarios, question)
+            skewt_distribution, cvm_value = self._skewt_aggregate_numeric(self._numeric_scenarios, question)
 
             # Save scenario data before clearing
             try:
                 self._save_scenario_data(
                     scenarios=self._numeric_scenarios,
                     question=question,
-                    aggregated_result=probit_distribution,
+                    aggregated_result=skewt_distribution,
                     question_type="numeric"
                 )
             except Exception as e:
@@ -300,65 +408,73 @@ class SpringTemplateBotExtended(SpringTemplateBot2026):
             self._current_question_id = None
             self._current_call_number = 0
 
-            logger.info(f"[PROBIT DEBUG] Numeric aggregation complete. Returning distribution with {len(probit_distribution.declared_percentiles)} percentiles (R²={r_squared:.4f})")
-            return probit_distribution
+            logger.info(f"[SKEWT DEBUG] Numeric aggregation complete. Returning distribution with {len(skewt_distribution.declared_percentiles)} percentiles (CvM={cvm_value:.4f})")
+            return skewt_distribution
 
         # Fallback: Use default framework aggregation for binary, multiple choice, and other question types
         logger.info(f"[AGG DEBUG] Using default aggregation for {type(question).__name__}")
         return await super()._aggregate_predictions(predictions, question)
 
-    ##################################### PROBIT AGGREGATION FOR NUMERIC #####################################
+    ##################################### SKEW-T AGGREGATION FOR NUMERIC #####################################
 
-    def _probit_aggregate_numeric(
+    def _skewt_aggregate_numeric(
         self,
         scenarios: list[float],
         question: NumericQuestion,
     ) -> tuple[NumericDistribution, float]:
         """
-        Aggregate numeric scenarios using probit (normal) regression to create full CDF.
+        Aggregate numeric scenarios using Azzalini skew-t distribution fitting.
 
-        The probit method fits a normal distribution by performing linear regression
-        in z-score space, enabling smooth extrapolation to extreme percentiles (p01, p99)
-        without edge artifacts.
+        Fits a skew-t distribution via method of quantiles (matching Bowley skewness,
+        IQR, and median), with optional CvM refinement. Produces 99 output percentiles
+        (p1-p99) for a smooth CDF that handles asymmetric distributions.
 
         Args:
-            scenarios: List of numeric values from multiple world scenarios
+            scenarios: List of numeric values from multiple forecast calls
             question: The NumericQuestion being forecasted
 
         Returns:
-            Tuple of (NumericDistribution with 21 percentiles, R² fit quality)
+            Tuple of (NumericDistribution with 99 percentiles, CvM fit quality)
         """
         # Validate scenarios using parent class method (majority vote validation)
         validated_scenarios = self._validate_numeric_scenarios_majority_vote(scenarios)
 
         if len(validated_scenarios) < 9:
             logger.warning(
-                f"⚠️  PROBIT FALLBACK: Only {len(validated_scenarios)} scenarios available. "
+                f"[SKEWT] FALLBACK: Only {len(validated_scenarios)} scenarios available. "
                 f"Using empirical percentiles instead."
             )
             return self._empirical_distribution_fallback(validated_scenarios, question), 0.0
 
-        # Sort scenarios and assign empirical percentiles
-        data_sorted = np.sort(np.array(validated_scenarios))
-        n = len(data_sorted)
-        empirical_pctl = np.array(range(1, n + 1)) / (n + 1)  # 0-1 scale
+        x = np.array(validated_scenarios)
 
-        # Transform to z-space
-        z_values = _z_from_pcntl(empirical_pctl)
+        # Fit skew-t distribution
+        try:
+            robust = compute_robust_stats(x)
+            fit = fit_skewt_quantiles(x, nu=5, skew_target=robust['bowley_skew_90'])
 
-        # Linear regression: value = slope * z + intercept
-        slope, intercept, r_value, _, _ = linregress(z_values, data_sorted)
-        r_squared = r_value ** 2
+            # CvM refinement
+            try:
+                fit = refine_cvm(x, fit)
+            except Exception as e:
+                logger.warning(f"[SKEWT] CvM refinement failed ({e}), using initial quantile fit")
 
-        # Store R² for use in summary
-        self._last_probit_r2 = r_squared
+        except ValueError as e:
+            logger.warning(
+                f"[SKEWT] FALLBACK: Skew-t fitting failed ({e}). "
+                f"Using empirical percentiles instead."
+            )
+            return self._empirical_distribution_fallback(validated_scenarios, question), 0.0
+
+        mu, sigma, alpha, nu = fit['mu'], fit['sigma'], fit['alpha'], fit['nu']
+        cvm_value = fit['cvm']
+
+        # Store CvM for use in summary
+        self._last_skewt_cvm = cvm_value
 
         # Output percentiles: 1, 2, 3, ..., 97, 98, 99 (99 total) for smooth CDF
-        output_pctls = list(range(1, 100))  # [1, 2, 3, ..., 97, 98, 99]
-
-        # Generate output distribution
-        output_z = _z_from_pcntl(np.array(output_pctls) / 100)
-        output_values = [z * slope + intercept for z in output_z]
+        output_pctls = list(range(1, 100))
+        output_values = skewt_ppf(np.array(output_pctls) / 100, mu, sigma, alpha, nu).tolist()
 
         # Get question bounds for clamping
         lower_bound = getattr(question, 'lower_bound', None)
@@ -380,12 +496,12 @@ class SpringTemplateBotExtended(SpringTemplateBot2026):
         percentile_list = self._ensure_strictly_increasing_percentiles(percentile_list)
 
         # Log fit quality
-        fit_quality = "✓" if r_squared >= 0.85 else "⚠️ LOW FIT"
+        fit_quality = "good" if cvm_value < 0.10 else "WARNING: HIGH CvM"
         logger.info(
-            f"✅ Probit numeric aggregation: {len(validated_scenarios)} scenarios → {len(output_pctls)} percentiles"
+            f"[SKEWT] Skew-T numeric aggregation: {len(validated_scenarios)} scenarios -> {len(output_pctls)} percentiles"
         )
         logger.info(
-            f"   Probit fit: slope={slope:.4f}, intercept={intercept:.4f}, R²={r_squared:.4f} {fit_quality}"
+            f"   Skew-T fit: mu={mu:.4f}, sigma={sigma:.4f}, alpha={alpha:+.4f}, nu={nu}, CvM={cvm_value:.4f} ({fit_quality})"
         )
         logger.info(
             f"   Distribution: p1={percentile_list[0].value:.2f}, "
@@ -393,13 +509,13 @@ class SpringTemplateBotExtended(SpringTemplateBot2026):
             f"p99={percentile_list[-1].value:.2f}"
         )
 
-        if r_squared < 0.85:
+        if cvm_value >= 0.10:
             logger.warning(
-                f"⚠️  LOW PROBIT FIT (R²={r_squared:.4f}): Data may not be normally distributed. "
-                f"Consider reviewing scenarios for multimodality or skewness."
+                f"[SKEWT] HIGH CvM ({cvm_value:.4f}): Skew-t fit may not capture data well. "
+                f"Consider reviewing scenarios for multimodality."
             )
 
-        return NumericDistribution.from_question(percentile_list, question), r_squared
+        return NumericDistribution.from_question(percentile_list, question), cvm_value
 
     ##################################### FORECAST SUMMARY SAVING #####################################
 
@@ -600,11 +716,11 @@ class SpringTemplateBotExtended(SpringTemplateBot2026):
 
     def _get_aggregation_method_info(self, question: MetaculusQuestion) -> str:
         """
-        Get aggregation method string with R² for numeric questions.
+        Get aggregation method string with CvM for numeric questions.
 
         Returns string like:
-        - "Probit (R²=0.94)" for good fits
-        - "Probit (R²=0.72 LOW FIT)" for poor fits
+        - "Skew-T (CvM=0.03)" for good fits
+        - "Skew-T (CvM=0.15 HIGH CvM)" for poor fits
         - "Median" for binary, "per Option Mean, (normalized)" for multiple choice
         - "N/A" for other question types
         """
@@ -615,13 +731,13 @@ class SpringTemplateBotExtended(SpringTemplateBot2026):
         )
 
         if isinstance(question, NumericQuestion):
-            r2 = getattr(self, '_last_probit_r2', None)
-            if r2 is not None:
-                if r2 >= 0.85:
-                    return f"Probit (R²={r2:.2f})"
+            cvm = getattr(self, '_last_skewt_cvm', None)
+            if cvm is not None:
+                if cvm < 0.10:
+                    return f"Skew-T (CvM={cvm:.2f})"
                 else:
-                    return f"Probit (R²={r2:.2f} LOW FIT)"
-            return "Probit"
+                    return f"Skew-T (CvM={cvm:.2f} HIGH CvM)"
+            return "Skew-T"
         elif isinstance(question, BinaryQuestion):
             return "Median"
         elif isinstance(question, MultipleChoiceQuestion):
@@ -800,13 +916,13 @@ class SpringTemplateBotExtended(SpringTemplateBot2026):
             scenario_data["scenarios"]["raw_values"] = scenarios  # List of numeric values
             scenario_data["scenarios"]["num_scenarios"] = len(scenarios)
             scenario_data["metadata"]["units"] = getattr(question, 'unit_of_measure', 'N/A')
-            scenario_data["metadata"]["aggregation_method"] = "probit"
+            scenario_data["metadata"]["aggregation_method"] = "skew_t"
 
-            # Add probit R² if available
-            probit_r2 = getattr(self, '_last_probit_r2', None)
-            if probit_r2 is not None:
-                scenario_data["metadata"]["probit_r_squared"] = round(probit_r2, 4)
-                scenario_data["metadata"]["probit_fit_quality"] = "good" if probit_r2 >= 0.85 else "low"
+            # Add skew-t CvM if available
+            skewt_cvm = getattr(self, '_last_skewt_cvm', None)
+            if skewt_cvm is not None:
+                scenario_data["metadata"]["skewt_cvm"] = round(skewt_cvm, 4)
+                scenario_data["metadata"]["skewt_fit_quality"] = "good" if skewt_cvm < 0.10 else "high_cvm"
 
             # Get percentiles from aggregated result
             if hasattr(aggregated_result, 'declared_percentiles'):
@@ -816,7 +932,7 @@ class SpringTemplateBotExtended(SpringTemplateBot2026):
                 }
                 scenario_data["aggregated_result"] = {
                     "type": "distribution",
-                    "aggregation_method": "probit",
+                    "aggregation_method": "skew_t",
                     "percentiles": percentiles_dict
                 }
             else:
