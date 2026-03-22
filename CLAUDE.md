@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-Metaculus AI Forecasting Tournament bot. Runs every 20 minutes via GitHub Actions, picks up new tournament questions (Binary, Multiple Choice, Numeric), researches them via LLMs and news APIs, generates multi-scenario forecasts, aggregates predictions, and submits to Metaculus.
+Metaculus AI Forecasting Tournament bot. Runs every 20 minutes via GitHub Actions, picks up new tournament questions (Binary, Multiple Choice, Numeric, Date), researches them via LLMs and news APIs, generates multi-scenario forecasts, aggregates predictions, and submits to Metaculus.
 
 - Builds on the Metaculus template from https://github.com/Metaculus/metac-bot-template and https://github.com/Metaculus/forecasting-tools
 - The objective is to maximize forecasting performance in metaculus.com FutureEval Bot Tournaments
@@ -28,7 +28,7 @@ poetry run python main.py --mode metaculus_cup
 # Run tests
 poetry run pytest tests/
 
-# Run a single test
+# Run a single test (currently the only test file)
 poetry run pytest tests/test_gpr_aggregation.py -v
 ```
 
@@ -43,7 +43,7 @@ Environment variables are loaded from `.env` (copy `.env.template`).
 `ForecastBot` (from `forecasting-tools` library) → `SpringTemplateBot2026` (`main.py`) → `SpringTemplateBotExtended` (`dre_forecasting_tools.py`)
 
 - **`main.py`**: Modified from Metaculus template bot. Defines research prompts, forecast prompts, and aggregation for all question types. Uses 9-scenario framework (Low/Mid/High worlds × Low/Mid/High estimates) with 6 prediction runs per question. Contains the `if __name__ == "__main__"` block that parses `--mode`, creates `SpringTemplateBotExtended`, and runs it.
-- **`dre_forecasting_tools.py`**: Custom extensions. Adds probit aggregation for numeric questions, diagnostic tracking (per-question success/failure/skip), condensed summary generation via LLM, forecast file saving, and exit code logic. This is the class actually instantiated at runtime. **Import note**: This file uses `sys.path.insert` + `from main import SpringTemplateBot2026` — be aware of this circular dependency when refactoring.
+- **`dre_forecasting_tools.py`**: Custom extensions. Adds Skew-T aggregation for numeric questions, diagnostic tracking (per-question success/failure/skip), condensed summary generation via LLM, forecast file saving, and exit code logic. This is the class actually instantiated at runtime. **Import note**: This file uses `sys.path.insert` + `from main import SpringTemplateBot2026` — be aware of this circular dependency when refactoring.
 
 ### Execution Flow
 
@@ -84,7 +84,7 @@ Written to `forecast_summaries/` during each run:
 - **LLM configuration**: Models set via `GeneralLlm` with OpenRouter routing. Default model, researcher, summarizer, and parser are independently configurable.
 - **The `forecasting-tools` library** (PyPI package) handles Metaculus API calls, question loading, prediction submission, and the `ForecastBot` base class. Pin version carefully—numeric question parsing and bounds assertions have broken between versions.
 - **AskNews rate limiting**: A 10-second sleep is added after AskNews research calls to prevent 429 errors.
-- **Prediction runs and majority-vote validation** (numeric questions): Each question gets `predictions_per_research_report` forecast calls (configurable, typically 4–8), each producing 9 scenarios. Before GPR aggregation, a majority-vote validator clusters call medians—calls within 3× of each other are considered agreeing. If fewer than 3 calls agree (e.g., unit interpretation errors), the forecast bails out with a `ValueError` rather than submitting an unreliable prediction. Only scenarios from the majority cluster are used.
+- **Prediction runs and majority-vote validation** (numeric questions): Each question gets `predictions_per_research_report` forecast calls (configurable, typically 4–8), each producing 9 scenarios. Before Skew-T aggregation, a majority-vote validator clusters call medians—calls within 3× of each other are considered agreeing. If fewer than 3 calls agree (e.g., unit interpretation errors), the forecast bails out with a `ValueError` rather than submitting an unreliable prediction. Only scenarios from the majority cluster are used.
 - **Metaculus Cup mode**: Unlike `tournament` mode, `metaculus_cup` sets `skip_previously_forecasted_questions=False`, allowing re-forecasts on questions the bot has already answered.
 
 ## Project Layout
@@ -98,7 +98,7 @@ Written to `forecast_summaries/` during each run:
 
 ## Development Notes
 
-- Python 3.11+, Poetry for dependency management. Key implicit dependencies (via `forecasting-tools`): `numpy`, `scipy`, `scikit-learn`.
+- Python 3.11+, Poetry for dependency management. Direct dependencies include `numpy ^2.3.0` and `openai ^2.0.0`. Key implicit dependencies (via `forecasting-tools`): `scipy`, `scikit-learn`.
 - WSL2 development environment; user runs Jupyter notebooks from Windows.
 - `NotebookEdit` can break notebook cell structure—prefer using `Write` to rewrite entire notebooks when editing `.ipynb` files.
 - When extracting GitHub Actions logs via `gh` CLI: strip ANSI codes with `re.sub(r'\x1b\[[0-9;]*m', '', text)`, handle pagination by brace-counting concatenated JSON, and use byte-based subprocess capture for Windows Unicode safety.
