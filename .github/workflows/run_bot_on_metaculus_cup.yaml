@@ -12,6 +12,9 @@ concurrency:
 
 
 # Daily job to run the simple forecast bot
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
 jobs:
   forecast_job:
     runs-on: ubuntu-latest # determines the machine that will run the job - keep as is
