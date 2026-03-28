@@ -15,10 +15,12 @@ numpy = "^2.3.0"
 openai = "^2.0.0"
 python-dotenv = "^1.0.1"
 forecasting-tools = "^0.2.80"
+litellm = ">=1.59.1,!=1.82.7,!=1.82.8,<2"
 
 
 [tool.poetry.group.dev.dependencies]
 ipykernel = "^6.29.5"
+pytest = "^9.0.2"
 
 [build-system]
 requires = ["poetry-core"]
