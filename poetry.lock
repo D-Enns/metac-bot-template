@@ -280,19 +280,19 @@ tests = ["mypy (>=1.14.0)", "pytest", "pytest-asyncio"]
 
 [[package]]
 name = "asknews"
-version = "0.13.7"
+version = "0.13.34"
 description = "Python SDK for AskNews"
 optional = false
 python-versions = ">=3.8"
 groups = ["main"]
 files = [
-    {file = "asknews-0.13.7-py3-none-any.whl", hash = "sha256:1d0f834b12cd0cd8ab13fd50b42f6062ad0f6ed10005f6a27d22bd7f9534ee15"},
+    {file = "asknews-0.13.34-py3-none-any.whl", hash = "sha256:73806377804fa03a4a40d7618466ad546893bac417bb377476099e03ed6f3036"},
 ]
 
 [package.dependencies]
 asgiref = ">=3.7.2"
 crontab = ">=1.0.1"
-cryptography = ">=40.0.0,<45.0.5"
+cryptography = ">=40.0.0,<46.0.5"
 httpx = ">=0.27.2,<0.29.0"
 orjson = ">=3.9.10"
 pydantic = {version = ">=2.10.4", extras = ["email"]}
