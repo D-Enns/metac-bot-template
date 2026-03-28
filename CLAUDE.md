@@ -57,10 +57,10 @@ Environment variables are loaded from `.env` (copy `.env.template`).
 Models are set in `main.py` at the bottom via the `llms` dict. Current configuration:
 - **default**: `openrouter/openai/gpt-5.2` (temperature=1, timeout=80s, allowed_tries=2)
 - **summarizer**: `openrouter/openai/gpt-4o-mini` (condensed forecast summaries)
-- **researcher**: `asknews/news-summaries`
+- **researcher**: `asknews/news-summaries` (fallback: `smart-searcher/openai/gpt-4o-mini`)
 - **parser**: `openrouter/openai/o4-mini`
 
-Models are accessed through OpenRouter using an API key. The current `forecasting-tools` version is `^0.2.80` (see `pyproject.toml`).
+Key tuning parameters (set in `main.py` bottom): `predictions_per_research_report=6` (number of forecast calls per question), `research_reports_per_question=1`. Models are accessed through OpenRouter using an API key. The current `forecasting-tools` version is `^0.2.80` (see `pyproject.toml`).
 
 ### Forecast Output Files
 
@@ -95,6 +95,7 @@ Written to `forecast_summaries/` during each run:
 - `forecast_summaries/` — Bot output files (generated at runtime).
 - `conversation and context docs/` — Session documentation files.
 - `prompts/` — Versioned prompt text files (e.g., `NUMERIC_prompt_NV02_01-21-2026.md`). Used for prompt development/iteration outside main code.
+- `scripts/` — Utilities for downloading forecast summaries from GitHub Actions artifacts (`download_all_summaries.py`, `.sh`).
 
 ## Development Notes
 

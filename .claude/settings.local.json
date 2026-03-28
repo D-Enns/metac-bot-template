@@ -2,7 +2,15 @@
   "permissions": {
     "allow": [
       "Bash(ls:*)",
-      "Bash(gh run list:*)"
+      "Bash(gh run list:*)",
+      "Bash(poetry run:*)",
+      "WebFetch(domain:github.com)",
+      "WebFetch(domain:www.newsminimalist.com)",
+      "WebSearch",
+      "WebFetch(domain:forum.effectivealtruism.org)",
+      "WebFetch(domain:abstraction.substack.com)",
+      "WebFetch(domain:openrouter.ai)",
+      "WebFetch(domain:developers.openai.com)"
     ]
   }
 }
